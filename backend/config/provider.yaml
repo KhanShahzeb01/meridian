@@ -1,0 +1,88 @@
+openrouter:
+  base_url: "https://openrouter.ai/api/v1"
+  model: "openai/gpt-oss-120b:free"
+  timeout_seconds: 90
+  api_key_env: "OPENROUTER_API_KEY"
+  max_tokens: 1000
+  token_budgets:
+    planner: 1200
+    action: 1200
+    summary: 800
+    compact: 2000
+    answer: 1500
+    analysis: 3000
+    debate: 4000
+    consensus: 6000
+    consensus_summary: 8000
+    research: 4000
+    memo: 2500
+  memory:
+    # openai/gpt-oss-120b:free context window (OpenRouter).
+    model_context_tokens: 131072
+    # Keep 10% of the window unused — never run at 100%.
+    safety_margin_ratio: 0.10
+    # System/developer prompts on planner + answer calls.
+    overhead_tokens: 12000
+    # Per-turn plan steps, summaries, prefetched data (ephemeral workspace).
+    workspace_reserve_tokens: 28000
+    # Computed thread cap ≈ usable − largest_output − overhead − workspace (~64k).
+    # Override only if you know your model's limits differ:
+    # max_thread_tokens: 60000
+  temperature: 0.2
+  free_fallback_models:
+    - "openai/gpt-oss-120b:free"
+  models:
+    # deepseek/deepseek-v4-flash
+    # openai/gpt-4o
+    # openai/gpt-4o-mini
+    # openai/gpt-4o-turbo
+    # openai/gpt-4o-turbo-mini
+    # openai/gpt-4o-turbo-mini-2025-07-16
+    # openai/gpt-4o-turbo-mini-2025-07-16
+    # openai/gpt-oss-120b:free
+    # openrouter/free
+    # tencent/hy3-preview:free
+    # nvidia/nemotron-3-nano-30b-a3b:free
+
+    cheap: "openai/gpt-oss-120b:free"
+    heavy: "openai/gpt-oss-120b:free"
+  web_search:
+    enabled: false
+    apply_to: "heavy" # heavy | all | cheap
+    max_results: 5
+  routing:
+    simple_max_chars: 220
+    simple_max_words: 35
+    force_heavy_for_stream: true
+    complex_keywords:
+      - "compare"
+      - "analysis"
+      - "analyze"
+      - "sentiment"
+      - "options"
+      - "earnings"
+      - "macro"
+      - "federal reserve"
+      - "forecast"
+      - "technical"
+      - "portfolio"
+      - "risk"
+  planning:
+    max_rounds: 1
+    max_steps_per_round: 3
+  fast_path:
+    simple_ticker_enabled: true
+  app_name: "rallies-cli"
+  app_url: "https://github.com/your-username/rallies-cli"
+  system_prompt: >
+    You are a market research assistant. Provide concise, factual financial analysis.
+    Use only numbers from prefetched market data or tool output in this session.
+    Never invent stock prices, P/E ratios, or financial figures. If live data is
+    missing, say it is unavailable instead of estimating.
+
+mode:
+  level: "advanced"  # "basic" | "advanced". Controls persona library, quant tools, and extra connectors
+
+screener:
+  max_results: 20          # How many top stocks to return (e.g., 10, 15, 30)
+  max_agent_candidates: 50 # How many stocks reach the LLM debate stage

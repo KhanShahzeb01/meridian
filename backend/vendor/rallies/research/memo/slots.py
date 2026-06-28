@@ -1,0 +1,38 @@
+"""Template slot keys for write-memo HTML."""
+
+from __future__ import annotations
+
+MEMO_SLOT_KEYS: tuple[str, ...] = (
+    "ticker",
+    "direction",
+    "date",
+    "company_name",
+    "price_current",
+    "horizon",
+    "conviction",
+    "price_target_base",
+    "upside_pct",
+    "asymmetry",
+    "prob_weighted_return",
+    "variant_view",
+    "thesis_bullets",
+    "business_snapshot",
+    "whats_priced_in",
+    "scenario_table",
+    "bull_narrative",
+    "base_narrative",
+    "bear_narrative",
+    "catalysts_table",
+    "risks_table",
+    "position_management",
+    "monitoring_kpis",
+    "analyst",
+    "key_metrics_table",
+    "charts_section",
+    "dcf_section",
+    "valuation_analysis",
+    "expert_opinions_section",
+    "references_section",
+    "memo_guide",
+    "table_of_contents",
+)

@@ -1,0 +1,41 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets & local config
+backend/.env
+.env
+.env.local
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# AI dev notes (local only)
+frontend/AGENTS.md
+frontend/CLAUDE.md
+
+# Meridian runtime data
+.meridian/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+*.tsbuildinfo
+
+# OS & IDE
+.DS_Store
+*.pem
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
