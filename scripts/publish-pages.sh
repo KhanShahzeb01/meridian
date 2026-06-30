@@ -8,6 +8,8 @@ python3 "$ROOT/scripts/fetch-market-snapshot.py"
 
 cd "$ROOT/frontend"
 export NEXT_PUBLIC_BASE_PATH=/meridian
+unset NEXT_PUBLIC_API_URL
+export NEXT_PUBLIC_API_URL=
 npm run build
 
 cd "$ROOT"

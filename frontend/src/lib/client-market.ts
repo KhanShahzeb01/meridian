@@ -1,4 +1,5 @@
 import type { MarketHeadline, MarketIndex } from "./api";
+import { getCachedQuote, setCachedQuote } from "./quote-cache";
 import { fetchYahooChart, fetchYahooJson } from "./yahoo-fetch";
 
 const INDICES = [
@@ -158,27 +159,36 @@ function formatQuoteMarkdown(sym: string, price: number, changePct: number | nul
 }
 
 export async function clientFetchQuote(ticker: string): Promise<string> {
-  const sym = ticker.toUpperCase().replace(/^\$/, "");
+  const sym = ticker.toUpperCase().replace(/^\$/, "").replace(/[^A-Z0-9.-]/g, "");
+  if (!sym) {
+    return "Usage: `/quote AAPL` or `/quote $NVDA`";
+  }
+
+  const cached = getCachedQuote(sym);
+  if (cached) {
+    return formatQuoteMarkdown(sym, cached.price, cached.change_pct ?? null, "Yahoo Finance · cached (browser)");
+  }
 
   const { price, prev } = await fetchYahooChart(sym);
   if (price != null) {
     const changePct =
       prev != null && prev !== 0 ? ((price - prev) / prev) * 100 : null;
+    setCachedQuote(sym, { price, prev_close: prev, change_pct: changePct });
     return formatQuoteMarkdown(sym, price, changePct, "Yahoo Finance · live");
   }
 
   const snapshot = await loadSnapshot();
-  const cached = snapshot?.quotes?.[sym];
-  if (cached?.price != null) {
-    let changePct = cached.change_pct ?? null;
-    if (changePct == null && cached.prev_close) {
-      changePct = ((cached.price - cached.prev_close) / cached.prev_close) * 100;
+  const snap = snapshot?.quotes?.[sym];
+  if (snap?.price != null) {
+    let changePct = snap.change_pct ?? null;
+    if (changePct == null && snap.prev_close) {
+      changePct = ((snap.price - snap.prev_close) / snap.prev_close) * 100;
     }
     const age = snapshot?.updated_at
-      ? ` · snapshot ${new Date(snapshot.updated_at).toLocaleString()}`
+      ? ` · updated ${new Date(snapshot.updated_at).toLocaleString()}`
       : "";
-    return formatQuoteMarkdown(sym, cached.price, changePct, `Yahoo Finance · cached${age}`);
+    return formatQuoteMarkdown(sym, snap.price, changePct, `Yahoo Finance · snapshot${age}`);
   }
 
-  return `Could not fetch quote for **${sym}**. Yahoo Finance blocks direct browser access on GitHub Pages — try again after the market snapshot refreshes (~10 min), or run the local backend for live quotes on any ticker.`;
+  return `Could not fetch quote for **${sym}**. Check the symbol and try again in a moment.`;
 }
