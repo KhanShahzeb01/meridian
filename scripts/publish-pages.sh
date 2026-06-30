@@ -2,8 +2,11 @@
 # Build Next.js static export into docs/ for GitHub Pages (main branch /docs).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-cd "$ROOT/frontend"
 
+echo "Fetching market snapshot (Yahoo Finance, server-side)…"
+python3 "$ROOT/scripts/fetch-market-snapshot.py"
+
+cd "$ROOT/frontend"
 export NEXT_PUBLIC_BASE_PATH=/meridian
 npm run build
 

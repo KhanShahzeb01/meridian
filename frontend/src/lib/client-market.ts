@@ -11,6 +11,36 @@ const INDICES = [
   { id: "vix", name: "VIX", symbol: "^VIX", fallback: "VIXY" },
 ] as const;
 
+interface MarketSnapshot {
+  indices: MarketIndex[];
+  headlines: MarketHeadline[];
+  updated_at: string;
+  source?: string;
+}
+
+function basePath(): string {
+  if (typeof window !== "undefined") {
+    const m = window.location.pathname.match(/^(\/[^/]+)\//);
+    if (m) return m[1];
+  }
+  return process.env.NEXT_PUBLIC_BASE_PATH || "";
+}
+
+function snapshotUrl(): string {
+  const bp = basePath();
+  return `${bp}/data/market-snapshot.json`;
+}
+
+async function loadSnapshot(): Promise<MarketSnapshot | null> {
+  try {
+    const res = await fetch(snapshotUrl(), { cache: "no-store" });
+    if (!res.ok) return null;
+    return (await res.json()) as MarketSnapshot;
+  } catch {
+    return null;
+  }
+}
+
 async function fetchChart(symbol: string): Promise<{
   series: number[];
   price: number | null;
@@ -58,38 +88,76 @@ async function fetchIndex(meta: (typeof INDICES)[number]): Promise<MarketIndex> 
   };
 }
 
+async function fetchLiveIndices(): Promise<MarketIndex[] | null> {
+  try {
+    const indices = await Promise.all(INDICES.map(fetchIndex));
+    if (indices.every((i) => !i.series.length && i.price == null)) return null;
+    return indices;
+  } catch {
+    return null;
+  }
+}
+
+async function fetchLiveHeadlines(limit: number): Promise<MarketHeadline[] | null> {
+  try {
+    const url = `https://query1.finance.yahoo.com/v1/finance/search?q=finance&newsCount=${limit}`;
+    const res = await fetch(url, { headers: HEADERS });
+    if (!res.ok) return null;
+    const data = await res.json();
+    const headlines: MarketHeadline[] = (data.news || []).slice(0, limit).map(
+      (n: {
+        title?: string;
+        link?: string;
+        providerPublishTime?: number;
+        publisher?: string;
+      }) => ({
+        title: n.title || "",
+        url: n.link || "",
+        published: n.providerPublishTime
+          ? new Date(n.providerPublishTime * 1000).toISOString()
+          : "",
+        source: n.publisher || "Yahoo Finance",
+      })
+    );
+    return headlines.length ? headlines : null;
+  } catch {
+    return null;
+  }
+}
+
 export async function clientFetchMarketIndices(): Promise<{
   indices: MarketIndex[];
   updated_at: string;
 }> {
-  const indices = await Promise.all(INDICES.map(fetchIndex));
-  return { indices, updated_at: new Date().toISOString() };
+  const snapshot = await loadSnapshot();
+  const live = await fetchLiveIndices();
+
+  const indices = live?.length ? live : snapshot?.indices || [];
+  const updated_at =
+    (live?.length ? new Date().toISOString() : null) ||
+    snapshot?.updated_at ||
+    new Date().toISOString();
+
+  return { indices, updated_at };
 }
 
 export async function clientFetchMarketHeadlines(limit = 25): Promise<{
   headlines: MarketHeadline[];
   updated_at: string;
 }> {
-  const url = `https://query1.finance.yahoo.com/v1/finance/search?q=finance&newsCount=${limit}`;
-  const res = await fetch(url, { headers: HEADERS });
-  if (!res.ok) throw new Error("Headlines fetch failed");
-  const data = await res.json();
-  const headlines: MarketHeadline[] = (data.news || []).slice(0, limit).map(
-    (n: {
-      title?: string;
-      link?: string;
-      providerPublishTime?: number;
-      publisher?: string;
-    }) => ({
-      title: n.title || "",
-      url: n.link || "",
-      published: n.providerPublishTime
-        ? new Date(n.providerPublishTime * 1000).toISOString()
-        : "",
-      source: n.publisher || "Yahoo Finance",
-    })
-  );
-  return { headlines, updated_at: new Date().toISOString() };
+  const snapshot = await loadSnapshot();
+  const live = await fetchLiveHeadlines(limit);
+
+  const headlines = live?.length
+    ? live
+    : (snapshot?.headlines || []).slice(0, limit);
+  const updated_at =
+    (live?.length ? new Date().toISOString() : null) ||
+    snapshot?.updated_at ||
+    new Date().toISOString();
+
+  if (!headlines.length) throw new Error("No headlines available");
+  return { headlines, updated_at };
 }
 
 export async function clientFetchQuote(ticker: string): Promise<string> {

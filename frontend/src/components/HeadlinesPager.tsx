@@ -71,8 +71,8 @@ export function HeadlinesPager({ headlines, loading }: HeadlinesPagerProps) {
         className="headlines-panel rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] px-5 py-8 text-center text-sm text-[var(--color-muted)]"
         role="status"
       >
-        Market headlines unavailable — ensure the Meridian API is running on port 8000, then refresh
-        this page.
+        Market headlines unavailable — data refreshes every ~10 minutes on GitHub Pages. Try again
+        shortly or refresh this page.
       </div>
     );
   }
