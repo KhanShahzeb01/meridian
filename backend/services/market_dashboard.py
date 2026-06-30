@@ -164,6 +164,46 @@ def get_indices_dashboard() -> dict[str, Any]:
     return _cache_set("indices", payload)
 
 
+def _fetch_headlines_yfinance(max_items: int) -> list[dict[str, str]]:
+    headlines: list[dict[str, str]] = []
+    try:
+        import yfinance as yf
+
+        for sym in ("SPY", "^GSPC", "AAPL"):
+            try:
+                raw = yf.Ticker(sym).news or []
+            except Exception:
+                raw = []
+            for item in raw:
+                if not isinstance(item, dict):
+                    continue
+                title = (item.get("title") or "").strip()
+                link = (item.get("link") or item.get("url") or "").strip()
+                if not title:
+                    continue
+                pub = ""
+                ts = item.get("providerPublishTime") or item.get("pubDate")
+                if ts:
+                    try:
+                        pub = datetime.fromtimestamp(int(ts), tz=timezone.utc).isoformat()
+                    except (TypeError, ValueError, OSError):
+                        pub = str(ts)
+                publisher = item.get("publisher") or item.get("source") or "Yahoo Finance"
+                headlines.append(
+                    {
+                        "title": title,
+                        "url": link,
+                        "published": pub,
+                        "source": str(publisher),
+                    }
+                )
+                if len(headlines) >= max_items:
+                    return headlines
+    except Exception as exc:
+        logger.debug("yfinance headlines fallback failed: %s", exc)
+    return headlines
+
+
 def get_yahoo_headlines(max_items: int = 12) -> dict[str, Any]:
     cache_key = f"headlines:{max_items}"
     cached = _cache_get(cache_key, _HEADLINES_TTL)
@@ -198,6 +238,9 @@ def get_yahoo_headlines(max_items: int = 12) -> dict[str, Any]:
                     )
     except Exception as exc:
         logger.warning("Yahoo RSS fetch failed: %s", exc)
+
+    if not headlines:
+        headlines = _fetch_headlines_yfinance(max_items)
 
     payload = {
         "headlines": headlines,

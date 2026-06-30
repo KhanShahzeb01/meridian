@@ -1,4 +1,19 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+/** Same-origin `/api/…/` in dev (Next proxy); full URL on GitHub Pages builds. */
+function apiUrl(path: string): string {
+  const base = (process.env.NEXT_PUBLIC_API_URL || "").replace(/\/$/, "");
+  let normalized = path.startsWith("/") ? path : `/${path}`;
+
+  // Next.js trailingSlash redirects POST without preserving body — always use trailing slash.
+  const qIndex = normalized.indexOf("?");
+  let pathPart = qIndex >= 0 ? normalized.slice(0, qIndex) : normalized;
+  const query = qIndex >= 0 ? normalized.slice(qIndex) : "";
+  if (!pathPart.endsWith("/")) {
+    pathPart += "/";
+  }
+  normalized = pathPart + query;
+
+  return base ? `${base}${normalized}` : normalized;
+}
 
 export interface Persona {
   id: string;
@@ -46,31 +61,31 @@ export interface ChatResponse {
 }
 
 export async function fetchPersonas(): Promise<Persona[]> {
-  const res = await fetch(`${API_BASE}/api/personas`);
+  const res = await fetch(apiUrl("/api/personas"));
   if (!res.ok) throw new Error("Failed to fetch personas");
   return res.json();
 }
 
 export async function fetchPersonasGrouped(): Promise<PersonaGroup> {
-  const res = await fetch(`${API_BASE}/api/personas/grouped`);
+  const res = await fetch(apiUrl("/api/personas/grouped"));
   if (!res.ok) throw new Error("Failed to fetch personas");
   return res.json();
 }
 
 export async function fetchCommands(): Promise<CommandStructure> {
-  const res = await fetch(`${API_BASE}/api/commands`);
+  const res = await fetch(apiUrl("/api/commands"));
   if (!res.ok) throw new Error("Failed to fetch commands");
   return res.json();
 }
 
 export async function fetchSlashCommands(): Promise<string[]> {
-  const res = await fetch(`${API_BASE}/api/commands/slash`);
+  const res = await fetch(apiUrl("/api/commands/slash"));
   if (!res.ok) throw new Error("Failed to fetch slash commands");
   return res.json();
 }
 
 export async function fetchHelp(): Promise<string> {
-  const res = await fetch(`${API_BASE}/api/help`);
+  const res = await fetch(apiUrl("/api/help"));
   if (!res.ok) throw new Error("Failed to fetch help");
   const data = await res.json();
   return data.content;
@@ -95,7 +110,7 @@ export async function sendChat(
   const timeoutMs = isHeavy ? 300_000 : 90_000;
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const res = await fetch(`${API_BASE}/api/chat`, {
+    const res = await fetch(apiUrl("/api/chat"), {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -107,8 +122,15 @@ export async function sendChat(
       signal: controller.signal,
     });
     if (!res.ok) {
-      const err = await res.json().catch(() => ({ detail: "Request failed" }));
-      throw new Error(err.detail || "Chat request failed");
+      const err = await res.json().catch(() => ({ detail: `HTTP ${res.status}` }));
+      const detail = err.detail;
+      throw new Error(
+        typeof detail === "string"
+          ? detail
+          : Array.isArray(detail)
+            ? detail.map((d: { msg?: string }) => d.msg).filter(Boolean).join("; ") || `HTTP ${res.status}`
+            : `HTTP ${res.status}`
+      );
     }
     return res.json();
   } catch (e) {
@@ -117,6 +139,11 @@ export async function sendChat(
         isHeavy
           ? "Request timed out. Heavy commands like /memo can take several minutes — try again or check backend logs."
           : "Request timed out after 90s. Try a shorter question or /quote TICKER."
+      );
+    }
+    if (e instanceof TypeError && e.message === "Failed to fetch") {
+      throw new Error(
+        "Cannot reach the Meridian API. Start the backend (uvicorn main:app --port 8000) and use npm run dev for the frontend."
       );
     }
     throw e;
@@ -131,7 +158,7 @@ export async function fetchHealth(): Promise<{
   client_api_key?: boolean;
   initialized: boolean;
 }> {
-  const res = await fetch(`${API_BASE}/api/health`);
+  const res = await fetch(apiUrl("/api/health"));
   if (!res.ok) throw new Error("Backend unavailable");
   return res.json();
 }
@@ -170,7 +197,7 @@ export async function fetchMarketIndices(): Promise<{
   indices: MarketIndex[];
   updated_at: string;
 }> {
-  const res = await fetch(`${API_BASE}/api/market/indices`);
+  const res = await fetch(apiUrl("/api/market/indices"));
   if (!res.ok) throw new Error("Failed to fetch indices");
   return res.json();
 }
@@ -179,7 +206,7 @@ export async function fetchMarketHeadlines(limit = 25): Promise<{
   headlines: MarketHeadline[];
   updated_at: string;
 }> {
-  const res = await fetch(`${API_BASE}/api/market/headlines?limit=${limit}`);
+  const res = await fetch(apiUrl(`/api/market/headlines?limit=${limit}`));
   if (!res.ok) throw new Error("Failed to fetch headlines");
   return res.json();
 }
@@ -188,7 +215,7 @@ export async function fetchMarketTape(): Promise<{
   tape: MarketTapeItem[];
   updated_at: string;
 }> {
-  const res = await fetch(`${API_BASE}/api/market/tape`);
+  const res = await fetch(apiUrl("/api/market/tape"));
   if (!res.ok) throw new Error("Failed to fetch market tape");
   return res.json();
 }

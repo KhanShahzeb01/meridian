@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { PersonaGroup } from "@/lib/api";
 import { ChevronDown, ChevronRight, MessageCircle } from "lucide-react";
 
@@ -17,19 +17,42 @@ export default function PersonaSelector({
   onSelect,
   onAsk,
 }: PersonaSelectorProps) {
-  const [expanded, setExpanded] = useState<Record<string, boolean>>(() => {
-    const init: Record<string, boolean> = {};
-    Object.keys(grouped).forEach((cat, i) => {
-      init[cat] = i < 2;
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    const cats = Object.keys(grouped);
+    if (!cats.length) return;
+    setExpanded((prev) => {
+      const next = { ...prev };
+      cats.forEach((cat, i) => {
+        if (next[cat] === undefined) {
+          next[cat] = i < 2;
+        }
+      });
+      return next;
     });
-    return init;
-  });
+  }, [grouped]);
+
+  if (!Object.keys(grouped).length) {
+    return (
+      <div className="space-y-3">
+        <div>
+          <h3 className="text-xs font-medium uppercase tracking-wider text-[var(--color-muted)] px-1">
+            Personas
+          </h3>
+          <p className="text-xs text-[var(--color-muted)]/70 px-1 mt-1 leading-[1.55]">
+            Loading investor personas…
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-3">
       <div>
         <h3 className="text-xs font-medium uppercase tracking-wider text-[var(--color-muted)] px-1">
-          Persona
+          Personas
         </h3>
         <p className="text-xs text-[var(--color-muted)]/70 px-1 mt-1 leading-[1.55]">
           Default is open conversation. Select a persona to route messages as /ask.

@@ -1,45 +1,63 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Activity } from "lucide-react";
-import { fetchMarketHeadlines, fetchMarketIndices, type MarketDashboardData } from "@/lib/api";
+import {
+  fetchMarketHeadlines,
+  fetchMarketIndices,
+  type MarketHeadline,
+  type MarketIndex,
+} from "@/lib/api";
 import { HeadlinesPager } from "./HeadlinesPager";
 import { IndexCard } from "./IndexCard";
 
 const REFRESH_MS = 120_000;
 
 export function MarketPulse() {
-  const [data, setData] = useState<MarketDashboardData | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [indices, setIndices] = useState<MarketIndex[]>([]);
+  const [headlines, setHeadlines] = useState<MarketHeadline[]>([]);
+  const [indicesLoading, setIndicesLoading] = useState(true);
+  const [headlinesLoading, setHeadlinesLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState<string | null>(null);
 
-  useEffect(() => {
-    let cancelled = false;
-
-    async function load() {
-      try {
-        const [indices, headlines] = await Promise.all([
-          fetchMarketIndices(),
-          fetchMarketHeadlines(25),
-        ]);
-        if (!cancelled) {
-          setData({ indices: indices.indices, headlines: headlines.headlines });
-          setLastUpdated(indices.updated_at || headlines.updated_at);
-        }
-      } catch {
-        if (!cancelled) setData(null);
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
+  const loadIndices = useCallback(async () => {
+    try {
+      const res = await fetchMarketIndices();
+      setIndices(res.indices);
+      setLastUpdated((prev) => res.updated_at || prev);
+    } catch {
+      // keep prior indices on refresh failure
+    } finally {
+      setIndicesLoading(false);
     }
-
-    load();
-    const interval = setInterval(load, REFRESH_MS);
-    return () => {
-      cancelled = true;
-      clearInterval(interval);
-    };
   }, []);
+
+  const loadHeadlines = useCallback(async () => {
+    try {
+      const res = await fetchMarketHeadlines(25);
+      setHeadlines(res.headlines);
+      setLastUpdated((prev) => res.updated_at || prev);
+    } catch {
+      setHeadlines([]);
+    } finally {
+      setHeadlinesLoading(false);
+    }
+  }, []);
+
+  const loadAll = useCallback(() => {
+    void loadIndices();
+    void loadHeadlines();
+  }, [loadIndices, loadHeadlines]);
+
+  useEffect(() => {
+    loadAll();
+    const interval = setInterval(loadAll, REFRESH_MS);
+    return () => clearInterval(interval);
+  }, [loadAll]);
+
+  const loading = indicesLoading && headlinesLoading;
+  const showApiError =
+    !indicesLoading && !headlinesLoading && indices.length === 0 && headlines.length === 0;
 
   return (
     <section
@@ -66,31 +84,48 @@ export function MarketPulse() {
           <p className="text-xs text-[var(--color-muted)] font-mono">
             {loading ? "Updating…" : "Refreshes every 2 min · Yahoo Finance"}
             {lastUpdated && !loading ? (
-              <span className="hidden sm:inline"> · Updated {new Date(lastUpdated).toLocaleTimeString()}</span>
+              <span className="hidden sm:inline" suppressHydrationWarning>
+                {" · Updated "}
+                {new Date(lastUpdated).toLocaleTimeString()}
+              </span>
             ) : null}
           </p>
         </div>
 
+        {showApiError ? (
+          <p
+            className="mb-5 rounded-lg border border-[var(--color-danger)]/30 bg-[var(--color-danger)]/5 px-4 py-3 text-sm text-[var(--color-muted)]"
+            role="status"
+          >
+            Market data API unreachable — from the project root run:{" "}
+            <code className="text-[var(--color-foreground)]">
+              cd backend && uvicorn main:app --port 8000
+            </code>
+            , then restart <code className="text-[var(--color-foreground)]">npm run dev</code>{" "}
+            in <code className="text-[var(--color-foreground)]">frontend/</code>.
+          </p>
+        ) : null}
+
         <div
           className="market-indices-grid fade-in-up fade-in-up-delay-1"
           aria-live="polite"
-          aria-busy={loading}
+          aria-busy={indicesLoading}
           data-testid="market-indices"
         >
-          {loading && !data
+          {indicesLoading && !indices.length
             ? Array.from({ length: 6 }, (_, i) => (
                 <div
                   key={i}
                   className="h-[132px] animate-pulse rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)]"
                 />
               ))
-            : (data?.indices ?? []).map((idx, i) => (
+            : indices.map((idx, i) => (
                 <IndexCard key={idx.id} index={idx} delayMs={i * 60} compact />
               ))}
         </div>
 
         <div className="mt-5 fade-in-up fade-in-up-delay-2">
-          <HeadlinesPager headlines={data?.headlines ?? []} />
+          <HeadlinesPager headlines={headlines} loading={headlinesLoading} />
         </div>
       </div>
     </section>

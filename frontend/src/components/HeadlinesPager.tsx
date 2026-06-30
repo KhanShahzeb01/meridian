@@ -8,6 +8,7 @@ const PAGE_SIZE = 5;
 
 interface HeadlinesPagerProps {
   headlines: MarketHeadline[];
+  loading?: boolean;
 }
 
 function formatPublished(raw: string): string {
@@ -22,7 +23,7 @@ function formatPublished(raw: string): string {
   }).format(d);
 }
 
-export function HeadlinesPager({ headlines }: HeadlinesPagerProps) {
+export function HeadlinesPager({ headlines, loading }: HeadlinesPagerProps) {
   const [page, setPage] = useState(0);
 
   const totalPages = Math.max(1, Math.ceil(headlines.length / PAGE_SIZE));
@@ -45,13 +46,33 @@ export function HeadlinesPager({ headlines }: HeadlinesPagerProps) {
   const canPrev = page > 0;
   const canNext = page < totalPages - 1;
 
+  if (loading && !headlines.length) {
+    return (
+      <div
+        className="headlines-panel rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] px-5 py-10"
+        role="status"
+        aria-busy="true"
+      >
+        <div className="space-y-3">
+          {Array.from({ length: 5 }, (_, i) => (
+            <div
+              key={i}
+              className="h-12 animate-pulse rounded-lg bg-[var(--color-surface-elevated)]"
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
   if (!headlines.length) {
     return (
       <div
         className="headlines-panel rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] px-5 py-8 text-center text-sm text-[var(--color-muted)]"
         role="status"
       >
-        Market headlines unavailable — open the terminal and run /news for the latest.
+        Market headlines unavailable — ensure the Meridian API is running on port 8000, then refresh
+        this page.
       </div>
     );
   }

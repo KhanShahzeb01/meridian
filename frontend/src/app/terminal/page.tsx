@@ -52,7 +52,7 @@ export default function TerminalPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [pendingQuery, setPendingQuery] = useState<string | undefined>();
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [rightPanelOpen, setRightPanelOpen] = useState(true);
+  const [rightPanelOpen, setRightPanelOpen] = useState(false);
   const [prefill, setPrefill] = useState<string | undefined>();
   const [hasApiKey, setHasApiKey] = useState<boolean | null>(null);
   const [backendOk, setBackendOk] = useState(true);
@@ -102,6 +102,16 @@ export default function TerminalPage() {
       .catch(() => setBackendOk(false));
     refreshApiKeyState();
   }, [refreshApiKeyState]);
+
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 1024px)");
+    const openOnDesktop = () => {
+      if (mq.matches) setRightPanelOpen(true);
+    };
+    openOnDesktop();
+    mq.addEventListener("change", openOnDesktop);
+    return () => mq.removeEventListener("change", openOnDesktop);
+  }, []);
 
   const handleNewSession = () => {
     const s = createSession(personaId);
@@ -264,7 +274,7 @@ export default function TerminalPage() {
       addMessage({
         id: `${Date.now()}-err`,
         role: "assistant",
-        content: `**Error:** ${err instanceof Error ? err.message : "Request failed"}. Ensure backend is running: \`uvicorn main:app --port 8000\``,
+        content: `**Error:** ${err instanceof Error ? err.message : "Request failed"}`,
         timestamp: Date.now(),
         type: "error",
       });
@@ -355,8 +365,9 @@ export default function TerminalPage() {
             </button>
             <button
               onClick={() => setRightPanelOpen(!rightPanelOpen)}
-              className="p-1.5 text-[var(--color-muted)] hover:text-[var(--color-foreground)] cursor-pointer hidden xl:block"
-              aria-label="Toggle panel"
+              className="p-1.5 text-[var(--color-muted)] hover:text-[var(--color-foreground)] cursor-pointer"
+              aria-label={rightPanelOpen ? "Hide side panel" : "Show side panel"}
+              title={rightPanelOpen ? "Hide personas & commands" : "Show personas & commands"}
             >
               {rightPanelOpen ? (
                 <PanelRightClose className="h-4 w-4" />
@@ -385,19 +396,41 @@ export default function TerminalPage() {
           </div>
 
           {rightPanelOpen && (
-            <div className="hidden xl:flex w-72 flex-col border-l border-[var(--color-border)] bg-[var(--color-surface)] overflow-y-auto terminal-scroll">
-              <div className="p-4 border-b border-[var(--color-border)]">
-                <PersonaSelector
-                  grouped={personaGroups}
-                  selected={personaId}
-                  onSelect={handlePersonaChange}
-                  onAsk={askPersona}
-                />
-              </div>
-              <div className="p-4 flex-1">
-                <CommandsPanel commands={commands} onRun={runCommand} />
-              </div>
-            </div>
+            <>
+              <div
+                className="fixed inset-0 z-40 bg-black/50 lg:hidden"
+                onClick={() => setRightPanelOpen(false)}
+                aria-hidden="true"
+              />
+              <aside
+                className="fixed inset-y-0 right-0 z-50 flex w-80 max-w-[min(20rem,90vw)] flex-col border-l border-[var(--color-border)] bg-[var(--color-surface)] overflow-y-auto terminal-scroll lg:static lg:z-auto lg:w-72 lg:max-w-none"
+              >
+                <div className="flex items-center justify-between border-b border-[var(--color-border)] px-4 py-2.5 lg:hidden">
+                  <span className="text-xs font-medium uppercase tracking-wider text-[var(--color-muted)]">
+                    Personas & Commands
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => setRightPanelOpen(false)}
+                    className="p-1 text-[var(--color-muted)] hover:text-[var(--color-foreground)] cursor-pointer"
+                    aria-label="Close side panel"
+                  >
+                    <PanelRightClose className="h-4 w-4" />
+                  </button>
+                </div>
+                <div className="p-4 border-b border-[var(--color-border)]">
+                  <PersonaSelector
+                    grouped={personaGroups}
+                    selected={personaId}
+                    onSelect={handlePersonaChange}
+                    onAsk={askPersona}
+                  />
+                </div>
+                <div className="p-4 flex-1">
+                  <CommandsPanel commands={commands} onRun={runCommand} />
+                </div>
+              </aside>
+            </>
           )}
         </div>
       </div>
