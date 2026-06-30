@@ -4,7 +4,7 @@ import { openRouterChat } from "./openrouter-client";
 import { getPersonaName, getPersonaPrompt, hasPersonaPrompt } from "./persona-resolve";
 import { getFinnhubKey } from "./storage";
 
-/** Seven-expert panel for browser-side /consensus */
+/** Seven-expert panel for full /consensus --panel mode */
 export const CONSENSUS_PANEL = [
   "buffett",
   "munger",
@@ -15,21 +15,112 @@ export const CONSENSUS_PANEL = [
   "ackman",
 ] as const;
 
-const MANAGER_PROMPT = `You are the Chief Investment Officer synthesizing multiple analyst opinions.
-You will receive analyses from different investment personas on the same stock.
-Your job:
-1. Summarize each persona's key points (bull/bear case, rating)
-2. Identify areas of agreement and disagreement
-3. Conduct a vote: each persona gets one vote (BUY/HOLD/SELL)
-4. Majority opinion wins as the final consensus
-5. Provide a structured final recommendation with confidence level
+const MANAGER_PROMPT = `You are the Chief Investment Officer synthesizing analyst opinions on one stock.
+Summarize key points, areas of agreement/disagreement, vote tally (BUY/HOLD/SELL), and a final recommendation with confidence.
+Use markdown sections: ## Summary · ## Agreement · ## Disagreement · ## Votes · ## Final call`;
 
-Format your response with clear sections:
-## Individual Analyses Summary
-## Points of Agreement
-## Points of Disagreement
-## Voting Results
-## Final Consensus Recommendation`;
+function expertBlurbs(): string {
+  return CONSENSUS_PANEL.filter(hasPersonaPrompt)
+    .map((id) => `- **${getPersonaName(id)}**`)
+    .join("\n");
+}
+
+const FAST_CONSENSUS_SYSTEM = `You run a fast investment consensus panel in one response.
+Use ONLY numbers from the live data block — never invent prices or financials.
+
+For each expert below, write a ### heading with their name, then 2-4 sentences in their style, ending with **Vote: BUY | HOLD | SELL** and a brief reason.
+
+Experts:
+${CONSENSUS_PANEL.map((id) => (hasPersonaPrompt(id) ? `### ${getPersonaName(id)}\n(In character as: ${getPersonaPrompt(id)!.slice(0, 160)}…)` : ""))
+  .filter(Boolean)
+  .join("\n\n")}
+
+After all experts, add:
+## CIO synthesis
+## Vote tally
+## Final consensus (BUY/HOLD/SELL) with confidence level
+
+Keep each expert under 90 words. Be direct.`;
+
+async function runParallelPanel(
+  apiKey: string,
+  ticker: string,
+  quoteBlock: string
+): Promise<{ combined: string; panels: { title: string; content: string }[] }> {
+  const expertPrompt = `Analyze ${ticker} using the live quote data. Max 80 words. End with **Vote: BUY | HOLD | SELL**.
+
+## Live data
+${quoteBlock}`;
+
+  const blocks = await Promise.all(
+    CONSENSUS_PANEL.filter(hasPersonaPrompt).map(async (personaId) => {
+      const name = getPersonaName(personaId);
+      const analysis = await openRouterChat(
+        apiKey,
+        [
+          { role: "system", content: getPersonaPrompt(personaId)! },
+          { role: "user", content: expertPrompt },
+        ],
+        { maxTokens: 320, temperature: 0.5 }
+      );
+      return `### ${name}\n${analysis}`;
+    })
+  );
+
+  const combined = blocks.join("\n\n");
+  const managerSummary = await openRouterChat(
+    apiKey,
+    [
+      { role: "system", content: MANAGER_PROMPT },
+      {
+        role: "user",
+        content: `Synthesize these opinions on ${ticker}:\n\n${combined}`,
+      },
+    ],
+    { maxTokens: 1400, temperature: 0.45 }
+  );
+
+  return {
+    combined: `${combined}\n\n---\n\n## CIO synthesis\n\n${managerSummary}`,
+    panels: blocks.map((block) => {
+      const title = block.match(/^### (.+)/)?.[1] || "Expert";
+      const content = block.replace(/^### .+\n/, "");
+      return { title, content };
+    }),
+  };
+}
+
+async function runFastConsensus(
+  apiKey: string,
+  ticker: string,
+  quoteBlock: string
+): Promise<string> {
+  return openRouterChat(
+    apiKey,
+    [
+      { role: "system", content: FAST_CONSENSUS_SYSTEM },
+      {
+        role: "user",
+        content: `Ticker: ${ticker}\n\n## Live data\n${quoteBlock}\n\nRun the full panel now.`,
+      },
+    ],
+    { maxTokens: 2200, temperature: 0.55 }
+  );
+}
+
+function parseConsensusArgs(text: string): { ticker: string; fullPanel: boolean } | null {
+  const parts = text.trim().split(/\s+/);
+  if (!parts[0]?.toLowerCase().startsWith("/consensus")) return null;
+
+  const fullPanel = parts.some((p) => /^(--panel|--full|-p|-f)$/i.test(p));
+  const tickerPart = parts.find(
+    (p) => !p.startsWith("/") && !/^--/.test(p) && !/^-[a-z]$/i.test(p)
+  );
+  if (!tickerPart) return null;
+  const ticker = tickerPart.replace(/^\$/, "").toUpperCase();
+  if (!/^[A-Z][A-Z0-9.\-]{0,5}$/.test(ticker)) return null;
+  return { ticker, fullPanel };
+}
 
 const MEMO_SYSTEM = `You are a buyside analyst writing a concise investment memo in markdown.
 Use ONLY numbers from the live data block. Never invent prices, dates, or financials.
@@ -43,14 +134,6 @@ Structure (use these headings):
 ## Catalysts to watch
 
 Keep the memo under 400 words. Be direct. Cite actual figures from the data.`;
-
-function parseTickerFromArgs(text: string, cmd: string): string | null {
-  const parts = text.trim().split(/\s+/);
-  if (parts.length < 2 || !parts[0].toLowerCase().startsWith(cmd)) return null;
-  const raw = parts[1].replace(/^\$/, "").toUpperCase();
-  if (!/^[A-Z][A-Z0-9.\-]{0,5}$/.test(raw)) return null;
-  return raw;
-}
 
 function parseMemoArgs(
   text: string
@@ -94,67 +177,44 @@ async function fetchFinnhubHeadlines(ticker: string): Promise<string> {
 }
 
 export async function runClientConsensus(text: string, apiKey: string): Promise<ChatResponse> {
-  const ticker = parseTickerFromArgs(text, "/consensus");
-  if (!ticker) {
+  const parsed = parseConsensusArgs(text);
+  if (!parsed) {
     return {
       type: "error",
-      content: "Usage: `/consensus TICKER` (e.g. `/consensus NVDA` or `/consensus $AAPL`)",
+      content:
+        "Usage: `/consensus TICKER` (fast, ~30s)\n\nExample: `/consensus NVDA`\n\nSlower full panel: `/consensus --panel NVDA`",
       is_command: true,
       query: text,
     };
   }
 
+  const { ticker, fullPanel } = parsed;
   const quoteBlock = await clientFetchQuote(ticker);
   if (quoteBlock.startsWith("Could not fetch")) {
     return { type: "error", content: quoteBlock, is_command: true, query: text };
   }
 
-  const analyses: string[] = [];
-  const expertPrompt = `Analyze ${ticker} using the live quote data below. Be concise (under 200 words). End with a clear line: **Vote: BUY | HOLD | SELL** and one sentence why.
-
-## Live data
-${quoteBlock}`;
-
-  for (const personaId of CONSENSUS_PANEL) {
-    if (!hasPersonaPrompt(personaId)) continue;
-    const name = getPersonaName(personaId);
-    const analysis = await openRouterChat(
-      apiKey,
-      [
-        { role: "system", content: getPersonaPrompt(personaId)! },
-        { role: "user", content: expertPrompt },
-      ],
-      { maxTokens: 800, temperature: 0.6 }
-    );
-    analyses.push(`### ${name}\n${analysis}`);
+  if (fullPanel) {
+    const { combined, panels } = await runParallelPanel(apiKey, ticker, quoteBlock);
+    return {
+      type: "consensus",
+      content: `# Consensus — ${ticker}\n\n*Full panel mode (${CONSENSUS_PANEL.length} parallel experts)*\n\n${combined}`,
+      is_command: true,
+      query: text,
+      sections: {
+        panels,
+        response: combined.split("## CIO synthesis\n\n")[1] || combined,
+      },
+    };
   }
 
-  const combined = analyses.join("\n\n");
-  const managerSummary = await openRouterChat(
-    apiKey,
-    [
-      { role: "system", content: MANAGER_PROMPT },
-      {
-        role: "user",
-        content: `Synthesize these analyst opinions on ${ticker}:\n\n${combined}`,
-      },
-    ],
-    { maxTokens: 2500, temperature: 0.5 }
-  );
-
+  const body = await runFastConsensus(apiKey, ticker, quoteBlock);
   return {
     type: "consensus",
-    content: `# Consensus — ${ticker}\n\n## Expert panel (${CONSENSUS_PANEL.length} analysts)\n\n${combined}\n\n---\n\n## CIO synthesis\n\n${managerSummary}`,
+    content: `# Consensus — ${ticker}\n\n*Fast panel · ${expertBlurbs().split("\n").length} experts · one pass*\n\n${body}`,
     is_command: true,
     query: text,
-    sections: {
-      panels: analyses.map((block) => {
-        const title = block.match(/^### (.+)/)?.[1] || "Expert";
-        const content = block.replace(/^### .+\n/, "");
-        return { title, content };
-      }),
-      response: managerSummary,
-    },
+    sections: { response: body },
   };
 }
 

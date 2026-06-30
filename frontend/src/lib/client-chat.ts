@@ -16,7 +16,7 @@ const STATIC_HELP = `## Meridian commands (GitHub Pages)
 
 **AI (OpenRouter key in Settings):**
 - \`/memo TICKER long|short [horizon]\` — fast investment memo
-- \`/consensus TICKER\` — 7-expert panel + CIO vote
+- \`/consensus TICKER\` — fast 7-expert panel (~30s; use \`--panel\` for separate LLM calls per expert)
 - \`/ask buffett Is NVDA a buy?\` — single persona
 - Select a persona in the sidebar, then chat
 

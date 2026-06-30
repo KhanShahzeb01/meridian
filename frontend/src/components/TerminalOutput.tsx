@@ -60,10 +60,15 @@ function groupTurns(messages: ChatMessage[]): Turn[] {
 
 function loadingLabel(query: string): string {
   const cmd = query.trim().split(/\s+/)[0]?.toLowerCase();
+  if (cmd === "/consensus") {
+    return /--panel|--full|-p\b/i.test(query)
+      ? "Running full expert panel (parallel)…"
+      : "Running fast consensus panel (single pass)…";
+  }
   const labels: Record<string, string> = {
     "/memo": "Drafting fast memo (quote + single LLM pass)…",
     "/research": "Running deep research with tools…",
-    "/consensus": "Running expert consensus panel…",
+    "/consensus": "Running fast consensus panel (single pass)…",
     "/screen": "Running multi-agent screener…",
     "/dcf": "Computing DCF valuation…",
     "/ask": "Consulting persona…",
