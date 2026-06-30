@@ -1,6 +1,6 @@
 # Meridian Finance
 
-AI financial terminal — live market data, 36 investor personas, and rallies-powered slash commands. Landing page + web terminal.
+AI framework for financial analysis — live market data, 36 investor personas, and rallies-powered slash commands. Landing page + web terminal.
 
 ## Features
 
@@ -58,7 +58,7 @@ Open [http://localhost:3000](http://localhost:3000) · Terminal: [http://localho
 git init
 git add .
 git commit -m "Meridian Finance initial release"
-git remote add origin https://github.com/YOUR_USERNAME/meridian-finance.git
+git remote add origin https://github.com/KhanShahzeb01/meridian.git
 git branch -M main
 git push -u origin main
 ```
@@ -66,10 +66,10 @@ git push -u origin main
 1. **Repository → Settings → Pages → Source:** GitHub Actions  
 2. **Repository → Settings → Secrets and variables → Actions → Variables:**
    - `MERIDIAN_API_URL` — e.g. `https://meridian-api.onrender.com`
-   - `MERIDIAN_BASE_PATH` — e.g. `/meridian-finance` (repo name; omit for `username.github.io` root site)
+   - `MERIDIAN_BASE_PATH` — e.g. `/meridian` (repo name; omit for `username.github.io` root site)
 3. Push to `main` — workflow `.github/workflows/deploy-pages.yml` builds and deploys
 
-Site URL: `https://YOUR_USERNAME.github.io/meridian-finance/`
+Site URL: `https://KhanShahzeb01.github.io/meridian/`
 
 ---
 
