@@ -1,0 +1,376 @@
+{
+  "Value Investors": [
+    {
+      "id": "buffett",
+      "name": "Warren Buffett",
+      "short": "Buffett",
+      "title": "Value Investing",
+      "category": "Value Investors",
+      "quote": "Price is what you pay. Value is what you get.",
+      "avatar": "WB",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "graham",
+      "name": "Benjamin Graham",
+      "short": "Graham",
+      "title": "Deep Value Investing",
+      "category": "Value Investors",
+      "quote": "The intelligent investor is a realist who sells to optimists and buys from pessimists.",
+      "avatar": "BG",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "klarman",
+      "name": "Seth Klarman",
+      "short": "Klarman",
+      "title": "Deep Value / Catalyst",
+      "category": "Value Investors",
+      "quote": "Value investing is at its core the marriage of a contrarian streak with a calculator.",
+      "avatar": "SK",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "marks",
+      "name": "Howard Marks",
+      "short": "Marks",
+      "title": "Contrarian / Cycle-Aware Value",
+      "category": "Value Investors",
+      "quote": "The most important thing is to be aware of where we are in the cycle.",
+      "avatar": "HM",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "greenblatt",
+      "name": "Joel Greenblatt",
+      "short": "Greenblatt",
+      "title": "Magic Formula Investing",
+      "category": "Value Investors",
+      "quote": "Buy good companies at bargain prices. That's the magic formula.",
+      "avatar": "JG",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "munger",
+      "name": "Charlie Munger",
+      "short": "Munger",
+      "title": "Mental Models / Quality Value",
+      "category": "Value Investors",
+      "quote": "The big money is not in the buying and the selling, but in the waiting.",
+      "avatar": "CM",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "pabrai",
+      "name": "Mohnish Pabrai",
+      "short": "Pabrai",
+      "title": "Clone Value Investing",
+      "category": "Value Investors",
+      "quote": "Heads I win, tails I don't lose much.",
+      "avatar": "MP",
+      "color": "#F59E0B"
+    }
+  ],
+  "Growth Investors": [
+    {
+      "id": "lynch",
+      "name": "Peter Lynch",
+      "short": "Lynch",
+      "title": "Growth at Reasonable Price",
+      "category": "Growth Investors",
+      "quote": "Know what you own, and know why you own it.",
+      "avatar": "PL",
+      "color": "#10B981"
+    },
+    {
+      "id": "bogle",
+      "name": "John Bogle",
+      "short": "Bogle",
+      "title": "Index Investing / Passive",
+      "category": "Growth Investors",
+      "quote": "Don't look for the needle in the haystack. Just buy the haystack.",
+      "avatar": "JB",
+      "color": "#10B981"
+    },
+    {
+      "id": "thiel",
+      "name": "Peter Thiel",
+      "short": "Thiel",
+      "title": "Contrarian Growth / Venture",
+      "category": "Growth Investors",
+      "quote": "The most contrarian thing is not to oppose the crowd but to think for yourself.",
+      "avatar": "PT",
+      "color": "#10B981"
+    },
+    {
+      "id": "cathie_wood",
+      "name": "Cathie Wood",
+      "short": "Cathie Wood",
+      "title": "Disruptive Innovation / High Growth",
+      "category": "Growth Investors",
+      "quote": "Innovation solves problems and creates value. We invest in the future.",
+      "avatar": "CW",
+      "color": "#10B981"
+    },
+    {
+      "id": "price_jr",
+      "name": "T. Rowe Price Jr.",
+      "short": "T. Rowe Price",
+      "title": "Growth Stock Investing",
+      "category": "Growth Investors",
+      "quote": "Invest in growth companies when they are out of favor and hold them for the long term.",
+      "avatar": "TR",
+      "color": "#10B981"
+    }
+  ],
+  "Macro / Global": [
+    {
+      "id": "dalio",
+      "name": "Ray Dalio",
+      "short": "Dalio",
+      "title": "Macro / Risk Parity",
+      "category": "Macro / Global",
+      "quote": "The biggest mistake most investors make is to believe that what happened in the recent past is likely to persist.",
+      "avatar": "RD",
+      "color": "#6366F1"
+    },
+    {
+      "id": "soros",
+      "name": "George Soros",
+      "short": "Soros",
+      "title": "Reflexivity / Macro",
+      "category": "Macro / Global",
+      "quote": "The worse a situation becomes, the less it takes to turn it around, and the bigger the upside.",
+      "avatar": "GS",
+      "color": "#6366F1"
+    },
+    {
+      "id": "druckenmiller",
+      "name": "Stanley Druckenmiller",
+      "short": "Druckenmiller",
+      "title": "Aggressive Macro",
+      "category": "Macro / Global",
+      "quote": "The key to making money is being right and being leveraged when you're right.",
+      "avatar": "SD",
+      "color": "#6366F1"
+    },
+    {
+      "id": "rogers",
+      "name": "Jim Rogers",
+      "short": "Rogers",
+      "title": "Commodities / Global Macro",
+      "category": "Macro / Global",
+      "quote": "I just wait until there is money lying in the corner, and I go over and pick it up.",
+      "avatar": "JR",
+      "color": "#6366F1"
+    },
+    {
+      "id": "grantham",
+      "name": "Jeremy Grantham",
+      "short": "Grantham",
+      "title": "Contrarian / Bubble Watcher",
+      "category": "Macro / Global",
+      "quote": "Bubbles are a function of human nature. They will always be with us.",
+      "avatar": "JG",
+      "color": "#6366F1"
+    }
+  ],
+  "Quantitative": [
+    {
+      "id": "simons",
+      "name": "Jim Simons",
+      "short": "Simons",
+      "title": "Quant / Statistical Arbitrage",
+      "category": "Quantitative",
+      "quote": "We search for repeating patterns. That's all we do.",
+      "avatar": "JS",
+      "color": "#06B6D4"
+    },
+    {
+      "id": "derman",
+      "name": "Emanuel Derman",
+      "short": "Derman",
+      "title": "Quant / Derivatives",
+      "category": "Quantitative",
+      "quote": "Models are simplified representations of reality. They are not reality itself.",
+      "avatar": "ED",
+      "color": "#06B6D4"
+    },
+    {
+      "id": "taleb",
+      "name": "Nassim Taleb",
+      "short": "Taleb",
+      "title": "Risk / Black Swan / Antifragile",
+      "category": "Quantitative",
+      "quote": "Don't cross a river if it is, on average, four feet deep.",
+      "avatar": "NT",
+      "color": "#06B6D4"
+    },
+    {
+      "id": "thorp",
+      "name": "Edward Thorp",
+      "short": "Thorp",
+      "title": "Quant / Arbitrage",
+      "category": "Quantitative",
+      "quote": "The house always has an edge. The trick is to find the edge and make it yours.",
+      "avatar": "ET",
+      "color": "#06B6D4"
+    },
+    {
+      "id": "asness",
+      "name": "Cliff Asness",
+      "short": "Asness",
+      "title": "Quant / Factor Investing",
+      "category": "Quantitative",
+      "quote": "The worst drawdowns come from the best strategies. Stay disciplined.",
+      "avatar": "CA",
+      "color": "#06B6D4"
+    }
+  ],
+  "Hedge Fund Managers": [
+    {
+      "id": "griffin",
+      "name": "Ken Griffin",
+      "short": "Griffin",
+      "title": "Multi-Strategy",
+      "category": "Hedge Fund Managers",
+      "quote": "The most important thing in investing is to survive. If you survive, you compound.",
+      "avatar": "KG",
+      "color": "#EF4444"
+    },
+    {
+      "id": "loeb",
+      "name": "Daniel Loeb",
+      "short": "Loeb",
+      "title": "Activist Investing",
+      "category": "Hedge Fund Managers",
+      "quote": "We seek to engage with management to unlock shareholder value.",
+      "avatar": "DL",
+      "color": "#EF4444"
+    },
+    {
+      "id": "einhorn",
+      "name": "David Einhorn",
+      "short": "Einhorn",
+      "title": "Value-Oriented / Short Seller",
+      "category": "Hedge Fund Managers",
+      "quote": "I'm not a short seller. I'm a long-term investor who occasionally sells short.",
+      "avatar": "DE",
+      "color": "#EF4444"
+    },
+    {
+      "id": "ackman",
+      "name": "Bill Ackman",
+      "short": "Ackman",
+      "title": "Concentrated Value / Activist",
+      "category": "Hedge Fund Managers",
+      "quote": "Simple but not easy \u2014 buying great businesses at attractive prices and holding them.",
+      "avatar": "BA",
+      "color": "#EF4444"
+    },
+    {
+      "id": "icahn",
+      "name": "Carl Icahn",
+      "short": "Icahn",
+      "title": "Corporate Raider / Activist",
+      "category": "Hedge Fund Managers",
+      "quote": "I make money by buying companies that are undervalued and then trying to fix them.",
+      "avatar": "CI",
+      "color": "#EF4444"
+    },
+    {
+      "id": "tepper",
+      "name": "David Tepper",
+      "short": "Tepper",
+      "title": "Opportunistic / Distressed",
+      "category": "Hedge Fund Managers",
+      "quote": "The market is a two-way street. You can make money on the upside and the downside.",
+      "avatar": "DT",
+      "color": "#EF4444"
+    },
+    {
+      "id": "cooperman",
+      "name": "Leon Cooperman",
+      "short": "Cooperman",
+      "title": "Value / Catalyst",
+      "category": "Hedge Fund Managers",
+      "quote": "I'm a value investor with a catalyst. I want to know what's going to make the stock go up.",
+      "avatar": "LC",
+      "color": "#EF4444"
+    }
+  ],
+  "Economic": [
+    {
+      "id": "yellen",
+      "name": "Janet Yellen",
+      "short": "Yellen",
+      "title": "Central Banking / Labor Economics",
+      "category": "Economic",
+      "quote": "I think the best way to promote growth and reduce inequality is through monetary policy.",
+      "avatar": "JY",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "bernanke",
+      "name": "Ben Bernanke",
+      "short": "Bernanke",
+      "title": "Monetary Policy / Great Depression Scholar",
+      "category": "Economic",
+      "quote": "The Great Depression was caused by the failure of central banks to provide liquidity.",
+      "avatar": "BB",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "greenspan",
+      "name": "Alan Greenspan",
+      "short": "Greenspan",
+      "title": "Free Market / Data-Driven",
+      "category": "Economic",
+      "quote": "If I seem unduly clear to you, you must have misunderstood what I said.",
+      "avatar": "AG",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "roubini",
+      "name": "Nouriel Roubini",
+      "short": "Roubini",
+      "title": "Permabear / Crisis Forecaster",
+      "category": "Economic",
+      "quote": "The economy is facing a perfect storm of risks.",
+      "avatar": "NR",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "krugman",
+      "name": "Paul Krugman",
+      "short": "Krugman",
+      "title": "New Keynesian / Trade Theory",
+      "category": "Economic",
+      "quote": "Productivity isn't everything, but in the long run it is almost everything.",
+      "avatar": "PK",
+      "color": "#8B5CF6"
+    }
+  ],
+  "Tech / Innovation": [
+    {
+      "id": "musk",
+      "name": "Elon Musk",
+      "short": "Musk",
+      "title": "First Principles / High Risk Innovation",
+      "category": "Tech / Innovation",
+      "quote": "If something is important enough, you should try even if the probable outcome is failure.",
+      "avatar": "EM",
+      "color": "#EC4899"
+    },
+    {
+      "id": "andreessen",
+      "name": "Marc Andreessen",
+      "short": "Andreessen",
+      "title": "Venture / Software Eating the World",
+      "category": "Tech / Innovation",
+      "quote": "Software is eating the world.",
+      "avatar": "MA",
+      "color": "#EC4899"
+    }
+  ]
+}

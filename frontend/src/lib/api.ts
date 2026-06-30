@@ -1,9 +1,17 @@
-/** Same-origin `/api/…/` in dev (Next proxy); full URL on GitHub Pages builds. */
+import { getApiKey } from "@/lib/storage";
+import { clientSendChat } from "@/lib/client-chat";
+import {
+  clientFetchMarketHeadlines,
+  clientFetchMarketIndices,
+} from "@/lib/client-market";
+import { hasBackendApi } from "@/lib/runtime";
+import personasGrouped from "@/data/personas.json";
+
+/** Same-origin `/api/…/` in dev (Next proxy); full URL if self-hosting backend. */
 function apiUrl(path: string): string {
   const base = (process.env.NEXT_PUBLIC_API_URL || "").replace(/\/$/, "");
   let normalized = path.startsWith("/") ? path : `/${path}`;
 
-  // Next.js trailingSlash redirects POST without preserving body — always use trailing slash.
   const qIndex = normalized.indexOf("?");
   let pathPart = qIndex >= 0 ? normalized.slice(0, qIndex) : normalized;
   const query = qIndex >= 0 ? normalized.slice(qIndex) : "";
@@ -60,38 +68,69 @@ export interface ChatResponse {
   sections?: ChatSections;
 }
 
-export async function fetchPersonas(): Promise<Persona[]> {
-  const res = await fetch(apiUrl("/api/personas"));
-  if (!res.ok) throw new Error("Failed to fetch personas");
+const STATIC_COMMANDS: CommandStructure = {
+  Data: {
+    commands: [
+      { cmd: "/quote TICKER", desc: "Real-time price (Yahoo)" },
+      { cmd: "/help", desc: "Command list" },
+      { cmd: "/personas", desc: "List investor personas" },
+    ],
+  },
+  System: {
+    commands: [
+      { cmd: "/clear", desc: "Clear terminal" },
+      { cmd: "/key", desc: "Set OpenRouter API key (browser)" },
+    ],
+  },
+};
+
+const STATIC_SLASH = [
+  "/help",
+  "/quote",
+  "/personas",
+  "/ask",
+  "/clear",
+  "/key",
+];
+
+async function backendFetch<T>(path: string): Promise<T> {
+  const res = await fetch(apiUrl(path));
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
+}
+
+export async function fetchPersonas(): Promise<Persona[]> {
+  if (!hasBackendApi()) {
+    return Object.values(personasGrouped as PersonaGroup).flat();
+  }
+  return backendFetch("/api/personas");
 }
 
 export async function fetchPersonasGrouped(): Promise<PersonaGroup> {
-  const res = await fetch(apiUrl("/api/personas/grouped"));
-  if (!res.ok) throw new Error("Failed to fetch personas");
-  return res.json();
+  if (!hasBackendApi()) {
+    return personasGrouped as PersonaGroup;
+  }
+  return backendFetch("/api/personas/grouped");
 }
 
 export async function fetchCommands(): Promise<CommandStructure> {
-  const res = await fetch(apiUrl("/api/commands"));
-  if (!res.ok) throw new Error("Failed to fetch commands");
-  return res.json();
+  if (!hasBackendApi()) return STATIC_COMMANDS;
+  return backendFetch("/api/commands");
 }
 
 export async function fetchSlashCommands(): Promise<string[]> {
-  const res = await fetch(apiUrl("/api/commands/slash"));
-  if (!res.ok) throw new Error("Failed to fetch slash commands");
-  return res.json();
+  if (!hasBackendApi()) return STATIC_SLASH;
+  return backendFetch("/api/commands/slash");
 }
 
 export async function fetchHelp(): Promise<string> {
-  const res = await fetch(apiUrl("/api/help"));
-  if (!res.ok) throw new Error("Failed to fetch help");
-  const data = await res.json();
+  if (!hasBackendApi()) {
+    const r = await clientSendChat("/help", null, null);
+    return r.content;
+  }
+  const data = await backendFetch<{ content: string }>("/api/help");
   return data.content;
 }
-
-import { getApiKey } from "@/lib/storage";
 
 export async function sendChat(
   message: string,
@@ -99,8 +138,13 @@ export async function sendChat(
   sessionId: string,
   apiKey?: string | null
 ): Promise<ChatResponse> {
-  const controller = new AbortController();
   const key = apiKey ?? getApiKey();
+
+  if (!hasBackendApi()) {
+    return clientSendChat(message, personaId, key);
+  }
+
+  const controller = new AbortController();
   const isHeavy =
     (message.trim().toLowerCase().startsWith("/memo") &&
       /\b--full\b/i.test(message)) ||
@@ -128,7 +172,8 @@ export async function sendChat(
         typeof detail === "string"
           ? detail
           : Array.isArray(detail)
-            ? detail.map((d: { msg?: string }) => d.msg).filter(Boolean).join("; ") || `HTTP ${res.status}`
+            ? detail.map((d: { msg?: string }) => d.msg).filter(Boolean).join("; ") ||
+              `HTTP ${res.status}`
             : `HTTP ${res.status}`
       );
     }
@@ -137,13 +182,13 @@ export async function sendChat(
     if (e instanceof Error && e.name === "AbortError") {
       throw new Error(
         isHeavy
-          ? "Request timed out. Heavy commands like /memo can take several minutes — try again or check backend logs."
-          : "Request timed out after 90s. Try a shorter question or /quote TICKER."
+          ? "Request timed out. Heavy commands like /memo can take several minutes."
+          : "Request timed out after 90s."
       );
     }
     if (e instanceof TypeError && e.message === "Failed to fetch") {
       throw new Error(
-        "Cannot reach the Meridian API. Start the backend (uvicorn main:app --port 8000) and use npm run dev for the frontend."
+        "Cannot reach the Meridian API. For full commands, run the local backend (see README)."
       );
     }
     throw e;
@@ -158,9 +203,15 @@ export async function fetchHealth(): Promise<{
   client_api_key?: boolean;
   initialized: boolean;
 }> {
-  const res = await fetch(apiUrl("/api/health"));
-  if (!res.ok) throw new Error("Backend unavailable");
-  return res.json();
+  if (!hasBackendApi()) {
+    return {
+      status: "ok",
+      has_api_key: false,
+      client_api_key: true,
+      initialized: true,
+    };
+  }
+  return backendFetch("/api/health");
 }
 
 export interface MarketIndex {
@@ -197,25 +248,22 @@ export async function fetchMarketIndices(): Promise<{
   indices: MarketIndex[];
   updated_at: string;
 }> {
-  const res = await fetch(apiUrl("/api/market/indices"));
-  if (!res.ok) throw new Error("Failed to fetch indices");
-  return res.json();
+  if (!hasBackendApi()) return clientFetchMarketIndices();
+  return backendFetch("/api/market/indices");
 }
 
 export async function fetchMarketHeadlines(limit = 25): Promise<{
   headlines: MarketHeadline[];
   updated_at: string;
 }> {
-  const res = await fetch(apiUrl(`/api/market/headlines?limit=${limit}`));
-  if (!res.ok) throw new Error("Failed to fetch headlines");
-  return res.json();
+  if (!hasBackendApi()) return clientFetchMarketHeadlines(limit);
+  return backendFetch(`/api/market/headlines?limit=${limit}`);
 }
 
 export async function fetchMarketTape(): Promise<{
   tape: MarketTapeItem[];
   updated_at: string;
 }> {
-  const res = await fetch(apiUrl("/api/market/tape"));
-  if (!res.ok) throw new Error("Failed to fetch market tape");
-  return res.json();
+  if (!hasBackendApi()) throw new Error("Market tape requires backend");
+  return backendFetch("/api/market/tape");
 }

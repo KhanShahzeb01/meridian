@@ -97,12 +97,8 @@ export function MarketPulse() {
             className="mb-5 rounded-lg border border-[var(--color-danger)]/30 bg-[var(--color-danger)]/5 px-4 py-3 text-sm text-[var(--color-muted)]"
             role="status"
           >
-            Market data API unreachable — from the project root run:{" "}
-            <code className="text-[var(--color-foreground)]">
-              cd backend && uvicorn main:app --port 8000
-            </code>
-            , then restart <code className="text-[var(--color-foreground)]">npm run dev</code>{" "}
-            in <code className="text-[var(--color-foreground)]">frontend/</code>.
+            Market data temporarily unavailable — check your connection and refresh. Yahoo Finance
+            is fetched directly in your browser (no server required).
           </p>
         ) : null}
 

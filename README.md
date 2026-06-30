@@ -1,107 +1,83 @@
 # Meridian Finance
 
-AI framework for financial analysis — live market data, 36 investor personas, and rallies-powered slash commands. Landing page + web terminal.
+AI financial terminal — like [Plexus](https://github.com/KhanShahzeb01/plexus), **100% static on GitHub Pages**. Your OpenRouter key stays in the browser. Market data loads from Yahoo Finance in the browser. No Render, no backend required to launch.
+
+**Live:** [https://KhanShahzeb01.github.io/meridian/](https://KhanShahzeb01.github.io/meridian/)
 
 ## Features
 
-- **Live market pulse** — S&P 500, NASDAQ, Dow, Gold, Crude Oil, VIX + paginated Yahoo headlines
+- **Live market pulse** — S&P 500, NASDAQ, Dow, Gold, Crude, VIX + Yahoo headlines (browser → Yahoo)
 - **36 personas** — Buffett, Munger, Simons, Dalio, and more
-- **Fast data commands** — `/quote`, `/news`, `/financials`, `/vix`, `/macro` (sub-second)
-- **Browser-only API key** — like [Plexus](https://github.com/KhanShahzeb01/plexus); your OpenRouter key stays in localStorage, never saved on the server
+- **Terminal** — `/quote`, `/ask`, `/personas`, OpenRouter AI via Settings
+- **Browser-only API key** — localStorage only, never saved on a server
 
-## Architecture
-
-| Layer | Host | Notes |
-|-------|------|--------|
-| **Frontend** | GitHub Pages | Static Next.js export (`frontend/out`) |
-| **Backend** | Render / Railway / local | FastAPI — market data + AI routing |
-
-GitHub Pages serves HTML/JS only. The API must run elsewhere and be set via `NEXT_PUBLIC_API_URL` at build time.
+Optional **local backend** (`backend/`) unlocks full rallies slash commands (`/memo`, `/research`, `/dcf`, etc.) for development.
 
 ---
 
-## Local development
+## Deploy (GitHub Pages — same idea as Plexus)
 
-### 1. Backend
+```bash
+git push origin main
+```
+
+1. **Settings → Pages → Source:** **GitHub Actions**
+2. Optional variable **`MERIDIAN_BASE_PATH`** = `/meridian` (default in workflow)
+3. Push to `main` — site builds and deploys automatically
+
+No `MERIDIAN_API_URL`, no Render, no secrets.
+
+---
+
+## Local development (full rallies backend)
+
+### Backend (optional — all slash commands)
 
 ```bash
 cd backend
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
 uvicorn main:app --host 127.0.0.1 --port 8000
 ```
 
-### 2. Frontend
+### Frontend
 
 ```bash
 cd frontend
 npm install
 cp .env.example .env.local
+# For full API: uncomment NEXT_PUBLIC_API_URL=http://127.0.0.1:8000 in .env.local
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) · Terminal: [http://localhost:3000/terminal](http://localhost:3000/terminal)
+Open [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
-### 3. API key (required for AI)
+### API key (required for AI)
 
-1. Get a key from [openrouter.ai/keys](https://openrouter.ai/keys)
-2. In the terminal, click **Settings** (⚙) or run `/key sk-or-v1-…`
-3. Key is stored **only in your browser** — not on the server
-
----
-
-## Deploy to GitHub Pages (frontend)
-
-```bash
-git init
-git add .
-git commit -m "Meridian Finance initial release"
-git remote add origin https://github.com/KhanShahzeb01/meridian.git
-git branch -M main
-git push -u origin main
-```
-
-1. **Repository → Settings → Pages → Source:** GitHub Actions  
-2. **Repository → Settings → Secrets and variables → Actions → Variables:**
-   - `MERIDIAN_API_URL` — e.g. `https://meridian-api.onrender.com`
-   - `MERIDIAN_BASE_PATH` — e.g. `/meridian` (repo name; omit for `username.github.io` root site)
-3. Push to `main` — workflow `.github/workflows/deploy-pages.yml` builds and deploys
-
-Site URL: `https://KhanShahzeb01.github.io/meridian/`
+1. [openrouter.ai/keys](https://openrouter.ai/keys)
+2. Terminal → **Settings** (⚙) or `/key sk-or-v1-…`
+3. Stored **only in your browser**
 
 ---
 
-## Deploy backend (Render example)
+## Commands (GitHub Pages)
 
-1. New **Web Service** → connect repo, root `backend`
-2. Build: `pip install -r requirements.txt`
-3. Start: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-4. Env: `CORS_ORIGINS=https://YOUR_USERNAME.github.io`
-5. Copy the service URL into GitHub variable `MERIDIAN_API_URL`
+| Command | Description |
+|---------|-------------|
+| `/quote AAPL` | Yahoo price in browser |
+| `/ask buffett …` | Persona via OpenRouter |
+| `/personas` | List 36 investors |
+| `/help` | Command summary |
+| `/clear` | Clear terminal |
 
-No `OPENROUTER_API_KEY` on the server in production — users supply keys in the browser.
-
----
-
-## Commands
-
-Type `/help` in the terminal. Highlights:
-
-| Category | Commands |
-|----------|----------|
-| Data | `/quote`, `/financials`, `/news`, `/sec`, `/vix`, `/macro` |
-| Personas | `/personas`, `/ask`, `/debate`, `/consensus` |
-| Research | `/memo`, `/research`, `/dcf`, `/screen` |
-| Portfolio | `/watchlist`, `/portfolio` |
-| System | `/help`, `/key`, `/clear` |
+Full rallies commands need the optional local backend — see above.
 
 ---
 
 ## Tech stack
 
-- **Frontend:** Next.js 16, TypeScript, Tailwind CSS
-- **Backend:** FastAPI, yfinance, Yahoo Finance
-- **AI:** OpenRouter (user-provided key)
-- **Engine:** Vendored rallies in `backend/vendor/rallies/`
+- **Frontend:** Next.js 16 static export → GitHub Pages
+- **AI:** OpenRouter (direct from browser, like Plexus)
+- **Market data:** Yahoo Finance APIs (browser)
+- **Optional backend:** FastAPI + vendored rallies (`backend/`)

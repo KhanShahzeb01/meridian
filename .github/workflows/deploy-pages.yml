@@ -30,11 +30,10 @@ jobs:
         working-directory: frontend
         run: npm ci
 
-      - name: Build static site
+      - name: Build static site (browser-only, like Plexus)
         working-directory: frontend
         env:
-          NEXT_PUBLIC_API_URL: ${{ vars.MERIDIAN_API_URL }}
-          NEXT_PUBLIC_BASE_PATH: ${{ vars.MERIDIAN_BASE_PATH }}
+          NEXT_PUBLIC_BASE_PATH: /meridian
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
