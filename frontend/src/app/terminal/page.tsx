@@ -236,7 +236,7 @@ export default function TerminalPage() {
 
       const response = await sendChat(
         text,
-        isSlash ? null : personaId,
+        personaId,
         activeSession.id,
         getApiKey()
       );

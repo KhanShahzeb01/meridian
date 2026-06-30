@@ -1,8 +1,13 @@
 import type { ChatResponse } from "./api";
-import personaPrompts from "@/data/persona-prompts.json";
 import personasGrouped from "@/data/personas.json";
-import { OPENROUTER_MODEL } from "./runtime";
+import { OPENROUTER_MODELS } from "./runtime";
 import { clientFetchQuote } from "./client-market";
+import {
+  getPersonaPrompt,
+  hasPersonaPrompt,
+  parseAskCommand,
+  resolvePersonaId,
+} from "./persona-resolve";
 
 const STATIC_HELP = `## Meridian commands (GitHub Pages)
 
@@ -10,11 +15,13 @@ const STATIC_HELP = `## Meridian commands (GitHub Pages)
 
 **Info:** \`/help\` · \`/personas\` · \`/clear\`
 
-**AI (OpenRouter key in Settings):** type any question, \`/ask buffett Is NVDA a buy?\`, or select a persona
+**AI (OpenRouter key in Settings):**
+- Select a persona in the sidebar, then type your question
+- Or: \`/ask buffett Is NVDA a buy?\` (aliases like \`buffet\` → Buffett work)
 
 **System:** \`/key YOUR_KEY\` — save API key in this browser
 
-Full rallies commands (\`/memo\`, \`/research\`, \`/dcf\`, \`/news\`, etc.) need the optional local backend — see README.`;
+Full rallies commands (\`/memo\`, \`/research\`, \`/dcf\`, etc.) need the local backend.`;
 
 const BACKEND_ONLY =
   /^\/(memo|research|consensus|dcf|financials|news|sec|filing|screen|debate|compare|macro|vix|watchlist|portfolio|options|chart|insider|holdings|hedgefund|bundle|optimize|analysis|fetch|skill|searchsec)\b/i;
@@ -35,40 +42,54 @@ async function openRouterChat(
   apiKey: string,
   messages: { role: string; content: string }[]
 ): Promise<string> {
-  let res: Response;
-  try {
-    res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-        "HTTP-Referer": typeof window !== "undefined" ? window.location.origin : "",
-        "X-Title": "Meridian Finance",
-      },
-      body: JSON.stringify({
-        model: OPENROUTER_MODEL,
-        messages,
-        max_tokens: 4096,
-        temperature: 0.7,
-      }),
-    });
-  } catch {
-    throw new Error(
-      "Cannot reach OpenRouter. Check your internet connection and API key in Settings."
-    );
-  }
-  if (!res.ok) {
-    let detail = `HTTP ${res.status}`;
+  let lastError = "OpenRouter request failed";
+
+  for (const model of OPENROUTER_MODELS) {
+    let res: Response;
     try {
-      const err = await res.json();
-      detail = err.error?.message || detail;
+      res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${apiKey}`,
+          "HTTP-Referer": typeof window !== "undefined" ? window.location.origin : "",
+          "X-Title": "Meridian Finance",
+        },
+        body: JSON.stringify({
+          model,
+          messages,
+          max_tokens: 4096,
+          temperature: 0.7,
+        }),
+      });
     } catch {
-      /* ignore */
+      lastError = "Cannot reach OpenRouter. Check your connection and API key.";
+      continue;
     }
-    throw new Error(detail);
+
+    if (!res.ok) {
+      try {
+        const err = await res.json();
+        lastError = err.error?.message || `HTTP ${res.status}`;
+      } catch {
+        lastError = `HTTP ${res.status}`;
+      }
+      // Try next model on provider/rate-limit errors
+      if (res.status === 402 || res.status === 429 || /provider/i.test(lastError)) {
+        continue;
+      }
+      throw new Error(lastError);
+    }
+
+    const data = await res.json();
+    const content = data.choices?.[0]?.message?.content?.trim();
+    if (content) return content;
+    lastError = "Empty response from model";
   }
-  const data = await res.json();
-  return data.choices?.[0]?.message?.content?.trim() || "(empty response)";
+
+  throw new Error(
+    `${lastError}. Try again in a moment or add credits at openrouter.ai — free models can be rate-limited.`
+  );
 }
 
 function backendOnlyMessage(cmd: string): ChatResponse {
@@ -92,6 +113,8 @@ export async function clientSendChat(
   if (!text) return { type: "empty", content: "" };
 
   const lower = text.toLowerCase();
+  const resolvedSelection = resolvePersonaId(personaId);
+
   if (lower === "/clear") return { type: "clear", content: "" };
   if (lower === "/help" || lower.startsWith("/help "))
     return { type: "help", content: STATIC_HELP, is_command: true, query: text };
@@ -125,6 +148,39 @@ export async function clientSendChat(
     };
   }
 
+  if (lower.startsWith("/ask")) {
+    if (!apiKey?.trim()) {
+      return {
+        type: "error",
+        content: "**OpenRouter API key required.** Open **Settings** (⚙) or run `/key YOUR_KEY`.",
+        query: text,
+      };
+    }
+    const parsed = parseAskCommand(text, resolvedSelection);
+    if ("error" in parsed) {
+      return { type: "error", content: parsed.error, is_command: true, query: text };
+    }
+    try {
+      const content = await openRouterChat(apiKey.trim(), [
+        { role: "system", content: getPersonaPrompt(parsed.personaId)! },
+        { role: "user", content: parsed.question },
+      ]);
+      return {
+        type: "ask",
+        content,
+        persona: parsed.personaId,
+        is_command: true,
+        query: text,
+      };
+    } catch (err) {
+      return {
+        type: "error",
+        content: `**Error:** ${err instanceof Error ? err.message : "Request failed"}`,
+        query: text,
+      };
+    }
+  }
+
   if (!apiKey?.trim()) {
     return {
       type: "error",
@@ -137,33 +193,12 @@ export async function clientSendChat(
   const messages: { role: string; content: string }[] = [];
 
   try {
-    if (personaId && personaPrompts[personaId as keyof typeof personaPrompts]) {
+    if (resolvedSelection && hasPersonaPrompt(resolvedSelection)) {
       messages.push({
         role: "system",
-        content: personaPrompts[personaId as keyof typeof personaPrompts],
+        content: getPersonaPrompt(resolvedSelection)!,
       });
-    } else if (lower.startsWith("/ask ")) {
-      const parts = text.split(/\s+/);
-      const pid = parts[1]?.toLowerCase();
-      const question = parts.slice(2).join(" ");
-      if (!pid || !personaPrompts[pid as keyof typeof personaPrompts]) {
-        return {
-          type: "error",
-          content: `Unknown persona \`${pid || "?"}\`. Run \`/personas\` for IDs.`,
-          is_command: true,
-          query: text,
-        };
-      }
-      messages.push({
-        role: "system",
-        content: personaPrompts[pid as keyof typeof personaPrompts],
-      });
-      messages.push({ role: "user", content: question || text });
-      const content = await openRouterChat(key, messages);
-      return { type: "ask", content, persona: pid, query: text };
-    }
-
-    if (!messages.length) {
+    } else {
       messages.push({
         role: "system",
         content:
@@ -174,9 +209,9 @@ export async function clientSendChat(
 
     const content = await openRouterChat(key, messages);
     return {
-      type: personaId ? "ask" : "chat",
+      type: resolvedSelection ? "ask" : "chat",
       content,
-      persona: personaId || undefined,
+      persona: resolvedSelection || undefined,
       query: text,
     };
   } catch (err) {
