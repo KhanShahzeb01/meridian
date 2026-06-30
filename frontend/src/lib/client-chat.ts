@@ -87,8 +87,23 @@ export async function clientSendChat(
         query: text,
       };
     }
-    const md = await clientFetchQuote(ticker);
-    return { type: "quote", content: md, is_command: true, query: text };
+    try {
+      const md = await clientFetchQuote(ticker);
+      const isError = md.startsWith("Could not fetch");
+      return {
+        type: isError ? "error" : "quote",
+        content: md,
+        is_command: true,
+        query: text,
+      };
+    } catch {
+      return {
+        type: "error",
+        content: `Could not fetch quote for **${ticker.toUpperCase()}**. Check your connection and try again.`,
+        is_command: true,
+        query: text,
+      };
+    }
   }
 
   if (!apiKey?.trim()) {

@@ -1,6 +1,5 @@
 import type { MarketHeadline, MarketIndex } from "./api";
-
-const HEADERS = { "User-Agent": "MeridianFinance/1.0" };
+import { fetchYahooChart, fetchYahooJson } from "./yahoo-fetch";
 
 const INDICES = [
   { id: "sp500", name: "S&P 500", symbol: "^GSPC", fallback: "SPY" },
@@ -11,9 +10,16 @@ const INDICES = [
   { id: "vix", name: "VIX", symbol: "^VIX", fallback: "VIXY" },
 ] as const;
 
+export interface SnapshotQuote {
+  price: number;
+  prev_close?: number | null;
+  change_pct?: number | null;
+}
+
 interface MarketSnapshot {
   indices: MarketIndex[];
   headlines: MarketHeadline[];
+  quotes?: Record<string, SnapshotQuote>;
   updated_at: string;
   source?: string;
 }
@@ -28,15 +34,15 @@ function basePath(): string {
 
 function snapshotUrls(): string[] {
   const bp = basePath();
-  const sameOrigin = `${bp}/market-snapshot.json`;
-  const raw =
-    "https://raw.githubusercontent.com/KhanShahzeb01/meridian/main/docs/market-snapshot.json";
-  return [sameOrigin, raw];
+  return [
+    `${bp}/market-snapshot.json`,
+    "https://raw.githubusercontent.com/KhanShahzeb01/meridian/main/docs/market-snapshot.json",
+  ];
 }
 
 let snapshotPromise: Promise<MarketSnapshot | null> | null = null;
 
-async function loadSnapshot(): Promise<MarketSnapshot | null> {
+export async function loadSnapshot(): Promise<MarketSnapshot | null> {
   if (!snapshotPromise) {
     snapshotPromise = (async () => {
       for (const url of snapshotUrls()) {
@@ -44,7 +50,7 @@ async function loadSnapshot(): Promise<MarketSnapshot | null> {
           const res = await fetch(url, { cache: "no-store" });
           if (!res.ok) continue;
           const data = (await res.json()) as MarketSnapshot;
-          if (data.indices?.length || data.headlines?.length) return data;
+          if (data.indices?.length || data.headlines?.length || data.quotes) return data;
         } catch {
           /* try next */
         }
@@ -55,31 +61,10 @@ async function loadSnapshot(): Promise<MarketSnapshot | null> {
   return snapshotPromise;
 }
 
-async function fetchChart(symbol: string): Promise<{
-  series: number[];
-  price: number | null;
-  prev: number | null;
-}> {
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=5d&interval=30m`;
-  const res = await fetch(url, { headers: HEADERS });
-  if (!res.ok) return { series: [], price: null, prev: null };
-  const data = await res.json();
-  const block = data?.chart?.result?.[0];
-  if (!block) return { series: [], price: null, prev: null };
-  const meta = block.meta || {};
-  const closes = (block.indicators?.quote?.[0]?.close || []).filter(
-    (c: number | null) => c != null
-  ) as number[];
-  const series = closes.slice(-32);
-  const price = meta.regularMarketPrice ?? (series.at(-1) ?? null);
-  const prev = meta.previousClose ?? meta.chartPreviousClose ?? null;
-  return { series, price, prev };
-}
-
 async function fetchIndex(meta: (typeof INDICES)[number]): Promise<MarketIndex> {
-  let { series, price, prev } = await fetchChart(meta.symbol);
-  if (!series.length) {
-    const fb = await fetchChart(meta.fallback);
+  let { series, price, prev } = await fetchYahooChart(meta.symbol);
+  if (!series.length && price == null) {
+    const fb = await fetchYahooChart(meta.fallback);
     series = fb.series;
     price = fb.price;
     prev = fb.prev;
@@ -115,24 +100,16 @@ async function fetchLiveIndices(): Promise<MarketIndex[] | null> {
 async function fetchLiveHeadlines(limit: number): Promise<MarketHeadline[] | null> {
   try {
     const url = `https://query1.finance.yahoo.com/v1/finance/search?q=finance&newsCount=${limit}`;
-    const res = await fetch(url, { headers: HEADERS });
-    if (!res.ok) return null;
-    const data = await res.json();
-    const headlines: MarketHeadline[] = (data.news || []).slice(0, limit).map(
-      (n: {
-        title?: string;
-        link?: string;
-        providerPublishTime?: number;
-        publisher?: string;
-      }) => ({
-        title: n.title || "",
-        url: n.link || "",
-        published: n.providerPublishTime
-          ? new Date(n.providerPublishTime * 1000).toISOString()
-          : "",
-        source: n.publisher || "Yahoo Finance",
-      })
-    );
+    const data = (await fetchYahooJson(url)) as { news?: { title?: string; link?: string; providerPublishTime?: number; publisher?: string }[] } | null;
+    if (!data?.news?.length) return null;
+    const headlines: MarketHeadline[] = data.news.slice(0, limit).map((n) => ({
+      title: n.title || "",
+      url: n.link || "",
+      published: n.providerPublishTime
+        ? new Date(n.providerPublishTime * 1000).toISOString()
+        : "",
+      source: n.publisher || "Yahoo Finance",
+    }));
     return headlines.length ? headlines : null;
   } catch {
     return null;
@@ -174,14 +151,34 @@ export async function clientFetchMarketHeadlines(limit = 25): Promise<{
   return { headlines, updated_at };
 }
 
+function formatQuoteMarkdown(sym: string, price: number, changePct: number | null, source: string): string {
+  const chg = changePct != null ? changePct.toFixed(2) : "—";
+  const sign = changePct != null && changePct >= 0 ? "+" : "";
+  return `## ${sym}\n\n| Metric | Value |\n| --- | --- |\n| Price | $${price.toFixed(2)} |\n| Change (1d) | ${sign}${chg}% |\n\n*${source}*`;
+}
+
 export async function clientFetchQuote(ticker: string): Promise<string> {
   const sym = ticker.toUpperCase().replace(/^\$/, "");
-  const { price, prev, series } = await fetchChart(sym);
-  if (price == null) {
-    return `Could not fetch quote for **${sym}**. Check the ticker symbol.`;
+
+  const { price, prev } = await fetchYahooChart(sym);
+  if (price != null) {
+    const changePct =
+      prev != null && prev !== 0 ? ((price - prev) / prev) * 100 : null;
+    return formatQuoteMarkdown(sym, price, changePct, "Yahoo Finance · live");
   }
-  const chg =
-    prev != null && prev !== 0 ? (((price - prev) / prev) * 100).toFixed(2) : "—";
-  const sign = Number(chg) >= 0 ? "+" : "";
-  return `## ${sym}\n\n| Metric | Value |\n| --- | --- |\n| Price | $${price.toFixed(2)} |\n| Change (1d) | ${sign}${chg}% |\n\n*Yahoo Finance · browser*`;
+
+  const snapshot = await loadSnapshot();
+  const cached = snapshot?.quotes?.[sym];
+  if (cached?.price != null) {
+    let changePct = cached.change_pct ?? null;
+    if (changePct == null && cached.prev_close) {
+      changePct = ((cached.price - cached.prev_close) / cached.prev_close) * 100;
+    }
+    const age = snapshot?.updated_at
+      ? ` · snapshot ${new Date(snapshot.updated_at).toLocaleString()}`
+      : "";
+    return formatQuoteMarkdown(sym, cached.price, changePct, `Yahoo Finance · cached${age}`);
+  }
+
+  return `Could not fetch quote for **${sym}**. Yahoo Finance blocks direct browser access on GitHub Pages — try again after the market snapshot refreshes (~10 min), or run the local backend for live quotes on any ticker.`;
 }

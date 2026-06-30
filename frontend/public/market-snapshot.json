@@ -4,11 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7492.69,
-      "change": 52.25999999999931,
-      "change_pct": 0.702378760367335,
+      "price": 7495.05,
+      "change": 54.61999999999989,
+      "change_pct": 0.7340973572763925,
       "series": [
-        7381.6298828125,
         7361.52001953125,
         7372.259765625,
         7375.14013671875,
@@ -39,20 +38,20 @@
         7495.93017578125,
         7493.2001953125,
         7492.68017578125,
-        7492.68994140625
+        7495.759765625,
+        7495.0498046875
       ],
-      "as_of": "2026-06-30 18:00 UTC",
+      "as_of": "2026-06-30 18:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26162.986,
-      "change": 342.84100000000035,
-      "change_pct": 1.3278043171329996,
+      "price": 26171.373,
+      "change": 351.22799999999916,
+      "change_pct": 1.360286706368222,
       "series": [
-        25423.228515625,
         25363.20703125,
         25411.486328125,
         25423.53515625,
@@ -82,21 +81,21 @@
         26143.15234375,
         26179.84375,
         26159.12109375,
-        26166.35546875,
-        26162.986328125
+        26162.986328125,
+        26173.708984375,
+        26171.373046875
       ],
-      "as_of": "2026-06-30 18:00 UTC",
+      "as_of": "2026-06-30 18:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 52325.02,
-      "change": 142.27999999999884,
-      "change_pct": 0.2726572042786539,
+      "price": 52323.93,
+      "change": 141.19000000000233,
+      "change_pct": 0.2705683910043864,
       "series": [
-        52102.890625,
         51897.58984375,
         51974.62109375,
         51976.53125,
@@ -127,20 +126,20 @@
         52367.37890625,
         52364.41015625,
         52326.44140625,
-        52325.01953125
+        52321.890625,
+        52323.9296875
       ],
-      "as_of": "2026-06-30 18:00 UTC",
+      "as_of": "2026-06-30 18:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4044.4,
-      "change": 5.5,
-      "change_pct": 0.13617569140112407,
+      "price": 4045.9,
+      "change": 7.0,
+      "change_pct": 0.17331451632870337,
       "series": [
-        3975.800048828125,
         3979.10009765625,
         3983.800048828125,
         3995.800048828125,
@@ -170,21 +169,21 @@
         4044.5,
         4040.300048828125,
         4040.0,
-        4044.39990234375,
-        4044.39990234375
+        4045.5,
+        4046.699951171875,
+        4045.89990234375
       ],
-      "as_of": "2026-06-30 18:00 UTC",
+      "as_of": "2026-06-30 18:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 69.74,
-      "change": -1.0100000000000051,
-      "change_pct": -1.4275618374558376,
+      "price": 69.67,
+      "change": -1.0799999999999983,
+      "change_pct": -1.5265017667844498,
       "series": [
-        70.68000030517578,
         70.45999908447266,
         70.3499984741211,
         70.27999877929688,
@@ -214,19 +213,20 @@
         69.9800033569336,
         69.80000305175781,
         69.66000366210938,
-        69.69999694824219,
-        69.73999786376953
+        69.69000244140625,
+        69.66999816894531,
+        69.66999816894531
       ],
-      "as_of": "2026-06-30 18:00 UTC",
+      "as_of": "2026-06-30 18:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.63,
-      "change": -1.7800000000000011,
-      "change_pct": -9.668658337859865,
+      "price": 16.61,
+      "change": -1.8000000000000007,
+      "change_pct": -9.777294948397614,
       "series": [
         17.850000381469727,
         17.860000610351562,
@@ -258,43 +258,43 @@
         16.75,
         16.65999984741211,
         16.670000076293945,
-        16.6299991607666,
-        16.6299991607666
+        16.6200008392334,
+        16.610000610351562
       ],
-      "as_of": "2026-06-30 18:00 UTC",
+      "as_of": "2026-06-30 18:11 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Circle Stock Dives as Coinbase, BlackRock and Visa Back Open USD Stablecoin",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/circle-stock-dives-coinbase-blackrock-173812912.html",
-      "published": "2026-06-30T17:38:12Z",
-      "source": "decrypt"
+      "title": "Michael Burry just made a rare bullish bet on Big Tech",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-just-made-rare-090300615.html",
+      "published": "2026-06-29T09:03:00Z",
+      "source": "TheStreet"
     },
     {
-      "title": "Profit From Intel Stock's High Volatility With An Advanced Options Trade: The Short Strangle",
-      "url": "https://www.investors.com/research/options/intel-stock/?src=A00220&yptr=yahoo",
-      "published": "2026-06-30T17:36:27Z",
-      "source": "Investor's Business Daily"
+      "title": "Banks get creative and look further afield as AI-fueled debt soars",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/banks-creative-look-further-afield-090554702.html",
+      "published": "2026-06-29T09:05:54Z",
+      "source": "Reuters"
     },
     {
-      "title": "American Express Company (AXP) Remains One Of Warren Buffett\u2019s Oldest Stock Picks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-express-company-axp-remains-173428563.html",
-      "published": "2026-06-30T17:34:28Z",
-      "source": "Insider Monkey"
+      "title": "'We don't view this as a bubble' that will pop soon: Wall Street weighs surging AI costs on stock market rally",
+      "url": "https://finance.yahoo.com/markets/article/we-dont-view-this-as-a-bubble-that-will-pop-soon-wall-street-weighs-surging-ai-costs-on-stock-market-rally-115642288.html",
+      "published": "2026-06-28T11:56:42Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Warren Buffett\u2019s Berkshire Hathaway Has Held Moody\u2019s Corporation (MCO) Since 2010",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-hathaway-held-173417697.html",
-      "published": "2026-06-30T17:34:17Z",
-      "source": "Insider Monkey"
+      "title": "Aker Solutions Wins Hydropower Contract for 150 MW Tussa II Plant",
+      "url": "https://finance.yahoo.com/energy/articles/aker-solutions-wins-hydropower-contract-092000346.html",
+      "published": "2026-06-29T09:20:00Z",
+      "source": "Oilprice.com"
     },
     {
-      "title": "The Coca-Cola Company (KO) Remains One Of Warren Buffett\u2019s Oldest Stock Picks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-ko-remains-173409942.html",
-      "published": "2026-06-30T17:34:09Z",
-      "source": "Insider Monkey"
+      "title": "Emerging markets are now an AI chip trade: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/emerging-markets-are-now-an-ai-chip-trade-chart-of-the-day-115540648.html",
+      "published": "2026-06-28T11:55:40Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Market Update: CRL, MKC",
@@ -303,33 +303,33 @@
       "source": "Argus Research"
     },
     {
-      "title": "Why Kratos Defense & Security Solutions Stock Is Soaring Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-kratos-defense-security-solutions-173733852.html",
-      "published": "2026-06-30T17:37:33Z",
-      "source": "Motley Fool"
+      "title": "Borrowing Binge Lifts Stock Market to Risky Heights",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-29-2026/card/borrowing-binge-lifts-stock-market-to-risky-heights-hcCuLKnoHI5etS3gRRS3?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-06-29T09:00:58Z",
+      "source": "The Wall Street Journal"
     },
     {
-      "title": "Warren Buffett\u2019s Berkshire Hathaway Has Held DaVita Inc. (DVA) Since 2011",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-hathaway-held-173118984.html",
-      "published": "2026-06-30T17:31:18Z",
+      "title": "Stifel Lowers PT on Microsoft (MSFT), Maintains a Hold Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-lowers-pt-microsoft-msft-075430039.html",
+      "published": "2026-06-29T07:54:30Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Warren Buffett\u2019s Berkshire Hathaway Has Held VeriSign, Inc. (VRSN) Since 2012",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-hathaway-held-173025459.html",
-      "published": "2026-06-30T17:30:25Z",
+      "title": "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-partners-nokia-075421188.html",
+      "published": "2026-06-29T07:54:21Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Apple Inc. (AAPL) Is A Top Warren Buffett Stock Pick",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-inc-aapl-top-warren-172902225.html",
-      "published": "2026-06-30T17:29:02Z",
+      "title": "Visa Inc (V) Launches a New Travel Destination Platform",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-inc-v-launches-travel-075506602.html",
+      "published": "2026-06-29T07:55:06Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Bank Of America Corp (BAC) Is A Long Time Berkshire Hathaway Holding",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-corp-bac-long-172810547.html",
-      "published": "2026-06-30T17:28:10Z",
+      "title": "Eli Lilly and Company (LLY) Up More Than 6% Over the Past Month, Can it Move Higher?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-company-lly-more-075527794.html",
+      "published": "2026-06-29T07:55:27Z",
       "source": "Insider Monkey"
     },
     {
@@ -339,28 +339,34 @@
       "source": "Argus Research"
     },
     {
-      "title": "Warren Buffett\u2019s Berkshire Hathaway Has Held The Kraft Heinz Company (KHC) Since 2015",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-hathaway-held-172715232.html",
-      "published": "2026-06-30T17:27:15Z",
+      "title": "VELVET Jumps 300% in a Week on Aerodrome Move, Despite Market Downturn",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/velvet-jumps-300-week-aerodrome-084927258.html",
+      "published": "2026-06-29T08:49:27Z",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "Meta Platforms (META) To Launch a New Line of Smart Glasses and This Time They are Cheaper",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-launch-line-075457577.html",
+      "published": "2026-06-29T07:54:57Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Should You Buy Occidental Petroleum Corporation (OXY)\u2019s Shares?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-occidental-petroleum-corporation-oxy-172708072.html",
-      "published": "2026-06-30T17:27:08Z",
+      "title": "BofA Raises PT on Lam Research (LRCX), Keeps a Buy Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-pt-lam-research-075259611.html",
+      "published": "2026-06-29T07:52:59Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "The Kroger Co. (KR) Is One Of The Oldest Stocks In Warren Buffett\u2019s Berkshire Hathaway\u2019s Holdings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kroger-co-kr-one-oldest-172640598.html",
-      "published": "2026-06-30T17:26:40Z",
+      "title": "JPMorgan Lowers Q2 Delivery Estimates for Tesla (TSLA), Here\u2019s What You Need to Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-lowers-q2-delivery-estimates-075559952.html",
+      "published": "2026-06-29T07:55:59Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Stock Market Today: Nasdaq Shines; These Two Names Show A Powerful Trait (Live Coverage)",
-      "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-economic-data-aerovironment-avav/?src=A00220&yptr=yahoo",
-      "published": "2026-06-30T17:24:45Z",
-      "source": "Investor's Business Daily"
+      "title": "TD Cowen Raises PT on Allegro MicroSystems (ALGM)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-raises-pt-allegro-075405086.html",
+      "published": "2026-06-29T07:54:05Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Daily Spotlight: Bond Spreads Narrow",
@@ -369,34 +375,34 @@
       "source": "Argus Research"
     },
     {
-      "title": "Better Custom ASIC Stock: Marvell vs. Broadcom",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/better-custom-asic-stock-marvell-173500258.html",
-      "published": "2026-06-30T17:35:00Z",
+      "title": "Will SpaceX Stock Double Anytime Soon? No -- but These 3 Stocks Could",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-double-anytime-soon-090400961.html",
+      "published": "2026-06-29T09:04:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Ambarella Stock Rockets As AI Chipmaker Scores 'Top Pick' Rating",
-      "url": "https://www.investors.com/news/technology/ambarella-stock-rockets-ai-chipmaker-top-pick-rating/?src=A00220&yptr=yahoo",
-      "published": "2026-06-30T17:11:43Z",
-      "source": "Investor's Business Daily"
+      "title": "Jefferies Maintain a Buy Rating on Alphabet (GOOGL)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-maintain-buy-rating-alphabet-075448489.html",
+      "published": "2026-06-29T07:54:48Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Anthropic launches Claude Science in bid to expand revenue streams ahead of IPO",
-      "url": "https://finance.yahoo.com/technology/article/anthropic-launches-claude-science-in-bid-to-expand-revenue-streams-ahead-of-ipo-170000823.html",
-      "published": "2026-06-30T17:00:00Z",
-      "source": "Yahoo Finance"
+      "title": "Kulicke and Soffa Industries (KLIC) Up More Than 13% Over the Past Month, Here\u2019s Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kulicke-soffa-industries-klic-more-075348553.html",
+      "published": "2026-06-29T07:53:48Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Oil prices little changed but set for steepest monthly and quarterly losses\u00a0since 2020",
-      "url": "https://finance.yahoo.com/news/oil-falls-investors-focus-potential-040903565.html",
-      "published": "2026-06-30T16:58:22Z",
-      "source": "Reuters"
+      "title": "BofA Raises PT on UnitedHealth Group (UNH), Keeps a Buy Rating",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-pt-unitedhealth-group-075550617.html",
+      "published": "2026-06-29T07:55:50Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Wartime economy: Maersk lifts full-year guidance on strong demand",
-      "url": "https://finance.yahoo.com/economy/articles/wartime-economy-maersk-lifts-full-164517015.html",
-      "published": "2026-06-30T16:45:17Z",
-      "source": "FreightWaves"
+      "title": "Stifel Raises PT on Astera Labs (ALAB)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-raises-pt-astera-labs-075325963.html",
+      "published": "2026-06-29T07:53:25Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Technical Assessment: Bullish in the Intermediate-Term",
@@ -405,18 +411,99 @@
       "source": "Argus Research"
     },
     {
-      "title": "Is Rambus One of the Best AI Stocks to Buy Right Now?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rambus-one-best-ai-stocks-173500237.html",
-      "published": "2026-06-30T17:35:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Stock market today: S&P 500, Nasdaq rise, Dow eyes fresh record to wrap up standout quarter",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-rise-dow-eyes-fresh-record-to-wrap-up-standout-quarter-224823556.html",
-      "published": "2026-06-29T22:48:23Z",
-      "source": "Yahoo Finance"
+      "title": "AI and white-collar America's nervous breakdown",
+      "url": "https://finance.yahoo.com/economy/articles/ai-white-collar-americas-nervous-090000890.html",
+      "published": "2026-06-29T09:00:00Z",
+      "source": "Quartz"
     }
   ],
-  "updated_at": "2026-06-30T18:00:06.502418+00:00",
+  "quotes": {
+    "AAPL": {
+      "price": 288.81,
+      "prev_close": 281.74,
+      "change_pct": 2.509405835167173
+    },
+    "MSFT": {
+      "price": 370.71,
+      "prev_close": 368.57,
+      "change_pct": 0.5806224055131959
+    },
+    "NVDA": {
+      "price": 198.62,
+      "prev_close": 194.97,
+      "change_pct": 1.8720828845463433
+    },
+    "GOOGL": {
+      "price": 356.77,
+      "prev_close": 353.65,
+      "change_pct": 0.8822281917149738
+    },
+    "AMZN": {
+      "price": 238.92,
+      "prev_close": 240.14,
+      "change_pct": -0.5080369784292491
+    },
+    "META": {
+      "price": 560.305,
+      "prev_close": 562.6,
+      "change_pct": -0.4079274795592024
+    },
+    "TSLA": {
+      "price": 418.31,
+      "prev_close": 411.84,
+      "change_pct": 1.5709984459984525
+    },
+    "JPM": {
+      "price": 328.07,
+      "prev_close": 329.39,
+      "change_pct": -0.400740763228997
+    },
+    "V": {
+      "price": 342.895,
+      "prev_close": 341.65,
+      "change_pct": 0.36440801990341126
+    },
+    "XOM": {
+      "price": 136.54,
+      "prev_close": 136.06,
+      "change_pct": 0.35278553579302496
+    },
+    "SPY": {
+      "price": 746.725,
+      "prev_close": 741.0,
+      "change_pct": 0.7726045883940652
+    },
+    "QQQ": {
+      "price": 735.975,
+      "prev_close": 724.08,
+      "change_pct": 1.6427742790851814
+    },
+    "AMD": {
+      "price": 580.62,
+      "prev_close": 539.49,
+      "change_pct": 7.623866985486291
+    },
+    "NFLX": {
+      "price": 72.385,
+      "prev_close": 73.78,
+      "change_pct": -1.890756302521003
+    },
+    "COIN": {
+      "price": 144.32,
+      "prev_close": 151.65,
+      "change_pct": -4.833498186613921
+    },
+    "PLTR": {
+      "price": 117.57,
+      "prev_close": 115.7,
+      "change_pct": 1.6162489196196979
+    },
+    "BRK-B": {
+      "price": 498.28,
+      "prev_close": 496.0,
+      "change_pct": 0.45967741935483325
+    }
+  },
+  "updated_at": "2026-06-30T18:11:43.479737+00:00",
   "source": "yahoo_finance"
 }
