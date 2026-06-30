@@ -9,6 +9,7 @@ interface TerminalOutputProps {
   messages: ChatMessage[];
   isLoading: boolean;
   pendingQuery?: string;
+  onDeleteTurn?: (messageIds: string[]) => void;
 }
 
 interface Turn {
@@ -75,6 +76,7 @@ export default function TerminalOutput({
   messages,
   isLoading,
   pendingQuery,
+  onDeleteTurn,
 }: TerminalOutputProps) {
   const bottomRef = useRef<HTMLDivElement>(null);
   const turns = useMemo(() => groupTurns(messages), [messages]);
@@ -105,6 +107,16 @@ export default function TerminalOutput({
               query={turn.query}
               assistant={turn.assistant}
               system={turn.system}
+              onDelete={
+                onDeleteTurn
+                  ? () => {
+                      const ids = [turn.query?.id, turn.assistant?.id, turn.system?.id].filter(
+                        (id): id is string => Boolean(id)
+                      );
+                      onDeleteTurn(ids);
+                    }
+                  : undefined
+              }
             />
             {showPlanning && pendingQuery && (
               <div className="mt-2">

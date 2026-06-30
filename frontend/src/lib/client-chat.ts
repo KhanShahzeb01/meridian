@@ -1,7 +1,8 @@
 import type { ChatResponse } from "./api";
 import personasGrouped from "@/data/personas.json";
-import { getActiveOpenRouterModel } from "./storage";
+import { runClientConsensus, runClientMemo } from "./client-advanced";
 import { clientFetchQuote } from "./client-market";
+import { openRouterChat } from "./openrouter-client";
 import {
   getPersonaPrompt,
   hasPersonaPrompt,
@@ -11,20 +12,25 @@ import {
 
 const STATIC_HELP = `## Meridian commands (GitHub Pages)
 
-**Data:** \`/quote TICKER\` — any symbol (e.g. \`/quote AAPL\`, \`/quote NVDA\`)
+**Data:** \`/quote TICKER\` — live price (Yahoo)
+
+**AI (OpenRouter key in Settings):**
+- \`/memo TICKER long|short [horizon]\` — fast investment memo
+- \`/consensus TICKER\` — 7-expert panel + CIO vote
+- \`/ask buffett Is NVDA a buy?\` — single persona
+- Select a persona in the sidebar, then chat
 
 **Info:** \`/help\` · \`/personas\` · \`/clear\`
 
-**AI (OpenRouter key in Settings):**
-- Select a persona in the sidebar, then type your question
-- Or: \`/ask buffett Is NVDA a buy?\` (aliases like \`buffet\` → Buffett work)
+**System:** \`/key YOUR_KEY\` — save OpenRouter key in this browser
 
-**System:** \`/key YOUR_KEY\` — save API key in this browser
+**Optional:** Finnhub key in Settings adds headlines to memos.
 
-Full rallies commands (\`/memo\`, \`/research\`, \`/dcf\`, etc.) need the local backend.`;
+Heavy commands (\`/research\`, \`/dcf\`, \`/screen\`, \`/debate\`, etc.) need the local backend when self-hosting.`;
 
+/** Commands that still require the Python backend (not implemented in browser) */
 const BACKEND_ONLY =
-  /^\/(memo|research|consensus|dcf|financials|news|sec|filing|screen|debate|compare|macro|vix|watchlist|portfolio|options|chart|insider|holdings|hedgefund|bundle|optimize|analysis|fetch|skill|searchsec)\b/i;
+  /^\/(research|dcf|financials|news|sec|filing|screen|debate|compare|macro|vix|watchlist|portfolio|options|chart|insider|holdings|hedgefund|bundle|optimize|analysis|fetch|skill|searchsec)\b/i;
 
 function formatPersonas(): string {
   const lines = ["## Investor personas\n"];
@@ -38,74 +44,13 @@ function formatPersonas(): string {
   return lines.join("\n");
 }
 
-async function openRouterChat(
-  apiKey: string,
-  messages: { role: string; content: string }[]
-): Promise<string> {
-  const model = getActiveOpenRouterModel();
-  let lastError = "OpenRouter request failed";
-
-  // Retry the same model once on transient rate-limit / provider blips
-  for (let attempt = 0; attempt < 2; attempt++) {
-    if (attempt > 0) {
-      await new Promise((r) => setTimeout(r, 1200));
-    }
-
-    let res: Response;
-    try {
-      res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${apiKey}`,
-          "HTTP-Referer": typeof window !== "undefined" ? window.location.origin : "",
-          "X-Title": "Meridian Finance",
-        },
-        body: JSON.stringify({
-          model,
-          messages,
-          max_tokens: 4096,
-          temperature: 0.7,
-        }),
-      });
-    } catch {
-      throw new Error("Cannot reach OpenRouter. Check your connection and API key.");
-    }
-
-    if (!res.ok) {
-      try {
-        const err = await res.json();
-        lastError = err.error?.message || `HTTP ${res.status}`;
-      } catch {
-        lastError = `HTTP ${res.status}`;
-      }
-      const retryable =
-        attempt === 0 &&
-        (res.status === 429 || res.status === 502 || res.status === 503 || /rate|overload|provider/i.test(lastError));
-      if (retryable) continue;
-      throw new Error(
-        `**${model}:** ${lastError}\n\nOnly your selected model is used — change it in **Settings** (⚙) if needed.`
-      );
-    }
-
-    const data = await res.json();
-    const content = data.choices?.[0]?.message?.content?.trim();
-    if (content) return content;
-    lastError = "Empty response from model";
-  }
-
-  throw new Error(
-    `**${model}:** ${lastError}\n\nTry again in a moment, or pick another model in **Settings** (⚙).`
-  );
-}
-
 function backendOnlyMessage(cmd: string): ChatResponse {
   const name = cmd.split(/\s+/)[0];
   return {
     type: "error",
     content:
-      `**\`${name}\` needs the local Meridian backend** (not available on GitHub Pages).\n\n` +
-      "Available here: `/quote TICKER`, `/help`, `/personas`, `/clear`, `/key`, `/ask`, or chat with an OpenRouter key.",
+      `**\`${name}\`** needs the local Meridian backend (self-hosted Python server).\n\n` +
+      "On GitHub Pages you can use: `/quote`, `/memo`, `/consensus`, `/ask`, `/help`, `/personas`, `/clear`, `/key`.",
     is_command: true,
     query: cmd,
   };
@@ -132,6 +77,46 @@ export async function clientSendChat(
       is_command: true,
       query: text,
     };
+
+  if (lower.startsWith("/memo")) {
+    if (!apiKey?.trim()) {
+      return {
+        type: "error",
+        content: "**OpenRouter API key required** for `/memo`. Open **Settings** (⚙) or run `/key YOUR_KEY`.",
+        is_command: true,
+        query: text,
+      };
+    }
+    try {
+      return await runClientMemo(text, apiKey.trim());
+    } catch (err) {
+      return {
+        type: "error",
+        content: `**Error:** ${err instanceof Error ? err.message : "Memo failed"}`,
+        query: text,
+      };
+    }
+  }
+
+  if (lower.startsWith("/consensus")) {
+    if (!apiKey?.trim()) {
+      return {
+        type: "error",
+        content: "**OpenRouter API key required** for `/consensus`. Open **Settings** (⚙) or run `/key YOUR_KEY`.",
+        is_command: true,
+        query: text,
+      };
+    }
+    try {
+      return await runClientConsensus(text, apiKey.trim());
+    } catch (err) {
+      return {
+        type: "error",
+        content: `**Error:** ${err instanceof Error ? err.message : "Consensus failed"}`,
+        query: text,
+      };
+    }
+  }
 
   if (BACKEND_ONLY.test(lower)) return backendOnlyMessage(text);
 

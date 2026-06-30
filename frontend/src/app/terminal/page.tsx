@@ -152,22 +152,36 @@ export default function TerminalPage() {
     }
   };
 
-  const addMessage = useCallback(
-    (msg: ChatMessage) => {
-      if (!activeSession) return;
+  const addMessage = useCallback((msg: ChatMessage) => {
+    setActiveSession((prev) => {
+      if (!prev) return prev;
       const updated: ChatSession = {
-        ...activeSession,
-        messages: [...activeSession.messages, msg],
+        ...prev,
+        messages: [...prev.messages, msg],
       };
-      if (msg.role === "user" && activeSession.title === "New Analysis") {
+      if (msg.role === "user" && prev.title === "New Analysis") {
         updated.title = msg.content.slice(0, 40);
       }
-      setActiveSession(updated);
       updateSession(updated);
       setSessions(getSessions());
-    },
-    [activeSession]
-  );
+      return updated;
+    });
+  }, []);
+
+  const deleteTurn = useCallback((messageIds: string[]) => {
+    if (messageIds.length === 0) return;
+    const idSet = new Set(messageIds);
+    setActiveSession((prev) => {
+      if (!prev) return prev;
+      const updated: ChatSession = {
+        ...prev,
+        messages: prev.messages.filter((m) => !idSet.has(m.id)),
+      };
+      updateSession(updated);
+      setSessions(getSessions());
+      return updated;
+    });
+  }, []);
 
   const handleCommand = async (text: string) => {
     if (!activeSession) return;
@@ -242,21 +256,24 @@ export default function TerminalPage() {
       );
 
       if (response.type === "clear") {
-        const cleared: ChatSession = {
-          ...activeSession,
-          messages: [
-            {
-              id: `${Date.now()}-sys`,
-              role: "system",
-              content: "Terminal cleared. Type /help for all commands.",
-              timestamp: Date.now(),
-              type: "system",
-            },
-          ],
-        };
-        setActiveSession(cleared);
-        updateSession(cleared);
-        setSessions(getSessions());
+        setActiveSession((prev) => {
+          if (!prev) return prev;
+          const cleared: ChatSession = {
+            ...prev,
+            messages: [
+              {
+                id: `${Date.now()}-sys`,
+                role: "system",
+                content: "Terminal cleared. Type /help for all commands.",
+                timestamp: Date.now(),
+                type: "system",
+              },
+            ],
+          };
+          updateSession(cleared);
+          setSessions(getSessions());
+          return cleared;
+        });
         return;
       }
 
@@ -384,6 +401,7 @@ export default function TerminalPage() {
               messages={activeSession?.messages || []}
               isLoading={isLoading}
               pendingQuery={pendingQuery}
+              onDeleteTurn={deleteTurn}
             />
             <CommandInput
               onSubmit={handleCommand}

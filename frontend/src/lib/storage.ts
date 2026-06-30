@@ -46,6 +46,7 @@ const PORTFOLIO_KEY = "meridian_portfolio";
 const PERSONA_KEY = "meridian_persona";
 const API_KEY_STORAGE = "meridian_openrouter_api_key";
 const MODEL_KEY = "meridian_openrouter_model";
+const FINNHUB_KEY_STORAGE = "meridian_finnhub_api_key";
 
 function generateId(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
@@ -249,4 +250,22 @@ export function clearOpenRouterModel(): void {
 export function getActiveOpenRouterModel(): string {
   const user = getOpenRouterModel();
   return user || DEFAULT_OPENROUTER_MODEL;
+}
+
+export function getFinnhubKey(): string {
+  if (typeof window === "undefined") return "";
+  return localStorage.getItem(FINNHUB_KEY_STORAGE)?.trim() || "";
+}
+
+export function saveFinnhubKey(key: string): void {
+  const trimmed = key.trim();
+  if (!trimmed) {
+    localStorage.removeItem(FINNHUB_KEY_STORAGE);
+    return;
+  }
+  localStorage.setItem(FINNHUB_KEY_STORAGE, trimmed);
+}
+
+export function clearFinnhubKey(): void {
+  localStorage.removeItem(FINNHUB_KEY_STORAGE);
 }

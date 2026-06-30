@@ -76,6 +76,13 @@ const STATIC_COMMANDS: CommandStructure = {
       { cmd: "/personas", desc: "List investor personas" },
     ],
   },
+  AI: {
+    commands: [
+      { cmd: "/memo TICKER long|short", desc: "Fast investment memo (OpenRouter)" },
+      { cmd: "/consensus TICKER", desc: "7-expert panel + vote (OpenRouter)" },
+      { cmd: "/ask PERSONA question", desc: "Ask one persona" },
+    ],
+  },
   System: {
     commands: [
       { cmd: "/clear", desc: "Clear terminal" },
@@ -88,6 +95,8 @@ const STATIC_SLASH = [
   "/help",
   "/quote",
   "/personas",
+  "/memo",
+  "/consensus",
   "/ask",
   "/clear",
   "/key",

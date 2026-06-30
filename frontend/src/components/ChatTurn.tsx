@@ -1,5 +1,6 @@
 "use client";
 
+import { Trash2 } from "lucide-react";
 import { ChatMessage } from "@/lib/storage";
 import ChatBox from "./ChatBox";
 
@@ -7,6 +8,7 @@ interface ChatTurnProps {
   query?: ChatMessage;
   assistant?: ChatMessage;
   system?: ChatMessage;
+  onDelete?: () => void;
 }
 
 function PlainText({ text }: { text: string }) {
@@ -17,10 +19,23 @@ function PlainText({ text }: { text: string }) {
   );
 }
 
-export default function ChatTurn({ query, assistant, system }: ChatTurnProps) {
+export default function ChatTurn({ query, assistant, system, onDelete }: ChatTurnProps) {
+  const deleteButton = onDelete ? (
+    <button
+      type="button"
+      onClick={onDelete}
+      className="ml-auto rounded p-1 text-[var(--color-muted)] opacity-0 transition-opacity hover:bg-[var(--color-surface-elevated)] hover:text-[var(--color-danger)] group-hover:opacity-100 cursor-pointer"
+      aria-label="Delete message"
+      title="Delete"
+    >
+      <Trash2 className="h-3.5 w-3.5" />
+    </button>
+  ) : null;
+
   if (system) {
     return (
-      <div className="chat-turn">
+      <div className="chat-turn group">
+        <div className="mb-1 flex items-center justify-end">{deleteButton}</div>
         <ChatBox variant="system" markdown>
           {system.content}
         </ChatBox>
@@ -34,10 +49,20 @@ export default function ChatTurn({ query, assistant, system }: ChatTurnProps) {
     (sections.planning || sections.thinking || sections.response || sections.extra);
 
   return (
-    <div className="chat-turn space-y-2">
+    <div className="chat-turn group space-y-2">
+      <div className="flex items-center justify-end min-h-[1.25rem]">
+        {deleteButton}
+      </div>
+
       {query && (
         <ChatBox variant="query" mono>
           <span className="text-[#93c5fd]">{query.content}</span>
+        </ChatBox>
+      )}
+
+      {!query && assistant && (
+        <ChatBox variant="query" mono>
+          <span className="text-[var(--color-muted)] italic">(query unavailable)</span>
         </ChatBox>
       )}
 

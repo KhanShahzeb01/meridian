@@ -70,6 +70,14 @@ export function getPersonaPrompt(id: string): string | null {
   return PROMPTS[id] ?? null;
 }
 
+export function getPersonaName(id: string): string {
+  for (const list of Object.values(personasGrouped)) {
+    const match = (list as { id: string; name: string }[]).find((p) => p.id === id);
+    if (match) return match.name;
+  }
+  return id;
+}
+
 export interface ParsedAsk {
   personaId: string;
   question: string;

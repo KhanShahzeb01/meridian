@@ -5,10 +5,13 @@ import { Settings, X } from "lucide-react";
 import { DEFAULT_OPENROUTER_MODEL, SUGGESTED_OPENROUTER_MODELS } from "@/lib/openrouter-models";
 import {
   clearApiKey,
+  clearFinnhubKey,
   clearOpenRouterModel,
   getApiKey,
+  getFinnhubKey,
   getOpenRouterModel,
   saveApiKey,
+  saveFinnhubKey,
   saveOpenRouterModel,
 } from "@/lib/storage";
 
@@ -20,6 +23,7 @@ interface SettingsModalProps {
 
 export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
   const [apiKey, setApiKey] = useState("");
+  const [finnhubKey, setFinnhubKey] = useState("");
   const [model, setModel] = useState("");
   const [status, setStatus] = useState<{ kind: "ok" | "err" | "info"; text: string } | null>(
     null
@@ -28,6 +32,7 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
   useEffect(() => {
     if (open) {
       setApiKey(getApiKey());
+      setFinnhubKey(getFinnhubKey());
       setModel(getOpenRouterModel() || DEFAULT_OPENROUTER_MODEL);
       setStatus(null);
     }
@@ -54,16 +59,17 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
     }
 
     saveOpenRouterModel(trimmedModel);
+    saveFinnhubKey(finnhubKey);
 
     if (trimmedKey) {
       saveApiKey(trimmedKey);
-      setStatus({ kind: "ok", text: "API key and model saved in this browser only." });
+      setStatus({ kind: "ok", text: "Settings saved in this browser only." });
     } else if (getApiKey()) {
-      setStatus({ kind: "ok", text: "Model saved. API key unchanged." });
+      setStatus({ kind: "ok", text: "Model and optional keys saved. OpenRouter key unchanged." });
     } else {
       setStatus({
         kind: "ok",
-        text: "Model saved. Add your API key to use AI chat.",
+        text: "Model saved. Add your OpenRouter key for AI commands (/memo, /consensus, /ask).",
       });
     }
     onSaved?.();
@@ -80,6 +86,13 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
     setModel(DEFAULT_OPENROUTER_MODEL);
     clearOpenRouterModel();
     setStatus({ kind: "info", text: `Model reset to default (${DEFAULT_OPENROUTER_MODEL}).` });
+    onSaved?.();
+  };
+
+  const handleClearFinnhub = () => {
+    setFinnhubKey("");
+    clearFinnhubKey();
+    setStatus({ kind: "info", text: "Finnhub key cleared from this browser." });
     onSaved?.();
   };
 
@@ -143,6 +156,35 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
               >
                 openrouter.ai/keys
               </a>
+            </p>
+          </div>
+
+          <div>
+            <label htmlFor="finnhub-api-key" className="mb-2 block text-sm font-medium">
+              Finnhub API key <span className="text-[var(--color-muted)] font-normal">(optional)</span>
+            </label>
+            <input
+              id="finnhub-api-key"
+              type="password"
+              value={finnhubKey}
+              onChange={(e) => setFinnhubKey(e.target.value)}
+              placeholder="Optional — adds headlines to /memo"
+              autoComplete="off"
+              spellCheck={false}
+              className="w-full rounded-lg border border-[var(--color-border)] bg-[var(--color-terminal-bg)] px-3 py-2.5 font-mono text-sm text-[var(--color-foreground)] placeholder:text-[var(--color-muted)] focus:border-[var(--color-success)]/50 focus:outline-none focus:ring-2 focus:ring-[var(--color-success)]/20"
+            />
+            <p className="mt-2 text-xs leading-relaxed text-[var(--color-muted)]">
+              Not required. Used only for recent company news in <code className="text-[10px]">/memo</code>.
+              Free tier at{" "}
+              <a
+                href="https://finnhub.io/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--color-success)] hover:underline"
+              >
+                finnhub.io
+              </a>
+              .
             </p>
           </div>
 
@@ -218,6 +260,13 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
               className="btn-browseros rounded-full border border-[var(--color-border)] px-5 py-2 text-sm text-[var(--color-muted)] hover:border-[var(--color-border)] hover:text-[var(--color-foreground)] cursor-pointer"
             >
               Reset model
+            </button>
+            <button
+              type="button"
+              onClick={handleClearFinnhub}
+              className="btn-browseros rounded-full border border-[var(--color-border)] px-5 py-2 text-sm text-[var(--color-muted)] hover:border-[var(--color-border)] hover:text-[var(--color-foreground)] cursor-pointer"
+            >
+              Clear Finnhub
             </button>
           </div>
         </div>
