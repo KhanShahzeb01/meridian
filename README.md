@@ -1,40 +1,50 @@
 # Meridian Finance
 
-AI financial terminal — like [Plexus](https://github.com/KhanShahzeb01/plexus), **100% static on GitHub Pages**. Your OpenRouter key stays in the browser.
+Like [Plexus](https://github.com/KhanShahzeb01/plexus) — static site on GitHub Pages, OpenRouter key in browser only.
 
-**Live:** [https://KhanShahzeb01.github.io/meridian/](https://KhanShahzeb01.github.io/meridian/)
+**Live:** https://KhanShahzeb01.github.io/meridian/
 
-## Deploy (same as Plexus)
+---
+
+## ⚠️ If you see “404 — There isn't a GitHub Pages site here”
+
+GitHub Pages is **not enabled** or pointed at the wrong source. Do this **once**:
+
+1. Open **https://github.com/KhanShahzeb01/meridian/settings/pages**
+2. Under **Build and deployment → Source**, choose **Deploy from a branch** (NOT “GitHub Actions”)
+3. **Branch:** `gh-pages` → folder **`/ (root)`** → **Save**
+4. Wait 1–2 minutes, refresh https://KhanShahzeb01.github.io/meridian/
+
+(Plexus uses the same flow with branch `main` / root — this repo uses branch `gh-pages` because source code also lives here.)
+
+---
+
+## Update the live site
 
 ```bash
-# 1. Build static site into docs/
 cd frontend && npm run build:pages
-
-# 2. Commit and push
-cd .. && git add docs/ && git commit -m "Update GitHub Pages site" && git push
-
-# 3. Enable GitHub Pages (one time):
-#    Settings → Pages → Deploy from branch → main → /docs → Save
+cd .. && git add -A && git commit -m "Update site" && git push
+# Also refresh gh-pages (re-run publish script pushes are on main; for gh-pages run the script in README backend section)
 ```
 
-No GitHub Actions. No Render. No backend.
+From `frontend/`:
 
-## Features
+```bash
+npm run build:pages
+```
 
-- **Live market pulse** — indices + Yahoo headlines (browser → Yahoo)
-- **36 personas** — Buffett, Munger, Simons, Dalio, and more
-- **Terminal** — `/quote`, `/ask`, OpenRouter via Settings (browser-only key)
+Then commit root `index.html`, `_next/`, `terminal/`, etc. on `main`, and push `gh-pages` again (see `scripts/publish-pages.sh`).
 
-## Local development
+---
+
+## Local dev
 
 ```bash
 cd frontend && npm install && npm run dev
 ```
 
-Optional full rallies backend: see `backend/README` in repo — run `uvicorn main:app --port 8000` and set `NEXT_PUBLIC_API_URL=http://127.0.0.1:8000` in `frontend/.env.local`.
+Open http://127.0.0.1:3000 — optional backend in `backend/` for full rallies commands.
 
 ## API key
 
-1. [openrouter.ai/keys](https://openrouter.ai/keys)
-2. Terminal → **Settings** (⚙)
-3. Stored only in your browser (localStorage)
+Terminal → **Settings** (⚙) → paste OpenRouter key → stored in browser only.

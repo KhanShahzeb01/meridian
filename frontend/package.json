@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:pages": "NEXT_PUBLIC_BASE_PATH=/meridian next build && rm -rf ../docs && cp -r out ../docs && touch ../docs/.nojekyll",
+    "build:pages": "bash ../scripts/publish-pages.sh",
     "start": "next start",
     "lint": "eslint",
     "export": "next build"
