@@ -19,7 +19,7 @@ def main() -> None:
     parser.add_argument(
         "-o",
         "--output",
-        default=str(ROOT / "frontend" / "public" / "data" / "market-snapshot.json"),
+        default=str(ROOT / "frontend" / "public" / "market-snapshot.json"),
         help="Output JSON path",
     )
     args = parser.parse_args()

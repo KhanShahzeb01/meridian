@@ -26,19 +26,33 @@ function basePath(): string {
   return process.env.NEXT_PUBLIC_BASE_PATH || "";
 }
 
-function snapshotUrl(): string {
+function snapshotUrls(): string[] {
   const bp = basePath();
-  return `${bp}/data/market-snapshot.json`;
+  const sameOrigin = `${bp}/market-snapshot.json`;
+  const raw =
+    "https://raw.githubusercontent.com/KhanShahzeb01/meridian/main/docs/market-snapshot.json";
+  return [sameOrigin, raw];
 }
 
+let snapshotPromise: Promise<MarketSnapshot | null> | null = null;
+
 async function loadSnapshot(): Promise<MarketSnapshot | null> {
-  try {
-    const res = await fetch(snapshotUrl(), { cache: "no-store" });
-    if (!res.ok) return null;
-    return (await res.json()) as MarketSnapshot;
-  } catch {
-    return null;
+  if (!snapshotPromise) {
+    snapshotPromise = (async () => {
+      for (const url of snapshotUrls()) {
+        try {
+          const res = await fetch(url, { cache: "no-store" });
+          if (!res.ok) continue;
+          const data = (await res.json()) as MarketSnapshot;
+          if (data.indices?.length || data.headlines?.length) return data;
+        } catch {
+          /* try next */
+        }
+      }
+      return null;
+    })();
   }
+  return snapshotPromise;
 }
 
 async function fetchChart(symbol: string): Promise<{

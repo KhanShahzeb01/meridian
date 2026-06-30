@@ -4,9 +4,9 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7491.62,
-      "change": 51.1899999999996,
-      "change_pct": 0.6879978710907784,
+      "price": 7492.97,
+      "change": 52.539999999999964,
+      "change_pct": 0.7061419837294345,
       "series": [
         7381.6298828125,
         7361.52001953125,
@@ -38,19 +38,19 @@
         7491.1201171875,
         7495.93017578125,
         7493.2001953125,
-        7492.6201171875,
-        7491.6201171875
+        7493.39013671875,
+        7492.97021484375
       ],
-      "as_of": "2026-06-30 17:47 UTC",
+      "as_of": "2026-06-30 17:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26160.234,
-      "change": 340.08899999999994,
-      "change_pct": 1.3171459726504244,
+      "price": 26161.072,
+      "change": 340.9269999999997,
+      "change_pct": 1.3203915005124862,
       "series": [
         25423.228515625,
         25363.20703125,
@@ -82,19 +82,19 @@
         26143.15234375,
         26179.84375,
         26159.12109375,
-        26163.646484375,
-        26160.234375
+        26160.91796875,
+        26161.072265625
       ],
-      "as_of": "2026-06-30 17:47 UTC",
+      "as_of": "2026-06-30 17:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 52333.02,
-      "change": 150.27999999999884,
-      "change_pct": 0.28798794390635457,
+      "price": 52340.11,
+      "change": 157.37000000000262,
+      "change_pct": 0.3015748119014115,
       "series": [
         52102.890625,
         51897.58984375,
@@ -126,19 +126,19 @@
         52337.37109375,
         52367.37890625,
         52364.41015625,
-        52340.75,
-        52333.01953125
+        52344.328125,
+        52340.109375
       ],
-      "as_of": "2026-06-30 17:47 UTC",
+      "as_of": "2026-06-30 17:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4041.6,
-      "change": 2.699999999999818,
-      "change_pct": 0.06684988486963822,
+      "price": 4043.6,
+      "change": 4.699999999999818,
+      "change_pct": 0.1163683181064106,
       "series": [
         3975.800048828125,
         3979.10009765625,
@@ -170,19 +170,19 @@
         4044.5,
         4040.300048828125,
         4040.0,
-        4041.800048828125,
-        4041.60009765625
+        4044.0,
+        4043.60009765625
       ],
-      "as_of": "2026-06-30 17:47 UTC",
+      "as_of": "2026-06-30 17:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 69.69,
-      "change": -1.0600000000000023,
-      "change_pct": -1.4982332155477065,
+      "price": 69.64,
+      "change": -1.1099999999999994,
+      "change_pct": -1.5689045936395751,
       "series": [
         70.68000030517578,
         70.45999908447266,
@@ -214,19 +214,19 @@
         69.9800033569336,
         69.80000305175781,
         69.66000366210938,
-        69.68000030517578,
-        69.69000244140625
+        69.66999816894531,
+        69.63999938964844
       ],
-      "as_of": "2026-06-30 17:47 UTC",
+      "as_of": "2026-06-30 17:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.69,
-      "change": -1.7199999999999989,
-      "change_pct": -9.342748506246599,
+      "price": 16.68,
+      "change": -1.7300000000000004,
+      "change_pct": -9.397066811515483,
       "series": [
         17.850000381469727,
         17.860000610351562,
@@ -258,14 +258,20 @@
         16.75,
         16.65999984741211,
         16.670000076293945,
-        16.690000534057617,
-        16.690000534057617
+        16.68000030517578,
+        16.68000030517578
       ],
-      "as_of": "2026-06-30 17:47 UTC",
+      "as_of": "2026-06-30 17:54 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
+    {
+      "title": "Circle Stock Dives as Coinbase, BlackRock and Visa Back Open USD Stablecoin",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/circle-stock-dives-coinbase-blackrock-173812912.html",
+      "published": "2026-06-30T17:38:12Z",
+      "source": "decrypt"
+    },
     {
       "title": "Profit From Intel Stock's High Volatility With An Advanced Options Trade: The Short Strangle",
       "url": "https://www.investors.com/research/options/intel-stock/?src=A00220&yptr=yahoo",
@@ -291,22 +297,22 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Analyst Report: MDU Resources Group Inc",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3181_AnalystReport_1782817097000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-06-30T10:58:17Z",
+      "title": "Market Update: CRL, MKC",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47479_MarketUpdate_1782838843000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-06-30T17:00:43Z",
       "source": "Argus Research"
+    },
+    {
+      "title": "Why Kratos Defense & Security Solutions Stock Is Soaring Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-kratos-defense-security-solutions-173733852.html",
+      "published": "2026-06-30T17:37:33Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Warren Buffett\u2019s Berkshire Hathaway Has Held DaVita Inc. (DVA) Since 2011",
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-hathaway-held-173118984.html",
       "published": "2026-06-30T17:31:18Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Market Indexes Close Out June With a Tech-Fueled Tuesday Rally",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/market-indexes-close-june-tech-173125133.html",
-      "published": "2026-06-30T17:31:25Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Warren Buffett\u2019s Berkshire Hathaway Has Held VeriSign, Inc. (VRSN) Since 2012",
@@ -327,9 +333,9 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Daily Spotlight: Bond Spreads Narrow",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47476_MarketOutlook_1782816864000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-06-30T10:54:24Z",
+      "title": "Analyst Report: MDU Resources Group Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3181_AnalystReport_1782817097000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-06-30T10:58:17Z",
       "source": "Argus Research"
     },
     {
@@ -337,12 +343,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-hathaway-held-172715232.html",
       "published": "2026-06-30T17:27:15Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "The Next Space Race: Could the U.S. Tech Boom Send SPCX Past $3 Trillion by 2027?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/next-space-race-could-u-172752770.html",
-      "published": "2026-06-30T17:27:52Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Should You Buy Occidental Petroleum Corporation (OXY)\u2019s Shares?",
@@ -363,22 +363,22 @@
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Technical Assessment: Bullish in the Intermediate-Term",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47475_TechnicalAnalysis_1782816834000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-06-30T10:53:54Z",
+      "title": "Daily Spotlight: Bond Spreads Narrow",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47476_MarketOutlook_1782816864000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-06-30T10:54:24Z",
       "source": "Argus Research"
+    },
+    {
+      "title": "Better Custom ASIC Stock: Marvell vs. Broadcom",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/better-custom-asic-stock-marvell-173500258.html",
+      "published": "2026-06-30T17:35:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Ambarella Stock Rockets As AI Chipmaker Scores 'Top Pick' Rating",
       "url": "https://www.investors.com/news/technology/ambarella-stock-rockets-ai-chipmaker-top-pick-rating/?src=A00220&yptr=yahoo",
       "published": "2026-06-30T17:11:43Z",
       "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Why Carnival\u2019s Record Run Hasn\u2019t Closed Its Gap with Royal Caribbean",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-carnival-record-run-hasn-172254750.html",
-      "published": "2026-06-30T17:22:54Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Anthropic launches Claude Science in bid to expand revenue streams ahead of IPO",
@@ -399,24 +399,24 @@
       "source": "FreightWaves"
     },
     {
-      "title": "Market Digest: DRI, IFF, MDU",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47473_MarketSummary_1782816197000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-06-30T10:43:17Z",
+      "title": "Technical Assessment: Bullish in the Intermediate-Term",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47475_TechnicalAnalysis_1782816834000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-06-30T10:53:54Z",
       "source": "Argus Research"
+    },
+    {
+      "title": "Is Rambus One of the Best AI Stocks to Buy Right Now?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rambus-one-best-ai-stocks-173500237.html",
+      "published": "2026-06-30T17:35:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Stock market today: S&P 500, Nasdaq rise, Dow eyes fresh record to wrap up standout quarter",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-rise-dow-eyes-fresh-record-to-wrap-up-standout-quarter-224823556.html",
       "published": "2026-06-29T22:48:23Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "The UK\u2019s lithium moment: new issue of MINE out now!",
-      "url": "https://finance.yahoo.com/energy/articles/uk-lithium-moment-issue-mine-172157862.html",
-      "published": "2026-06-30T17:21:57Z",
-      "source": "Mining Technology"
     }
   ],
-  "updated_at": "2026-06-30T17:47:45.169155+00:00",
+  "updated_at": "2026-06-30T17:54:17.645990+00:00",
   "source": "yahoo_finance"
 }
