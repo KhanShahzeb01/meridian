@@ -1,7 +1,4 @@
-import {
-  DEFAULT_OPENROUTER_MODEL,
-  OPENROUTER_FALLBACK_MODELS,
-} from "./openrouter-models";
+import { DEFAULT_OPENROUTER_MODEL } from "./openrouter-models";
 
 export interface ChatSections {
   planning?: string | null;
@@ -248,9 +245,8 @@ export function clearOpenRouterModel(): void {
   localStorage.removeItem(MODEL_KEY);
 }
 
-/** Primary model + fallbacks for chat (user setting first). */
-export function getOpenRouterModelChain(): string[] {
+/** Model from Settings, or site default. No silent fallback to other models. */
+export function getActiveOpenRouterModel(): string {
   const user = getOpenRouterModel();
-  const primary = user || DEFAULT_OPENROUTER_MODEL;
-  return [primary, ...OPENROUTER_FALLBACK_MODELS].filter((m, i, a) => a.indexOf(m) === i);
+  return user || DEFAULT_OPENROUTER_MODEL;
 }

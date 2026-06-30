@@ -1,6 +1,6 @@
 import type { ChatResponse } from "./api";
 import personasGrouped from "@/data/personas.json";
-import { getOpenRouterModelChain } from "./storage";
+import { getActiveOpenRouterModel } from "./storage";
 import { clientFetchQuote } from "./client-market";
 import {
   getPersonaPrompt,
@@ -42,9 +42,15 @@ async function openRouterChat(
   apiKey: string,
   messages: { role: string; content: string }[]
 ): Promise<string> {
+  const model = getActiveOpenRouterModel();
   let lastError = "OpenRouter request failed";
 
-  for (const model of getOpenRouterModelChain()) {
+  // Retry the same model once on transient rate-limit / provider blips
+  for (let attempt = 0; attempt < 2; attempt++) {
+    if (attempt > 0) {
+      await new Promise((r) => setTimeout(r, 1200));
+    }
+
     let res: Response;
     try {
       res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
@@ -63,8 +69,7 @@ async function openRouterChat(
         }),
       });
     } catch {
-      lastError = "Cannot reach OpenRouter. Check your connection and API key.";
-      continue;
+      throw new Error("Cannot reach OpenRouter. Check your connection and API key.");
     }
 
     if (!res.ok) {
@@ -74,11 +79,13 @@ async function openRouterChat(
       } catch {
         lastError = `HTTP ${res.status}`;
       }
-      // Try next model on provider/rate-limit errors
-      if (res.status === 402 || res.status === 429 || /provider/i.test(lastError)) {
-        continue;
-      }
-      throw new Error(lastError);
+      const retryable =
+        attempt === 0 &&
+        (res.status === 429 || res.status === 502 || res.status === 503 || /rate|overload|provider/i.test(lastError));
+      if (retryable) continue;
+      throw new Error(
+        `**${model}:** ${lastError}\n\nOnly your selected model is used — change it in **Settings** (⚙) if needed.`
+      );
     }
 
     const data = await res.json();
@@ -88,7 +95,7 @@ async function openRouterChat(
   }
 
   throw new Error(
-    `${lastError}. Try again in a moment or add credits at openrouter.ai — free models can be rate-limited.`
+    `**${model}:** ${lastError}\n\nTry again in a moment, or pick another model in **Settings** (⚙).`
   );
 }
 

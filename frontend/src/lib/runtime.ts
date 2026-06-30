@@ -5,6 +5,5 @@ export function hasBackendApi(): boolean {
 
 export {
   DEFAULT_OPENROUTER_MODEL,
-  OPENROUTER_FALLBACK_MODELS,
   SUGGESTED_OPENROUTER_MODELS,
 } from "./openrouter-models";
