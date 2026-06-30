@@ -6,16 +6,11 @@ Like [Plexus](https://github.com/KhanShahzeb01/plexus) — static site on GitHub
 
 ---
 
-## ⚠️ If you see “404 — There isn't a GitHub Pages site here”
+## GitHub Pages
 
-GitHub Pages is **not enabled** or pointed at the wrong source. Do this **once**:
+**Settings → Pages → Deploy from branch → `main` → `/docs`**
 
-1. Open **https://github.com/KhanShahzeb01/meridian/settings/pages**
-2. Under **Build and deployment → Source**, choose **Deploy from a branch** (NOT “GitHub Actions”)
-3. **Branch:** `gh-pages` → folder **`/ (root)`** → **Save**
-4. Wait 1–2 minutes, refresh https://KhanShahzeb01.github.io/meridian/
-
-(Plexus uses the same flow with branch `main` / root — this repo uses branch `gh-pages` because source code also lives here.)
+After changing settings or pushing a new build, wait 1–2 minutes for the site to update.
 
 ---
 
@@ -23,17 +18,10 @@ GitHub Pages is **not enabled** or pointed at the wrong source. Do this **once**
 
 ```bash
 cd frontend && npm run build:pages
-cd .. && git add -A && git commit -m "Update site" && git push
-# Also refresh gh-pages (re-run publish script pushes are on main; for gh-pages run the script in README backend section)
+cd .. && git add docs scripts/publish-pages.sh && git commit -m "Update GitHub Pages site" && git push
 ```
 
-From `frontend/`:
-
-```bash
-npm run build:pages
-```
-
-Then commit root `index.html`, `_next/`, `terminal/`, etc. on `main`, and push `gh-pages` again (see `scripts/publish-pages.sh`).
+`build:pages` runs `scripts/publish-pages.sh`, which builds Next.js with `NEXT_PUBLIC_BASE_PATH=/meridian` and copies output into `docs/`.
 
 ---
 
