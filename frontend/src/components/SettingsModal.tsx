@@ -2,7 +2,15 @@
 
 import { useEffect, useState } from "react";
 import { Settings, X } from "lucide-react";
-import { clearApiKey, getApiKey, saveApiKey } from "@/lib/storage";
+import { DEFAULT_OPENROUTER_MODEL, SUGGESTED_OPENROUTER_MODELS } from "@/lib/openrouter-models";
+import {
+  clearApiKey,
+  clearOpenRouterModel,
+  getApiKey,
+  getOpenRouterModel,
+  saveApiKey,
+  saveOpenRouterModel,
+} from "@/lib/storage";
 
 interface SettingsModalProps {
   open: boolean;
@@ -12,6 +20,7 @@ interface SettingsModalProps {
 
 export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
   const [apiKey, setApiKey] = useState("");
+  const [model, setModel] = useState("");
   const [status, setStatus] = useState<{ kind: "ok" | "err" | "info"; text: string } | null>(
     null
   );
@@ -19,6 +28,7 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
   useEffect(() => {
     if (open) {
       setApiKey(getApiKey());
+      setModel(getOpenRouterModel() || DEFAULT_OPENROUTER_MODEL);
       setStatus(null);
     }
   }, [open]);
@@ -35,20 +45,41 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
   if (!open) return null;
 
   const handleSave = () => {
-    const trimmed = apiKey.trim();
-    if (!trimmed) {
-      setStatus({ kind: "err", text: "Enter your OpenRouter API key." });
+    const trimmedKey = apiKey.trim();
+    const trimmedModel = model.trim();
+
+    if (!trimmedModel) {
+      setStatus({ kind: "err", text: "Enter an OpenRouter model id." });
       return;
     }
-    saveApiKey(trimmed);
-    setStatus({ kind: "ok", text: "API key saved in this browser only." });
+
+    saveOpenRouterModel(trimmedModel);
+
+    if (trimmedKey) {
+      saveApiKey(trimmedKey);
+      setStatus({ kind: "ok", text: "API key and model saved in this browser only." });
+    } else if (getApiKey()) {
+      setStatus({ kind: "ok", text: "Model saved. API key unchanged." });
+    } else {
+      setStatus({
+        kind: "ok",
+        text: "Model saved. Add your API key to use AI chat.",
+      });
+    }
     onSaved?.();
   };
 
-  const handleClear = () => {
+  const handleClearKey = () => {
     setApiKey("");
     clearApiKey();
     setStatus({ kind: "info", text: "API key cleared from this browser." });
+    onSaved?.();
+  };
+
+  const handleResetModel = () => {
+    setModel(DEFAULT_OPENROUTER_MODEL);
+    clearOpenRouterModel();
+    setStatus({ kind: "info", text: `Model reset to default (${DEFAULT_OPENROUTER_MODEL}).` });
     onSaved?.();
   };
 
@@ -99,8 +130,8 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
               className="w-full rounded-lg border border-[var(--color-border)] bg-[var(--color-terminal-bg)] px-3 py-2.5 font-mono text-sm text-[var(--color-foreground)] placeholder:text-[var(--color-muted)] focus:border-[var(--color-success)]/50 focus:outline-none focus:ring-2 focus:ring-[var(--color-success)]/20"
             />
             <p className="mt-2 text-xs leading-relaxed text-[var(--color-muted)]">
-              Stored in your browser only (localStorage). Never sent to our servers for storage —
-              only passed with each chat request to OpenRouter via the Meridian backend.
+              Stored in your browser only (localStorage). Sent directly to OpenRouter with each chat
+              request — never stored on our servers.
             </p>
             <p className="mt-1 text-xs text-[var(--color-muted)]">
               Get a key at{" "}
@@ -112,6 +143,42 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
               >
                 openrouter.ai/keys
               </a>
+            </p>
+          </div>
+
+          <div>
+            <label htmlFor="openrouter-model" className="mb-2 block text-sm font-medium">
+              Model
+            </label>
+            <input
+              id="openrouter-model"
+              type="text"
+              list="openrouter-model-suggestions"
+              value={model}
+              onChange={(e) => setModel(e.target.value)}
+              placeholder={DEFAULT_OPENROUTER_MODEL}
+              autoComplete="off"
+              spellCheck={false}
+              className="w-full rounded-lg border border-[var(--color-border)] bg-[var(--color-terminal-bg)] px-3 py-2.5 font-mono text-sm text-[var(--color-foreground)] placeholder:text-[var(--color-muted)] focus:border-[var(--color-success)]/50 focus:outline-none focus:ring-2 focus:ring-[var(--color-success)]/20"
+            />
+            <datalist id="openrouter-model-suggestions">
+              {SUGGESTED_OPENROUTER_MODELS.map((m) => (
+                <option key={m.id} value={m.id}>
+                  {m.label}
+                </option>
+              ))}
+            </datalist>
+            <p className="mt-2 text-xs leading-relaxed text-[var(--color-muted)]">
+              Any model id from{" "}
+              <a
+                href="https://openrouter.ai/models"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--color-success)] hover:underline"
+              >
+                openrouter.ai/models
+              </a>
+              . Free models often end with <code className="text-[10px]">:free</code>.
             </p>
           </div>
 
@@ -136,14 +203,21 @@ export function SettingsModal({ open, onClose, onSaved }: SettingsModalProps) {
               onClick={handleSave}
               className="btn-browseros rounded-full bg-[var(--color-foreground)] px-5 py-2 text-sm text-[var(--color-background)] hover:brightness-110 cursor-pointer"
             >
-              Save key
+              Save settings
             </button>
             <button
               type="button"
-              onClick={handleClear}
+              onClick={handleClearKey}
               className="btn-browseros rounded-full border border-[var(--color-border)] px-5 py-2 text-sm text-[var(--color-muted)] hover:border-[var(--color-danger)]/40 hover:text-[var(--color-foreground)] cursor-pointer"
             >
               Clear key
+            </button>
+            <button
+              type="button"
+              onClick={handleResetModel}
+              className="btn-browseros rounded-full border border-[var(--color-border)] px-5 py-2 text-sm text-[var(--color-muted)] hover:border-[var(--color-border)] hover:text-[var(--color-foreground)] cursor-pointer"
+            >
+              Reset model
             </button>
           </div>
         </div>

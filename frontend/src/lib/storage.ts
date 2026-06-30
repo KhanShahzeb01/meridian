@@ -1,3 +1,8 @@
+import {
+  DEFAULT_OPENROUTER_MODEL,
+  OPENROUTER_FALLBACK_MODELS,
+} from "./openrouter-models";
+
 export interface ChatSections {
   planning?: string | null;
   thinking?: string | null;
@@ -43,6 +48,7 @@ const WATCHLIST_KEY = "meridian_watchlist";
 const PORTFOLIO_KEY = "meridian_portfolio";
 const PERSONA_KEY = "meridian_persona";
 const API_KEY_STORAGE = "meridian_openrouter_api_key";
+const MODEL_KEY = "meridian_openrouter_model";
 
 function generateId(): string {
   return `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
@@ -222,4 +228,29 @@ export function clearApiKey(): void {
 
 export function hasApiKey(): boolean {
   return getApiKey().length > 0;
+}
+
+export function getOpenRouterModel(): string {
+  if (typeof window === "undefined") return "";
+  return localStorage.getItem(MODEL_KEY)?.trim() || "";
+}
+
+export function saveOpenRouterModel(model: string): void {
+  const trimmed = model.trim();
+  if (!trimmed) {
+    localStorage.removeItem(MODEL_KEY);
+    return;
+  }
+  localStorage.setItem(MODEL_KEY, trimmed);
+}
+
+export function clearOpenRouterModel(): void {
+  localStorage.removeItem(MODEL_KEY);
+}
+
+/** Primary model + fallbacks for chat (user setting first). */
+export function getOpenRouterModelChain(): string[] {
+  const user = getOpenRouterModel();
+  const primary = user || DEFAULT_OPENROUTER_MODEL;
+  return [primary, ...OPENROUTER_FALLBACK_MODELS].filter((m, i, a) => a.indexOf(m) === i);
 }

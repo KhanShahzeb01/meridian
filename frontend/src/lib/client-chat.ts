@@ -1,6 +1,6 @@
 import type { ChatResponse } from "./api";
 import personasGrouped from "@/data/personas.json";
-import { OPENROUTER_MODELS } from "./runtime";
+import { getOpenRouterModelChain } from "./storage";
 import { clientFetchQuote } from "./client-market";
 import {
   getPersonaPrompt,
@@ -44,7 +44,7 @@ async function openRouterChat(
 ): Promise<string> {
   let lastError = "OpenRouter request failed";
 
-  for (const model of OPENROUTER_MODELS) {
+  for (const model of getOpenRouterModelChain()) {
     let res: Response;
     try {
       res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
