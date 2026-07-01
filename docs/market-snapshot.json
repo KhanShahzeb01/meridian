@@ -41,7 +41,7 @@
         7485.02001953125,
         7483.22998046875
       ],
-      "as_of": "2026-07-01 21:44 UTC",
+      "as_of": "2026-07-01 22:52 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26049.15625,
         26040.03125
       ],
-      "as_of": "2026-07-01 21:44 UTC",
+      "as_of": "2026-07-01 22:52 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         52315.578125,
         52305.23828125
       ],
-      "as_of": "2026-07-01 21:44 UTC",
+      "as_of": "2026-07-01 22:52 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4044.6,
-      "change": 6.099999999999909,
-      "change_pct": 0.1510461805125643,
+      "price": 4052.8,
+      "change": -29.59999999999991,
+      "change_pct": -0.7250636880266488,
       "series": [
-        3986.60009765625,
-        3980.39990234375,
         3985.0,
         3977.300048828125,
         3988.699951171875,
@@ -171,21 +169,21 @@
         4052.300048828125,
         4051.89990234375,
         4044.60009765625,
-        4044.60009765625
+        4050.60009765625,
+        4052.300048828125,
+        4052.800048828125
       ],
-      "as_of": "2026-07-01 21:44 UTC",
+      "as_of": "2026-07-01 22:52 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 68.09,
-      "change": -1.4099999999999966,
-      "change_pct": -2.028776978417261,
+      "price": 68.05,
+      "change": -0.5300000000000011,
+      "change_pct": -0.7728200641586486,
       "series": [
-        69.61000061035156,
-        69.52999877929688,
         69.58999633789062,
         69.38999938964844,
         69.36000061035156,
@@ -215,9 +213,11 @@
         68.0199966430664,
         68.12000274658203,
         68.08999633789062,
-        68.08999633789062
+        67.9800033569336,
+        68.05000305175781,
+        68.05000305175781
       ],
-      "as_of": "2026-07-01 21:44 UTC",
+      "as_of": "2026-07-01 22:52 UTC",
       "source": "yahoo"
     },
     {
@@ -261,69 +261,129 @@
         16.56999969482422,
         16.59000015258789
       ],
-      "as_of": "2026-07-01 21:44 UTC",
+      "as_of": "2026-07-01 22:52 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Former retail giant has closed over 1,000 locations",
+      "title": "Former retail giant closed over 1,000 locations",
       "url": "https://finance.yahoo.com/small-business/articles/former-retail-giant-closed-over-150700944.html",
       "published": "2026-07-01T15:07:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "Apple Price Hikes Sent AAPL Stock Falling. They May Not Even Matter in the Long Term.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-price-hikes-sent-aapl-133002949.html",
-      "published": "2026-06-30T13:30:02Z",
+      "title": "SpaceX\u2019s AI Ambitions Could Rewrite Its Future \u2014 If It Can Stop the Bleeding",
+      "url": "https://finance.yahoo.com/technology/ai/articles/spacex-ai-ambitions-could-rewrite-145215099.html",
+      "published": "2026-06-30T14:52:15Z",
       "source": "Barchart"
     },
     {
-      "title": "Brown & Brown (BRO) Dropped on Softness in Organic Growth",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/brown-brown-bro-dropped-softness-133138859.html",
-      "published": "2026-06-30T13:31:38Z",
+      "title": "Iran war and AI boom drive wild ride on global markets",
+      "url": "https://finance.yahoo.com/markets/articles/iran-war-ai-boom-drive-145112155.html",
+      "published": "2026-06-30T14:51:12Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "America's Greatest Opportunities: This Company Was A Major Tech Supplier",
+      "url": "https://www.investors.com/how-to-invest/stock-market-emc-memory-supplier/?src=A00220&yptr=yahoo",
+      "published": "2026-06-30T14:50:13Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Debt-saddled Arizona woman, 73, has nothing saved and wants to buy a house. How Dave Ramsey says she can catch up fast",
+      "url": "https://finance.yahoo.com/real-estate/articles/debt-saddled-arizona-woman-73-144500841.html",
+      "published": "2026-06-30T14:45:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "U.S. Job Openings and Hires Remained Stable in May",
+      "url": "https://www.wsj.com/economy/jobs/u-s-job-openings-and-hires-remained-stable-in-may-70674c10?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-06-30T14:53:00Z",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "title": "SpaceX Just Got a New Catalyst. A Texas Pipeline Plan Could Fuel Its Next Growth Phase.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-just-got-catalyst-texas-143944476.html",
+      "published": "2026-06-30T14:39:44Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Tesla Q2 Deliveries Due Later This Week. Stock Gains On Newest FSD Update.",
+      "url": "https://www.investors.com/news/tesla-q2-deliveries-elon-musk-electric-vehicles-autos-fsd-model-3/?src=A00220&yptr=yahoo",
+      "published": "2026-06-30T14:35:43Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "FCEL Stock Skyrockets as FuelCell Secures $49 Million Financing Deal",
+      "url": "https://finance.yahoo.com/energy/articles/fcel-stock-skyrockets-fuelcell-secures-143659025.html",
+      "published": "2026-06-30T14:36:59Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Dollar Climbs on Month- and Quarter-End Demand",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-climbs-month-quarter-end-143726021.html",
+      "published": "2026-06-30T14:37:26Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Should You Buy the Twilio Dip?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-twilio-dip-145000182.html",
+      "published": "2026-06-30T14:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "IPO Edge NYSE Firesides Scheduled for July 28",
+      "url": "https://finance.yahoo.com/news/ipo-edge-nyse-firesides-scheduled-211107368.html",
+      "published": "2026-06-30T15:00:07Z",
+      "source": "IPO-Edge.com"
+    },
+    {
+      "title": "Verisk Analytics (VRSK) Dropped 15% in Q1",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-vrsk-dropped-15-143026986.html",
+      "published": "2026-06-30T14:30:26Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Cerebras Systems (CBRS): 10 AI Stocks on Wall Street\u2019s Radar",
-      "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-systems-cbrs-10-ai-133545927.html",
-      "published": "2026-06-30T13:35:45Z",
+      "title": "What to Expect From TE Connectivity's Q3 2026 Earnings Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-te-connectivitys-q3-2026-142828844.html",
+      "published": "2026-06-30T14:28:28Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "CrowdStrike Stock Split Set For Wednesday Amid 2026 Momentum",
+      "url": "https://www.investors.com/news/technology/crowdstrike-stock-split-cybersecurity-2026-momentum/?src=A00220&yptr=yahoo",
+      "published": "2026-06-30T14:25:53Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Ireland would run deficit without foreign income: Report",
+      "url": "https://finance.yahoo.com/economy/policy/articles/ireland-run-deficit-without-foreign-145700594.html",
+      "published": "2026-06-30T14:57:00Z",
+      "source": "CFO.com"
+    },
+    {
+      "title": "ServiceTitan (TTAN) is Unlocking Potential in New Markets",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/servicetitan-ttan-unlocking-potential-markets-142312325.html",
+      "published": "2026-06-30T14:23:12Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Is ServiceTitan (TTAN) Unfairly Punished Beyond Fundamentals?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/servicetitan-ttan-unfairly-punished-beyond-133448856.html",
-      "published": "2026-06-30T13:34:48Z",
-      "source": "Insider Monkey"
+      "title": "Cattle Prices Likely Just Topped Out. Look Out Below!",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/cattle-prices-likely-just-topped-142102291.html",
+      "published": "2026-06-30T14:21:02Z",
+      "source": "Barchart"
     },
     {
-      "title": "Italy\u2019s La Doria buys B2B tomato supplier Solana",
-      "url": "https://finance.yahoo.com/small-business/articles/italy-la-doria-buys-b2b-133159318.html",
-      "published": "2026-06-30T13:31:59Z",
-      "source": "Just Food"
+      "title": "Webull Launches Crypto Trading In Canada",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/webull-launches-crypto-trading-canada-150700044.html",
+      "published": "2026-06-30T15:07:00Z",
+      "source": "CryptoProwl"
     },
     {
-      "title": "Adobe (ADBE) Launches Firefly Foundry to Enable Enterprise Custom AI Model Development",
-      "url": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-launches-firefly-foundry-133636139.html",
-      "published": "2026-06-30T13:36:36Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "International Business Machines (IBM) Unveils World\u2019s First 0.7-Nanometer Semiconductor Tech",
-      "url": "https://finance.yahoo.com/technology/articles/international-business-machines-ibm-unveils-133621024.html",
-      "published": "2026-06-30T13:36:21Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Digital Realty (DLR) Launches ServiceFabric MCP for AI-Native Infrastructure Control",
-      "url": "https://finance.yahoo.com/technology/ai/articles/digital-realty-dlr-launches-servicefabric-133607974.html",
-      "published": "2026-06-30T13:36:07Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Check Point (CHKP) Integrates OpenAI Frontier Models into Security Suite",
-      "url": "https://finance.yahoo.com/technology/ai/articles/check-point-chkp-integrates-openai-133554160.html",
-      "published": "2026-06-30T13:35:54Z",
+      "title": "Cheniere Energy (LNG) Benefited from Supply Constraints",
+      "url": "https://finance.yahoo.com/energy/articles/cheniere-energy-lng-benefited-supply-141954401.html",
+      "published": "2026-06-30T14:19:54Z",
       "source": "Insider Monkey"
     },
     {
@@ -333,88 +393,28 @@
       "source": "Argus Research"
     },
     {
-      "title": "Palantir's 2 deals answer a question investors keep asking",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palantirs-2-deals-answer-investors-133300710.html",
-      "published": "2026-06-30T13:33:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Does Tyler Technologies (TYL) Have a Long Runway for Sales Growth?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-tyler-technologies-tyl-long-133902638.html",
-      "published": "2026-06-30T13:39:02Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Palantir (PLTR), Surf Air Mobility Expand Partnership to Accelerate SurfOS Platform Development",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-pltr-surf-air-mobility-133644293.html",
-      "published": "2026-06-30T13:36:44Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Here is Why SentinelOne (S) is One of the AI Stocks on Wall Street\u2019s Radar",
-      "url": "https://finance.yahoo.com/technology/ai/articles/why-sentinelone-one-ai-stocks-133559264.html",
-      "published": "2026-06-30T13:35:59Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Is Baidu (BIDU) One of the AI Stocks on Wall Street\u2019s Radar?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/baidu-bidu-one-ai-stocks-133614127.html",
-      "published": "2026-06-30T13:36:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Daily Spotlight: Investors Beware, 3Q is Here",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47487_MarketOutlook_1782904919000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-01T11:21:59Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "Silver Just Hit A 'Now Or Never' Level: Which Miner Is Best Positioned If The Metal Bounces?",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/silver-just-hit-now-never-133103203.html",
-      "published": "2026-06-30T13:31:03Z",
-      "source": "Benzinga"
-    },
-    {
-      "title": "NVIDIA (NVDA), Palantir (PLTR) Partner to Deploy Secure AI Models for Government and Infrastructure",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-palantir-pltr-partner-133652471.html",
-      "published": "2026-06-30T13:36:52Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "CoreWeave (CRWV) Expands European AI Infrastructure Through New Partnership with Conapto",
-      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-crwv-expands-european-ai-133627287.html",
-      "published": "2026-06-30T13:36:27Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Is Rhythm Pharmaceuticals, Inc. (RYTM) Stock Poised for Growth After Encouraging Setmelanotide Trial Results?",
-      "url": "https://finance.yahoo.com/healthcare/articles/rhythm-pharmaceuticals-inc-rytm-stock-132221610.html",
-      "published": "2026-06-30T13:22:21Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Nurix Therapeutics, Inc. (NRIX) Price Target Raised to $33 on Roche Partnership Value",
-      "url": "https://finance.yahoo.com/healthcare/articles/nurix-therapeutics-inc-nrix-price-132124008.html",
-      "published": "2026-06-30T13:21:24Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Technical Assessment: Bullish in the Intermediate-Term",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47486_TechnicalAnalysis_1782904853000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-01T11:20:53Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "Is Cerebras Stock a Buy on the Dip as Revenue Surges?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-stock-buy-dip-revenue-133500618.html",
-      "published": "2026-06-30T13:35:00Z",
+      "title": "3 Reasons to Buy Nvidia Stock in July",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-buy-nvidia-stock-144700802.html",
+      "published": "2026-06-30T14:47:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Is MapLight Therapeutics, Inc. (MPLT) Stock a Biotech Opportunity Ahead of the ZEPHYR Trial Readout?",
-      "url": "https://finance.yahoo.com/healthcare/articles/maplight-therapeutics-inc-mplt-stock-132231577.html",
-      "published": "2026-06-30T13:22:31Z",
+      "title": "This Tiny Company Just Made a Game-Changing Bet on SpaceX Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tiny-company-just-made-game-141851202.html",
+      "published": "2026-06-30T14:18:51Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Here\u2019s Why Repligen Corp. (RGEN) Fell 28% in Q1",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-repligen-corp-rgen-fell-141623836.html",
+      "published": "2026-06-30T14:16:23Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Signs of Economic Resilience Boost Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/signs-economic-resilience-boost-stocks-151037727.html",
+      "published": "2026-06-30T15:10:37Z",
+      "source": "Barchart"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.12989867903035177
     }
   },
-  "updated_at": "2026-07-01T21:44:57.256905+00:00",
+  "updated_at": "2026-07-01T22:52:48.942718+00:00",
   "source": "yahoo_finance"
 }
