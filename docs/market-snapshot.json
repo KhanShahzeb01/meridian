@@ -41,7 +41,7 @@
         7485.02001953125,
         7483.22998046875
       ],
-      "as_of": "2026-07-02 10:21 UTC",
+      "as_of": "2026-07-02 12:25 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26049.15625,
         26040.03125
       ],
-      "as_of": "2026-07-02 10:21 UTC",
+      "as_of": "2026-07-02 12:25 UTC",
       "source": "yahoo"
     },
     {
@@ -129,21 +129,17 @@
         52315.578125,
         52305.23828125
       ],
-      "as_of": "2026-07-02 10:21 UTC",
+      "as_of": "2026-07-02 12:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4078.4,
-      "change": -4.0,
-      "change_pct": -0.09798157946306094,
+      "price": 4076.1,
+      "change": -6.300000000000182,
+      "change_pct": -0.15432098765432545,
       "series": [
-        4074.89990234375,
-        4076.0,
-        4072.699951171875,
-        4052.300048828125,
         4051.89990234375,
         4044.60009765625,
         4050.60009765625,
@@ -170,24 +166,24 @@
         4089.10009765625,
         4079.89990234375,
         4077.60009765625,
-        4076.300048828125,
-        4078.39990234375
+        4078.699951171875,
+        4078.60009765625,
+        4077.199951171875,
+        4077.5,
+        4075.60009765625,
+        4076.10009765625
       ],
-      "as_of": "2026-07-02 10:21 UTC",
+      "as_of": "2026-07-02 12:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 67.59,
-      "change": -0.9899999999999949,
-      "change_pct": -1.443569553805767,
+      "price": 67.21,
+      "change": -1.3700000000000045,
+      "change_pct": -1.9976669582968862,
       "series": [
-        68.69000244140625,
-        68.29000091552734,
-        68.2699966430664,
-        68.0199966430664,
         68.12000274658203,
         68.08999633789062,
         67.9800033569336,
@@ -214,24 +210,24 @@
         67.87000274658203,
         67.48999786376953,
         67.51000213623047,
-        67.58999633789062,
-        67.58999633789062
+        67.63999938964844,
+        67.44999694824219,
+        67.30000305175781,
+        67.18000030517578,
+        67.19000244140625,
+        67.20999908447266
       ],
-      "as_of": "2026-07-02 10:21 UTC",
+      "as_of": "2026-07-02 12:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.78,
-      "change": 0.19000000000000128,
-      "change_pct": 1.1452682338758366,
+      "price": 16.52,
+      "change": -0.07000000000000028,
+      "change_pct": -0.42194092827004387,
       "series": [
-        16.899999618530273,
-        16.940000534057617,
-        16.860000610351562,
-        16.790000915527344,
         16.700000762939453,
         16.65999984741211,
         16.75,
@@ -258,163 +254,167 @@
         16.719999313354492,
         16.780000686645508,
         16.739999771118164,
-        16.780000686645508,
-        16.780000686645508
+        16.760000228881836,
+        16.649999618530273,
+        16.600000381469727,
+        16.600000381469727,
+        16.530000686645508,
+        16.520000457763672
       ],
-      "as_of": "2026-07-02 10:21 UTC",
+      "as_of": "2026-07-02 12:25 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Wall Street\u2019s Best Quarter in Six Years Will Be a Hard Act to Follow",
-      "url": "https://www.wsj.com/finance/stocks/wall-streets-best-quarter-in-six-years-will-be-a-hard-act-to-follow-6dc641d4?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-06-30T22:11:00Z",
-      "source": "The Wall Street Journal"
+      "title": "Retail giant exits U.S. fashion after multi-million-dollar scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/retail-giant-exits-u-fashion-031700615.html",
+      "published": "2026-07-02T03:46:51Z",
+      "source": "TheStreet"
     },
     {
-      "title": "Stock market today: Dow hits record, S&P 500 jumps to cap best quarter since 2020 amid massive chip rally",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-hits-record-sp-500-jumps-to-cap-best-quarter-since-2020-amid-massive-chip-rally-224823556.html",
-      "published": "2026-06-29T22:48:23Z",
+      "title": "June jobs report live updates: Economists expect key report to show healthy job growth",
+      "url": "https://finance.yahoo.com/economy/live/june-jobs-report-live-updates-economists-expect-key-report-to-show-healthy-job-growth-121350875.html",
+      "published": "2026-06-30T12:13:50Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "APY vs. interest rate: What's the difference, and why does it matter?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/comparison/apy-vs-interest-rate-174532707.html",
-      "published": "2024-07-19T17:45:32Z",
+      "title": "Silver prices today, Thursday, July 2: Prices hit $60 ahead of June employment report",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-thursday-july-2-prices-hit-60-ahead-of-june-employment-report-121527595.html",
+      "published": "2026-07-02T12:15:27Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Gold price outlook: Could prices hit $6,000 in 2026?",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-outlook-could-prices-hit-6000-in-2026-150000589.html",
-      "published": "2026-03-27T15:00:00Z",
+      "title": "Oil falls for a third straight day after US, Iran conclude talks in Doha",
+      "url": "https://finance.yahoo.com/news/oil-falls-us-iran-talks-013010346.html",
+      "published": "2026-07-02T12:13:29Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Dow Jones Futures Rise With Tesla, Jobs Report Ahead",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-meta-jumps-spacex-micron-tesla-deliveries-jobs-report/?src=A00220&yptr=yahoo",
+      "published": "2026-07-02T12:08:40Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Technical Assessment: Bullish in the Intermediate-Term",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47497_TechnicalAnalysis_1782990959000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-02T11:15:59Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Palantir Stock Gets Analyst Upgrade Amid Anthropic, OpenAI Rivalry",
+      "url": "https://www.investors.com/news/technology/palantir-stock-upgrade-buy-valuation-anthropic-openai/?src=A00220&yptr=yahoo",
+      "published": "2026-07-02T12:08:01Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "JPMorgan AI chief Teresa Heitsenrether retiring in 2026",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-ai-chief-teresa-heitsenrether-120734852.html",
+      "published": "2026-07-02T12:07:34Z",
+      "source": "Quartz"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures mixed in countdown to June jobs report",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-2-223136955.html",
+      "published": "2026-07-01T22:31:36Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why OpenAI And Anthropic's Road To IPO Is Getting Bumpier",
+      "url": "https://www.investors.com/news/technology/why-openai-and-anthropics-road-to-ipo-is-getting-bumpier/?src=A00220&yptr=yahoo",
+      "published": "2026-07-02T12:02:57Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Gold prices today, Thursday, July 2, 2026: Prices stay below $4,100 ahead of June jobs report",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-july-2-2026-prices-stay-below-4100-ahead-of-june-jobs-report-120224733.html",
+      "published": "2026-07-02T12:02:24Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Corn Bulls Hold onto Gains, as NASS Shows Tighter Stocks Number",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-bulls-hold-onto-gains-222524100.html",
-      "published": "2026-06-30T22:25:24Z",
-      "source": "Barchart"
+      "title": "Analyst Report: Alcon AG",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_5849_AnalystReport_1782990266000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-02T11:04:26Z",
+      "source": "Argus Research"
     },
     {
-      "title": "Why Constellation Stock Is Rising Despite Revenue Decline",
-      "url": "https://www.barrons.com/articles/constellation-brands-earnings-stock-price-1f0c770a?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-06-30T22:14:00Z",
-      "source": "Barrons.com"
+      "title": "The average investor is running away from 'Magnificent 7' stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
+      "published": "2026-07-02T12:02:04Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Soybeans Round Out June with Gains Despite Larger Stocks and More Acres",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-round-june-gains-despite-222524843.html",
-      "published": "2026-06-30T22:25:24Z",
-      "source": "Barchart"
+      "title": "Here Are Thursday\u2019s Best Wall Street Analyst Research Calls: Adobe, Chevron, Dana, Honeywell Aerospace, Mobility Global, Ni Source, Palantir, SpaceX, and More",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/thursday-best-wall-street-analyst-120707868.html",
+      "published": "2026-07-02T12:07:07Z",
+      "source": "24/7 Wall St."
     },
     {
-      "title": "Gold forecast and tracker: Where will prices land in 2026?",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-forecast-and-tracker-where-will-prices-land-in-2026-130000340.html",
-      "published": "2026-04-15T13:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Quantum Computing Stocks: Europe's IQM To Debut On Nasdaq",
+      "url": "https://www.investors.com/news/technology/quantum-computing-stocks-iqm-europe-nasdaq-debut/?src=A00220&yptr=yahoo",
+      "published": "2026-07-02T12:01:46Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Silver price predictions: What can investors expect over the next 10 years?",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-predictions-what-can-investors-expect-over-the-next-10-years-130000730.html",
-      "published": "2026-04-02T13:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Comfort Systems Cools Data Centers As Its Stock Heats Up",
+      "url": "https://www.investors.com/stock-lists/sector-leaders/data-center-comfort-systems-stock-fix-cooling/?src=A00220&yptr=yahoo",
+      "published": "2026-07-02T12:01:43Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Demystifying Factoring: How It Can Become a Real Business Tool for Carriers",
-      "url": "https://finance.yahoo.com/small-business/articles/demystifying-factoring-become-real-business-223058373.html",
-      "published": "2026-06-30T22:30:58Z",
-      "source": "FreightWaves"
+      "title": "Google, Disney Intellectual Property Licensing Partner Teases Breakout. Top Funds Buy In.",
+      "url": "https://www.investors.com/research/ibd-stock-analysis/adeia-intellectual-property-licensing-google-disney-netflix-microsoft/?src=A00220&yptr=yahoo",
+      "published": "2026-07-02T12:00:21Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Dish DBS Enters Chapter 11 After AT&T Deal Is Delayed",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-30-2026/card/dish-dbs-enters-chapter-11-after-at-t-deal-is-delayed-BpjyxkTiRCZ1f0WIequd?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-06-30T22:16:31Z",
-      "source": "The Wall Street Journal"
+      "title": "Analyst Report: Atmos Energy Corp",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_2743_AnalystReport_1782990266000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-02T11:04:26Z",
+      "source": "Argus Research"
     },
     {
-      "title": "The best credit cards for July: See our picks for the top cash-back, rewards, travel cards, and more",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-card-202825345.html",
-      "published": "2024-09-12T20:09:33Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Tesla Deliveries Due With EV Giant's Stock Near Buy Point (Live Coverage)",
+      "url": "https://www.investors.com/news/tesla-deliveries-due-with-ev-giants-stock-near-buy-point-live-coverage/?src=A00220&yptr=yahoo",
+      "published": "2026-07-02T11:58:29Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Best student credit cards for July 2026: Start building credit with rewards on spending",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/the-best-student-credit-card-235405006.html",
-      "published": "2024-09-12T18:21:03Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Morning Minute: Robinhood Debuts 'Robinhood Chain'",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/morning-minute-robinhood-debuts-robinhood-120626191.html",
+      "published": "2026-07-02T12:06:26Z",
+      "source": "decrypt"
     },
     {
-      "title": "The best credit cards for Airbnb rentals in July 2026: Earn points and cash back for your stay",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-card-for-airbnb-rentals-183212147.html",
-      "published": "2025-04-14T18:32:12Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Japan business mood hits 8-year high, builds case for BOJ rate hikes",
+      "url": "https://finance.yahoo.com/economy/policy/articles/japan-business-mood-improves-despite-000834890.html",
+      "published": "2026-07-01T02:09:23Z",
+      "source": "Reuters"
     },
     {
-      "title": "The best balance transfer credit cards for July 2026: Don't pay any interest until 2027",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-balance-transfer-credit-cards-0-introductory-apr-150104640.html",
-      "published": "2026-05-08T15:01:04Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Morgan Stanley Bumps Up Price Target on Dominion Energy (D). Here is Why",
+      "url": "https://finance.yahoo.com/energy/articles/morgan-stanley-bumps-price-target-042229818.html",
+      "published": "2026-07-01T04:22:29Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Crypto Market Today, June 30: Bitcoin Slides on Strategy Pivot",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-market-today-june-30-221919286.html",
-      "published": "2026-06-30T22:19:19Z",
-      "source": "Motley Fool"
+      "title": "Truist Boosts Price Target on Public Storage (PSA)",
+      "url": "https://finance.yahoo.com/real-estate/articles/truist-boosts-price-target-public-042211744.html",
+      "published": "2026-07-01T04:22:11Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Best Wells Fargo credit cards for July 2026",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-wells-fargo-credit-cards-164310496.html",
-      "published": "2026-06-01T16:43:10Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Market Digest: ATO, ALC",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47495_MarketSummary_1782989366000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-02T10:49:26Z",
+      "source": "Argus Research"
     },
     {
-      "title": "Best travel credit cards for July 2026: Earn free flights, hotel stays, and more",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-travel-rewards-credit-card-172745542.html",
-      "published": "2026-01-09T18:11:36Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "The best 0% APR credit cards for July 2026: Pay no interest for up to 24 months",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-0-apr-credit-cards-214456977.html",
-      "published": "2026-05-06T21:44:56Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Best secured credit cards for July 2026",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-secured-credit-cards-171300343.html",
-      "published": "2024-09-12T14:58:30Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "\"Magnificent Seven\" Showdown: Amazon or Alphabet for Long-Term Investors?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-showdown-amazon-alphabet-222000148.html",
-      "published": "2026-06-30T22:20:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Best rewards credit cards for July 2026",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-rewards-credit-cards-172941111.html",
-      "published": "2025-09-26T13:07:26Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Best hotel credit cards for July 2026",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-hotels-184659649.html",
-      "published": "2025-03-25T18:46:59Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Best Discover credit cards for July 2026",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-discover-credit-cards-191129586.html",
-      "published": "2025-08-25T19:11:29Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Best credit cards with no foreign transaction fees (July 2026)",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-no-foreign-transaction-fees-234302581.html",
-      "published": "2024-09-13T17:36:17Z",
-      "source": "Yahoo Personal Finance"
+      "title": "TD Cowen Lifts Price Target on Ares Management (ARES) Following Meetings with Management",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-lifts-price-target-041953487.html",
+      "published": "2026-07-01T04:19:53Z",
+      "source": "Insider Monkey"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.12989867903035177
     }
   },
-  "updated_at": "2026-07-02T10:21:08.281496+00:00",
+  "updated_at": "2026-07-02T12:25:17.225432+00:00",
   "source": "yahoo_finance"
 }
