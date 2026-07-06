@@ -4,12 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7542.41,
-      "change": 59.17000000000007,
-      "change_pct": 0.7907002849033316,
+      "price": 7537.43,
+      "change": 54.19000000000051,
+      "change_pct": 0.7241515707100201,
       "series": [
-        7503.240234375,
-        7506.7099609375,
         7499.259765625,
         7498.7998046875,
         7495.919921875,
@@ -38,22 +36,22 @@
         7534.5,
         7528.52001953125,
         7540.77001953125,
-        7541.4599609375,
-        7542.41015625
+        7546.68017578125,
+        7550.39990234375,
+        7538.33984375,
+        7537.43017578125
       ],
-      "as_of": "2026-07-06 18:31 UTC",
+      "as_of": "2026-07-06 20:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26134.549,
-      "change": 301.8770000000004,
-      "change_pct": 1.1685860448350076,
+      "price": 26121.16,
+      "change": 288.4880000000012,
+      "change_pct": 1.1167563308975594,
       "series": [
-        26116.458984375,
-        26159.140625,
         26135.642578125,
         26119.908203125,
         26097.837890625,
@@ -82,22 +80,22 @@
         26128.8515625,
         26063.287109375,
         26126.05859375,
-        26129.64453125,
-        26134.548828125
+        26143.7734375,
+        26177.6953125,
+        26125.30859375,
+        26121.16015625
       ],
-      "as_of": "2026-07-06 18:31 UTC",
+      "as_of": "2026-07-06 20:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 52990.09,
-      "change": 90.0199999999968,
-      "change_pct": 0.17016990714756483,
+      "price": 53055.91,
+      "change": 155.84000000000378,
+      "change_pct": 0.2945931829579881,
       "series": [
-        52508.08984375,
-        52491.3203125,
         52419.640625,
         52358.80859375,
         52368.01171875,
@@ -126,24 +124,22 @@
         52945.01953125,
         52910.78125,
         52985.0390625,
-        52986.87890625,
-        52990.08984375
+        53017.0390625,
+        52987.55859375,
+        53060.1015625,
+        53055.91015625
       ],
-      "as_of": "2026-07-06 18:31 UTC",
+      "as_of": "2026-07-06 20:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4172.4,
-      "change": 46.69999999999982,
-      "change_pct": 1.131929127178414,
+      "price": 4173.0,
+      "change": 47.30000000000018,
+      "change_pct": 1.1464721138231133,
       "series": [
-        4177.5,
-        4177.0,
-        4173.2998046875,
-        4171.5,
         4164.2001953125,
         4159.7001953125,
         4168.2998046875,
@@ -170,24 +166,24 @@
         4166.89990234375,
         4167.5,
         4172.89990234375,
-        4172.60009765625,
-        4172.39990234375
+        4173.89990234375,
+        4175.7998046875,
+        4174.7998046875,
+        4175.5,
+        4173.0,
+        4173.0
       ],
-      "as_of": "2026-07-06 18:31 UTC",
+      "as_of": "2026-07-06 20:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 68.51,
-      "change": -0.1799999999999926,
-      "change_pct": -0.2620468772747017,
+      "price": 68.69,
+      "change": 0.0,
+      "change_pct": 0.0,
       "series": [
-        68.5,
-        68.41999816894531,
-        68.5999984741211,
-        68.61000061035156,
         68.72000122070312,
         68.8499984741211,
         68.91999816894531,
@@ -214,24 +210,24 @@
         68.30999755859375,
         68.41999816894531,
         68.52999877929688,
-        68.5199966430664,
-        68.51000213623047
+        68.55000305175781,
+        68.54000091552734,
+        68.72000122070312,
+        68.69000244140625,
+        68.69000244140625,
+        68.69000244140625
       ],
-      "as_of": "2026-07-06 18:31 UTC",
+      "as_of": "2026-07-06 20:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.74,
-      "change": -0.07000000000000028,
-      "change_pct": -0.44275774826059633,
+      "price": 15.57,
+      "change": -0.2400000000000002,
+      "change_pct": -1.5180265654648968,
       "series": [
-        15.970000267028809,
-        15.9399995803833,
-        15.930000305175781,
-        15.930000305175781,
         15.890000343322754,
         15.800000190734863,
         15.8100004196167,
@@ -258,126 +254,22 @@
         15.90999984741211,
         15.890000343322754,
         15.930000305175781,
-        15.760000228881836,
-        15.739999771118164
+        15.770000457763672,
+        15.640000343322754,
+        15.619999885559082,
+        15.670000076293945,
+        15.5600004196167,
+        15.569999694824219
       ],
-      "as_of": "2026-07-06 18:31 UTC",
+      "as_of": "2026-07-06 20:30 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Micron Stock Investors Just Got Good News From Wall Street and Nvidia CEO Jensen Huang",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-investors-just-got-093200449.html",
-      "published": "2026-07-05T09:32:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "OPEC+ set to approve another oil output increase, sources say",
-      "url": "https://finance.yahoo.com/news/opec-set-approve-another-oil-092944139.html",
-      "published": "2026-07-05T09:29:44Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Is SoFi (SOFI) Better Than SpaceX?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-sofi-better-spacex-082237376.html",
-      "published": "2026-07-05T08:22:37Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Is Arista Networks (ANET) The Best AI Stock to Buy?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-best-ai-082221558.html",
-      "published": "2026-07-05T08:22:21Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Robert Kiyosaki says the \u2018everything bubble\u2019 is about to pop in the \u2018worst crash in history.\u2019 Protect yourself now",
-      "url": "https://finance.yahoo.com/economy/articles/robert-kiyosaki-says-everything-bubble-102500339.html",
-      "published": "2026-07-05T10:25:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Market Update: IQV",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47524_MarketUpdate_1783359182000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-06T17:33:02Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "Sam Altman Called Any OpenAI IPO Valuation Below $1 Trillion a \"Nonstarter.\" Should Investors Prefer OpenAI or SpaceX?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/sam-altman-called-openai-ipo-093300522.html",
-      "published": "2026-07-05T09:33:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "\u2018You have to be careful\u2019: Personal finance expert warns travelers about the major mistake they're making at the airport",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/careful-personal-finance-expert-warns-103000004.html",
-      "published": "2026-07-05T10:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Foxconn second-quarter revenue jumps, company cautions on geopolitics",
-      "url": "https://finance.yahoo.com/technology/ai/articles/foxconn-second-quarter-revenue-jumps-074232190.html",
-      "published": "2026-07-05T07:42:32Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Intel Corporation (INTC) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-corporation-intc-one-jim-111204127.html",
-      "published": "2026-07-05T11:12:04Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Palo Alto Networks (PANW) Shares Up Significantly After Jim Cramer Said They Were A Buy",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-shares-111219536.html",
-      "published": "2026-07-05T11:12:19Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "The CEO using AI to double revenue with 1,000 fewer hires: \u2018Nobody\u2019s going to replace the last mile\u2019",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ceo-using-ai-double-revenue-093000997.html",
-      "published": "2026-07-05T09:30:00Z",
-      "source": "Fortune"
-    },
-    {
-      "title": "KLA Corporation (KLAC) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kla-corporation-klac-one-jim-111226432.html",
-      "published": "2026-07-05T11:12:26Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Vertiv Holdings (VRT) Didn\u2019t Fail To Impress After Jim Cramer Shared When To Buy The Shares",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-holdings-vrt-didn-t-111233235.html",
-      "published": "2026-07-05T11:12:33Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Teradyne (TER) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ter-one-jim-cramer-111239061.html",
-      "published": "2026-07-05T11:12:39Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Voyager Technologies (VOYG) Shares Are Up Significantly After Jim Cramer Called It Good Speculation",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/voyager-technologies-voyg-shares-significantly-111306412.html",
-      "published": "2026-07-05T11:13:06Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Prediction: Netflix Stock Is Going to Soar After July 16",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-netflix-stock-going-soar-092700364.html",
-      "published": "2026-07-05T09:27:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Johnson & Johnson (JNJ) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-one-jim-111255929.html",
-      "published": "2026-07-05T11:12:55Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "FedEx Corp (FDX)\u2019s Stock Is Up After Jim Cramer Didn\u2019t Hold Back With The Praise",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-stock-jim-111319121.html",
-      "published": "2026-07-05T11:13:19Z",
+      "title": "Brinker International (EAT) Shares Higher After Jim Cramer Was Optimistic About Firm",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/brinker-international-eat-shares-higher-111412758.html",
+      "published": "2026-07-05T11:14:12Z",
       "source": "Insider Monkey"
     },
     {
@@ -387,9 +279,117 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in July?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/down-35-mercadolibre-stock-better-112000441.html",
+      "published": "2026-07-05T11:20:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Broadcom Inc. (AVGO) Barely Made The Cut As One Of Jim Cramer\u2019s Best Performing Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-barely-made-111500218.html",
+      "published": "2026-07-05T11:15:00Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Fifth Third Bancorp (FITB) Shares Up Nearly 15% After Jim Cramer Thought It Was Worth Buying",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fifth-third-bancorp-fitb-shares-111352962.html",
+      "published": "2026-07-05T11:13:52Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Market Update: IQV",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47524_MarketUpdate_1783359182000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-06T17:33:02Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "FedEx Corp (FDX)\u2019s Stock Is Up After Jim Cramer Didn\u2019t Hold Back With The Praise",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fedex-corp-fdx-stock-jim-111319121.html",
+      "published": "2026-07-05T11:13:19Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "The Goldman Sachs Group (GS) Shares Are Up After Jim Cramer Blessed The Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-group-gs-shares-111431987.html",
+      "published": "2026-07-05T11:14:31Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Down 13% in 1 Month, Is Amazon a Buy, or Is the Worst Still to Come?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/down-13-1-month-amazon-112500438.html",
+      "published": "2026-07-05T11:25:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Affirm Holdings (AFRM) Shares Slightly Up Since Jim Cramer Recommended Buying Them",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/affirm-holdings-afrm-shares-slightly-111454895.html",
+      "published": "2026-07-05T11:14:54Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Johnson & Johnson (JNJ) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-one-jim-111255929.html",
+      "published": "2026-07-05T11:12:55Z",
+      "source": "Insider Monkey"
+    },
+    {
       "title": "Snowflake Inc. (SNOW)\u2019s Shares Higher After Jim Cramer Said It Was A Buy",
       "url": "https://finance.yahoo.com/markets/stocks/articles/snowflake-inc-snow-shares-higher-111344433.html",
       "published": "2026-07-05T11:13:44Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Dover Corporation (DOV) Stock Up Slightly Since Jim Cramer Said It Could Be Different",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dover-corporation-dov-stock-slightly-111446942.html",
+      "published": "2026-07-05T11:14:46Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "CDP Director Sells 3,922 Shares \u2014 Here's What That Means for Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cdp-director-sells-3-922-111301930.html",
+      "published": "2026-07-05T11:13:01Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Medline Inc. (MDLN) Shares Up Since Jim Cramer Said It Could Be A Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/medline-inc-mdln-shares-since-111439928.html",
+      "published": "2026-07-05T11:14:39Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Voyager Technologies (VOYG) Shares Are Up Significantly After Jim Cramer Called It Good Speculation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/voyager-technologies-voyg-shares-significantly-111306412.html",
+      "published": "2026-07-05T11:13:06Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "KLA Corporation (KLAC) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kla-corporation-klac-one-jim-111226432.html",
+      "published": "2026-07-05T11:12:26Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Teradyne (TER) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ter-one-jim-cramer-111239061.html",
+      "published": "2026-07-05T11:12:39Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Is Ethereum in Trouble or Not? Major Changes at the Ethereum Foundation Are Bullish For ETH.",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-trouble-not-major-changes-111600531.html",
+      "published": "2026-07-05T11:16:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Palo Alto Networks (PANW) Shares Up Significantly After Jim Cramer Said They Were A Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-shares-111219536.html",
+      "published": "2026-07-05T11:12:19Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Morgan Stanley (MS) Higher After Jim Cramer Said It Deserved A Higher Multiple",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-ms-higher-jim-111425660.html",
+      "published": "2026-07-05T11:14:25Z",
       "source": "Insider Monkey"
     },
     {
@@ -399,111 +399,111 @@
       "source": "Argus Research"
     },
     {
-      "title": "3 Dividend Stocks That Could Be Easy Wealth Builders",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-could-easy-094100318.html",
-      "published": "2026-07-05T09:41:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Fifth Third Bancorp (FITB) Shares Up Nearly 15% After Jim Cramer Thought It Was Worth Buying",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fifth-third-bancorp-fitb-shares-111352962.html",
-      "published": "2026-07-05T11:13:52Z",
+      "title": "Alphabet Inc. (GOOGL) Shares Up Significantly After Jim Cramer Praised The Firm",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-inc-googl-shares-significantly-111419587.html",
+      "published": "2026-07-05T11:14:19Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Brinker International (EAT) Shares Higher After Jim Cramer Was Optimistic About Firm",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/brinker-international-eat-shares-higher-111412758.html",
-      "published": "2026-07-05T11:14:12Z",
+      "title": "Intel Corporation (INTC) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-corporation-intc-one-jim-111204127.html",
+      "published": "2026-07-05T11:12:04Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "OPEC, Allies Hike Output Again as Hormuz Traffic Starts Recovering",
+      "url": "https://www.wsj.com/business/energy-oil/opec-allies-hike-output-again-as-hormuz-traffic-starts-recovering-0094a1a4?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-05T11:24:00Z",
+      "source": "The Wall Street Journal"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 313.303,
+      "price": 312.66,
       "prev_close": 308.63,
-      "change_pct": 1.5141107474970035
+      "change_pct": 1.305770663901769
     },
     "MSFT": {
-      "price": 386.625,
+      "price": 386.74,
       "prev_close": 390.49,
-      "change_pct": -0.9897820686829392
+      "change_pct": -0.9603318907014263
     },
     "NVDA": {
-      "price": 196.36,
+      "price": 195.55,
       "prev_close": 194.83,
-      "change_pct": 0.7853000051326803
+      "change_pct": 0.3695529435918487
     },
     "GOOGL": {
-      "price": 365.22,
+      "price": 366.46,
       "prev_close": 359.91,
-      "change_pct": 1.4753688422105533
+      "change_pct": 1.8198994192992566
     },
     "AMZN": {
-      "price": 245.39,
+      "price": 244.16,
       "prev_close": 242.67,
-      "change_pct": 1.1208637243993897
+      "change_pct": 0.6140025549099638
     },
     "META": {
-      "price": 601.68,
+      "price": 600.29,
       "prev_close": 582.9,
-      "change_pct": 3.2218219248584616
+      "change_pct": 2.9833590667352867
     },
     "TSLA": {
-      "price": 417.45,
+      "price": 419.77,
       "prev_close": 393.45,
-      "change_pct": 6.0998856271444915
+      "change_pct": 6.689541237768457
     },
     "JPM": {
-      "price": 337.335,
+      "price": 337.72,
       "prev_close": 332.97,
-      "change_pct": 1.3109289125146264
+      "change_pct": 1.42655494488993
     },
     "V": {
-      "price": 357.98,
+      "price": 357.25,
       "prev_close": 362.13,
-      "change_pct": -1.1459972937895169
+      "change_pct": -1.3475823599259922
     },
     "XOM": {
-      "price": 136.745,
+      "price": 136.44,
       "prev_close": 137.09,
-      "change_pct": -0.2516594937632204
+      "change_pct": -0.4741410752060731
     },
     "SPY": {
-      "price": 751.49,
+      "price": 751.28,
       "prev_close": 744.78,
-      "change_pct": 0.9009371895056307
+      "change_pct": 0.8727409436343619
     },
     "QQQ": {
-      "price": 723.2799,
+      "price": 722.82,
       "prev_close": 712.6044,
-      "change_pct": 1.4980962789452243
+      "change_pct": 1.4335583670266412
     },
     "AMD": {
-      "price": 553.62,
+      "price": 552.05,
       "prev_close": 517.82,
-      "change_pct": 6.913599320227097
+      "change_pct": 6.610405160094222
     },
     "NFLX": {
-      "price": 75.935,
+      "price": 76.02,
       "prev_close": 77.65,
-      "change_pct": -2.208628461043147
+      "change_pct": -2.099162910495827
     },
     "COIN": {
-      "price": 169.285,
+      "price": 168.87,
       "prev_close": 165.48,
-      "change_pct": 2.2993715252598546
+      "change_pct": 2.0485859318346717
     },
     "PLTR": {
-      "price": 132.49,
+      "price": 132.54,
       "prev_close": 129.3,
-      "change_pct": 2.4671307037896346
+      "change_pct": 2.5058004640371077
     },
     "BRK-B": {
-      "price": 506.17,
+      "price": 506.58,
       "prev_close": 507.78,
-      "change_pct": -0.31706644609869566
+      "change_pct": -0.23632281696797605
     }
   },
-  "updated_at": "2026-07-06T18:31:50.412942+00:00",
+  "updated_at": "2026-07-06T20:30:17.374923+00:00",
   "source": "yahoo_finance"
 }
