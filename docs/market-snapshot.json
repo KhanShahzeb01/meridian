@@ -4,9 +4,9 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7483.24,
-      "change": 0.010000000000218279,
-      "change_pct": 0.00013363213478963335,
+      "price": 7517.52,
+      "change": 34.280000000000655,
+      "change_pct": 0.45809034589296427,
       "series": [
         7492.68017578125,
         7495.77001953125,
@@ -39,18 +39,18 @@
         7456.81982421875,
         7450.43017578125,
         7477.6298828125,
-        7483.240234375
+        7517.52001953125
       ],
-      "as_of": "2026-07-06 09:44 UTC",
+      "as_of": "2026-07-06 13:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 25832.672,
-      "change": -207.32800000000134,
-      "change_pct": -0.7961904761904814,
+      "price": 26011.912,
+      "change": 179.2400000000016,
+      "change_pct": 0.6938500206250504,
       "series": [
         26162.986328125,
         26170.822265625,
@@ -83,18 +83,18 @@
         25744.39453125,
         25715.65234375,
         25818.466796875,
-        25832.671875
+        26011.912109375
       ],
-      "as_of": "2026-07-06 09:44 UTC",
+      "as_of": "2026-07-06 13:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 52900.07,
-      "change": 594.8700000000026,
-      "change_pct": 1.1373056598579159,
+      "price": 52990.92,
+      "change": 90.84999999999854,
+      "change_pct": 0.17173890318103274,
       "series": [
         52326.44140625,
         52330.1484375,
@@ -127,26 +127,19 @@
         52671.109375,
         52635.109375,
         52864.6796875,
-        52900.0703125
+        52990.921875
       ],
-      "as_of": "2026-07-06 09:44 UTC",
+      "as_of": "2026-07-06 13:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4150.0,
-      "change": 24.300000000000182,
-      "change_pct": 0.5889909591099737,
+      "price": 4153.0,
+      "change": 27.300000000000182,
+      "change_pct": 0.6617058923334266,
       "series": [
-        4160.0,
-        4199.7998046875,
-        4194.89990234375,
-        4191.89990234375,
-        4196.7998046875,
-        4194.5,
-        4188.5,
         4197.39990234375,
         4200.10009765625,
         4212.10009765625,
@@ -170,27 +163,27 @@
         4167.2001953125,
         4161.7998046875,
         4155.89990234375,
-        4149.39990234375,
-        4150.0
+        4155.5,
+        4161.10009765625,
+        4167.39990234375,
+        4167.89990234375,
+        4167.39990234375,
+        4157.7001953125,
+        4151.39990234375,
+        4187.2998046875,
+        4153.0
       ],
-      "as_of": "2026-07-06 09:44 UTC",
+      "as_of": "2026-07-06 13:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 68.36,
-      "change": -0.3299999999999983,
-      "change_pct": -0.480419275003637,
+      "price": 68.61,
+      "change": -0.0799999999999983,
+      "change_pct": -0.11646527878875863,
       "series": [
-        68.44000244140625,
-        68.54000091552734,
-        68.9000015258789,
-        68.94999694824219,
-        68.88999938964844,
-        69.08999633789062,
-        69.01000213623047,
         68.37999725341797,
         68.30999755859375,
         68.30000305175781,
@@ -214,28 +207,27 @@
         68.08000183105469,
         68.19999694824219,
         68.30000305175781,
-        68.36000061035156,
-        68.36000061035156
+        68.30999755859375,
+        68.29000091552734,
+        68.58999633789062,
+        68.58000183105469,
+        68.6500015258789,
+        68.19000244140625,
+        68.29000091552734,
+        68.66000366210938,
+        68.61000061035156
       ],
-      "as_of": "2026-07-06 09:44 UTC",
+      "as_of": "2026-07-06 13:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.31,
-      "change": 0.4999999999999982,
-      "change_pct": 3.1625553447185215,
+      "price": 16.45,
+      "change": 0.6399999999999988,
+      "change_pct": 4.048070841239714,
       "series": [
-        16.799999237060547,
-        16.799999237060547,
-        17.190000534057617,
-        16.739999771118164,
-        16.600000381469727,
-        16.729999542236328,
-        16.059999465942383,
-        16.139999389648438,
         15.770000457763672,
         15.859999656677246,
         15.920000076293945,
@@ -259,251 +251,259 @@
         16.31999969482422,
         16.329999923706055,
         16.309999465942383,
-        16.309999465942383
+        16.280000686645508,
+        16.329999923706055,
+        16.350000381469727,
+        16.329999923706055,
+        16.399999618530273,
+        16.420000076293945,
+        16.360000610351562,
+        16.440000534057617,
+        16.450000762939453
       ],
-      "as_of": "2026-07-06 09:44 UTC",
+      "as_of": "2026-07-06 13:30 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "CPA Australia urges targeted audit reforms to bolster market trust",
-      "url": "https://finance.yahoo.com/economy/policy/articles/cpa-australia-urges-targeted-audit-092704601.html",
-      "published": "2026-07-06T09:27:04Z",
-      "source": "The Accountant"
+      "title": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave",
+      "url": "https://finance.yahoo.com/markets/article/sk-hynix-seeks-28-billion-in-us-ipo-listing-as-memory-maker-rides-ai-wave-132016294.html",
+      "published": "2026-07-06T13:20:16Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Dow Jones Futures Rise, Techs Lead; Apple, SpaceX, Sandisk, Robinhood In Focus",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-spacex-sandisk-robinhood/?src=A00220&yptr=yahoo",
-      "published": "2026-07-06T09:20:00Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Europe's PE capital consolidates around established firms",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/europes-pe-capital-consolidates-around-090157557.html",
-      "published": "2026-07-06T09:01:57Z",
-      "source": "Pitchbook"
-    },
-    {
-      "title": "Stock market today: Nasdaq leads S&P 500, Dow futures higher after long holiday weekend",
-      "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-july-7-225645420.html",
+      "title": "Stock market today: Nasdaq leads S&P 500, Dow futures higher as tech jitters ease, oil slips",
+      "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-july-6-225645420.html",
       "published": "2026-07-05T22:56:45Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Stocks inch up as oil weighed by supply while earnings loom",
-      "url": "https://finance.yahoo.com/news/shares-edge-higher-asia-oil-005923908.html",
-      "published": "2026-07-06T08:31:30Z",
-      "source": "Reuters"
+      "title": "TWE puts Markaranka Vineyard in Australia on block",
+      "url": "https://finance.yahoo.com/real-estate/articles/twe-puts-markaranka-vineyard-australia-131417204.html",
+      "published": "2026-07-06T13:14:17Z",
+      "source": "Just Drinks"
     },
     {
-      "title": "Greatland Resources, Valereum, Avon Technologies, Krakatoa Resources - Small Cap Snapshot",
-      "url": "https://finance.yahoo.com/video/greatland-resources-valereum-avon-technologies-092127090.html",
-      "published": "2026-07-06T09:21:27Z",
-      "source": "Proactive"
+      "title": "Bitcoin and ethereum prices today, Monday, July 6, 2026: Prices falling after last week's rebound",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-6-2026-prices-falling-after-last-weeks-rebound-131307981.html",
+      "published": "2026-07-06T13:13:07Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Oil falls by more than 1% after OPEC+ agrees to raise output targets",
+      "title": "Tech stocks live: SpaceX stock gets its next catalyst, Samsung earnings on deck",
+      "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-spacex-stock-gets-its-next-catalyst-samsung-earnings-on-deck-131003284.html",
+      "published": "2026-07-06T13:10:03Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Weekly Stock List",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47521_StockPicks_1783337985000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-06T11:39:45Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Strategy Knee-Caps Bitcoin Rally With $216 Million Sale",
+      "url": "https://www.investors.com/news/bitcoin-price-strategy-sells-cryptocurrency-again/?src=A00220&yptr=yahoo",
+      "published": "2026-07-06T13:07:37Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Sellers priced homes at 'aspirational levels' \u2014 now listing prices are falling at the fastest pace since 2017",
+      "url": "https://finance.yahoo.com/real-estate/articles/sellers-priced-homes-aspirational-levels-130000828.html",
+      "published": "2026-07-06T13:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Lockheed Martin to acquire Ultra Maritime for $3.45 billion",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-acquire-ultra-maritime-130544777.html",
+      "published": "2026-07-06T13:05:44Z",
+      "source": "Quartz"
+    },
+    {
+      "title": "Stock Market Today: Dow Falls, Tech Futures Rally; Memory Names Micron, Sandisk Bounce Higher (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-mu-stock-sandisk-sndk-stock/?src=A00220&yptr=yahoo",
+      "published": "2026-07-06T12:57:35Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Best CD rates today, Monday, July 6, 2026: Lock in up to 4.2% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-6-2026-lock-in-up-to-42-apy-100000383.html",
+      "published": "2026-07-06T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Daily Spotlight: Stock Market Valuation Reasonable",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47517_MarketOutlook_1783337764000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-06T11:36:04Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Oil falls after OPEC+ agrees to raise output targets",
       "url": "https://finance.yahoo.com/news/oil-slips-opec-agrees-raise-003607304.html",
-      "published": "2026-07-06T08:11:28Z",
+      "published": "2026-07-06T12:46:34Z",
       "source": "Reuters"
     },
     {
-      "title": "EasyJet shares jump 10% after airline backs $7.3 billion Castlelake takeover",
-      "url": "https://finance.yahoo.com/news/easyjet-shares-jump-10-airline-072854632.html",
-      "published": "2026-07-06T07:59:40Z",
+      "title": "Silver prices today, Monday, July 6, 2026: Silver prices  find room to rise following June jobs report",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-july-6-2026-silver-prices-find-room-to-rise-following-june-jobs-report-124226919.html",
+      "published": "2026-07-06T12:42:26Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "NASA Just Made A Huge Bet That These 3 Companies Will Get America Back To The Moon Before China",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasa-just-made-huge-bet-130510193.html",
+      "published": "2026-07-06T13:05:10Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Gold prices today, Monday, July 6: Higher prices following Thursday's jobs report",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-july-6-higher-prices-following-thursdays-jobs-report-121321784.html",
+      "published": "2026-07-06T12:13:21Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Dow Jones Futures: Nasdaq Set To Reclaim Key Level; Apple, SpaceX, Sandisk, Robinhood In Focus",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-apple-spacex-sandisk-robinhood/?src=A00220&yptr=yahoo",
+      "published": "2026-07-06T12:13:03Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Technical Assessment: Bullish in the Intermediate-Term",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47516_TechnicalAnalysis_1783337730000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-06T11:35:30Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Broadcom, Apple extend chip supply deal through 2031",
+      "url": "https://finance.yahoo.com/technology/articles/broadcom-apple-extend-chip-partnership-120712484.html",
+      "published": "2026-07-06T12:07:12Z",
       "source": "Reuters"
     },
     {
-      "title": "Yen pinned near 40-year lows as intervention risks mount",
-      "url": "https://finance.yahoo.com/news/dollar-near-two-week-lows-011548042.html",
-      "published": "2026-07-06T07:57:56Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "The Strait of Hormuz has reopened \u2014 why that might be a problem for the oil market: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/the-strait-of-hormuz-has-reopened--why-that-might-be-a-problem-for-the-oil-market-chart-of-the-day-145149603.html",
-      "published": "2026-07-05T14:51:49Z",
+      "title": "This surprising wrinkle in the 2026 bull market could drive stocks higher",
+      "url": "https://finance.yahoo.com/markets/article/this-surprising-wrinkle-in-the-2026-bull-market-could-drive-stocks-higher-120223653.html",
+      "published": "2026-07-06T12:02:23Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Better Energy Stock to Own in the Second Half of 2026: Energy Transfer or Occidental Petroleum?",
-      "url": "https://finance.yahoo.com/energy/articles/better-energy-stock-own-second-092000669.html",
-      "published": "2026-07-06T09:20:00Z",
-      "source": "Motley Fool"
+      "title": "Bank of America resets Nike stock target on recovery plan",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-resets-nike-stock-130300434.html",
+      "published": "2026-07-06T13:03:00Z",
+      "source": "TheStreet"
     },
     {
-      "title": "ADNOC Launches Global LNG Trading Platform Targeting 47 MTPA by 2035",
-      "url": "https://finance.yahoo.com/energy/articles/adnoc-launches-global-lng-trading-063431221.html",
-      "published": "2026-07-06T06:34:31Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "Rate hike readjustment and AI hardware momentum: What to watch this week",
-      "url": "https://finance.yahoo.com/economy/article/rate-hike-readjustment-and-ai-hardware-momentum-what-to-watch-this-week-160059243.html",
-      "published": "2026-07-05T16:00:59Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Morning Bid: Samsung to serve chip taster for earnings feast",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-samsung-serve-chip-043150581.html",
-      "published": "2026-07-06T04:31:50Z",
+      "title": "U.S. futures rise as oil weighed by supply while earnings loom",
+      "url": "https://finance.yahoo.com/news/shares-edge-higher-asia-oil-005923908.html",
+      "published": "2026-07-06T11:58:36Z",
       "source": "Reuters"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Sunday, July 5: Rates way up since last week",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-5-rates-way-up-since-last-week-100000265.html",
-      "published": "2026-07-05T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "8 Stocks' Earnings Will Grow Faster Than Everyone's Wildest Dreams",
+      "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-upcoming-growth-blasts-past-everyones-wildest-dreams/?src=A00220&yptr=yahoo",
+      "published": "2026-07-06T11:40:35Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "3 Cryptocurrencies to Buy Before They Soar More Than 2,500% Each, According to an Analyst",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/3-cryptocurrencies-buy-soar-more-092000517.html",
-      "published": "2026-07-06T09:20:00Z",
-      "source": "Motley Fool"
+      "title": "Market Digest: GIS",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47514_MarketSummary_1783335164000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-06T10:52:44Z",
+      "source": "Argus Research"
     },
     {
-      "title": "Best CD rates today, Sunday, July 5, 2026: Lock in up to 4.10% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-july-5-2026-lock-in-up-to-410-apy-100000607.html",
-      "published": "2026-07-05T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Mortgage and refinance interest rates today, Saturday, July 4: Rates are mixed this July 4 holiday",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-july-4-rates-are-mixed-this-july-4-holiday-100000596.html",
-      "published": "2026-07-04T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Best CD rates today, Saturday, July 4, 2026: Best account provides 4.10% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-july-4-2026-best-account-provides-410-apy-100000802.html",
-      "published": "2026-07-04T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-3-2026-green-july-off-to-a-solid-start-131639758.html",
-      "published": "2026-07-03T13:16:39Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Gymshark founder reportedly in talks to repurchase part of General Atlantic stake",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gymshark-founder-reportedly-talks-repurchase-091851157.html",
-      "published": "2026-07-06T09:18:51Z",
-      "source": "Retail Insight Network"
-    },
-    {
-      "title": "Is the stock market open on July 3? Here's the holiday trading schedule for Fourth of July.",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-july-3-heres-the-holiday-trading-schedule-for-fourth-of-july-210239142.html",
-      "published": "2024-03-25T21:02:39Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Tata Power commissions 100.8MW wind facility in Maharashtra, India",
-      "url": "https://finance.yahoo.com/energy/articles/tata-power-commissions-100-8mw-091723166.html",
-      "published": "2026-07-06T09:17:23Z",
-      "source": "Power Technology"
-    },
-    {
-      "title": "BlackRock Just Introduced a New Way to Invest in Bitcoin. But Is This New ETF a Buy?",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/blackrock-just-introduced-way-invest-091500571.html",
-      "published": "2026-07-06T09:15:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Why MercadoLibre Stock Dropped 16% in the First Half of the Year",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-mercadolibre-stock-dropped-16-091221850.html",
-      "published": "2026-07-06T09:12:21Z",
-      "source": "Motley Fool"
+      "title": "Italy reshapes national cloud company as Leonardo, Poste target\u00a0control, sources say",
+      "url": "https://finance.yahoo.com/technology/articles/italy-reshapes-national-cloud-company-114031150.html",
+      "published": "2026-07-06T11:40:31Z",
+      "source": "Reuters"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 308.63,
-      "prev_close": 294.38,
-      "change_pct": 4.840682111556491
+      "price": 307.88,
+      "prev_close": 308.63,
+      "change_pct": -0.24300942876583614
     },
     "MSFT": {
-      "price": 390.49,
-      "prev_close": 384.28,
-      "change_pct": 1.6160091599875186
+      "price": 386.57,
+      "prev_close": 390.49,
+      "change_pct": -1.0038669364132284
     },
     "NVDA": {
-      "price": 194.83,
-      "prev_close": 197.58,
-      "change_pct": -1.3918412794817288
+      "price": 194.21,
+      "prev_close": 194.83,
+      "change_pct": -0.3182261458707614
     },
     "GOOGL": {
-      "price": 359.91,
-      "prev_close": 361.21,
-      "change_pct": -0.3599014423742296
+      "price": 361.4,
+      "prev_close": 359.91,
+      "change_pct": 0.413992386985622
     },
     "AMZN": {
-      "price": 242.67,
-      "prev_close": 241.7,
-      "change_pct": 0.4013239553165076
+      "price": 243.45,
+      "prev_close": 242.67,
+      "change_pct": 0.3214241562615903
     },
     "META": {
-      "price": 582.9,
-      "prev_close": 612.91003,
-      "change_pct": -4.8963189589180045
+      "price": 592.232,
+      "prev_close": 582.9,
+      "change_pct": 1.6009607136730133
     },
     "TSLA": {
-      "price": 393.45,
-      "prev_close": 425.30002,
-      "change_pct": -7.488835763515842
+      "price": 396.24,
+      "prev_close": 393.45,
+      "change_pct": 0.7091117041555522
     },
     "JPM": {
-      "price": 334.47,
-      "prev_close": 334.07,
-      "change_pct": 0.11973538479960312
+      "price": 334.93,
+      "prev_close": 334.35,
+      "change_pct": 0.17347091371317003
     },
     "V": {
-      "price": 362.13,
-      "prev_close": 351.08,
-      "change_pct": 3.14743078500627
+      "price": 363.0,
+      "prev_close": 361.58,
+      "change_pct": 0.39272083632944743
     },
     "XOM": {
-      "price": 137.09,
-      "prev_close": 136.28,
-      "change_pct": 0.5943645435867349
+      "price": 136.65,
+      "prev_close": 136.97,
+      "change_pct": -0.23362780170839834
     },
     "SPY": {
-      "price": 744.78,
-      "prev_close": 745.76,
-      "change_pct": -0.13140956876207066
+      "price": 748.228,
+      "prev_close": 744.8,
+      "change_pct": 0.46025778732545614
     },
     "QQQ": {
-      "price": 712.6044,
-      "prev_close": 725.1656,
-      "change_pct": -1.7321836557056738
+      "price": 718.86,
+      "prev_close": 712.6044,
+      "change_pct": 0.8778503191953289
     },
     "AMD": {
-      "price": 517.82,
-      "prev_close": 540.88,
-      "change_pct": -4.263422570625637
+      "price": 531.38,
+      "prev_close": 517.82,
+      "change_pct": 2.6186705805105914
     },
     "NFLX": {
-      "price": 77.65,
-      "prev_close": 74.19,
-      "change_pct": 4.663701307453846
+      "price": 77.45,
+      "prev_close": 77.65,
+      "change_pct": -0.25756600128783363
     },
     "COIN": {
-      "price": 165.48,
-      "prev_close": 159.23999,
-      "change_pct": 3.918619939626964
+      "price": 161.76,
+      "prev_close": 165.48,
+      "change_pct": -2.2480058013052933
     },
     "PLTR": {
-      "price": 129.3,
-      "prev_close": 125.73,
-      "change_pct": 2.839417800047727
+      "price": 127.07,
+      "prev_close": 129.3,
+      "change_pct": -1.7246713070379103
     },
     "BRK-B": {
-      "price": 507.78,
-      "prev_close": 499.74,
-      "change_pct": 1.608836595029408
+      "price": 507.5,
+      "prev_close": 507.43,
+      "change_pct": 0.013795006207751448
     }
   },
-  "updated_at": "2026-07-06T09:44:49.939858+00:00",
+  "updated_at": "2026-07-06T13:30:27.498481+00:00",
   "source": "yahoo_finance"
 }
