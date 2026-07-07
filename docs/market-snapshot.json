@@ -41,7 +41,7 @@
         7538.33984375,
         7537.43017578125
       ],
-      "as_of": "2026-07-07 00:04 UTC",
+      "as_of": "2026-07-07 04:12 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26125.30859375,
         26121.16015625
       ],
-      "as_of": "2026-07-07 00:04 UTC",
+      "as_of": "2026-07-07 04:12 UTC",
       "source": "yahoo"
     },
     {
@@ -129,23 +129,17 @@
         53060.1015625,
         53055.91015625
       ],
-      "as_of": "2026-07-07 00:04 UTC",
+      "as_of": "2026-07-07 04:12 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4172.8,
-      "change": 5.300000000000182,
-      "change_pct": 0.12717456508698696,
+      "price": 4142.9,
+      "change": -24.600000000000364,
+      "change_pct": -0.5902819436112865,
       "series": [
-        4175.7001953125,
-        4167.2001953125,
-        4161.7998046875,
-        4155.89990234375,
-        4155.5,
-        4161.10009765625,
         4167.39990234375,
         4167.89990234375,
         4167.39990234375,
@@ -170,26 +164,26 @@
         4177.10009765625,
         4175.89990234375,
         4174.2998046875,
-        4172.7998046875,
-        4172.7998046875
+        4168.7001953125,
+        4171.39990234375,
+        4157.2001953125,
+        4144.2998046875,
+        4153.89990234375,
+        4151.2998046875,
+        4143.60009765625,
+        4142.89990234375
       ],
-      "as_of": "2026-07-07 00:04 UTC",
+      "as_of": "2026-07-07 04:12 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 68.75,
-      "change": 0.20000000000000284,
-      "change_pct": 0.2917578409919808,
+      "price": 68.95,
+      "change": 0.4000000000000057,
+      "change_pct": 0.5835156819839616,
       "series": [
-        67.93000030517578,
-        68.08000183105469,
-        68.19999694824219,
-        68.30000305175781,
-        68.30999755859375,
-        68.29000091552734,
         68.58999633789062,
         68.58000183105469,
         68.6500015258789,
@@ -214,10 +208,16 @@
         68.66999816894531,
         68.75,
         68.80000305175781,
-        68.75,
-        68.75
+        68.76000213623047,
+        68.76000213623047,
+        68.87999725341797,
+        68.7699966430664,
+        69.06999969482422,
+        69.16000366210938,
+        68.97000122070312,
+        68.94999694824219
       ],
-      "as_of": "2026-07-07 00:04 UTC",
+      "as_of": "2026-07-07 04:12 UTC",
       "source": "yahoo"
     },
     {
@@ -225,8 +225,8 @@
       "name": "VIX",
       "symbol": "^VIX",
       "price": 15.57,
-      "change": -0.2400000000000002,
-      "change_pct": -1.5180265654648968,
+      "change": -0.5799999999999983,
+      "change_pct": -3.591331269349835,
       "series": [
         15.890000343322754,
         15.800000190734863,
@@ -261,52 +261,22 @@
         15.5600004196167,
         15.569999694824219
       ],
-      "as_of": "2026-07-07 00:04 UTC",
+      "as_of": "2026-07-07 04:12 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Best Buy and Apple flag a price shock for shoppers",
-      "url": "https://finance.yahoo.com/economy/articles/best-buy-apple-flag-price-203300039.html",
-      "published": "2026-07-06T20:33:00Z",
+      "title": "Top-rated analyst sets a jaw-dropping Intel stock price target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-rated-analyst-sets-jaw-164700897.html",
+      "published": "2026-07-05T16:47:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "Sentiment Could Be Turning Sour on Nvidia. Here\u2019s Where 1 Analyst Thinks NVDA Stock Is Headed Next.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sentiment-could-turning-sour-nvidia-153002046.html",
-      "published": "2026-07-05T15:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "The S&P 500\u2019s Best Quarter Since 2020 Produced Big Winners And Losers. Here\u2019s Where to Look Now for Q3 Profits.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-best-quarter-since-150002142.html",
-      "published": "2026-07-05T15:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Dear Netflix Stock Fans, Mark Your Calendars for July 16",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-netflix-stock-fans-mark-150002883.html",
-      "published": "2026-07-05T15:00:02Z",
-      "source": "Barchart"
     },
     {
       "title": "Investors with $5M+ are done being landlords \u2014 and one passive strategy pays 10% to 12% 'easy money'",
       "url": "https://finance.yahoo.com/real-estate/articles/investors-5m-done-being-landlords-163000068.html",
       "published": "2026-07-05T16:30:00Z",
       "source": "Moneywise"
-    },
-    {
-      "title": "What the Buffett Market Valuation Indicator at Record Highs Means for Investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buffett-market-valuation-indicator-record-153100382.html",
-      "published": "2026-07-05T15:31:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Google Just Launched 2 New AI Models. What That Means for GOOGL Stock.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-just-launched-2-ai-143002336.html",
-      "published": "2026-07-05T14:30:02Z",
-      "source": "Barchart"
     },
     {
       "title": "Here\u2019s How Arista Networks Is a Major Beneficiary of Big Tech\u2019s Push to Break Nvidia\u2019s Grip",
@@ -321,100 +291,130 @@
       "source": "Barchart"
     },
     {
-      "title": "Got $2M saved for retirement? Get ready for everything to change, and not always for the better. Dodge 5 money traps now",
-      "url": "https://finance.yahoo.com/markets/articles/got-2m-saved-retirement-ready-141000374.html",
-      "published": "2026-07-05T14:10:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Shaq Spent $70K At Walmart One Night, But His Amex Got Declined Assuming It Was Stolen \u2014 \u2018I Ain\u2019t Got No Towels. I Ain\u2019t Got No Pots And Pans\u2019",
-      "url": "https://finance.yahoo.com/small-business/articles/shaq-spent-70k-walmart-one-153126263.html",
-      "published": "2026-07-05T15:31:26Z",
-      "source": "Benzinga"
-    },
-    {
-      "title": "Dear Taiwan Semi Stock Fans, Mark Your Calendars for July 16",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-taiwan-semi-stock-fans-140002938.html",
-      "published": "2026-07-05T14:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "British American Tobacco Is Cutting 5,500 Jobs. How to Play the High-Yield Dividend Stock Here.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/british-american-tobacco-cutting-5-134501060.html",
-      "published": "2026-07-05T13:45:01Z",
-      "source": "Barchart"
-    },
-    {
       "title": "A bigger tax hit to save in interest \u2014 why raiding your 401(k) to pay off credit cards can backfire badly",
       "url": "https://finance.yahoo.com/markets/articles/bigger-tax-hit-save-interest-173000406.html",
       "published": "2026-07-05T17:30:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "Dell Stock Has Very Attractive Short-Put Yields - Over 3.8% for the Next 2 Weeks",
-      "url": "https://finance.yahoo.com/markets/options/articles/dell-stock-very-attractive-short-133002117.html",
-      "published": "2026-07-05T13:30:02Z",
+      "title": "A Sudden Glut of Oil Threatens to Weaken Iran\u2019s Hand in Talks",
+      "url": "https://www.wsj.com/finance/commodities-futures/a-sudden-glut-of-oil-threatens-to-weaken-irans-hand-in-talks-adfcf7c0?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-05T16:41:00Z",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "title": "Mark Zuckerberg Doubles Down on Raw Computing Power to Challenge AWS and Microsoft. What That Means for META Stock.",
+      "url": "https://finance.yahoo.com/technology/articles/mark-zuckerberg-doubles-down-raw-183002829.html",
+      "published": "2026-07-05T18:30:02Z",
       "source": "Barchart"
     },
     {
-      "title": "A Dividend Portfolio That Out-Earns the Average California Family",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-portfolio-earns-average-california-153056845.html",
-      "published": "2026-07-05T15:30:56Z",
-      "source": "24/7 Wall St."
+      "title": "The Era of Cheap U.S. Natural Gas May Be Coming to an End",
+      "url": "https://finance.yahoo.com/energy/articles/era-cheap-u-natural-gas-190000577.html",
+      "published": "2026-07-05T19:00:00Z",
+      "source": "Oilprice.com"
     },
     {
-      "title": "Gold prices today, Monday, July 6: Higher prices following Thursday's jobs report",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-july-6-higher-prices-following-thursdays-jobs-report-121321784.html",
-      "published": "2026-07-06T12:13:21Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Cathie Wood Sees Value in This Beaten-Down Growth Stock. I Do Too.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-sees-value-beaten-193002564.html",
+      "published": "2026-07-05T19:30:02Z",
+      "source": "Barchart"
     },
     {
-      "title": "Silver prices today, Monday, July 6, 2026: Silver prices  find room to rise following June jobs report",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-july-6-2026-silver-prices-find-room-to-rise-following-june-jobs-report-124226919.html",
-      "published": "2026-07-06T12:42:26Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Kosmos Energy (KOS) Completes Sale of Equatorial Guinea Interests to Panoro Energy",
+      "url": "https://finance.yahoo.com/energy/articles/kosmos-energy-kos-completes-sale-200554093.html",
+      "published": "2026-07-05T20:05:54Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Best CD rates today, Monday, July 6, 2026: Lock in up to 4.2% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-6-2026-lock-in-up-to-42-apy-100000383.html",
-      "published": "2026-07-06T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Got $1,000? Why Microsoft's Drop to a 52-Week Low Is a Screaming Buy for Long-Term Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/got-1-000-why-microsofts-165000183.html",
+      "published": "2026-07-05T16:50:00Z",
+      "source": "Motley Fool"
     },
     {
-      "title": "Bitcoin and ethereum prices today, Monday, July 6, 2026: Prices falling after last week's rebound",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-6-2026-prices-falling-after-last-weeks-rebound-131307981.html",
-      "published": "2026-07-06T13:13:07Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Clarivate (CLVT) Launches IPOne AI-Powered Intelligence Platform for IP Workflows",
+      "url": "https://finance.yahoo.com/technology/ai/articles/clarivate-clvt-launches-ipone-ai-200603192.html",
+      "published": "2026-07-05T20:06:03Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "$4.1 Billion Deal Shows Why Ferrari and Tesla Are Ditching Copper for a Substitute",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/4-1-billion-deal-shows-153132628.html",
-      "published": "2026-07-05T15:31:32Z",
-      "source": "Benzinga"
+      "title": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/n-able-nabl-one-best-200617423.html",
+      "published": "2026-07-05T20:06:17Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "What is the bingo savings challenge? Here's how it works \u2014 and how much you can save.",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/bingo-savings-challenge-153459727.html",
-      "published": "2026-07-06T15:34:59Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Here is Why Yext (YEXT) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-yext-yext-one-best-200624657.html",
+      "published": "2026-07-05T20:06:24Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Rate buydown vs. closing costs vs. price reduction",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/rate-buydown-vs-closing-costs-vs-price-reduction-160106245.html",
-      "published": "2026-07-06T16:01:06Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/galiano-gold-gau-best-value-200634573.html",
+      "published": "2026-07-05T20:06:34Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-9-170834159.html",
-      "published": "2025-11-03T17:08:34Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Prediction: Energy Transfer (ET) Will Crush the S&P 500 in the Second-Half of 2026.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-energy-transfer-et-crush-165155909.html",
+      "published": "2026-07-05T16:51:55Z",
+      "source": "Motley Fool"
     },
     {
-      "title": "Trump Accounts explained: How they work, who qualifies",
-      "url": "https://finance.yahoo.com/personal-finance/taxes/article/trump-accounts-205705429.html",
-      "published": "2025-12-04T20:57:05Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/petco-woof-one-best-value-200644831.html",
+      "published": "2026-07-05T20:06:44Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/repay-holdings-rpay-receives-unsolicited-200653568.html",
+      "published": "2026-07-05T20:06:53Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Integra Resources (ITGR) Appoints Ausenco to Lead Detailed Engineering for DeLamar Project",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/integra-resources-itgr-appoints-ausenco-200701299.html",
+      "published": "2026-07-05T20:07:01Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Wipro (WIT) Completes Data Center Migration for METRO AG",
+      "url": "https://finance.yahoo.com/technology/ai/articles/wipro-wit-completes-data-center-200725808.html",
+      "published": "2026-07-05T20:07:25Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "3 Stocks to Buy and Hold Even if There's a Stock Market Sell-Off in the Second Half of 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-buy-hold-even-163500280.html",
+      "published": "2026-07-05T16:35:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "LG Display (LPL) Earns ASPICE Level 2 Certification for Automotive Displays",
+      "url": "https://finance.yahoo.com/technology/articles/lg-display-lpl-earns-aspice-200745096.html",
+      "published": "2026-07-05T20:07:45Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Five Energy Stocks Riding Texas's Data Center Power Boom",
+      "url": "https://finance.yahoo.com/energy/articles/five-energy-stocks-riding-texass-210000847.html",
+      "published": "2026-07-05T21:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "With Ambitious Growth Plans, SpaceX Stock Is Likely to Surge Higher",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ambitious-growth-plans-spacex-stock-213225932.html",
+      "published": "2026-07-05T21:32:25Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Here\u2019s What Analysts Say About Petco Health and Wellness (WOOF)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-petco-health-wellness-woof-220640214.html",
+      "published": "2026-07-05T22:06:40Z",
+      "source": "Insider Monkey"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.23632281696797605
     }
   },
-  "updated_at": "2026-07-07T00:04:55.204396+00:00",
+  "updated_at": "2026-07-07T04:12:16.512014+00:00",
   "source": "yahoo_finance"
 }
