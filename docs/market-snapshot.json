@@ -4,11 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7479.02,
-      "change": -24.829999999999927,
-      "change_pct": -0.3308968063060952,
+      "price": 7482.71,
+      "change": -21.140000000000327,
+      "change_pct": -0.2817220493480057,
       "series": [
-        7534.5,
         7528.52001953125,
         7540.77001953125,
         7546.68017578125,
@@ -38,21 +37,21 @@
         7470.6298828125,
         7474.169921875,
         7480.27978515625,
-        7478.93994140625,
-        7479.02001953125
+        7479.0,
+        7481.4599609375,
+        7482.7099609375
       ],
-      "as_of": "2026-07-08 19:03 UTC",
+      "as_of": "2026-07-08 20:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 25816.842,
-      "change": -1.8479999999981374,
-      "change_pct": -0.0071576055950094185,
+      "price": 25870.652,
+      "change": 51.961999999999534,
+      "change_pct": 0.20125730623823104,
       "series": [
-        26128.8515625,
         26063.287109375,
         26126.05859375,
         26143.7734375,
@@ -82,21 +81,21 @@
         25763.171875,
         25778.994140625,
         25816.259765625,
-        25814.763671875,
-        25816.841796875
+        25828.68359375,
+        25868.28515625,
+        25870.65234375
       ],
-      "as_of": "2026-07-08 19:03 UTC",
+      "as_of": "2026-07-08 20:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 52347.53,
-      "change": -577.6200000000026,
-      "change_pct": -1.0913903881236098,
+      "price": 52348.39,
+      "change": -576.760000000002,
+      "change_pct": -1.0897654517748216,
       "series": [
-        52945.01953125,
         52910.78125,
         52985.0390625,
         53017.0390625,
@@ -126,23 +125,21 @@
         52310.62109375,
         52349.76953125,
         52364.3203125,
-        52353.25,
-        52347.53125
+        52346.91015625,
+        52337.421875,
+        52348.390625
       ],
-      "as_of": "2026-07-08 19:03 UTC",
+      "as_of": "2026-07-08 20:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4095.0,
-      "change": -62.399999999999636,
-      "change_pct": -1.5009380863039312,
+      "price": 4088.7,
+      "change": -68.69999999999982,
+      "change_pct": -1.6524751046326989,
       "series": [
-        4133.7001953125,
-        4136.60009765625,
-        4135.89990234375,
         4132.5,
         4138.5,
         4140.89990234375,
@@ -170,23 +167,23 @@
         4083.39990234375,
         4076.39990234375,
         4080.800048828125,
-        4094.39990234375,
-        4095.0
+        4094.10009765625,
+        4098.5,
+        4090.199951171875,
+        4088.699951171875,
+        4088.699951171875
       ],
-      "as_of": "2026-07-08 19:03 UTC",
+      "as_of": "2026-07-08 20:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 73.71,
-      "change": 3.269999999999996,
-      "change_pct": 4.64224872231686,
+      "price": 74.4,
+      "change": 3.960000000000008,
+      "change_pct": 5.6218057921635545,
       "series": [
-        72.26000213623047,
-        72.25,
-        72.36000061035156,
         72.7300033569336,
         72.7699966430664,
         72.66999816894531,
@@ -214,22 +211,23 @@
         73.8499984741211,
         73.77999877929688,
         73.52999877929688,
-        73.70999908447266,
-        73.70999908447266
+        73.58999633789062,
+        73.62000274658203,
+        74.06999969482422,
+        74.43000030517578,
+        74.4000015258789
       ],
-      "as_of": "2026-07-08 19:03 UTC",
+      "as_of": "2026-07-08 20:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.8,
-      "change": 0.6700000000000017,
-      "change_pct": 4.153750774953513,
+      "price": 16.87,
+      "change": 0.740000000000002,
+      "change_pct": 4.587724736515822,
       "series": [
-        15.65999984741211,
-        15.609999656677246,
         15.550000190734863,
         16.0,
         16.350000381469727,
@@ -258,10 +256,12 @@
         16.690000534057617,
         16.90999984741211,
         16.850000381469727,
-        16.799999237060547,
-        16.799999237060547
+        16.770000457763672,
+        16.809999465942383,
+        16.68000030517578,
+        16.81999969482422
       ],
-      "as_of": "2026-07-08 19:03 UTC",
+      "as_of": "2026-07-08 20:25 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,28 +273,28 @@
       "source": "TheStreet"
     },
     {
-      "title": "Big Tech data centers are driving up power bills at America's Rust Belt factories",
-      "url": "https://finance.yahoo.com/energy/articles/big-tech-data-centers-driving-100231857.html",
-      "published": "2026-07-07T10:02:31Z",
+      "title": "AscendTMS expands fraud-fighting toolkit with SearchCarriers integration",
+      "url": "https://finance.yahoo.com/small-business/articles/ascendtms-expands-fraud-fighting-toolkit-120000721.html",
+      "published": "2026-07-07T12:00:00Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "What to Expect From Fair Isaac\u2019s Q3 2026 Earnings Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-fair-isaac-q3-2026-114942809.html",
+      "published": "2026-07-07T11:49:42Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Onsemi to sell two chipmaking plants to cut costs",
+      "url": "https://finance.yahoo.com/technology/articles/onsemi-sell-two-chipmaking-plants-120806283.html",
+      "published": "2026-07-07T12:08:06Z",
       "source": "Reuters"
     },
     {
-      "title": "SpaceX is entering the Nasdaq 100 \u2014 here's what it could mean for the stock: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/spacex-is-entering-the-nasdaq-100--heres-what-it-could-mean-for-the-stock-chart-of-the-day-100000973.html",
-      "published": "2026-07-07T10:00:00Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "QXO, Inc. (QXO)\u2019s Stock Down Significantly Since Jim Cramer Thought \u201cIt\u2019s A Buy\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qxo-inc-qxo-stock-down-095234213.html",
-      "published": "2026-07-07T09:52:34Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Palantir Technologies Inc. (PLTR) Shares Down Heavily Since Jim Cramer Said He Saw \u201cNo Reason\u201d To Back Away",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-shares-095012329.html",
-      "published": "2026-07-07T09:50:12Z",
-      "source": "Insider Monkey"
+      "title": "ADNOC, XRG, and Mitsui Expand Energy Partnership Across LNG and Trading",
+      "url": "https://finance.yahoo.com/energy/articles/adnoc-xrg-mitsui-expand-energy-113646500.html",
+      "published": "2026-07-07T11:36:46Z",
+      "source": "Oilprice.com"
     },
     {
       "title": "Market Update: CMCSA, GAP",
@@ -303,94 +303,94 @@
       "source": "Argus Research"
     },
     {
-      "title": "A Business Owner Paid Himself a Low Salary for Decades to Save on Taxes. The Trade-Off Shows Up Now, in a Smaller Social Security Check, and Selling the Company Won\u2019t Fix It.",
-      "url": "https://finance.yahoo.com/small-business/articles/business-owner-paid-himself-low-100219181.html",
-      "published": "2026-07-07T10:02:19Z",
-      "source": "24/7 Wall St."
+      "title": "One year after OBBBA, biogas tax credit questions remain",
+      "url": "https://finance.yahoo.com/energy/articles/one-obbba-biogas-tax-credit-120300260.html",
+      "published": "2026-07-07T12:03:00Z",
+      "source": "Waste Dive"
     },
     {
-      "title": "CoreWeave Inc. (CRWV) Down Nearly 20% Since Jim Cramer Said It\u2019s \u201cComing Back\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-inc-crwv-down-nearly-094727562.html",
-      "published": "2026-07-07T09:47:27Z",
-      "source": "Insider Monkey"
+      "title": "Rocket Lab Just Changed Its Growth Story With One Bold $8B Deal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-just-changed-growth-113002434.html",
+      "published": "2026-07-07T11:30:02Z",
+      "source": "Barchart"
     },
     {
-      "title": "Capital One Financial Corporation (COF) Shares Down Since Jim Cramer Discussed Reasons To Own Them",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/capital-one-financial-corporation-cof-094454375.html",
-      "published": "2026-07-07T09:44:54Z",
-      "source": "Insider Monkey"
+      "title": "PEY Pertinent for Equity Income Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pey-pertinent-equity-income-investors-121551606.html",
+      "published": "2026-07-07T12:15:51Z",
+      "source": "ETF Trends"
     },
     {
-      "title": "AppLovin Corporation (APP) Stock Down Heavily Since Jim Cramer Was \u201cComfortable\u201d Recommending It",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-corporation-app-stock-down-094406059.html",
-      "published": "2026-07-07T09:44:06Z",
-      "source": "Insider Monkey"
+      "title": "Can closing costs be rolled into a mortgage?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/can-closing-costs-be-rolled-into-a-mortgage-140103246.html",
+      "published": "2026-07-07T14:01:03Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Meta Platforms, Inc. (META)\u2019s Shares Down Significantly Since Jim Cramer Said They Should Be Up",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-inc-meta-shares-094319629.html",
-      "published": "2026-07-07T09:43:19Z",
-      "source": "Insider Monkey"
+      "title": "Will the housing market crash in 2026? What the numbers say",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-what-the-numbers-say-170038540.html",
+      "published": "2024-07-05T17:00:38Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "\ud83d\udcc9Global AI Stocks Tumble",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-07-2026/card/-global-ai-stocks-tumble-PwVlZi56WENrVd9DKvfe?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-07T09:59:31Z",
-      "source": "The Wall Street Journal"
+      "title": "Which skills will matter the most in the next five years?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/skills-matter-most-next-five-120300258.html",
+      "published": "2026-07-07T12:03:00Z",
+      "source": "HR Dive"
     },
     {
-      "title": "Bank Of America Corp (BAC) Proved To Be One Of Jim Cramer\u2019s Weakest Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-corp-bac-proved-094136889.html",
-      "published": "2026-07-07T09:41:36Z",
-      "source": "Insider Monkey"
+      "title": "Is crypto mining still profitable in 2026?",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/is-crypto-mining-still-profitable-142502084.html",
+      "published": "2026-07-07T14:25:02Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "JPMorgan Chase & Co. (JPM)\u2019s Shares Are Flat Since Cramer Commented On Them",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-shares-094113035.html",
-      "published": "2026-07-07T09:41:13Z",
-      "source": "Insider Monkey"
+      "title": "Openbank review (2026): Earn one of the top HYSA rates with this online bank",
+      "url": "https://finance.yahoo.com/personal-finance/banking/review/openbank-review-152410151.html",
+      "published": "2025-05-21T15:24:10Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "DENTSPLY SIRONA Inc. (XRAY)\u2019s Shares Are Flat Since Cramer Commented On Them",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dentsply-sirona-inc-xray-shares-094228971.html",
-      "published": "2026-07-07T09:42:28Z",
-      "source": "Insider Monkey"
+      "title": "Mortgage & refinance interest rates today, Tuesday, July 7: Rates moving lower",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-july-7-rates-moving-lower-100000320.html",
+      "published": "2026-07-07T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Bank of England sees growing risks to financial stability from AI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/bank-england-sees-growing-risks-093819932.html",
-      "published": "2026-07-07T09:38:19Z",
-      "source": "Reuters"
+      "title": "Trump Accounts explained: How they work, who qualifies",
+      "url": "https://finance.yahoo.com/personal-finance/taxes/article/trump-accounts-205705429.html",
+      "published": "2025-12-04T20:57:05Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "FedEx Freight says simplified process improving customer experience",
-      "url": "https://finance.yahoo.com/small-business/articles/fedex-freight-says-simplified-process-100500429.html",
-      "published": "2026-07-07T10:05:00Z",
-      "source": "Trucking Dive"
+      "title": "Bank7 to buy 71% of Century Bank, maybe",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bank7-buy-71-century-bank-120225624.html",
+      "published": "2026-07-07T12:02:25Z",
+      "source": "Banking Dive"
     },
     {
-      "title": "NVIDIA Corporation (NVDA) Shares Only Slightly Up Since Jim Cramer Recommended Owning Them",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-corporation-nvda-shares-only-093844337.html",
-      "published": "2026-07-07T09:38:44Z",
-      "source": "Insider Monkey"
+      "title": "Term vs. whole life insurance: Which should you choose?",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/term-vs-whole-life-insurance-182345773.html",
+      "published": "2026-07-06T18:23:45Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Should You Buy Lockheed Martin Corporation (LMT)\u2019s Shares?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-lockheed-martin-corporation-lmt-093725566.html",
-      "published": "2026-07-07T09:37:25Z",
-      "source": "Insider Monkey"
+      "title": "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-9-170834159.html",
+      "published": "2025-11-03T17:08:34Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Northrop Grumman Corporation (NOC) Is A Top Pick In Billionaire Talpins\u2019 Filings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/northrop-grumman-corporation-noc-top-093636760.html",
-      "published": "2026-07-07T09:36:36Z",
-      "source": "Insider Monkey"
+      "title": "Rate buydown vs. closing costs vs. price reduction",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/rate-buydown-vs-closing-costs-vs-price-reduction-160106245.html",
+      "published": "2026-07-06T16:01:06Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "DuPont de Nemours (DD) Is A Top Stock To Buy According To Billionaire Jeffrey Talpins",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dupont-nemours-dd-top-stock-093600116.html",
-      "published": "2026-07-07T09:36:00Z",
-      "source": "Insider Monkey"
+      "title": "What is the bingo savings challenge? Here's how it works \u2014 and how much you can save.",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/bingo-savings-challenge-153459727.html",
+      "published": "2026-07-06T15:34:59Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "Daily Spotlight: Equities Post Strong First Half",
@@ -399,111 +399,111 @@
       "source": "Argus Research"
     },
     {
-      "title": "Did BigBear AI Investors Just Shoot Themselves in the Foot? Or Did They Set the Stock Up to Soar?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/did-bigbear-ai-investors-just-100500546.html",
-      "published": "2026-07-07T10:05:00Z",
+      "title": "iShares Russell 2000 Value vs. Morningstar Small Cap: Which ETF Suits Your Portfolio Best?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-value-vs-120001971.html",
+      "published": "2026-07-07T12:00:01Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Should You Buy Pinterest Inc. (PINS)\u2019s Shares?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-pinterest-inc-pins-shares-093453244.html",
-      "published": "2026-07-07T09:34:53Z",
-      "source": "Insider Monkey"
+      "title": "Best CD rates today, Wednesday, July 8, 2026: Earn up to 4.10% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-july-8-2026-earn-up-to-410-apy-100000199.html",
+      "published": "2026-07-08T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "CME Group Inc. (CME) Is A Top Stock To Buy According To Billionaire Jeffrey Talpins",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cme-group-inc-cme-top-093351688.html",
-      "published": "2026-07-07T09:33:51Z",
-      "source": "Insider Monkey"
+      "title": "Mortgage and refinance rates today, Wednesday, July 8, 2026: Rates continue falling",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-wednesday-july-8-2026-rates-continue-falling-100000419.html",
+      "published": "2026-07-08T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 313.85,
+      "price": 313.39,
       "prev_close": 310.66,
-      "change_pct": 1.0268460696581463
+      "change_pct": 0.8787742226227906
     },
     "MSFT": {
-      "price": 383.43,
+      "price": 383.34,
       "prev_close": 388.84,
-      "change_pct": -1.3913177656619609
+      "change_pct": -1.4144635325583788
     },
     "NVDA": {
-      "price": 204.605,
+      "price": 204.12,
       "prev_close": 196.93,
-      "change_pct": 3.897323922205851
+      "change_pct": 3.651043518001319
     },
     "GOOGL": {
-      "price": 359.05,
+      "price": 361.92,
       "prev_close": 367.03,
-      "change_pct": -2.1742091927090326
+      "change_pct": -1.3922567637522703
     },
     "AMZN": {
-      "price": 242.4,
+      "price": 243.62,
       "prev_close": 245.98,
-      "change_pct": -1.4554028782827808
+      "change_pct": -0.959427595739485
     },
     "META": {
-      "price": 606.49,
+      "price": 603.12,
       "prev_close": 615.58,
-      "change_pct": -1.4766561616686753
+      "change_pct": -2.0241073459176766
     },
     "TSLA": {
-      "price": 391.58,
+      "price": 394.06,
       "prev_close": 402.9,
-      "change_pct": -2.809630181186397
+      "change_pct": -2.1940928270042135
     },
     "JPM": {
-      "price": 331.97,
+      "price": 330.62,
       "prev_close": 339.22,
-      "change_pct": -2.1372560580154474
+      "change_pct": -2.535227875714882
     },
     "V": {
-      "price": 348.69,
+      "price": 347.53,
       "prev_close": 352.2,
-      "change_pct": -0.9965928449744439
+      "change_pct": -1.3259511641113049
     },
     "XOM": {
-      "price": 141.105,
+      "price": 141.13,
       "prev_close": 141.69,
-      "change_pct": -0.4128731738301983
+      "change_pct": -0.39522902110240826
     },
     "SPY": {
-      "price": 745.185,
+      "price": 745.32,
       "prev_close": 747.71,
-      "change_pct": -0.3376977705260182
+      "change_pct": -0.3196426422008514
     },
     "QQQ": {
-      "price": 709.76,
+      "price": 711.44,
       "prev_close": 709.43,
-      "change_pct": 0.04651621724483613
+      "change_pct": 0.2833260504912542
     },
     "AMD": {
-      "price": 514.75,
+      "price": 517.405,
       "prev_close": 516.11,
-      "change_pct": -0.2635097169208141
+      "change_pct": 0.25091550250914707
     },
     "NFLX": {
-      "price": 75.835,
+      "price": 75.59,
       "prev_close": 76.18,
-      "change_pct": -0.45287477028093076
+      "change_pct": -0.7744814912050451
     },
     "COIN": {
-      "price": 159.99,
+      "price": 159.36,
       "prev_close": 163.51,
-      "change_pct": -2.152773530670896
+      "change_pct": -2.538071065989834
     },
     "PLTR": {
-      "price": 130.345,
+      "price": 132.22,
       "prev_close": 134.37,
-      "change_pct": -2.9954602961970718
+      "change_pct": -1.6000595370990591
     },
     "BRK-B": {
-      "price": 497.24,
+      "price": 494.79,
       "prev_close": 504.0,
-      "change_pct": -1.3412698412698396
+      "change_pct": -1.8273809523809483
     }
   },
-  "updated_at": "2026-07-08T19:03:58.700301+00:00",
+  "updated_at": "2026-07-08T20:25:35.967427+00:00",
   "source": "yahoo_finance"
 }
