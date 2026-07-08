@@ -41,7 +41,7 @@
         7503.35986328125,
         7503.85009765625
       ],
-      "as_of": "2026-07-08 06:16 UTC",
+      "as_of": "2026-07-08 08:45 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25819.58984375,
         25818.689453125
       ],
-      "as_of": "2026-07-08 06:16 UTC",
+      "as_of": "2026-07-08 08:45 UTC",
       "source": "yahoo"
     },
     {
@@ -93,8 +93,8 @@
       "name": "Dow Jones",
       "symbol": "^DJI",
       "price": 52925.15,
-      "change": -130.76000000000204,
-      "change_pct": -0.24645699225590897,
+      "change": -130.75,
+      "change_pct": -0.2464381906630554,
       "series": [
         52467.8515625,
         52609.2890625,
@@ -129,23 +129,17 @@
         52913.98046875,
         52925.1484375
       ],
-      "as_of": "2026-07-08 06:16 UTC",
+      "as_of": "2026-07-08 08:45 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4135.4,
-      "change": -22.0,
-      "change_pct": -0.5291768894020302,
+      "price": 4087.6,
+      "change": -69.79999999999973,
+      "change_pct": -1.6789339491027984,
       "series": [
-        4170.0,
-        4169.0,
-        4165.0,
-        4154.0,
-        4150.10009765625,
-        4157.5,
         4156.60009765625,
         4157.5,
         4155.89990234375,
@@ -165,31 +159,31 @@
         4122.2998046875,
         4129.5,
         4125.0,
-        4138.5,
+        4141.2998046875,
+        4139.7001953125,
         4136.60009765625,
         4135.89990234375,
         4132.5,
         4138.5,
-        4134.7001953125,
-        4135.39990234375
+        4140.89990234375,
+        4134.0,
+        4131.5,
+        4132.0,
+        4099.5,
+        4086.89990234375,
+        4087.60009765625
       ],
-      "as_of": "2026-07-08 06:16 UTC",
+      "as_of": "2026-07-08 08:45 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 72.82,
-      "change": 2.3799999999999955,
-      "change_pct": 3.3787620670073757,
+      "price": 74.34,
+      "change": 3.9000000000000057,
+      "change_pct": 5.53662691652471,
       "series": [
-        70.02999877929688,
-        70.23999786376953,
-        70.2300033569336,
-        70.20999908447266,
-        70.33999633789062,
-        70.51000213623047,
         70.44000244140625,
         70.58000183105469,
         70.41999816894531,
@@ -209,43 +203,45 @@
         72.12999725341797,
         72.43000030517578,
         72.26000213623047,
-        72.29000091552734,
+        72.22000122070312,
+        72.25,
         72.25,
         72.36000061035156,
         72.7300033569336,
         72.7699966430664,
-        72.81999969482422,
-        72.81999969482422
+        72.66999816894531,
+        72.56999969482422,
+        72.0199966430664,
+        72.05999755859375,
+        74.0199966430664,
+        74.38999938964844,
+        74.33999633789062
       ],
-      "as_of": "2026-07-08 06:16 UTC",
+      "as_of": "2026-07-08 08:45 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.13,
-      "change": 0.5599999999999987,
-      "change_pct": 3.59666024405908,
+      "price": 17.81,
+      "change": 1.6799999999999997,
+      "change_pct": 10.41537507749535,
       "series": [
-        17.190000534057617,
-        16.739999771118164,
-        16.600000381469727,
-        16.729999542236328,
-        16.059999465942383,
-        16.290000915527344,
-        16.020000457763672,
-        15.970000267028809,
-        15.90999984741211,
-        15.90999984741211,
-        15.90999984741211,
-        15.90999984741211,
+        15.5600004196167,
+        15.829999923706055,
+        15.9399995803833,
+        15.829999923706055,
+        15.859999656677246,
+        15.880000114440918,
+        15.84000015258789,
+        15.880000114440918,
+        15.949999809265137,
+        15.920000076293945,
         15.890000343322754,
-        15.930000305175781,
-        15.770000457763672,
-        15.640000343322754,
-        15.619999885559082,
-        15.670000076293945,
+        15.819999694824219,
+        15.890000343322754,
+        15.890000343322754,
         16.030000686645508,
         16.40999984741211,
         16.350000381469727,
@@ -259,43 +255,17 @@
         16.0,
         16.350000381469727,
         16.209999084472656,
-        16.1299991607666
+        16.1299991607666,
+        16.43000030517578,
+        16.459999084472656,
+        17.739999771118164,
+        17.809999465942383
       ],
-      "as_of": "2026-07-08 06:16 UTC",
+      "as_of": "2026-07-08 08:45 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
-    {
-      "title": "Best Buy and Apple flag a price shock for shoppers",
-      "url": "https://finance.yahoo.com/economy/articles/best-buy-apple-flag-price-203300039.html",
-      "published": "2026-07-06T20:33:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "This Analyst Just Upgraded Chevron Stock. Here's Why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-just-upgraded-chevron-stock-180655707.html",
-      "published": "2026-07-06T18:06:55Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "A Successful Leo Satellite Launch Just Gave Amazon Stock a Real Chance to Rival SpaceX",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/successful-leo-satellite-launch-just-180533024.html",
-      "published": "2026-07-06T18:05:33Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Trump Accounts could be a boon for the stock market and retail investors: Strategist",
-      "url": "https://finance.yahoo.com/markets/article/trump-accounts-could-be-a-boon-for-the-stock-market-and-retail-investors-strategist-181731169.html",
-      "published": "2026-07-06T18:17:31Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Ocado\u2019s Founder Era Finally Gets an Expiry Date",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ocado-founder-era-finally-gets-181931868.html",
-      "published": "2026-07-06T18:19:31Z",
-      "source": "Moby"
-    },
     {
       "title": "Bank of America warns America now has 2 economies",
       "url": "https://finance.yahoo.com/economy/articles/bank-america-warns-america-now-202300727.html",
@@ -303,118 +273,148 @@
       "source": "TheStreet"
     },
     {
-      "title": "Terawulf Stock Surges After Kentucky Data Center Deal With Anthropic",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/terawulf-stock-surges-kentucky-data-181943742.html",
-      "published": "2026-07-06T18:19:43Z",
-      "source": "Schaeffer's Investment Research"
-    },
-    {
-      "title": "Strategy Tests Bitcoin Rally With $216 Million Sale",
-      "url": "https://www.investors.com/news/bitcoin-price-strategy-sells-cryptocurrency-again/?src=A00220&yptr=yahoo",
-      "published": "2026-07-06T18:20:23Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Northland Raises Lumentum (LITE) Price Target as AI Data Center Optics Outlook Improves",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/northland-raises-lumentum-lite-price-175643883.html",
-      "published": "2026-07-06T17:56:43Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Term vs. whole life insurance: Which should you choose?",
-      "url": "https://finance.yahoo.com/personal-finance/insurance/article/term-vs-whole-life-insurance-182345773.html",
-      "published": "2026-07-06T18:23:45Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Samsara (IOT) Unveils AI-Powered Smart Label for Real-Time Shipment Visibility",
-      "url": "https://finance.yahoo.com/technology/ai/articles/samsara-iot-unveils-ai-powered-182459856.html",
-      "published": "2026-07-06T18:24:59Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Michael Saylor's Strategy may have saved bitcoin from a bigger sell-off: 'A balancing force in the market'",
-      "url": "https://finance.yahoo.com/markets/crypto/article/michael-saylors-strategy-may-have-saved-bitcoin-from-a-bigger-sell-off-a-balancing-force-in-the-market-154525468.html",
-      "published": "2026-07-06T15:45:25Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "F5 (FFIV), Equinix (EQIX) Partner to Secure and Scale Distributed AI Infrastructure",
-      "url": "https://finance.yahoo.com/technology/ai/articles/f5-ffiv-equinix-eqix-partner-182448696.html",
-      "published": "2026-07-06T18:24:48Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Applied Materials (AMAT) Unveils AI-Powered SENZ Platform to Accelerate Smart Glasses Development",
-      "url": "https://finance.yahoo.com/technology/ai/articles/applied-materials-amat-unveils-ai-182407585.html",
-      "published": "2026-07-06T18:24:07Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Robinhood CEO Predicts That AI Agents Will Catch Up to Human Traders \u2018Soon\u2019",
-      "url": "https://finance.yahoo.com/technology/ai/articles/robinhood-ceo-predicts-ai-agents-180632971.html",
-      "published": "2026-07-06T18:06:32Z",
-      "source": "Entrepreneur"
-    },
-    {
-      "title": "GE HealthCare (GEHC) Introduces AI-Driven Upgrade Pathways to Modernize Legacy Imaging Suites",
-      "url": "https://finance.yahoo.com/healthcare/articles/ge-healthcare-gehc-introduces-ai-182453355.html",
-      "published": "2026-07-06T18:24:53Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Zeta Global (ZETA) Expands Athena AI Platform to Advertising Agencies",
-      "url": "https://finance.yahoo.com/technology/ai/articles/zeta-global-zeta-expands-athena-182511823.html",
-      "published": "2026-07-06T18:25:11Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "C3.ai (AI) and Shell Expand Global Predictive Maintenance Partnership",
-      "url": "https://finance.yahoo.com/technology/ai/articles/c3-ai-ai-shell-expand-182541429.html",
-      "published": "2026-07-06T18:25:41Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "One Stop Systems (OSS): Top 10 Hidden AI Stocks to Buy",
-      "url": "https://finance.yahoo.com/technology/ai/articles/one-stop-systems-oss-top-182547325.html",
-      "published": "2026-07-06T18:25:47Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "ETF Inflows Smash Records, Tracking Toward Historic $2.3 Trillion in 2026",
-      "url": "https://www.barrons.com/advisor/articles/etf-asset-flows-record-state-street-992ff22b?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-06T18:06:00Z",
-      "source": "Barrons.com"
-    },
-    {
-      "title": "Tempus AI (TEM) Launches Next-Gen Agentic Platform to Accelerate Oncology Research",
-      "url": "https://finance.yahoo.com/healthcare/articles/tempus-ai-tem-launches-next-182535119.html",
-      "published": "2026-07-06T18:25:35Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Sprinklr (CXM) Launches LLM Insights to Optimize Brand Presence in AI-Generated Search Results",
-      "url": "https://finance.yahoo.com/technology/ai/articles/sprinklr-cxm-launches-llm-insights-182524846.html",
-      "published": "2026-07-06T18:25:24Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Hanwha, Ambarella (AMBA) Announce $800M Edge AI Co-Development Partnership",
-      "url": "https://finance.yahoo.com/technology/ai/articles/hanwha-ambarella-amba-announce-800m-182517762.html",
-      "published": "2026-07-06T18:25:17Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "10 Million Reasons to Buy Apple Stock Here",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/10-million-reasons-buy-apple-182905469.html",
-      "published": "2026-07-06T18:29:05Z",
+      "title": "This Analyst Just Downgraded Datadog Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-just-downgraded-datadog-stock-204844724.html",
+      "published": "2026-07-06T20:48:44Z",
       "source": "Barchart"
     },
     {
-      "title": "Palantir Stock Is Down 27% This Year. Time To Sell?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-down-27-time-180500331.html",
-      "published": "2026-07-06T18:05:00Z",
+      "title": "Streamlining Bond Ladder Management with Distributing Ladder ETFs",
+      "url": "https://finance.yahoo.com/markets/options/articles/streamlining-bond-ladder-management-distributing-205803085.html",
+      "published": "2026-07-06T20:58:03Z",
+      "source": "etf.com"
+    },
+    {
+      "title": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Makes This Boast (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-mu-stock-sandisk-sndk-stock/?src=A00220&yptr=yahoo",
+      "published": "2026-07-06T20:43:48Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Investors Pull $3.7B From ETFs in Rare Weekly Outflow",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-pull-3-7b-etfs-210034853.html",
+      "published": "2026-07-06T21:00:34Z",
+      "source": "etf.com"
+    },
+    {
+      "title": "CoreWeave stock sinks as mag 7 move rattles investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-sinks-mag-7-213300871.html",
+      "published": "2026-07-07T21:33:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Shell And ExxonMobil Are Betting Billions On Nigeria's Deepwater Comeback",
+      "url": "https://finance.yahoo.com/energy/articles/shell-exxonmobil-betting-billions-nigerias-210000714.html",
+      "published": "2026-07-06T21:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Amid Strong, Positive Catalysts and the Endorsement of Goldman Sachs, Amazon Stock Looks Very Attractive",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amid-strong-positive-catalysts-endorsement-210115841.html",
+      "published": "2026-07-06T21:01:15Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "IBM Stock Climbs After Price Target Hike, Quantum Research News",
+      "url": "https://www.investors.com/news/technology/ibm-stock-price-target-bofa-quantum/?src=A00220&yptr=yahoo",
+      "published": "2026-07-06T20:37:21Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Like It Or Not, SpaceX Set To Land In Millions Of Investors' Portfolios",
+      "url": "https://www.investors.com/news/spacex-spcx-stock-nasdaq-100-qqq/?src=A00220&yptr=yahoo",
+      "published": "2026-07-06T21:07:50Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "How Wide Is The Range Of Possibilities For Netflix Stock?",
+      "url": "https://finance.yahoo.com/markets/options/articles/wide-range-possibilities-netflix-stock-204610093.html",
+      "published": "2026-07-06T20:46:10Z",
+      "source": "Trefis"
+    },
+    {
+      "title": "Boeing Rises On 737 MAX Assembly Line, Joining Aerospace Liftoff",
+      "url": "https://www.investors.com/news/boeing-stock-rises-737-max-assembly-line/?src=A00220&yptr=yahoo",
+      "published": "2026-07-06T21:08:57Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Stocks surge on chip news, oil holds at pre-war levels",
+      "url": "https://finance.yahoo.com/news/shares-edge-higher-asia-oil-005923908.html",
+      "published": "2026-07-06T21:18:43Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Trump Just Gave Dell Stock a Big Boost. What to Know.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-just-gave-dell-stock-212244134.html",
+      "published": "2026-07-06T21:22:44Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "AVGO Stock Alert: What to Know as Broadcom, Apple Announce Expanded 5-Year Chip Deal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/avgo-stock-alert-know-broadcom-213530383.html",
+      "published": "2026-07-06T21:35:30Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Flash Crash or Cash? The AI Hardware Reset Investors Can\u2019t Ignore",
+      "url": "https://finance.yahoo.com/technology/ai/articles/flash-crash-cash-ai-hardware-205000172.html",
+      "published": "2026-07-06T20:50:00Z",
+      "source": "MarketBeat"
+    },
+    {
+      "title": "Wall Street regulator should stick to quarterly reports, investor\u00a0groups say",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-regulator-stick-quarterly-213752110.html",
+      "published": "2026-07-06T21:37:52Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "$2 Trillion By Year\u2019s End? A Wild First Half Look Back in ETFs",
+      "url": "https://finance.yahoo.com/markets/options/articles/2-trillion-end-wild-first-215139508.html",
+      "published": "2026-07-06T21:51:39Z",
+      "source": "etf.com"
+    },
+    {
+      "title": "Trump Accounts explained: How they work, who qualifies",
+      "url": "https://finance.yahoo.com/personal-finance/taxes/article/trump-accounts-205705429.html",
+      "published": "2025-12-04T20:57:05Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+      "url": "https://finance.yahoo.com/energy/articles/big-oil-heads-record-profits-220000892.html",
+      "published": "2026-07-06T22:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Meet the Unstoppable Memory ETF With 74.7% of Its Portfolio Parked in Micron, Samsung, and SK Hynix",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meet-unstoppable-memory-etf-74-205000076.html",
+      "published": "2026-07-06T20:50:00Z",
       "source": "Motley Fool"
+    },
+    {
+      "title": "Soybeans Rally Out of the Holiday, with Chinese Rumors",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-rally-holiday-chinese-rumors-221700040.html",
+      "published": "2026-07-06T22:17:00Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Corn Rallies on Monday",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-rallies-monday-221700944.html",
+      "published": "2026-07-06T22:17:00Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Samsung flags 19-fold jump in profit, but shares slump on jitters AI boom may stall",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-estimates-19-fold-rise-224538943.html",
+      "published": "2026-07-06T22:45:38Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Quantum\u2019s exit activity takes a leap with a caveat",
+      "url": "https://finance.yahoo.com/technology/articles/quantum-exit-activity-takes-leap-225951200.html",
+      "published": "2026-07-06T22:59:51Z",
+      "source": "Pitchbook"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.5092976430178815
     }
   },
-  "updated_at": "2026-07-08T06:16:33.760773+00:00",
+  "updated_at": "2026-07-08T08:45:15.185874+00:00",
   "source": "yahoo_finance"
 }
