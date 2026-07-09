@@ -41,7 +41,7 @@
         7481.4599609375,
         7482.7099609375
       ],
-      "as_of": "2026-07-09 08:38 UTC",
+      "as_of": "2026-07-09 11:31 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25868.28515625,
         25870.65234375
       ],
-      "as_of": "2026-07-09 08:38 UTC",
+      "as_of": "2026-07-09 11:31 UTC",
       "source": "yahoo"
     },
     {
@@ -129,23 +129,17 @@
         52337.421875,
         52348.390625
       ],
-      "as_of": "2026-07-09 08:38 UTC",
+      "as_of": "2026-07-09 11:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4124.2,
-      "change": 41.79999999999973,
-      "change_pct": 1.0239075053889801,
+      "price": 4114.1,
+      "change": 31.700000000000273,
+      "change_pct": 0.7765040172447646,
       "series": [
-        4053.89990234375,
-        4073.89990234375,
-        4083.39990234375,
-        4076.39990234375,
-        4080.800048828125,
-        4094.10009765625,
         4098.5,
         4090.199951171875,
         4086.60009765625,
@@ -170,26 +164,26 @@
         4117.7001953125,
         4118.60009765625,
         4117.89990234375,
-        4124.2001953125,
-        4124.2001953125
+        4124.39990234375,
+        4117.89990234375,
+        4117.5,
+        4115.7001953125,
+        4113.7998046875,
+        4108.0,
+        4113.2998046875,
+        4114.10009765625
       ],
-      "as_of": "2026-07-09 08:38 UTC",
+      "as_of": "2026-07-09 11:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 72.56,
-      "change": -0.9599999999999937,
-      "change_pct": -1.3057671381936804,
+      "price": 74.01,
+      "change": 0.4900000000000091,
+      "change_pct": 0.6664853101197077,
       "series": [
-        75.05999755859375,
-        74.56999969482422,
-        73.8499984741211,
-        73.77999877929688,
-        73.52999877929688,
-        73.58999633789062,
         73.62000274658203,
         74.06999969482422,
         74.62000274658203,
@@ -214,26 +208,26 @@
         73.30999755859375,
         73.20999908447266,
         72.76000213623047,
-        72.54000091552734,
-        72.55999755859375
+        72.48999786376953,
+        73.0199966430664,
+        73.19999694824219,
+        73.51000213623047,
+        73.80000305175781,
+        74.25,
+        74.08000183105469,
+        74.01000213623047
       ],
-      "as_of": "2026-07-09 08:38 UTC",
+      "as_of": "2026-07-09 11:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.64,
-      "change": -0.259999999999998,
-      "change_pct": -1.5384615384615268,
+      "price": 17.12,
+      "change": 0.22000000000000242,
+      "change_pct": 1.3017751479290085,
       "series": [
-        16.1299991607666,
-        16.43000030517578,
-        16.459999084472656,
-        17.739999771118164,
-        18.34000015258789,
-        18.850000381469727,
         18.6299991607666,
         18.399999618530273,
         18.1200008392334,
@@ -258,121 +252,157 @@
         16.8799991607666,
         16.6200008392334,
         16.610000610351562,
-        16.6299991607666,
-        16.639999389648438
+        16.6200008392334,
+        16.729999542236328,
+        16.81999969482422,
+        16.860000610351562,
+        16.940000534057617,
+        17.1299991607666,
+        17.110000610351562,
+        17.1200008392334
       ],
-      "as_of": "2026-07-09 08:38 UTC",
+      "as_of": "2026-07-09 11:31 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "SpaceX Just Got 14 New Buy Ratings\u2014and 1 Crazy Price Target",
-      "url": "https://www.barrons.com/articles/spacex-stock-price-analyst-ratings-buy-6935428c?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-07T20:34:00Z",
-      "source": "Barrons.com"
+      "title": "AT&T leaves rivals flat-footed as bankrupt carrier folds",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-leaves-rivals-flat-footed-183300288.html",
+      "published": "2026-07-08T18:33:00Z",
+      "source": "TheStreet"
     },
     {
-      "title": "Oklahoma sues Allstate, says insurer underpays damages claims",
-      "url": "https://finance.yahoo.com/news/oklahoma-sues-allstate-says-insurer-204222241.html",
-      "published": "2026-07-07T20:42:22Z",
-      "source": "Reuters"
+      "title": "KKR-backed sports investor collects $6.2 billion for debut GP financing fund",
+      "url": "https://finance.yahoo.com/media-advertising/articles/kkr-backed-sports-investor-collects-232324559.html",
+      "published": "2026-07-07T23:23:24Z",
+      "source": "Pitchbook"
     },
     {
-      "title": "META Stock Pops as Meta Platforms Launches AI Image Model",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-pops-meta-platforms-204122724.html",
-      "published": "2026-07-07T20:41:22Z",
+      "title": "AbbVie vs Eli Lilly: 1 Is Clearly the Better Dividend Stock to Buy and Hold for the Next 10 Years",
+      "url": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-eli-lilly-1-233002503.html",
+      "published": "2026-07-07T23:30:02Z",
       "source": "Barchart"
     },
     {
-      "title": "Stock Market Today: Nasdaq Is Day's Biggest Loser; Sandisk, Micron Tumble, Eli Lilly Shines",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-sandisk-samsung/?src=A00220&yptr=yahoo",
-      "published": "2026-07-07T20:35:55Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Stock Indexes Fall as Chip Stocks Sink and Crude Soars",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-indexes-fall-chip-stocks-203609393.html",
-      "published": "2026-07-07T20:36:09Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Europe\u2019s MiCA Did Not Approve a Single Asset Under This Category",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/europe-mica-did-not-approve-203442819.html",
-      "published": "2026-07-07T20:34:42Z",
-      "source": "BeInCrypto"
-    },
-    {
-      "title": "Samsung and AI chip stocks fall after 19-fold rise in profit fails to impress investors",
-      "url": "https://finance.yahoo.com/technology/article/samsung-and-ai-chip-stocks-fall-after-19-fold-rise-in-profit-fails-to-impress-investors-120636336.html",
-      "published": "2026-07-07T12:06:36Z",
+      "title": "SpaceX stock now enters the post-honeymoon faith phase",
+      "url": "https://finance.yahoo.com/technology/article/spacex-stock-now-enters-the-post-honeymoon-faith-phase-002636880.html",
+      "published": "2026-07-08T00:26:36Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Apple Sales Seen Weathering Hardware Price Increases",
-      "url": "https://www.investors.com/news/technology/apple-stock-jpmorgan-price-target-hike/?src=A00220&yptr=yahoo",
-      "published": "2026-07-07T20:46:32Z",
-      "source": "Investor's Business Daily"
+      "title": "Why the AI Boom Is About to Break the U.S. Power Grid",
+      "url": "https://finance.yahoo.com/energy/articles/why-ai-boom-break-u-000000959.html",
+      "published": "2026-07-08T00:00:00Z",
+      "source": "Oilprice.com"
     },
     {
-      "title": "Daily ETF Flows: SMH Pulls In $1.8B",
-      "url": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-smh-pulls-210016353.html",
-      "published": "2026-07-07T21:00:16Z",
-      "source": "etf.com"
+      "title": "Goldman Sachs sends a bearish message on a rising metal",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/goldman-sachs-sends-bearish-message-231700705.html",
+      "published": "2026-07-07T23:17:00Z",
+      "source": "TheStreet"
     },
     {
-      "title": "ETF League Tables: Strong Inflows for Invesco",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-league-tables-strong-inflows-210003423.html",
-      "published": "2026-07-07T21:00:03Z",
-      "source": "etf.com"
+      "title": "SpaceX Trading Frenzy Sends Tokenized Equity Volume to Record $3.86B",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/spacex-trading-frenzy-sends-tokenized-011800191.html",
+      "published": "2026-07-08T01:18:00Z",
+      "source": "CryptoProwl"
     },
     {
-      "title": "SpaceX Joins the Nasdaq-100. Why the Stock Dropped.",
-      "url": "https://www.barrons.com/articles/spacex-stock-price-nasdaq-100-addition-a0ab3e4d?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-07T20:35:00Z",
-      "source": "Barrons.com"
+      "title": "AIsa Raises $6.5M as Alibaba and Tribe Capital Back AI Agent Payment Network",
+      "url": "https://finance.yahoo.com/technology/ai/articles/aisa-raises-6-5m-alibaba-012400874.html",
+      "published": "2026-07-08T01:24:00Z",
+      "source": "CryptoProwl"
     },
     {
-      "title": "Micron, Chip Stocks Fall Despite Samsung Profit Surge",
-      "url": "https://www.investors.com/news/technology/chip-stocks-fall-despite-samsung-profit-surge/?src=A00220&yptr=yahoo",
-      "published": "2026-07-07T20:58:59Z",
-      "source": "Investor's Business Daily"
+      "title": "Sandisk (SNDK) Loses 7.3% on Profit-Taking",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sndk-loses-7-3-012449389.html",
+      "published": "2026-07-08T01:24:49Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "SpaceXAI plans to launch new model with Cursor as soon as Wednesday, The Information reports",
-      "url": "https://finance.yahoo.com/technology/ai/articles/spacexai-plans-launch-model-cursor-210200389.html",
-      "published": "2026-07-07T21:02:00Z",
-      "source": "Reuters"
+      "title": "Vishay (VSH) Loses 8.6% as Notes Become Convertible",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vishay-vsh-loses-8-6-012844993.html",
+      "published": "2026-07-08T01:28:44Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "This Analyst Just Upgraded Cloudflare (NET) Stock. Here's Why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-just-upgraded-cloudflare-net-210943675.html",
-      "published": "2026-07-07T21:09:43Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "John West: Perfect Market Timing Is Still a Losing Bet",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/john-west-perfect-market-timing-211439676.html",
-      "published": "2026-07-07T21:14:39Z",
-      "source": "etf.com"
-    },
-    {
-      "title": "Should You Buy Tilray Stock Before July 15?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-tilray-stock-july-15-203500772.html",
-      "published": "2026-07-07T20:35:00Z",
+      "title": "SpaceX Is Quickly Entering Index Funds. Will OpenAI and Anthropic do the Same After Their IPOs?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-quickly-entering-index-funds-232000314.html",
+      "published": "2026-07-07T23:20:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Oil spikes, Wall Street drops as US-Iran tensions rebuild",
-      "url": "https://finance.yahoo.com/news/stocks-ease-despite-upbeat-samsung-020825000.html",
-      "published": "2026-07-07T21:20:18Z",
-      "source": "Reuters"
+      "title": "Bloom Energy (BE) Falls 8.6% on Profit-Taking",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-falls-8-6-013057750.html",
+      "published": "2026-07-08T01:30:57Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "SpaceX stock drops below IPO opening price despite flood of bullish Wall Street ratings",
-      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-drops-below-ipo-opening-price-despite-flood-of-bullish-wall-street-ratings-153809443.html",
-      "published": "2026-07-07T15:38:09Z",
-      "source": "Yahoo Finance"
+      "title": "CleanSpark Short Interest Climbs to 33% as Bitcoin Pressure Builds",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/cleanspark-short-interest-climbs-33-013200151.html",
+      "published": "2026-07-08T01:32:00Z",
+      "source": "CryptoProwl"
+    },
+    {
+      "title": "Solstice (SOLS) Drops 8.7% on $14.5B  Element Takeover",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/solstice-sols-drops-8-7-013341333.html",
+      "published": "2026-07-08T01:33:41Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Profit-Taking Drags Terawulf (WULF) Shares by 8.87%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/profit-taking-drags-terawulf-wulf-013728790.html",
+      "published": "2026-07-08T01:37:28Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Tilray's Stock Is Down Over 50% This Year. Has It Become a Bargain Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tilrays-stock-down-over-50-232000686.html",
+      "published": "2026-07-07T23:20:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Intel Corp. (INTC) Loses 9.66% on Profit-Taking",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-corp-intc-loses-9-013911091.html",
+      "published": "2026-07-08T01:39:11Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Redwire (RDW) Nosedives 10% \u2014 Here\u2019s Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/redwire-rdw-nosedives-10-why-014124319.html",
+      "published": "2026-07-08T01:41:24Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Rocket Lab (RKLB) Falls Hard \u2014 Its CEO May Hold the Answer",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-falls-hard-014424207.html",
+      "published": "2026-07-08T01:44:24Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "New Share Sale Drags Rivian Automotive (RIVN) Down by 18%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/share-sale-drags-rivian-automotive-014621558.html",
+      "published": "2026-07-08T01:46:21Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "2 Fast-Growing Industrial Mid-Cap Stocks to Buy Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-fast-growing-industrial-mid-232500591.html",
+      "published": "2026-07-07T23:25:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "T1 Energy (TE) Falls Hard on July 4 Solar Credit Expiration",
+      "url": "https://finance.yahoo.com/energy/articles/t1-energy-te-falls-hard-014906649.html",
+      "published": "2026-07-08T01:49:06Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "The Precious Metals Trade Has Gone Into Reverse",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/precious-metals-trade-gone-reverse-022901892.html",
+      "published": "2026-07-08T02:29:01Z",
+      "source": "etf.com"
     },
     {
       "title": "Mortgage & refinance interest rates today, Tuesday, July 7: Rates moving lower",
@@ -381,40 +411,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Amazon Stocks Climbs As AI Push Drives $25 Billion Bond Sale",
-      "url": "https://www.investors.com/news/technology/amazon-stock-25-billion-bond-ai-costs-rising/?src=A00220&yptr=yahoo",
-      "published": "2026-07-07T21:29:52Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "His Wife Was Burned Out From Her Job So He Created A $5,100 A Month Income Stream For Her. Not Magic, But Very Real If Structured Properly",
-      "url": "https://finance.yahoo.com/small-business/articles/wife-burned-her-job-created-203114341.html",
-      "published": "2026-07-07T20:31:14Z",
-      "source": "Benzinga"
-    },
-    {
-      "title": "Corn Extend Gains to Tuesday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-extend-gains-tuesday-220228101.html",
-      "published": "2026-07-07T22:02:28Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Soybeans Post Late Session Gains on Tuesday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-post-session-gains-tuesday-220228355.html",
-      "published": "2026-07-07T22:02:28Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Trimble shares get upward bump on report it may sell transportation unit",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trimble-shares-upward-bump-report-222915319.html",
-      "published": "2026-07-07T22:29:15Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "Here\u2019s Why Chewy Inc. (CHWY) is a Top Mid-Cap Stock to Own for Decades",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-chewy-inc-chwy-top-223617176.html",
-      "published": "2026-07-07T22:36:17Z",
-      "source": "Insider Monkey"
+      "title": "Openbank review (2026): Earn one of the top HYSA rates with this online bank",
+      "url": "https://finance.yahoo.com/personal-finance/banking/review/openbank-review-152410151.html",
+      "published": "2025-05-21T15:24:10Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -1.8273809523809483
     }
   },
-  "updated_at": "2026-07-09T08:38:51.216348+00:00",
+  "updated_at": "2026-07-09T11:31:14.621815+00:00",
   "source": "yahoo_finance"
 }
