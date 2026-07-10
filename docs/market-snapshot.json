@@ -41,7 +41,7 @@
         7542.27978515625,
         7543.64013671875
       ],
-      "as_of": "2026-07-10 03:23 UTC",
+      "as_of": "2026-07-10 06:59 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26203.48046875,
         26206.890625
       ],
-      "as_of": "2026-07-10 03:23 UTC",
+      "as_of": "2026-07-10 06:59 UTC",
       "source": "yahoo"
     },
     {
@@ -129,24 +129,17 @@
         52480.55078125,
         52487.41015625
       ],
-      "as_of": "2026-07-10 03:23 UTC",
+      "as_of": "2026-07-10 06:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4138.1,
-      "change": -2.699999999999818,
-      "change_pct": -0.0652047913446633,
+      "price": 4122.2,
+      "change": -18.600000000000364,
+      "change_pct": -0.44918856259660844,
       "series": [
-        4109.5,
-        4118.7001953125,
-        4116.7001953125,
-        4117.7001953125,
-        4135.7001953125,
-        4131.7001953125,
-        4134.2998046875,
         4137.2998046875,
         4137.7001953125,
         4136.39990234375,
@@ -170,27 +163,27 @@
         4127.10009765625,
         4135.7998046875,
         4137.60009765625,
-        4138.5,
-        4138.10009765625
+        4135.10009765625,
+        4129.5,
+        4126.5,
+        4123.89990234375,
+        4123.0,
+        4125.5,
+        4123.39990234375,
+        4121.7998046875,
+        4122.2001953125
       ],
-      "as_of": "2026-07-10 03:23 UTC",
+      "as_of": "2026-07-10 06:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 72.28,
-      "change": 0.20000000000000284,
-      "change_pct": 0.2774694783573846,
+      "price": 72.15,
+      "change": 0.07000000000000739,
+      "change_pct": 0.0971143174250935,
       "series": [
-        74.06999969482422,
-        73.95999908447266,
-        73.83999633789062,
-        73.93000030517578,
-        73.18000030517578,
-        72.66000366210938,
-        72.69000244140625,
         72.30999755859375,
         72.18000030517578,
         72.12000274658203,
@@ -214,10 +207,17 @@
         72.13999938964844,
         72.2699966430664,
         72.36000061035156,
+        72.27999877929688,
+        72.38999938964844,
+        72.45999908447266,
         72.29000091552734,
-        72.27999877929688
+        72.30000305175781,
+        72.16000366210938,
+        71.88999938964844,
+        72.13999938964844,
+        72.1500015258789
       ],
-      "as_of": "2026-07-10 03:23 UTC",
+      "as_of": "2026-07-10 06:59 UTC",
       "source": "yahoo"
     },
     {
@@ -261,41 +261,11 @@
         15.84000015258789,
         15.84000015258789
       ],
-      "as_of": "2026-07-10 03:23 UTC",
+      "as_of": "2026-07-10 06:59 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
-    {
-      "title": "AT&T leaves rivals flat-footed as bankrupt carrier folds",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/t-leaves-rivals-flat-footed-183300288.html",
-      "published": "2026-07-08T18:33:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "When will gas prices go down? What to know as you plan your summer road trip.",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/when-will-gas-prices-go-down-what-to-know-as-you-plan-your-summer-road-trip-154506731.html",
-      "published": "2026-04-14T15:45:06Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Stocks Retreat on US-Iran Jitters",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-us-iran-jitters-151801417.html",
-      "published": "2026-07-08T15:18:01Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Broadening Trade Returns as Conflict Eases. Can It Outlast a Hawkish Fed and Fading Liquidity?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/broadening-trade-returns-conflict-eases-151808685.html",
-      "published": "2026-07-08T15:18:08Z",
-      "source": "ETF Trends"
-    },
-    {
-      "title": "Here's What to Expect From Entergy\u2019s Next Earnings Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-expect-entergy-next-earnings-152045946.html",
-      "published": "2026-07-08T15:20:45Z",
-      "source": "Barchart"
-    },
     {
       "title": "Fed minutes expose deep divide over interest-rate outlook",
       "url": "https://finance.yahoo.com/economy/policy/articles/fed-minutes-expose-deep-divide-141700465.html",
@@ -303,87 +273,117 @@
       "source": "TheStreet"
     },
     {
-      "title": "Lucid Motors\u2019 Woes Run Much Deeper. Saudi Money Alone Won\u2019t Solve Them.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lucid-motors-woes-run-much-152131993.html",
-      "published": "2026-07-08T15:21:31Z",
+      "title": "1 Smart Way to Keep 95% of Your Capital Without Giving Up Long-Term Growth",
+      "url": "https://finance.yahoo.com/markets/options/articles/1-smart-way-keep-95-185836336.html",
+      "published": "2026-07-08T18:58:36Z",
       "source": "Barchart"
     },
     {
-      "title": "Ondas Just Built Autonomous Defense Powerhouse With This Major Acquisition",
-      "url": "https://finance.yahoo.com/technology/articles/ondas-just-built-autonomous-defense-152539794.html",
-      "published": "2026-07-08T15:25:39Z",
-      "source": "IPO-Edge.com"
-    },
-    {
-      "title": "$14,000 dog grooming bills and 25% pricier flights: How the K-shaped economy is punishing the middle class",
-      "url": "https://finance.yahoo.com/economy/articles/14-000-dog-grooming-bills-152500767.html",
-      "published": "2026-07-08T15:25:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Mexico\u2019s trucking labor crunch intensifies, IRU warns",
-      "url": "https://finance.yahoo.com/economy/articles/mexico-trucking-labor-crunch-intensifies-152645742.html",
-      "published": "2026-07-08T15:26:45Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "The One Number That Could Rewrite the Story for CoreWeave Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/one-number-could-rewrite-story-151127981.html",
-      "published": "2026-07-08T15:11:27Z",
-      "source": "Trefis"
-    },
-    {
-      "title": "Listen to What Benchmark Says About Rocket Companies Inc (RKT) Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/listen-benchmark-says-rocket-companies-153258577.html",
-      "published": "2026-07-08T15:32:58Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Nokia (NOK) Taps SAP and Microsoft: Cloud and AI in Focus",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nokia-nok-taps-sap-microsoft-153314352.html",
-      "published": "2026-07-08T15:33:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Citi Just Placed Micron on an Upside Catalyst Watch. What This Means for MU Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/citi-just-placed-micron-upside-153229305.html",
-      "published": "2026-07-08T15:32:29Z",
+      "title": "Nebius Stock Sold Off on Meta\u2019s Data Center News. Buy the Dip.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-sold-off-meta-185830152.html",
+      "published": "2026-07-08T18:58:30Z",
       "source": "Barchart"
     },
     {
-      "title": "Hewlett Packard Enterprise Co (HPE) Broadens ScanSource Deal. Juniper In Focus",
-      "url": "https://finance.yahoo.com/technology/articles/hewlett-packard-enterprise-co-hpe-153217879.html",
-      "published": "2026-07-08T15:32:17Z",
-      "source": "Insider Monkey"
+      "title": "The United States could face a major electricity shortfall through 2030, BofA says",
+      "url": "https://finance.yahoo.com/markets/article/the-united-states-could-face-a-major-electricity-shortfall-through-2030-bofa-says-185529669.html",
+      "published": "2026-07-08T18:55:29Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "JPMorgan sees the writing on the wall for silver stock investors",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/jpmorgan-sees-writing-wall-silver-151513229.html",
-      "published": "2026-07-08T15:15:13Z",
+      "title": "Nvidia's $1 trillion rout: Do you buy or sell the stock here?",
+      "url": "https://finance.yahoo.com/markets/article/nvidias-1-trillion-rout-do-you-buy-or-sell-the-stock-here-190000970.html",
+      "published": "2026-07-08T19:00:00Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "$200B investment firm makes bold Bitcoin prediction for 2028",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/200b-investment-firm-makes-bold-185600357.html",
+      "published": "2026-07-08T18:56:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "Qnity Electronics Inc (Q): Dividend Is Coming. And That\u2019s Not All",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qnity-electronics-inc-q-dividend-153329196.html",
-      "published": "2026-07-08T15:33:29Z",
+      "title": "2 Analysts Just Upgraded Dollar Tree Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-analysts-just-upgraded-dollar-190251874.html",
+      "published": "2026-07-08T19:02:51Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Barclays Raises its Price Target on Generac Holdings Inc. (GNRC)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-raises-price-target-generac-185102193.html",
+      "published": "2026-07-08T18:51:02Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Cantor Fitzgerald Lifts Texas Instruments Inc (TXN) Price Target. Here\u2019s Why",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cantor-fitzgerald-lifts-texas-instruments-153225855.html",
-      "published": "2026-07-08T15:32:25Z",
+      "title": "Is MaxLinear, Inc. (MXL) Among the Best Stocks to Buy for the Second Half of 2026?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/maxlinear-inc-mxl-among-best-185109619.html",
+      "published": "2026-07-08T18:51:09Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Should You Buy Nucor Corp (NUE) Stock? Q2 Outlook Offers a Hint",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-nucor-corp-nue-stock-153249719.html",
-      "published": "2026-07-08T15:32:49Z",
+      "title": "NET Stock Alert: What to Know as Cloudflare Teams Up With OpenAI",
+      "url": "https://finance.yahoo.com/technology/ai/articles/net-stock-alert-know-cloudflare-190858086.html",
+      "published": "2026-07-08T19:08:58Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Micron Stock Rises After Entering Bear Market",
+      "url": "https://www.barrons.com/articles/micron-stock-price-bear-market-0e7a6756?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-08T18:59:00Z",
+      "source": "Barrons.com"
+    },
+    {
+      "title": "Nat-Gas Erases Early Gains on the Outlook for Larger US Inventories",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/nat-gas-erases-early-gains-191337735.html",
+      "published": "2026-07-08T19:13:37Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Alibaba Shares Are Gaining on AI Optimism. Here's What to Know.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-shares-gaining-ai-optimism-191443125.html",
+      "published": "2026-07-08T19:14:43Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Crude Oil Prices Surge as Geopolitical Risks Intensify",
+      "url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-surge-geopolitical-191505315.html",
+      "published": "2026-07-08T19:15:05Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Is Axsome Therapeutics, Inc. (AXSM) Among the Best Under-the-Radar Stocks to Invest In?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axsome-therapeutics-inc-axsm-among-192010153.html",
+      "published": "2026-07-08T19:20:10Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Cantor Fitzgerald Updates Call on ON Semiconductor Corp (ON) Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cantor-fitzgerald-updates-call-semiconductor-153237889.html",
-      "published": "2026-07-08T15:32:37Z",
+      "title": "The Software Business Model Is Running Out of Time\u2014and So Are Software Stocks",
+      "url": "https://www.barrons.com/articles/software-stocks-danger-servicenow-salesforce-6bb9f554?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-08T19:02:00Z",
+      "source": "Barrons.com"
+    },
+    {
+      "title": "IREN Limited (IREN) Co-founders Score US$788M Pay Packet Amid AI Bonanza",
+      "url": "https://finance.yahoo.com/technology/ai/articles/iren-limited-iren-co-founders-192017979.html",
+      "published": "2026-07-08T19:20:17Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "BofA lowers its Price Target on Madrigal Pharmaceuticals, Inc. (MDGL)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-lowers-price-target-madrigal-192025345.html",
+      "published": "2026-07-08T19:20:25Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Is Exelixis, Inc. (EXEL) Among the Best Under-the-Radar Stocks to Invest In?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exelixis-inc-exel-among-best-192032694.html",
+      "published": "2026-07-08T19:20:32Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Northland Reiterates its Outperform rating on AXT, Inc. (AXTI)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/northland-reiterates-outperform-rating-axt-192041288.html",
+      "published": "2026-07-08T19:20:41Z",
       "source": "Insider Monkey"
     },
     {
@@ -393,27 +393,27 @@
       "source": "Argus Research"
     },
     {
-      "title": "Lisbon or the Algarve: Where Does a $600,000 Portuguese Retirement Go Further?",
-      "url": "https://finance.yahoo.com/real-estate/articles/lisbon-algarve-where-does-600-151413101.html",
-      "published": "2026-07-08T15:14:13Z",
+      "title": "Every Memory Stock Is Now in a Bear Market: Is Micron, SanDisk, or Applied Materials the Best Buy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/every-memory-stock-now-bear-185509124.html",
+      "published": "2026-07-08T18:55:09Z",
       "source": "24/7 Wall St."
     },
     {
-      "title": "What Does Freedom Broker\u2019s Call on EQT Corp (EQT) Stock Reveal?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-freedom-broker-call-eqt-153358094.html",
-      "published": "2026-07-08T15:33:58Z",
+      "title": "Redwire Corporation (RDW) Awards Contract to Deliver Penguin Mk2.5 UAS to Taiwan Coast Guard",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/redwire-corporation-rdw-awards-contract-192105681.html",
+      "published": "2026-07-08T19:21:05Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Unity Software Inc (U) Stock: Raymond James Has a Message For Investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unity-software-inc-u-stock-153350597.html",
-      "published": "2026-07-08T15:33:50Z",
+      "title": "Freedom Capital Initiates Coverage of Tempus AI, Inc. (TEM)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/freedom-capital-initiates-coverage-tempus-192057966.html",
+      "published": "2026-07-08T19:20:57Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "UBS Updates Its Call on United Airlines Holdings Inc (UAL) Stock. Here\u2019s the Takeaway",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-updates-call-united-airlines-153340429.html",
-      "published": "2026-07-08T15:33:40Z",
+      "title": "Texas Capital is Bullish on (PGY)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-capital-bullish-pgy-192050941.html",
+      "published": "2026-07-08T19:20:50Z",
       "source": "Insider Monkey"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.13338992299762892
     }
   },
-  "updated_at": "2026-07-10T03:23:44.116788+00:00",
+  "updated_at": "2026-07-10T06:59:14.520463+00:00",
   "source": "yahoo_finance"
 }
