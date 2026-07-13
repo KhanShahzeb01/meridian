@@ -4,12 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7524.23,
-      "change": -51.160000000000764,
-      "change_pct": -0.6753447677281402,
+      "price": 7515.34,
+      "change": -60.05000000000018,
+      "change_pct": -0.7926984617293655,
       "series": [
-        7530.83984375,
-        7544.83984375,
         7543.25,
         7541.85009765625,
         7537.85009765625,
@@ -38,22 +36,22 @@
         7523.5400390625,
         7518.06982421875,
         7518.1298828125,
-        7523.85986328125,
-        7524.22998046875
+        7521.56005859375,
+        7509.22998046875,
+        7515.89990234375,
+        7515.33984375
       ],
-      "as_of": "2026-07-13 18:55 UTC",
+      "as_of": "2026-07-13 20:06 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 25917.275,
-      "change": -364.3319999999985,
-      "change_pct": -1.3862622631865642,
+      "price": 25873.176,
+      "change": -408.4310000000005,
+      "change_pct": -1.5540564167175945,
       "series": [
-        26104.1953125,
-        26183.845703125,
         26181.615234375,
         26186.505859375,
         26179.767578125,
@@ -82,22 +80,22 @@
         25920.599609375,
         25882.998046875,
         25887.00390625,
-        25915.119140625,
-        25917.275390625
+        25901.580078125,
+        25838.111328125,
+        25878.7890625,
+        25873.17578125
       ],
-      "as_of": "2026-07-13 18:55 UTC",
+      "as_of": "2026-07-13 20:06 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 52498.14,
-      "change": -138.87000000000262,
-      "change_pct": -0.26382577581819827,
+      "price": 52498.64,
+      "change": -138.37000000000262,
+      "change_pct": -0.2628758738385836,
       "series": [
-        52510.921875,
-        52532.078125,
         52527.6796875,
         52487.578125,
         52467.578125,
@@ -126,22 +124,22 @@
         52488.69140625,
         52464.16015625,
         52473.98828125,
-        52497.1015625,
-        52498.140625
+        52491.87109375,
+        52452.6796875,
+        52502.08984375,
+        52498.640625
       ],
-      "as_of": "2026-07-13 18:55 UTC",
+      "as_of": "2026-07-13 20:06 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4006.2,
-      "change": -107.5,
-      "change_pct": -2.613219243017235,
+      "price": 4007.6,
+      "change": -106.09999999999991,
+      "change_pct": -2.579186620317474,
       "series": [
-        4067.39990234375,
-        4063.10009765625,
         4066.300048828125,
         4065.800048828125,
         4061.800048828125,
@@ -170,22 +168,22 @@
         4006.300048828125,
         4000.60009765625,
         4002.300048828125,
-        4006.0,
-        4006.199951171875
+        4008.5,
+        4005.39990234375,
+        4007.60009765625,
+        4007.60009765625
       ],
-      "as_of": "2026-07-13 18:55 UTC",
+      "as_of": "2026-07-13 20:06 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 77.58,
-      "change": 6.170000000000002,
-      "change_pct": 8.640246464080665,
+      "price": 77.65,
+      "change": 6.240000000000009,
+      "change_pct": 8.738271950707196,
       "series": [
-        74.29000091552734,
-        74.33999633789062,
         74.52999877929688,
         74.69000244140625,
         74.69999694824219,
@@ -214,22 +212,22 @@
         76.0,
         77.5999984741211,
         78.13999938964844,
-        77.58000183105469,
-        77.58000183105469
+        77.63999938964844,
+        77.75,
+        77.63999938964844,
+        77.6500015258789
       ],
-      "as_of": "2026-07-13 18:55 UTC",
+      "as_of": "2026-07-13 20:06 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.98,
-      "change": 1.950000000000001,
-      "change_pct": 12.974051896207591,
+      "price": 17.15,
+      "change": 2.119999999999999,
+      "change_pct": 14.105123087159011,
       "series": [
-        15.380000114440918,
-        15.390000343322754,
         15.279999732971191,
         15.260000228881836,
         15.239999771118164,
@@ -258,10 +256,12 @@
         16.68000030517578,
         16.920000076293945,
         17.200000762939453,
-        17.100000381469727,
-        16.979999542236328
+        17.0,
+        17.329999923706055,
+        17.18000030517578,
+        17.149999618530273
       ],
-      "as_of": "2026-07-13 18:55 UTC",
+      "as_of": "2026-07-13 20:06 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,9 +273,39 @@
       "source": "TheStreet"
     },
     {
-      "title": "A 70-year-old blew through one-third of his $3 million nest egg in 3 years \u2014 financial advisors say he needs to act now",
-      "url": "https://finance.yahoo.com/markets/articles/70-old-blew-one-third-094500291.html",
-      "published": "2026-07-12T09:45:00Z",
+      "title": "Borderlands Mexico: Toyota bets big on Texas, moves Tacoma line to San Antonio",
+      "url": "https://finance.yahoo.com/economy/policy/articles/borderlands-mexico-toyota-bets-big-110000813.html",
+      "published": "2026-07-12T11:00:00Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "When is a retiree considered \u2018wealthy\u2019 in America? Here\u2019s what the data shows (and what to do if you\u2019re not there yet)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/retiree-considered-wealthy-america-data-111000505.html",
+      "published": "2026-07-12T11:10:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "\u2018Total economic collapse\u2019 is likely in the next decade, say 42% of Americans. Here\u2019s how you can prepare",
+      "url": "https://finance.yahoo.com/economy/articles/total-economic-collapse-likely-next-104500289.html",
+      "published": "2026-07-12T10:45:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "My father doesn't trust banks. All of his money is sitting in a checking account. It is quietly costing him a fortune?",
+      "url": "https://finance.yahoo.com/markets/articles/father-doesnt-trust-banks-money-103000700.html",
+      "published": "2026-07-12T10:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Mark Cuban has strong words on AI companies and job losses",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-strong-words-ai-140700495.html",
+      "published": "2026-07-12T14:07:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "The new \u2018magic number\u2019 for retirees is a lie for millions of Americans \u2014 fight the fear and focus on this figure instead",
+      "url": "https://finance.yahoo.com/markets/articles/magic-number-retirees-lie-millions-101500384.html",
+      "published": "2026-07-12T10:15:00Z",
       "source": "Moneywise"
     },
     {
@@ -291,39 +321,9 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "The new \u2018magic number\u2019 for retirees is a lie for millions of Americans \u2014 fight the fear and focus on this figure instead",
-      "url": "https://finance.yahoo.com/markets/articles/magic-number-retirees-lie-millions-101500384.html",
-      "published": "2026-07-12T10:15:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Mark Cuban has strong words on AI companies and job losses",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-strong-words-ai-140700495.html",
-      "published": "2026-07-12T14:07:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "He works two hours a month to make six figures a year \u2014 why he says ditching the 9-to-5 is \u2018the ultimate power\u2019",
-      "url": "https://finance.yahoo.com/small-business/articles/works-two-hours-month-six-090000123.html",
-      "published": "2026-07-12T09:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "My father doesn't trust banks. All of his money is sitting in a checking account. It is quietly costing him a fortune?",
-      "url": "https://finance.yahoo.com/markets/articles/father-doesnt-trust-banks-money-103000700.html",
-      "published": "2026-07-12T10:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "India's Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
-      "url": "https://finance.yahoo.com/technology/ai/articles/indias-tata-consultancy-services-plans-083649889.html",
-      "published": "2026-07-12T08:36:49Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "\u2018Total economic collapse\u2019 is likely in the next decade, say 42% of Americans. Here\u2019s how you can prepare",
-      "url": "https://finance.yahoo.com/economy/articles/total-economic-collapse-likely-next-104500289.html",
-      "published": "2026-07-12T10:45:00Z",
+      "title": "The first 5 years of retirement decide everything \u2014 especially with Trump in the White House. Foolproof your riches now",
+      "url": "https://finance.yahoo.com/markets/articles/first-5-years-retirement-decide-114500926.html",
+      "published": "2026-07-12T11:45:00Z",
       "source": "Moneywise"
     },
     {
@@ -331,66 +331,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-quietly-snags-corner-003700514.html",
       "published": "2026-07-13T00:37:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "Here is Why Micron (MU) is One of the Stocks Set to Explode in the Next 2 Years",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-micron-mu-one-stocks-075939121.html",
-      "published": "2026-07-12T07:59:39Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Kratos Defense & Security Solutions (KTOS) Expands Oklahoma City Manufacturing Facility",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kratos-defense-security-solutions-ktos-075906365.html",
-      "published": "2026-07-12T07:59:06Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "BETA Technologies (BETA), Multistate Collaborative Complete Inaugural eVTOL Integration Pilot Program Flights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/beta-technologies-beta-multistate-collaborative-075921112.html",
-      "published": "2026-07-12T07:59:21Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Is Equinox Gold (EQX) One of the Stocks Set to Explode in the Next 2 Years?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/equinox-gold-eqx-one-stocks-075901113.html",
-      "published": "2026-07-12T07:59:01Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Does Chevron's Joint Venture With GE Vernova Make the Stock a Buy Ahead of 2027?",
-      "url": "https://finance.yahoo.com/energy/articles/does-chevrons-joint-venture-ge-095000073.html",
-      "published": "2026-07-12T09:50:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "IREN (IREN), BE Networks Partner to Simulate NVIDIA Blackwell GPU Infrastructure",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/iren-iren-networks-partner-simulate-075912782.html",
-      "published": "2026-07-12T07:59:12Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Borderlands Mexico: Toyota bets big on Texas, moves Tacoma line to San Antonio",
-      "url": "https://finance.yahoo.com/economy/policy/articles/borderlands-mexico-toyota-bets-big-110000813.html",
-      "published": "2026-07-12T11:00:00Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "When is a retiree considered \u2018wealthy\u2019 in America? Here\u2019s what the data shows (and what to do if you\u2019re not there yet)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/retiree-considered-wealthy-america-data-111000505.html",
-      "published": "2026-07-12T11:10:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "The first 5 years of retirement decide everything \u2014 especially with Trump in the White House. Foolproof your riches now",
-      "url": "https://finance.yahoo.com/markets/articles/first-5-years-retirement-decide-114500926.html",
-      "published": "2026-07-12T11:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "3 Passive Income ETFs Worth Holding for the Long Haul",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-passive-income-etfs-worth-100100567.html",
-      "published": "2026-07-12T10:01:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Retail investing is booming \u2014 but the trade is getting pickier: Chart of the Day",
@@ -405,105 +345,165 @@
       "source": "ETF Trends"
     },
     {
+      "title": "A 70-year-old blew through one-third of his $3 million nest egg in 3 years \u2014 financial advisors say he needs to act now",
+      "url": "https://finance.yahoo.com/markets/articles/70-old-blew-one-third-094500291.html",
+      "published": "2026-07-12T09:45:00Z",
+      "source": "Moneywise"
+    },
+    {
       "title": "10 Signs Your Client Is About to Make a Bad Investment",
       "url": "https://finance.yahoo.com/markets/stocks/articles/10-signs-client-bad-investment-120000319.html",
       "published": "2026-07-12T12:00:00Z",
       "source": "The Daily Upside"
     },
     {
+      "title": "IJJ vs. SLYV: Which Value ETF Is the Better Buy Today?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ijj-vs-slyv-value-etf-105514998.html",
+      "published": "2026-07-12T10:55:14Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Why Credo Technology (NASDAQ:CRDO) Is Emerging as a Leading AI Connectivity Play Across Copper and Optical Networking",
       "url": "https://finance.yahoo.com/technology/ai/articles/why-credo-technology-nasdaq-crdo-121332702.html",
       "published": "2026-07-12T12:13:32Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "US boomers should probably stop paying cash for their cars. Why a big \u2018financial flex\u2019 costs you thousands of dollars",
+      "url": "https://finance.yahoo.com/markets/articles/us-boomers-probably-stop-paying-121500193.html",
+      "published": "2026-07-12T12:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "$800K in savings and a job loss at 64 \u2014 a financial planner explains how to know if you can afford to retire",
+      "url": "https://finance.yahoo.com/markets/articles/800k-savings-job-loss-64-123000139.html",
+      "published": "2026-07-12T12:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "He works two hours a month to make six figures a year \u2014 why he says ditching the 9-to-5 is \u2018the ultimate power\u2019",
+      "url": "https://finance.yahoo.com/small-business/articles/works-two-hours-month-six-090000123.html",
+      "published": "2026-07-12T09:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "The Stock Market Is on the Verge of Doing Something That's Never Been Observed in 155 Years -- and It Has Worrisome Ramifications for Wall Street",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-verge-doing-something-105600774.html",
+      "published": "2026-07-12T10:56:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "India's Tata Consultancy Services plans up to 8,900 AI deployment engineers, seeks AI acquisitions",
+      "url": "https://finance.yahoo.com/technology/ai/articles/indias-tata-consultancy-services-plans-083649889.html",
+      "published": "2026-07-12T08:36:49Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Why Analysts Still See Big Upside for Micron Stock After Its Massive Rally",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-analysts-still-see-big-130002524.html",
+      "published": "2026-07-12T13:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "IBM Just Unveiled Major Updates to Its Bob AI Platform. How to Play IBM Stock Here.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ibm-just-unveiled-major-updates-130002103.html",
+      "published": "2026-07-12T13:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Coursera Stock Can Rally from Oversold Levels on Merger Synergies",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coursera-stock-rally-oversold-levels-130002138.html",
+      "published": "2026-07-12T13:00:02Z",
+      "source": "Barchart"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 317.235,
+      "price": 317.31,
       "prev_close": 315.32,
-      "change_pct": 0.6073195483952876
+      "change_pct": 0.6311049092984933
     },
     "MSFT": {
-      "price": 393.425,
+      "price": 390.99,
       "prev_close": 385.1,
-      "change_pct": 2.1617761620358316
+      "change_pct": 1.5294728641911155
     },
     "NVDA": {
-      "price": 204.0,
+      "price": 203.528,
       "prev_close": 210.96,
-      "change_pct": -3.2992036405005725
+      "change_pct": -3.52294273795981
     },
     "GOOGL": {
-      "price": 355.29,
+      "price": 352.51,
       "prev_close": 357.18,
-      "change_pct": -0.5291449689232282
+      "change_pct": -1.3074640237415354
     },
     "AMZN": {
-      "price": 249.031,
+      "price": 247.31,
       "prev_close": 245.34,
-      "change_pct": 1.504442814053967
+      "change_pct": 0.8029673106709052
     },
     "META": {
-      "price": 661.16,
+      "price": 656.73,
       "prev_close": 669.21,
-      "change_pct": -1.20291089493583
+      "change_pct": -1.8648854619626152
     },
     "TSLA": {
-      "price": 392.67,
+      "price": 394.76,
       "prev_close": 407.76,
-      "change_pct": -3.700706297822242
+      "change_pct": -3.1881498920933886
     },
     "JPM": {
-      "price": 334.73,
+      "price": 334.47,
       "prev_close": 336.47,
-      "change_pct": -0.5171337712128894
+      "change_pct": -0.5944066335780307
     },
     "V": {
-      "price": 358.12,
+      "price": 357.755,
       "prev_close": 348.97,
-      "change_pct": 2.6220018912800462
+      "change_pct": 2.5174083732125876
     },
     "XOM": {
-      "price": 145.12,
+      "price": 144.557,
       "prev_close": 138.88,
-      "change_pct": 4.493087557603694
+      "change_pct": 4.087701612903221
     },
     "SPY": {
-      "price": 749.785,
+      "price": 749.08,
       "prev_close": 754.95,
-      "change_pct": -0.6841512682959239
+      "change_pct": -0.7775349360884832
     },
     "QQQ": {
-      "price": 712.69,
+      "price": 711.74,
       "prev_close": 725.51,
-      "change_pct": -1.7670328458601448
+      "change_pct": -1.8979752174332514
     },
     "AMD": {
-      "price": 536.35,
+      "price": 534.39,
       "prev_close": 557.89,
-      "change_pct": -3.860976178099619
+      "change_pct": -4.212299915754001
     },
     "NFLX": {
-      "price": 74.31,
+      "price": 73.83,
       "prev_close": 73.37,
-      "change_pct": 1.2811775930216678
+      "change_pct": 0.6269592476488943
     },
     "COIN": {
-      "price": 157.205,
+      "price": 157.37,
       "prev_close": 159.07,
-      "change_pct": -1.17243980637454
+      "change_pct": -1.06871188784811
     },
     "PLTR": {
-      "price": 130.07,
+      "price": 130.04,
       "prev_close": 126.79,
-      "change_pct": 2.5869548071614377
+      "change_pct": 2.563293635144716
     },
     "BRK-B": {
-      "price": 497.32,
+      "price": 496.95,
       "prev_close": 493.71,
-      "change_pct": 0.7311984768386327
+      "change_pct": 0.6562556966640354
     }
   },
-  "updated_at": "2026-07-13T18:55:50.769055+00:00",
+  "updated_at": "2026-07-13T20:06:50.216722+00:00",
   "source": "yahoo_finance"
 }
