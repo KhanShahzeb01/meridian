@@ -41,7 +41,7 @@
         7575.3798828125,
         7575.39013671875
       ],
-      "as_of": "2026-07-13 00:04 UTC",
+      "as_of": "2026-07-13 03:50 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26278.69921875,
         26281.607421875
       ],
-      "as_of": "2026-07-13 00:04 UTC",
+      "as_of": "2026-07-13 03:50 UTC",
       "source": "yahoo"
     },
     {
@@ -129,25 +129,17 @@
         52640.30859375,
         52637.01171875
       ],
-      "as_of": "2026-07-13 00:04 UTC",
+      "as_of": "2026-07-13 03:50 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4089.5,
-      "change": -24.199999999999818,
-      "change_pct": -0.5882781923815499,
+      "price": 4066.5,
+      "change": -47.19999999999982,
+      "change_pct": -1.1473855653061678,
       "series": [
-        4117.89990234375,
-        4113.10009765625,
-        4106.5,
-        4111.7001953125,
-        4113.7001953125,
-        4118.5,
-        4113.5,
-        4108.60009765625,
         4111.0,
         4114.7998046875,
         4109.2998046875,
@@ -170,28 +162,28 @@
         4091.5,
         4084.300048828125,
         4082.300048828125,
-        4088.699951171875,
-        4089.5
+        4092.89990234375,
+        4083.10009765625,
+        4082.10009765625,
+        4087.699951171875,
+        4080.199951171875,
+        4075.5,
+        4076.800048828125,
+        4069.89990234375,
+        4066.199951171875,
+        4066.5
       ],
-      "as_of": "2026-07-13 00:04 UTC",
+      "as_of": "2026-07-13 03:50 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 73.77,
-      "change": 2.3599999999999994,
-      "change_pct": 3.3048592634084857,
+      "price": 74.28,
+      "change": 2.8700000000000045,
+      "change_pct": 4.019044951687445,
       "series": [
-        71.56999969482422,
-        71.63999938964844,
-        71.88999938964844,
-        71.6500015258789,
-        71.8499984741211,
-        71.97000122070312,
-        72.23999786376953,
-        72.48999786376953,
         72.7300033569336,
         72.05000305175781,
         71.94999694824219,
@@ -215,9 +207,17 @@
         73.69000244140625,
         73.7300033569336,
         73.7699966430664,
-        73.7699966430664
+        73.91000366210938,
+        74.2699966430664,
+        74.30999755859375,
+        74.38999938964844,
+        74.5,
+        74.25,
+        74.30999755859375,
+        74.29000091552734,
+        74.27999877929688
       ],
-      "as_of": "2026-07-13 00:04 UTC",
+      "as_of": "2026-07-13 03:50 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.039999961853027,
         15.029999732971191
       ],
-      "as_of": "2026-07-13 00:04 UTC",
+      "as_of": "2026-07-13 03:50 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,57 +273,33 @@
       "source": "TheStreet"
     },
     {
-      "title": "Robinhood Brings AI Agent Trading to Crypto After 70,000 Accounts Join Beta",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/robinhood-brings-ai-agent-trading-234600114.html",
-      "published": "2026-07-12T23:46:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Dow Jones Futures Fall, Oil Prices Rise Amid New U.S.-Iran Attacks; Nvidia, Micron, Sandisk Near Buy Points",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-us-iran-attacks-nvidia-micron-sandisk-taiwan-semiconductor/?src=A00220&yptr=yahoo",
-      "published": "2026-07-12T23:38:47Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Big Oil\u2019s War-Related Profits Anger Governments",
-      "url": "https://finance.yahoo.com/energy/articles/big-oil-war-related-profits-230000286.html",
-      "published": "2026-07-12T23:00:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "Elon Musk roasts OpenAI's Apple lawsuit \u2014 but Altman hits back: 'You're the one selling investors on space datacenters'",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-roasts-openais-apple-191500316.html",
-      "published": "2026-07-12T19:15:00Z",
-      "source": "Moneywise"
-    },
-    {
       "title": "Salesforce receives double blow over an AI product",
       "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-receives-double-blow-over-181700627.html",
       "published": "2026-07-11T18:17:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "Is the AI Bubble About to Burst?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-bubble-burst-190000071.html",
-      "published": "2026-07-12T19:00:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "'LOL ... so funny': Apple says ex-engineer stole secrets and coached a colleague to do the same. He now works at OpenAI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/lol-funny-apple-says-ex-190000424.html",
-      "published": "2026-07-12T19:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Meta Has Raised Its AI Game. The Stock Should Continue to Rise In 2026.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-raised-ai-game-stock-173002031.html",
-      "published": "2026-07-12T17:30:02Z",
+      "title": "Amazon Is Spending So Much on AI That Even Its Cash Isn\u2019t Enough. Why Investors Shouldn\u2019t Be Worried.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-spending-much-ai-even-164502983.html",
+      "published": "2026-07-11T16:45:02Z",
       "source": "Barchart"
     },
     {
-      "title": "Figure Technology (FIGR): Stocks Set to Explode in the Next 2 Years",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/figure-technology-figr-stocks-set-075928541.html",
-      "published": "2026-07-12T17:27:28Z",
+      "title": "M-tron (MPTI) Industries Secures $4M Defense Contract",
+      "url": "https://finance.yahoo.com/technology/articles/m-tron-mpti-industries-secures-162805749.html",
+      "published": "2026-07-11T16:28:05Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "NCR Atleos (NATL) is One of the Best Up and Coming Tech Stocks to Buy Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ncr-atleos-natl-one-best-162728592.html",
+      "published": "2026-07-11T16:27:28Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Nextpower (NXT) to Acquire Zimmermann PV-Steel Group for \u20ac330M",
+      "url": "https://finance.yahoo.com/technology/articles/nextpower-nxt-acquire-zimmermann-pv-162722565.html",
+      "published": "2026-07-11T16:27:22Z",
       "source": "Insider Monkey"
     },
     {
@@ -333,58 +309,58 @@
       "source": "TheStreet"
     },
     {
-      "title": "NVRO Metals Partners with Hecla Mining (HL) for Tailings Processing",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvro-metals-partners-hecla-mining-075953955.html",
-      "published": "2026-07-12T17:26:53Z",
+      "title": "Kaspi.kz (KSPI) Receives Regulatory Approval to Acquire Rabobank A.\u015e.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kaspi-kz-kspi-receives-regulatory-162749835.html",
+      "published": "2026-07-11T16:27:49Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "First Majestic Silver (AG) Receives Construction Permits for Santa Elena Mine Expansion",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/first-majestic-silver-ag-receives-075944774.html",
-      "published": "2026-07-12T17:26:44Z",
+      "title": "Is Samsara (IOT) One of the Best Up and Coming Tech Stocks to Buy Now?",
+      "url": "https://finance.yahoo.com/technology/articles/samsara-iot-one-best-coming-162709991.html",
+      "published": "2026-07-11T16:27:09Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "POSCO (PKX), Anson Resources Partner for DLE Demonstration Plant in Utah",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/posco-pkx-anson-resources-partner-075934937.html",
-      "published": "2026-07-12T17:26:34Z",
+      "title": "Navan (NAVN) Enters Agreement to Acquire Brazilian Travel Management Firm Smartrips",
+      "url": "https://finance.yahoo.com/technology/ai/articles/navan-navn-enters-agreement-acquire-162742988.html",
+      "published": "2026-07-11T16:27:42Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Sunday, July 12, 2026: Mostly down from last week",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-july-12-2026-mostly-down-from-last-week-100000227.html",
-      "published": "2026-07-12T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Kyndryl (KD), Amazon (AMZN) Expand Strategic Collaboration for Agentic AI Deployment",
+      "url": "https://finance.yahoo.com/technology/ai/articles/kyndryl-kd-amazon-amzn-expand-162736426.html",
+      "published": "2026-07-11T16:27:36Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Mark Cuban has strong words on AI companies and job losses",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-strong-words-ai-140700495.html",
-      "published": "2026-07-12T14:07:00Z",
+      "title": "Leading energy company files for bankruptcy",
+      "url": "https://finance.yahoo.com/energy/articles/leading-energy-company-files-bankruptcy-003700014.html",
+      "published": "2026-07-12T00:37:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "Best CD rates today, Sunday, July 12, 2026: Lock in up to 4.10% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-july-12-2026-lock-in-up-to-410-apy-100000577.html",
-      "published": "2026-07-12T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "SailPoint (SAIL) Completes Acquisition of Entro Security to Enhance Non-Human Identity Management",
+      "url": "https://finance.yahoo.com/technology/ai/articles/sailpoint-sail-completes-acquisition-entro-162756226.html",
+      "published": "2026-07-11T16:27:56Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Saturday, July 11: Rates moving lower today",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-july-11-rates-moving-lower-today-100000637.html",
-      "published": "2026-07-11T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "ServiceTitan (TTAN): Best Up and Coming Tech Stocks to Buy Now",
+      "url": "https://finance.yahoo.com/technology/articles/servicetitan-ttan-best-coming-tech-162715715.html",
+      "published": "2026-07-11T16:27:15Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Best CD rates today, Saturday, July 11, 2026: Best account provides 4.10% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-july-11-2026-best-account-provides-410-apy-100000806.html",
-      "published": "2026-07-11T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Here is Why Qnity (Q) is One of the Best Up and Coming Tech Stocks to Buy Now",
+      "url": "https://finance.yahoo.com/technology/articles/why-qnity-q-one-best-162655652.html",
+      "published": "2026-07-11T16:26:55Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Spectrum makes significant decision as customer losses mount",
-      "url": "https://finance.yahoo.com/technology/articles/spectrum-makes-significant-decision-customer-141700401.html",
-      "published": "2026-07-12T14:17:00Z",
-      "source": "TheStreet"
+      "title": "Rubrik (RBRK) Launches Agentic-First Rubrik AI Platform",
+      "url": "https://finance.yahoo.com/technology/ai/articles/rubrik-rbrk-launches-agentic-first-162703119.html",
+      "published": "2026-07-11T16:27:03Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Pizza chain closing up to 50 locations after years of declines",
@@ -393,28 +369,52 @@
       "source": "TheStreet"
     },
     {
-      "title": "An Aura Minerals Insider Sold Shares as Revenue Jumped 136%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/aura-minerals-insider-sold-shares-233725598.html",
-      "published": "2026-07-12T23:37:25Z",
-      "source": "Motley Fool"
+      "title": "'Just crying' for lower rates: Homebuying and selling have picked up this year \u2014 barely",
+      "url": "https://finance.yahoo.com/real-estate/article/just-crying-for-lower-rates-homebuying-and-selling-have-picked-up-this-year--barely-165136773.html",
+      "published": "2026-07-11T16:51:36Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Palantir CEO has a blunt verdict on OpenAI and Anthropic",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-blunt-verdict-openai-233700235.html",
-      "published": "2026-07-12T23:37:00Z",
+      "title": "Can Colombia\u2019s New Government Reverse the Nation\u2019s Oil and Gas Decline?",
+      "url": "https://finance.yahoo.com/energy/articles/colombia-government-reverse-nation-oil-170000737.html",
+      "published": "2026-07-11T17:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "After saving on their own, retirees are turning to financial advisers 'to know if they are on track'",
+      "url": "https://finance.yahoo.com/economy/article/after-saving-on-their-own-retirees-are-turning-to-financial-advisers-to-know-if-they-are-on-track-160123130.html",
+      "published": "2026-07-11T16:01:23Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "OpenAI and Anthropic warn China is using tens of thousands of fake accounts to copy their AI models",
+      "url": "https://finance.yahoo.com/technology/ai/articles/openai-anthropic-warn-china-using-160000373.html",
+      "published": "2026-07-11T16:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Mark Cuban has strong words on AI companies and job losses",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-strong-words-ai-140700495.html",
+      "published": "2026-07-12T14:07:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "Small Cap Watch: Orthocell posts record revenue and explorers advance Queensland and Greenland programs",
-      "url": "https://finance.yahoo.com/small-business/articles/small-cap-watch-orthocell-posts-233500224.html",
-      "published": "2026-07-12T23:35:00Z",
-      "source": "Proactive"
+      "title": "Carvana (CVNA) is One of the Best Stocks to Invest in Under $100, Here\u2019s Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carvana-cvna-one-best-stocks-155945687.html",
+      "published": "2026-07-11T15:59:45Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "50-year-old boat builder files Chapter 7 and won't deliver",
-      "url": "https://finance.yahoo.com/economy/articles/50-old-boat-builder-files-232831357.html",
-      "published": "2026-07-12T23:28:31Z",
-      "source": "TheStreet"
+      "title": "Williams (WMB) in Advanced Talks to Acquire Momentum Midstream for $5.5B",
+      "url": "https://finance.yahoo.com/energy/articles/williams-wmb-advanced-talks-acquire-155939693.html",
+      "published": "2026-07-11T15:59:39Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Broadcom Lands $30 Billion Chip Deal With Apple. Why It\u2019s a Win-Win for AAPL and AVGO.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-lands-30-billion-chip-173002657.html",
+      "published": "2026-07-11T17:30:02Z",
+      "source": "Barchart"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.35119588253103423
     }
   },
-  "updated_at": "2026-07-13T00:04:54.626789+00:00",
+  "updated_at": "2026-07-13T03:50:27.302802+00:00",
   "source": "yahoo_finance"
 }
