@@ -41,7 +41,7 @@
         7515.89990234375,
         7515.33984375
       ],
-      "as_of": "2026-07-14 09:25 UTC",
+      "as_of": "2026-07-14 11:00 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25878.7890625,
         25873.17578125
       ],
-      "as_of": "2026-07-14 09:25 UTC",
+      "as_of": "2026-07-14 11:00 UTC",
       "source": "yahoo"
     },
     {
@@ -129,20 +129,17 @@
         52502.08984375,
         52498.640625
       ],
-      "as_of": "2026-07-14 09:25 UTC",
+      "as_of": "2026-07-14 11:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4026.1,
-      "change": 20.40000000000009,
-      "change_pct": 0.5092742841450956,
+      "price": 4028.1,
+      "change": 22.40000000000009,
+      "change_pct": 0.5592031355318694,
       "series": [
-        4006.300048828125,
-        4000.60009765625,
-        4002.300048828125,
         4008.5,
         4005.39990234375,
         4009.300048828125,
@@ -170,23 +167,23 @@
         4027.300048828125,
         4028.5,
         4022.60009765625,
-        4025.89990234375,
-        4026.10009765625
+        4022.39990234375,
+        4028.699951171875,
+        4025.10009765625,
+        4027.89990234375,
+        4028.10009765625
       ],
-      "as_of": "2026-07-14 09:25 UTC",
+      "as_of": "2026-07-14 11:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 80.17,
-      "change": 2.030000000000001,
-      "change_pct": 2.5979012029690316,
+      "price": 80.87,
+      "change": 2.730000000000004,
+      "change_pct": 3.4937292039928383,
       "series": [
-        76.0,
-        77.5999984741211,
-        78.13999938964844,
         77.63999938964844,
         77.75,
         77.66000366210938,
@@ -214,23 +211,23 @@
         80.37999725341797,
         80.36000061035156,
         81.02999877929688,
-        80.12000274658203,
-        80.16999816894531
+        80.68000030517578,
+        80.58000183105469,
+        80.86000061035156,
+        80.91000366210938,
+        80.87000274658203
       ],
-      "as_of": "2026-07-14 09:25 UTC",
+      "as_of": "2026-07-14 11:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 17.31,
-      "change": 0.14999999999999858,
-      "change_pct": 0.8741258741258658,
+      "price": 17.34,
+      "change": 0.17999999999999972,
+      "change_pct": 1.0489510489510472,
       "series": [
-        16.43000030517578,
-        16.280000686645508,
-        16.260000228881836,
         16.139999389648438,
         16.15999984741211,
         16.299999237060547,
@@ -258,14 +255,47 @@
         17.309999465942383,
         17.219999313354492,
         17.389999389648438,
-        17.299999237060547,
-        17.309999465942383
+        17.399999618530273,
+        17.309999465942383,
+        17.309999465942383,
+        17.31999969482422,
+        17.34000015258789
       ],
-      "as_of": "2026-07-14 09:25 UTC",
+      "as_of": "2026-07-14 11:00 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
+    {
+      "title": "Target's problems aren't what you think they are",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/targets-problems-arent-think-201058966.html",
+      "published": "2026-07-13T20:10:58Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Visa (V): Among the Most Promising Fintech Stocks to Invest In",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-among-most-promising-103905153.html",
+      "published": "2026-07-14T10:39:05Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Morning Bid: Oil boils",
+      "url": "https://finance.yahoo.com/news/morning-bid-oil-boils-103443653.html",
+      "published": "2026-07-14T10:34:43Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Is PowerFleet (AIOT) the Fastest Growing Tech Penny Stocks to Buy?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/powerfleet-aiot-fastest-growing-tech-103408814.html",
+      "published": "2026-07-14T10:34:08Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Geron (GERN) Grants Inducement Stock Options to New Employees",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/geron-gern-grants-inducement-stock-103402930.html",
+      "published": "2026-07-14T10:34:02Z",
+      "source": "Insider Monkey"
+    },
     {
       "title": "Goldman Sachs quietly snags a corner of America's retirement money",
       "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-quietly-snags-corner-003700514.html",
@@ -273,147 +303,117 @@
       "source": "TheStreet"
     },
     {
-      "title": "World stocks dip\u00a0as oil rises after Trump's Hormuz levy threat",
-      "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-markets-choppy-threat-trump-012723429.html",
-      "published": "2026-07-14T08:50:54Z",
+      "title": "Nano Dimension (NNDM) Issues Update on Infinite Epigenetics Combination",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nano-dimension-nndm-issues-infinite-103355317.html",
+      "published": "2026-07-14T10:33:55Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Century Therapeutics (IPSC) to Present CNTY-813 Data at Scientific Congresses",
+      "url": "https://finance.yahoo.com/healthcare/articles/century-therapeutics-ipsc-present-cnty-103348607.html",
+      "published": "2026-07-14T10:33:48Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Here\u2019s Why TON Strategy (TONX) is Among the 10 Fastest Growing Tech Penny Stocks to Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-ton-strategy-tonx-among-103341074.html",
+      "published": "2026-07-14T10:33:41Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Gloo Holdings (GLOO) Prices Secondary Offering at $3.25",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gloo-holdings-gloo-prices-secondary-103331047.html",
+      "published": "2026-07-14T10:33:31Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Clothing sales fuel increase in US retail sales",
+      "url": "https://finance.yahoo.com/economy/articles/clothing-sales-fuel-increase-us-105015365.html",
+      "published": "2026-07-14T10:50:15Z",
+      "source": "Just Style"
+    },
+    {
+      "title": "Autolus Therapeutics (AUTL) Grants Inducement Awards to New Employees",
+      "url": "https://finance.yahoo.com/healthcare/articles/autolus-therapeutics-autl-grants-inducement-103319136.html",
+      "published": "2026-07-14T10:33:19Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Ovid Therapeutics (OVID) Appoints Kevin Norrett as Chief Business Officer",
+      "url": "https://finance.yahoo.com/healthcare/articles/ovid-therapeutics-ovid-appoints-kevin-103313866.html",
+      "published": "2026-07-14T10:33:13Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Cibus (CBUS) Welcomes Landmark EU Crop Breeding Decision",
+      "url": "https://finance.yahoo.com/healthcare/articles/cibus-cbus-welcomes-landmark-eu-103305040.html",
+      "published": "2026-07-14T10:33:05Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Datavault AI (DVLT): The Fastest Growing Tech Penny Stocks to Buy",
+      "url": "https://finance.yahoo.com/technology/ai/articles/datavault-ai-dvlt-fastest-growing-103258084.html",
+      "published": "2026-07-14T10:32:58Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Citrin Cooperman adopts Caseware\u2019s AI-based audit platform",
+      "url": "https://finance.yahoo.com/technology/ai/articles/citrin-cooperman-adopts-caseware-ai-104153619.html",
+      "published": "2026-07-14T10:41:53Z",
+      "source": "International Accounting Bulletin"
+    },
+    {
+      "title": "Is your advisor scaring you into buying an annuity after saving for retirement? Here\u2019s where you should tell them to go",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/advisor-scaring-buying-annuity-saving-101500752.html",
+      "published": "2026-07-14T10:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Tower Semiconductor to invest $3 billion in Japan, backed by government grants",
+      "url": "https://finance.yahoo.com/technology/articles/tower-semiconductor-invest-3-billion-101006912.html",
+      "published": "2026-07-14T10:10:06Z",
       "source": "Reuters"
     },
     {
-      "title": "China's exports ride AI boom as domestic economy struggles",
-      "url": "https://finance.yahoo.com/economy/articles/chinas-june-trade-tops-forecasts-025658981.html",
-      "published": "2026-07-14T08:18:02Z",
-      "source": "Reuters"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as traders lift Fed rate hike bets ahead of key inflation data",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-14-dow-sp-500-nasdaq-070833816.html",
+      "published": "2026-07-14T07:08:33Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Oil hits four-week high as US-Iran conflict escalates",
-      "url": "https://finance.yahoo.com/news/oil-climbs-one-month-high-010106262.html",
-      "published": "2026-07-14T08:04:13Z",
-      "source": "Reuters"
+      "title": "Mortgage & refinance interest rates today, Tuesday, July 14, 2026: Rates mixed this morning",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage--refinance-interest-rates-today-tuesday-july-14-2026-rates-mixed-this-morning-100000024.html",
+      "published": "2026-07-14T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Samsung Electronics denies report that it is exploring US listing",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-explores-potential-us-listing-073750137.html",
-      "published": "2026-07-14T07:37:50Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Shein targets up to $3bn in Hong Kong IPO, could launch by August \u2013 report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/shein-targets-3bn-hong-kong-091753472.html",
-      "published": "2026-07-14T09:17:53Z",
-      "source": "Retail Insight Network"
-    },
-    {
-      "title": "BP Flags Stronger Q2 Refining and Lower Output on Maintenance and Disruptions",
-      "url": "https://finance.yahoo.com/energy/articles/bp-flags-stronger-q2-refining-073500650.html",
-      "published": "2026-07-14T07:35:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "Global investors turn most bullish since February, BofA survey shows",
-      "url": "https://finance.yahoo.com/news/global-investors-turn-most-bullish-073023142.html",
-      "published": "2026-07-14T07:30:23Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "China\u2019s Crude Oil Imports Crash to Decade Low as Hormuz Crisis Bites",
-      "url": "https://finance.yahoo.com/energy/articles/china-crude-oil-imports-crash-071500624.html",
-      "published": "2026-07-14T07:15:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "Big Oil\u2019s War-Related Profits Anger Governments",
-      "url": "https://finance.yahoo.com/energy/articles/big-oil-war-related-profits-230000286.html",
-      "published": "2026-07-12T23:00:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "Cathie Wood Is Loading Up on This Biotech Stock. Is It a No-Brainer Buy?",
-      "url": "https://finance.yahoo.com/healthcare/articles/cathie-wood-loading-biotech-stock-091700815.html",
-      "published": "2026-07-14T09:17:00Z",
+      "title": "Got $1,000? 2 Magnificent Artificial Intelligence (AI) Stocks Down Over 15% to Buy Hand Over Fist",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/got-1-000-2-magnificent-103500924.html",
+      "published": "2026-07-14T10:35:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Robinhood Brings AI Agent Trading to Crypto After 70,000 Accounts Join Beta",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/robinhood-brings-ai-agent-trading-234600114.html",
-      "published": "2026-07-12T23:46:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "SK Hynix plunges after Nasdaq debut as memory chip euphoria cools",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-shares-fall-much-003035107.html",
-      "published": "2026-07-13T00:30:35Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Mortgage and refinance rates today, Monday, July 13, 2026: Purchase rates back lower than refi rates",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-july-13-2026-purchase-rates-back-lower-than-refi-rates-100000272.html",
+      "title": "Best high-yield savings interest rates today, Tuesday, July 14, 2026: Earn up to 4.10% APY with multiple banks",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-tuesday-july-14-2026-earn-up-to-410-apy-with-multiple-banks-100000572.html",
       "published": "2026-07-13T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Best CD rates today, Monday, July 13, 2026: Lock in up to 4.2% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-13-2026-lock-in-up-to-42-apy-100000282.html",
+      "title": "Best CD rates today, Tuesday, July 14, 2026: Lock in up to 4.10% APY today",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-july-14-2026-lock-in-up-to-410-apy-today-100000616.html",
+      "published": "2026-07-14T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Welcome to the Tokenpocalypse: Companies rapidly backtrack after encouraging workers to spend with abandon on AI",
+      "url": "https://finance.yahoo.com/technology/ai/articles/welcome-tokenpocalypse-companies-rapidly-backtrack-100000461.html",
+      "published": "2026-07-14T10:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "HELOC and home equity loan rates today, Tuesday, July 14, 2026: Besides rates, how to choose between a HELOC or HEL",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-tuesday-july-14-2026-besides-rates-how-to-choose-between-a-heloc-or-hel-100000072.html",
       "published": "2026-07-13T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "SK Hynix ADRs Seem Fairly Valued",
-      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-071426/card/sk-hynix-adrs-seem-fairly-valued-FFtdATFEhqjh0xl7KQMc?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-14T09:13:21Z",
-      "source": "Barrons.com"
-    },
-    {
-      "title": "HELOC and home equity loan rates today, Monday, July 13, 2026: Just a 2-basis-point differential",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-july-13-2026-just-a-2-basis-point-differential-100000072.html",
-      "published": "2026-07-13T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Best high-yield savings interest rates today, Monday, July 13, 2026: Earn up to 4.10% APY with Bask Bank",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-july-13-2026-earn-up-to-410-apy-with-bask-bank-100000572.html",
-      "published": "2026-07-13T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Gold prices today, Monday, July 13, 2026: Prices move lower following weekend airstrikes",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-july-13-2026-prices-move-lower-following-weekend-airstrikes-123120098.html",
-      "published": "2026-07-13T12:31:20Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Silver prices today, Monday, July 13, 2026: Silver prices falling after latest airstrikes on Iran",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-july-13-2026-silver-prices-falling-after-latest-airstrikes-on-iran-124725365.html",
-      "published": "2026-07-13T12:47:25Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Graphic Packaging debuts uncoated recycled paperboard offering",
-      "url": "https://finance.yahoo.com/technology/articles/graphic-packaging-debuts-uncoated-recycled-090924184.html",
-      "published": "2026-07-14T09:09:24Z",
-      "source": "Packaging Gateway"
-    },
-    {
-      "title": "Bitcoin and ethereum prices today, Monday, July 13, 2026: Strong price openings backtracking this morning",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-13-2026-strong-price-openings-backtracking-this-morning-133042462.html",
-      "published": "2026-07-13T13:30:42Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-13-170834159.html",
-      "published": "2025-11-03T17:08:34Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Gold forecast and tracker: Where will prices land in 2026?",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-forecast-and-tracker-where-will-prices-land-in-2026-130000340.html",
-      "published": "2026-04-15T13:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "SpaceX stock drops. Here's what to do next.",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-drops-heres-what-to-do-next-141704338.html",
-      "published": "2026-06-17T14:17:04Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.6360008912114486
     }
   },
-  "updated_at": "2026-07-14T09:25:24.400886+00:00",
+  "updated_at": "2026-07-14T11:00:30.288497+00:00",
   "source": "yahoo_finance"
 }
