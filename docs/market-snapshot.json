@@ -41,7 +41,7 @@
         7515.89990234375,
         7515.33984375
       ],
-      "as_of": "2026-07-14 07:29 UTC",
+      "as_of": "2026-07-14 09:25 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25878.7890625,
         25873.17578125
       ],
-      "as_of": "2026-07-14 07:29 UTC",
+      "as_of": "2026-07-14 09:25 UTC",
       "source": "yahoo"
     },
     {
@@ -129,21 +129,17 @@
         52502.08984375,
         52498.640625
       ],
-      "as_of": "2026-07-14 07:29 UTC",
+      "as_of": "2026-07-14 09:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4033.8,
-      "change": 28.100000000000364,
-      "change_pct": 0.7015003619841816,
+      "price": 4026.1,
+      "change": 20.40000000000009,
+      "change_pct": 0.5092742841450956,
       "series": [
-        4023.5,
-        4023.300048828125,
-        4011.39990234375,
-        4000.300048828125,
         4006.300048828125,
         4000.60009765625,
         4002.300048828125,
@@ -170,24 +166,24 @@
         4037.800048828125,
         4029.39990234375,
         4030.39990234375,
-        4033.39990234375,
-        4033.800048828125
+        4033.10009765625,
+        4027.300048828125,
+        4028.5,
+        4022.60009765625,
+        4025.89990234375,
+        4026.10009765625
       ],
-      "as_of": "2026-07-14 07:29 UTC",
+      "as_of": "2026-07-14 09:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 80.22,
-      "change": 2.0799999999999983,
-      "change_pct": 2.661888917327871,
+      "price": 80.17,
+      "change": 2.030000000000001,
+      "change_pct": 2.5979012029690316,
       "series": [
-        74.51000213623047,
-        74.8499984741211,
-        75.12999725341797,
-        75.73999786376953,
         76.0,
         77.5999984741211,
         78.13999938964844,
@@ -214,25 +210,24 @@
         79.3499984741211,
         80.22000122070312,
         80.44000244140625,
-        80.33000183105469,
-        80.22000122070312
+        80.41999816894531,
+        80.37999725341797,
+        80.36000061035156,
+        81.02999877929688,
+        80.12000274658203,
+        80.16999816894531
       ],
-      "as_of": "2026-07-14 07:29 UTC",
+      "as_of": "2026-07-14 09:25 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 17.16,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 17.31,
+      "change": 0.14999999999999858,
+      "change_pct": 0.8741258741258658,
       "series": [
-        15.260000228881836,
-        15.239999771118164,
-        15.050000190734863,
-        15.039999961853027,
-        16.389999389648438,
         16.43000030517578,
         16.280000686645508,
         16.260000228881836,
@@ -259,9 +254,14 @@
         17.329999923706055,
         17.049999237060547,
         17.149999618530273,
-        17.15999984741211
+        17.270000457763672,
+        17.309999465942383,
+        17.219999313354492,
+        17.389999389648438,
+        17.299999237060547,
+        17.309999465942383
       ],
-      "as_of": "2026-07-14 07:29 UTC",
+      "as_of": "2026-07-14 09:25 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,22 +273,52 @@
       "source": "TheStreet"
     },
     {
-      "title": "Forget GPUs. Nvidia\u2019s Next AI Gold Mine Could Be Even Bigger.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/forget-gpus-nvidia-next-ai-200142734.html",
-      "published": "2026-07-12T20:01:42Z",
-      "source": "Barchart"
+      "title": "World stocks dip\u00a0as oil rises after Trump's Hormuz levy threat",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-markets-choppy-threat-trump-012723429.html",
+      "published": "2026-07-14T08:50:54Z",
+      "source": "Reuters"
     },
     {
-      "title": "Taiwan Semi Stock Is Approaching Fair Value Ahead of July 16. How to Play TSM Here.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semi-stock-approaching-fair-194605952.html",
-      "published": "2026-07-12T19:46:05Z",
-      "source": "Barchart"
+      "title": "China's exports ride AI boom as domestic economy struggles",
+      "url": "https://finance.yahoo.com/economy/articles/chinas-june-trade-tops-forecasts-025658981.html",
+      "published": "2026-07-14T08:18:02Z",
+      "source": "Reuters"
     },
     {
-      "title": "The U.S. Is Considering Removing Steering Wheels From Cars. Tesla Is the Reason Why.",
-      "url": "https://finance.yahoo.com/technology/articles/u-considering-removing-steering-wheels-193002553.html",
-      "published": "2026-07-12T19:30:02Z",
-      "source": "Barchart"
+      "title": "Oil hits four-week high as US-Iran conflict escalates",
+      "url": "https://finance.yahoo.com/news/oil-climbs-one-month-high-010106262.html",
+      "published": "2026-07-14T08:04:13Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Samsung Electronics denies report that it is exploring US listing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-explores-potential-us-listing-073750137.html",
+      "published": "2026-07-14T07:37:50Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Shein targets up to $3bn in Hong Kong IPO, could launch by August \u2013 report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/shein-targets-3bn-hong-kong-091753472.html",
+      "published": "2026-07-14T09:17:53Z",
+      "source": "Retail Insight Network"
+    },
+    {
+      "title": "BP Flags Stronger Q2 Refining and Lower Output on Maintenance and Disruptions",
+      "url": "https://finance.yahoo.com/energy/articles/bp-flags-stronger-q2-refining-073500650.html",
+      "published": "2026-07-14T07:35:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Global investors turn most bullish since February, BofA survey shows",
+      "url": "https://finance.yahoo.com/news/global-investors-turn-most-bullish-073023142.html",
+      "published": "2026-07-14T07:30:23Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "China\u2019s Crude Oil Imports Crash to Decade Low as Hormuz Crisis Bites",
+      "url": "https://finance.yahoo.com/energy/articles/china-crude-oil-imports-crash-071500624.html",
+      "published": "2026-07-14T07:15:00Z",
+      "source": "Oilprice.com"
     },
     {
       "title": "Big Oil\u2019s War-Related Profits Anger Governments",
@@ -297,9 +327,9 @@
       "source": "Oilprice.com"
     },
     {
-      "title": "Amazon Just Announced Shocking $25 Billion News. Should Investors Worry?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-just-announced-shocking-25-202400020.html",
-      "published": "2026-07-12T20:24:00Z",
+      "title": "Cathie Wood Is Loading Up on This Biotech Stock. Is It a No-Brainer Buy?",
+      "url": "https://finance.yahoo.com/healthcare/articles/cathie-wood-loading-biotech-stock-091700815.html",
+      "published": "2026-07-14T09:17:00Z",
       "source": "Motley Fool"
     },
     {
@@ -315,56 +345,26 @@
       "source": "Reuters"
     },
     {
-      "title": "Dow Jones Futures Fall, Oil Prices Rise Amid New U.S.-Iran Attacks; Nvidia, Micron, Sandisk Near Buy Points",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-us-iran-attacks-nvidia-micron-sandisk-taiwan-semiconductor/?src=A00220&yptr=yahoo",
-      "published": "2026-07-13T03:11:41Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "China June exports growth set to cool, but AI demand underpins overall strength",
-      "url": "https://finance.yahoo.com/economy/articles/china-june-exports-growth-set-032924305.html",
-      "published": "2026-07-13T03:29:24Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "1 Low-Cost Vanguard ETF Could Turn $300 per Month Into a $1 Million Portfolio. Here's How.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-low-cost-vanguard-etf-200500543.html",
-      "published": "2026-07-12T20:05:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Oil prices jump following the latest fighting in the Middle East, while AI stocks sink",
-      "url": "https://finance.yahoo.com/energy/articles/oil-prices-jump-asian-shares-035931272.html",
-      "published": "2026-07-13T03:59:31Z",
-      "source": "Associated Press"
-    },
-    {
-      "title": "What\u2019s Behind a Rare Week in the Red for ETF Flows",
-      "url": "https://finance.yahoo.com/markets/options/articles/behind-rare-week-red-etf-040100116.html",
-      "published": "2026-07-13T04:01:00Z",
-      "source": "The Daily Upside"
-    },
-    {
       "title": "Mortgage and refinance rates today, Monday, July 13, 2026: Purchase rates back lower than refi rates",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-july-13-2026-purchase-rates-back-lower-than-refi-rates-100000272.html",
       "published": "2026-07-13T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "HELOC and home equity loan rates today, Monday, July 13, 2026: Just a 2-basis-point differential",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-july-13-2026-just-a-2-basis-point-differential-100000072.html",
+      "title": "Best CD rates today, Monday, July 13, 2026: Lock in up to 4.2% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-13-2026-lock-in-up-to-42-apy-100000282.html",
       "published": "2026-07-13T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Russia\u2019s economy is an \u2018illusion\u2019 built on debt, and a banking crisis is ready to explode, intel report says, while the Kremlin may seize pensions",
-      "url": "https://finance.yahoo.com/economy/articles/russia-economy-illusion-built-debt-200254295.html",
-      "published": "2026-07-12T20:02:54Z",
-      "source": "Fortune"
+      "title": "SK Hynix ADRs Seem Fairly Valued",
+      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-071426/card/sk-hynix-adrs-seem-fairly-valued-FFtdATFEhqjh0xl7KQMc?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-14T09:13:21Z",
+      "source": "Barrons.com"
     },
     {
-      "title": "Best CD rates today, Monday, July 13, 2026: Lock in up to 4.2% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-13-2026-lock-in-up-to-42-apy-100000282.html",
+      "title": "HELOC and home equity loan rates today, Monday, July 13, 2026: Just a 2-basis-point differential",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-july-13-2026-just-a-2-basis-point-differential-100000072.html",
       "published": "2026-07-13T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
@@ -387,10 +387,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Peter Schiff Says the Biggest Market Crash Will Not Start With Bitcoin, But Here",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/peter-schiff-says-biggest-market-202833088.html",
-      "published": "2026-07-12T20:28:33Z",
-      "source": "BeInCrypto"
+      "title": "Graphic Packaging debuts uncoated recycled paperboard offering",
+      "url": "https://finance.yahoo.com/technology/articles/graphic-packaging-debuts-uncoated-recycled-090924184.html",
+      "published": "2026-07-14T09:09:24Z",
+      "source": "Packaging Gateway"
     },
     {
       "title": "Bitcoin and ethereum prices today, Monday, July 13, 2026: Strong price openings backtracking this morning",
@@ -504,6 +504,6 @@
       "change_pct": 0.6360008912114486
     }
   },
-  "updated_at": "2026-07-14T07:29:22.739881+00:00",
+  "updated_at": "2026-07-14T09:25:24.400886+00:00",
   "source": "yahoo_finance"
 }
