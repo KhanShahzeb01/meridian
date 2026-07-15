@@ -41,7 +41,7 @@
         7544.2900390625,
         7543.58984375
       ],
-      "as_of": "2026-07-15 00:12 UTC",
+      "as_of": "2026-07-15 03:35 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26106.806640625,
         26107.0078125
       ],
-      "as_of": "2026-07-15 00:12 UTC",
+      "as_of": "2026-07-15 03:35 UTC",
       "source": "yahoo"
     },
     {
@@ -129,23 +129,17 @@
         52526.73828125,
         52508.26953125
       ],
-      "as_of": "2026-07-15 00:12 UTC",
+      "as_of": "2026-07-15 03:35 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4059.3,
-      "change": -10.399999999999636,
-      "change_pct": -0.25554709192322866,
+      "price": 4038.1,
+      "change": -31.59999999999991,
+      "change_pct": -0.7764700100744505,
       "series": [
-        4028.5,
-        4022.60009765625,
-        4022.39990234375,
-        4028.699951171875,
-        4025.10009765625,
-        4028.199951171875,
         4032.300048828125,
         4038.10009765625,
         4036.0,
@@ -170,26 +164,26 @@
         4055.10009765625,
         4059.89990234375,
         4058.800048828125,
-        4059.5,
-        4059.300048828125
+        4064.699951171875,
+        4065.10009765625,
+        4061.0,
+        4042.89990234375,
+        4039.199951171875,
+        4041.699951171875,
+        4038.199951171875,
+        4038.10009765625
       ],
-      "as_of": "2026-07-15 00:12 UTC",
+      "as_of": "2026-07-15 03:35 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 79.82,
-      "change": 0.47999999999998977,
-      "change_pct": 0.6049911772119861,
+      "price": 80.15,
+      "change": 0.8100000000000023,
+      "change_pct": 1.020922611545251,
       "series": [
-        80.36000061035156,
-        81.02999877929688,
-        80.68000030517578,
-        80.58000183105469,
-        80.86000061035156,
-        80.91999816894531,
         79.9800033569336,
         79.54000091552734,
         80.05999755859375,
@@ -214,10 +208,16 @@
         79.9000015258789,
         79.76000213623047,
         79.87000274658203,
-        79.79000091552734,
-        79.81999969482422
+        80.26000213623047,
+        80.19999694824219,
+        80.08000183105469,
+        80.20999908447266,
+        80.19999694824219,
+        80.30000305175781,
+        80.1500015258789,
+        80.1500015258789
       ],
-      "as_of": "2026-07-15 00:12 UTC",
+      "as_of": "2026-07-15 03:35 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         16.5,
         16.5
       ],
-      "as_of": "2026-07-15 00:12 UTC",
+      "as_of": "2026-07-15 03:35 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,6 +271,12 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/targets-problems-arent-think-201058966.html",
       "published": "2026-07-13T20:10:58Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "Gold forecast and tracker: Where will prices land in 2026?",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-forecast-and-tracker-where-will-prices-land-in-2026-130000340.html",
+      "published": "2026-04-15T13:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "Facing Digital Threats, MGM Resorts Trades Higher On Reported Takeover Talks With Barry Diller's People Inc.",
@@ -285,12 +291,6 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Gold forecast and tracker: Where will prices land in 2026?",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-forecast-and-tracker-where-will-prices-land-in-2026-130000340.html",
-      "published": "2026-04-15T13:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
       "title": "Weekly survey of mortgage lenders with the lowest rates: Rates bubble higher",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-13-170834159.html",
       "published": "2025-11-03T17:08:34Z",
@@ -301,12 +301,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/bmws-u-business-delivering-matters-033300819.html",
       "published": "2026-07-14T03:33:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "Despite Multiple, Positive Attributes, Fervo Energy Stock Looks Very Risky for Now",
-      "url": "https://finance.yahoo.com/energy/articles/despite-multiple-positive-attributes-fervo-154920244.html",
-      "published": "2026-07-13T15:49:20Z",
-      "source": "Barchart"
     },
     {
       "title": "Cathie Wood Bought $54 Million Worth Of SpaceX Stock Last Week",
@@ -321,16 +315,10 @@
       "source": "Barchart"
     },
     {
-      "title": "Crude Oil Prices Surge as US Reinstates Blockade of Iran",
-      "url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-surge-us-153246700.html",
-      "published": "2026-07-13T15:32:46Z",
+      "title": "Despite Multiple, Positive Attributes, Fervo Energy Stock Looks Very Risky for Now",
+      "url": "https://finance.yahoo.com/energy/articles/despite-multiple-positive-attributes-fervo-154920244.html",
+      "published": "2026-07-13T15:49:20Z",
       "source": "Barchart"
-    },
-    {
-      "title": "Why I Can\u2019t Stop Buying Amazon Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-t-stop-buying-amazon-154545844.html",
-      "published": "2026-07-13T15:45:45Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Bosch begins sample production at its first US semiconductor plant",
@@ -339,45 +327,27 @@
       "source": "Reuters"
     },
     {
+      "title": "Oil Pipeline Boom Transforms AMLP Into Income Machine With Quarterly Raises Ahead",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/oil-pipeline-boom-transforms-amlp-154201962.html",
+      "published": "2026-07-13T15:42:01Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Crude Oil Prices Surge as US Reinstates Blockade of Iran",
+      "url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-surge-us-153246700.html",
+      "published": "2026-07-13T15:32:46Z",
+      "source": "Barchart"
+    },
+    {
       "title": "Why Delta Air Lines Could Be a Top Stock to Buy for the Rest of 2026",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-delta-air-lines-could-152949381.html",
       "published": "2026-07-13T15:29:49Z",
       "source": "Barchart"
     },
     {
-      "title": "Jim Cramer Outlines Why Pennant Group Stock Can Sail to $55",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-outlines-why-pennant-152612396.html",
-      "published": "2026-07-13T15:26:12Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Explains the Repeating Chart Pattern for National HealthCare Corporation",
-      "url": "https://finance.yahoo.com/healthcare/articles/jim-cramer-explains-repeating-chart-152614804.html",
-      "published": "2026-07-13T15:26:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Wall Street\u2019s Bar for Big Tech Is on the Floor, and That Could Spark the Next Rally",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bar-big-tech-154512015.html",
-      "published": "2026-07-13T15:45:12Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Jim Cramer on Carpenter Technology: \u201cI Would Buy Some Here and Buy Some If It Comes Down\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-carpenter-technology-buy-152609522.html",
-      "published": "2026-07-13T15:26:09Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Highlights the Strong Institutional Support for Welltower Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-highlights-strong-institutional-152610408.html",
-      "published": "2026-07-13T15:26:10Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer on Lemonade: \u201cIt Would Change My View on It if They Started Making Money\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-lemonade-change-view-152605854.html",
-      "published": "2026-07-13T15:26:05Z",
+      "title": "Jim Cramer on Weyerhaeuser: \u201cI\u2019m More Bullish on It Than the Rest of Wall Street\u201d",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-weyerhaeuser-m-more-152607539.html",
+      "published": "2026-07-13T15:26:07Z",
       "source": "Insider Monkey"
     },
     {
@@ -387,10 +357,22 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Analyst Report: Fedex Corp",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_2965_AnalystReport_1784050731000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-14T17:38:51Z",
-      "source": "Argus Research"
+      "title": "Why I Can\u2019t Stop Buying Amazon Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-t-stop-buying-amazon-154545844.html",
+      "published": "2026-07-13T15:45:45Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Jim Cramer on Carpenter Technology: \u201cI Would Buy Some Here and Buy Some If It Comes Down\u201d",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-carpenter-technology-buy-152609522.html",
+      "published": "2026-07-13T15:26:09Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Jim Cramer on Lemonade: \u201cIt Would Change My View on It if They Started Making Money\u201d",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-lemonade-change-view-152605854.html",
+      "published": "2026-07-13T15:26:05Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Jim Cramer Explains \u201cWhy Preformed Line Products Keeps Winning\u201d",
@@ -399,21 +381,39 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Jim Cramer on IBM: \u201cIt\u2019s Inexpensive and Arvind Krishna\u2019s Doing a Fantastic Job\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-ibm-inexpensive-arvind-152555444.html",
-      "published": "2026-07-13T15:25:55Z",
+      "title": "Jim Cramer Highlights the Strong Institutional Support for Welltower Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-highlights-strong-institutional-152610408.html",
+      "published": "2026-07-13T15:26:10Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Jim Cramer Explains Why PepsiCo Has Turned From a Market Darling Into an Ugly Duckling",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-pepsico-152557216.html",
-      "published": "2026-07-13T15:25:57Z",
+      "title": "The 1 Costco Pricing Secret That Makes It the Most Unusual Retailer in America",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-costco-pricing-secret-makes-154054229.html",
+      "published": "2026-07-13T15:40:54Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Jim Cramer Explains the Repeating Chart Pattern for National HealthCare Corporation",
+      "url": "https://finance.yahoo.com/healthcare/articles/jim-cramer-explains-repeating-chart-152614804.html",
+      "published": "2026-07-13T15:26:14Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Jim Cramer Believes Marriott Vacations \u201cIs a Long-Term Winner\u201d But Prefers Marriott Hotels",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-believes-marriott-vacations-152600938.html",
+      "published": "2026-07-13T15:26:00Z",
       "source": "Insider Monkey"
     },
     {
       "title": "Jim Cramer Says \u201cBuy the Stock of CVS, I Sure Wish I\u2019d Done It for My Trust\u201d",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-buy-stock-152559283.html",
       "published": "2026-07-13T15:25:59Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Jim Cramer Outlines Why Pennant Group Stock Can Sail to $55",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-outlines-why-pennant-152612396.html",
+      "published": "2026-07-13T15:26:12Z",
       "source": "Insider Monkey"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -1.1593036127604
     }
   },
-  "updated_at": "2026-07-15T00:12:44.963903+00:00",
+  "updated_at": "2026-07-15T03:35:41.041310+00:00",
   "source": "yahoo_finance"
 }
