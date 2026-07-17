@@ -41,7 +41,7 @@
         7534.6201171875,
         7533.77001953125
       ],
-      "as_of": "2026-07-17 11:47 UTC",
+      "as_of": "2026-07-17 12:49 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25889.14453125,
         25881.947265625
       ],
-      "as_of": "2026-07-17 11:47 UTC",
+      "as_of": "2026-07-17 12:49 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         52553.078125,
         52552.96875
       ],
-      "as_of": "2026-07-17 11:47 UTC",
+      "as_of": "2026-07-17 12:49 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 3995.7,
-      "change": 3.599999999999909,
-      "change_pct": 0.09017810175095586,
+      "price": 3983.8,
+      "change": -8.299999999999727,
+      "change_pct": -0.20791062348136888,
       "series": [
-        3984.60009765625,
-        3979.0,
         3979.89990234375,
         3979.89990234375,
         3982.10009765625,
@@ -170,22 +168,22 @@
         3999.60009765625,
         3994.39990234375,
         3999.39990234375,
-        3995.699951171875,
-        3995.699951171875
+        3997.89990234375,
+        3990.800048828125,
+        3981.5,
+        3983.800048828125
       ],
-      "as_of": "2026-07-17 11:47 UTC",
+      "as_of": "2026-07-17 12:49 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 80.06,
-      "change": 1.7800000000000011,
-      "change_pct": 2.273888605007666,
+      "price": 80.38,
+      "change": 2.0999999999999943,
+      "change_pct": 2.6826775677056647,
       "series": [
-        78.41000366210938,
-        78.45999908447266,
         78.88999938964844,
         78.95999908447266,
         78.94000244140625,
@@ -214,22 +212,22 @@
         79.83999633789062,
         79.9800033569336,
         80.06999969482422,
-        80.08000183105469,
-        80.05999755859375
+        80.19000244140625,
+        80.2300033569336,
+        80.37000274658203,
+        80.37999725341797
       ],
-      "as_of": "2026-07-17 11:47 UTC",
+      "as_of": "2026-07-17 12:49 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 18.09,
-      "change": 1.3599999999999994,
-      "change_pct": 8.129109384339506,
+      "price": 18.46,
+      "change": 1.7300000000000004,
+      "change_pct": 10.340705319784819,
       "series": [
-        16.0,
-        16.030000686645508,
         16.059999465942383,
         16.170000076293945,
         16.3799991607666,
@@ -258,19 +256,27 @@
         18.190000534057617,
         18.049999237060547,
         18.110000610351562,
-        18.100000381469727,
-        18.09000015258789
+        18.06999969482422,
+        18.40999984741211,
+        18.459999084472656,
+        18.459999084472656
       ],
-      "as_of": "2026-07-17 11:47 UTC",
+      "as_of": "2026-07-17 12:49 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "What is a money market account, and how does it work?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-money-market-account-132821980.html",
-      "published": "2023-12-15T22:50:19Z",
-      "source": "Yahoo Personal Finance"
+      "title": "\u2018Good for You. Way to Go\u2019: Dave Ramsey to a 74-Year-Old Lawyer Who Cleared $900,000 on a Property Sale but Has No Retirement Plan",
+      "url": "https://finance.yahoo.com/real-estate/articles/good-way-dave-ramsey-74-004117203.html",
+      "published": "2026-07-16T00:41:17Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "What to Expect From Incyte's Q2 2026 Earnings Report",
+      "url": "https://finance.yahoo.com/healthcare/articles/expect-incytes-q2-2026-earnings-011846902.html",
+      "published": "2026-07-16T01:18:46Z",
+      "source": "Barchart"
     },
     {
       "title": "Parent PLUS loans after July 1: Do you still have a path to income-driven repayment?",
@@ -285,64 +291,22 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Review & Preview: Losing Momentum",
-      "url": "https://www.barrons.com/articles/stocks-today-momentum-trade-struggles-4fc2eda5?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-15T23:55:00Z",
-      "source": "Barrons.com"
-    },
-    {
-      "title": "Global Investments In Nuclear Fusion Surge 69% To $4.5B",
-      "url": "https://finance.yahoo.com/energy/articles/global-investments-nuclear-fusion-surge-000000694.html",
-      "published": "2026-07-16T00:00:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "Market Digest: CTAS, FAST, MAN, STT, WFC",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47643_MarketSummary_1784285367000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-17T10:49:27Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "Limited-time offer: Earn up to $500 in travel credits with a Capital One business credit card",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/limited-time-offer-earn-up-to-500-in-travel-credits-with-a-capital-one-business-credit-card-191731905.html",
-      "published": "2026-07-15T19:17:31Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "What to Expect From Incyte's Q2 2026 Earnings Report",
-      "url": "https://finance.yahoo.com/healthcare/articles/expect-incytes-q2-2026-earnings-011846902.html",
-      "published": "2026-07-16T01:18:46Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "How to buy a house: The ultimate guide for first-time home buyers",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/first-time-home-buyer-195246478.html",
-      "published": "2024-01-26T22:46:06Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "XNTK vs. QQQ: Does a 35-Stock Tech ETF Beat Just Buying the Nasdaq-100?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/xntk-vs-qqq-does-35-235619565.html",
-      "published": "2026-07-15T23:56:19Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "How to get a 3%-down mortgage",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/3-down-payment-mortgage-225443404.html",
-      "published": "2024-01-26T22:54:43Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Anthropic IPO: What to know before you buy the stock",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/anthropic-ipo-what-to-know-before-you-buy-the-stock-170741665.html",
-      "published": "2026-06-16T17:07:41Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
       "title": "South Korea to ban new listings of single-stock leveraged ETFs",
       "url": "https://finance.yahoo.com/markets/options/articles/south-korea-regulator-announce-measures-020040424.html",
       "published": "2026-07-16T02:00:40Z",
       "source": "Reuters"
+    },
+    {
+      "title": "Technical Assessment: Bullish in the Intermediate-Term",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47645_TechnicalAnalysis_1784286640000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-17T11:10:40Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "BHP Annual Copper Production Falls; Iron Ore Output Notches Record High",
+      "url": "https://www.wsj.com/business/bhp-annual-copper-production-falls-iron-ore-output-notches-record-high-b13b5219?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-16T00:47:00Z",
+      "source": "The Wall Street Journal"
     },
     {
       "title": "Hyundai Motor Group to own Boston Dynamics in full with SoftBank stake buy",
@@ -351,16 +315,34 @@
       "source": "Reuters"
     },
     {
-      "title": "Cisco Stock's Independent Streak Is Its Edge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-stocks-independent-streak-edge-235617523.html",
-      "published": "2026-07-15T23:56:17Z",
-      "source": "Trefis"
+      "title": "What is a money market account, and how does it work?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-money-market-account-132821980.html",
+      "published": "2023-12-15T22:50:19Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Limited-time offer: Earn up to $500 in travel credits with a Capital One business credit card",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/limited-time-offer-earn-up-to-500-in-travel-credits-with-a-capital-one-business-credit-card-191731905.html",
+      "published": "2026-07-15T19:17:31Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "PayPal Unlikely to Bite on \u2018Low-Ball\u2019 $53B Offer from Stripe, Advent",
       "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-unlikely-bite-low-ball-040100540.html",
       "published": "2026-07-16T04:01:00Z",
       "source": "The Daily Upside"
+    },
+    {
+      "title": "Analyst Report: Wells Fargo & Co",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3519_AnalystReport_1784286267000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-17T11:04:27Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "\u2018Over My Dead Body\u2019: Suze Orman to a Listener Who Wanted to Pay Off His Dying Father-in-Law\u2019s $50,000 in Credit Card Debt",
+      "url": "https://finance.yahoo.com/markets/articles/over-dead-body-suze-orman-004810182.html",
+      "published": "2026-07-16T00:48:10Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "Inside Wall Street\u2019s Blockbuster Second Quarter",
@@ -381,16 +363,22 @@
       "source": "Reuters"
     },
     {
-      "title": "Why Karman Holdings Stock Zoomed More Than 6% Higher Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-karman-holdings-stock-zoomed-235815208.html",
-      "published": "2026-07-15T23:58:15Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Hyperion Deploys 500,000 HYPE to Back Skew\u2019s HIP-3 Market Push",
       "url": "https://finance.yahoo.com/markets/crypto/articles/hyperion-deploys-500-000-hype-042800421.html",
       "published": "2026-07-16T04:28:00Z",
       "source": "CryptoProwl"
+    },
+    {
+      "title": "Analyst Report: Cintas Corp",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3965_AnalystReport_1784286267000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-17T11:04:27Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "HPE's 42x Multiple Tells Only Half the Story",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hpes-42x-multiple-tells-only-005422398.html",
+      "published": "2026-07-16T00:54:22Z",
+      "source": "Trefis"
     },
     {
       "title": "Airbus picks Iliad's Scaleway for AI, defence work in sovereignty push",
@@ -405,16 +393,28 @@
       "source": "Associated Press"
     },
     {
+      "title": "How to buy a house: The ultimate guide for first-time home buyers",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/first-time-home-buyer-195246478.html",
+      "published": "2024-01-26T22:46:06Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
       "title": "Uber in $15 billion deal for Delivery Hero to create global takeout giant",
       "url": "https://finance.yahoo.com/markets/stocks/articles/uber-launches-14-8-billion-062550872.html",
       "published": "2026-07-16T06:25:50Z",
       "source": "Reuters"
     },
     {
-      "title": "AI Knows What You Did Online. Now Your Employer Does, Too.",
-      "url": "https://www.wsj.com/lifestyle/careers/ai-knows-what-you-did-online-now-your-employer-does-too-49796adc?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-16T00:00:00Z",
-      "source": "The Wall Street Journal"
+      "title": "Analyst Report: State Street Corp",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3418_AnalystReport_1784286267000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-17T11:04:27Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Can CoreWeave Become a $1 Trillion Company?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-become-1-trillion-company-012000412.html",
+      "published": "2026-07-16T01:20:00Z",
+      "source": "Motley Fool"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.9767584724070812
     }
   },
-  "updated_at": "2026-07-17T11:47:45.480131+00:00",
+  "updated_at": "2026-07-17T12:49:20.495556+00:00",
   "source": "yahoo_finance"
 }
