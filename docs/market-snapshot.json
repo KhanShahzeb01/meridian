@@ -41,7 +41,7 @@
         7534.6201171875,
         7533.77001953125
       ],
-      "as_of": "2026-07-17 06:29 UTC",
+      "as_of": "2026-07-17 08:34 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25889.14453125,
         25881.947265625
       ],
-      "as_of": "2026-07-17 06:29 UTC",
+      "as_of": "2026-07-17 08:34 UTC",
       "source": "yahoo"
     },
     {
@@ -129,23 +129,17 @@
         52553.078125,
         52552.96875
       ],
-      "as_of": "2026-07-17 06:29 UTC",
+      "as_of": "2026-07-17 08:34 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4005.3,
-      "change": 13.200000000000273,
-      "change_pct": 0.33065303975352,
+      "price": 3994.7,
+      "change": 2.599999999999909,
+      "change_pct": 0.06512862904235639,
       "series": [
-        4009.800048828125,
-        3994.0,
-        4004.0,
-        4002.0,
-        4015.5,
-        4011.800048828125,
         3991.5,
         3996.39990234375,
         3992.300048828125,
@@ -165,31 +159,31 @@
         3994.89990234375,
         3986.5,
         3986.60009765625,
-        3983.800048828125,
+        3982.199951171875,
+        4005.10009765625,
+        3995.699951171875,
         3989.5,
         3985.0,
         3982.89990234375,
         3988.60009765625,
-        4005.800048828125,
-        4005.300048828125
+        4007.5,
+        4003.10009765625,
+        4000.0,
+        3997.0,
+        3996.39990234375,
+        3994.699951171875
       ],
-      "as_of": "2026-07-17 06:29 UTC",
+      "as_of": "2026-07-17 08:34 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 78.28,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 78.88,
+      "change": 0.5999999999999943,
+      "change_pct": 0.7664793050587562,
       "series": [
-        80.1500015258789,
-        80.06999969482422,
-        80.04000091552734,
-        79.58000183105469,
-        79.5199966430664,
-        78.80000305175781,
         78.9000015258789,
         78.41999816894531,
         78.36000061035156,
@@ -209,28 +203,31 @@
         79.5199966430664,
         79.16999816894531,
         79.06999969482422,
-        79.05999755859375,
+        79.02999877929688,
+        79.05000305175781,
+        79.16000366210938,
         79.25,
         79.19000244140625,
         78.9800033569336,
         78.37999725341797,
-        78.30999755859375,
-        78.27999877929688
+        78.44000244140625,
+        78.6500015258789,
+        79.01000213623047,
+        78.7699966430664,
+        78.9000015258789,
+        78.87999725341797
       ],
-      "as_of": "2026-07-17 06:29 UTC",
+      "as_of": "2026-07-17 08:34 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.73,
-      "change": 1.0600000000000005,
-      "change_pct": 6.764518187619658,
+      "price": 18.59,
+      "change": 1.8599999999999994,
+      "change_pct": 11.117752540346679,
       "series": [
-        15.90999984741211,
-        15.800000190734863,
-        15.6899995803833,
         15.670000076293945,
         15.800000190734863,
         15.9399995803833,
@@ -259,162 +256,165 @@
         16.989999771118164,
         16.579999923706055,
         16.709999084472656,
-        16.729999542236328
+        17.940000534057617,
+        17.979999542236328,
+        18.510000228881836,
+        18.59000015258789
       ],
-      "as_of": "2026-07-17 06:29 UTC",
+      "as_of": "2026-07-17 08:34 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "SpaceX stock defies latest Wall Street forecasts",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-defies-latest-wall-181700371.html",
-      "published": "2026-07-15T18:17:00Z",
-      "source": "TheStreet"
+      "title": "Energy & Utilities Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-771cafa9?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-15T21:02:00Z",
+      "source": "The Wall Street Journal"
     },
     {
-      "title": "Earnings Preview: What To Expect From Starbucks' Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-starbucks-report-181527744.html",
-      "published": "2026-07-15T18:15:27Z",
-      "source": "Barchart"
+      "title": "J.B. Hunt\u2019s shares up 9% on Q2 earnings beat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/j-b-hunt-shares-9-210103990.html",
+      "published": "2026-07-15T21:01:03Z",
+      "source": "FreightWaves"
     },
     {
-      "title": "Apple, Goldman Sachs, and Chevron are powering the Dow \u2014 for wildly different reasons: AlphaCheck",
-      "url": "https://finance.yahoo.com/markets/article/apple-goldman-sachs-and-chevron-are-powering-the-dow--for-wildly-different-reasons-alphacheck-181535203.html",
-      "published": "2026-07-15T18:15:35Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "PayPal stock soars on report of buyout proposal from Stripe, Advent",
-      "url": "https://finance.yahoo.com/markets/stocks/article/paypal-stock-soars-on-report-of-buyout-proposal-from-stripe-advent-131101969.html",
-      "published": "2026-07-15T13:11:01Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic Reportedly Taking New Steps Toward Mega-IPO In Race With OpenAI, DeepSeek",
-      "url": "https://www.investors.com/news/technology/anthropic-ipo-open-ai-stocks/?src=A00220&yptr=yahoo",
-      "published": "2026-07-15T18:14:20Z",
+      "title": "Is This Why Memory Stocks Are Plunging?",
+      "url": "https://www.investors.com/news/technology/sandisk-stock-memory-tech-providers-plunge/?src=A00220&yptr=yahoo",
+      "published": "2026-07-15T20:58:06Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Anthropic schedules investor meetings ahead of potential IPO",
-      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-schedules-investor-meetings-ahead-181844159.html",
-      "published": "2026-07-15T18:18:44Z",
-      "source": "Quartz"
+      "title": "Daily ETF Flows: FINA Takes No. 4 Spot",
+      "url": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-fina-takes-210004694.html",
+      "published": "2026-07-15T21:00:04Z",
+      "source": "etf.com"
     },
     {
-      "title": "AI Play Datadog Nears A Buy Point On Big Money's Appetite For 'Observability' Technology",
-      "url": "https://www.investors.com/research/ai-play-datadog-ddog-stock-buy-point-observability-technology/?src=A00220&yptr=yahoo",
-      "published": "2026-07-15T18:13:51Z",
+      "title": "ETF League Tables: SPDR Inflows Total $8.4B",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-league-tables-spdr-inflows-210004572.html",
+      "published": "2026-07-15T21:00:04Z",
+      "source": "etf.com"
+    },
+    {
+      "title": "Auto & Transport Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/auto-transport-roundup-market-talk-b7b103bd?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-15T21:02:00Z",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "title": "Five Oil and Gas Stocks Ready for a Hormuz Spike and a Hawkish Fed",
+      "url": "https://finance.yahoo.com/energy/articles/five-oil-gas-stocks-ready-210000105.html",
+      "published": "2026-07-15T21:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Microsoft Stock Hit With Price-Target Cuts After Flaccid Performance",
+      "url": "https://www.investors.com/news/technology/microsoft-stock-hit-with-price-target-cuts-after-flaccid-performance/?src=A00220&yptr=yahoo",
+      "published": "2026-07-15T20:50:01Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Metals in Motion: Sprott Outlines New Era of Critical Minerals",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/metals-motion-sprott-outlines-era-182328914.html",
-      "published": "2026-07-15T18:23:28Z",
-      "source": "ETF Trends"
-    },
-    {
-      "title": "How to buy a house: The ultimate guide for first-time home buyers",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/first-time-home-buyer-195246478.html",
-      "published": "2024-01-26T22:46:06Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "With a Technology Shift, Margin Expansion Will Trigger Further Upside for UMC Stock",
-      "url": "https://finance.yahoo.com/technology/articles/technology-shift-margin-expansion-trigger-184401407.html",
-      "published": "2026-07-15T18:44:01Z",
+      "title": "Its Dividend Looks Secure, But Don\u2019t Chase JPM Stock After Q2 Earnings. Here\u2019s Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-looks-secure-don-t-205120386.html",
+      "published": "2026-07-15T20:51:20Z",
       "source": "Barchart"
     },
     {
-      "title": "Applied Optoelectronics Falls 12%, Coherent and Lumentum Slide as AI Optics Trade Cools",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-falls-12-coherent-181831720.html",
-      "published": "2026-07-15T18:18:31Z",
-      "source": "24/7 Wall St."
+      "title": "LCID Stock Alert: What to Know as Lucid Slams 'Completely False' Bankruptcy Rumors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lcid-stock-alert-know-lucid-210645867.html",
+      "published": "2026-07-15T21:06:45Z",
+      "source": "Barchart"
     },
     {
-      "title": "How to get a 3%-down mortgage",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/3-down-payment-mortgage-225443404.html",
-      "published": "2024-01-26T22:54:43Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Health Care Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/health-care-roundup-market-talk-7bc3c554?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-15T21:03:00Z",
+      "source": "The Wall Street Journal"
     },
     {
-      "title": "Uber nears \u20ac12.5bn deal to acquire Delivery Hero, FT reports",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/uber-nears-12-5bn-deal-184917897.html",
-      "published": "2026-07-15T18:49:17Z",
+      "title": "Nvidia Stock Nears Buy Point On These Positive Signs",
+      "url": "https://www.investors.com/news/technology/nvidia-stock-nears-buy-point-on-these-positive-signs/?src=A00220&yptr=yahoo",
+      "published": "2026-07-15T20:44:16Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "M&T Bank Corporation Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/m-t-bank-corporation-q2-204331226.html",
+      "published": "2026-07-15T20:43:31Z",
+      "source": "Moby"
+    },
+    {
+      "title": "BlackRock, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackrock-inc-q2-2026-earnings-204306789.html",
+      "published": "2026-07-15T20:43:06Z",
+      "source": "Moby"
+    },
+    {
+      "title": "What IBM\u2019s Weak Report Reveals About the Market",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ibm-weak-report-reveals-market-211203055.html",
+      "published": "2026-07-15T21:12:03Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Megacap Tech Lifts U.S. Stocks",
+      "url": "https://www.wsj.com/finance/stocks/megacap-tech-lifts-u-s-stocks-c654d871?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-15T20:59:00Z",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "title": "Citi Just Slashed Its Price Target on Microsoft Stock Ahead of Earnings. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/citi-just-slashed-price-target-211200243.html",
+      "published": "2026-07-15T21:12:00Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Cisco Took 25 Years to Make Investors Whole Again After Its Dot-Com Crash. Here's What That Means for Traders Buying NVIDIA Now.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-took-25-years-investors-203636211.html",
+      "published": "2026-07-15T20:36:36Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Stocks rise after soft US inflation reading with Middle East in focus",
+      "url": "https://finance.yahoo.com/news/asian-stocks-gain-drop-us-015011670.html",
+      "published": "2026-07-15T21:12:40Z",
       "source": "Reuters"
     },
     {
-      "title": "ASML Keeps Raising Its Sales Forecast. Here's What Comes Next for ASML Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/asml-keeps-raising-sales-forecast-185430607.html",
-      "published": "2026-07-15T18:54:30Z",
+      "title": "Broader Market Settles Higher as Positive Inflation News Outweighs Chip Rout",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/broader-market-settles-higher-positive-203341941.html",
+      "published": "2026-07-15T20:33:41Z",
       "source": "Barchart"
     },
     {
-      "title": "Nvidia Stock Could Still Soar 140% to Reach $500, Says Wall Street",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-could-still-soar-185832652.html",
-      "published": "2026-07-15T18:58:32Z",
-      "source": "Barchart"
+      "title": "Tech, Media & Telecom Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-c825ad1a?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-15T21:01:00Z",
+      "source": "The Wall Street Journal"
     },
     {
-      "title": "United Airlines Q2 preview: high-end beat expected, fuel a wild card",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/united-airlines-q2-preview-high-181900918.html",
-      "published": "2026-07-15T18:19:00Z",
-      "source": "Proactive"
+      "title": "ASML Stock Rises On Second-Quarter Beat, Raised Forecast",
+      "url": "https://www.investors.com/news/technology/asml-stock-q2-2026-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-07-15T20:33:55Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Corning Stock Signal Hints at Upside Potential Amid Breather",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/corning-stock-signal-hints-upside-190031333.html",
-      "published": "2026-07-15T19:00:31Z",
-      "source": "Schaeffer's Investment Research"
+      "title": "Stripe and Advent's bid for PayPal is not irresistible",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stripe-advents-bid-paypal-not-203143852.html",
+      "published": "2026-07-15T20:31:43Z",
+      "source": "Pitchbook"
     },
     {
-      "title": "If you want to become a millionaire, here are the 3 \u2018magic numbers\u2019 you need to focus on \u2014 ignore all the rest",
-      "url": "https://finance.yahoo.com/markets/articles/want-become-millionaire-3-magic-182900932.html",
-      "published": "2026-07-15T19:05:00Z",
-      "source": "Moneywise"
+      "title": "Stock Market Today: Nasdaq Rises Despite Tumble Among Chip Leaders; Apple Paces Mag 7 Rally",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-ppi-inflation-data-asml-stock/?src=A00220&yptr=yahoo",
+      "published": "2026-07-15T20:31:15Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Forecasts for Hot US Temps Boost Nat-Gas Prices",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/forecasts-hot-us-temps-boost-191325602.html",
-      "published": "2026-07-15T19:13:25Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "OECD says global minimum tax boosted revenue, not job losses",
-      "url": "https://finance.yahoo.com/economy/policy/articles/oecd-says-global-minimum-tax-185845969.html",
-      "published": "2026-07-15T19:14:37Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "A $900 SpaceX Stock Price Prediction? Here's What a $5,000 Investment Could Turn Into.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/900-spacex-stock-price-prediction-181800741.html",
-      "published": "2026-07-15T18:18:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Crude Oil Prices Move Higher on the Prospects of Tighter Global Supplies",
-      "url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-move-higher-191432071.html",
-      "published": "2026-07-15T19:14:32Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Limited-time offer: Earn up to $500 in travel credits with a Capital One business credit card",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/limited-time-offer-earn-up-to-500-in-travel-credits-with-a-capital-one-business-credit-card-191731905.html",
-      "published": "2026-07-15T19:17:31Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Anthropic IPO: What to know before you buy the stock",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/anthropic-ipo-what-to-know-before-you-buy-the-stock-170741665.html",
-      "published": "2026-06-16T17:07:41Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Dear SpaceX Stock Fans, Mark Your Calendars for July 16",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-spacex-stock-fans-mark-192255567.html",
-      "published": "2026-07-15T19:22:55Z",
-      "source": "Barchart"
+      "title": "Unusual Machines Stock Could Soar 125%, Analyst Says.",
+      "url": "https://www.investors.com/news/unusual-machines-analyst-coverage-125-stock-price-trump-jr-karman-redwire-drones-order-umac-stock-krmn-rdw-defense/?src=A00220&yptr=yahoo",
+      "published": "2026-07-15T20:29:12Z",
+      "source": "Investor's Business Daily"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.9767584724070812
     }
   },
-  "updated_at": "2026-07-17T06:29:44.623436+00:00",
+  "updated_at": "2026-07-17T08:34:38.085538+00:00",
   "source": "yahoo_finance"
 }
