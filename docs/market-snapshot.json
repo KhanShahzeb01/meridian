@@ -4,13 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7476.08,
-      "change": 18.390000000000327,
-      "change_pct": 0.24659110260684378,
+      "price": 7445.82,
+      "change": -11.86999999999989,
+      "change_pct": -0.15916456704421733,
       "series": [
-        7544.39990234375,
-        7554.169921875,
-        7552.85009765625,
         7538.10986328125,
         7534.16015625,
         7527.75,
@@ -38,23 +35,23 @@
         7475.2900390625,
         7466.83984375,
         7471.10986328125,
-        7475.9501953125,
-        7476.080078125
+        7470.5400390625,
+        7452.8701171875,
+        7452.14013671875,
+        7445.75,
+        7445.81982421875
       ],
-      "as_of": "2026-07-20 18:15 UTC",
+      "as_of": "2026-07-20 19:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 25670.81,
-      "change": 150.56600000000253,
-      "change_pct": 0.5899865220724478,
+      "price": 25519.2,
+      "change": -1.04399999999805,
+      "change_pct": -0.004090869977567808,
       "series": [
-        26014.068359375,
-        26046.79296875,
-        26046.533203125,
         25969.263671875,
         25946.025390625,
         25910.07421875,
@@ -82,23 +79,23 @@
         25659.228515625,
         25629.208984375,
         25638.56640625,
-        25672.953125,
-        25670.810546875
+        25635.654296875,
+        25568.369140625,
+        25565.759765625,
+        25519.19921875,
+        25519.19921875
       ],
-      "as_of": "2026-07-20 18:15 UTC",
+      "as_of": "2026-07-20 19:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 52003.19,
-      "change": -143.22999999999593,
-      "change_pct": -0.2746689034453294,
+      "price": 51858.01,
+      "change": -288.4099999999962,
+      "change_pct": -0.5530772774046544,
       "series": [
-        52612.2109375,
-        52713.48046875,
-        52634.37109375,
         52537.7890625,
         52492.76171875,
         52471.4296875,
@@ -126,23 +123,23 @@
         51979.16015625,
         51924.1484375,
         51969.609375,
-        52002.2109375,
-        52003.19140625
+        51969.69140625,
+        51851.23828125,
+        51857.828125,
+        51858.12890625,
+        51858.01171875
       ],
-      "as_of": "2026-07-20 18:15 UTC",
+      "as_of": "2026-07-20 19:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4011.6,
-      "change": -7.200000000000273,
-      "change_pct": -0.17915795759929015,
+      "price": 4012.7,
+      "change": -6.100000000000364,
+      "change_pct": -0.15178660296606858,
       "series": [
-        4027.5,
-        4027.800048828125,
-        4029.800048828125,
         4022.800048828125,
         4014.5,
         4012.300048828125,
@@ -170,23 +167,23 @@
         4013.89990234375,
         4016.10009765625,
         4009.199951171875,
-        4011.60009765625,
-        4011.60009765625
+        4011.0,
+        4012.10009765625,
+        4017.39990234375,
+        4012.699951171875,
+        4012.699951171875
       ],
-      "as_of": "2026-07-20 18:15 UTC",
+      "as_of": "2026-07-20 19:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.08,
-      "change": 0.29999999999999716,
-      "change_pct": 0.36683785766690774,
+      "price": 82.43,
+      "change": 0.6500000000000057,
+      "change_pct": 0.7948153582783146,
       "series": [
-        83.5199966430664,
-        83.63999938964844,
-        83.69000244140625,
         83.55000305175781,
         83.69000244140625,
         83.80999755859375,
@@ -214,24 +211,23 @@
         81.88999938964844,
         81.75,
         82.16000366210938,
-        81.9800033569336,
-        82.08000183105469
+        82.58999633789062,
+        82.86000061035156,
+        82.54000091552734,
+        82.43000030517578,
+        82.43000030517578
       ],
-      "as_of": "2026-07-20 18:15 UTC",
+      "as_of": "2026-07-20 19:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 18.03,
-      "change": -0.7399999999999984,
-      "change_pct": -3.9424613745338224,
+      "price": 18.32,
+      "change": -0.4499999999999993,
+      "change_pct": -2.3974427277570554,
       "series": [
-        18.049999237060547,
-        17.979999542236328,
-        17.739999771118164,
-        18.329999923706055,
         18.670000076293945,
         18.31999969482422,
         18.760000228881836,
@@ -259,9 +255,13 @@
         17.920000076293945,
         18.049999237060547,
         18.030000686645508,
-        18.030000686645508
+        17.8700008392334,
+        18.389999389648438,
+        18.479999542236328,
+        18.31999969482422,
+        18.31999969482422
       ],
-      "as_of": "2026-07-20 18:15 UTC",
+      "as_of": "2026-07-20 19:57 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,21 +273,21 @@
       "source": "TheStreet"
     },
     {
-      "title": "We put $50,000 in medical bills on our credit cards \u2014 now we can barely keep up with the monthly payments. What now?",
-      "url": "https://finance.yahoo.com/healthcare/articles/put-50-000-medical-bills-090000294.html",
-      "published": "2026-07-19T09:00:00Z",
+      "title": "Baby boomers didn't save enough for retirement \u2014 now their kids are paying the price. What\u2019s behind the crisis",
+      "url": "https://finance.yahoo.com/economy/articles/baby-boomers-didnt-save-enough-110000818.html",
+      "published": "2026-07-19T11:00:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "Aehr Test (AEHR) Rockets as Traders Buy Into Triple Revenue Growth Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/aehr-test-aehr-rockets-traders-084720168.html",
-      "published": "2026-07-19T08:47:20Z",
-      "source": "Insider Monkey"
+      "title": "Gen Z is breaking our biggest social taboo by sharing their salaries online \u2014 but 'loud budgeting' can cost everyone",
+      "url": "https://finance.yahoo.com/small-business/articles/gen-z-breaking-biggest-social-103000350.html",
+      "published": "2026-07-19T10:30:00Z",
+      "source": "Moneywise"
     },
     {
-      "title": "Florida doesn\u2019t even crack the top 5 in new list of most \u2018retirement-friendly\u2019 states \u2014 where the living is truly easy",
-      "url": "https://finance.yahoo.com/real-estate/articles/florida-doesn-t-even-crack-100000410.html",
-      "published": "2026-07-19T10:00:00Z",
+      "title": "AI recruitment startup Refer can help find you a job instead of stealing yours \u2014 but it will cost you",
+      "url": "https://finance.yahoo.com/small-business/articles/ai-recruitment-startup-refer-help-103000913.html",
+      "published": "2026-07-19T10:30:00Z",
       "source": "Moneywise"
     },
     {
@@ -309,21 +309,9 @@
       "source": "TheStreet"
     },
     {
-      "title": "Gen Z is breaking our biggest social taboo by sharing their salaries online \u2014 but 'loud budgeting' can cost everyone",
-      "url": "https://finance.yahoo.com/small-business/articles/gen-z-breaking-biggest-social-103000350.html",
-      "published": "2026-07-19T10:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "AI recruitment startup Refer can help find you a job instead of stealing yours \u2014 but it will cost you",
-      "url": "https://finance.yahoo.com/small-business/articles/ai-recruitment-startup-refer-help-103000913.html",
-      "published": "2026-07-19T10:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Baby boomers didn't save enough for retirement \u2014 now their kids are paying the price. What\u2019s behind the crisis",
-      "url": "https://finance.yahoo.com/economy/articles/baby-boomers-didnt-save-enough-110000818.html",
-      "published": "2026-07-19T11:00:00Z",
+      "title": "Florida doesn\u2019t even crack the top 5 in new list of most \u2018retirement-friendly\u2019 states \u2014 where the living is truly easy",
+      "url": "https://finance.yahoo.com/real-estate/articles/florida-doesn-t-even-crack-100000410.html",
+      "published": "2026-07-19T10:00:00Z",
       "source": "Moneywise"
     },
     {
@@ -333,33 +321,33 @@
       "source": "Moneywise"
     },
     {
-      "title": "Daily Spotlight: Three Signals from Dividend Growth",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47665_MarketOutlook_1784547115000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-20T11:31:55Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "The Portfolio That Lets You Ignore Inflation",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/portfolio-lets-ignore-inflation-091217938.html",
-      "published": "2026-07-19T09:12:17Z",
-      "source": "24/7 Wall St."
-    },
-    {
       "title": "REIT Bargains Still Exist If You Know Where to Look",
       "url": "https://finance.yahoo.com/real-estate/articles/reit-bargains-still-exist-know-120000276.html",
       "published": "2026-07-19T12:00:00Z",
       "source": "The Daily Upside"
     },
     {
-      "title": "Netflix's growth slowdown exposes a classic shareholder trap: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/netflixs-growth-slowdown-exposes-a-classic-shareholder-trap-chart-of-the-day-120918891.html",
-      "published": "2026-07-19T12:09:18Z",
-      "source": "Yahoo Finance"
-    },
-    {
       "title": "Can the Australian model rescue the US retirement system? Trump seems to think so.",
       "url": "https://finance.yahoo.com/economy/article/can-the-australian-model-rescue-the-us-retirement-system-trump-seems-to-think-so-120923475.html",
       "published": "2026-07-19T12:09:23Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Daily Spotlight: Three Signals from Dividend Growth",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47665_MarketOutlook_1784547115000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-20T11:31:55Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "5 Stocks Poised to Outperform With Their Best Growth Still Ahead",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-poised-outperform-best-104400880.html",
+      "published": "2026-07-19T10:44:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Netflix's growth slowdown exposes a classic shareholder trap: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/netflixs-growth-slowdown-exposes-a-classic-shareholder-trap-chart-of-the-day-120918891.html",
+      "published": "2026-07-19T12:09:18Z",
       "source": "Yahoo Finance"
     },
     {
@@ -369,15 +357,27 @@
       "source": "Moneywise"
     },
     {
+      "title": "We put $50,000 in medical bills on our credit cards \u2014 now we can barely keep up with the monthly payments. What now?",
+      "url": "https://finance.yahoo.com/healthcare/articles/put-50-000-medical-bills-090000294.html",
+      "published": "2026-07-19T09:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Aehr Test (AEHR) Rockets as Traders Buy Into Triple Revenue Growth Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aehr-test-aehr-rockets-traders-084720168.html",
+      "published": "2026-07-19T08:47:20Z",
+      "source": "Insider Monkey"
+    },
+    {
       "title": "Technical Assessment: Bullish in the Intermediate-Term",
       "url": "https://finance.yahoo.com/research/reports/ARGUS_47664_TechnicalAnalysis_1784547077000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
       "published": "2026-07-20T11:31:17Z",
       "source": "Argus Research"
     },
     {
-      "title": "If a Stock Market Crash Is Coming, History Says Investors Who Make This Simple Move Will Come Out Ahead",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-crash-coming-history-090800794.html",
-      "published": "2026-07-19T09:08:00Z",
+      "title": "IHE vs. BBH: Which Healthcare ETF Is the Better Buy Right Now?",
+      "url": "https://finance.yahoo.com/healthcare/articles/ihe-vs-bbh-healthcare-etf-104750130.html",
+      "published": "2026-07-19T10:47:50Z",
       "source": "Motley Fool"
     },
     {
@@ -411,99 +411,99 @@
       "source": "Argus Research"
     },
     {
-      "title": "Bill Ackman Runs a $14 Billion Fund on Just 11 Stocks. These Are His 3 Biggest Bets Right Now.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-runs-14-billion-090700935.html",
-      "published": "2026-07-19T09:07:00Z",
+      "title": "What to Know About ServiceTitan's CFO Sherry David Selling 2,276 Shares for $181,000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/know-servicetitans-cfo-sherry-david-104201582.html",
+      "published": "2026-07-19T10:42:01Z",
       "source": "Motley Fool"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 325.44,
+      "price": 326.91,
       "prev_close": 333.74,
-      "change_pct": -2.486965901600051
+      "change_pct": -2.0465032660154563
     },
     "MSFT": {
-      "price": 401.84,
+      "price": 402.54,
       "prev_close": 393.82,
-      "change_pct": 2.036463358894922
+      "change_pct": 2.214209537352097
     },
     "NVDA": {
-      "price": 204.815,
+      "price": 203.37,
       "prev_close": 202.81,
-      "change_pct": 0.9886100290912655
+      "change_pct": 0.27612050687836015
     },
     "GOOGL": {
-      "price": 352.875,
+      "price": 352.51,
       "prev_close": 346.77,
-      "change_pct": 1.760532918072503
+      "change_pct": 1.655275831242613
     },
     "AMZN": {
-      "price": 250.73,
+      "price": 250.07,
       "prev_close": 247.23,
-      "change_pct": 1.4156857986490312
+      "change_pct": 1.148727905189501
     },
     "META": {
-      "price": 648.795,
+      "price": 646.515,
       "prev_close": 646.01,
-      "change_pct": 0.43110787758702934
+      "change_pct": 0.07817216451757643
     },
     "TSLA": {
-      "price": 374.03,
+      "price": 370.03,
       "prev_close": 380.84,
-      "change_pct": -1.7881525049889724
+      "change_pct": -2.8384623463921863
     },
     "JPM": {
-      "price": 339.35,
+      "price": 338.37,
       "prev_close": 341.1,
-      "change_pct": -0.513046027557901
+      "change_pct": -0.8003518029903307
     },
     "V": {
-      "price": 362.27,
+      "price": 361.13,
       "prev_close": 358.56,
-      "change_pct": 1.0346943328870983
+      "change_pct": 0.7167559125390432
     },
     "XOM": {
-      "price": 148.62,
+      "price": 148.61,
       "prev_close": 147.36,
-      "change_pct": 0.8550488599348472
+      "change_pct": 0.8482627578718782
     },
     "SPY": {
-      "price": 745.03,
+      "price": 742.11,
       "prev_close": 743.29,
-      "change_pct": 0.23409436424545052
+      "change_pct": -0.15875364931587269
     },
     "QQQ": {
-      "price": 701.01,
+      "price": 696.03,
       "prev_close": 695.33,
-      "change_pct": 0.8168783167704471
+      "change_pct": 0.10067162354564477
     },
     "AMD": {
-      "price": 515.74,
+      "price": 503.19,
       "prev_close": 495.76,
-      "change_pct": 4.030175891560436
+      "change_pct": 1.4987090527674696
     },
     "NFLX": {
-      "price": 67.42,
+      "price": 67.665,
       "prev_close": 68.95,
-      "change_pct": -2.2189992748368397
+      "change_pct": -1.8636693255982546
     },
     "COIN": {
-      "price": 164.235,
+      "price": 160.38,
       "prev_close": 157.12,
-      "change_pct": 4.528385947046849
+      "change_pct": 2.074847250509159
     },
     "PLTR": {
-      "price": 136.125,
+      "price": 135.2,
       "prev_close": 132.38,
-      "change_pct": 2.82897718688624
+      "change_pct": 2.130231152742101
     },
     "BRK-B": {
-      "price": 491.365,
+      "price": 491.33,
       "prev_close": 490.91,
-      "change_pct": 0.09268501354626796
+      "change_pct": 0.08555539711962662
     }
   },
-  "updated_at": "2026-07-20T18:15:02.844890+00:00",
+  "updated_at": "2026-07-20T19:57:02.230451+00:00",
   "source": "yahoo_finance"
 }
