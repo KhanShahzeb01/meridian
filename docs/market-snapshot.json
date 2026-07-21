@@ -41,7 +41,7 @@
         7444.72998046875,
         7443.27978515625
       ],
-      "as_of": "2026-07-21 03:39 UTC",
+      "as_of": "2026-07-21 06:15 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25510.265625,
         25508.072265625
       ],
-      "as_of": "2026-07-21 03:39 UTC",
+      "as_of": "2026-07-21 06:15 UTC",
       "source": "yahoo"
     },
     {
@@ -129,22 +129,17 @@
         51851.7109375,
         51839.26171875
       ],
-      "as_of": "2026-07-21 03:39 UTC",
+      "as_of": "2026-07-21 06:15 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4052.6,
-      "change": 36.69999999999982,
-      "change_pct": 0.9138673771757219,
+      "price": 4070.4,
+      "change": 54.5,
+      "change_pct": 1.3571055056151797,
       "series": [
-        4026.5,
-        4030.5,
-        4017.0,
-        4012.0,
-        4012.39990234375,
         4009.5,
         4010.60009765625,
         4010.5,
@@ -170,25 +165,25 @@
         4027.60009765625,
         4033.10009765625,
         4042.699951171875,
-        4052.0,
-        4052.60009765625
+        4044.0,
+        4049.5,
+        4054.300048828125,
+        4058.89990234375,
+        4066.0,
+        4069.60009765625,
+        4070.39990234375
       ],
-      "as_of": "2026-07-21 03:39 UTC",
+      "as_of": "2026-07-21 06:15 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.28,
-      "change": -0.20000000000000284,
-      "change_pct": -0.24248302618817028,
+      "price": 82.08,
+      "change": -0.4000000000000057,
+      "change_pct": -0.48496605237634055,
       "series": [
-        81.61000061035156,
-        80.27999877929688,
-        81.83999633789062,
-        81.87000274658203,
-        81.33999633789062,
         81.70999908447266,
         81.5199966430664,
         82.0,
@@ -214,10 +209,15 @@
         82.41000366210938,
         82.36000061035156,
         82.1500015258789,
-        82.2699966430664,
-        82.27999877929688
+        82.37000274658203,
+        82.13999938964844,
+        82.13999938964844,
+        82.33000183105469,
+        82.05000305175781,
+        82.05999755859375,
+        82.08000183105469
       ],
-      "as_of": "2026-07-21 03:39 UTC",
+      "as_of": "2026-07-21 06:15 UTC",
       "source": "yahoo"
     },
     {
@@ -261,28 +261,22 @@
         18.649999618530273,
         18.649999618530273
       ],
-      "as_of": "2026-07-21 03:39 UTC",
+      "as_of": "2026-07-21 06:15 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Major car dealer cuts 40% of its locations, issues serious warning",
-      "url": "https://finance.yahoo.com/small-business/articles/major-car-dealer-cuts-40-014700349.html",
-      "published": "2026-07-19T16:54:17Z",
+      "title": "Jim Cramer says it may be time to trim comeback stock after 441% surge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-may-time-181700105.html",
+      "published": "2026-07-20T18:17:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "AI Bubble Fears, Earnings and Other Can't Miss Items this Week",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-bubble-fears-earnings-other-170002624.html",
-      "published": "2026-07-19T17:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "3 Numbers That Will Matter Most in IBM\u2019s Upcoming Q2 Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-numbers-matter-most-ibm-173002550.html",
-      "published": "2026-07-19T17:30:02Z",
-      "source": "Barchart"
+      "title": "Jensen Huang's staggering $4 trillion bet shifts Nvidia",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huangs-staggering-4-trillion-210300335.html",
+      "published": "2026-07-20T21:03:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "What Are Mineral Rights? The Complete Guide to Owning, Leasing and Selling Them",
@@ -297,12 +291,6 @@
       "source": "Barchart"
     },
     {
-      "title": "Amazon closes another major facility, nearly 500 workers affected",
-      "url": "https://finance.yahoo.com/small-business/articles/amazon-closes-another-major-facility-214700424.html",
-      "published": "2026-07-19T21:47:00Z",
-      "source": "TheStreet"
-    },
-    {
       "title": "Europe Was Supposed to Run Out of Jet Fuel by June. It Didn\u2019t",
       "url": "https://finance.yahoo.com/energy/articles/europe-supposed-run-jet-fuel-210000258.html",
       "published": "2026-07-19T21:00:00Z",
@@ -315,14 +303,26 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Jensen Huang's staggering $4 trillion bet shifts Nvidia",
-      "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huangs-staggering-4-trillion-210300335.html",
-      "published": "2026-07-20T21:03:00Z",
+      "title": "Amazon closes another major facility, nearly 500 workers affected",
+      "url": "https://finance.yahoo.com/small-business/articles/amazon-closes-another-major-facility-214700424.html",
+      "published": "2026-07-19T21:47:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "HELOC and home equity loan rates today, Monday, July 20, 2026: Rates are incredibly close",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-july-20-2026-rates-are-incredibly-close-100000883.html",
+      "title": "Trump Media (DJT) Climbs on Paid Early-Access to Market-Moving Posts",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-media-djt-climbs-paid-224604918.html",
+      "published": "2026-07-19T22:46:04Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "The Cattle Conundrum",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/cattle-conundrum-235846144.html",
+      "published": "2026-07-19T23:58:46Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Best high-yield savings interest rates today, Monday, July 20, 2026: Earn up to 4.10% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-july-20-2026-earn-up-to-410-apy-100000162.html",
       "published": "2026-07-20T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
@@ -333,8 +333,14 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Best high-yield savings interest rates today, Monday, July 20, 2026: Earn up to 4.10% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-july-20-2026-earn-up-to-410-apy-100000162.html",
+      "title": "Netflix quietly reveals what AI did to 300 of its programs",
+      "url": "https://finance.yahoo.com/technology/ai/articles/netflix-quietly-reveals-ai-did-183300497.html",
+      "published": "2026-07-20T18:33:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "HELOC and home equity loan rates today, Monday, July 20, 2026: Rates are incredibly close",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-july-20-2026-rates-are-incredibly-close-100000883.html",
       "published": "2026-07-20T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
@@ -343,12 +349,6 @@
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-20-2026-lock-in-up-to-420-apy-100000197.html",
       "published": "2026-07-20T10:00:00Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Netflix quietly reveals what AI did to 300 of its programs",
-      "url": "https://finance.yahoo.com/technology/ai/articles/netflix-quietly-reveals-ai-did-183300497.html",
-      "published": "2026-07-20T18:33:00Z",
-      "source": "TheStreet"
     },
     {
       "title": "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
@@ -363,6 +363,12 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "Domino's value deals reveal shift in pizza lovers behavior",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dominos-value-deals-reveal-shift-191300450.html",
+      "published": "2026-07-20T19:13:00Z",
+      "source": "TheStreet"
+    },
+    {
       "title": "Gold prices today, Monday, July 20, 2026: Gold holds above $4,000 despite continued violence in the Middle East",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-july-20-2026-gold-holds-above-4000-despite-continued-violence-in-the-middle-east-152926843.html",
       "published": "2026-07-20T15:29:26Z",
@@ -373,12 +379,6 @@
       "url": "https://finance.yahoo.com/personal-finance/insurance/article/car-insurance-tariffs-210219697.html",
       "published": "2025-04-11T21:02:19Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "I Can\u2019t Stop Buying Alphabet Because The AI Talent Narrative is Wrong",
-      "url": "https://finance.yahoo.com/technology/ai/articles/t-stop-buying-alphabet-because-161210758.html",
-      "published": "2026-07-19T16:12:10Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "How to file a renters insurance claim \u2014 and what to do if a claim is denied",
@@ -399,22 +399,22 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "Taiwan Semiconductor Manufacturing Just Showed the Artificial Intelligence (AI) Build-Out Is Alive and Well With This Jaw-Dropping Announcement",
+      "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-just-showed-183000953.html",
+      "published": "2026-07-19T18:30:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Weekly survey of mortgage lenders with the lowest rates: Interest rates dip lower",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-july-20-170834159.html",
       "published": "2025-11-03T17:08:34Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "AI Is Keeping DRAM Prices High \u2014 Here\u2019s Exactly When the Market Finally Loosens Up",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-keeping-dram-prices-high-130031963.html",
-      "published": "2026-07-19T16:06:29Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Rocket Lab's Latest Deal Puts It on a Collision Course With SpaceX",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-labs-latest-deal-puts-162000325.html",
-      "published": "2026-07-19T16:20:00Z",
-      "source": "Motley Fool"
+      "title": "When to buy travel insurance (and when it's too late)",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/when-to-buy-travel-insurance-193412516.html",
+      "published": "2026-07-20T19:34:12Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.06925913100160416
     }
   },
-  "updated_at": "2026-07-21T03:39:35.914420+00:00",
+  "updated_at": "2026-07-21T06:15:26.373609+00:00",
   "source": "yahoo_finance"
 }
