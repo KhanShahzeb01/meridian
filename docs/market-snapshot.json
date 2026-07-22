@@ -4,9 +4,9 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7505.81,
-      "change": -3.389999999999418,
-      "change_pct": -0.045144622596274143,
+      "price": 7498.96,
+      "change": -10.239999999999782,
+      "change_pct": -0.13636605763596366,
       "series": [
         7471.10986328125,
         7470.5400390625,
@@ -38,19 +38,19 @@
         7510.25,
         7509.72998046875,
         7504.83984375,
-        7504.14013671875,
-        7505.81005859375
+        7499.43994140625,
+        7498.9599609375
       ],
-      "as_of": "2026-07-22 19:58 UTC",
+      "as_of": "2026-07-22 21:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 25713.607,
-      "change": -123.59999999999854,
-      "change_pct": -0.47837988061170295,
+      "price": 25690.902,
+      "change": -146.3050000000003,
+      "change_pct": -0.5662570261561177,
       "series": [
         25638.56640625,
         25635.654296875,
@@ -82,66 +82,64 @@
         25750.791015625,
         25756.7109375,
         25751.31640625,
-        25706.744140625,
-        25713.607421875
+        25694.271484375,
+        25690.90234375
       ],
-      "as_of": "2026-07-22 19:58 UTC",
+      "as_of": "2026-07-22 21:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 521.94,
-      "change": 0.43000000000006366,
-      "change_pct": 0.0824528772219255,
+      "price": 52218.58,
+      "change": -6.059999999997672,
+      "change_pct": -0.011603718091685594,
       "series": [
-        518.97998046875,
-        519.0,
-        517.8499755859375,
-        517.9400024414062,
-        517.9099731445312,
-        519.4099731445312,
-        521.1199951171875,
-        520.364990234375,
-        521.280029296875,
-        521.3900146484375,
-        522.5800170898438,
-        522.7949829101562,
-        522.0900268554688,
-        521.8499755859375,
-        521.5800170898438,
-        521.4000244140625,
-        521.6900024414062,
-        521.530029296875,
-        523.6400146484375,
-        522.3925170898438,
-        522.1300048828125,
-        522.9400024414062,
-        523.3499755859375,
-        523.5399780273438,
-        523.2899780273438,
-        522.2150268554688,
-        522.4199829101562,
-        522.3599853515625,
-        522.22998046875,
-        521.594970703125,
-        521.8900146484375,
-        521.9400024414062
+        51969.609375,
+        51969.69140625,
+        51851.23828125,
+        51857.828125,
+        51851.7109375,
+        52014.55078125,
+        52180.76171875,
+        52106.37109375,
+        52190.51171875,
+        52205.1796875,
+        52324.0390625,
+        52346.6796875,
+        52277.390625,
+        52250.25,
+        52225.7890625,
+        52210.578125,
+        52236.44140625,
+        52221.37890625,
+        52435.30078125,
+        52317.7109375,
+        52285.6484375,
+        52363.48828125,
+        52403.328125,
+        52428.01953125,
+        52399.33984375,
+        52289.21875,
+        52312.078125,
+        52305.76171875,
+        52289.16015625,
+        52227.03125,
+        52226.16015625,
+        52218.578125
       ],
-      "as_of": "2026-07-22 19:58 UTC",
+      "as_of": "2026-07-22 21:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4139.3,
-      "change": 62.90000000000009,
-      "change_pct": 1.5430281621038193,
+      "price": 4135.0,
+      "change": 58.59999999999991,
+      "change_pct": 1.4375429300363043,
       "series": [
-        4131.7998046875,
-        4128.2998046875,
         4135.5,
         4121.7001953125,
         4121.0,
@@ -170,22 +168,22 @@
         4140.39990234375,
         4141.7998046875,
         4140.0,
-        4140.0,
-        4139.2998046875
+        4136.39990234375,
+        4141.7001953125,
+        4134.10009765625,
+        4135.0
       ],
-      "as_of": "2026-07-22 19:58 UTC",
+      "as_of": "2026-07-22 21:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 86.55,
-      "change": 2.2099999999999937,
-      "change_pct": 2.620346217690294,
+      "price": 86.42,
+      "change": 2.0799999999999983,
+      "change_pct": 2.466208204884987,
       "series": [
-        85.43000030517578,
-        85.37999725341797,
         85.13999938964844,
         86.02999877929688,
         86.12999725341797,
@@ -214,21 +212,22 @@
         86.8499984741211,
         87.05999755859375,
         86.87999725341797,
-        86.5199966430664,
-        86.55000305175781
+        86.51000213623047,
+        86.4000015258789,
+        86.41999816894531,
+        86.41999816894531
       ],
-      "as_of": "2026-07-22 19:58 UTC",
+      "as_of": "2026-07-22 21:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.89,
-      "change": -0.16000000000000014,
-      "change_pct": -0.9384164222873909,
+      "price": 16.64,
+      "change": -0.41000000000000014,
+      "change_pct": -2.404692082111438,
       "series": [
-        17.100000381469727,
         17.0,
         17.0,
         16.90999984741211,
@@ -258,10 +257,11 @@
         16.93000030517578,
         16.850000381469727,
         16.8700008392334,
-        16.920000076293945,
-        16.889999389648438
+        16.850000381469727,
+        16.700000762939453,
+        16.639999389648438
       ],
-      "as_of": "2026-07-22 19:58 UTC",
+      "as_of": "2026-07-22 21:04 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,27 +273,27 @@
       "source": "TheStreet"
     },
     {
-      "title": "What to Expect From ConocoPhillips' Q2 2026 Earnings Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-conocophillips-q2-2026-earnings-105306609.html",
-      "published": "2026-07-21T10:53:06Z",
+      "title": "Stock Market Today: Sandisk, Micron, AMD Jump As AI Rebounds; GM, 3M Lead Earnings Movers",
+      "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-nasdaq-sandisk-micron-amd-jump-ai-rebounds-gm-3m-lead-earnings-movers/?src=A00220&yptr=yahoo",
+      "published": "2026-07-21T12:17:16Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Soybeans Showing Early Weakness on Tuesday, as Crop Ratings Tick Higher",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-showing-early-weakness-tuesday-121652207.html",
+      "published": "2026-07-21T12:16:52Z",
       "source": "Barchart"
     },
     {
-      "title": "CRWD Short Strangle Could Net $1,045 in a Few Weeks",
-      "url": "https://finance.yahoo.com/markets/options/articles/crwd-short-strangle-could-net-110002744.html",
-      "published": "2026-07-21T11:00:02Z",
+      "title": "What to Expect From Alliant Energy's Next Quarterly Earnings Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-alliant-energys-next-quarterly-121544840.html",
+      "published": "2026-07-21T12:15:44Z",
       "source": "Barchart"
     },
     {
-      "title": "Macro Tailwinds Power a Strong First Half for Midstream",
-      "url": "https://finance.yahoo.com/energy/articles/macro-tailwinds-power-strong-first-110045568.html",
-      "published": "2026-07-21T11:00:45Z",
-      "source": "ETF Trends"
-    },
-    {
-      "title": "What You Need To Know Ahead of The Trade Desk\u2019s Earnings Release",
-      "url": "https://finance.yahoo.com/media-advertising/articles/know-ahead-trade-desk-earnings-104412749.html",
-      "published": "2026-07-21T10:44:12Z",
+      "title": "Motorola Solutions Earnings Preview: What to Expect",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/motorola-solutions-earnings-preview-expect-124158098.html",
+      "published": "2026-07-21T12:41:58Z",
       "source": "Barchart"
     },
     {
@@ -303,34 +303,34 @@
       "source": "Argus Research"
     },
     {
-      "title": "Novartis climbs on upbeat drug sales as key readouts loom",
-      "url": "https://finance.yahoo.com/healthcare/articles/novartis-climbs-upbeat-drug-sales-105300610.html",
-      "published": "2026-07-21T10:53:00Z",
-      "source": "BioPharma Dive"
+      "title": "Nasdaq leads Wall Street higher with Tesla, Alphabet earnings on deck",
+      "url": "https://finance.yahoo.com/economy/policy/articles/wall-street-eyes-higher-open-123300674.html",
+      "published": "2026-07-21T12:33:00Z",
+      "source": "Proactive"
     },
     {
-      "title": "Northrop Grumman raises 2026 forecasts on strong weapons demand",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/northrop-grumman-raises-2026-forecasts-104852088.html",
-      "published": "2026-07-21T10:48:52Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "What to Expect From Kenvue\u2019s Q2 2026 Earnings Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-kenvue-q2-2026-earnings-104502396.html",
-      "published": "2026-07-21T10:45:02Z",
+      "title": "What to Expect From Microchip Technology's Next Quarterly Earnings Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-microchip-technologys-next-quarterly-121335231.html",
+      "published": "2026-07-21T12:13:35Z",
       "source": "Barchart"
     },
     {
-      "title": "U.S. auto industry races to purge Chinese connected-car hardware amid federal push",
-      "url": "https://finance.yahoo.com/technology/articles/u-auto-industry-races-purge-110403742.html",
-      "published": "2026-07-21T11:04:03Z",
-      "source": "Reuters"
+      "title": "Why GM's memory chip guidance could help stabilize stocks like Micron and Sandisk",
+      "url": "https://finance.yahoo.com/markets/stocks/article/why-gms-memory-chip-guidance-could-help-stabilize-stocks-like-micron-and-sandisk-120313927.html",
+      "published": "2026-07-21T12:03:13Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Here's What to Expect From Gen Digital\u2019s Next Earnings Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-expect-gen-digital-next-110636822.html",
-      "published": "2026-07-21T11:06:36Z",
-      "source": "Barchart"
+      "title": "If You Invested $2K in the SpaceX IPO, How Much Do You Have Now?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/invested-2k-spacex-ipo-much-120000836.html",
+      "published": "2026-07-21T12:00:00Z",
+      "source": "SmartAsset"
+    },
+    {
+      "title": "T. Rowe Research Charts a Disciplined Path for Crypto",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/t-rowe-research-charts-disciplined-120016888.html",
+      "published": "2026-07-21T12:00:16Z",
+      "source": "ETF Trends"
     },
     {
       "title": "Analyst Report: General Motors Co",
@@ -339,34 +339,34 @@
       "source": "Argus Research"
     },
     {
-      "title": "Korea\u2019s Biggest XRP Market Is Cooling Just as Leverage Climbs Elsewhere",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/korea-biggest-xrp-market-cooling-105230878.html",
-      "published": "2026-07-21T10:52:30Z",
-      "source": "BeInCrypto"
+      "title": "3 Reasons You Might Pay More for Medicare Than Expected",
+      "url": "https://finance.yahoo.com/healthcare/articles/3-reasons-might-pay-more-122200468.html",
+      "published": "2026-07-21T12:22:00Z",
+      "source": "Motley Fool"
     },
     {
-      "title": "Evergy\u2019s Q2 2026 Earnings: What to Expect",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/evergy-q2-2026-earnings-expect-111136566.html",
-      "published": "2026-07-21T11:11:36Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Is AMC Entertainment\u2019s (AMC) Record Revenue Proof That the Theater Recovery Is Finally Real?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amc-entertainment-amc-record-revenue-111110279.html",
-      "published": "2026-07-21T11:11:10Z",
+      "title": "Ryan Cohen Says He\u2019s Coming for eBay \u201cOne Way or Another.\u201d What GameStop (GME) Shareholders Need to Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ryan-cohen-says-coming-ebay-115703348.html",
+      "published": "2026-07-21T11:57:03Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Alphabet Earnings an Ideal Time to Get Acquainted With These ETFs",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-earnings-ideal-time-acquainted-111548818.html",
-      "published": "2026-07-21T11:15:48Z",
-      "source": "ETF Trends"
+      "title": "Ardian alumni's Clipway breaks debut secondaries record at $6.4B",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ardian-alumnis-clipway-breaks-debut-124534032.html",
+      "published": "2026-07-21T12:45:34Z",
+      "source": "Pitchbook"
     },
     {
-      "title": "What to Expect From Block\u2019s Q2 2026 Earnings Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-block-q2-2026-earnings-111611694.html",
-      "published": "2026-07-21T11:16:11Z",
+      "title": "Warner Bros. Discovery's Q2 2026 Earnings: What to Expect",
+      "url": "https://finance.yahoo.com/media-advertising/articles/warner-bros-discoverys-q2-2026-125250832.html",
+      "published": "2026-07-21T12:52:50Z",
       "source": "Barchart"
+    },
+    {
+      "title": "Best CD rates today, Tuesday, July 21, 2026: Lock in up to 4.20% APY today",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-july-21-2026-lock-in-up-to-420-apy-today-100000330.html",
+      "published": "2026-07-21T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "Daily Spotlight: Gold Prices Down from the Clouds",
@@ -375,34 +375,34 @@
       "source": "Argus Research"
     },
     {
-      "title": "Novartis returns to sales growth in Q2 as newer medicines offset generic pressure (NVS)",
-      "url": "https://finance.yahoo.com/healthcare/articles/novartis-returns-sales-growth-q2-105353445.html",
-      "published": "2026-07-21T10:53:53Z",
-      "source": "InvestorsHub"
+      "title": "Costco Is a Compelling Investment Opportunity, but This Stock Could Be an Even Better Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-compelling-investment-opportunity-stock-122500294.html",
+      "published": "2026-07-21T12:25:00Z",
+      "source": "Motley Fool"
     },
     {
-      "title": "$170,660 Invested In This Stock In January Is Now Worth $1 Million",
-      "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-just-investing-in-this-stock-in-january-made-you-a-million/?src=A00220&yptr=yahoo",
-      "published": "2026-07-21T11:13:06Z",
-      "source": "Investor's Business Daily"
+      "title": "Mortgage and refinance interest rates today, Tuesday, July 21, 2026: Inching lower",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-july-21-2026-inching-lower-100000388.html",
+      "published": "2026-07-21T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Aflac Earnings Preview: What to Expect",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/aflac-earnings-preview-expect-112248892.html",
-      "published": "2026-07-21T11:22:48Z",
-      "source": "Barchart"
+      "title": "Will the housing market crash in 2026? What the numbers say",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-what-the-numbers-say-170038540.html",
+      "published": "2024-07-05T17:00:38Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "BlackRock-backed group commits $5 billion for Aligned Data Centers after completing acquisition",
-      "url": "https://finance.yahoo.com/technology/articles/blackrock-backed-group-commits-5-104139954.html",
-      "published": "2026-07-21T10:41:39Z",
-      "source": "Reuters"
+      "title": "Bitcoin and ethereum prices today, Tuesday, July 21, 2026: Crypto prices rise as investors' risk appetite returns",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-july-21-2026-crypto-prices-rise-as-investors-risk-appetite-returns-152323748.html",
+      "published": "2026-07-21T15:23:23Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Monster Beverage Earnings Preview: What to Expect",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/monster-beverage-earnings-preview-expect-104041739.html",
-      "published": "2026-07-21T10:40:41Z",
-      "source": "Barchart"
+      "title": "Silver prices today, Tuesday, July 21, 2026: Silver ticks up near $60 in early trading",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-tuesday-july-21-2026-silver-ticks-up-near-60-in-early-trading-153300173.html",
+      "published": "2026-07-21T15:33:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "Technical Assessment: Bullish in the Intermediate-Term",
@@ -411,99 +411,99 @@
       "source": "Argus Research"
     },
     {
-      "title": "Honda extends JV agreement with GAC Group to 2038",
-      "url": "https://finance.yahoo.com/technology/articles/honda-extends-jv-agreement-gac-105233065.html",
-      "published": "2026-07-21T10:52:33Z",
-      "source": "Just Auto"
+      "title": "Analyzing the Financial Benefits of In-House Beverage Programs",
+      "url": "https://finance.yahoo.com/small-business/articles/analyzing-financial-benefits-house-beverage-123225986.html",
+      "published": "2026-07-21T12:32:25Z",
+      "source": "FSR"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 326.355,
+      "price": 325.89,
       "prev_close": 327.74,
-      "change_pct": -0.42259107829376663
+      "change_pct": -0.5644718374321177
     },
     "MSFT": {
-      "price": 390.71,
+      "price": 390.34,
       "prev_close": 397.75,
-      "change_pct": -1.7699560025141472
+      "change_pct": -1.862979258328102
     },
     "NVDA": {
-      "price": 212.41,
+      "price": 212.06,
       "prev_close": 207.29,
-      "change_pct": 2.4699696077958437
+      "change_pct": 2.301124029137928
     },
     "GOOGL": {
-      "price": 342.25,
+      "price": 342.09,
       "prev_close": 347.15,
-      "change_pct": -1.4114935906668522
+      "change_pct": -1.4575831773008794
     },
     "AMZN": {
-      "price": 244.88,
+      "price": 244.85,
       "prev_close": 247.55,
-      "change_pct": -1.0785699858614484
+      "change_pct": -1.0906887497475326
     },
     "META": {
-      "price": 628.16,
+      "price": 627.17,
       "prev_close": 643.81,
-      "change_pct": -2.4308413973066556
+      "change_pct": -2.584613472919027
     },
     "TSLA": {
-      "price": 374.1,
+      "price": 374.01,
       "prev_close": 378.93,
-      "change_pct": -1.2746417544137398
+      "change_pct": -1.2983928430053087
     },
     "JPM": {
-      "price": 348.78,
+      "price": 348.21,
       "prev_close": 345.23,
-      "change_pct": 1.02829997393041
+      "change_pct": 0.8631926541725694
     },
     "V": {
-      "price": 353.3,
+      "price": 353.42,
       "prev_close": 355.82,
-      "change_pct": -0.7082232589511499
+      "change_pct": -0.6744983418582365
     },
     "XOM": {
-      "price": 154.405,
+      "price": 154.45,
       "prev_close": 151.71,
-      "change_pct": 1.7764155296288928
+      "change_pct": 1.8060773844835412
     },
     "SPY": {
-      "price": 748.14,
+      "price": 747.41,
       "prev_close": 748.28,
-      "change_pct": -0.018709573956271233
+      "change_pct": -0.11626663815684028
     },
     "QQQ": {
-      "price": 706.095,
+      "price": 705.35,
       "prev_close": 708.97,
-      "change_pct": -0.4055178639434672
+      "change_pct": -0.5105998843392533
     },
     "AMD": {
-      "price": 552.51,
+      "price": 552.33,
       "prev_close": 544.43,
-      "change_pct": 1.4841210072920379
+      "change_pct": 1.4510589056444523
     },
     "NFLX": {
-      "price": 68.61,
+      "price": 68.53,
       "prev_close": 68.67,
-      "change_pct": -0.08737439930100811
+      "change_pct": -0.20387359836901206
     },
     "COIN": {
-      "price": 166.15,
+      "price": 166.12,
       "prev_close": 175.85,
-      "change_pct": -5.516064827978385
+      "change_pct": -5.533124822291721
     },
     "PLTR": {
-      "price": 124.69,
+      "price": 124.57,
       "prev_close": 132.66,
-      "change_pct": -6.007839589929141
+      "change_pct": -6.098296396803862
     },
     "BRK-B": {
-      "price": 489.2,
+      "price": 489.39,
       "prev_close": 489.65,
-      "change_pct": -0.09190237925048272
+      "change_pct": -0.053099152455833944
     }
   },
-  "updated_at": "2026-07-22T19:58:43.813149+00:00",
+  "updated_at": "2026-07-22T21:04:26.106333+00:00",
   "source": "yahoo_finance"
 }
