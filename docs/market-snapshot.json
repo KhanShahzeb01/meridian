@@ -41,7 +41,7 @@
         7408.18017578125,
         7408.2998046875
       ],
-      "as_of": "2026-07-24 08:42 UTC",
+      "as_of": "2026-07-24 10:48 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25138.5703125,
         25137.693359375
       ],
-      "as_of": "2026-07-24 08:42 UTC",
+      "as_of": "2026-07-24 10:48 UTC",
       "source": "yahoo"
     },
     {
@@ -129,21 +129,17 @@
         51702.23046875,
         51711.6484375
       ],
-      "as_of": "2026-07-24 08:42 UTC",
+      "as_of": "2026-07-24 10:48 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4053.4,
-      "change": 3.200000000000273,
-      "change_pct": 0.07900844402746217,
+      "price": 4063.8,
+      "change": 13.600000000000364,
+      "change_pct": 0.3357858871166946,
       "series": [
-        4054.300048828125,
-        4049.699951171875,
-        4043.89990234375,
-        4047.199951171875,
         4048.800048828125,
         4050.10009765625,
         4052.10009765625,
@@ -170,24 +166,24 @@
         4051.10009765625,
         4051.10009765625,
         4054.89990234375,
-        4053.39990234375,
-        4053.39990234375
+        4060.0,
+        4055.60009765625,
+        4062.60009765625,
+        4064.5,
+        4063.699951171875,
+        4063.800048828125
       ],
-      "as_of": "2026-07-24 08:42 UTC",
+      "as_of": "2026-07-24 10:48 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 90.1,
-      "change": -2.0900000000000034,
-      "change_pct": -2.2670571645514737,
+      "price": 89.95,
+      "change": -2.239999999999995,
+      "change_pct": -2.429764616552766,
       "series": [
-        92.33000183105469,
-        92.58000183105469,
-        93.2300033569336,
-        92.08999633789062,
         92.02999877929688,
         91.63999938964844,
         91.61000061035156,
@@ -214,25 +210,24 @@
         90.30999755859375,
         90.44999694824219,
         90.08000183105469,
-        90.06999969482422,
-        90.0999984741211
+        89.5999984741211,
+        89.06999969482422,
+        89.01000213623047,
+        89.63999938964844,
+        89.9800033569336,
+        89.94999694824219
       ],
-      "as_of": "2026-07-24 08:42 UTC",
+      "as_of": "2026-07-24 10:48 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 18.91,
-      "change": 0.21000000000000085,
-      "change_pct": 1.1229946524064216,
+      "price": 18.79,
+      "change": 0.08999999999999986,
+      "change_pct": 0.4812834224598923,
       "series": [
-        16.700000762939453,
-        17.59000015258789,
-        17.790000915527344,
-        17.559999465942383,
-        17.43000030517578,
         17.610000610351562,
         17.690000534057617,
         17.709999084472656,
@@ -258,10 +253,15 @@
         18.700000762939453,
         18.770000457763672,
         18.889999389648438,
-        18.90999984741211,
-        18.90999984741211
+        18.829999923706055,
+        18.81999969482422,
+        18.649999618530273,
+        18.610000610351562,
+        18.81999969482422,
+        18.809999465942383,
+        18.790000915527344
       ],
-      "as_of": "2026-07-24 08:42 UTC",
+      "as_of": "2026-07-24 10:48 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,136 +273,64 @@
       "source": "TheStreet"
     },
     {
-      "title": "S&P 500 Stock Chugs Past Buy Point; CSX Rises Late On Earnings",
-      "url": "https://www.investors.com/news/sp-500-wabtec-earnings-q2-csx/?src=A00220&yptr=yahoo",
-      "published": "2026-07-22T21:09:18Z",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq slip as oil prices rise, Alphabet and Tesla earnings in focus",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-22-dow-sp-500-nasdaq-alphabet-tesla-earnings-083644887.html",
+      "published": "2026-07-22T08:36:44Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "New Pipelines Set To Ease Permian Natural Gas Glut",
+      "url": "https://finance.yahoo.com/energy/articles/pipelines-set-ease-permian-natural-230000827.html",
+      "published": "2026-07-22T23:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Tesla Earnings Miss Despite Strong EV Sales; Elon Musk Preaches Robotaxi Caution",
+      "url": "https://www.investors.com/news/tesla-earnings-elon-musk-robotaxi-optimus-electric-vehicle-evs/?src=A00220&yptr=yahoo",
+      "published": "2026-07-22T23:05:11Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Here\u2019s Why Retail Investors Are Buying Microsoft (MSFT) on the Dip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-retail-investors-buying-microsoft-210328043.html",
-      "published": "2026-07-22T21:03:28Z",
-      "source": "Insider Monkey"
+      "title": "Tesla Holds Bitcoin Position Steady as Digital Asset Loss Reaches $112M",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/tesla-holds-bitcoin-position-steady-231700288.html",
+      "published": "2026-07-22T23:17:00Z",
+      "source": "CryptoProwl"
     },
     {
-      "title": "Teledyne Technologies Incorporated Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/teledyne-technologies-incorporated-q2-2026-205319925.html",
-      "published": "2026-07-22T20:53:19Z",
-      "source": "Moby"
+      "title": "Why Bitcoin Is Stuck Near $65,000 as AI Fuels Inflation",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-stuck-near-65-224102687.html",
+      "published": "2026-07-22T22:41:02Z",
+      "source": "BeInCrypto"
     },
     {
-      "title": "IBM Cuts Revenue Guidance After Preliminary Earnings Release Cratered Stock",
-      "url": "https://www.investors.com/news/technology/ibm-stock-q2-2026-earnings-results/?src=A00220&yptr=yahoo",
-      "published": "2026-07-22T20:50:21Z",
-      "source": "Investor's Business Daily"
+      "title": "Lenders are giving themselves more levers to pull in the event of bankruptcy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lenders-giving-themselves-more-levers-232057154.html",
+      "published": "2026-07-22T23:20:57Z",
+      "source": "Pitchbook"
     },
     {
-      "title": "Energy & Utilities Roundup: Market Talk",
-      "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-ff60eb2f?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-22T21:14:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "Moody's Corporation Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/moodys-corporation-q2-2026-earnings-204810545.html",
-      "published": "2026-07-22T20:48:10Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Super Micro (SMCI) Climbs 27% as Orders Surge to $60B; More Hedge Funds Buy In",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-smci-climbs-27-204833845.html",
-      "published": "2026-07-22T20:48:33Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "First look: CSX earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/first-look-csx-earnings-204812261.html",
-      "published": "2026-07-22T20:48:12Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "Wall Street indexes dip with technology earnings, rising oil in focus",
-      "url": "https://finance.yahoo.com/news/wall-st-futures-edge-lower-095915371.html",
-      "published": "2026-07-22T20:47:21Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Coinbase Wants to Be Canada's One-Stop Shop for Stocks, Crypto and Prediction Markets",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-wants-canadas-one-stop-211304224.html",
-      "published": "2026-07-22T21:13:04Z",
-      "source": "decrypt"
-    },
-    {
-      "title": "Meta Platforms (META): \u2018Dead Money\u2019 or Best Cheap AI Stock?  \u2013 Retail Investors Debate",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-dead-money-212214488.html",
-      "published": "2026-07-22T21:22:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Can American Airlines (AAL) Close the Profitability Gap With Delta and United?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-aal-close-profitability-204317516.html",
-      "published": "2026-07-22T20:43:17Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Tesla Profit Misses as Elon\u2019s Costs Outrun Record Revenue",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-profit-misses-elon-costs-203624109.html",
-      "published": "2026-07-22T20:36:24Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Knight-Swift sees \u2018rapid progression\u2019 in TL fundamentals during Q2",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/knight-swift-sees-rapid-progression-212717174.html",
-      "published": "2026-07-22T21:27:17Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "Southwest Cuts Full-Year Outlook as Fuel Expenses Weigh on Second-Quarter Profit",
-      "url": "https://www.wsj.com/business/earnings/southwest-cuts-full-year-outlook-as-fuel-expenses-weigh-on-second-quarter-profit-4b25d6e4?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-22T21:12:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "ServiceNow Earnings Top Views, Revenue Outlook Light. But Software Stock Climbs.",
-      "url": "https://www.investors.com/news/technology/servicenow-stock-servicenow-earnings-software-q2-2026/?src=A00220&yptr=yahoo",
-      "published": "2026-07-22T21:28:54Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Google Earnings, Revenue Top Views As Cloud Growth Accelerates. Search Results In-Line.",
-      "url": "https://www.investors.com/news/technology/google-stock-google-earnings-cloud-growth-q22026/?src=A00220&yptr=yahoo",
-      "published": "2026-07-22T21:37:42Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Trump Jr.\u2018s investment fund backed Polymarket at $300M. After a federal license, it\u2019s now worth $15B",
-      "url": "https://finance.yahoo.com/markets/options/articles/trump-jr-investment-fund-backed-214500975.html",
-      "published": "2026-07-22T21:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Soybeans Hit Fresh 2 Year Highs on Wednesday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-hit-fresh-2-highs-214828490.html",
-      "published": "2026-07-22T21:48:28Z",
+      "title": "This Dividend Stock Yields 6.6% and Stands to Benefit From the Iran War",
+      "url": "https://finance.yahoo.com/energy/articles/dividend-stock-yields-6-6-233002044.html",
+      "published": "2026-07-22T23:30:02Z",
       "source": "Barchart"
     },
     {
-      "title": "Financial Services Roundup: Market Talk",
-      "url": "https://www.wsj.com/finance/investing/financial-services-roundup-market-talk-65488a40?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-22T21:07:00Z",
-      "source": "The Wall Street Journal"
+      "title": "Brent Sullivan: Why 351 Exchange ETFs Are Now Everywhere",
+      "url": "https://finance.yahoo.com/markets/options/articles/brent-sullivan-why-351-exchange-235353737.html",
+      "published": "2026-07-22T23:53:53Z",
+      "source": "etf.com"
     },
     {
-      "title": "Mastercard (MA) Moat Looks Unbreakable \u2014 Except For One Growing Threat",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-moat-looks-unbreakable-215218647.html",
-      "published": "2026-07-22T21:52:18Z",
-      "source": "Insider Monkey"
+      "title": "Global Refiners Are Cutting Out Oil Traders To Buy Venezuelan Crude Directly",
+      "url": "https://finance.yahoo.com/energy/articles/global-refiners-cutting-oil-traders-000000289.html",
+      "published": "2026-07-23T00:00:00Z",
+      "source": "Oilprice.com"
     },
     {
-      "title": "AMD, Cerebras Strike AI Chip Deals",
-      "url": "https://www.investors.com/news/technology/amd-stock-cerebras-rise-ai-chip-deals/?src=A00220&yptr=yahoo",
-      "published": "2026-07-22T21:57:44Z",
-      "source": "Investor's Business Daily"
+      "title": "This 1 Momentum ETF Is Still Beating the S&P 500 With Lower Drawdowns",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-momentum-etf-still-beating-225011184.html",
+      "published": "2026-07-22T22:50:11Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "Capital One $425 million settlement payouts to customers 'substantially delayed' after appeal",
@@ -411,9 +339,81 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "NovaGold (NG) Jumps 10.3% on $4.2B Donlin Mine Takeover",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/novagold-ng-jumps-10-3-005830041.html",
+      "published": "2026-07-23T00:58:30Z",
+      "source": "Insider Monkey"
+    },
+    {
       "title": "What is private mortgage insurance (PMI)? Definition, cost, and how to avoid it",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/what-is-pmi-private-mortgage-insurance-193818313.html",
       "published": "2024-02-01T19:38:18Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Thank Asia for International Stocks' Outperformance This Year",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/thank-asia-international-stocks-outperformance-012018833.html",
+      "published": "2026-07-23T01:20:18Z",
+      "source": "etf.com"
+    },
+    {
+      "title": "SEC commissioner has a blunt warning for crypto vaults and lending",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/sec-commissioner-blunt-warning-crypto-225103872.html",
+      "published": "2026-07-22T22:51:03Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Mortgage rate predictions through 2030: What to expect",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-through-2030-what-to-expect-195826935.html",
+      "published": "2025-08-18T19:58:26Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Santos Narrows 2026 Output Guidance as Barossa and Pikka Ramp Up",
+      "url": "https://finance.yahoo.com/energy/articles/santos-narrows-2026-output-guidance-014831843.html",
+      "published": "2026-07-23T01:48:31Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Regulatory cleanup fuels Knight-Swift\u2019s bullish outlook",
+      "url": "https://finance.yahoo.com/economy/policy/articles/regulatory-capacity-cleanup-fuels-knight-020928783.html",
+      "published": "2026-07-23T02:09:28Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Dell Technologies (DELL) Climbs 9.3% on Booming Demand for Nvidia-Powered AI Servers",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-climbs-9-022911228.html",
+      "published": "2026-07-23T02:29:11Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "\u2018You Have Far More Investment Choices\u2019: Suze Orman to a Caller Trapped in a $114,000 Lump-Sum 401(k) Rollover",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/far-more-investment-choices-suze-225116953.html",
+      "published": "2026-07-22T22:51:16Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "What are stock options, and how do they work?",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/what-are-stock-options-130200693.html",
+      "published": "2026-07-22T13:02:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "What is options trading?",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/what-is-options-trading-130100763.html",
+      "published": "2026-07-22T13:01:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Best student loan refinance companies of 2026",
+      "url": "https://finance.yahoo.com/personal-finance/student-loans/article/best-student-loan-refinance-companies-104900001.html",
+      "published": "2026-07-22T10:49:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Best CD rates today, Thursday, July 23, 2026: Lock in up to 4.20% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-thursday-july-23-2026-lock-in-up-to-420-apy-100000568.html",
+      "published": "2026-07-23T10:00:00Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.298330574797204
     }
   },
-  "updated_at": "2026-07-24T08:42:55.411346+00:00",
+  "updated_at": "2026-07-24T10:48:31.603168+00:00",
   "source": "yahoo_finance"
 }
