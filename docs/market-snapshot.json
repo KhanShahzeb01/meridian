@@ -41,7 +41,7 @@
         7412.8798828125,
         7411.97998046875
       ],
-      "as_of": "2026-07-27 08:20 UTC",
+      "as_of": "2026-07-27 11:47 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         24981.705078125,
         24975.82421875
       ],
-      "as_of": "2026-07-27 08:20 UTC",
+      "as_of": "2026-07-27 11:47 UTC",
       "source": "yahoo"
     },
     {
@@ -129,24 +129,17 @@
         51947.51953125,
         51947.25
       ],
-      "as_of": "2026-07-27 08:20 UTC",
+      "as_of": "2026-07-27 11:47 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4092.5,
-      "change": 21.699999999999818,
-      "change_pct": 0.5330647538567314,
+      "price": 4100.5,
+      "change": 29.699999999999818,
+      "change_pct": 0.7295863220988458,
       "series": [
-        4076.60009765625,
-        4069.5,
-        4071.300048828125,
-        4065.800048828125,
-        4057.699951171875,
-        4056.699951171875,
-        4053.800048828125,
         4056.10009765625,
         4055.89990234375,
         4070.800048828125,
@@ -171,26 +164,26 @@
         4105.39990234375,
         4090.699951171875,
         4093.0,
-        4092.5
+        4097.7001953125,
+        4093.5,
+        4098.89990234375,
+        4095.10009765625,
+        4102.10009765625,
+        4098.7998046875,
+        4101.0,
+        4100.5
       ],
-      "as_of": "2026-07-27 08:20 UTC",
+      "as_of": "2026-07-27 11:47 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.28,
-      "change": -5.030000000000001,
-      "change_pct": -5.632068077482925,
+      "price": 83.16,
+      "change": -6.150000000000006,
+      "change_pct": -6.886126973463225,
       "series": [
-        88.31999969482422,
-        88.38999938964844,
-        88.8499984741211,
-        89.06999969482422,
-        89.33999633789062,
-        89.37000274658203,
-        89.70999908447266,
         89.7699966430664,
         90.38999938964844,
         89.30999755859375,
@@ -214,27 +207,27 @@
         83.47000122070312,
         84.18000030517578,
         84.58999633789062,
-        84.30000305175781,
-        84.27999877929688
+        83.70999908447266,
+        82.94999694824219,
+        82.76000213623047,
+        82.33999633789062,
+        83.02999877929688,
+        83.2699966430664,
+        83.77999877929688,
+        83.1500015258789,
+        83.16000366210938
       ],
-      "as_of": "2026-07-27 08:20 UTC",
+      "as_of": "2026-07-27 11:47 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 17.78,
-      "change": -0.7999999999999972,
-      "change_pct": -4.305705059203429,
+      "price": 17.72,
+      "change": -0.8599999999999994,
+      "change_pct": -4.6286329386437,
       "series": [
-        18.700000762939453,
-        18.770000457763672,
-        18.889999389648438,
-        18.829999923706055,
-        18.81999969482422,
-        18.649999618530273,
-        18.610000610351562,
         18.81999969482422,
         18.860000610351562,
         18.790000915527344,
@@ -258,10 +251,17 @@
         18.56999969482422,
         17.670000076293945,
         17.829999923706055,
-        17.790000915527344,
-        17.780000686645508
+        17.670000076293945,
+        17.59000015258789,
+        17.65999984741211,
+        17.579999923706055,
+        17.59000015258789,
+        17.600000381469727,
+        17.700000762939453,
+        17.709999084472656,
+        17.719999313354492
       ],
-      "as_of": "2026-07-27 08:20 UTC",
+      "as_of": "2026-07-27 11:47 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,46 +273,136 @@
       "source": "TheStreet"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Saturday, July 25, 2026: Highest rates this year",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-july-25-2026-highest-rates-this-year-100000185.html",
-      "published": "2026-07-25T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Oil prices hit one-week low after US, Iran pause fighting over weekend",
+      "url": "https://finance.yahoo.com/energy/articles/oil-slips-more-5-us-221044741.html",
+      "published": "2026-07-27T11:23:33Z",
+      "source": "Reuters"
     },
     {
-      "title": "Best CD rates today, Saturday, July 25, 2026: Best account provides 4.20% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-july-25-2026-best-account-provides-420-apy-100000276.html",
-      "published": "2026-07-25T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "International Business Machines Corporation (IBM) Survived One AI Scare in February. This One Might Be Different.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-corporation-ibm-084616985.html",
-      "published": "2026-07-26T08:46:16Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "76% of American retirees have big savings regrets \u2014 and younger workers now plan to put off retirement to avoid them",
-      "url": "https://finance.yahoo.com/markets/articles/76-american-retirees-big-savings-090000254.html",
-      "published": "2026-07-26T09:00:00Z",
+      "title": "Tennis star Arantxa Snchez Vicario's $41M fortune 'vanished' after one crushing mistake. Are you making the same error?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tennis-star-arantxa-snchez-vicarios-111500888.html",
+      "published": "2026-07-27T11:15:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "NuScale Power Is Down 38% This Year: Here's What the Next 5 Years Could Look Like",
-      "url": "https://finance.yahoo.com/energy/articles/nuscale-power-down-38-heres-212500204.html",
-      "published": "2026-07-25T21:25:00Z",
-      "source": "Motley Fool"
+      "title": "IMF chief visits Argentina as 2027 debt hurdle looms",
+      "url": "https://finance.yahoo.com/economy/policy/articles/imf-chief-visits-argentina-2027-110158183.html",
+      "published": "2026-07-27T11:01:58Z",
+      "source": "Reuters"
     },
     {
-      "title": "CSX Corporation (CSX) and Knight-Swift Transportation Holdings Inc. (KNX) Show the Freight Cycle Is Turning. Southwest Airlines Co. (LUV) Shows Fuel Costs Still Hurt Airlines.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/csx-corporation-csx-knight-swift-092337474.html",
-      "published": "2026-07-26T09:23:37Z",
+      "title": "A 61-year-old stashed Roblox shares in his IRA before the company went public \u2014 now it reportedly holds $68 million",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/61-old-stashed-roblox-shares-110000968.html",
+      "published": "2026-07-27T11:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "India\u2019s Bank of Baroda faces alleged 1TB data leak on dark web",
+      "url": "https://finance.yahoo.com/technology/ai/articles/india-bank-baroda-faces-alleged-113047992.html",
+      "published": "2026-07-27T11:30:47Z",
+      "source": "Retail Banker International"
+    },
+    {
+      "title": "Morning Bid: China chip champ",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/china-chip-champ-104015853.html",
+      "published": "2026-07-27T10:44:34Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Shein will struggle to justify $40-50 billion Hong Kong IPO valuation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/shein-struggle-justify-40-50-103706246.html",
+      "published": "2026-07-27T10:37:06Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil tumbles, investors brace for busy week",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-27-dow-sp-500-nasdaq-080412540.html",
+      "published": "2026-07-27T08:04:12Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "A paid-off inherited home can still cost thousands per month \u2014 attorneys explain how to protect yourself",
+      "url": "https://finance.yahoo.com/real-estate/articles/paid-off-inherited-home-still-103000569.html",
+      "published": "2026-07-27T10:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Magazine: Made in the USA",
+      "url": "https://finance.yahoo.com/healthcare/articles/magazine-made-usa-112858020.html",
+      "published": "2026-07-27T11:28:58Z",
+      "source": "Pharmaceutical Technology"
+    },
+    {
+      "title": "Should You Buy Lockheed Martin After Its Strong Q2 Earnings Rally?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-lockheed-martin-strong-q2-102651148.html",
+      "published": "2026-07-27T10:26:51Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "The Iran War Is Creating Winners and Losers: Lockheed Martin (LMT) vs. American Airlines (AAL)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/iran-war-creating-winners-losers-095018193.html",
-      "published": "2026-07-26T09:50:18Z",
+      "title": "Mortgage and refinance rates today, Monday, July 27, 2026: Purchase rates higher/lower than refinance rates",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-july-27-2026-purchase-rates-higherlower-than-refinance-rates-100000066.html",
+      "published": "2026-07-27T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Best CD rates today, Monday, July 27, 2026: Lock in up to 4.20% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-27-2026-lock-in-up-to-420-apy-100000874.html",
+      "published": "2026-07-27T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Roth IRAs offer tax-free retirement income \u2014 but for some retirees, a traditional IRA saves more money",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/roth-iras-offer-tax-free-100000479.html",
+      "published": "2026-07-27T10:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Deckers Brands hits historic $1bn Q1 sales driven by HOKA, UGG",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/deckers-brands-hits-historic-1bn-112734988.html",
+      "published": "2026-07-27T11:27:34Z",
+      "source": "Just Style"
+    },
+    {
+      "title": "HELOC and home equity loan rates today, Monday, July 27, 2026: How to choose when rates are nearly identical",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-july-27-2026-how-to-choose-when-rates-are-nearly-identical-100000292.html",
+      "published": "2026-07-27T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Best high-yield savings interest rates today, Monday, July 27, 2026: You can earn up to 4.15% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-july-27-2026-you-can-earn-up-to-415-apy-100000612.html",
+      "published": "2026-07-27T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "27-year-old NYC locksmith spent $7,000 to launch her business \u2014 then one TikTok brought in 60 jobs a week",
+      "url": "https://finance.yahoo.com/small-business/articles/27-old-nyc-locksmith-spent-100000048.html",
+      "published": "2026-07-27T10:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "What time is this week's Fed meeting?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-time-is-this-weeks-fed-meeting-120032072.html",
+      "published": "2025-05-05T12:00:32Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Blackstone credit arm nears deal for HSBC\u2019s Australian loan book \u2013 report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-credit-arm-nears-deal-112555843.html",
+      "published": "2026-07-27T11:25:55Z",
+      "source": "Retail Banker International"
+    },
+    {
+      "title": "Why Did Northrop Grumman (NOC) Fall After Raising Its 2026 Forecast?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-northrop-grumman-noc-094444080.html",
+      "published": "2026-07-27T09:44:44Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Some retirees are choosing to never sell their home \u2014 and the reasons are both logical and grim",
+      "url": "https://finance.yahoo.com/real-estate/articles/retirees-choosing-never-sell-home-093000062.html",
+      "published": "2026-07-27T09:30:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "Mortgage and refinance interest rates today, Sunday, July 26, 2026: Rates up since last week",
@@ -324,96 +414,6 @@
       "title": "Best CD rates today, Sunday, July 26, 2026: Lock in up to 4.20% APY",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-july-26-2026-lock-in-up-to-420-apy-100000233.html",
       "published": "2026-07-26T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "He Retired to a Small Town to Stretch His Social Security. Then the Only Hospital Closed, and His Cheap Retirement Turned Expensive.",
-      "url": "https://finance.yahoo.com/healthcare/articles/retired-small-town-stretch-social-210321405.html",
-      "published": "2026-07-25T21:03:21Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "These 22-year-old billionaire Peter Thiel proteges pay professionals $2M a day to train the AI that could replace them",
-      "url": "https://finance.yahoo.com/technology/ai/articles/22-old-billionaire-peter-thiel-101000953.html",
-      "published": "2026-07-26T10:10:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Intel Corporation (INTC) Just Had Its Best Quarter in 15 Years. Is the Turnaround Finally Real?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-corporation-intc-just-had-102227136.html",
-      "published": "2026-07-26T10:22:27Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "A 68-year-old's cottage costs are skyrocketing but her son wants to inherit it. Experts say retirement comes first",
-      "url": "https://finance.yahoo.com/real-estate/articles/68-olds-cottage-costs-skyrocketing-103000742.html",
-      "published": "2026-07-26T10:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Freeport-McMoRan Inc. (FCX) and Digital Realty Trust, Inc. (DLR) Highlight the Companies Cashing In on AI Infrastructure",
-      "url": "https://finance.yahoo.com/technology/ai/articles/freeport-mcmoran-inc-fcx-digital-104751465.html",
-      "published": "2026-07-26T10:47:51Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "CoreWeave Stock Fell 11.4% on Friday. The Sell-Off Is About What It's Spending, Not What It's Selling.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-fell-11-4-212700175.html",
-      "published": "2026-07-25T21:27:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Do I need a business bank account if I'm self-employed?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/bank-account-for-self-employed-183046944.html",
-      "published": "2024-08-07T18:30:46Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "What is an add-on CD?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/add-on-cd-161023475.html",
-      "published": "2024-08-08T16:10:23Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Happen Bank review (2026): A top-rated online bank with high yields and low fees",
-      "url": "https://finance.yahoo.com/personal-finance/banking/review/happen-bank-review-230320224.html",
-      "published": "2024-09-06T23:03:20Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "HELOC and home equity loan rates today, Friday, July 24, 2026: Have they improved?",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-friday-july-24-2026-have-they-improved-100000883.html",
-      "published": "2026-07-20T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Award-winning dairy company closes two facilities",
-      "url": "https://finance.yahoo.com/small-business/articles/award-winning-dairy-company-closes-210300536.html",
-      "published": "2026-07-25T21:03:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "When is the Fed's next meeting? See the full schedule for 2026.",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/when-is-the-next-fed-meeting-full-schedule-150709698.html",
-      "published": "2024-06-06T15:07:09Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Gold prices today, Friday, July 24, 2026: Gold price remains below $4,100 ahead of next week\u2019s rate decision",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-friday-july-24-2026-gold-price-remains-below-4100-ahead-of-next-weeks-rate-decision-152726975.html",
-      "published": "2026-07-24T15:27:26Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Silver prices today, Friday, July 24, 2026: Silver returns above $58 as markets price in higher rate risks",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-friday-july-24-2026-silver-returns-above-58-as-markets-price-in-higher-rate-risks-152408436.html",
-      "published": "2026-07-24T15:24:08Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Bitcoin and ethereum prices today, Friday, July 24, 2026: Crypto prices retreat on higher U.S. Treasury yields",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html",
-      "published": "2026-07-24T15:22:00Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.8312111643068115
     }
   },
-  "updated_at": "2026-07-27T08:20:35.696355+00:00",
+  "updated_at": "2026-07-27T11:47:18.906164+00:00",
   "source": "yahoo_finance"
 }
