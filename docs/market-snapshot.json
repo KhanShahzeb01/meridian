@@ -41,7 +41,7 @@
         7413.43017578125,
         7413.18017578125
       ],
-      "as_of": "2026-07-28 09:42 UTC",
+      "as_of": "2026-07-28 11:45 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         24926.109375,
         24932.08203125
       ],
-      "as_of": "2026-07-28 09:42 UTC",
+      "as_of": "2026-07-28 11:45 UTC",
       "source": "yahoo"
     },
     {
@@ -129,21 +129,17 @@
         52202.828125,
         52210.078125
       ],
-      "as_of": "2026-07-28 09:42 UTC",
+      "as_of": "2026-07-28 11:45 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4037.3,
-      "change": -39.69999999999982,
-      "change_pct": -0.9737552121658037,
+      "price": 4027.7,
+      "change": -49.30000000000018,
+      "change_pct": -1.2092224675006176,
       "series": [
-        4078.199951171875,
-        4078.60009765625,
-        4079.800048828125,
-        4087.800048828125,
         4085.5,
         4081.0,
         4078.60009765625,
@@ -170,24 +166,24 @@
         4049.89990234375,
         4045.699951171875,
         4040.10009765625,
-        4038.5,
-        4037.300048828125
+        4023.300048828125,
+        4016.800048828125,
+        4025.60009765625,
+        4027.199951171875,
+        4028.10009765625,
+        4027.699951171875
       ],
-      "as_of": "2026-07-28 09:42 UTC",
+      "as_of": "2026-07-28 11:45 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 80.68,
-      "change": -1.9299999999999926,
-      "change_pct": -2.336278900859451,
+      "price": 81.48,
+      "change": -1.1299999999999955,
+      "change_pct": -1.3678731388451706,
       "series": [
-        82.62000274658203,
-        82.6500015258789,
-        82.12999725341797,
-        82.31999969482422,
         81.93000030517578,
         81.87000274658203,
         81.91000366210938,
@@ -214,24 +210,24 @@
         80.27999877929688,
         80.19999694824219,
         80.47000122070312,
-        80.68000030517578,
-        80.68000030517578
+        80.62000274658203,
+        81.18000030517578,
+        81.16999816894531,
+        81.37999725341797,
+        81.5199966430664,
+        81.4800033569336
       ],
-      "as_of": "2026-07-28 09:42 UTC",
+      "as_of": "2026-07-28 11:45 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 18.81,
-      "change": 0.13999999999999702,
-      "change_pct": 0.7498660953401017,
+      "price": 19.08,
+      "change": 0.4099999999999966,
+      "change_pct": 2.1960364220674693,
       "series": [
-        17.829999923706055,
-        17.670000076293945,
-        17.59000015258789,
-        17.65999984741211,
         17.579999923706055,
         17.59000015258789,
         17.600000381469727,
@@ -258,10 +254,14 @@
         19.049999237060547,
         18.8799991607666,
         18.889999389648438,
-        18.809999465942383,
-        18.809999465942383
+        18.780000686645508,
+        18.93000030517578,
+        18.920000076293945,
+        18.969999313354492,
+        19.020000457763672,
+        19.079999923706055
       ],
-      "as_of": "2026-07-28 09:42 UTC",
+      "as_of": "2026-07-28 11:45 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,9 +273,51 @@
       "source": "TheStreet"
     },
     {
-      "title": "Dollar hovers near four-week peak as markets mull Fed hike odds",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-hits-one-month-high-003619965.html",
-      "published": "2026-07-28T09:09:39Z",
+      "title": "GSK launches $2.5 billion savings drive to boost drug pipeline",
+      "url": "https://finance.yahoo.com/healthcare/articles/gsk-beats-second-quarter-profit-111025882.html",
+      "published": "2026-07-28T11:20:47Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Germany's deep tech edge drives acceleration in VC funding",
+      "url": "https://finance.yahoo.com/small-business/articles/germanys-deep-tech-edge-drives-110633256.html",
+      "published": "2026-07-28T11:06:33Z",
+      "source": "Pitchbook"
+    },
+    {
+      "title": "PayPal presses on with turnaround in pivotal quarter as sale questions linger",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-presses-turnaround-pivotal-quarter-110310369.html",
+      "published": "2026-07-28T11:03:10Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Morning Bid: Chip rout snowballs",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-chip-rout-snowballs-103825154.html",
+      "published": "2026-07-28T10:38:25Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Most internal audit teams have untapped leadership talent \u2013 survey",
+      "url": "https://finance.yahoo.com/small-business/articles/most-internal-audit-teams-untapped-112510690.html",
+      "published": "2026-07-28T11:25:10Z",
+      "source": "International Accounting Bulletin"
+    },
+    {
+      "title": "Fitch warns AI market correction emerging as major global credit risk",
+      "url": "https://finance.yahoo.com/technology/ai/articles/fitch-warns-ai-market-correction-103630010.html",
+      "published": "2026-07-28T10:36:30Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Amazon winds down most flagship AI models in strategy overhaul, Business Insider reports",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-winds-down-most-flagship-103406019.html",
+      "published": "2026-07-28T10:34:06Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Mercedes gets shares boost on stable second quarter despite China woes",
+      "url": "https://finance.yahoo.com/news/mercedes-cuts-sales-outlook-weak-064932045.html",
+      "published": "2026-07-28T10:17:10Z",
       "source": "Reuters"
     },
     {
@@ -285,57 +327,75 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Semiconductor stock charts just formed this bearish shape that signals more potential losses",
-      "url": "https://finance.yahoo.com/markets/article/semiconductor-stock-charts-just-formed-this-bearish-shape-that-signals-more-potential-losses-145440205.html",
-      "published": "2026-07-27T14:54:40Z",
+      "title": "Devon and Cornwall companies urge action on skills and infrastructure",
+      "url": "https://finance.yahoo.com/economy/policy/articles/devon-cornwall-companies-urge-action-111957266.html",
+      "published": "2026-07-28T11:19:57Z",
+      "source": "The Accountant"
+    },
+    {
+      "title": "Best high-yield savings interest rates today, Tuesday, July 28, 2026: You can earn up to 4.15% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-tuesday-july-28-2026-you-can-earn-up-to-415-apy-100000612.html",
+      "published": "2026-07-27T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "The bond market's danger zone is becoming the new normal: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/the-bond-markets-danger-zone-is-becoming-the-new-normal-chart-of-the-day-100000676.html",
+      "published": "2026-07-28T10:00:00Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Salesforce\u2019s Agentforce Bet Made It the Dow\u2019s Worst Performer. Is the Market Overreacting?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-agentforce-bet-made-dow-083826022.html",
-      "published": "2026-07-28T08:38:26Z",
-      "source": "Insider Monkey"
+      "title": "Best CD rates today, Tuesday, July 28, 2026: Lock in up to 4.15% APY today",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-july-28-2026-lock-in-up-to-415-apy-today-100000665.html",
+      "published": "2026-07-28T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "LVMH revenue dips 3% in H1 2026, but organic growth returns",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lvmh-revenue-dips-3-h1-092511532.html",
-      "published": "2026-07-28T09:25:11Z",
-      "source": "Retail Insight Network"
+      "title": "A 'Super El Ni\u00f1o' is expected to squeeze commodities even further this year",
+      "url": "https://finance.yahoo.com/markets/article/a-super-el-nino-is-expected-to-squeeze-commodities-even-further-this-year-100000389.html",
+      "published": "2026-07-28T10:00:00Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Why Alnylam\u2019s Best Quarter Ever Didn\u2019t Come With a Richer Valuation",
-      "url": "https://finance.yahoo.com/healthcare/articles/why-alnylam-best-quarter-ever-081611164.html",
-      "published": "2026-07-28T08:16:11Z",
-      "source": "Insider Monkey"
+      "title": "Carby Label invests in fourth Lombardi press",
+      "url": "https://finance.yahoo.com/small-business/articles/carby-label-invests-fourth-lombardi-111414742.html",
+      "published": "2026-07-28T11:14:14Z",
+      "source": "Packaging Gateway"
     },
     {
-      "title": "South Korea's Naver jumps 10% on Nvidia's $1 billion investment plan",
-      "url": "https://finance.yahoo.com/technology/articles/nvidia-acquire-1-billion-shares-230439371.html",
-      "published": "2026-07-26T23:04:39Z",
+      "title": "Mortgage and refinance interest rates today, Tuesday, July 28, 2026: Rates lower as fighting in Iran on pause",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-july-28-2026-rates-lower-as-fighting-in-iran-on-pause-100000181.html",
+      "published": "2026-07-28T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "HELOC and home equity loan rates today, Tuesday, July 28, 2026: Besides rates, how to choose between a HELOC or HEL",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-tuesday-july-28-2026-besides-rates-how-to-choose-between-a-heloc-or-hel-100000292.html",
+      "published": "2026-07-27T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Meta, BlackRock partner on $14 billion El Paso data center",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-blackrock-partner-14-billion-093946704.html",
+      "published": "2026-07-28T09:39:46Z",
       "source": "Reuters"
     },
     {
-      "title": "Standard Chartered: Oil Markets Must Now Price Two Middle East Chokepoints",
-      "url": "https://finance.yahoo.com/energy/articles/standard-chartered-oil-markets-must-230000860.html",
-      "published": "2026-07-26T23:00:00Z",
-      "source": "Oilprice.com"
+      "title": "Ford's guidance is all that matters in light of GM's results: Q2 preview",
+      "url": "https://finance.yahoo.com/markets/stocks/article/fords-guidance-is-all-that-matters-in-light-of-gms-results-q2-preview-174508466.html",
+      "published": "2026-07-27T17:45:08Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "China\u2019s Rare Earth Strategy Is Forcing a U.S. Manufacturing Revolution",
-      "url": "https://finance.yahoo.com/energy/articles/china-rare-earth-strategy-forcing-000000920.html",
-      "published": "2026-07-27T00:00:00Z",
-      "source": "Oilprice.com"
+      "title": "The Korean Stock Market Crashes Overnight. Will it Be Another Brutal Nasdaq Sell-Off on Tuesday?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/korean-stock-market-crashes-overnight-111227588.html",
+      "published": "2026-07-28T11:12:27Z",
+      "source": "24/7 Wall St."
     },
     {
-      "title": "Been here before",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/been-here-before-092052259.html",
-      "published": "2026-07-28T09:20:52Z",
-      "source": "Private Banker International"
-    },
-    {
-      "title": "Explainer-How Singapore's unique monetary policy works",
-      "url": "https://finance.yahoo.com/news/explainer-singapores-unique-monetary-policy-230515117.html",
-      "published": "2026-07-27T00:17:28Z",
+      "title": "World stocks hit one-month low as chip rout worsens",
+      "url": "https://finance.yahoo.com/news/ai-anxiety-sparks-tech-rout-023132715.html",
+      "published": "2026-07-28T09:37:33Z",
       "source": "Reuters"
     },
     {
@@ -343,24 +403,6 @@
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-27-2026-lock-in-up-to-420-apy-100000874.html",
       "published": "2026-07-27T10:00:00Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Best high-yield savings interest rates today, Monday, July 27, 2026: You can earn up to 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-july-27-2026-you-can-earn-up-to-415-apy-100000612.html",
-      "published": "2026-07-27T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "HELOC and home equity loan rates today, Monday, July 27, 2026: How to choose when rates are nearly identical",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-july-27-2026-how-to-choose-when-rates-are-nearly-identical-100000292.html",
-      "published": "2026-07-27T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "AI Everywhere for Value: New Celent report alert",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-everywhere-value-celent-report-091952016.html",
-      "published": "2026-07-28T09:19:52Z",
-      "source": "Retail Banker International"
     },
     {
       "title": "What time is this week's Fed meeting?",
@@ -372,48 +414,6 @@
       "title": "Gold prices today, Monday, July 27, 2026: Gold prices see positive traction as fighting with Iran has paused",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-july-27-2026-gold-prices-see-positive-traction-as-fighting-with-iran-has-paused-123327127.html",
       "published": "2026-07-27T12:33:27Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Silver prices today, Monday, July 27, 2026: Silver prices trend higher as Iran airatrikes on pause",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-july-27-2026-silver-prices-trend-higher-as-iran-airatrikes-on-pause-125654584.html",
-      "published": "2026-07-27T12:56:54Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Bitcoin and ethereum prices today, Monday, July 27, 2026: Can positive price trends hold this week?",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-27-2026-can-positive-price-trends-hold-this-week-132757216.html",
-      "published": "2026-07-27T13:27:57Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Textiles Recycling Expo USA to return in 2027 after successful debut",
-      "url": "https://finance.yahoo.com/small-business/articles/textiles-recycling-expo-usa-return-091659982.html",
-      "published": "2026-07-28T09:16:59Z",
-      "source": "Just Style"
-    },
-    {
-      "title": "Rates are inching lower. When will mortgage rates finally go back down to 6%?",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/when-will-mortgage-rates-go-down-to-6-195022219.html",
-      "published": "2025-06-24T19:50:22Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Is now a good time to get a VA loan?",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/is-now-a-good-time-to-get-a-va-loan-162333765.html",
-      "published": "2025-08-20T16:23:33Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Mark Cuban has a challenge for CEOs: Give each worker a stake",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/mark-cuban-has-a-challenge-for-ceos-give-each-worker-a-stake-163545106.html",
-      "published": "2026-07-21T16:35:45Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Mortgage and refinance rates today, Monday, July 27, 2026: Purchase rates higher than refinance rates",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-july-27-2026-purchase-rates-higher-than-refinance-rates-100000066.html",
-      "published": "2026-07-27T10:00:00Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.4546097427919099
     }
   },
-  "updated_at": "2026-07-28T09:42:51.622760+00:00",
+  "updated_at": "2026-07-28T11:45:46.726937+00:00",
   "source": "yahoo_finance"
 }
