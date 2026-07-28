@@ -41,7 +41,7 @@
         7413.43017578125,
         7413.18017578125
       ],
-      "as_of": "2026-07-28 11:45 UTC",
+      "as_of": "2026-07-28 13:19 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         24926.109375,
         24932.08203125
       ],
-      "as_of": "2026-07-28 11:45 UTC",
+      "as_of": "2026-07-28 13:19 UTC",
       "source": "yahoo"
     },
     {
@@ -129,20 +129,17 @@
         52202.828125,
         52210.078125
       ],
-      "as_of": "2026-07-28 11:45 UTC",
+      "as_of": "2026-07-28 13:19 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4027.7,
-      "change": -49.30000000000018,
-      "change_pct": -1.2092224675006176,
+      "price": 4032.5,
+      "change": -44.5,
+      "change_pct": -1.0914888398332105,
       "series": [
-        4085.5,
-        4081.0,
-        4078.60009765625,
         4073.89990234375,
         4075.10009765625,
         4074.5,
@@ -170,23 +167,23 @@
         4016.800048828125,
         4025.60009765625,
         4027.199951171875,
-        4028.10009765625,
-        4027.699951171875
+        4027.800048828125,
+        4034.10009765625,
+        4029.39990234375,
+        4032.699951171875,
+        4032.5
       ],
-      "as_of": "2026-07-28 11:45 UTC",
+      "as_of": "2026-07-28 13:19 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 81.48,
-      "change": -1.1299999999999955,
-      "change_pct": -1.3678731388451706,
+      "price": 81.2,
+      "change": -1.4099999999999966,
+      "change_pct": -1.7068151555501714,
       "series": [
-        81.93000030517578,
-        81.87000274658203,
-        81.91000366210938,
         81.97000122070312,
         82.11000061035156,
         82.05000305175781,
@@ -214,24 +211,23 @@
         81.18000030517578,
         81.16999816894531,
         81.37999725341797,
-        81.5199966430664,
-        81.4800033569336
+        81.72000122070312,
+        81.56999969482422,
+        80.79000091552734,
+        81.20999908447266,
+        81.19999694824219
       ],
-      "as_of": "2026-07-28 11:45 UTC",
+      "as_of": "2026-07-28 13:19 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 19.08,
-      "change": 0.4099999999999966,
-      "change_pct": 2.1960364220674693,
+      "price": 18.7,
+      "change": 0.029999999999997584,
+      "change_pct": 0.16068559185858372,
       "series": [
-        17.579999923706055,
-        17.59000015258789,
-        17.600000381469727,
-        17.700000762939453,
         17.739999771118164,
         17.809999465942383,
         17.709999084472656,
@@ -259,9 +255,13 @@
         18.920000076293945,
         18.969999313354492,
         19.020000457763672,
-        19.079999923706055
+        18.790000915527344,
+        18.690000534057617,
+        18.639999389648438,
+        18.719999313354492,
+        18.700000762939453
       ],
-      "as_of": "2026-07-28 11:45 UTC",
+      "as_of": "2026-07-28 13:19 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,148 +273,148 @@
       "source": "TheStreet"
     },
     {
-      "title": "GSK launches $2.5 billion savings drive to boost drug pipeline",
-      "url": "https://finance.yahoo.com/healthcare/articles/gsk-beats-second-quarter-profit-111025882.html",
-      "published": "2026-07-28T11:20:47Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Germany's deep tech edge drives acceleration in VC funding",
-      "url": "https://finance.yahoo.com/small-business/articles/germanys-deep-tech-edge-drives-110633256.html",
-      "published": "2026-07-28T11:06:33Z",
-      "source": "Pitchbook"
-    },
-    {
-      "title": "PayPal presses on with turnaround in pivotal quarter as sale questions linger",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-presses-turnaround-pivotal-quarter-110310369.html",
-      "published": "2026-07-28T11:03:10Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Morning Bid: Chip rout snowballs",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-chip-rout-snowballs-103825154.html",
-      "published": "2026-07-28T10:38:25Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Most internal audit teams have untapped leadership talent \u2013 survey",
-      "url": "https://finance.yahoo.com/small-business/articles/most-internal-audit-teams-untapped-112510690.html",
-      "published": "2026-07-28T11:25:10Z",
-      "source": "International Accounting Bulletin"
-    },
-    {
-      "title": "Fitch warns AI market correction emerging as major global credit risk",
-      "url": "https://finance.yahoo.com/technology/ai/articles/fitch-warns-ai-market-correction-103630010.html",
-      "published": "2026-07-28T10:36:30Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Amazon winds down most flagship AI models in strategy overhaul, Business Insider reports",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-winds-down-most-flagship-103406019.html",
-      "published": "2026-07-28T10:34:06Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Mercedes gets shares boost on stable second quarter despite China woes",
-      "url": "https://finance.yahoo.com/news/mercedes-cuts-sales-outlook-weak-064932045.html",
-      "published": "2026-07-28T10:17:10Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Stock market today: S&P 500, Nasdaq futures slide as chip sell-off deepens",
+      "title": "Stock market today: S&P 500, Nasdaq futures slide as chip sell-off deepens, but Dow rises",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-28-dow-sp-500-nasdaq-082832371.html",
       "published": "2026-07-28T08:28:32Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Devon and Cornwall companies urge action on skills and infrastructure",
-      "url": "https://finance.yahoo.com/economy/policy/articles/devon-cornwall-companies-urge-action-111957266.html",
-      "published": "2026-07-28T11:19:57Z",
-      "source": "The Accountant"
+      "title": "McDonald\u2019s Corporation (MCD) Fell as Rising Beef Prices Weighed on Sentiment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-corporation-mcd-fell-rising-131046197.html",
+      "published": "2026-07-28T13:10:46Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Best high-yield savings interest rates today, Tuesday, July 28, 2026: You can earn up to 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-tuesday-july-28-2026-you-can-earn-up-to-415-apy-100000612.html",
-      "published": "2026-07-27T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "The bond market's danger zone is becoming the new normal: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/the-bond-markets-danger-zone-is-becoming-the-new-normal-chart-of-the-day-100000676.html",
-      "published": "2026-07-28T10:00:00Z",
+      "title": "Why this analyst is down on Apple stock even as it hovers near record highs",
+      "url": "https://finance.yahoo.com/markets/article/why-this-analyst-is-down-on-apple-stock-even-as-it-hovers-near-record-highs-130907412.html",
+      "published": "2026-07-28T13:09:07Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Best CD rates today, Tuesday, July 28, 2026: Lock in up to 4.15% APY today",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-july-28-2026-lock-in-up-to-415-apy-today-100000665.html",
-      "published": "2026-07-28T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Accenture (ACN) Faces Growth Concerns",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-faces-growth-concerns-130846610.html",
+      "published": "2026-07-28T13:08:46Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "A 'Super El Ni\u00f1o' is expected to squeeze commodities even further this year",
-      "url": "https://finance.yahoo.com/markets/article/a-super-el-nino-is-expected-to-squeeze-commodities-even-further-this-year-100000389.html",
-      "published": "2026-07-28T10:00:00Z",
+      "title": "SpaceX stock poised for another all-time low as stock sinks on Tuesday",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-poised-for-another-all-time-low-as-stock-sinks-on-tuesday-144351570.html",
+      "published": "2026-07-27T14:43:51Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Carby Label invests in fourth Lombardi press",
-      "url": "https://finance.yahoo.com/small-business/articles/carby-label-invests-fourth-lombardi-111414742.html",
-      "published": "2026-07-28T11:14:14Z",
-      "source": "Packaging Gateway"
+      "title": "Applied Digital revenue quadruples on AI data center demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-revenue-quadruples-ai-130500555.html",
+      "published": "2026-07-28T13:05:00Z",
+      "source": "Proactive"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Tuesday, July 28, 2026: Rates lower as fighting in Iran on pause",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-july-28-2026-rates-lower-as-fighting-in-iran-on-pause-100000181.html",
-      "published": "2026-07-28T10:00:00Z",
+      "title": "AT&T (T) Remains Competitive Despite Satellite Connectivity Concerns",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-t-remains-competitive-despite-130409846.html",
+      "published": "2026-07-28T13:04:09Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "6 members of Congress have bought SpaceX stock, including one Democrat",
+      "url": "https://finance.yahoo.com/markets/article/6-members-of-congress-have-bought-spacex-stock-including-one-democrat-130256608.html",
+      "published": "2026-07-28T13:02:56Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "T-Mobile US (TMUS) Lagged on Emerging Network Competition Concerns",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-us-tmus-lagged-130200314.html",
+      "published": "2026-07-28T13:02:00Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Daily Spotlight: Min Vol: More than a Defensive Strategy",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47749_MarketOutlook_1785238296000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-28T11:31:36Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Should You Buy This Donald Trump Dividend Stock Before Earnings?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-donald-trump-dividend-stock-130044152.html",
+      "published": "2026-07-28T13:00:44Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Bitwise CIO Matt Hougan Thinks Bitcoin Has Finally Hit a Bottom. Here's Why He's Right.",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitwise-cio-matt-hougan-thinks-130400235.html",
+      "published": "2026-07-28T13:04:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Tale of 2 segments at TFI: LTL steady, Truckload soaring",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tale-2-segments-tfi-ltl-130000983.html",
+      "published": "2026-07-28T13:00:00Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Micron, SK Hynix stocks fall as chip sell-off deepens",
+      "url": "https://finance.yahoo.com/markets/article/micron-sk-hynix-stocks-fall-as-chip-sell-off-deepens-125622548.html",
+      "published": "2026-07-28T12:56:22Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Root (ROOT) Faces Near-Term Industry Headwinds Despite Long-Term Potential",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/root-root-faces-near-term-125525517.html",
+      "published": "2026-07-28T12:55:25Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Technical Assessment: Bullish in the Intermediate-Term",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47748_TechnicalAnalysis_1785238264000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-28T11:31:04Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Scott Bessent is buying US stocks with taxpayer cash amid China threat \u2014 can you copy and get rich? Here\u2019s what he likes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/scott-bessent-buying-us-stocks-125500123.html",
+      "published": "2026-07-28T12:55:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Textron Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/textron-q2-earnings-call-highlights-130302250.html",
+      "published": "2026-07-28T13:03:02Z",
+      "source": "MarketBeat"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Tuesday, July 28, 2026: Crypto prices slide ahead of Fed meeting",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-july-28-2026-crypto-prices-slide-ahead-of-fed-meeting-125210301.html",
+      "published": "2026-07-28T12:52:10Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "HELOC and home equity loan rates today, Tuesday, July 28, 2026: Besides rates, how to choose between a HELOC or HEL",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-tuesday-july-28-2026-besides-rates-how-to-choose-between-a-heloc-or-hel-100000292.html",
-      "published": "2026-07-27T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Stock Market Today: Tech Futures Sell Off As Chip Stocks Micron, Sandisk Dive; Coca-Cola Jumps (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-sandisk-coca-cola-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-07-28T12:51:25Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Meta, BlackRock partner on $14 billion El Paso data center",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-blackrock-partner-14-billion-093946704.html",
-      "published": "2026-07-28T09:39:46Z",
+      "title": "PayPal Earnings Top Estimates. CEO Lores Addresses Takeover Speculation",
+      "url": "https://www.investors.com/news/technology/paypal-stock-paypal-earnings-stripe-offer-ceo-commentary/?src=A00220&yptr=yahoo",
+      "published": "2026-07-28T12:50:14Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Apple launches US device leasing program with Klarna",
+      "url": "https://finance.yahoo.com/technology/articles/apple-launches-us-device-leasing-124839035.html",
+      "published": "2026-07-28T12:48:39Z",
       "source": "Reuters"
     },
     {
-      "title": "Ford's guidance is all that matters in light of GM's results: Q2 preview",
-      "url": "https://finance.yahoo.com/markets/stocks/article/fords-guidance-is-all-that-matters-in-light-of-gms-results-q2-preview-174508466.html",
-      "published": "2026-07-27T17:45:08Z",
-      "source": "Yahoo Finance"
+      "title": "Redwood Trust Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/real-estate/articles/redwood-trust-q2-earnings-call-130302768.html",
+      "published": "2026-07-28T13:03:02Z",
+      "source": "MarketBeat"
     },
     {
-      "title": "The Korean Stock Market Crashes Overnight. Will it Be Another Brutal Nasdaq Sell-Off on Tuesday?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/korean-stock-market-crashes-overnight-111227588.html",
-      "published": "2026-07-28T11:12:27Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "World stocks hit one-month low as chip rout worsens",
-      "url": "https://finance.yahoo.com/news/ai-anxiety-sparks-tech-rout-023132715.html",
-      "published": "2026-07-28T09:37:33Z",
+      "title": "Visa plans to cut 7% of workforce, Bloomberg News reports",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-plans-cut-7-workforce-124652675.html",
+      "published": "2026-07-28T12:46:52Z",
       "source": "Reuters"
-    },
-    {
-      "title": "Best CD rates today, Monday, July 27, 2026: Lock in up to 4.20% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-july-27-2026-lock-in-up-to-420-apy-100000874.html",
-      "published": "2026-07-27T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "What time is this week's Fed meeting?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-time-is-this-weeks-fed-meeting-120032072.html",
-      "published": "2025-05-05T12:00:32Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Gold prices today, Monday, July 27, 2026: Gold prices see positive traction as fighting with Iran has paused",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-july-27-2026-gold-prices-see-positive-traction-as-fighting-with-iran-has-paused-123327127.html",
-      "published": "2026-07-27T12:33:27Z",
-      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.4546097427919099
     }
   },
-  "updated_at": "2026-07-28T11:45:46.726937+00:00",
+  "updated_at": "2026-07-28T13:19:48.786114+00:00",
   "source": "yahoo_finance"
 }
