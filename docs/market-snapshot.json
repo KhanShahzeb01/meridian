@@ -4,13 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7369.37,
-      "change": -59.409999999999854,
-      "change_pct": -0.7997275461112033,
+      "price": 7352.91,
+      "change": -75.86999999999989,
+      "change_pct": -1.0212982481645694,
       "series": [
-        7412.8798828125,
-        7441.2001953125,
-        7406.14990234375,
         7420.43994140625,
         7405.93994140625,
         7397.93994140625,
@@ -38,23 +35,23 @@
         7396.7998046875,
         7372.64013671875,
         7371.31005859375,
-        7369.66015625,
-        7369.3701171875
+        7366.9501953125,
+        7360.6201171875,
+        7361.35986328125,
+        7353.0400390625,
+        7352.91015625
       ],
-      "as_of": "2026-07-29 15:21 UTC",
+      "as_of": "2026-07-29 16:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 24613.152,
-      "change": -263.76000000000204,
-      "change_pct": -1.0602602123607707,
+      "price": 24566.018,
+      "change": -310.89400000000023,
+      "change_pct": -1.2497290660512856,
       "series": [
-        24981.705078125,
-        25074.240234375,
-        24885.9140625,
         24962.076171875,
         24905.85546875,
         24870.052734375,
@@ -82,23 +79,23 @@
         24742.09375,
         24607.9453125,
         24639.666015625,
-        24614.044921875,
-        24613.15234375
+        24596.9609375,
+        24572.068359375,
+        24604.205078125,
+        24566.96484375,
+        24566.017578125
       ],
-      "as_of": "2026-07-29 15:21 UTC",
+      "as_of": "2026-07-29 16:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 51929.01,
-      "change": -818.3099999999977,
-      "change_pct": -1.5513773969938143,
+      "price": 51855.45,
+      "change": -891.8700000000026,
+      "change_pct": -1.6908347191857382,
       "series": [
-        51947.51953125,
-        52404.75,
-        52246.48046875,
         52225.3515625,
         52157.390625,
         52038.171875,
@@ -126,23 +123,23 @@
         52137.80859375,
         51991.8515625,
         51902.80859375,
-        51924.0390625,
-        51929.01171875
+        51924.359375,
+        51895.78125,
+        51891.19921875,
+        51864.28125,
+        51855.44921875
       ],
-      "as_of": "2026-07-29 15:21 UTC",
+      "as_of": "2026-07-29 16:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4065.5,
-      "change": -33.100000000000364,
-      "change_pct": -0.8075928365783527,
+      "price": 4076.7,
+      "change": -21.900000000000546,
+      "change_pct": -0.5343287951983737,
       "series": [
-        4022.39990234375,
-        4021.300048828125,
-        4017.699951171875,
         4025.0,
         4032.0,
         4028.300048828125,
@@ -170,23 +167,23 @@
         4064.800048828125,
         4063.89990234375,
         4063.199951171875,
-        4065.60009765625,
-        4065.5
+        4069.10009765625,
+        4068.5,
+        4075.10009765625,
+        4075.800048828125,
+        4076.699951171875
       ],
-      "as_of": "2026-07-29 15:21 UTC",
+      "as_of": "2026-07-29 16:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 85.08,
-      "change": 5.819999999999993,
-      "change_pct": 7.342922028766077,
+      "price": 84.28,
+      "change": 5.019999999999996,
+      "change_pct": 6.333585667423663,
       "series": [
-        81.83000183105469,
-        82.45999908447266,
-        82.44000244140625,
         82.76000213623047,
         82.45999908447266,
         82.30999755859375,
@@ -214,22 +211,23 @@
         84.8499984741211,
         85.0,
         85.36000061035156,
-        85.04000091552734,
-        85.08000183105469
+        84.87000274658203,
+        84.98999786376953,
+        84.19000244140625,
+        84.33000183105469,
+        84.27999877929688
       ],
-      "as_of": "2026-07-29 15:21 UTC",
+      "as_of": "2026-07-29 16:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 19.78,
-      "change": 1.5700000000000003,
-      "change_pct": 8.621636463481606,
+      "price": 19.86,
+      "change": 1.6499999999999986,
+      "change_pct": 9.060955518945626,
       "series": [
-        19.329999923706055,
-        18.709999084472656,
         18.510000228881836,
         18.079999923706055,
         17.959999084472656,
@@ -258,14 +256,46 @@
         19.290000915527344,
         19.719999313354492,
         19.84000015258789,
-        19.84000015258789,
-        19.780000686645508
+        19.899999618530273,
+        19.90999984741211,
+        19.90999984741211,
+        19.860000610351562
       ],
-      "as_of": "2026-07-29 15:21 UTC",
+      "as_of": "2026-07-29 16:44 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
+    {
+      "title": "National beer and wine distributor files Chapter 11 bankruptcy",
+      "url": "https://finance.yahoo.com/small-business/articles/giant-wine-spirits-brand-files-170700174.html",
+      "published": "2026-07-29T00:09:53Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Why Wall Street Is Split on Phillips 66 (PSX) Even as Its Numbers Improve",
+      "url": "https://finance.yahoo.com/energy/articles/why-wall-street-split-phillips-162957977.html",
+      "published": "2026-07-29T16:29:57Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Stock Market Today: Dow Sinks As Fed Rate Call Looms; Bloom Energy Reverses Lower After Crushing Earnings (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-decision-warsh-sk-hynix-stock/?src=A00220&yptr=yahoo",
+      "published": "2026-07-29T16:24:06Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Tech stocks today: Microsoft and Meta to report earnings, as chip stocks struggle",
+      "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-big-tech-earnings-134611080.html",
+      "published": "2026-07-27T13:46:11Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Dow Leader Rides Surging Oil Prices And Trump's Venezuela Spoils",
+      "url": "https://www.investors.com/news/dow-jones-stock-chevron-oil-price-surge-trump-venezuela-cvx-stock-price/?src=A00220&yptr=yahoo",
+      "published": "2026-07-29T16:16:33Z",
+      "source": "Investor's Business Daily"
+    },
     {
       "title": "Secretary Bessent cracks down on non-profit tax loopholes",
       "url": "https://finance.yahoo.com/economy/policy/articles/secretary-bessent-cracks-down-non-160600716.html",
@@ -273,64 +303,28 @@
       "source": "TheStreet"
     },
     {
-      "title": "Stock market today: Dow falls over 800 points, S&P 500 and Nasdaq slide in countdown to Fed decision, AI earnings test",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-29-dow-sp-500-nasdaq-082009165.html",
-      "published": "2026-07-29T08:20:09Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "X, World Federation of Advertisers settle litigation over GARM dispute",
-      "url": "https://finance.yahoo.com/media-advertising/articles/x-world-federation-advertisers-settle-150551887.html",
-      "published": "2026-07-29T15:05:51Z",
+      "title": "Oil jumps 7% on escalating Middle East airstrikes",
+      "url": "https://finance.yahoo.com/news/oil-rises-us-iran-tension-032028533.html",
+      "published": "2026-07-29T16:16:12Z",
       "source": "Reuters"
     },
     {
-      "title": "S&P 500 Stocks: GEHC Revives, Humana Fades On Earnings",
-      "url": "https://www.investors.com/news/sp-500-stock-gehc-humana-q2-earnings/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T15:05:36Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Fed meeting live: Federal Reserve expected to hold rates steady, but Iran war adds tension",
-      "url": "https://finance.yahoo.com/economy/live/fed-meeting-live-federal-reserve-july-interest-rate-decision-141813444.html",
-      "published": "2026-07-28T14:18:13Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Toyota doubles down on EVs while rivals retreat",
-      "url": "https://finance.yahoo.com/technology/articles/toyota-doubles-down-evs-while-033300077.html",
-      "published": "2026-07-28T03:33:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "SoFi Earnings, Revenue Top Estimates. Here's Why Fintech Stock Tumbled.",
-      "url": "https://www.investors.com/news/technology/sofi-stock-sofi-earnings-news-q22026/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T14:47:38Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Why Ericsson\u2019s Worst Day in Three Years Wasn\u2019t About This Quarter\u2019s Numbers",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-ericsson-worst-day-three-144514841.html",
-      "published": "2026-07-29T14:45:14Z",
+      "title": "Caterpillar Trades at 3x Its Historical Multiple \u2014 Michael Burry Is Betting Against It",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-trades-3x-historical-multiple-161312284.html",
+      "published": "2026-07-29T16:13:12Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "ARK Buys Millions In Falling Space Names. SpaceX Preps Classified Mission.",
-      "url": "https://www.investors.com/news/cathie-wood-ark-invest-spacex-space-stocks-rocket-lab-kratos-intuitive-machines-tesla-space-force/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T14:44:27Z",
+      "title": "'Unprecedented' OpenAI Cyberattack Brings Palo Alto, CrowdStrike Into Focus",
+      "url": "https://www.investors.com/research/ibd-industry-themes/openai-cyberattack-palo-alto-stock-crowdstrike/?src=A00220&yptr=yahoo",
+      "published": "2026-07-29T16:08:25Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Bloom Energy Earnings Surge 680%, But AI Power Player Wavers",
-      "url": "https://www.investors.com/news/bloom-energy-earnings-be-stock-q2-ai-infrastructure-winner/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T14:44:17Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Analyst Report: MSCI Inc",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_4456_AnalystReport_1785323789000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-29T11:16:29Z",
-      "source": "Argus Research"
+      "title": "Qualcomm Q3 earnings to highlight AI's impact on smartphone market, data center plans",
+      "url": "https://finance.yahoo.com/technology/article/qualcomm-q3-earnings-to-highlight-ais-impact-on-smartphone-market-data-center-plans-160509349.html",
+      "published": "2026-07-29T16:05:09Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "One dividend ETF makes $1,000 a month possible",
@@ -339,34 +333,28 @@
       "source": "TheStreet"
     },
     {
-      "title": "Stocks drop as Mideast fighting reignites, Fed decision looms",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-muted-investors-count-down-085413437.html",
-      "published": "2026-07-29T14:42:47Z",
+      "title": "Explainer-Can J&J finally put the talc litigation behind it?",
+      "url": "https://finance.yahoo.com/healthcare/articles/explainer-j-j-finally-put-160252107.html",
+      "published": "2026-07-29T16:02:52Z",
       "source": "Reuters"
     },
     {
-      "title": "SoFi is revving up consumer lending. Investors are tapping the breaks.",
-      "url": "https://finance.yahoo.com/markets/article/sofi-is-revving-up-consumer-lending-investors-are-tapping-the-breaks-144223166.html",
-      "published": "2026-07-29T14:42:23Z",
+      "title": "Stock market today: Dow falls over 800 points, S&P 500 and Nasdaq slide in countdown to Fed decision, AI earnings test",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-29-dow-sp-500-nasdaq-082009165.html",
+      "published": "2026-07-29T08:20:09Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Anthropic\u2019s IPO Could Be a $240 Billion Moment for Amazon (AMZN)",
-      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-could-240-billion-143820086.html",
-      "published": "2026-07-29T14:38:20Z",
-      "source": "Insider Monkey"
+      "title": "Apple says UK App Store proposal amounts to price regulation",
+      "url": "https://finance.yahoo.com/technology/articles/apple-says-uk-app-store-155341930.html",
+      "published": "2026-07-29T15:55:06Z",
+      "source": "Reuters"
     },
     {
-      "title": "Nvidia Partner SK Hynix Misses Q2 Sales Target But Profit Surprises",
-      "url": "https://www.investors.com/news/technology/skhy-stock-sk-hynix-q2-2026-earnings/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T14:37:39Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Analyst Report: PayPal Holdings Inc",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3645_AnalystReport_1785323789000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-29T11:16:29Z",
-      "source": "Argus Research"
+      "title": "Ram, Jeep parent Stellantis needs to prove turnaround plan is working: H1 earnings preview",
+      "url": "https://finance.yahoo.com/markets/stocks/article/ram-jeep-parent-stellantis-needs-to-prove-turnaround-plan-is-working-h1-earnings-preview-154647532.html",
+      "published": "2026-07-29T15:46:47Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Major cannabis company closes 2 facilities, cuts 211 jobs",
@@ -375,34 +363,28 @@
       "source": "TheStreet"
     },
     {
-      "title": "Semiconductor stocks are going up in smoke. But the S&P 500 is holding strong.",
-      "url": "https://finance.yahoo.com/markets/article/semiconductor-stocks-are-going-up-in-smoke-but-the-sp-500-is-holding-strong-143223884.html",
-      "published": "2026-07-29T14:32:23Z",
+      "title": "What soaring Treasury yields mean for your finances",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/what-soaring-treasury-yields-mean-for-your-finances-141336109.html",
+      "published": "2026-05-19T14:13:36Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Nvidia, Micron, AMD sink as SK Hynix results fail to impress, AI trade unwinds",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-micron-amd-sink-as-sk-hynix-results-fail-to-impress-ai-trade-unwinds-130352334.html",
+      "published": "2026-07-29T13:03:52Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Garmin Stock Breaks Out On Second-Quarter Beat, Raised Outlook",
-      "url": "https://www.investors.com/news/technology/garmin-stock-grmn-q2-2026-earnings/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T14:30:55Z",
-      "source": "Investor's Business Daily"
+      "title": "Starbucks expected to post another solid quarter with sustained turnaround momentum",
+      "url": "https://finance.yahoo.com/markets/stocks/article/starbucks-expected-to-post-another-solid-quarter-with-sustained-turnaround-momentum-154557895.html",
+      "published": "2026-07-29T15:45:57Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Exxon Mobil (XOM): President Trump\u2019s Top Energy Stock Pick?",
-      "url": "https://finance.yahoo.com/energy/articles/exxon-mobil-xom-president-trump-142914070.html",
-      "published": "2026-07-29T14:29:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Reddit\u2019s Self-Service Ad Push Could Matter More Than Its Headline Growth Numbers",
-      "url": "https://finance.yahoo.com/media-advertising/articles/reddit-self-ad-push-could-142838993.html",
-      "published": "2026-07-29T14:28:38Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Analyst Report: KeyCorp",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3759_AnalystReport_1785323789000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-07-29T11:16:29Z",
-      "source": "Argus Research"
+      "title": "Grayscale Calls HYPE Cheap Beside Coinbase, Robinhood and Circle",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/grayscale-calls-hype-cheap-beside-153700194.html",
+      "published": "2026-07-29T15:37:00Z",
+      "source": "CryptoProwl"
     },
     {
       "title": "Fed Chair leads two-day meeting as fear grips markets",
@@ -411,99 +393,117 @@
       "source": "TheStreet"
     },
     {
-      "title": "Stock Market Today: Dow Dives 600 Points As Oil Spikes, Fed Decision Looms; Seagate Outperforms (Live Coverage)",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-decision-warsh-sk-hynix-stock/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T14:25:58Z",
-      "source": "Investor's Business Daily"
+      "title": "BNSF CEO assails new rail merger filing, says transcon will raise rates, prices",
+      "url": "https://finance.yahoo.com/economy/policy/articles/bnsf-ceo-assails-rail-merger-153542828.html",
+      "published": "2026-07-29T15:35:42Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "SpaceX stock back under pressure as Q2 earnings approach",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-back-under-pressure-as-q2-earnings-approach-152137218.html",
+      "published": "2026-07-29T15:21:37Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Reddit (RDDT): A Buy Ahead Of Earnings, Or Is The Selloff Justified?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-rddt-buy-ahead-earnings-152057364.html",
+      "published": "2026-07-29T15:20:57Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Logitech CEO: Our team is an operations powerhouse that will move past  supplier issue",
+      "url": "https://finance.yahoo.com/markets/article/logitech-ceo-our-team-is-an-operations-powerhouse-that-will-move-past-supplier-issue-151702459.html",
+      "published": "2026-07-29T15:17:02Z",
+      "source": "Yahoo Finance"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 339.8,
+      "price": 340.53,
       "prev_close": 340.08,
-      "change_pct": -0.08233356857209266
+      "change_pct": 0.13232180663372992
     },
     "MSFT": {
-      "price": 395.35,
+      "price": 394.005,
       "prev_close": 393.35,
-      "change_pct": 0.5084530316512013
+      "change_pct": 0.16651836786576144
     },
     "NVDA": {
-      "price": 192.435,
+      "price": 191.53,
       "prev_close": 197.01,
-      "change_pct": -2.322217146337744
+      "change_pct": -2.7815846911324247
     },
     "GOOGL": {
-      "price": 334.44,
+      "price": 335.16,
       "prev_close": 333.71,
-      "change_pct": 0.21875280932546767
+      "change_pct": 0.43450900482456195
     },
     "AMZN": {
-      "price": 227.95,
+      "price": 229.07,
       "prev_close": 230.86,
-      "change_pct": -1.2605042016806831
+      "change_pct": -0.7753616910681886
     },
     "META": {
-      "price": 591.475,
+      "price": 592.27,
       "prev_close": 593.41,
-      "change_pct": -0.32608146138419397
+      "change_pct": -0.19211000825735772
     },
     "TSLA": {
-      "price": 302.245,
+      "price": 301.245,
       "prev_close": 307.44,
-      "change_pct": -1.689760603695028
+      "change_pct": -2.0150273224043693
     },
     "JPM": {
-      "price": 350.08,
+      "price": 348.68,
       "prev_close": 357.31,
-      "change_pct": -2.0234530239847803
+      "change_pct": -2.415269653802019
     },
     "V": {
-      "price": 372.15,
+      "price": 372.995,
       "prev_close": 366.59,
-      "change_pct": 1.5166807605226553
+      "change_pct": 1.7471835020049726
     },
     "XOM": {
-      "price": 157.82,
+      "price": 157.51,
       "prev_close": 153.04,
-      "change_pct": 3.123366440146368
+      "change_pct": 2.92080501829587
     },
     "SPY": {
-      "price": 734.74,
+      "price": 733.05,
       "prev_close": 740.86,
-      "change_pct": -0.8260670032124834
+      "change_pct": -1.054180276975415
     },
     "QQQ": {
-      "price": 667.27,
+      "price": 665.29,
       "prev_close": 675.49,
-      "change_pct": -1.2168944025818336
+      "change_pct": -1.5100149521088462
     },
     "AMD": {
-      "price": 431.19,
+      "price": 427.07,
       "prev_close": 454.62,
-      "change_pct": -5.15375478421539
+      "change_pct": -6.060006158989928
     },
     "NFLX": {
-      "price": 72.335,
+      "price": 72.65,
       "prev_close": 72.39,
-      "change_pct": -0.07597734493715544
+      "change_pct": 0.35916563061197004
     },
     "COIN": {
-      "price": 164.485,
+      "price": 163.64,
       "prev_close": 167.9,
-      "change_pct": -2.033948779035135
+      "change_pct": -2.537224538415735
     },
     "PLTR": {
-      "price": 124.61,
+      "price": 124.08,
       "prev_close": 123.53,
-      "change_pct": 0.8742815510402316
+      "change_pct": 0.44523597506678314
     },
     "BRK-B": {
-      "price": 509.81,
+      "price": 509.675,
       "prev_close": 512.37,
-      "change_pct": -0.4996389328024674
+      "change_pct": -0.5259870796494708
     }
   },
-  "updated_at": "2026-07-29T15:21:35.523079+00:00",
+  "updated_at": "2026-07-29T16:44:39.156473+00:00",
   "source": "yahoo_finance"
 }
