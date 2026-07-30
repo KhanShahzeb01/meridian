@@ -41,7 +41,7 @@
         7320.22998046875,
         7316.14990234375
       ],
-      "as_of": "2026-07-30 10:51 UTC",
+      "as_of": "2026-07-30 12:22 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         24465.515625,
         24442.94140625
       ],
-      "as_of": "2026-07-30 10:51 UTC",
+      "as_of": "2026-07-30 12:22 UTC",
       "source": "yahoo"
     },
     {
@@ -129,20 +129,17 @@
         51618.2890625,
         51594.140625
       ],
-      "as_of": "2026-07-30 10:51 UTC",
+      "as_of": "2026-07-30 12:22 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4139.8,
-      "change": 42.80000000000018,
-      "change_pct": 1.044666829387361,
+      "price": 4133.8,
+      "change": 36.80000000000018,
+      "change_pct": 0.8982182084452083,
       "series": [
-        4166.7998046875,
-        4143.60009765625,
-        4104.7001953125,
         4114.2001953125,
         4126.0,
         4132.7001953125,
@@ -170,23 +167,23 @@
         4125.60009765625,
         4121.5,
         4134.7998046875,
-        4138.0,
-        4139.7998046875
+        4136.39990234375,
+        4136.60009765625,
+        4136.0,
+        4133.7998046875,
+        4133.7998046875
       ],
-      "as_of": "2026-07-30 10:51 UTC",
+      "as_of": "2026-07-30 12:22 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 83.41,
-      "change": -1.0499999999999972,
-      "change_pct": -1.2431920435709178,
+      "price": 83.64,
+      "change": -0.8199999999999932,
+      "change_pct": -0.9708737864077589,
       "series": [
-        84.44999694824219,
-        84.66000366210938,
-        84.88999938964844,
         84.91999816894531,
         84.5999984741211,
         84.44000244140625,
@@ -214,23 +211,23 @@
         84.05999755859375,
         84.45999908447266,
         84.2300033569336,
-        83.5199966430664,
-        83.41000366210938
+        83.73999786376953,
+        83.63999938964844,
+        83.54000091552734,
+        83.69000244140625,
+        83.63999938964844
       ],
-      "as_of": "2026-07-30 10:51 UTC",
+      "as_of": "2026-07-30 12:22 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 19.48,
-      "change": -1.1799999999999997,
-      "change_pct": -5.711519845111325,
+      "price": 19.02,
+      "change": -1.6400000000000006,
+      "change_pct": -7.93804453049371,
       "series": [
-        18.25,
-        18.149999618530273,
-        18.209999084472656,
         18.389999389648438,
         18.280000686645508,
         18.350000381469727,
@@ -258,10 +255,13 @@
         19.549999237060547,
         19.739999771118164,
         19.489999771118164,
-        19.489999771118164,
-        19.479999542236328
+        19.510000228881836,
+        19.200000762939453,
+        19.079999923706055,
+        19.030000686645508,
+        19.020000457763672
       ],
-      "as_of": "2026-07-30 10:51 UTC",
+      "as_of": "2026-07-30 12:22 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,28 +273,34 @@
       "source": "TheStreet"
     },
     {
-      "title": "SK Hynix's record profit misses forecasts, shares slump 10% despite robust AI chip demand",
-      "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-q2-profit-jumps-225720194.html",
-      "published": "2026-07-28T22:57:20Z",
+      "title": "Microsoft's $41 billion AI bet just cleared a major test: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/microsofts-41-billion-ai-bet-just-cleared-a-major-test-chart-of-the-day-100000116.html",
+      "published": "2026-07-30T10:00:00Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Sphere Entertainment Stock Rises On Q2 Revenue Beat",
+      "url": "https://www.investors.com/news/technology/sphere-stock-sphr-q2-2026-report/?src=A00220&yptr=yahoo",
+      "published": "2026-07-30T11:49:34Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Bristol Myers raises 2026 forecast as Eliquis, newer medicines power results",
+      "url": "https://finance.yahoo.com/healthcare/articles/bristol-myers-raises-2026-forecast-105959030.html",
+      "published": "2026-07-30T11:41:57Z",
       "source": "Reuters"
     },
     {
-      "title": "My spouse just died \u2014\u00a0do I have to pay off their credit card debt?",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/my-spouse-just-died--do-i-have-to-pay-off-their-credit-card-debt-211343681.html",
-      "published": "2025-03-19T21:13:43Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Ram, Jeep parent Stellantis reports profit and sales jump, but only reaffirms full-year guidance",
+      "url": "https://finance.yahoo.com/markets/stocks/article/ram-jeep-parent-stellantis-reports-profit-and-sales-jump-but-only-reaffirms-full-year-guidance-154647532.html",
+      "published": "2026-07-29T15:46:47Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "How to save cash: 7 ways to protect and grow your liquid savings",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-save-cash-grow-liquid-savings-162718210.html",
-      "published": "2026-07-28T16:27:18Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "7 best life insurance companies of 2026",
-      "url": "https://finance.yahoo.com/personal-finance/insurance/article/best-life-insurance-companies-185541475.html",
-      "published": "2026-07-28T18:55:41Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Market Digest: BX, CAKE, DECK, KO, LVS, RJF, STX, RTX",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47771_MarketSummary_1785408971000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-30T10:56:11Z",
+      "source": "Argus Research"
     },
     {
       "title": "Jim Cramer says this post-earnings sell-off is a golden buying opportunity",
@@ -303,76 +309,22 @@
       "source": "TheStreet"
     },
     {
-      "title": "Landstar expects to emerge a winner in post-Montgomery world",
-      "url": "https://finance.yahoo.com/small-business/articles/landstar-expects-emerge-winner-post-232126375.html",
-      "published": "2026-07-28T23:21:26Z",
-      "source": "FreightWaves"
+      "title": "US 30-year yield hits 2007 high, stocks attempt post-earnings recovery",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-choppy-rout-fed-014549754.html",
+      "published": "2026-07-30T11:36:12Z",
+      "source": "Reuters"
     },
     {
-      "title": "As semiconductor stocks slide, these chip startup IPOs could stall",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-stocks-slide-7-chip-232813155.html",
-      "published": "2026-07-28T23:28:13Z",
-      "source": "Pitchbook"
+      "title": "This Old-School Sector Battles Semiconductor ETFs For Supremacy",
+      "url": "https://www.investors.com/etfs-and-funds/etfs/sp500-old-school-sector-battles-semiconductor-etfs-for-supremacy/?src=A00220&yptr=yahoo",
+      "published": "2026-07-30T11:35:04Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "This High-Yield Bank Stock Just Raised Its Dividend by 11.7%.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/high-yield-bank-stock-just-233002188.html",
-      "published": "2026-07-28T23:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "12 types of CDs: Which one is right for you?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/types-of-cds-172454512.html",
-      "published": "2024-10-25T17:24:54Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Overlooked AI stock is growing faster than Nvidia",
-      "url": "https://finance.yahoo.com/technology/ai/articles/overlooked-ai-stock-growing-faster-013700188.html",
-      "published": "2026-07-30T01:37:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "The U.S. Army Just Called China\u2019s Bluff in the Rare Earth War",
-      "url": "https://finance.yahoo.com/energy/articles/u-army-just-called-china-000000486.html",
-      "published": "2026-07-29T00:00:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "Is it safe to store money in apps like Venmo, PayPal, and Cash App?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/can-you-hold-money-cash-app-paypal-venmo-182920026.html",
-      "published": "2024-04-25T18:29:20Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Rithm Property Trust Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/real-estate/articles/rithm-property-trust-inc-q2-002657405.html",
-      "published": "2026-07-29T00:26:57Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Ionic Digital Reaches $2.75B Valuation After Nasdaq Debut",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ionic-digital-reaches-2-75b-000400511.html",
-      "published": "2026-07-29T00:04:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Itron (ITRI) Soars 26% After Earnings Beat, Raised Growth Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/itron-itri-soars-26-earnings-003009308.html",
-      "published": "2026-07-29T00:30:09Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Werner Enterprises, Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/werner-enterprises-inc-q2-2026-003158612.html",
-      "published": "2026-07-29T00:31:58Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Ford Motor Company Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ford-motor-company-q2-2026-003035679.html",
-      "published": "2026-07-29T00:30:35Z",
-      "source": "Moby"
+      "title": "Elon Musk hints at donating entire $1T fortune after shock 2036 prediction \u2014 why extreme deflation could be ahead",
+      "url": "https://finance.yahoo.com/economy/articles/elon-musk-hints-donating-entire-113500876.html",
+      "published": "2026-07-30T11:35:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "Werner CEO Leathers: just the 3rd inning in driver attrition",
@@ -381,16 +333,16 @@
       "source": "FreightWaves"
     },
     {
-      "title": "SK Hynix's Record Profit Misses Investors' Lofty AI Expectations",
-      "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynixs-record-profit-misses-investors-lofty-ai-expectations-225142990.html",
-      "published": "2026-07-28T22:51:42Z",
-      "source": "Bloomberg"
+      "title": "Daily \u2013 Vickers Top Buyers & Sellers for 07/30/2026",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47770_TopBottomInsiderActivity_1785407725000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-30T10:35:25Z",
+      "source": "Argus Research"
     },
     {
-      "title": "Will the housing market crash in 2026? What the first half of the year tells us",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-what-the-first-half-of-the-year-tells-us-170038540.html",
-      "published": "2024-07-05T17:00:38Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Overlooked AI stock is growing faster than Nvidia",
+      "url": "https://finance.yahoo.com/technology/ai/articles/overlooked-ai-stock-growing-faster-013700188.html",
+      "published": "2026-07-30T01:37:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "Lucid Group (LCID) Soars 21% as Saudi Prince Backing Eases Financial Health Worries",
@@ -399,22 +351,70 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Understanding the Fed's rate decisions: Do we want high or low interest rates\u200b?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/do-we-want-high-or-low-interest-rates-223031516.html",
-      "published": "2024-12-27T22:30:31Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Ford Weathers Electric Shock, Boosting Forecast Amid Defense Contracts, Energy Initiatives",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ford-weathers-electric-shock-boosting-040100407.html",
+      "published": "2026-07-29T04:01:00Z",
+      "source": "The Daily Upside"
     },
     {
-      "title": "SpaceX stock keeps sliding. What to do if you own shares.",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-keeps-sliding-what-to-do-if-you-own-shares-141704338.html",
-      "published": "2026-06-17T14:17:04Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Can China Replace Lithography Powerhouse ASML?",
+      "url": "https://finance.yahoo.com/technology/articles/china-replace-lithography-powerhouse-asml-040100120.html",
+      "published": "2026-07-29T04:01:00Z",
+      "source": "The Daily Upside"
     },
     {
-      "title": "Most Founders Leave 6 Figures on the Table When They Sell. Here\u2019s Why.",
-      "url": "https://finance.yahoo.com/small-business/articles/most-founders-leave-6-figures-230000660.html",
-      "published": "2026-07-28T23:00:00Z",
-      "source": "Entrepreneur"
+      "title": "Visa Lays Off 7% of Workforce, Charging AI With Some Tasks",
+      "url": "https://finance.yahoo.com/technology/ai/articles/visa-lays-off-7-workforce-040100351.html",
+      "published": "2026-07-29T04:01:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "Daily \u2013 Vickers Top Insider Picks for 07/30/2026",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47769_InsiderActivity_1785407725000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-07-30T10:35:25Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "The Big Cash Flow Problem That Is Sinking Meta Stock After Earnings",
+      "url": "https://www.barrons.com/articles/meta-platforms-earnings-stock-price-e544d10c?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-30T11:55:00Z",
+      "source": "Barrons.com"
+    },
+    {
+      "title": "After Outflows, Advisors Could Fuel Bitcoin\u2019s Next Move",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/outflows-advisors-could-fuel-bitcoin-040100059.html",
+      "published": "2026-07-29T04:01:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "Dow Jones Futures Rise; Microsoft, Meta Lead Big Earnings After Market Tumbles, Oil Prices Soar",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-trump-iran-threats-microsoft-meta-fortinet-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-07-30T11:33:12Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "After Wild Ride, ETF Investors Pump the Brakes on Energy Funds",
+      "url": "https://finance.yahoo.com/energy/articles/wild-ride-etf-investors-pump-040300414.html",
+      "published": "2026-07-29T04:03:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "ETF Odyssey Continues as Issuers Sail Toward Another Record-Breaking Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-odyssey-continues-issuers-sail-040200658.html",
+      "published": "2026-07-29T04:02:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "Samsung Q2 2026 earnings: Record profit, mobile unit swings to loss",
+      "url": "https://finance.yahoo.com/technology/articles/samsung-q2-2026-earnings-record-115328985.html",
+      "published": "2026-07-30T11:53:28Z",
+      "source": "Quartz"
+    },
+    {
+      "title": "Oil prices jump, while the Dow drops more than 1,100 as sinking AI stocks drag Wall Street lower",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/south-koreas-kospi-share-index-034305077.html",
+      "published": "2026-07-29T03:43:05Z",
+      "source": "Associated Press"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.6265003805843393
     }
   },
-  "updated_at": "2026-07-30T10:51:39.718875+00:00",
+  "updated_at": "2026-07-30T12:22:10.178614+00:00",
   "source": "yahoo_finance"
 }
