@@ -41,7 +41,7 @@
         7437.52978515625,
         7437.6298828125
       ],
-      "as_of": "2026-07-31 07:35 UTC",
+      "as_of": "2026-07-31 10:10 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25114.98828125,
         25122.177734375
       ],
-      "as_of": "2026-07-31 07:35 UTC",
+      "as_of": "2026-07-31 10:10 UTC",
       "source": "yahoo"
     },
     {
@@ -129,23 +129,17 @@
         52208.6484375,
         52208.05859375
       ],
-      "as_of": "2026-07-31 07:35 UTC",
+      "as_of": "2026-07-31 10:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4132.6,
-      "change": -28.0,
-      "change_pct": -0.6729798586742297,
+      "price": 4111.2,
+      "change": -49.400000000000546,
+      "change_pct": -1.1873287506609753,
       "series": [
-        4155.10009765625,
-        4167.0,
-        4175.39990234375,
-        4169.7998046875,
-        4160.7998046875,
-        4161.5,
         4162.2998046875,
         4158.7998046875,
         4172.0,
@@ -170,26 +164,26 @@
         4132.10009765625,
         4143.2001953125,
         4135.39990234375,
-        4132.89990234375,
-        4132.60009765625
+        4130.5,
+        4125.10009765625,
+        4115.7001953125,
+        4117.60009765625,
+        4108.7001953125,
+        4111.2998046875,
+        4109.5,
+        4111.2001953125
       ],
-      "as_of": "2026-07-31 07:35 UTC",
+      "as_of": "2026-07-31 10:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.41,
-      "change": -1.1800000000000068,
-      "change_pct": -1.4116521114965985,
+      "price": 83.75,
+      "change": 0.1599999999999966,
+      "change_pct": 0.19141045579614377,
       "series": [
-        84.30999755859375,
-        84.06999969482422,
-        83.62000274658203,
-        84.08999633789062,
-        83.8499984741211,
-        84.08000183105469,
         83.55999755859375,
         83.5199966430664,
         83.54000091552734,
@@ -214,25 +208,26 @@
         81.69000244140625,
         82.01000213623047,
         82.02999877929688,
-        82.51000213623047,
-        82.41000366210938
+        82.55999755859375,
+        82.18000030517578,
+        82.7300033569336,
+        82.58999633789062,
+        82.86000061035156,
+        83.70999908447266,
+        83.86000061035156,
+        83.75
       ],
-      "as_of": "2026-07-31 07:35 UTC",
+      "as_of": "2026-07-31 10:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.82,
-      "change": -0.2699999999999996,
-      "change_pct": -1.5798712697483883,
+      "price": 16.83,
+      "change": -0.26000000000000156,
+      "change_pct": -1.5213575190169781,
       "series": [
-        19.190000534057617,
-        20.299999237060547,
-        20.6299991607666,
-        19.790000915527344,
-        19.899999618530273,
         19.639999389648438,
         19.790000915527344,
         19.549999237060547,
@@ -258,25 +253,36 @@
         17.549999237060547,
         17.34000015258789,
         17.079999923706055,
-        16.809999465942383,
-        16.81999969482422
+        16.829999923706055,
+        16.84000015258789,
+        16.739999771118164,
+        16.719999313354492,
+        16.729999542236328,
+        16.829999923706055,
+        16.829999923706055
       ],
-      "as_of": "2026-07-31 07:35 UTC",
+      "as_of": "2026-07-31 10:10 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Markets react to Fed's July interest rate decision",
-      "url": "https://finance.yahoo.com/economy/policy/articles/markets-react-feds-july-interest-210558874.html",
-      "published": "2026-07-29T21:05:58Z",
-      "source": "TheStreet"
-    },
-    {
       "title": "Jim Cramer says this post-earnings sell-off is a golden buying opportunity",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-post-earnings-221700892.html",
       "published": "2026-07-29T22:17:00Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "How the Fed's rate decision affects your bank accounts, loans, credit cards, and investments",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-the-feds-rate-decision-affects-your-bank-accounts-loans-credit-cards-and-investments-220526730.html",
+      "published": "2024-12-17T22:05:26Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Types of life insurance: A complete guide",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/types-of-life-insurance-173512440.html",
+      "published": "2026-07-29T17:35:12Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "How many Americans have no savings?",
@@ -285,22 +291,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Why Amazon\u2019s Solid Q2 Won\u2019t Be Enough to Lift AMZN Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-amazon-solid-q2-won-192805322.html",
-      "published": "2026-07-29T19:28:05Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Aon plc Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/aon-plc-q2-2026-earnings-192604292.html",
-      "published": "2026-07-29T19:26:04Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Dear Spotify Stock Fans, Mark Your Calendars for August 4",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-spotify-stock-fans-mark-192745992.html",
-      "published": "2026-07-29T19:27:45Z",
-      "source": "Barchart"
+      "title": "Long-term care insurance explained",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/long-term-care-insurance-194903621.html",
+      "published": "2026-07-29T19:49:03Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "Fed interest-rate decision rocks Wall Street's inflation fears",
@@ -309,112 +303,118 @@
       "source": "TheStreet"
     },
     {
-      "title": "Agentic AI Is Coming to Chip Design. Here Is Why Synopsys Stock Could Be the Biggest Beneficiary.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/agentic-ai-coming-chip-design-192830292.html",
-      "published": "2026-07-29T19:28:30Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Biogen Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/healthcare/articles/biogen-inc-q2-2026-earnings-193130531.html",
-      "published": "2026-07-29T19:31:30Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Ethereum Foundation Names Industry Veteran To Board Of Directors",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/ethereum-foundation-names-industry-veteran-193200796.html",
-      "published": "2026-07-29T19:32:00Z",
+      "title": "Crypto Exchange Luno Cuts 20% Of Staff",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-exchange-luno-cuts-20-220600753.html",
+      "published": "2026-07-29T22:06:00Z",
       "source": "CryptoProwl"
     },
     {
-      "title": "Vertiv (VRT) Stock Sinks Despite Earnings Beat. What to Know.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-vrt-stock-sinks-despite-193316117.html",
-      "published": "2026-07-29T19:33:16Z",
+      "title": "Fortive Corporation Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fortive-corporation-q2-2026-earnings-220807199.html",
+      "published": "2026-07-29T22:08:07Z",
+      "source": "Moby"
+    },
+    {
+      "title": "ArcBest Corporation Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arcbest-corporation-q2-2026-earnings-220802631.html",
+      "published": "2026-07-29T22:08:02Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Old Dominion Freight Line, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/old-dominion-freight-line-inc-221246422.html",
+      "published": "2026-07-29T22:12:46Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Uber cuts dozens of jobs amid AI restructuring",
+      "url": "https://finance.yahoo.com/technology/ai/articles/uber-cuts-dozens-jobs-amid-220700922.html",
+      "published": "2026-07-29T22:07:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Helix Energy Solutions Group, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/helix-energy-solutions-group-inc-221328378.html",
+      "published": "2026-07-29T22:13:28Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Corn Pushes Lower on Wednesday",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-pushes-lower-wednesday-221549237.html",
+      "published": "2026-07-29T22:15:49Z",
       "source": "Barchart"
     },
     {
-      "title": "Hims & Hers Stock Plunges After FTC Sues Over Alleged Privacy Violations",
-      "url": "https://www.barrons.com/articles/hims-hers-stock-federal-lawsuit-3c25e68c?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-07-29T19:28:00Z",
+      "title": "Cotton Falls on Wednesday",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-falls-wednesday-221549128.html",
+      "published": "2026-07-29T22:15:49Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Soybeans Collapse on Wednesday, as Forecasts Remain Wet",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-collapse-wednesday-forecasts-remain-221549841.html",
+      "published": "2026-07-29T22:15:49Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Warsh Spins a Good Yarn on Bringing Down Inflation, But Markets Aren\u2019t Buying It",
+      "url": "https://www.barrons.com/articles/warsh-bringing-down-inflation-markets-arent-buying-it-e4062cc7?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-07-29T22:08:00Z",
       "source": "Barrons.com"
     },
     {
-      "title": "Here\u2019s What Rising Defense Spending Means for Northrop Grumman (NOC)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rising-defense-spending-means-northrop-193908379.html",
-      "published": "2026-07-29T19:39:08Z",
-      "source": "Insider Monkey"
+      "title": "Humana Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/healthcare/articles/humana-inc-q2-2026-earnings-221819426.html",
+      "published": "2026-07-29T22:18:19Z",
+      "source": "Moby"
     },
     {
-      "title": "Dollar Falls as FOMC Keeps Interest Rates Unchanged",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-falls-fomc-keeps-interest-194617193.html",
-      "published": "2026-07-29T19:46:17Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Long-term care insurance explained",
-      "url": "https://finance.yahoo.com/personal-finance/insurance/article/long-term-care-insurance-194903621.html",
-      "published": "2026-07-29T19:49:03Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Bitcoin Price Forecast: BTC Risks Strong Drop Below $60K After Double Top",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-forecast-btc-risks-195333762.html",
-      "published": "2026-07-29T19:53:33Z",
-      "source": "FX Empire"
-    },
-    {
-      "title": "Top Broker Ryan Serhant Says Homeowners With 3% Mortgages Are 'Imprisoned in Their Own Homes' as Housing Splits Into 'Four Americas'",
-      "url": "https://finance.yahoo.com/real-estate/articles/top-broker-ryan-serhant-says-193016553.html",
-      "published": "2026-07-29T19:30:16Z",
-      "source": "Benzinga"
-    },
-    {
-      "title": "AI-Fueled Demand Signals a Bigger Opportunity for Bloom Energy (BE) Investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-fueled-demand-signals-bigger-195804712.html",
-      "published": "2026-07-29T19:58:04Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Intel Stock Sinks 40%, But Most Analysts Still Aren\u2019t Bullish on INTC",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-sinks-40-most-195720281.html",
-      "published": "2026-07-29T19:57:20Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Qualcomm forecasts weak quarterly profit, expects Apple revenue drop to accelerate",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-forecasts-weak-quarterly-profit-200152315.html",
-      "published": "2026-07-29T20:01:52Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Bloom Energy Earnings Surge 680%, But AI Power Player Skids",
-      "url": "https://www.investors.com/news/bloom-energy-earnings-be-stock-q2-ai-infrastructure-winner/?src=A00220&yptr=yahoo",
-      "published": "2026-07-29T20:05:07Z",
+      "title": "Microsoft Smashes June-Quarter Targets On AI, Cloud Strength",
+      "url": "https://www.investors.com/news/technology/microsoft-stock-msft-fiscal-q4-2026-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-07-29T22:21:17Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Coca-Cola Dominated the Summer's Biggest Sporting Event. Here's Why the Dividend Stock Is a Buy in August.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-dominated-summers-biggest-193028471.html",
-      "published": "2026-07-29T19:30:28Z",
+      "title": "A Divided Fed Holds Rates Steady, Raises Doubts About Inflation Fight",
+      "url": "https://finance.yahoo.com/economy/policy/articles/divided-fed-holds-rates-steady-222216118.html",
+      "published": "2026-07-29T22:22:16Z",
+      "source": "The Fiscal Times"
+    },
+    {
+      "title": "Sun Communities, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/real-estate/articles/sun-communities-inc-q2-2026-222352420.html",
+      "published": "2026-07-29T22:23:52Z",
+      "source": "Moby"
+    },
+    {
+      "title": "American Express vs. Berkshire Hathaway: Which Financial Stock Is a Better Buy in 2026?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-express-vs-berkshire-hathaway-220946595.html",
+      "published": "2026-07-29T22:09:46Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Stock market today: Dow plunges by 1,100 points, S&P 500 and Nasdaq sink as yields rise on Fed's hawkish hold",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-29-dow-sp-500-nasdaq-082009165.html",
-      "published": "2026-07-29T08:20:09Z",
-      "source": "Yahoo Finance"
+      "title": "Prosperity Bancshares, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prosperity-bancshares-inc-q2-2026-222843707.html",
+      "published": "2026-07-29T22:28:43Z",
+      "source": "Moby"
     },
     {
-      "title": "SpaceX stock sags again to a new low as Q2 earnings approach",
-      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-sags-again-to-a-new-low-as-q2-earnings-approach-152137218.html",
-      "published": "2026-07-29T15:21:37Z",
-      "source": "Yahoo Finance"
+      "title": "Redditors Think Wall Street is Wrong About Atlassian (TEAM)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/redditors-think-wall-street-wrong-222814136.html",
+      "published": "2026-07-29T22:28:14Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Meta cash flow craters as Zuckerberg doubles down on AI spending",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-narrows-annual-capex-forecast-200515158.html",
-      "published": "2026-07-29T20:05:15Z",
-      "source": "Reuters"
+      "title": "Mechanics Bank Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mechanics-bank-q2-2026-earnings-222929389.html",
+      "published": "2026-07-29T22:29:29Z",
+      "source": "Moby"
+    },
+    {
+      "title": "SoFi Technologies, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-inc-q2-2026-223421473.html",
+      "published": "2026-07-29T22:34:21Z",
+      "source": "Moby"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.10212899677900499
     }
   },
-  "updated_at": "2026-07-31T07:35:18.185916+00:00",
+  "updated_at": "2026-07-31T10:10:02.445220+00:00",
   "source": "yahoo_finance"
 }
