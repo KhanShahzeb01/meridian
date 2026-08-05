@@ -41,7 +41,7 @@
         7735.60009765625,
         7736.52001953125
       ],
-      "as_of": "2026-08-05 07:08 UTC",
+      "as_of": "2026-08-05 09:44 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26581.990234375,
         26584.9921875
       ],
-      "as_of": "2026-08-05 07:08 UTC",
+      "as_of": "2026-08-05 09:44 UTC",
       "source": "yahoo"
     },
     {
@@ -129,23 +129,17 @@
         54090.66015625,
         54085.87890625
       ],
-      "as_of": "2026-08-05 07:08 UTC",
+      "as_of": "2026-08-05 09:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4235.1,
-      "change": 82.5,
-      "change_pct": 1.9867071232480855,
+      "price": 4215.9,
+      "change": 63.29999999999927,
+      "change_pct": 1.5243461927466952,
       "series": [
-        4140.39990234375,
-        4135.0,
-        4144.2001953125,
-        4144.7001953125,
-        4150.39990234375,
-        4151.89990234375,
         4143.10009765625,
         4141.39990234375,
         4136.7998046875,
@@ -170,26 +164,26 @@
         4197.89990234375,
         4222.2001953125,
         4228.39990234375,
-        4236.7001953125,
-        4235.10009765625
+        4237.10009765625,
+        4223.2998046875,
+        4229.89990234375,
+        4223.7998046875,
+        4219.7001953125,
+        4216.60009765625,
+        4216.2001953125,
+        4215.89990234375
       ],
-      "as_of": "2026-08-05 07:08 UTC",
+      "as_of": "2026-08-05 09:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 75.06,
-      "change": -0.7099999999999937,
-      "change_pct": -0.9370463244027898,
+      "price": 76.14,
+      "change": 0.37000000000000455,
+      "change_pct": 0.48831991553385845,
       "series": [
-        76.9000015258789,
-        76.30999755859375,
-        75.73999786376953,
-        76.0199966430664,
-        76.19999694824219,
-        75.94000244140625,
         75.88999938964844,
         75.7300033569336,
         75.80000305175781,
@@ -214,25 +208,26 @@
         75.22000122070312,
         75.04000091552734,
         75.18000030517578,
-        75.02999877929688,
-        75.05999755859375
+        75.0199966430664,
+        76.11000061035156,
+        76.01000213623047,
+        76.0199966430664,
+        76.23999786376953,
+        76.27999877929688,
+        76.1500015258789,
+        76.13999938964844
       ],
-      "as_of": "2026-08-05 07:08 UTC",
+      "as_of": "2026-08-05 09:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.5,
-      "change": 0.6400000000000006,
-      "change_pct": 4.035308953341744,
+      "price": 16.21,
+      "change": -0.28999999999999915,
+      "change_pct": -1.7575757575757522,
       "series": [
-        15.779999732971191,
-        15.829999923706055,
-        15.760000228881836,
-        15.859999656677246,
-        15.710000038146973,
         15.710000038146973,
         15.760000228881836,
         15.819999694824219,
@@ -259,9 +254,14 @@
         16.450000762939453,
         16.420000076293945,
         16.5,
-        16.5
+        16.1200008392334,
+        15.90999984741211,
+        16.0,
+        16.1299991607666,
+        16.209999084472656,
+        16.209999084472656
       ],
-      "as_of": "2026-08-05 07:08 UTC",
+      "as_of": "2026-08-05 09:44 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,112 +273,46 @@
       "source": "TheStreet"
     },
     {
-      "title": "Best 1-year CD rates for August 2026: Lock in up to 4.1% APY for the next 12 months",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-1-year-cd-rates-211702415.html",
-      "published": "2026-01-21T21:17:02Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "The Bull Case for Zoetis Stock as Michael Burry Doubles Down",
-      "url": "https://finance.yahoo.com/healthcare/articles/bull-case-zoetis-stock-michael-192034443.html",
-      "published": "2026-08-03T19:20:34Z",
+      "title": "General Motors vs. Ford: 1 Auto Giant Is Winning the EV Race",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/general-motors-vs-ford-1-233002882.html",
+      "published": "2026-08-03T23:30:02Z",
       "source": "Barchart"
     },
     {
-      "title": "Best 6-month CD rates for August 2026: Earn up to 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-6-month-cd-rates-161216488.html",
-      "published": "2026-01-09T16:12:16Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Covered Call ETFs Explained: How That 8% Yield Actually Works (and What You Give Up)",
+      "url": "https://finance.yahoo.com/markets/options/articles/covered-call-etfs-explained-8-232105238.html",
+      "published": "2026-08-03T23:21:05Z",
+      "source": "etf.com"
     },
     {
-      "title": "Clarksons Cashes In on Shipping Chaos",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/clarksons-cashes-shipping-chaos-193501812.html",
-      "published": "2026-08-03T19:35:01Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Alphabet's Earnings Skyrocketed in Q2. Here's Why They Could End Up in the Red Next Quarter",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabets-earnings-skyrocketed-q2-heres-192000891.html",
-      "published": "2026-08-03T19:20:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "This Financial Services Name Offers Two Buy Points And Accelerating Profit",
-      "url": "https://www.investors.com/research/financial-services-bank-stock-canadian-imperial-cm/?src=A00220&yptr=yahoo",
-      "published": "2026-08-03T19:12:49Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Best 18-month CD rates for August 2026: Earn up to 4.25% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-18-month-cd-rates-224504831.html",
-      "published": "2026-01-26T22:45:04Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Atkore (ATKR) Rockets 28% Despite Q2 Slump on $3.8B Buyout",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/atkore-atkr-rockets-28-despite-191214664.html",
-      "published": "2026-08-03T19:12:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Nat-Gas Prices Gain on Higher US LNG Exports",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/nat-gas-prices-gain-higher-191349153.html",
-      "published": "2026-08-03T19:13:49Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Jim Cramer and Tom Lee Share a Bullish Call That Could Shape Investors\u2019 Next Move",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tom-lee-share-193020476.html",
-      "published": "2026-08-03T19:30:20Z",
-      "source": "BeInCrypto"
-    },
-    {
-      "title": "US Treasury raises third-quarter borrowing estimate to $739 billion",
-      "url": "https://finance.yahoo.com/economy/policy/articles/us-treasury-raises-third-quarter-190213978.html",
-      "published": "2026-08-03T19:02:13Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Dollar Recovers on Strong ISM Manufacturing Index",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-recovers-strong-ism-manufacturing-193847934.html",
-      "published": "2026-08-03T19:38:47Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Best 2-year CD rates for August 2026: Lock in up to 4.25% through 2028",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-2-year-cd-rates-203147337.html",
-      "published": "2026-02-05T20:31:47Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Tyson CEO: Reopening the Mexican border won't fully solve the US beef shortage",
-      "url": "https://finance.yahoo.com/markets/stocks/article/tyson-ceo-reopening-the-mexican-border-wont-fully-solve-the-us-beef-shortage-190115305.html",
-      "published": "2026-08-03T19:01:15Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Active ETF, Model Portfolio Growth to Persist: Framsted",
-      "url": "https://finance.yahoo.com/video/active-etf-model-portfolio-growth-192101924.html",
-      "published": "2026-08-03T19:21:01Z",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "White House props up yen against backdrop of Washington-Tokyo trade deal",
-      "url": "https://finance.yahoo.com/markets/article/white-house-props-up-yen-against-backdrop-of-washington-tokyo-trade-deal-195211366.html",
-      "published": "2026-08-03T19:52:11Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Wheat, Soybean, and Corn Prices Fall to Start a New Month. What to Watch Next.",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/wheat-soybean-corn-prices-fall-190002515.html",
-      "published": "2026-08-03T19:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Big Oil Companies Report Record Profits Amid High Oil Prices",
-      "url": "https://finance.yahoo.com/energy/articles/big-oil-companies-report-record-190000465.html",
-      "published": "2026-08-03T19:00:00Z",
+      "title": "Big Oil Warns Global Fuel Stocks Are Running Dangerously Low",
+      "url": "https://finance.yahoo.com/energy/articles/big-oil-warns-global-fuel-230000108.html",
+      "published": "2026-08-03T23:00:00Z",
       "source": "Oilprice.com"
+    },
+    {
+      "title": "Behind the Ticker: How BSVO Screens Out Value Traps",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/behind-ticker-bsvo-screens-value-214721038.html",
+      "published": "2026-08-03T21:47:21Z",
+      "source": "etf.com"
+    },
+    {
+      "title": "Trader Joe's has one advantage over Walmart and Target",
+      "url": "https://finance.yahoo.com/small-business/articles/trader-joes-one-advantage-over-003700727.html",
+      "published": "2026-08-04T00:37:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Sponsors pushed for a bigger slice of continuation fund profits in H1",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sponsors-pushed-bigger-slice-continuation-214629825.html",
+      "published": "2026-08-03T21:46:29Z",
+      "source": "Pitchbook"
+    },
+    {
+      "title": "The Power Sector\u2019s New Constraint Isn\u2019t Demand\u2014It\u2019s Everything Else",
+      "url": "https://finance.yahoo.com/energy/articles/power-sector-constraint-isn-t-223828520.html",
+      "published": "2026-08-03T22:38:28Z",
+      "source": "POWER Magazine"
     },
     {
       "title": "The best CD rates for August 2026: Earn up to 4.25% APY",
@@ -387,34 +321,100 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Why Trump is meddling in the currency market",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/why-trump-meddling-currency-market-191825468.html",
-      "published": "2026-08-03T19:18:25Z",
-      "source": "The Telegraph"
+      "title": "How a US-Japan pact to hit yen speculators came together",
+      "url": "https://finance.yahoo.com/news/analysis-us-japan-pact-hit-092328850.html",
+      "published": "2026-08-03T22:26:22Z",
+      "source": "Reuters"
     },
     {
-      "title": "Amazon Stock Breaks Out To $3 Trillion Milestone. Why Cloud Giants Are Rallying.",
-      "url": "https://www.investors.com/news/technology/amazon-stock-ai-rally-hyperscalers-3-trillion/?src=A00220&yptr=yahoo",
-      "published": "2026-08-03T20:04:01Z",
-      "source": "Investor's Business Daily"
+      "title": "SpaceX\u2019s Blockbuster Earnings Report Is Coming. What to Watch.",
+      "url": "https://www.barrons.com/articles/spacex-earnings-what-to-watch-b6121f03?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-03T23:32:00Z",
+      "source": "Barrons.com"
     },
     {
-      "title": "Billionaire Ken Griffin Just Saved Situational Awareness, But Here\u2019s What a Rescue Call From Citadel Really Sounds Like \u2014 \u2018I\u2026 Heard the Grim Reaper\u2019s Scythe\u2019",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-ken-griffin-just-saved-200506637.html",
-      "published": "2026-08-03T20:05:06Z",
+      "title": "ETF Inflows Hit $191B in July as 2026 Total Nears $1.3 Trillion",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-inflows-hit-191b-july-235859379.html",
+      "published": "2026-08-03T23:58:59Z",
+      "source": "etf.com"
+    },
+    {
+      "title": "Weekly survey of mortgage lenders with the lowest rates: Revealing the wide gaps among rates and fees",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-3-170834159.html",
+      "published": "2025-11-03T17:08:34Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "How Namibia Pulled Ahead In Africa\u2019s Hottest Offshore Oil Basin",
+      "url": "https://finance.yahoo.com/energy/articles/namibia-pulled-ahead-africa-hottest-000000066.html",
+      "published": "2026-08-04T00:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Best 2-year CD rates for August 2026: Lock in up to 4.25% through 2028",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-2-year-cd-rates-203147337.html",
+      "published": "2026-02-05T20:31:47Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Billionaire reveals 'worst thing' to ever happen to Bitcoin",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/billionaire-reveals-worst-thing-ever-233136398.html",
+      "published": "2026-08-03T23:31:36Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Corn Rallies into the Monday Close as NASS Cuts Ratings",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-rallies-monday-close-nass-215900962.html",
+      "published": "2026-08-03T21:59:00Z",
       "source": "Barchart"
     },
     {
-      "title": "Applied Optoelectronics (AAOI) Rockets 18% as Investors Eye Another Strong Quarter",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-rockets-18-200529294.html",
-      "published": "2026-08-03T20:05:29Z",
-      "source": "Insider Monkey"
+      "title": "Soybeans Push Higher into Monday\u2019s Close",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-push-higher-monday-close-215900617.html",
+      "published": "2026-08-03T21:59:00Z",
+      "source": "Barchart"
     },
     {
-      "title": "Vertex raises annual revenue forecast on cystic fibrosis drugs strength",
-      "url": "https://finance.yahoo.com/healthcare/articles/vertex-raises-annual-revenue-forecast-200555407.html",
-      "published": "2026-08-03T20:05:55Z",
-      "source": "Reuters"
+      "title": "Best 18-month CD rates for August 2026: Earn up to 4.25% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-18-month-cd-rates-224504831.html",
+      "published": "2026-01-26T22:45:04Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Best 1-year CD rates for August 2026: Lock in up to 4.1% APY for the next 12 months",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-1-year-cd-rates-211702415.html",
+      "published": "2026-01-21T21:17:02Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Tesla stock surges as super bull turns slightly more bearish",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-surges-super-bull-233700951.html",
+      "published": "2026-08-03T23:37:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Best 6-month CD rates for August 2026: Earn up to 4.15% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-6-month-cd-rates-161216488.html",
+      "published": "2026-01-09T16:12:16Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Monday, August 3, 2026: Prices pulling back this morning despite de-escalation with Iran",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-3-2026-prices-pulling-back-this-morning-despite-de-escalation-with-iran-131220661.html",
+      "published": "2026-08-03T13:12:20Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Do you own America's most stolen car? What your insurance won't cover.",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/most-stolen-car-in-the-us-130000998.html",
+      "published": "2026-08-03T13:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Silver prices today, Monday, August 3, 2026: Silver prices open higher thanks to paused airstrikes",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-3-2026-silver-prices-open-higher-thanks-to-paused-airstrikes-123103873.html",
+      "published": "2026-08-03T12:31:03Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.7951046498031806
     }
   },
-  "updated_at": "2026-08-05T07:08:06.419752+00:00",
+  "updated_at": "2026-08-05T09:44:38.435491+00:00",
   "source": "yahoo_finance"
 }
