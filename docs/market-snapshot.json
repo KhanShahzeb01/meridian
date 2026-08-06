@@ -41,7 +41,7 @@
         7722.1201171875,
         7723.5498046875
       ],
-      "as_of": "2026-08-06 06:41 UTC",
+      "as_of": "2026-08-06 09:30 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26359.671875,
         26363.439453125
       ],
-      "as_of": "2026-08-06 06:41 UTC",
+      "as_of": "2026-08-06 09:30 UTC",
       "source": "yahoo"
     },
     {
@@ -129,28 +129,26 @@
         54349.94140625,
         54349.12109375
       ],
-      "as_of": "2026-08-06 06:41 UTC",
+      "as_of": "2026-08-06 09:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4314.0,
-      "change": 8.800000000000182,
-      "change_pct": 0.20440397658645784,
+      "price": 4320.7,
+      "change": 15.5,
+      "change_pct": 0.3600297314875035,
       "series": [
-        4304.2998046875,
-        4317.7001953125,
         4293.0,
-        4301.7001953125,
+        4301.60009765625,
         4302.7998046875,
         4305.0,
         4311.0,
         4323.7998046875,
         4321.2001953125,
         4314.0,
-        4307.7998046875,
+        4307.60009765625,
         4306.60009765625,
         4308.0,
         4308.2001953125,
@@ -161,35 +159,35 @@
         4354.7001953125,
         4335.7998046875,
         4346.89990234375,
-        4350.7998046875,
+        4351.10009765625,
         4337.7998046875,
         4325.5,
-        4324.7001953125,
+        4324.89990234375,
         4315.0,
         4321.39990234375,
         4312.89990234375,
-        4325.89990234375,
+        4326.0,
         4316.2998046875,
-        4314.10009765625,
-        4314.0
+        4314.7001953125,
+        4321.0,
+        4319.0,
+        4320.7001953125
       ],
-      "as_of": "2026-08-06 06:41 UTC",
+      "as_of": "2026-08-06 09:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 75.35,
-      "change": 0.12999999999999545,
-      "change_pct": 0.17282637596383335,
+      "price": 75.2,
+      "change": -0.01999999999999602,
+      "change_pct": -0.026588673225200775,
       "series": [
-        75.13999938964844,
-        75.58999633789062,
         75.63999938964844,
         74.91000366210938,
         74.52999877929688,
-        74.87999725341797,
+        74.87000274658203,
         75.18000030517578,
         75.33000183105469,
         75.26000213623047,
@@ -214,21 +212,22 @@
         74.66000366210938,
         74.87000274658203,
         75.23999786376953,
-        75.36000061035156,
-        75.3499984741211
+        75.2699966430664,
+        75.16999816894531,
+        75.20999908447266,
+        75.19999694824219
       ],
-      "as_of": "2026-08-06 06:41 UTC",
+      "as_of": "2026-08-06 09:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.81,
-      "change": -0.6899999999999995,
-      "change_pct": -4.181818181818179,
+      "price": 15.85,
+      "change": 0.03999999999999915,
+      "change_pct": 0.2530044275774772,
       "series": [
-        16.329999923706055,
         16.450000762939453,
         16.420000076293945,
         16.5,
@@ -259,84 +258,73 @@
         15.489999771118164,
         15.710000038146973,
         15.819999694824219,
-        15.8100004196167
+        15.850000381469727,
+        15.850000381469727
       ],
-      "as_of": "2026-08-06 06:41 UTC",
+      "as_of": "2026-08-06 09:30 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "AST SpaceMobile vs. First Majestic Silver: Which Industrials Stock Is a Better Buy in 2026?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-vs-first-majestic-183301496.html",
-      "published": "2026-08-04T18:33:01Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "OpenAI pays $3.2 million in US probe over hiring foreign workers",
-      "url": "https://finance.yahoo.com/technology/ai/articles/openai-pays-3-2-million-191446820.html",
-      "published": "2026-08-04T19:14:46Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Nat-Gas Prices Retreat on Bigger US Supplies and Cooler Temps",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/nat-gas-prices-retreat-bigger-191359487.html",
-      "published": "2026-08-04T19:13:59Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Optimism of Reopening Strait of Hormuz Knocks Crude Prices Lower",
-      "url": "https://finance.yahoo.com/energy/articles/optimism-reopening-strait-hormuz-knocks-191526536.html",
-      "published": "2026-08-04T19:15:26Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Ouster Reports Earnings on August 6. Here\u2019s Why the Stakes Are So High.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ouster-reports-earnings-august-6-191244696.html",
-      "published": "2026-08-04T19:12:44Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Palantir CEO escalates Microsoft\u2019s AI warning",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-escalates-microsoft-ai-183300684.html",
-      "published": "2026-08-04T18:33:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "US jury says Medtronic\u00a0owes $88 million in first case to go to trial over Covidien's hernia mesh",
-      "url": "https://finance.yahoo.com/healthcare/articles/us-jury-says-medtronic-owes-180526466.html",
-      "published": "2026-08-04T18:41:42Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Dollar Tree Stock May Not Be a Good Bargain This Month",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-stock-may-not-191133132.html",
-      "published": "2026-08-04T19:11:33Z",
-      "source": "Schaeffer's Investment Research"
-    },
-    {
-      "title": "NTNX Stock Layoffs: What to Know About the Latest Nutanix Job Cuts",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ntnx-stock-layoffs-know-latest-191731203.html",
-      "published": "2026-08-04T19:17:31Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "What is an SR-22, and how does it affect car insurance rates?",
-      "url": "https://finance.yahoo.com/personal-finance/insurance/article/sr-22-203409822.html",
-      "published": "2023-12-15T20:30:20Z",
+      "title": "What is term life insurance? How it works.",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/what-is-term-life-insurance-170452904.html",
+      "published": "2023-12-15T22:09:24Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "SpaceX Stock Could 3x by Friday, a $20 Million Options Trade Shows",
-      "url": "https://finance.yahoo.com/markets/options/articles/spacex-stock-could-3x-friday-183447726.html",
-      "published": "2026-08-04T18:34:47Z",
-      "source": "BeInCrypto"
+      "title": "What is life insurance? How it works.",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/what-is-life-insurance-200844307.html",
+      "published": "2023-12-15T22:07:32Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "A $4 Billion Reason Why Amazon Stock Is Falling Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/4-billion-reason-why-amazon-184952442.html",
-      "published": "2026-08-04T18:49:52Z",
-      "source": "Barchart"
+      "title": "What is whole life insurance? How it works.",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/what-is-whole-life-insurance-213448917.html",
+      "published": "2023-12-15T22:11:25Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Is it better to lease or finance a car? What drivers should know.",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/lease-vs-finance-car-203958250.html",
+      "published": "2024-07-23T20:39:58Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Stock Market Today, Aug. 4: S&P 500 and Dow Set New Highs on Easing Geopolitical Tensions",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-4-212120108.html",
+      "published": "2026-08-04T21:21:20Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Exagen Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/healthcare/articles/exagen-inc-q2-2026-earnings-212338162.html",
+      "published": "2026-08-04T21:23:38Z",
+      "source": "Moby"
+    },
+    {
+      "title": "AMETEK, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ametek-inc-q2-2026-earnings-212501574.html",
+      "published": "2026-08-04T21:25:01Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Novo Nordisk Stock Stumbles On A Key Miss As Its Battle With Eli Lilly Heats Up",
+      "url": "https://www.investors.com/news/technology/novo-nordisk-stock-novo-nordisk-earnings-q2-2026/?src=A00220&yptr=yahoo",
+      "published": "2026-08-04T21:27:14Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Apollo Global Management, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apollo-global-management-inc-q2-212849623.html",
+      "published": "2026-08-04T21:28:49Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Even Big Profits Aren\u2019t Enough to Keep Chip Investors Happy",
+      "url": "https://www.wsj.com/finance/stocks/even-big-profits-arent-enough-to-keep-chip-investors-happy-36acfc66?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-04T21:23:00Z",
+      "source": "The Wall Street Journal"
     },
     {
       "title": "What is the actual cash value of my car?",
@@ -345,76 +333,88 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Palantir Crushes Earnings as Karp Preaches \u201cSovereign AI\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-crushes-earnings-karp-preaches-185332224.html",
-      "published": "2026-08-04T18:53:32Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Amid Powerful Positive Catalysts, Texas Instruments Stock Looks Appealing",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amid-powerful-positive-catalysts-texas-192205353.html",
-      "published": "2026-08-04T19:22:05Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Sundial's Richelieu Dennis on Revolt Stake, Essence Fest",
-      "url": "https://finance.yahoo.com/video/sundials-richelieu-dennis-revolt-stake-183516729.html",
-      "published": "2026-08-04T18:35:16Z",
-      "source": "Bloomberg"
-    },
-    {
-      "title": "Amazon Stock Gains Steam, Analysts See 44% Upside Potential",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-gains-steam-analysts-192358348.html",
-      "published": "2026-08-04T19:23:58Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "What is a good savings account interest rate in 2026?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-a-good-savings-account-interest-rate-173915779.html",
-      "published": "2024-03-21T17:39:15Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "What Are Wheat Producers Seeing That Traders Aren't?",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/wheat-producers-seeing-traders-arent-192659960.html",
-      "published": "2026-08-04T19:26:59Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "'A serious mistake': Moody's Analytics economist says the Fed is putting the economy at risk with its silence",
-      "url": "https://finance.yahoo.com/economy/policy/articles/serious-mistake-moodys-analytics-economist-193000526.html",
-      "published": "2026-08-04T19:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "AMD Reported Record Sales on Growing AI Demand. The Stock Is Falling Anyway",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-surging-ahead-quarterly-184025783.html",
-      "published": "2026-08-04T18:40:25Z",
-      "source": "Investopedia"
-    },
-    {
-      "title": "Dow Jones AI Giant Microsoft Breaks Out After Earnings-Fueled Surge",
-      "url": "https://www.investors.com/stock-lists/stocks-near-a-buy-zone/dow-jones-ai-giant-microsoft-breaks-out-after-earnings-fueled-surge/?src=A00220&yptr=yahoo",
-      "published": "2026-08-04T19:29:59Z",
+      "title": "How Vertex Regained Its Footing On A Competitor's Bullish Report",
+      "url": "https://www.investors.com/news/technology/vertex-stock-vertex-pharmaceuticals-earnings-q2-2026/?src=A00220&yptr=yahoo",
+      "published": "2026-08-04T21:29:57Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Strength in Stocks and Lower Crude Prices Weigh on the Dollar",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/strength-stocks-lower-crude-prices-193313170.html",
-      "published": "2026-08-04T19:33:13Z",
-      "source": "Barchart"
+      "title": "Cummins Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cummins-inc-q2-2026-earnings-213005494.html",
+      "published": "2026-08-04T21:30:05Z",
+      "source": "Moby"
     },
     {
-      "title": "Bitcoin Price Prediction: This Bearish Cycle Could End If This Pattern Is Confirmed",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-bearish-cycle-193349127.html",
-      "published": "2026-08-04T19:33:49Z",
-      "source": "FX Empire"
+      "title": "Pfizer Ducks Continued Covid Fallout As Hard-Fought Obesity Readout Looms",
+      "url": "https://www.investors.com/news/technology/pfizer-stock-pfizer-earnings-q2-2026/?src=A00220&yptr=yahoo",
+      "published": "2026-08-04T21:31:27Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Oracle (ORCL) Deepens Google Gemini Integration\u2014What It Means for Investors",
-      "url": "https://finance.yahoo.com/technology/ai/articles/oracle-orcl-deepens-google-gemini-193539131.html",
-      "published": "2026-08-04T19:35:39Z",
-      "source": "Insider Monkey"
+      "title": "Trump meets AI giants, Senate Dems decry \u2018unpredictable\u2019 governance\u2014and cheap Chinese AI looms as giant security risk",
+      "url": "https://finance.yahoo.com/technology/ai/articles/trump-meets-ai-giants-senate-212432296.html",
+      "published": "2026-08-04T21:24:32Z",
+      "source": "Fortune"
+    },
+    {
+      "title": "Bruker Corporation Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bruker-corporation-q2-2026-earnings-213127583.html",
+      "published": "2026-08-04T21:31:27Z",
+      "source": "Moby"
+    },
+    {
+      "title": "The Merck Product That Absolutely Demolished Wall Street's Forecasts",
+      "url": "https://www.investors.com/news/technology/merck-stock-merck-earnings-q2-2026/?src=A00220&yptr=yahoo",
+      "published": "2026-08-04T21:32:21Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Suja Defies Grocery Slowdown With Double-Digit Sales Growth in Q2",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/suja-defies-grocery-slowdown-double-213813418.html",
+      "published": "2026-08-04T21:38:13Z",
+      "source": "Exec Edge"
+    },
+    {
+      "title": "DuPont de Nemours, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dupont-nemours-inc-q2-2026-213846297.html",
+      "published": "2026-08-04T21:38:46Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Heavy SpaceX Capital Spending Is Likely to Continue, Finance Chief Says",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-spacex-earnings-08-04-2026/card/heavy-spacex-capital-spending-is-likely-to-continue-finance-chief-says-f2e5dqOTdxH8xQTNUlIV?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-04T21:25:38Z",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "title": "Aptiv PLC Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aptiv-plc-q2-2026-earnings-213946263.html",
+      "published": "2026-08-04T21:39:46Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Ingredion Incorporated Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ingredion-incorporated-q2-2026-earnings-214016139.html",
+      "published": "2026-08-04T21:40:16Z",
+      "source": "Moby"
+    },
+    {
+      "title": "SpaceX Clears Estimates For First Public Report, Revenue Soars 92%, But SPCX Tumbles Late",
+      "url": "https://www.investors.com/news/spacex-earnings-elon-musk-starlink-starship-falcon9-launches-ai-tesla-spcx-stock-lockup/?src=A00220&yptr=yahoo",
+      "published": "2026-08-04T21:42:18Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "What is an SR-22, and how does it affect car insurance rates?",
+      "url": "https://finance.yahoo.com/personal-finance/insurance/article/sr-22-203409822.html",
+      "published": "2023-12-15T20:30:20Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Pfizer Covid Pill Revenue Plunges 95%. The Stock Is Rising Anyway.",
+      "url": "https://www.barrons.com/articles/pfizer-earnings-stock-price-biontech-b519c9be?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-04T21:27:00Z",
+      "source": "Barrons.com"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.3151463593828536
     }
   },
-  "updated_at": "2026-08-06T06:41:27.167763+00:00",
+  "updated_at": "2026-08-06T09:30:16.972038+00:00",
   "source": "yahoo_finance"
 }
