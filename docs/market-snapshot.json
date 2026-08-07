@@ -41,7 +41,7 @@
         7711.3798828125,
         7709.9599609375
       ],
-      "as_of": "2026-08-07 12:05 UTC",
+      "as_of": "2026-08-07 13:23 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26350.50390625,
         26348.3515625
       ],
-      "as_of": "2026-08-07 12:05 UTC",
+      "as_of": "2026-08-07 13:23 UTC",
       "source": "yahoo"
     },
     {
@@ -129,20 +129,17 @@
         53897.8203125,
         53885.1015625
       ],
-      "as_of": "2026-08-07 12:05 UTC",
+      "as_of": "2026-08-07 13:23 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4385.2,
-      "change": 85.59999999999945,
-      "change_pct": 1.9908828728253662,
+      "price": 4409.8,
+      "change": 110.19999999999982,
+      "change_pct": 2.5630291189878083,
       "series": [
-        4307.7998046875,
-        4300.7998046875,
-        4298.7001953125,
         4301.2001953125,
         4298.2998046875,
         4303.7001953125,
@@ -170,23 +167,23 @@
         4373.10009765625,
         4376.39990234375,
         4384.39990234375,
-        4385.0,
-        4385.2001953125
+        4380.7998046875,
+        4370.7998046875,
+        4421.89990234375,
+        4409.0,
+        4409.7998046875
       ],
-      "as_of": "2026-08-07 12:05 UTC",
+      "as_of": "2026-08-07 13:23 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 76.68,
-      "change": -0.6099999999999994,
-      "change_pct": -0.7892353473929349,
+      "price": 76.82,
+      "change": -0.4700000000000131,
+      "change_pct": -0.6080993660240821,
       "series": [
-        77.72000122070312,
-        78.08999633789062,
-        78.2300033569336,
         78.08000183105469,
         78.11000061035156,
         78.05999755859375,
@@ -214,23 +211,23 @@
         77.0999984741211,
         76.81999969482422,
         76.77999877929688,
-        76.68000030517578,
-        76.68000030517578
+        76.73999786376953,
+        77.37000274658203,
+        76.73999786376953,
+        76.81999969482422,
+        76.81999969482422
       ],
-      "as_of": "2026-08-07 12:05 UTC",
+      "as_of": "2026-08-07 13:23 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.17,
-      "change": 0.019999999999999574,
-      "change_pct": 0.1320132013201292,
+      "price": 15.31,
+      "change": 0.16000000000000014,
+      "change_pct": 1.056105610561057,
       "series": [
-        15.930000305175781,
-        15.949999809265137,
-        15.949999809265137,
         15.979999542236328,
         15.989999771118164,
         15.970000267028809,
@@ -258,19 +255,22 @@
         15.270000457763672,
         15.270000457763672,
         15.210000038146973,
-        15.170000076293945,
-        15.170000076293945
+        15.180000305175781,
+        15.140000343322754,
+        15.34000015258789,
+        15.3100004196167,
+        15.3100004196167
       ],
-      "as_of": "2026-08-07 12:05 UTC",
+      "as_of": "2026-08-07 13:23 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "$10,000 in AMDL Became $40,270 in 7 Months, but AMD\u2019s Earnings Crash Erased $9,500 in One Day",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/10-000-amdl-became-40-235219987.html",
-      "published": "2026-08-05T23:52:19Z",
-      "source": "24/7 Wall St."
+      "title": "What Does Toast's Principal Accounting Officer Selling 35% of Her Directly-Held Company Shares Mean for Investors?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-toasts-principal-accounting-officer-012301100.html",
+      "published": "2026-08-06T01:23:01Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Cash Conversion Cycle Warning: Middle-Market Squeeze Revealed",
@@ -285,22 +285,28 @@
       "source": "Moby"
     },
     {
-      "title": "Sarepta Therapeutics, Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/healthcare/articles/sarepta-therapeutics-inc-q2-2026-014538379.html",
-      "published": "2026-08-06T01:45:38Z",
-      "source": "Moby"
-    },
-    {
       "title": "Kyndryl Holdings, Inc. Q1 2027 Earnings Call Summary",
       "url": "https://finance.yahoo.com/markets/stocks/articles/kyndryl-holdings-inc-q1-2027-014529608.html",
       "published": "2026-08-06T01:45:29Z",
       "source": "Moby"
     },
     {
-      "title": "Review & Preview: The Dow\u2019s Streak Survives",
-      "url": "https://www.barrons.com/articles/stocks-today-dow-continues-winning-streak-mag-7-falters-758afdaf?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-05T23:55:00Z",
-      "source": "Barrons.com"
+      "title": "Sarepta Therapeutics, Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/healthcare/articles/sarepta-therapeutics-inc-q2-2026-014538379.html",
+      "published": "2026-08-06T01:45:38Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Analyst Report: Johnson Controls Intl plc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3473_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-07T11:18:41Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Dollar General opens door to new American-made products",
+      "url": "https://finance.yahoo.com/small-business/articles/dollar-general-opens-door-american-011700969.html",
+      "published": "2026-08-06T01:17:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "Fed's Daly says central bank was right to hold rates steady at July policy meeting",
@@ -327,9 +333,15 @@
       "source": "Moby"
     },
     {
-      "title": "Life360's Revenue Grew 38% While the Stock Fell. Here's What to Make of the Latest Director Sale",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/life360s-revenue-grew-38-while-235840751.html",
-      "published": "2026-08-05T23:58:40Z",
+      "title": "Analyst Report: United Parcel Service Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3481_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-07T11:18:41Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "This Stock Keeps Raising Its Dividend No Matter What the Market Does -- and Wall Street Thinks It's a Buy Right Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-keeps-raising-dividend-no-012000363.html",
+      "published": "2026-08-06T01:20:00Z",
       "source": "Motley Fool"
     },
     {
@@ -357,10 +369,16 @@
       "source": "Oilprice.com"
     },
     {
-      "title": "DoorDash Q2 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-q2-earnings-call-highlights-000409215.html",
-      "published": "2026-08-06T00:04:09Z",
-      "source": "MarketBeat"
+      "title": "Analyst Report: Space Exploration Tech. Corp",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_6806_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-07T11:18:41Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Delek US Holdings (DK) Q2 2026 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/delek-us-holdings-dk-q2-011210001.html",
+      "published": "2026-08-06T01:12:10Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Outfront Media Inc. Q2 2026 Earnings Call Summary",
@@ -381,40 +399,22 @@
       "source": "Moby"
     },
     {
-      "title": "Southwest Gas Holdings, Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/southwest-gas-holdings-inc-q2-024034722.html",
-      "published": "2026-08-06T02:40:34Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Cytek Biosciences Q2 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/healthcare/articles/cytek-biosciences-q2-earnings-call-000409174.html",
-      "published": "2026-08-06T00:04:09Z",
-      "source": "MarketBeat"
-    },
-    {
-      "title": "Phillips 66 Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/energy/articles/phillips-66-q2-2026-earnings-025217097.html",
-      "published": "2026-08-06T02:52:17Z",
-      "source": "Moby"
-    },
-    {
-      "title": "LegalZoom.com, Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html",
-      "published": "2026-08-06T02:58:09Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Occidental Profit Jumps on Higher Oil Prices and Midstream Gains",
-      "url": "https://finance.yahoo.com/energy/articles/occidental-profit-jumps-higher-oil-030000628.html",
-      "published": "2026-08-06T03:00:00Z",
-      "source": "Oilprice.com"
-    },
-    {
       "title": "Cencora, Inc. Q3 2026 Earnings Call Summary",
       "url": "https://finance.yahoo.com/healthcare/articles/cencora-inc-q3-2026-earnings-030418567.html",
       "published": "2026-08-06T03:04:18Z",
       "source": "Moby"
+    },
+    {
+      "title": "Analyst Report: eBay Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_2916_AnalystReport_1786101521000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-07T11:18:41Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Waymo's Co-CEO Just Issued a Stark Warning to Every AI Company Building Robots and Cars: 'There's Simply Not An Undo\u2026'",
+      "url": "https://finance.yahoo.com/technology/ai/articles/waymos-co-ceo-just-issued-013109110.html",
+      "published": "2026-08-06T01:31:09Z",
+      "source": "Benzinga"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 1.1101474414570667
     }
   },
-  "updated_at": "2026-08-07T12:05:10.344267+00:00",
+  "updated_at": "2026-08-07T13:23:55.786130+00:00",
   "source": "yahoo_finance"
 }
