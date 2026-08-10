@@ -41,7 +41,7 @@
         7755.60986328125,
         7757.64013671875
       ],
-      "as_of": "2026-08-10 07:06 UTC",
+      "as_of": "2026-08-10 08:47 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26686.478515625,
         26690.615234375
       ],
-      "as_of": "2026-08-10 07:06 UTC",
+      "as_of": "2026-08-10 08:47 UTC",
       "source": "yahoo"
     },
     {
@@ -129,21 +129,17 @@
         54029.5,
         54036.9296875
       ],
-      "as_of": "2026-08-10 07:06 UTC",
+      "as_of": "2026-08-10 08:47 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4416.5,
-      "change": 16.800000000000182,
-      "change_pct": 0.38184421665113943,
+      "price": 4409.5,
+      "change": 9.800000000000182,
+      "change_pct": 0.2227424597131664,
       "series": [
-        4401.2998046875,
-        4410.7998046875,
-        4400.39990234375,
-        4396.89990234375,
         4389.5,
         4398.89990234375,
         4400.0,
@@ -170,24 +166,24 @@
         4393.7001953125,
         4407.0,
         4407.7001953125,
-        4418.0,
-        4416.5
+        4417.7998046875,
+        4414.5,
+        4414.7001953125,
+        4415.10009765625,
+        4409.39990234375,
+        4409.5
       ],
-      "as_of": "2026-08-10 07:06 UTC",
+      "as_of": "2026-08-10 08:47 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 78.09,
-      "change": -0.09000000000000341,
-      "change_pct": -0.11511895625480098,
+      "price": 78.63,
+      "change": 0.44999999999998863,
+      "change_pct": 0.5755947812739686,
       "series": [
-        78.08999633789062,
-        78.16000366210938,
-        78.4000015258789,
-        78.4000015258789,
         78.36000061035156,
         78.0,
         78.08000183105469,
@@ -214,24 +210,24 @@
         78.44000244140625,
         77.83000183105469,
         78.05000305175781,
-        78.08000183105469,
-        78.08999633789062
+        77.93000030517578,
+        78.05000305175781,
+        78.19999694824219,
+        78.52999877929688,
+        78.62000274658203,
+        78.62999725341797
       ],
-      "as_of": "2026-08-10 07:06 UTC",
+      "as_of": "2026-08-10 08:47 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 14.9,
-      "change": -0.25,
-      "change_pct": -1.65016501650165,
+      "price": 15.48,
+      "change": 0.5800000000000001,
+      "change_pct": 3.8926174496644297,
       "series": [
-        15.239999771118164,
-        15.3100004196167,
-        15.289999961853027,
-        15.140000343322754,
         15.289999961853027,
         15.270000457763672,
         15.279999732971191,
@@ -259,9 +255,13 @@
         14.84000015258789,
         14.869999885559082,
         14.890000343322754,
-        14.899999618530273
+        15.420000076293945,
+        15.460000038146973,
+        15.479999542236328,
+        15.479999542236328,
+        15.479999542236328
       ],
-      "as_of": "2026-08-10 07:06 UTC",
+      "as_of": "2026-08-10 08:47 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,72 +271,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-curveball-magnificent-030700311.html",
       "published": "2026-08-09T03:07:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "1 Million Reasons to Buy SoFi Stock Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-million-reasons-buy-sofi-193002673.html",
-      "published": "2026-08-08T19:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Nokia\u2019s (NOK) AI Network Bet Gets A Taiwan Proving Ground",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nokia-nok-ai-network-bet-193932563.html",
-      "published": "2026-08-08T19:39:32Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "AMD (AMD) Buys Taalas: Is AI Inference the Next Battleground With Nvidia?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-taalas-ai-194609482.html",
-      "published": "2026-08-08T19:46:09Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Weighs In on Space Equities: Rocket Lab (RKLB) vs. Voyager Technologies (VOYG)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-weighs-space-equities-195141942.html",
-      "published": "2026-08-08T19:51:41Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Here's the Best Way to Make the 4% Rule Work for You in Retirement",
-      "url": "https://finance.yahoo.com/markets/articles/heres-best-way-4-rule-193800575.html",
-      "published": "2026-08-08T19:38:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-telling-investors-accumulate-200218837.html",
-      "published": "2026-08-08T20:02:18Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Praises Exchange Duopoly CME Group (CME) and Cboe (CBOE)",
-      "url": "https://finance.yahoo.com/markets/options/articles/jim-cramer-praises-exchange-duopoly-200924789.html",
-      "published": "2026-08-08T20:09:24Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "SentinelOne (S) Deepens AWS Ties As Growth Accelerates",
-      "url": "https://finance.yahoo.com/technology/ai/articles/sentinelone-deepens-aws-ties-growth-200954951.html",
-      "published": "2026-08-08T20:09:54Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Airlines Scramble for Jet Fuel as Hormuz Disruption Drags On",
-      "url": "https://finance.yahoo.com/energy/articles/airlines-scramble-jet-fuel-hormuz-190000182.html",
-      "published": "2026-08-08T19:00:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "OpenAI acquires presentation startup NextSlide",
-      "url": "https://finance.yahoo.com/technology/ai/articles/openai-acquires-presentation-startup-nextslide-194113669.html",
-      "published": "2026-08-08T19:41:13Z",
-      "source": "TechCrunch"
-    },
-    {
-      "title": "Tenable (TENB) Widens Its AI Security Net Just As Profits Turn A Corner",
-      "url": "https://finance.yahoo.com/technology/ai/articles/tenable-tenb-widens-ai-security-185944892.html",
-      "published": "2026-08-08T18:59:44Z",
-      "source": "Insider Monkey"
     },
     {
       "title": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
@@ -357,16 +291,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Better GLP-1 Stock to Buy: Eli Lilly or Viking Therapeutics?",
-      "url": "https://finance.yahoo.com/healthcare/articles/better-glp-1-stock-buy-195000742.html",
-      "published": "2026-08-08T19:50:00Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Best CD rates today, Saturday, August 8, 2026: Best CD account earns 4.15% APY",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-8-2026-best-cd-account-earns-415-apy-100000008.html",
       "published": "2026-08-08T10:00:00Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "How Qorvo's $22 Billion Merger Changes What Its Insider Filings Mean",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvos-22-billion-merger-changes-214207196.html",
+      "published": "2026-08-08T21:42:07Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Best CD rates today, Sunday, August 9, 2026: Lock in up to 4.35% APY",
@@ -387,16 +321,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Is Dutch Bros a Buy After Crashing 19% in 1 Day?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dutch-bros-buy-crashing-19-192500067.html",
-      "published": "2026-08-08T19:25:00Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "What is a regional bank?",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/regional-bank-171021816.html",
       "published": "2024-08-16T17:10:21Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "\u2018Your Anxiety Comes From Your Mother Being a Twerp\u2019: Dave Ramsey to Caller Who Paid Off $12K But Can\u2019t Shake Family Pressure",
+      "url": "https://finance.yahoo.com/markets/articles/anxiety-comes-mother-being-twerp-214152002.html",
+      "published": "2026-08-08T21:41:52Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "What is universal life insurance?",
@@ -415,6 +349,72 @@
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-201308688.html",
       "published": "2025-03-26T20:13:08Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "How a CD can help you prepare for \u2014 and survive \u2014 a layoff",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-prepare-for-a-layoff-cd-133034274.html",
+      "published": "2025-05-19T13:30:34Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Home Depot Has Raised Its Dividend for 17 Consecutive Years and Reports Earnings Aug. 18. Is It the Smarter Dow Stock to Buy Over Walmart?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-raised-dividend-17-214000795.html",
+      "published": "2026-08-08T21:40:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Worried about job security? Take these 5 steps now to protect your finances.",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/job-security-steps-to-protect-finances-203111633.html",
+      "published": "2025-11-06T20:31:11Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "How Much Do You Need Invested to Out-Earn the Average Social Security Check With Dividends?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/much-invested-earn-average-social-213708497.html",
+      "published": "2026-08-08T21:37:08Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Should You Worry About This Qorvo Insider Activity During the Skyworks Deal? Here's What to Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/worry-qorvo-insider-activity-during-213327837.html",
+      "published": "2026-08-08T21:33:27Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Here\u2019s How You Can Retire to the Beaches of Florida\u2019s Gulf Coast at 59",
+      "url": "https://finance.yahoo.com/real-estate/articles/retire-beaches-florida-gulf-coast-212932409.html",
+      "published": "2026-08-08T21:29:32Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Ondo's USDY crosses $2.1B market cap in 3 years",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/ondos-usdy-crosses-2-1b-213000593.html",
+      "published": "2026-08-08T21:30:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "When Leverage Goes Wrong on Wall Street",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/leverage-goes-wrong-wall-street-214537005.html",
+      "published": "2026-08-08T21:45:37Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "A Qorvo Executive's Shares Vested Amid the Skyworks Deal. Here's What to Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-executives-shares-vested-amid-212410795.html",
+      "published": "2026-08-08T21:24:10Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Medtronic vs. Intuitive Surgical: Which MedTech Stock Is the Better Buy Right Now?",
+      "url": "https://finance.yahoo.com/healthcare/articles/medtronic-vs-intuitive-surgical-medtech-212000312.html",
+      "published": "2026-08-08T21:20:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "A Qorvo Insider Disposed of Shares as a Merger Looms. Here's What Long-Term Investors Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-insider-disposed-shares-merger-211818399.html",
+      "published": "2026-08-08T21:18:18Z",
+      "source": "Motley Fool"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.5356359962639026
     }
   },
-  "updated_at": "2026-08-10T07:06:21.431082+00:00",
+  "updated_at": "2026-08-10T08:47:47.063802+00:00",
   "source": "yahoo_finance"
 }
