@@ -41,7 +41,7 @@
         7755.60986328125,
         7757.64013671875
       ],
-      "as_of": "2026-08-10 08:47 UTC",
+      "as_of": "2026-08-10 10:02 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26686.478515625,
         26690.615234375
       ],
-      "as_of": "2026-08-10 08:47 UTC",
+      "as_of": "2026-08-10 10:02 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         54029.5,
         54036.9296875
       ],
-      "as_of": "2026-08-10 08:47 UTC",
+      "as_of": "2026-08-10 10:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4409.5,
-      "change": 9.800000000000182,
-      "change_pct": 0.2227424597131664,
+      "price": 4399.9,
+      "change": 0.1999999999998181,
+      "change_pct": 0.004545764483937953,
       "series": [
-        4389.5,
-        4398.89990234375,
         4400.0,
         4394.10009765625,
         4395.60009765625,
@@ -170,22 +168,22 @@
         4414.5,
         4414.7001953125,
         4415.10009765625,
-        4409.39990234375,
-        4409.5
+        4405.60009765625,
+        4406.10009765625,
+        4400.60009765625,
+        4399.89990234375
       ],
-      "as_of": "2026-08-10 08:47 UTC",
+      "as_of": "2026-08-10 10:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 78.63,
-      "change": 0.44999999999998863,
-      "change_pct": 0.5755947812739686,
+      "price": 79.0,
+      "change": 0.8199999999999932,
+      "change_pct": 1.0488616014325827,
       "series": [
-        78.36000061035156,
-        78.0,
         78.08000183105469,
         78.16999816894531,
         78.11000061035156,
@@ -214,22 +212,22 @@
         78.05000305175781,
         78.19999694824219,
         78.52999877929688,
-        78.62000274658203,
-        78.62999725341797
+        79.12999725341797,
+        78.76000213623047,
+        79.0199966430664,
+        79.0
       ],
-      "as_of": "2026-08-10 08:47 UTC",
+      "as_of": "2026-08-10 10:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.48,
-      "change": 0.5800000000000001,
-      "change_pct": 3.8926174496644297,
+      "price": 15.43,
+      "change": 0.5299999999999994,
+      "change_pct": 3.5570469798657673,
       "series": [
-        15.289999961853027,
-        15.270000457763672,
         15.279999732971191,
         15.270000457763672,
         15.279999732971191,
@@ -258,49 +256,93 @@
         15.420000076293945,
         15.460000038146973,
         15.479999542236328,
-        15.479999542236328,
-        15.479999542236328
+        15.460000038146973,
+        15.430000305175781,
+        15.430000305175781,
+        15.430000305175781
       ],
-      "as_of": "2026-08-10 08:47 UTC",
+      "as_of": "2026-08-10 10:02 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Bank of America spots new curveball for Magnificent Seven stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-spots-curveball-magnificent-030700311.html",
-      "published": "2026-08-09T03:07:00Z",
-      "source": "TheStreet"
+      "title": "Resolution Copper awards $110m contracts for Arizona mine",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/resolution-copper-awards-110m-contracts-094350861.html",
+      "published": "2026-08-10T09:43:50Z",
+      "source": "Mining Technology"
     },
     {
-      "title": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
-      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-pairs-ai-chip-204234966.html",
-      "published": "2026-08-08T20:42:34Z",
-      "source": "Insider Monkey"
+      "title": "Kalshi ties up with Nasdaq to bolster trade surveillance",
+      "url": "https://finance.yahoo.com/markets/options/articles/kalshi-ties-nasdaq-bolster-trade-090302425.html",
+      "published": "2026-08-10T09:03:02Z",
+      "source": "Reuters"
     },
     {
-      "title": "U.S. Energy Helps Cushion Global Supply Shock From Hormuz",
-      "url": "https://finance.yahoo.com/energy/articles/u-energy-helps-cushion-global-230000293.html",
-      "published": "2026-08-08T23:00:00Z",
+      "title": "Global stocks tick up with oil steady on Hormuz plans",
+      "url": "https://finance.yahoo.com/news/asia-stocks-edge-higher-oil-002532883.html",
+      "published": "2026-08-10T08:14:33Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "ADNOC Gas Unveils $8.2 Billion Expansion Push",
+      "url": "https://finance.yahoo.com/energy/articles/adnoc-gas-unveils-8-2-080000027.html",
+      "published": "2026-08-10T08:00:00Z",
       "source": "Oilprice.com"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
-      "published": "2026-08-08T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Dollar steadies after payrolls drop, inflation data eyed",
+      "url": "https://finance.yahoo.com/news/dollar-near-two-month-trough-013132165.html",
+      "published": "2026-08-10T07:58:42Z",
+      "source": "Reuters"
     },
     {
-      "title": "Best CD rates today, Saturday, August 8, 2026: Best CD account earns 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-8-2026-best-cd-account-earns-415-apy-100000008.html",
-      "published": "2026-08-08T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "How Qorvo's $22 Billion Merger Changes What Its Insider Filings Mean",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvos-22-billion-merger-changes-214207196.html",
-      "published": "2026-08-08T21:42:07Z",
+      "title": "I've Been Writing About Procter & Gamble Stock for Years. Here's Why My Conviction Has Never Been Higher.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ive-writing-procter-gamble-stock-093500099.html",
+      "published": "2026-08-10T09:35:00Z",
       "source": "Motley Fool"
+    },
+    {
+      "title": "German trade deficit with China grows as Beijing relies less on European industry",
+      "url": "https://finance.yahoo.com/economy/articles/german-trade-deficit-china-grows-063532269.html",
+      "published": "2026-08-10T06:59:30Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Asian shares track Wall Street gains, while oil prices bounce higher",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-gains-wall-062649152.html",
+      "published": "2026-08-10T06:26:49Z",
+      "source": "Associated Press"
+    },
+    {
+      "title": "ADNOC Gas Posts $665 Million Q2 Profit and Approves $8.2 Billion Gas Expansion",
+      "url": "https://finance.yahoo.com/energy/articles/adnoc-gas-posts-665-million-062500618.html",
+      "published": "2026-08-10T06:25:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "J.P. Morgan lifts 2026-end target for S&P 500 to 8,000 on AI, earnings strength",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/j-p-morgan-lifts-2026-061958111.html",
+      "published": "2026-08-10T06:19:58Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "OpenAI acquires NextSlide to support ChatGPT development",
+      "url": "https://finance.yahoo.com/technology/ai/articles/openai-acquires-nextslide-support-chatgpt-093411285.html",
+      "published": "2026-08-10T09:34:11Z",
+      "source": "Verdict"
+    },
+    {
+      "title": "2 key checks on AI infrastructure and inflation: What to watch this week",
+      "url": "https://finance.yahoo.com/markets/article/2-key-checks-on-ai-infrastructure-and-inflation-what-to-watch-this-week-100000678.html",
+      "published": "2026-08-09T10:00:00Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Dow Jones Futures Fall After Market Ramps Up; Cisco, Lumentum Earnings Ahead",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-warren-buffett-cisco-lumentum-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-08-10T04:24:24Z",
+      "source": "Investor's Business Daily"
     },
     {
       "title": "Best CD rates today, Sunday, August 9, 2026: Lock in up to 4.35% APY",
@@ -312,6 +354,24 @@
       "title": "Mortgage and refinance interest rates today, Sunday, August 9, 2026: Rates mostly lower than last week",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-9-2026-rates-mostly-lower-than-last-week-100000935.html",
       "published": "2026-08-09T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Pakistani packaging company Novatex secures IFC funding",
+      "url": "https://finance.yahoo.com/economy/policy/articles/pakistani-packaging-company-novatex-secures-092947901.html",
+      "published": "2026-08-10T09:29:47Z",
+      "source": "Packaging Gateway"
+    },
+    {
+      "title": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
+      "published": "2026-08-08T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Best CD rates today, Saturday, August 8, 2026: Best CD account earns 4.15% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-8-2026-best-cd-account-earns-415-apy-100000008.html",
+      "published": "2026-08-08T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
@@ -327,10 +387,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "\u2018Your Anxiety Comes From Your Mother Being a Twerp\u2019: Dave Ramsey to Caller Who Paid Off $12K But Can\u2019t Shake Family Pressure",
-      "url": "https://finance.yahoo.com/markets/articles/anxiety-comes-mother-being-twerp-214152002.html",
-      "published": "2026-08-08T21:41:52Z",
-      "source": "24/7 Wall St."
+      "title": "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-successor-greg-abel-092600969.html",
+      "published": "2026-08-10T09:26:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "What is universal life insurance?",
@@ -355,66 +415,6 @@
       "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-prepare-for-a-layoff-cd-133034274.html",
       "published": "2025-05-19T13:30:34Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Home Depot Has Raised Its Dividend for 17 Consecutive Years and Reports Earnings Aug. 18. Is It the Smarter Dow Stock to Buy Over Walmart?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-raised-dividend-17-214000795.html",
-      "published": "2026-08-08T21:40:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Worried about job security? Take these 5 steps now to protect your finances.",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/job-security-steps-to-protect-finances-203111633.html",
-      "published": "2025-11-06T20:31:11Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "How Much Do You Need Invested to Out-Earn the Average Social Security Check With Dividends?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/much-invested-earn-average-social-213708497.html",
-      "published": "2026-08-08T21:37:08Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Should You Worry About This Qorvo Insider Activity During the Skyworks Deal? Here's What to Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/worry-qorvo-insider-activity-during-213327837.html",
-      "published": "2026-08-08T21:33:27Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Here\u2019s How You Can Retire to the Beaches of Florida\u2019s Gulf Coast at 59",
-      "url": "https://finance.yahoo.com/real-estate/articles/retire-beaches-florida-gulf-coast-212932409.html",
-      "published": "2026-08-08T21:29:32Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Ondo's USDY crosses $2.1B market cap in 3 years",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/ondos-usdy-crosses-2-1b-213000593.html",
-      "published": "2026-08-08T21:30:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "When Leverage Goes Wrong on Wall Street",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/leverage-goes-wrong-wall-street-214537005.html",
-      "published": "2026-08-08T21:45:37Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "A Qorvo Executive's Shares Vested Amid the Skyworks Deal. Here's What to Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-executives-shares-vested-amid-212410795.html",
-      "published": "2026-08-08T21:24:10Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Medtronic vs. Intuitive Surgical: Which MedTech Stock Is the Better Buy Right Now?",
-      "url": "https://finance.yahoo.com/healthcare/articles/medtronic-vs-intuitive-surgical-medtech-212000312.html",
-      "published": "2026-08-08T21:20:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "A Qorvo Insider Disposed of Shares as a Merger Looms. Here's What Long-Term Investors Should Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qorvo-insider-disposed-shares-merger-211818399.html",
-      "published": "2026-08-08T21:18:18Z",
-      "source": "Motley Fool"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.5356359962639026
     }
   },
-  "updated_at": "2026-08-10T08:47:47.063802+00:00",
+  "updated_at": "2026-08-10T10:02:42.676330+00:00",
   "source": "yahoo_finance"
 }
