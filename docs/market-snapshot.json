@@ -4,9 +4,9 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7753.02,
-      "change": -4.619999999999891,
-      "change_pct": -0.05955419431682691,
+      "price": 7753.11,
+      "change": -4.530000000000655,
+      "change_pct": -0.05839404767430114,
       "series": [
         7710.0400390625,
         7717.77978515625,
@@ -39,9 +39,9 @@
         7754.919921875,
         7752.080078125,
         7753.14990234375,
-        7753.02001953125
+        7753.10986328125
       ],
-      "as_of": "2026-08-10 20:02 UTC",
+      "as_of": "2026-08-10 20:55 UTC",
       "source": "yahoo"
     },
     {
@@ -85,16 +85,16 @@
         26604.771484375,
         26605.357421875
       ],
-      "as_of": "2026-08-10 20:02 UTC",
+      "as_of": "2026-08-10 20:55 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53975.63,
-      "change": -61.30000000000291,
-      "change_pct": -0.1134409375218076,
+      "price": 53975.98,
+      "change": -60.94999999999709,
+      "change_pct": -0.11279323233203124,
       "series": [
         53934.23828125,
         53953.30859375,
@@ -127,21 +127,19 @@
         53891.16015625,
         53868.171875,
         53967.51171875,
-        53975.62890625
+        53975.98046875
       ],
-      "as_of": "2026-08-10 20:02 UTC",
+      "as_of": "2026-08-10 20:55 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4452.8,
-      "change": 53.100000000000364,
-      "change_pct": 1.2069004704866324,
+      "price": 4448.7,
+      "change": 49.0,
+      "change_pct": 1.1137122985658114,
       "series": [
-        4399.5,
-        4393.7001953125,
         4407.0,
         4407.7001953125,
         4417.7998046875,
@@ -170,22 +168,22 @@
         4425.0,
         4437.7001953125,
         4449.7001953125,
-        4451.10009765625,
-        4452.7998046875
+        4446.7998046875,
+        4450.2001953125,
+        4449.2998046875,
+        4448.7001953125
       ],
-      "as_of": "2026-08-10 20:02 UTC",
+      "as_of": "2026-08-10 20:55 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.05,
-      "change": 3.8699999999999903,
-      "change_pct": 4.9501151189562425,
+      "price": 82.35,
+      "change": 4.1699999999999875,
+      "change_pct": 5.333844973138894,
       "series": [
-        78.44999694824219,
-        78.44000244140625,
         77.83000183105469,
         78.05000305175781,
         77.93000030517578,
@@ -214,21 +212,22 @@
         82.16999816894531,
         81.9000015258789,
         81.9800033569336,
-        82.06999969482422,
-        82.05000305175781
+        82.13999938964844,
+        82.29000091552734,
+        82.37999725341797,
+        82.3499984741211
       ],
-      "as_of": "2026-08-10 20:02 UTC",
+      "as_of": "2026-08-10 20:55 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.44,
-      "change": 0.5399999999999991,
-      "change_pct": 3.6241610738254977,
+      "price": 15.46,
+      "change": 0.5600000000000005,
+      "change_pct": 3.7583892617449695,
       "series": [
-        14.930000305175781,
         14.850000381469727,
         14.84000015258789,
         14.869999885559082,
@@ -258,61 +257,38 @@
         15.399999618530273,
         15.350000381469727,
         15.430000305175781,
-        15.4399995803833,
-        15.4399995803833
+        15.40999984741211,
+        15.460000038146973,
+        15.460000038146973
       ],
-      "as_of": "2026-08-10 20:02 UTC",
+      "as_of": "2026-08-10 20:55 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Is Toast Stock a Bargain AI Play After Its Latest Revenue Surge?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/toast-stock-bargain-ai-play-105000095.html",
-      "published": "2026-08-09T10:50:00Z",
+      "title": "New cars just hit $52K and Social Security faces a 24% cut \u2014 5 things to buy before you retire",
+      "url": "https://finance.yahoo.com/economy/policy/articles/cars-just-hit-52k-social-114500144.html",
+      "published": "2026-08-09T11:45:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "3 Reasons to Buy and Hold This Dividend King (and 1 Reason Not To)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-buy-hold-dividend-114500630.html",
+      "published": "2026-08-09T11:45:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Borderlands Mexico: USMCA gives Mexico an edge as global trade barriers rise",
-      "url": "https://finance.yahoo.com/economy/policy/articles/borderlands-mexico-usmca-gives-mexico-110000849.html",
-      "published": "2026-08-09T11:00:00Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "AMD (AMD) Buys Inference Chip Startup Taalas To Sharpen Its AI Edge",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-inference-chip-102614063.html",
-      "published": "2026-08-09T10:26:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Trump\u2019s $100 billion tariff refund going to big names despite Americans paying higher prices. Can you still get a cut?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/trump-100-billion-tariff-refund-111500641.html",
-      "published": "2026-08-09T11:15:00Z",
+      "title": "Far more Americans are filing for bankruptcy \u2014 but maybe not enough, as people don't get 'how good of a deal' it can be",
+      "url": "https://finance.yahoo.com/small-business/articles/far-more-americans-filing-bankruptcy-115500738.html",
+      "published": "2026-08-09T11:55:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "Jim Cramer says Wall Street is 'fleeing' the AI trade to buy these stocks instead. Do you own any?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-wall-street-102000243.html",
-      "published": "2026-08-09T10:20:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Apple Tests Chinese Memory Chips as Supply Squeeze Bites",
-      "url": "https://www.wsj.com/tech/apple-tests-chinese-memory-chips-as-supply-squeeze-bites-d292bb97?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-09T10:54:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "Micron (MU) Secures Strategic Auto Deals and AI Momentum to Offset Cyclical Pressures",
-      "url": "https://finance.yahoo.com/technology/ai/articles/micron-mu-secures-strategic-auto-101757418.html",
-      "published": "2026-08-09T10:17:57Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Constellation (CEG) Locks In More Power Deals As Nuclear Output Slips",
-      "url": "https://finance.yahoo.com/energy/articles/constellation-ceg-locks-more-power-112156765.html",
-      "published": "2026-08-09T11:21:56Z",
-      "source": "Insider Monkey"
+      "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
+      "url": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html",
+      "published": "2026-08-09T11:35:29Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "IRS warns crypto investors of fake letters from fraudsters aimed at stealing wallet keys and passwords",
@@ -327,64 +303,16 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Analyst Report: ExxonMobil Holdings Corp",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3550_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-08-10T18:03:15Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "The Stock Market Is Doing Something Observed Only 4 Times Since 1997 -- and the Previous 3 Instances Ended in Disaster for Wall Street",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-doing-something-observed-105600929.html",
-      "published": "2026-08-09T10:56:00Z",
+      "title": "The Stock Market Is Sending a Chilling Warning, and History Isn't Reassuring",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-sending-chilling-warning-115000649.html",
+      "published": "2026-08-09T11:50:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "340,000 U.S. homes were inherited in 2025 \u2014 but a mortgage lien can lead to foreclosure if heirs don't act fast",
-      "url": "https://finance.yahoo.com/real-estate/articles/340-000-u-homes-were-100000962.html",
-      "published": "2026-08-09T10:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
-      "url": "https://finance.yahoo.com/markets/article/very-little-to-like-wall-street-assesses-surprise-july-jobs-report-as-stocks-jump-113529334.html",
-      "published": "2026-08-09T11:35:29Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "What Do Cost of Carry Tables Tell Us Heading Into Fall Harvest?",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/cost-carry-tables-tell-us-094525020.html",
-      "published": "2026-08-09T09:45:25Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "New cars just hit $52K and Social Security faces a 24% cut \u2014 5 things to buy before you retire",
-      "url": "https://finance.yahoo.com/economy/policy/articles/cars-just-hit-52k-social-114500144.html",
-      "published": "2026-08-09T11:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Analyst Report: Sterling Infrastructure Inc",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_6630_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-08-10T18:03:15Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "Why Your Condo Association Might Be Raising Your Dues Soon",
-      "url": "https://www.wsj.com/finance/regulation/why-your-condo-association-might-be-raising-your-dues-soon-20d6adba?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-09T11:00:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "Far more Americans are filing for bankruptcy \u2014 but maybe not enough, as people don't get 'how good of a deal' it can be",
-      "url": "https://finance.yahoo.com/small-business/articles/far-more-americans-filing-bankruptcy-115500738.html",
-      "published": "2026-08-09T11:55:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Americans say they need $530,000 to take a mini retirement \u2014 financial planners say you can do it for far less",
-      "url": "https://finance.yahoo.com/markets/articles/americans-530-000-mini-retirement-093000850.html",
-      "published": "2026-08-09T09:30:00Z",
-      "source": "Moneywise"
+      "title": "Constellation (CEG) Locks In More Power Deals As Nuclear Output Slips",
+      "url": "https://finance.yahoo.com/energy/articles/constellation-ceg-locks-more-power-112156765.html",
+      "published": "2026-08-09T11:21:56Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Apple tests China's CXMT memory chips for iPhones and MacBooks, WSJ reports",
@@ -399,15 +327,21 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Analyst Report: Enbridge Inc",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_3799_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "title": "Analyst Report: ExxonMobil Holdings Corp",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3550_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
       "published": "2026-08-10T18:03:15Z",
       "source": "Argus Research"
     },
     {
-      "title": "Got $1,000? This Dividend Stock Could Fund Your Coffee Habit for Life.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/got-1-000-dividend-stock-104500620.html",
-      "published": "2026-08-09T10:45:00Z",
+      "title": "Trump\u2019s $100 billion tariff refund going to big names despite Americans paying higher prices. Can you still get a cut?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/trump-100-billion-tariff-refund-111500641.html",
+      "published": "2026-08-09T11:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Ares Capital Earned $0.50 a Share and Is Paying Out $0.48. How Thin Is That Dividend Cushion?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ares-capital-earned-0-50-113500802.html",
+      "published": "2026-08-09T11:35:00Z",
       "source": "Motley Fool"
     },
     {
@@ -415,6 +349,72 @@
       "url": "https://finance.yahoo.com/economy/policy/articles/trump-plan-may-harder-compare-123000587.html",
       "published": "2026-08-09T12:30:00Z",
       "source": "Moneywise"
+    },
+    {
+      "title": "Borderlands Mexico: USMCA gives Mexico an edge as global trade barriers rise",
+      "url": "https://finance.yahoo.com/economy/policy/articles/borderlands-mexico-usmca-gives-mexico-110000849.html",
+      "published": "2026-08-09T11:00:00Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "\u2018I\u2019m going with you\u2019: Shaq reveals why he picked 1 advisor over the rest, now he's worth $500M. Use the same tactic now",
+      "url": "https://finance.yahoo.com/small-business/articles/m-going-shaq-reveals-why-125500822.html",
+      "published": "2026-08-09T12:55:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Analyst Report: Enbridge Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3799_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-10T18:03:15Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Dear Intuitive Machines Stock Fans, Mark Your Calendars for August 13",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-intuitive-machines-stock-fans-130002352.html",
+      "published": "2026-08-09T13:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Walmart (WMT) Stock Price Prediction: Where Our Price Target Sees the Stock Going Over the Next 12 Months",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-stock-price-prediction-120043690.html",
+      "published": "2026-08-09T12:00:43Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Dear Palo Alto Stock Fans, Mark Your Calendars for September 1",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-palo-alto-stock-fans-130002528.html",
+      "published": "2026-08-09T13:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Dear Baidu Stock Fans, Mark Your Calendars for August 18",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-baidu-stock-fans-mark-130002368.html",
+      "published": "2026-08-09T13:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "You saved $1.5M in your 401(k) \u2014 now the IRS wants $56,603 a year, and that's just the start",
+      "url": "https://finance.yahoo.com/markets/options/articles/saved-1-5m-401-k-130000096.html",
+      "published": "2026-08-09T13:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Analyst Report: Sterling Infrastructure Inc",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_6630_AnalystReport_1786384995000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-10T18:03:15Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "AMD (AMD) Buys Inference Chip Startup Taalas To Sharpen Its AI Edge",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-buys-inference-chip-102614063.html",
+      "published": "2026-08-09T10:26:14Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Tetra Technologies Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tetra-technologies-q2-earnings-call-120404482.html",
+      "published": "2026-08-09T12:04:04Z",
+      "source": "MarketBeat"
     }
   ],
   "quotes": {
@@ -459,19 +459,19 @@
       "change_pct": 0.6349295144327699
     },
     "V": {
-      "price": 361.27,
+      "price": 361.32,
       "prev_close": 362.5,
-      "change_pct": -0.3393103448275912
+      "change_pct": -0.32551724137931226
     },
     "XOM": {
-      "price": 159.785,
+      "price": 159.79,
       "prev_close": 153.04,
-      "change_pct": 4.407344485101937
+      "change_pct": 4.4106116048092
     },
     "SPY": {
-      "price": 773.05,
+      "price": 773.03,
       "prev_close": 773.26,
-      "change_pct": -0.02715774771746067
+      "change_pct": -0.029744199881025554
     },
     "QQQ": {
       "price": 720.87,
@@ -499,11 +499,11 @@
       "change_pct": 1.8719841869658735
     },
     "BRK-B": {
-      "price": 529.36,
+      "price": 529.42,
       "prev_close": 521.8,
-      "change_pct": 1.4488309697202109
+      "change_pct": 1.460329628210043
     }
   },
-  "updated_at": "2026-08-10T20:02:31.916330+00:00",
+  "updated_at": "2026-08-10T20:55:21.900985+00:00",
   "source": "yahoo_finance"
 }
