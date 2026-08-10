@@ -41,7 +41,7 @@
         7755.60986328125,
         7757.64013671875
       ],
-      "as_of": "2026-08-10 11:16 UTC",
+      "as_of": "2026-08-10 12:00 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26686.478515625,
         26690.615234375
       ],
-      "as_of": "2026-08-10 11:16 UTC",
+      "as_of": "2026-08-10 12:00 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         54029.5,
         54036.9296875
       ],
-      "as_of": "2026-08-10 11:16 UTC",
+      "as_of": "2026-08-10 12:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4393.6,
-      "change": -6.099999999999454,
-      "change_pct": -0.13864581676022125,
+      "price": 4391.9,
+      "change": -7.800000000000182,
+      "change_pct": -0.17728481487374553,
       "series": [
-        4408.39990234375,
         4403.10009765625,
         4397.2998046875,
         4399.7001953125,
@@ -170,21 +169,21 @@
         4400.10009765625,
         4402.60009765625,
         4395.2001953125,
-        4393.7001953125,
-        4393.60009765625
+        4394.0,
+        4393.10009765625,
+        4391.89990234375
       ],
-      "as_of": "2026-08-10 11:16 UTC",
+      "as_of": "2026-08-10 12:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 79.39,
-      "change": 1.2099999999999937,
-      "change_pct": 1.5477104118700353,
+      "price": 79.61,
+      "change": 1.4299999999999926,
+      "change_pct": 1.8291123049373144,
       "series": [
-        76.9000015258789,
         77.02999877929688,
         77.04000091552734,
         78.18000030517578,
@@ -214,21 +213,21 @@
         79.0199966430664,
         78.80999755859375,
         79.47000122070312,
-        79.37999725341797,
-        79.38999938964844
+        79.08000183105469,
+        79.5,
+        79.61000061035156
       ],
-      "as_of": "2026-08-10 11:16 UTC",
+      "as_of": "2026-08-10 12:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.46,
-      "change": 0.5600000000000005,
-      "change_pct": 3.7583892617449695,
+      "price": 15.45,
+      "change": 0.5499999999999989,
+      "change_pct": 3.6912751677852276,
       "series": [
-        15.279999732971191,
         15.270000457763672,
         15.270000457763672,
         15.210000038146973,
@@ -259,23 +258,24 @@
         15.449999809265137,
         15.449999809265137,
         15.449999809265137,
-        15.460000038146973
+        15.449999809265137,
+        15.449999809265137
       ],
-      "as_of": "2026-08-10 11:16 UTC",
+      "as_of": "2026-08-10 12:00 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Unipol seeks over 30% of future BPER-MPS business \u2013 report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unipol-seeks-over-30-future-111041548.html",
-      "published": "2026-08-10T11:10:41Z",
-      "source": "Retail Banker International"
+      "title": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
+      "url": "https://finance.yahoo.com/technology/ai/articles/48-google-cloud-revenue-next-115120204.html",
+      "published": "2026-08-10T11:51:20Z",
+      "source": "24/7 Wall St."
     },
     {
-      "title": "Needham Remains Optimistic on The Walt Disney (DIS) Amidst Increased Competition: Here\u2019s Why",
-      "url": "https://finance.yahoo.com/media-advertising/articles/needham-remains-optimistic-walt-disney-110120695.html",
-      "published": "2026-08-10T11:01:20Z",
+      "title": "Rio Tinto (RIO)\u2019s 43% Earnings Surge: Sustainable Growth or Commodity Mirage?",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/rio-tinto-rio-43-earnings-113922212.html",
+      "published": "2026-08-10T11:39:22Z",
       "source": "Insider Monkey"
     },
     {
@@ -285,22 +285,64 @@
       "source": "Yahoo Finance"
     },
     {
+      "title": "S&P 500 Companies' Second-Quarter Profit Boomed \u2014 What's Next?",
+      "url": "https://www.investors.com/etfs-and-funds/sectors/sp-500-companies-second-quarter-profit-boomed-whats-next/?src=A00220&yptr=yahoo",
+      "published": "2026-08-10T11:30:14Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Ceva Tops Q2 Targets On Edge AI Tech Licensing",
+      "url": "https://www.investors.com/news/technology/ceva-stock-q2-2026-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-08-10T11:27:54Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Market Digest: NVO, BKNG, NFG, PH, REG, HCA, CLF, SNDK, APP",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47858_MarketSummary_1786359527000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-10T10:58:47Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "FNZ\u00a0names\u00a0Stephen Welch\u00a0group chair",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fnz-names-stephen-welch-group-114655700.html",
+      "published": "2026-08-10T11:46:55Z",
+      "source": "Private Banker International"
+    },
+    {
+      "title": "Dollar steadies after payrolls drop, yen falls",
+      "url": "https://finance.yahoo.com/news/dollar-near-two-month-trough-013132165.html",
+      "published": "2026-08-10T11:13:19Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Needham Remains Optimistic on The Walt Disney (DIS) Amidst Increased Competition: Here\u2019s Why",
+      "url": "https://finance.yahoo.com/media-advertising/articles/needham-remains-optimistic-walt-disney-110120695.html",
+      "published": "2026-08-10T11:01:20Z",
+      "source": "Insider Monkey"
+    },
+    {
       "title": "Ramit Sethi helps newlyweds tackle $165,000 in debt \u2014 including the $30,000 he hid before their wedding",
       "url": "https://finance.yahoo.com/small-business/articles/ramit-sethi-helps-newlyweds-tackle-105500680.html",
       "published": "2026-08-10T10:55:00Z",
       "source": "Moneywise"
     },
     {
+      "title": "India's TCS flags alleged exposure of some employee data, says customer data not impacted",
+      "url": "https://finance.yahoo.com/technology/articles/indias-tcs-says-received-alerts-104707676.html",
+      "published": "2026-08-10T10:47:07Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "5.1 Million Retirees Are Paying a Hidden Medicare Surcharge, and That Number Keeps Going Up",
+      "url": "https://finance.yahoo.com/healthcare/articles/5-1-million-retirees-paying-114635950.html",
+      "published": "2026-08-10T11:46:35Z",
+      "source": "24/7 Wall St."
+    },
+    {
       "title": "Morning Bid: Fed's Cook grilled again",
       "url": "https://finance.yahoo.com/economy/policy/articles/morning-bid-feds-cook-grilled-103813938.html",
       "published": "2026-08-10T10:38:13Z",
       "source": "Reuters"
-    },
-    {
-      "title": "Central Food Retail to acquire Aeon (Thailand)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/central-food-retail-acquire-aeon-111026125.html",
-      "published": "2026-08-10T11:10:26Z",
-      "source": "Retail Insight Network"
     },
     {
       "title": "Retail investors sold SpaceX shares for first time on Friday",
@@ -315,22 +357,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Mortgage and refinance rates today, Monday, August 10, 2026: Rates lower than last week",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-10-2026-rates-lower-than-last-week-100000884.html",
-      "published": "2026-08-10T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
       "title": "HELOC and home equity loan rates today, Monday, August 10, 2026: A 19-basis-point differential",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-10-2026-a-19-basis-point-differential-100000351.html",
       "published": "2026-08-10T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Resmed\u2019s stock falls by 7% on soft FY27 outlook",
-      "url": "https://finance.yahoo.com/healthcare/articles/resmed-stock-falls-7-soft-110857107.html",
-      "published": "2026-08-10T11:08:57Z",
-      "source": "Medical Device Network"
+      "title": "Mortgage and refinance rates today, Monday, August 10, 2026: Rates lower than last week",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-10-2026-rates-lower-than-last-week-100000884.html",
+      "published": "2026-08-10T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "Best high-yield savings interest rates today, Monday, August 10, 2026: Earn up to 4.15% APY with an HYSA",
@@ -351,28 +387,16 @@
       "source": "Oilprice.com"
     },
     {
+      "title": "Rockefeller expands in Ohio with Jones Wealth Partners team",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rockefeller-expands-ohio-jones-wealth-114234029.html",
+      "published": "2026-08-10T11:42:34Z",
+      "source": "Private Banker International"
+    },
+    {
       "title": "Vanguard reveals what could be coming for US stocks. Here\u2019s why it\u2019s raising alarm bells for retirees",
       "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-reveals-could-coming-us-094500956.html",
       "published": "2026-08-10T09:45:00Z",
       "source": "Moneywise"
-    },
-    {
-      "title": "Marshalls H1 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marshalls-h1-earnings-call-highlights-110154433.html",
-      "published": "2026-08-10T11:01:54Z",
-      "source": "MarketBeat"
-    },
-    {
-      "title": "Kalshi ties up with Nasdaq to bolster trade surveillance",
-      "url": "https://finance.yahoo.com/markets/options/articles/kalshi-ties-nasdaq-bolster-trade-090302425.html",
-      "published": "2026-08-10T09:03:02Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Global stocks tick up with oil steady on Hormuz plans",
-      "url": "https://finance.yahoo.com/news/asia-stocks-edge-higher-oil-002532883.html",
-      "published": "2026-08-10T08:14:33Z",
-      "source": "Reuters"
     },
     {
       "title": "Best CD rates today, Sunday, August 9, 2026: Lock in up to 4.35% APY",
@@ -387,33 +411,9 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "US import cargo to slow past August as peak season winds down",
-      "url": "https://finance.yahoo.com/economy/policy/articles/us-import-cargo-slow-past-110048752.html",
-      "published": "2026-08-10T11:00:48Z",
-      "source": "Just Style"
-    },
-    {
       "title": "Mortgage and refinance interest rates today, Saturday, August 8, 2026: Rates mixed this weekend",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-8-2026-rates-mixed-this-weekend-100000461.html",
       "published": "2026-08-08T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Best CD rates today, Saturday, August 8, 2026: Best CD account earns 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-8-2026-best-cd-account-earns-415-apy-100000008.html",
-      "published": "2026-08-08T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "How to open a checking account for a minor",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-open-a-checking-account-for-a-minor-213416031.html",
-      "published": "2026-08-07T21:34:16Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "What is a regional bank?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/regional-bank-171021816.html",
-      "published": "2024-08-16T17:10:21Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -0.5356359962639026
     }
   },
-  "updated_at": "2026-08-10T11:16:59.962033+00:00",
+  "updated_at": "2026-08-10T12:00:43.498865+00:00",
   "source": "yahoo_finance"
 }
