@@ -4,11 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7753.14990234375,
-      "change": 51.64013671875,
-      "change_pct": 0.6705196551102374,
+      "price": 7753.11,
+      "change": -4.530000000000655,
+      "change_pct": -0.05839404767430114,
       "series": [
-        7701.509765625,
         7710.0400390625,
         7717.77978515625,
         7712.93994140625,
@@ -39,9 +38,10 @@
         7748.64990234375,
         7754.919921875,
         7752.080078125,
-        7753.14990234375
+        7753.14990234375,
+        7753.10986328125
       ],
-      "as_of": "2026-08-11 07:49 UTC",
+      "as_of": "2026-08-11 08:38 UTC",
       "source": "yahoo"
     },
     {
@@ -80,12 +80,12 @@
         26606.076171875,
         26582.390625,
         26571.580078125,
-        26609.9453125,
+        26611.6015625,
         26613.61328125,
         26604.771484375,
         26605.357421875
       ],
-      "as_of": "2026-08-11 07:49 UTC",
+      "as_of": "2026-08-11 08:38 UTC",
       "source": "yahoo"
     },
     {
@@ -129,20 +129,17 @@
         53967.51171875,
         53975.98046875
       ],
-      "as_of": "2026-08-11 07:49 UTC",
+      "as_of": "2026-08-11 08:38 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4419.0,
-      "change": -0.6999999999998181,
-      "change_pct": -0.015838179061923165,
+      "price": 4427.4,
+      "change": 7.699999999999818,
+      "change_pct": 0.17421996968119596,
       "series": [
-        4405.2001953125,
-        4408.7998046875,
-        4417.89990234375,
         4422.10009765625,
         4416.2998046875,
         4420.5,
@@ -162,7 +159,9 @@
         4479.2001953125,
         4489.2001953125,
         4488.5,
-        4476.2001953125,
+        4470.7998046875,
+        4480.0,
+        4477.0,
         4474.89990234375,
         4468.7001953125,
         4451.7998046875,
@@ -170,23 +169,21 @@
         4422.89990234375,
         4425.2998046875,
         4422.2001953125,
-        4417.89990234375,
-        4419.0
+        4416.60009765625,
+        4427.5,
+        4427.39990234375
       ],
-      "as_of": "2026-08-11 07:49 UTC",
+      "as_of": "2026-08-11 08:38 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 83.74,
-      "change": 1.6099999999999994,
-      "change_pct": 1.9603068306343594,
+      "price": 84.26,
+      "change": 2.1300000000000097,
+      "change_pct": 2.593449409472799,
       "series": [
-        80.80000305175781,
-        81.18000030517578,
-        81.02999877929688,
         81.13999938964844,
         81.41000366210938,
         81.61000061035156,
@@ -206,7 +203,9 @@
         82.18000030517578,
         82.41000366210938,
         82.29000091552734,
-        82.3499984741211,
+        82.33999633789062,
+        82.23999786376953,
+        82.12000274658203,
         82.01000213623047,
         82.23999786376953,
         82.4000015258789,
@@ -214,21 +213,21 @@
         82.80999755859375,
         83.45999908447266,
         83.72000122070312,
-        83.77999877929688,
-        83.73999786376953
+        83.95999908447266,
+        84.23999786376953,
+        84.26000213623047
       ],
-      "as_of": "2026-08-11 07:49 UTC",
+      "as_of": "2026-08-11 08:38 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.41,
-      "change": -0.05000000000000071,
-      "change_pct": -0.32341526520052205,
+      "price": 15.49,
+      "change": 0.02999999999999936,
+      "change_pct": 0.19404915912030635,
       "series": [
-        14.869999885559082,
         14.890000343322754,
         15.420000076293945,
         15.460000038146973,
@@ -259,24 +258,25 @@
         15.460000038146973,
         15.430000305175781,
         15.420000076293945,
-        15.40999984741211
+        15.489999771118164,
+        15.489999771118164
       ],
-      "as_of": "2026-08-11 07:49 UTC",
+      "as_of": "2026-08-11 08:38 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "A Darden Executive Kept Just 742 Shares Directly After Selling. Here's What Investors Should Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/darden-executive-kept-just-742-203932664.html",
-      "published": "2026-08-09T20:39:32Z",
-      "source": "Motley Fool"
+      "title": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apples-favorite-bullying-tactic-just-210637752.html",
+      "published": "2026-08-09T21:06:37Z",
+      "source": "Barchart"
     },
     {
-      "title": "Core Scientific (CORZ) Shareholders Rejected a $9B Sale. Does the AMD Deal Vindicate Them?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/core-scientific-corz-shareholders-rejected-203304503.html",
-      "published": "2026-08-09T20:33:04Z",
-      "source": "Insider Monkey"
+      "title": "The Hardest Money Problem in Retirement Isn\u2019t Saving $500,000. It\u2019s Turning It Into a Monthly Paycheck.",
+      "url": "https://finance.yahoo.com/markets/articles/hardest-money-problem-retirement-isn-211214755.html",
+      "published": "2026-08-09T21:12:14Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "UPS Completed Its Amazon Volume Pullback. Is the Turnaround Finally Working?",
@@ -285,28 +285,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apples-favorite-bullying-tactic-just-210637752.html",
-      "published": "2026-08-09T21:06:37Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Nvidia Is Going to Space With Elon Musk's Million-Satellites Plan. Here's Why It Could Be the Start of a Trillion-Dollar Cycle.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-going-space-elon-musks-201112026.html",
-      "published": "2026-08-09T20:11:12Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Rocket Lab Reports Monday Night. Wall Street Wants $232 Million and 60% Growth.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-reports-monday-night-203800812.html",
-      "published": "2026-08-09T20:38:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Complacency in Gold May Be Hiding the Next Big Move",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/complacency-gold-may-hiding-next-194637275.html",
-      "published": "2026-08-09T19:46:37Z",
-      "source": "Barchart"
+      "title": "Core Scientific (CORZ) Shareholders Rejected a $9B Sale. Does the AMD Deal Vindicate Them?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/core-scientific-corz-shareholders-rejected-203304503.html",
+      "published": "2026-08-09T20:33:04Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Is Medtronic (MDT) Becoming a Turnaround Story?",
@@ -321,22 +303,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Best high-yield savings interest rates today, Monday, August 10, 2026: Earn up to 4.15% APY with an HYSA",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-10-2026-earn-up-to-415-apy-with-an-hysa-100000399.html",
-      "published": "2026-08-10T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Alphabet's Cloud Computing Business Just Posted 82% Revenue Growth. Next Quarter Could Be Even Better.",
+      "url": "https://finance.yahoo.com/technology/articles/alphabets-cloud-computing-business-just-210500670.html",
+      "published": "2026-08-09T21:05:00Z",
+      "source": "Motley Fool"
     },
     {
-      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-      "url": "https://finance.yahoo.com/technology/ai/articles/embattled-hedge-fund-situational-awareness-203517065.html",
-      "published": "2026-08-09T20:35:17Z",
-      "source": "TechCrunch"
-    },
-    {
-      "title": "Mortgage and refinance rates today, Monday, August 10, 2026: Rates lower than last week",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-10-2026-rates-lower-than-last-week-100000884.html",
-      "published": "2026-08-10T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Contact Energy Profit Jumps as Utility Eyes 250-MW Data Center",
+      "url": "https://finance.yahoo.com/energy/articles/contact-energy-profit-jumps-utility-010300364.html",
+      "published": "2026-08-10T01:03:00Z",
+      "source": "Oilprice.com"
     },
     {
       "title": "HELOC and home equity loan rates today, Monday, August 10, 2026: A 19-basis-point differential",
@@ -351,16 +327,28 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "Best high-yield savings interest rates today, Monday, August 10, 2026: Earn up to 4.15% APY with an HYSA",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-10-2026-earn-up-to-415-apy-with-an-hysa-100000399.html",
+      "published": "2026-08-10T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "CES Energy Solutions Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/energy/articles/ces-energy-solutions-q2-earnings-210352832.html",
+      "published": "2026-08-09T21:03:52Z",
+      "source": "MarketBeat"
+    },
+    {
+      "title": "Mortgage and refinance rates today, Monday, August 10, 2026: Rates lower than last week",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-10-2026-rates-lower-than-last-week-100000884.html",
+      "published": "2026-08-10T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
       "title": "Gold prices today, Monday, August 10, 2026: Highest opening price since early June",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html",
       "published": "2026-08-10T12:32:42Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "BofA, JPMorgan, Oppenheimer Name Their 3 Favorite AI Stocks, One Has a $255 Target",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-jpmorgan-oppenheimer-name-3-205320683.html",
-      "published": "2026-08-09T20:53:20Z",
-      "source": "BeInCrypto"
     },
     {
       "title": "Silver prices today, Monday, August 10, 2026: Silver prices keep rising this morning",
@@ -375,6 +363,12 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "AirBoss of America Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/airboss-america-q2-earnings-call-210351742.html",
+      "published": "2026-08-09T21:03:51Z",
+      "source": "MarketBeat"
+    },
+    {
       "title": "Powerball jackpot climbs to $905 million. What you\u2019d pocket after taxes, and what to do with the rest.",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/powerball-jackpot-climbs-to-905-million-what-youd-pocket-after-taxes-and-what-to-do-with-the-rest-154401967.html",
       "published": "2026-08-10T15:44:01Z",
@@ -385,12 +379,6 @@
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-10-170834159.html",
       "published": "2025-11-03T17:08:34Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Six Darden Executives Sold Within a Week. Here's What to Make of It",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/six-darden-executives-sold-within-205249529.html",
-      "published": "2026-08-09T20:52:49Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Does renters insurance cover fire?",
@@ -405,6 +393,12 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "Canadian Apartment Properties REIT Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/real-estate/articles/canadian-apartment-properties-reit-q2-210351854.html",
+      "published": "2026-08-09T21:03:51Z",
+      "source": "MarketBeat"
+    },
+    {
       "title": "How much income is needed to afford a $500,000 mortgage (including the down payment)?",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/income-needed-for-500k-mortgage-and-down-payment-162215694.html",
       "published": "2026-01-14T16:22:15Z",
@@ -414,6 +408,12 @@
       "title": "Guide to peer-to-peer (P2P) payment apps: Everything you need to know before sending money",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/guide-to-peer-to-peer-p2p-payment-apps-195134245.html",
       "published": "2026-08-10T19:51:34Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Are credit cards with annual fees worth it?",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/are-credit-cards-with-annual-fees-worth-it-214012757.html",
+      "published": "2024-09-05T18:27:52Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 1.460329628210043
     }
   },
-  "updated_at": "2026-08-11T07:49:18.956509+00:00",
+  "updated_at": "2026-08-11T08:38:53.379324+00:00",
   "source": "yahoo_finance"
 }
