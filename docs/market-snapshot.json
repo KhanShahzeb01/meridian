@@ -4,9 +4,9 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7728.19,
-      "change": -24.920000000000073,
-      "change_pct": -0.32141940460021945,
+      "price": 7728.2,
+      "change": -24.909999999999854,
+      "change_pct": -0.32129042410077835,
       "series": [
         7745.35009765625,
         7738.5498046875,
@@ -39,9 +39,9 @@
         7723.56982421875,
         7728.990234375,
         7727.41015625,
-        7728.18994140625
+        7728.2001953125
       ],
-      "as_of": "2026-08-11 20:04 UTC",
+      "as_of": "2026-08-11 20:57 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26443.234375,
         26445.4453125
       ],
-      "as_of": "2026-08-11 20:04 UTC",
+      "as_of": "2026-08-11 20:57 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         53785.19140625,
         53791.8515625
       ],
-      "as_of": "2026-08-11 20:04 UTC",
+      "as_of": "2026-08-11 20:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4428.4,
-      "change": 8.699999999999818,
-      "change_pct": 0.19684593976966352,
+      "price": 4426.6,
+      "change": 6.900000000000546,
+      "change_pct": 0.1561191936104384,
       "series": [
-        4468.7001953125,
-        4451.7998046875,
         4435.2001953125,
         4422.89990234375,
         4425.2998046875,
@@ -170,22 +168,22 @@
         4420.5,
         4430.39990234375,
         4429.7001953125,
-        4428.39990234375,
-        4428.39990234375
+        4429.7001953125,
+        4429.2998046875,
+        4426.60009765625,
+        4426.60009765625
       ],
-      "as_of": "2026-08-11 20:04 UTC",
+      "as_of": "2026-08-11 20:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 83.43,
-      "change": 1.3000000000000114,
-      "change_pct": 1.582856447096081,
+      "price": 83.47,
+      "change": 1.3400000000000034,
+      "change_pct": 1.6315597223913352,
       "series": [
-        82.23999786376953,
-        82.4000015258789,
         82.47000122070312,
         82.80999755859375,
         83.45999908447266,
@@ -214,21 +212,22 @@
         83.16999816894531,
         83.16000366210938,
         83.45999908447266,
-        83.43000030517578,
-        83.43000030517578
+        83.41999816894531,
+        83.37999725341797,
+        83.45999908447266,
+        83.47000122070312
       ],
-      "as_of": "2026-08-11 20:04 UTC",
+      "as_of": "2026-08-11 20:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.31,
-      "change": -0.15000000000000036,
-      "change_pct": -0.9702457956015546,
+      "price": 15.28,
+      "change": -0.1800000000000015,
+      "change_pct": -1.1642949547218724,
       "series": [
-        15.399999618530273,
         15.350000381469727,
         15.430000305175781,
         15.40999984741211,
@@ -258,10 +257,11 @@
         15.350000381469727,
         15.270000457763672,
         15.270000457763672,
-        15.300000190734863,
-        15.3100004196167
+        15.329999923706055,
+        15.279999732971191,
+        15.279999732971191
       ],
-      "as_of": "2026-08-11 20:04 UTC",
+      "as_of": "2026-08-11 20:57 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,69 +273,33 @@
       "source": "TheStreet"
     },
     {
-      "title": "India's TCS flags alleged exposure of some employee data, says customer data not impacted",
-      "url": "https://finance.yahoo.com/technology/articles/indias-tcs-says-received-alerts-104707676.html",
-      "published": "2026-08-10T10:47:07Z",
+      "title": "Why JPMorgan sees more big gains ahead for the S&P 500",
+      "url": "https://finance.yahoo.com/markets/article/why-jpmorgan-sees-more-big-gains-ahead-for-the-sp-500-120624177.html",
+      "published": "2026-08-10T12:06:24Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Intel raises $20 billion from upsized share sale",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-launches-15-billion-share-120506693.html",
+      "published": "2026-08-10T12:05:06Z",
       "source": "Reuters"
     },
     {
-      "title": "Ramit Sethi helps newlyweds tackle $165,000 in debt \u2014 including the $30,000 he hid before their wedding",
-      "url": "https://finance.yahoo.com/small-business/articles/ramit-sethi-helps-newlyweds-tackle-105500680.html",
-      "published": "2026-08-10T10:55:00Z",
+      "title": "GameStop weighing withdrawal of eBay bid, Bloomberg News reports",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-weighing-withdrawal-ebay-bid-120023965.html",
+      "published": "2026-08-10T12:00:23Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "A 26-year-old owes $45K in debt but insists on keeping an $800 monthly entertainment budget \u2014 Reddit didn't hold back",
+      "url": "https://finance.yahoo.com/markets/articles/26-old-owes-45k-debt-120000267.html",
+      "published": "2026-08-10T12:00:00Z",
       "source": "Moneywise"
-    },
-    {
-      "title": "Option Volatility And Earnings Report For Aug 10-14",
-      "url": "https://finance.yahoo.com/markets/options/articles/option-volatility-earnings-report-aug-110002261.html",
-      "published": "2026-08-10T11:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Starlink\u2019s Success Casts Doubt on Telecom Companies\u2019 Future",
-      "url": "https://finance.yahoo.com/technology/articles/starlink-success-casts-doubt-telecom-110000810.html",
-      "published": "2026-08-10T11:00:00Z",
-      "source": "The Daily Upside"
     },
     {
       "title": "Daily Spotlight: Sovereign Debt Yields",
       "url": "https://finance.yahoo.com/research/reports/ARGUS_47879_MarketOutlook_1786447655000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
       "published": "2026-08-11T11:27:35Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "Gas station giant gives up on 471 stores",
-      "url": "https://finance.yahoo.com/real-estate/articles/gas-station-giant-gives-471-180141933.html",
-      "published": "2026-08-11T18:01:41Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Buffett\u2019s Successor at Berkshire Puts Mammoth Cash Pile to Work",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buffett-successor-berkshire-puts-mammoth-110000607.html",
-      "published": "2026-08-10T11:00:00Z",
-      "source": "The Daily Upside"
-    },
-    {
-      "title": "Needham Remains Optimistic on The Walt Disney (DIS) Amidst Increased Competition: Here\u2019s Why",
-      "url": "https://finance.yahoo.com/media-advertising/articles/needham-remains-optimistic-walt-disney-110120695.html",
-      "published": "2026-08-10T11:01:20Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Morning Bid: Fed's Cook grilled again",
-      "url": "https://finance.yahoo.com/economy/policy/articles/morning-bid-feds-cook-grilled-103813938.html",
-      "published": "2026-08-10T10:38:13Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Stocks Set for Muted Open as Oil Rises on Hormuz Uncertainty, U.S. Inflation Data Awaited",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-set-muted-open-oil-103153665.html",
-      "published": "2026-08-10T10:31:53Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Technical Assessment: Bullish in the Intermediate-Term",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47878_TechnicalAnalysis_1786447618000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-08-11T11:26:58Z",
       "source": "Argus Research"
     },
     {
@@ -345,22 +309,58 @@
       "source": "TheStreet"
     },
     {
-      "title": "Unitree's Shanghai IPO more than 8,000 times oversubscribed by retail investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unitrees-shanghai-ipo-more-8-112909363.html",
-      "published": "2026-08-10T11:29:09Z",
-      "source": "Reuters"
+      "title": "Mariner Logistics taps Flock Freight veteran as CEO",
+      "url": "https://finance.yahoo.com/small-business/articles/mariner-logistics-taps-flock-freight-120000711.html",
+      "published": "2026-08-10T12:00:00Z",
+      "source": "FreightWaves"
     },
     {
-      "title": "Retail investors sold SpaceX shares for first time on Friday",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/retail-investors-sold-spacex-shares-103015106.html",
-      "published": "2026-08-10T10:30:15Z",
-      "source": "Reuters"
+      "title": "PE-backed UK companies shirk IPOs while delistings mount",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pe-backed-uk-companies-shirk-115733577.html",
+      "published": "2026-08-10T11:57:33Z",
+      "source": "Pitchbook"
     },
     {
-      "title": "Kazakhstan Weighs New Routes as Drone Strikes Squeeze Black Sea Oil Exports",
-      "url": "https://finance.yahoo.com/energy/articles/kazakhstan-weighs-routes-drone-strikes-113000568.html",
-      "published": "2026-08-10T11:30:00Z",
-      "source": "Oilprice.com"
+      "title": "Archer Daniels Stock: Analyst Estimates & Ratings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/archer-daniels-stock-analyst-estimates-114636432.html",
+      "published": "2026-08-10T11:46:36Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Soybeans Pushing Higher to Begin the Week",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-pushing-higher-begin-week-122503103.html",
+      "published": "2026-08-10T12:25:03Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Technical Assessment: Bullish in the Intermediate-Term",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47878_TechnicalAnalysis_1786447618000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-11T11:26:58Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Paying Off Debt Used to Be an Obvious Goal. Many Now Believe It's a Mistake. 'He Looked at Me Like I Was the Crazy One'",
+      "url": "https://finance.yahoo.com/markets/articles/paying-off-debt-used-obvious-120105682.html",
+      "published": "2026-08-10T12:01:05Z",
+      "source": "Benzinga"
+    },
+    {
+      "title": "Wheat Posting Monday Morning Strength",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/wheat-posting-monday-morning-strength-122503108.html",
+      "published": "2026-08-10T12:25:03Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Corn Ticking Higher on Monday Morning",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-ticking-higher-monday-morning-122503479.html",
+      "published": "2026-08-10T12:25:03Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Rio Tinto (RIO)\u2019s 43% Earnings Surge: Sustainable Growth or Commodity Mirage?",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/rio-tinto-rio-43-earnings-113922212.html",
+      "published": "2026-08-10T11:39:22Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "S&P 500 Companies' Second-Quarter Profit Boomed \u2014 What's Next?",
@@ -375,10 +375,16 @@
       "source": "Argus Research"
     },
     {
-      "title": "Tilray to cease brewing at Terrapin site in US",
-      "url": "https://finance.yahoo.com/small-business/articles/tilray-cease-brewing-terrapin-us-104731500.html",
-      "published": "2026-08-10T10:47:31Z",
-      "source": "Just Drinks"
+      "title": "Inflation Data Will Be the Real Test for This AI Stock Rally",
+      "url": "https://www.barrons.com/articles/stock-market-things-to-know-today-40709717?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-10T12:01:00Z",
+      "source": "Barrons.com"
+    },
+    {
+      "title": "Kazakhstan Weighs New Routes as Drone Strikes Squeeze Black Sea Oil Exports",
+      "url": "https://finance.yahoo.com/energy/articles/kazakhstan-weighs-routes-drone-strikes-113000568.html",
+      "published": "2026-08-10T11:30:00Z",
+      "source": "Oilprice.com"
     },
     {
       "title": "Why Didn't a $100 Billion Lockup Expiration Crash SpaceX Stock? 3 Numbers That Explain Its 10% Rally.",
@@ -387,21 +393,15 @@
       "source": "Barchart"
     },
     {
-      "title": "Rio Tinto (RIO)\u2019s 43% Earnings Surge: Sustainable Growth or Commodity Mirage?",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/rio-tinto-rio-43-earnings-113922212.html",
-      "published": "2026-08-10T11:39:22Z",
-      "source": "Insider Monkey"
+      "title": "Unitree's Shanghai IPO more than 8,000 times oversubscribed by retail investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/unitrees-shanghai-ipo-more-8-112909363.html",
+      "published": "2026-08-10T11:29:09Z",
+      "source": "Reuters"
     },
     {
-      "title": "Cardano \u2018Bull Trap\u2019 Risks Triggering 50% ADA Price Correction",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/cardano-bull-trap-risks-triggering-101347009.html",
-      "published": "2026-08-10T10:13:47Z",
-      "source": "FX Empire"
-    },
-    {
-      "title": "Best CD rates today, Monday, August 10, 2026: Lock in up to 4.35% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-10-2026-lock-in-up-to-435-apy-100000181.html",
-      "published": "2026-08-10T10:00:00Z",
+      "title": "Gold prices today, Monday, August 10, 2026: Highest opening price since early June",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-10-2026-highest-opening-price-since-early-june-123242269.html",
+      "published": "2026-08-10T12:32:42Z",
       "source": "Yahoo Personal Finance"
     },
     {
@@ -411,10 +411,10 @@
       "source": "Argus Research"
     },
     {
-      "title": "1 Reason Lowe's May Be a Smarter Buy Than Home Depot Before Aug. 19",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-reason-lowes-may-smarter-105000135.html",
-      "published": "2026-08-10T10:50:00Z",
-      "source": "Motley Fool"
+      "title": "3 Beaten-Down Healthcare Stocks to Buy in August",
+      "url": "https://finance.yahoo.com/healthcare/articles/3-beaten-down-healthcare-stocks-120055911.html",
+      "published": "2026-08-10T12:00:55Z",
+      "source": "24/7 Wall St."
     }
   ],
   "quotes": {
@@ -454,14 +454,14 @@
       "change_pct": 0.5832930367504856
     },
     "JPM": {
-      "price": 362.02,
+      "price": 362.04,
       "prev_close": 359.79,
-      "change_pct": 0.6198059979432339
+      "change_pct": 0.6253647961310764
     },
     "V": {
-      "price": 362.59,
+      "price": 362.82,
       "prev_close": 360.65,
-      "change_pct": 0.5379176486898649
+      "change_pct": 0.601691390544854
     },
     "XOM": {
       "price": 159.8,
@@ -469,9 +469,9 @@
       "change_pct": 0.006258213905763394
     },
     "SPY": {
-      "price": 770.59,
+      "price": 770.56,
       "prev_close": 773.03,
-      "change_pct": -0.31564104885967437
+      "change_pct": -0.3195218814276325
     },
     "QQQ": {
       "price": 718.45,
@@ -499,11 +499,11 @@
       "change_pct": -0.16549677566626267
     },
     "BRK-B": {
-      "price": 516.15,
+      "price": 516.38,
       "prev_close": 529.42,
-      "change_pct": -2.50651656529787
+      "change_pct": -2.4630727966453785
     }
   },
-  "updated_at": "2026-08-11T20:04:56.256563+00:00",
+  "updated_at": "2026-08-11T20:57:55.599076+00:00",
   "source": "yahoo_finance"
 }
