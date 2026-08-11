@@ -41,7 +41,7 @@
         7753.14990234375,
         7753.10986328125
       ],
-      "as_of": "2026-08-11 11:13 UTC",
+      "as_of": "2026-08-11 11:57 UTC",
       "source": "yahoo"
     },
     {
@@ -80,12 +80,12 @@
         26606.076171875,
         26582.390625,
         26571.580078125,
-        26609.9453125,
+        26611.6015625,
         26613.61328125,
         26604.771484375,
         26605.357421875
       ],
-      "as_of": "2026-08-11 11:13 UTC",
+      "as_of": "2026-08-11 11:57 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53967.51171875,
         53975.98046875
       ],
-      "as_of": "2026-08-11 11:13 UTC",
+      "as_of": "2026-08-11 11:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4451.5,
-      "change": 31.800000000000182,
-      "change_pct": 0.719505848813272,
+      "price": 4446.3,
+      "change": 26.600000000000364,
+      "change_pct": 0.6018508043532449,
       "series": [
-        4449.7001953125,
         4446.7998046875,
         4450.2001953125,
         4448.60009765625,
@@ -170,21 +169,21 @@
         4431.39990234375,
         4437.2998046875,
         4441.2001953125,
-        4451.5,
-        4451.5
+        4445.7001953125,
+        4445.7998046875,
+        4446.2998046875
       ],
-      "as_of": "2026-08-11 11:13 UTC",
+      "as_of": "2026-08-11 11:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.08,
-      "change": -0.04999999999999716,
-      "change_pct": -0.060879094119076056,
+      "price": 82.2,
+      "change": 0.07000000000000739,
+      "change_pct": 0.08523073176672032,
       "series": [
-        81.9800033569336,
         82.13999938964844,
         82.29000091552734,
         82.30000305175781,
@@ -214,22 +213,21 @@
         84.2300033569336,
         83.62000274658203,
         83.48999786376953,
-        82.08000183105469,
-        82.08000183105469
+        82.30999755859375,
+        82.22000122070312,
+        82.19999694824219
       ],
-      "as_of": "2026-08-11 11:13 UTC",
+      "as_of": "2026-08-11 11:57 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.5,
-      "change": 0.03999999999999915,
-      "change_pct": 0.2587322121604084,
+      "price": 15.48,
+      "change": 0.019999999999999574,
+      "change_pct": 0.1293661060802042,
       "series": [
-        15.430000305175781,
-        15.430000305175781,
         15.449999809265137,
         15.449999809265137,
         15.449999809265137,
@@ -258,25 +256,69 @@
         15.520000457763672,
         15.529999732971191,
         15.5,
-        15.510000228881836,
-        15.5
+        15.5,
+        15.489999771118164,
+        15.479999542236328,
+        15.479999542236328
       ],
-      "as_of": "2026-08-11 11:13 UTC",
+      "as_of": "2026-08-11 11:57 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
+      "title": "US\u00a0bank\u00a0Erebor nears $1.5bn funding round at $8bn valuation \u2013 report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-bank-erebor-nears-1-114658942.html",
+      "published": "2026-08-11T11:46:58Z",
+      "source": "Retail Banker International"
+    },
+    {
+      "title": "US-Iran standoff sends oil up, dents stocks",
+      "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-asia-stocks-014100980.html",
+      "published": "2026-08-11T11:43:35Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Embraer Continues To Outpace Boeing, Airbus. It's In A Buy Zone Now.",
+      "url": "https://www.investors.com/news/embraer-earnings-boeing-airbus-aerospace-jet-planes/?src=A00220&yptr=yahoo",
+      "published": "2026-08-11T11:24:12Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "SpaceX Rivals Report Mixed Earnings; Rocket Lab Sinks On Possible Neutron Delays",
+      "url": "https://www.investors.com/news/spacex-rocket-lab-ast-spacemobile-earnings-electron-launch-neutron-rocket/?src=A00220&yptr=yahoo",
+      "published": "2026-08-11T11:18:35Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "This Roth conversion trap easily destroys $1M in tax-free wealth \u2014 are you making an extremely costly mistake right now?",
+      "url": "https://finance.yahoo.com/markets/articles/roth-conversion-trap-easily-destroys-111500093.html",
+      "published": "2026-08-11T11:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Market Digest: AN, BA, CNC, MRK, WY, APO, LEA, HLN, CEG",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_47876_MarketSummary_1786445825000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+      "published": "2026-08-11T10:57:05Z",
+      "source": "Argus Research"
+    },
+    {
+      "title": "Fermi Finally Gets an AI Tenant for Its Data-Center Site and the Stock Is Soaring",
+      "url": "https://www.barrons.com/articles/fermi-stock-ai-data-center-tensorwave-3da14830?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-11T11:44:00Z",
+      "source": "Barrons.com"
+    },
+    {
+      "title": "\u2018My primary concern is inflation\u2019: Fed\u2019s Schmid pushes rates higher as mortgages hit 6.69%. Make high rates work for you",
+      "url": "https://finance.yahoo.com/economy/policy/articles/primary-concern-inflation-fed-schmid-110500327.html",
+      "published": "2026-08-11T11:05:00Z",
+      "source": "Moneywise"
+    },
+    {
       "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver as US, Iran harden stances",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html",
       "published": "2026-08-11T10:28:27Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "Multiplex named main contractor for London\u2019s 99 City Road development",
-      "url": "https://finance.yahoo.com/real-estate/articles/multiplex-named-main-contractor-london-110000408.html",
-      "published": "2026-08-11T11:00:00Z",
-      "source": "World Construction Network"
     },
     {
       "title": "Morning Bid: Long bond bother",
@@ -291,22 +333,28 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Nvidia partners with Wall Street firms on $500B AI financing",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-partners-wall-street-firms-114236431.html",
+      "published": "2026-08-11T11:42:36Z",
+      "source": "Quartz"
+    },
+    {
+      "title": "Uniper Profits Surge as Germany Prepares to Sell Energy Giant",
+      "url": "https://finance.yahoo.com/energy/articles/uniper-profits-surge-germany-prepares-103000190.html",
+      "published": "2026-08-11T10:30:00Z",
+      "source": "Oilprice.com"
+    },
+    {
       "title": "US fuel sales to Cuban business bring a glimpse of capitalism to Havana",
       "url": "https://finance.yahoo.com/news/us-fuel-sales-cuban-business-100512481.html",
       "published": "2026-08-11T10:18:54Z",
       "source": "Reuters"
     },
     {
-      "title": "Larry Fink says Americans\u2019 retirement savings need to fund $10 trillion AI infrastructure demands. Protect your wealth",
-      "url": "https://finance.yahoo.com/technology/ai/articles/larry-fink-says-americans-retirement-101500090.html",
-      "published": "2026-08-11T10:15:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Wesley Batista, son of JBS founder, returns as CEO",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wesley-batista-son-jbs-founder-105924302.html",
-      "published": "2026-08-11T10:59:24Z",
-      "source": "Just Food"
+      "title": "HELOC and home equity loan rates today, Tuesday, August 11, 2026: Besides rates, how to choose between a HELOC or HEL",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-tuesday-august-11-2026-besides-rates-how-to-choose-between-a-heloc-or-hel-100000351.html",
+      "published": "2026-08-10T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "Mortgage and refinance rates today, Tuesday, August 11, 2026: Rates mostly higher as U.S. 'low-keying' Iran negotiations",
@@ -315,10 +363,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "HELOC and home equity loan rates today, Tuesday, August 11, 2026: Besides rates, how to choose between a HELOC or HEL",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-tuesday-august-11-2026-besides-rates-how-to-choose-between-a-heloc-or-hel-100000351.html",
-      "published": "2026-08-10T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Paysafe debuts PaysafeWallet in Poland",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/paysafe-debuts-paysafewallet-poland-114105071.html",
+      "published": "2026-08-11T11:41:05Z",
+      "source": "Electronic Payments"
     },
     {
       "title": "Best high-yield savings interest rates today, Tuesday, August 11, 2026: Earn up to 4.15% APY with an HYSA",
@@ -333,54 +381,6 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "EY to add \u201cagent economics\u201d role to scrutinise AI spending- report",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ey-add-agent-economics-role-105741112.html",
-      "published": "2026-08-11T10:57:41Z",
-      "source": "International Accounting Bulletin"
-    },
-    {
-      "title": "Intel's huge rally is helping pay for its AI comeback: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/intels-huge-rally-is-helping-pay-for-its-ai-comeback-chart-of-the-day-100000146.html",
-      "published": "2026-08-11T10:00:00Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "TSMC, Sony to invest $4.7 billion in joint venture for image sensors",
-      "url": "https://finance.yahoo.com/technology/articles/tsmc-invest-1-8-billion-094545499.html",
-      "published": "2026-08-11T09:45:45Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "China\u2019s Teapot Refiners Poised to Ramp Up Iranian Oil Buying",
-      "url": "https://finance.yahoo.com/energy/articles/china-teapot-refiners-poised-ramp-093000992.html",
-      "published": "2026-08-11T09:30:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "Dave Ramsey warns nearly 50% of Americans make 1 big Social Security mistake \u2014 here's how to fix it in 3 steps",
-      "url": "https://finance.yahoo.com/markets/articles/dave-ramsey-warns-nearly-50-091000204.html",
-      "published": "2026-08-11T09:10:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Anesco secures NIC backing to expand utility-scale solar and storage",
-      "url": "https://finance.yahoo.com/energy/articles/anesco-secures-nic-backing-expand-105722699.html",
-      "published": "2026-08-11T10:57:22Z",
-      "source": "Energy Monitor"
-    },
-    {
-      "title": "Trump Media's quarterly loss widens to $238 million from $20 million a year earlier",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/trump-medias-quarterly-loss-widens-085624345.html",
-      "published": "2026-08-11T08:56:24Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "US-Iran standoff sends oil up, dents stocks",
-      "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-asia-stocks-014100980.html",
-      "published": "2026-08-11T08:43:19Z",
-      "source": "Reuters"
-    },
-    {
       "title": "Best CD rates today, Monday, August 10, 2026: Lock in up to 4.35% APY",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-10-2026-lock-in-up-to-435-apy-100000181.html",
       "published": "2026-08-10T10:00:00Z",
@@ -393,10 +393,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Textile Exchange shares new Materials Matter policies",
-      "url": "https://finance.yahoo.com/technology/articles/textile-exchange-shares-materials-matter-105528841.html",
-      "published": "2026-08-11T10:55:28Z",
-      "source": "Just Style"
+      "title": "Revolut secures banking licence in France",
+      "url": "https://finance.yahoo.com/economy/policy/articles/revolut-secures-banking-licence-france-114101674.html",
+      "published": "2026-08-11T11:41:01Z",
+      "source": "Retail Banker International"
     },
     {
       "title": "Gold prices today, Monday, August 10, 2026: Highest opening price since early June",
@@ -504,6 +504,6 @@
       "change_pct": 1.460329628210043
     }
   },
-  "updated_at": "2026-08-11T11:13:59.155448+00:00",
+  "updated_at": "2026-08-11T11:57:19.686452+00:00",
   "source": "yahoo_finance"
 }
