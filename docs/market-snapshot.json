@@ -41,7 +41,7 @@
         7748.7099609375,
         7748.5
       ],
-      "as_of": "2026-08-13 05:54 UTC",
+      "as_of": "2026-08-13 07:08 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26590.58984375,
         26588.48828125
       ],
-      "as_of": "2026-08-13 05:54 UTC",
+      "as_of": "2026-08-13 07:08 UTC",
       "source": "yahoo"
     },
     {
@@ -129,25 +129,26 @@
         53769.859375,
         53770.26953125
       ],
-      "as_of": "2026-08-13 05:54 UTC",
+      "as_of": "2026-08-13 07:08 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4446.0,
-      "change": -21.5,
-      "change_pct": -0.4812534974818131,
+      "price": 4436.7,
+      "change": -30.800000000000182,
+      "change_pct": -0.6894236149972061,
       "series": [
+        4478.2001953125,
         4487.39990234375,
         4491.5,
-        4481.39990234375,
-        4481.2001953125,
+        4481.2998046875,
+        4481.2998046875,
         4480.39990234375,
         4483.0,
-        4461.7001953125,
-        4466.7001953125,
+        4462.0,
+        4466.60009765625,
         4459.60009765625,
         4468.39990234375,
         4473.2001953125,
@@ -163,33 +164,27 @@
         4486.89990234375,
         4478.0,
         4467.0,
-        4464.7001953125,
-        4465.7001953125,
-        4467.7998046875,
-        4458.2998046875,
+        4465.60009765625,
         4456.2001953125,
         4455.5,
         4464.39990234375,
-        4445.60009765625,
-        4446.0
+        4440.60009765625,
+        4432.7001953125,
+        4437.0,
+        4436.7001953125
       ],
-      "as_of": "2026-08-13 05:54 UTC",
+      "as_of": "2026-08-13 07:08 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 83.0,
-      "change": -0.269999999999996,
-      "change_pct": -0.32424642728473163,
+      "price": 82.73,
+      "change": -0.539999999999992,
+      "change_pct": -0.6484928545694633,
       "series": [
-        83.77999877929688,
-        82.98999786376953,
-        82.88999938964844,
-        82.66999816894531,
-        82.97000122070312,
-        83.0,
+        83.01000213623047,
         83.12000274658203,
         83.30999755859375,
         83.12999725341797,
@@ -210,14 +205,19 @@
         82.08999633789062,
         82.33999633789062,
         82.26000213623047,
-        82.23999786376953,
+        82.16999816894531,
+        82.25,
+        82.41999816894531,
+        82.62000274658203,
         82.97000122070312,
         83.0,
         82.98999786376953,
-        82.93000030517578,
-        83.0
+        83.12000274658203,
+        83.05999755859375,
+        82.7300033569336,
+        82.7300033569336
       ],
-      "as_of": "2026-08-13 05:54 UTC",
+      "as_of": "2026-08-13 07:08 UTC",
       "source": "yahoo"
     },
     {
@@ -225,8 +225,8 @@
       "name": "VIX",
       "symbol": "^VIX",
       "price": 14.55,
-      "change": -0.7299999999999986,
-      "change_pct": -4.777486910994756,
+      "change": 0.0,
+      "change_pct": 0.0,
       "series": [
         15.270000457763672,
         15.270000457763672,
@@ -261,7 +261,7 @@
         14.550000190734863,
         14.550000190734863
       ],
-      "as_of": "2026-08-13 05:54 UTC",
+      "as_of": "2026-08-13 07:08 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,118 +273,118 @@
       "source": "TheStreet"
     },
     {
-      "title": "Is Broadcom\u2019s (AVGO) Next Big Bet Hidden in Plain Sight?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-next-big-bet-175031316.html",
-      "published": "2026-08-11T17:50:31Z",
+      "title": "Are you saving enough for retirement? Here's how to tell.",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/are-you-saving-enough-for-retirement-heres-how-to-tell-184639709.html",
+      "published": "2026-08-11T18:46:39Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Vistra (VST) Just Grew Ebitda 30%, So Why Did Profit Fall?",
+      "url": "https://finance.yahoo.com/energy/articles/vistra-vst-just-grew-ebitda-185214479.html",
+      "published": "2026-08-11T18:52:14Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Robinhood (HOOD)\u2019s Growth Story: Can Diversification Offset Market Volatility?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-hood-growth-story-diversification-175604545.html",
-      "published": "2026-08-11T17:56:04Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Dear Intel Stock Fans, Mark Your Calendars for August 12",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-intel-stock-fans-mark-174805368.html",
-      "published": "2026-08-11T17:48:05Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Freight Market Shift: Why RXO\u2019s Scale Wins Big on Insurance & Ops",
-      "url": "https://finance.yahoo.com/markets/articles/freight-market-shift-why-rxo-175644925.html",
-      "published": "2026-08-11T17:56:44Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "Treasury's 3-Year Auction Sees Solid Demand",
-      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081126/card/treasury-s-3-year-auction-sees-solid-demand-7149H7oFXE7cVKdwZ2gF?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-11T17:54:12Z",
-      "source": "Barrons.com"
-    },
-    {
-      "title": "Wells Fargo (WFC) Bets On Blockchain, But Can The Rally Continue?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-wfc-bets-blockchain-180358121.html",
-      "published": "2026-08-11T18:03:58Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "TrueBlue Stock Has Clear Skies Ahead After Hitting a New 2-Year High",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trueblue-stock-clear-skies-ahead-180503978.html",
-      "published": "2026-08-11T18:05:03Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Jim Cramer Highlights Arista Networks (ANET) Following Q2 Beat and 50% Rally",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-highlights-arista-networks-180524380.html",
-      "published": "2026-08-11T18:05:24Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Ahead of Cerebras Earnings, Here's What Barchart Data Says Comes Next for CBRS Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-cerebras-earnings-heres-barchart-181034216.html",
-      "published": "2026-08-11T18:10:34Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Raymond James Is Betting Big on These 2 \u2018Strong Buy\u2019 Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-betting-big-2-175500329.html",
-      "published": "2026-08-11T17:55:00Z",
-      "source": "TipRanks"
-    },
-    {
-      "title": "NVIDIA Corporation (NVDA) and Naver: A $1 Billion AI Bet in South Korea",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-naver-1-181130709.html",
-      "published": "2026-08-11T18:11:30Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Says Buy the Dip in Sterling Infrastructure (STRL), Just \u201cDon\u2019t Buy It All at Once\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-buy-dip-181437480.html",
-      "published": "2026-08-11T18:14:37Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "IBD Stock Of The Day: The AI Ties Driving Amphenol's Post-Earnings Recovery",
-      "url": "https://www.investors.com/research/ibd-stock-of-the-day/amphenol-stock-ai-data-center-company/?src=A00220&yptr=yahoo",
-      "published": "2026-08-11T18:14:19Z",
+      "title": "Dow Jones AI Giants Nvidia, Amazon In Or Near Buy Zones; Avnet, Okta Are Stocks To Watch",
+      "url": "https://www.investors.com/stock-lists/stocks-near-a-buy-zone/dow-jones-ai-giants-nvidia-stock-nvda-amazon-amzn/?src=A00220&yptr=yahoo",
+      "published": "2026-08-11T18:51:43Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Visa Inc. (V) vs. Mastercard Incorporated (MA): Same Strong Spending Story, Very Different Stock Reactions",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-inc-v-vs-mastercard-182054581.html",
-      "published": "2026-08-11T18:20:54Z",
+      "title": "Amazon.com, Inc. (AMZN) vs. Apple Inc. (AAPL): Hedge Funds Favor One over the Other",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-vs-185154577.html",
+      "published": "2026-08-11T18:51:54Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "CrowdStrike Stock's Surge Showed Up In Its Bookings Two Reports Early",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stocks-surge-showed-bookings-175326787.html",
-      "published": "2026-08-11T17:53:26Z",
+      "title": "Joby Aviation Stock Is Priced For An Aircraft That Has Yet To Fly A Passenger",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/joby-aviation-stock-priced-aircraft-185134980.html",
+      "published": "2026-08-11T18:51:34Z",
       "source": "Trefis"
     },
     {
-      "title": "Warner Bros. Discovery (WBD): Will A Courtroom Decide This Stock\u2019s Next Move?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fourwarner-bros-discovery-wbd-courtroom-182227632.html",
-      "published": "2026-08-11T18:22:27Z",
-      "source": "Insider Monkey"
+      "title": "5 smart ways to use a high-yield savings account",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-use-a-high-yield-savings-account-183827481.html",
+      "published": "2024-08-21T18:38:27Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "AI Spending Remains a Concern for Other Chip Stocks, But Taiwan Semiconductor Has No Worries",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-spending-remains-concern-other-182449944.html",
-      "published": "2026-08-11T18:24:49Z",
+      "title": "Can Gold Make a New High in 2026?",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-high-2026-190002769.html",
+      "published": "2026-08-11T19:00:02Z",
       "source": "Barchart"
     },
     {
-      "title": "Trucking M&A: 3 Reasons Private Equity Struggles With Assets",
-      "url": "https://finance.yahoo.com/small-business/articles/trucking-m-3-reasons-private-182941953.html",
-      "published": "2026-08-11T18:29:41Z",
-      "source": "FreightWaves"
+      "title": "AstraZeneca PLC (AZN) vs. Bristol-Myers Squibb Company (BMY): Wall Street Doesn\u2019t Buy This Merger Talk",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/astrazeneca-plc-azn-vs-bristol-193445815.html",
+      "published": "2026-08-11T19:34:45Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Limited-time offer: Earn a bigger cash bonus on everyday spending with these Capital One credit cards",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/limited-time-offer-earn-a-bigger-cash-bonus-on-everyday-spending-with-these-capital-one-credit-cards-182644810.html",
-      "published": "2026-06-09T18:26:44Z",
+      "title": "Dollar Slightly Higher as Crude Oil Rallies and Stocks Fall",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-slightly-higher-crude-oil-193335507.html",
+      "published": "2026-08-11T19:33:35Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "KAST names Stripe veteran Connor Fitzgerald to lead its U.S. business",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/kast-names-stripe-veteran-connor-185134256.html",
+      "published": "2026-08-11T18:51:34Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "What is compound interest, and how is it calculated?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-compound-interest-121302430.html",
+      "published": "2023-12-15T22:26:33Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Dear SK Hynix Stock Fans, Here's What to Make of the AI Giant's Recent Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-sk-hynix-stock-fans-193250643.html",
+      "published": "2026-08-11T19:32:50Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Jefferies Downgrades Apple as iPhone Worries Mount. What This Means for AAPL Stock.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-downgrades-apple-iphone-worries-192455657.html",
+      "published": "2026-08-11T19:24:55Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Talen Energy (TLN) Raised Guidance In August, So Why The Loss?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/talen-energy-tln-raised-guidance-192349215.html",
+      "published": "2026-08-11T19:23:49Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Honeywell Slides 5% As Future Growth Guidance At Chicago Investor Event Dissapoints",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/honeywell-slides-5-future-growth-185552794.html",
+      "published": "2026-08-11T18:55:52Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "The M7 By The Numbers 2026: MBA Hiring Rebounds, Pay Holds Strong",
+      "url": "https://finance.yahoo.com/small-business/articles/m7-numbers-2026-mba-hiring-190754075.html",
+      "published": "2026-08-11T19:07:54Z",
+      "source": "Poets & Quants"
+    },
+    {
+      "title": "Baird Just Upgraded First Solar Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/baird-just-upgraded-first-solar-192333810.html",
+      "published": "2026-08-11T19:23:33Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "As Greg Abel Deploys Cash, Michael Burry Argues Berkshire Hathaway Is No Longer 'An Attractive Investment'",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/greg-abel-deploys-cash-michael-190927387.html",
+      "published": "2026-08-11T19:09:27Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Crude Prices Settle Higher as Middle East Supplies Tighten",
+      "url": "https://finance.yahoo.com/energy/articles/crude-prices-settle-higher-middle-191539221.html",
+      "published": "2026-08-11T19:15:39Z",
+      "source": "Barchart"
     },
     {
       "title": "Market Update: BTI, MCHP, APTV, TWLO, CAVA",
@@ -393,27 +393,27 @@
       "source": "Argus Research"
     },
     {
-      "title": "Unitree Robotics IPO oversubscribed 8,000 times in Shanghai",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unitree-robotics-ipo-oversubscribed-8-175125684.html",
-      "published": "2026-08-11T17:51:25Z",
-      "source": "Quartz"
+      "title": "Edward Jones Posts Record $5B in Quarterly Revenue",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/edward-jones-posts-record-5b-185756021.html",
+      "published": "2026-08-11T18:57:56Z",
+      "source": "Wealth Management"
     },
     {
-      "title": "Hedge Funds Favor argenx (ARGX) Over Forte Biosciences, Inc. (FBRX): Argenx Agrees to Buy Forte Biosciences",
-      "url": "https://finance.yahoo.com/healthcare/articles/hedge-funds-favor-argenx-argx-183557286.html",
-      "published": "2026-08-11T18:35:57Z",
+      "title": "Rivian Automotive, Inc. (RIVN) vs. Ferrari N.V. (RACE): A Mass-Market EV Bet Against Ultra-Luxury Pricing Power",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rivian-automotive-inc-rivn-vs-191245686.html",
+      "published": "2026-08-11T19:12:45Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Ahead of Nebius Earnings, Here's What Barchart Data Says Comes Next for NBIS Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-nebius-earnings-heres-barchart-183601806.html",
-      "published": "2026-08-11T18:36:01Z",
-      "source": "Barchart"
+      "title": "Is Uber (UBER) Losing Waymo Partnership? What Does It Mean in the Robotaxi Race?",
+      "url": "https://finance.yahoo.com/technology/articles/uber-uber-losing-waymo-partnership-191041183.html",
+      "published": "2026-08-11T19:10:41Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Cathie Wood Is Dumping More Palantir Shares. But Revenue Growth and Swelling Cash Flows Bode Well for PLTR Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-dumping-more-palantir-184403363.html",
-      "published": "2026-08-11T18:44:03Z",
+      "title": "Nat-Gas Prices Slip on the Outlook for Robust US Storage",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/nat-gas-prices-slip-outlook-191421446.html",
+      "published": "2026-08-11T19:14:21Z",
       "source": "Barchart"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -1.235524226344939
     }
   },
-  "updated_at": "2026-08-13T05:54:11.371597+00:00",
+  "updated_at": "2026-08-13T07:08:44.580969+00:00",
   "source": "yahoo_finance"
 }
