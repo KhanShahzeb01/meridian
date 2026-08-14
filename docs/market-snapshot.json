@@ -4,11 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7782.74,
-      "change": -16.25,
-      "change_pct": -0.20836031332262256,
+      "price": 7788.95,
+      "change": -10.039999999999964,
+      "change_pct": -0.12873461820056142,
       "series": [
-        7749.89990234375,
         7750.47021484375,
         7744.93017578125,
         7745.66015625,
@@ -38,21 +37,21 @@
         7795.330078125,
         7789.31982421875,
         7784.39990234375,
-        7784.1201171875,
-        7782.740234375
+        7783.64990234375,
+        7789.06005859375,
+        7788.9501953125
       ],
-      "as_of": "2026-08-14 15:37 UTC",
+      "as_of": "2026-08-14 16:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26669.951,
-      "change": -133.07400000000052,
-      "change_pct": -0.49648873587962744,
+      "price": 26717.637,
+      "change": -85.38800000000265,
+      "change_pct": -0.3185759816289492,
       "series": [
-        26615.755859375,
         26620.111328125,
         26581.513671875,
         26567.345703125,
@@ -82,21 +81,21 @@
         26749.923828125,
         26723.68359375,
         26685.580078125,
-        26677.421875,
-        26669.951171875
+        26693.998046875,
+        26716.201171875,
+        26717.63671875
       ],
-      "as_of": "2026-08-14 15:37 UTC",
+      "as_of": "2026-08-14 16:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53730.85,
-      "change": -109.13999999999942,
-      "change_pct": -0.2027117761351728,
+      "price": 53721.88,
+      "change": -118.11000000000058,
+      "change_pct": -0.2193722547125298,
       "series": [
-        53783.2890625,
         53831.76953125,
         53780.78125,
         53784.66015625,
@@ -126,22 +125,21 @@
         53811.69140625,
         53747.9296875,
         53733.41015625,
-        53741.2890625,
-        53730.8515625
+        53690.01171875,
+        53725.03125,
+        53721.87890625
       ],
-      "as_of": "2026-08-14 15:37 UTC",
+      "as_of": "2026-08-14 16:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4438.3,
-      "change": 17.900000000000546,
-      "change_pct": 0.4049407293457729,
+      "price": 4449.1,
+      "change": 28.700000000000728,
+      "change_pct": 0.6492625101800907,
       "series": [
-        4395.7998046875,
-        4396.39990234375,
         4375.60009765625,
         4373.7001953125,
         4367.60009765625,
@@ -170,22 +168,22 @@
         4442.0,
         4447.89990234375,
         4438.60009765625,
-        4440.10009765625,
-        4438.2998046875
+        4442.2001953125,
+        4449.0,
+        4449.10009765625,
+        4449.10009765625
       ],
-      "as_of": "2026-08-14 15:37 UTC",
+      "as_of": "2026-08-14 16:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 81.87,
-      "change": 0.6200000000000045,
-      "change_pct": 0.7630769230769286,
+      "price": 81.76,
+      "change": 0.5100000000000051,
+      "change_pct": 0.627692307692314,
       "series": [
-        81.22000122070312,
-        81.05999755859375,
         81.30000305175781,
         80.93000030517578,
         80.80999755859375,
@@ -214,22 +212,22 @@
         81.16999816894531,
         81.37000274658203,
         81.70999908447266,
-        81.80000305175781,
-        81.87000274658203
+        81.72000122070312,
+        81.66000366210938,
+        81.76000213623047,
+        81.76000213623047
       ],
-      "as_of": "2026-08-14 15:37 UTC",
+      "as_of": "2026-08-14 16:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 14.5,
-      "change": -0.13000000000000078,
-      "change_pct": -0.8885850991114201,
+      "price": 14.51,
+      "change": -0.120000000000001,
+      "change_pct": -0.8202323991797744,
       "series": [
-        14.630000114440918,
-        14.770000457763672,
         14.430000305175781,
         14.670000076293945,
         14.670000076293945,
@@ -258,10 +256,12 @@
         14.600000381469727,
         14.609999656677246,
         14.489999771118164,
-        14.5,
-        14.5
+        14.539999961853027,
+        14.5600004196167,
+        14.520000457763672,
+        14.510000228881836
       ],
-      "as_of": "2026-08-14 15:37 UTC",
+      "as_of": "2026-08-14 16:27 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,6 +271,66 @@
       "url": "https://finance.yahoo.com/real-estate/articles/68-old-resort-hotel-mall-015339982.html",
       "published": "2026-08-14T01:53:39Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "Reddit Stock Jumps On S&P 500 News",
+      "url": "https://www.investors.com/news/reddit-stock-jumps-on-sp-500-news/?src=A00220&yptr=yahoo",
+      "published": "2026-08-14T15:53:10Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "SK Hynix, IBD Stock Of The Day, Forming IPO Base But Actionable Now",
+      "url": "https://www.investors.com/research/ibd-stock-of-the-day/sk-hynix-stock-forming-ipo-base/?src=A00220&yptr=yahoo",
+      "published": "2026-08-14T15:53:00Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Oil prices rally as global stocks retreat",
+      "url": "https://finance.yahoo.com/news/asian-stocks-set-weekly-gain-023234921.html",
+      "published": "2026-08-14T15:51:25Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq slip after stocks hit record high, consumer sentiment declines",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html",
+      "published": "2026-08-14T10:26:35Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Aehr Test Systems Soars Again Friday. Shares Now Up More than 500% On the Year.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aehr-test-systems-soars-again-161143109.html",
+      "published": "2026-08-14T16:11:43Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "JPMorgan Chase: How To Limit Risk On A Stock That's Doing Well",
+      "url": "https://www.investors.com/research/options/jpmorgan-chase-jpm-stock-bullish-butterfly-spread-options/?src=A00220&yptr=yahoo",
+      "published": "2026-08-14T15:36:44Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "US consumers sour on economy as inflation concerns remain in focus, UMich survey says",
+      "url": "https://finance.yahoo.com/economy/article/us-consumers-sour-on-economy-as-inflation-concerns-remain-in-focus-umich-survey-says-144047259.html",
+      "published": "2026-08-14T14:40:47Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Morgan Stanley, JPMorgan Increase Crypto ETF Holdings in Q2",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/morgan-stanley-jpmorgan-increase-crypto-153100825.html",
+      "published": "2026-08-14T15:31:00Z",
+      "source": "CryptoProwl"
+    },
+    {
+      "title": "China's courts rule workers can't be fired just because AI replaced them \u2014 and the US has no such protections",
+      "url": "https://finance.yahoo.com/technology/ai/articles/chinas-courts-rule-workers-cant-153000752.html",
+      "published": "2026-08-14T15:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Rare Earth Stocks Soar on Friday: MP Materials Up 8%, USA Rare Earth Up 9%, NioCorp Up 3%. What\u2019s Behind the Jump?",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/rare-earth-stocks-soar-friday-160830854.html",
+      "published": "2026-08-14T16:08:30Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "Stock Market Today: Dow Steady After Surprise Retail Sales; Applied Materials Dives On Earnings (Live Coverage)",
@@ -291,219 +351,159 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Before the lawsuit: Trucking deposition preparation",
+      "url": "https://finance.yahoo.com/small-business/articles/lawsuit-trucking-deposition-preparation-150607943.html",
+      "published": "2026-08-14T15:06:07Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Reddit Is Getting Added to the S&P 500 \u2014 But You Still Shouldn\u2019t Buy It",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-getting-added-p-500-160637742.html",
+      "published": "2026-08-14T16:06:37Z",
+      "source": "24/7 Wall St."
+    },
+    {
       "title": "Rocket Lab (RKLB) Set a Revenue Record. Is Neutron Slipping Into 2027?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-set-revenue-150334121.html",
       "published": "2026-08-14T15:03:34Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "ResMed (RMD) Q4 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/healthcare/articles/resmed-rmd-q4-2026-earnings-151328568.html",
-      "published": "2026-08-14T15:13:28Z",
-      "source": "Motley Fool"
+      "title": "Struggle with budgeting? Following the 50/30/20 rule could be your solution.",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/50-30-20-budget-200045011.html",
+      "published": "2024-05-13T20:00:45Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq slip after stocks hit record high, consumer sentiment declines",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html",
-      "published": "2026-08-14T10:26:35Z",
-      "source": "Yahoo Finance"
+      "title": "Best CD rates today, Thursday, August 13, 2026: Lock in up to 4.30% APY with a 16-month CD",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-thursday-august-13-2026-lock-in-up-to-430-apy-with-a-16-month-cd-100000968.html",
+      "published": "2026-08-13T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "US consumers sour on economy as inflation concerns remain in focus, UMich survey says",
-      "url": "https://finance.yahoo.com/economy/article/us-consumers-sour-on-economy-as-inflation-concerns-remain-in-focus-umich-survey-says-144047259.html",
-      "published": "2026-08-14T14:40:47Z",
-      "source": "Yahoo Finance"
+      "title": "Bitcoin and ethereum prices today, Friday, August 14, 2026: Crypto prices backing off further",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-14-2026-crypto-prices-backing-off-further-123636029.html",
+      "published": "2026-08-14T12:36:36Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "US business inventories unchanged in June",
-      "url": "https://finance.yahoo.com/economy/articles/us-business-inventories-unchanged-june-143723135.html",
-      "published": "2026-08-14T14:37:23Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Why Top 3% Biotech Stock, Eton, Just Catapulted To A Record High",
-      "url": "https://www.investors.com/news/technology/eton-stock-eton-pharmaceuticals-earnings-q2-2026/?src=A00220&yptr=yahoo",
-      "published": "2026-08-14T14:36:56Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Bank of America resets Nebius stock price target after 454% surge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-resets-nebius-stock-150700189.html",
-      "published": "2026-08-14T15:07:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "AI Shopping is Sending Better Leads to Ulta and Etsy. Can They Keep the Customer?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-shopping-sending-better-leads-143403287.html",
-      "published": "2026-08-14T14:34:03Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Fed Rate Hike Odds Fall As Amazon Prime Day Effect Hits Retail Sales",
-      "url": "https://www.investors.com/news/federal-reserve-retail-sales-amazon-prime-day-wmt-tgt-tariff-refunds/?src=A00220&yptr=yahoo",
-      "published": "2026-08-14T14:33:52Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Tech stocks today: Shares climb higher with AI trade back on",
-      "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-shares-climb-higher-with-ai-trade-back-on-135605566.html",
-      "published": "2026-08-10T13:56:05Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "The Trade Desk (TTD) Plunged 22%. Did its Agency Problem Just Become an Earnings Problem?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trade-desk-ttd-plunged-22-143333502.html",
-      "published": "2026-08-14T14:33:33Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Oracle Gets Cheaper Only If The Megawatts Arrive",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-gets-cheaper-only-megawatts-150646530.html",
-      "published": "2026-08-14T15:06:46Z",
-      "source": "Trefis"
-    },
-    {
-      "title": "Crypto Exchange Gemini Reports $108 Million Net Loss",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-exchange-gemini-reports-108-142800020.html",
-      "published": "2026-08-14T14:28:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Breakout Watch: Savvy Investors Bet Millions On Royalty-Fueled Pharma Stock",
-      "url": "https://www.investors.com/research/ibd-stock-analysis/ligand-stock-lgnd-biopharmaceuticals-biotech-royalties-fuel-demand/?src=A00220&yptr=yahoo",
-      "published": "2026-08-14T14:26:40Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Is Autonomous Driving Becoming a Risk for Uber (UBER)?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/autonomous-driving-becoming-risk-uber-142612365.html",
-      "published": "2026-08-14T14:26:12Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Hive Digital\u2019s Stock Is Downgraded Ahead of Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hive-digital-stock-downgraded-ahead-142600089.html",
-      "published": "2026-08-14T14:26:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Comp En De Mn Cemig ADS Q2 Earnings Call Highlights",
-      "url": "https://finance.yahoo.com/energy/articles/comp-en-mn-cemig-ads-150502437.html",
-      "published": "2026-08-14T15:05:02Z",
+      "title": "Corpay Q2 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/corpay-q2-earnings-call-highlights-160432676.html",
+      "published": "2026-08-14T16:04:32Z",
       "source": "MarketBeat"
     },
     {
-      "title": "Zoetis (ZTS) Remains a Leader, So Why Was It Sold?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/zoetis-zts-remains-leader-why-142600966.html",
-      "published": "2026-08-14T14:26:00Z",
-      "source": "Insider Monkey"
+      "title": "Gold prices today, Thursday, August 13, 2026: Gold up nearly 10% month-over-month ahead of PPI report",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-august-13-2026-gold-up-nearly-10-month-over-month-ahead-of-ppi-report-120512700.html",
+      "published": "2026-08-13T12:05:12Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Target Stock Flies To New Highs As Earnings Approach, But Walmart Stuck In Neutral",
-      "url": "https://www.investors.com/research/earnings-preview/target-stock-flies-to-new-highs-walmart-viking-earnings/?src=A00220&yptr=yahoo",
-      "published": "2026-08-14T14:26:00Z",
-      "source": "Investor's Business Daily"
+      "title": "Silver prices today, Thursday, August 13, 2026: Silver prices up over 70% YOY with PPI report on deck",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-thursday-august-13-2026-silver-prices-up-over-70-yoy-with-ppi-report-on-deck-122006087.html",
+      "published": "2026-08-13T12:20:06Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Why Accenture (ACN) Lost Its Place in This Portfolio",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-accenture-acn-lost-place-142548024.html",
-      "published": "2026-08-14T14:25:48Z",
-      "source": "Insider Monkey"
+      "title": "Bitcoin and ethereum prices today, Thursday, August 13, 2026: BTC price trends turn negative",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-13-2026-btc-price-trends-turn-negative-124406250.html",
+      "published": "2026-08-13T12:44:06Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Synopsys (SNPS) Growth Disappointed \u2013 Should Investors Worry?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/synopsys-snps-growth-disappointed-investors-142536763.html",
-      "published": "2026-08-14T14:25:36Z",
-      "source": "Insider Monkey"
+      "title": "Silver prices today, Friday, August 14, 2026: Silver over $65 following soft inflation data this week",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-friday-august-14-2026-silver-over-65-following-soft-inflation-data-this-week-121251820.html",
+      "published": "2026-08-14T12:12:51Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 305.694,
+      "price": 305.28,
       "prev_close": 305.26,
-      "change_pct": 0.14217388455743496
+      "change_pct": 0.006551791915082818
     },
     "MSFT": {
-      "price": 497.595,
+      "price": 497.45,
       "prev_close": 496.88,
-      "change_pct": 0.14389792303977456
+      "change_pct": 0.11471582675897465
     },
     "NVDA": {
-      "price": 225.187,
+      "price": 225.725,
       "prev_close": 225.3,
-      "change_pct": -0.050155348424322926
+      "change_pct": 0.18863737239235814
     },
     "GOOGL": {
-      "price": 345.24,
+      "price": 345.26,
       "prev_close": 346.36,
-      "change_pct": -0.3233629749393707
+      "change_pct": -0.317588636101173
     },
     "AMZN": {
-      "price": 263.725,
+      "price": 264.14,
       "prev_close": 265.13,
-      "change_pct": -0.5299287142156576
+      "change_pct": -0.37340172745445976
     },
     "META": {
-      "price": 593.5,
+      "price": 592.155,
       "prev_close": 594.97,
-      "change_pct": -0.24707128090492417
+      "change_pct": -0.47313309914786533
     },
     "TSLA": {
-      "price": 337.07,
+      "price": 340.245,
       "prev_close": 339.96,
-      "change_pct": -0.8501000117660862
+      "change_pct": 0.08383339216379133
     },
     "JPM": {
-      "price": 363.845,
+      "price": 362.74,
       "prev_close": 363.11,
-      "change_pct": 0.2024180000550835
+      "change_pct": -0.1018974966263679
     },
     "V": {
-      "price": 364.47,
+      "price": 365.2,
       "prev_close": 365.45,
-      "change_pct": -0.2681625393350558
+      "change_pct": -0.06840881105486388
     },
     "XOM": {
-      "price": 160.75,
+      "price": 160.85,
       "prev_close": 158.61,
-      "change_pct": 1.3492213605699428
+      "change_pct": 1.412269087699376
     },
     "SPY": {
-      "price": 776.145,
+      "price": 776.71,
       "prev_close": 777.88,
-      "change_pct": -0.22304211446495778
+      "change_pct": -0.15040880341440313
     },
     "QQQ": {
-      "price": 728.745,
+      "price": 730.12,
       "prev_close": 732.07,
-      "change_pct": -0.4541915390604785
+      "change_pct": -0.2663679702760727
     },
     "AMD": {
-      "price": 498.315,
+      "price": 501.23,
       "prev_close": 483.01,
-      "change_pct": 3.168671456077515
+      "change_pct": 3.772178629842038
     },
     "NFLX": {
-      "price": 78.215,
+      "price": 78.25,
       "prev_close": 78.24,
-      "change_pct": -0.03195296523516293
+      "change_pct": 0.012781186094076068
     },
     "COIN": {
-      "price": 149.45,
+      "price": 150.88,
       "prev_close": 153.9,
-      "change_pct": -2.8914879792072883
+      "change_pct": -1.9623131903833726
     },
     "PLTR": {
-      "price": 177.165,
+      "price": 177.02,
       "prev_close": 179.01,
-      "change_pct": -1.0306686777275007
+      "change_pct": -1.1116697391207087
     },
     "BRK-B": {
-      "price": 504.91,
+      "price": 506.52,
       "prev_close": 506.93,
-      "change_pct": -0.3984771072929165
+      "change_pct": -0.08087901682678575
     }
   },
-  "updated_at": "2026-08-14T15:37:20.242219+00:00",
+  "updated_at": "2026-08-14T16:27:59.501260+00:00",
   "source": "yahoo_finance"
 }
