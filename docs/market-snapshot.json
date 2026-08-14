@@ -41,7 +41,7 @@
         7798.85986328125,
         7798.990234375
       ],
-      "as_of": "2026-08-14 06:42 UTC",
+      "as_of": "2026-08-14 08:02 UTC",
       "source": "yahoo"
     },
     {
@@ -85,16 +85,16 @@
         26803.509765625,
         26803.025390625
       ],
-      "as_of": "2026-08-14 06:42 UTC",
+      "as_of": "2026-08-14 08:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53839.99,
-      "change": 69.68999999999505,
-      "change_pct": 0.1296068647561852,
+      "price": 53840.0,
+      "change": 69.69999999999709,
+      "change_pct": 0.1296254623835037,
       "series": [
         53889.98046875,
         53809.109375,
@@ -127,25 +127,19 @@
         53778.80859375,
         53827.3515625,
         53834.578125,
-        53839.98828125
+        53840.0
       ],
-      "as_of": "2026-08-14 06:42 UTC",
+      "as_of": "2026-08-14 08:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4385.9,
-      "change": -34.5,
-      "change_pct": -0.7804723554429464,
+      "price": 4398.3,
+      "change": -22.099999999999454,
+      "change_pct": -0.4999547552257591,
       "series": [
-        4458.89990234375,
-        4441.7001953125,
-        4429.10009765625,
-        4425.2998046875,
-        4440.89990234375,
-        4421.7998046875,
         4422.39990234375,
         4419.39990234375,
         4424.2001953125,
@@ -164,32 +158,32 @@
         4395.7998046875,
         4396.39990234375,
         4375.60009765625,
-        4375.60009765625,
+        4373.7001953125,
+        4367.60009765625,
+        4370.7001953125,
+        4380.7998046875,
+        4379.60009765625,
         4380.2001953125,
         4382.0,
         4373.2998046875,
         4389.5,
         4385.2998046875,
-        4385.7001953125,
-        4385.89990234375
+        4391.60009765625,
+        4387.7998046875,
+        4398.0,
+        4398.2998046875
       ],
-      "as_of": "2026-08-14 06:42 UTC",
+      "as_of": "2026-08-14 08:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.12,
-      "change": 0.8700000000000045,
-      "change_pct": 1.0707692307692365,
+      "price": 82.83,
+      "change": 1.5799999999999983,
+      "change_pct": 1.9446153846153824,
       "series": [
-        81.20999908447266,
-        81.04000091552734,
-        80.66000366210938,
-        80.80999755859375,
-        81.2300033569336,
-        82.61000061035156,
         82.56999969482422,
         82.30000305175781,
         81.94000244140625,
@@ -208,28 +202,32 @@
         81.22000122070312,
         81.05999755859375,
         81.30000305175781,
-        80.86000061035156,
+        80.93000030517578,
+        80.80999755859375,
+        81.38999938964844,
+        81.30999755859375,
+        81.3499984741211,
         81.30000305175781,
         81.37999725341797,
         81.41999816894531,
         81.9800033569336,
         82.20999908447266,
-        82.12000274658203,
-        82.12000274658203
+        82.18000030517578,
+        82.75,
+        82.83000183105469,
+        82.83000183105469
       ],
-      "as_of": "2026-08-14 06:42 UTC",
+      "as_of": "2026-08-14 08:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 14.63,
-      "change": 0.08000000000000007,
-      "change_pct": 0.5498281786941586,
+      "price": 14.64,
+      "change": 0.009999999999999787,
+      "change_pct": 0.06835269993164585,
       "series": [
-        14.520000457763672,
-        14.460000038146973,
         14.4399995803833,
         14.550000190734863,
         14.670000076293945,
@@ -259,9 +257,11 @@
         14.720000267028809,
         14.569999694824219,
         14.630000114440918,
-        14.630000114440918
+        14.640000343322754,
+        14.640000343322754,
+        14.640000343322754
       ],
-      "as_of": "2026-08-14 06:42 UTC",
+      "as_of": "2026-08-14 08:02 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,148 +273,148 @@
       "source": "TheStreet"
     },
     {
-      "title": "Norway\u2019s Wealth Fund Nets Record Profits of $184 Billion This Year",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/norway-wealth-fund-nets-record-183929580.html",
-      "published": "2026-08-12T18:39:29Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Goldman Sachs to Acquire NEOS Investments in Deal Worth Up to $2.25B, Expanding Options-Based ETF Lineup",
-      "url": "https://finance.yahoo.com/markets/options/articles/goldman-sachs-acquire-neos-investments-183532423.html",
-      "published": "2026-08-12T18:35:32Z",
-      "source": "etf.com"
-    },
-    {
-      "title": "Shopify Inc. (SHOP) Soars as Jim Cramer Applauds AI-Driven Business Formation",
-      "url": "https://finance.yahoo.com/technology/ai/articles/shopify-inc-shop-soars-jim-184414583.html",
-      "published": "2026-08-12T18:44:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Dear MongoDB Stock Fans, Mark Your Calendars for September 1",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-mongodb-stock-fans-mark-184325661.html",
-      "published": "2026-08-12T18:43:25Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Trump\u2019s Capital Gains Tax Cut Plan Could Save Elon Musk Millions \u2014 Maybe Billions \u2014 of Dollars on Tesla",
-      "url": "https://finance.yahoo.com/economy/policy/articles/trump-capital-gains-tax-cut-183632061.html",
-      "published": "2026-08-12T18:36:32Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "As Hims prepares for peptides launch, Wall Street cautious on prospects this year",
-      "url": "https://finance.yahoo.com/healthcare/articles/hims-prepares-peptides-launch-wall-183346301.html",
-      "published": "2026-08-12T18:33:46Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Michael Burry adds to Nvidia and Palantir shorts while loading up on Molina Healthcare, which is down 54% from its high",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-adds-nvidia-palantir-184500402.html",
-      "published": "2026-08-12T18:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "CoreWeave (CRWV) and Super Micro (SMCI) Earnings Show AI Spending Is Still Surging",
-      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-crwv-super-micro-smci-183316686.html",
-      "published": "2026-08-12T18:33:16Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "IBM Landed A $240M AI Deal. Is That Enough?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ibm-landed-240m-ai-deal-184620463.html",
-      "published": "2026-08-12T18:46:20Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "SpaceX Just Unveiled Grok 4.6. Musk Calls it \u201cObjectively #1\u201d In AI. Anthropic, OpenAI and This Stock May Be in Trouble.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/spacex-just-unveiled-grok-4-183749677.html",
-      "published": "2026-08-12T18:37:49Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Rocket Lab\u2019s Highly Anticipated Neutron Flight May Be Delayed. What That Means for RKLB Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-highly-anticipated-neutron-183252132.html",
-      "published": "2026-08-12T18:32:52Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Dear Cerebras Stock Fans, Mark Your Calendars for August 18",
-      "url": "https://finance.yahoo.com/technology/ai/articles/dear-cerebras-stock-fans-mark-185630530.html",
-      "published": "2026-08-12T18:56:30Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Dear Intuit Stock Fans, Mark Your Calendars for August 25",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-intuit-stock-fans-mark-185751497.html",
-      "published": "2026-08-12T18:57:51Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "A $22 Million Reason Why AEHR Stock Is Up Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/22-million-reason-why-aehr-185805358.html",
-      "published": "2026-08-12T18:58:05Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "How Far Can Arista Stock Move Without Anything Going Wrong?",
-      "url": "https://finance.yahoo.com/markets/options/articles/far-arista-stock-move-without-183744818.html",
-      "published": "2026-08-12T18:37:44Z",
-      "source": "Trefis"
-    },
-    {
-      "title": "Dollar gains, yen slips as US CPI meets expectations",
-      "url": "https://finance.yahoo.com/news/dollar-drifts-markets-await-us-014351710.html",
-      "published": "2026-08-12T18:59:59Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Crude Prices Close Higher as IEA Forecasts Tightening Inventories in Q3",
-      "url": "https://finance.yahoo.com/energy/articles/crude-prices-close-higher-iea-190157220.html",
-      "published": "2026-08-12T19:01:57Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "The Tariff That Helps First Solar And Hurts Everyone Else",
-      "url": "https://finance.yahoo.com/economy/policy/articles/tariff-helps-first-solar-hurts-190305191.html",
-      "published": "2026-08-12T19:03:05Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Kalshi To Build High-Speed Data Feed",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/kalshi-build-high-speed-data-190400362.html",
-      "published": "2026-08-12T19:04:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Market Update: BTI, MCHP, APTV, TWLO, CAVA",
-      "url": "https://finance.yahoo.com/research/reports/ARGUS_47898_MarketUpdate_1786560461000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-      "published": "2026-08-12T18:47:41Z",
-      "source": "Argus Research"
-    },
-    {
-      "title": "Trump Should Forget Indexing Capital Gains. The Real Fix Is Changing This Law That\u2019s Been Frozen for 48 Years",
-      "url": "https://finance.yahoo.com/economy/policy/articles/trump-forget-indexing-capital-gains-183519802.html",
-      "published": "2026-08-12T18:35:19Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Oil prices edge up as investors weigh US-Iran talks deadlock against lower demand",
-      "url": "https://finance.yahoo.com/news/oil-rises-doubts-over-us-063114070.html",
-      "published": "2026-08-12T19:05:53Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Toyota\u2019s (TM) Profit Soared 76%. So Why Recall Over 500,000 Cars?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/toyota-tm-profit-soared-76-190728633.html",
-      "published": "2026-08-12T19:07:28Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Online banks have some of the best savings account rates. Here's why.",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-online-bank-savings-rates-201445877.html",
-      "published": "2024-08-22T20:14:45Z",
+      "title": "Credit card debt climbs to $1.26 trillion: What latest data means for consumers",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/credit-card-debt-climbs-to-126-trillion-what-latest-data-means-for-consumers-195757154.html",
+      "published": "2026-08-12T19:57:57Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+      "url": "https://finance.yahoo.com/markets/article/ai-infrastructure-stocks-surge-after-strong-earnings-from-coreweave-supermicro-142304399.html",
+      "published": "2026-08-12T14:23:04Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Refinery Attacks Deepen Global Diesel Supply Crunch",
+      "url": "https://finance.yahoo.com/energy/articles/refinery-attacks-deepen-global-diesel-200000870.html",
+      "published": "2026-08-12T20:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Dear Snowflake Stock Fans, Mark Your Calendars for Sept. 2",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-snowflake-stock-fans-mark-200017887.html",
+      "published": "2026-08-12T20:00:17Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Public Alternative Asset Managers See Wealth AUM Rise",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/public-alternative-asset-managers-see-195736247.html",
+      "published": "2026-08-12T19:57:36Z",
+      "source": "Wealth Management"
+    },
+    {
+      "title": "Commodities Trader Marex Jumps 20% On Earnings, Flashes Buy Signal",
+      "url": "https://www.investors.com/news/marex-stock-commodities-trading-earnings-buy-signal/?src=A00220&yptr=yahoo",
+      "published": "2026-08-12T20:06:01Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Why No. 2 IBD 50 Stock, Liquidia, Dropped Despite Its Sales Beat",
+      "url": "https://www.investors.com/news/technology/liquidia-stock-liquidia-earnings-q2-2026/?src=A00220&yptr=yahoo",
+      "published": "2026-08-12T20:06:25Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Cerebras shares plummet 16% after results fail to impress investors",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-raises-annual-targets-strong-200713556.html",
+      "published": "2026-08-12T20:07:13Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Oracle (ORCL) Adds Quantum Computing To Its Cloud, So What\u2019s The Catch?",
+      "url": "https://finance.yahoo.com/technology/articles/oracle-orcl-adds-quantum-computing-200653346.html",
+      "published": "2026-08-12T20:06:53Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Which Is the Better S&P 500 ETF, Vanguard's VOO or the iShares IVV?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/better-p-500-etf-vanguards-195922726.html",
+      "published": "2026-08-12T19:59:22Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Airbnb, Inc. (ABNB)\u2019s AI Strategy and Hotel Expansion Could Unlock New Growth",
+      "url": "https://finance.yahoo.com/technology/ai/articles/airbnb-inc-abnb-ai-strategy-200707316.html",
+      "published": "2026-08-12T20:07:07Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "The Goldman Sachs Group (GS)\u2019s $2.3 Billion ETF Bet: How Does It Compare With JPMorgan?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-group-gs-2-200819582.html",
+      "published": "2026-08-12T20:08:19Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Cisco forecasts annual revenue above estimates on sustained AI spending",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cisco-forecasts-upbeat-annual-revenue-200948955.html",
+      "published": "2026-08-12T20:09:48Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Ahead of Applied Materials Earnings, Here's What Barchart Data Says Comes Next for AMAT Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-applied-materials-earnings-heres-201419558.html",
+      "published": "2026-08-12T20:14:19Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Cognition Eyes $40 Billion Valuation in Fresh Funding Talks",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cognition-eyes-40-billion-valuation-195919596.html",
+      "published": "2026-08-12T19:59:19Z",
+      "source": "Benzinga Private Markets"
+    },
+    {
+      "title": "A $6.5 Billion Reason to Buy FRMI Stock Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/6-5-billion-reason-buy-201144034.html",
+      "published": "2026-08-12T20:11:44Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Dollar Ends Higher Despite Dovish US CPI Report",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-ends-higher-despite-dovish-201350591.html",
+      "published": "2026-08-12T20:13:50Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "The Kraft Heinz Company (KHC)\u2019s Dividend Looks Safe. The Bigger Question Is Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-company-khc-dividend-201542683.html",
+      "published": "2026-08-12T20:15:42Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Apple\u2019s CXMT Bet Could Strengthen Its Memory Supply, But Risks Remain",
+      "url": "https://finance.yahoo.com/technology/articles/apple-cxmt-bet-could-strengthen-201946243.html",
+      "published": "2026-08-12T20:19:46Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "The End of \u2018The Middle\u2019 in the Restaurant Industry",
+      "url": "https://finance.yahoo.com/small-business/articles/end-middle-restaurant-industry-200035769.html",
+      "published": "2026-08-12T20:00:35Z",
+      "source": "FSR"
+    },
+    {
+      "title": "What is a 40-year mortgage?",
+      "url": "https://finance.yahoo.com/news/guide-40-mortgages-one-220003152.html",
+      "published": "2026-08-12T20:17:28Z",
+      "source": "Bankrate"
+    },
+    {
+      "title": "Stock Market Today: Nasdaq Charges Higher On Inflation Report; Nvidia Partner CoreWeave Soars (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-july-cpi-inflation-nvidia-partner-coreweave/?src=A00220&yptr=yahoo",
+      "published": "2026-08-12T20:22:31Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "AI Chipmaker Cerebras Says Core Revenue Jumped 103% In Q2",
+      "url": "https://www.investors.com/news/technology/cerebras-stock-cbrs-q2-2026-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-08-12T20:24:16Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Supermicro Soars On Report. Why Nvidia Is Also Rallying.",
+      "url": "https://www.investors.com/news/technology/supermicro-stock-analysts-cautious-nvidia-positive-news/?src=A00220&yptr=yahoo",
+      "published": "2026-08-12T20:32:32Z",
+      "source": "Investor's Business Daily"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.6019607843137241
     }
   },
-  "updated_at": "2026-08-14T06:42:55.991244+00:00",
+  "updated_at": "2026-08-14T08:02:24.782115+00:00",
   "source": "yahoo_finance"
 }
