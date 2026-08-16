@@ -41,7 +41,7 @@
         7786.009765625,
         7785.759765625
       ],
-      "as_of": "2026-08-16 22:20 UTC",
+      "as_of": "2026-08-16 22:42 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26730.638671875,
         26729.1640625
       ],
-      "as_of": "2026-08-16 22:20 UTC",
+      "as_of": "2026-08-16 22:42 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         53733.51171875,
         53732.41015625
       ],
-      "as_of": "2026-08-16 22:20 UTC",
+      "as_of": "2026-08-16 22:42 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4433.6,
-      "change": -3.699999999999818,
-      "change_pct": -0.0833840398440452,
+      "price": 4432.5,
+      "change": -4.800000000000182,
+      "change_pct": -0.10817388952741942,
       "series": [
-        4385.2998046875,
-        4391.60009765625,
         4387.7998046875,
         4399.7998046875,
         4401.7998046875,
@@ -171,21 +169,21 @@
         4430.0,
         4432.10009765625,
         4437.2998046875,
-        4433.60009765625
+        4430.60009765625,
+        4432.7001953125,
+        4432.5
       ],
-      "as_of": "2026-08-16 22:20 UTC",
+      "as_of": "2026-08-16 22:42 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.61,
-      "change": 0.20999999999999375,
-      "change_pct": 0.25485436893203123,
+      "price": 82.51,
+      "change": 0.10999999999999943,
+      "change_pct": 0.13349514563106726,
       "series": [
-        81.9800033569336,
-        82.20999908447266,
         82.18000030517578,
         82.75,
         82.87999725341797,
@@ -215,9 +213,11 @@
         82.4000015258789,
         82.26000213623047,
         82.4000015258789,
-        82.61000061035156
+        82.5199966430664,
+        82.51000213623047,
+        82.51000213623047
       ],
-      "as_of": "2026-08-16 22:20 UTC",
+      "as_of": "2026-08-16 22:42 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         14.25,
         14.25
       ],
-      "as_of": "2026-08-16 22:20 UTC",
+      "as_of": "2026-08-16 22:42 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,6 +271,12 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-bill-ackman-doubles-down-020300181.html",
       "published": "2026-08-16T02:03:00Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-run-sandisk-soars-nvidia-buy-walmart-target/?src=A00220&yptr=yahoo",
+      "published": "2026-08-16T22:14:56Z",
+      "source": "Investor's Business Daily"
     },
     {
       "title": "NVIDIA\u2019s $3 Billion Bet on the Power Behind AI",
@@ -291,16 +297,16 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Historic retailer gets lifeline after warning it could collapse",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/historic-retailer-gets-lifeline-warning-220700487.html",
+      "published": "2026-08-15T22:07:00Z",
+      "source": "TheStreet"
+    },
+    {
       "title": "Pony.ai (PONY) and Uber (UBER) Team Up For A Bigger Bet",
       "url": "https://finance.yahoo.com/markets/stocks/articles/pony-ai-pony-uber-uber-193130272.html",
       "published": "2026-08-16T19:31:30Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Morgan Stanley sends a blunt Tesla message to investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sends-blunt-tesla-010300423.html",
-      "published": "2026-08-16T01:03:00Z",
-      "source": "TheStreet"
     },
     {
       "title": "Drake told a 23-year-old streamer he'd 'love to' buy her mom a house after picking her on dating show. Who pays the tax?",
@@ -315,21 +321,15 @@
       "source": "Oilprice.com"
     },
     {
-      "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-run-sandisk-soars-nvidia-buy-walmart-target/?src=A00220&yptr=yahoo",
-      "published": "2026-08-16T18:59:55Z",
-      "source": "Investor's Business Daily"
-    },
-    {
       "title": "Tori Dunlap's Her First $100K made Inc. 5000 after growing it from a blog to a multi-million dollar business",
       "url": "https://finance.yahoo.com/small-business/articles/tori-dunlaps-her-first-100k-183000556.html",
       "published": "2026-08-16T18:30:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "Historic retailer gets lifeline after warning it could collapse",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/historic-retailer-gets-lifeline-warning-220700487.html",
-      "published": "2026-08-15T22:07:00Z",
+      "title": "Morgan Stanley sends a blunt Tesla message to investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sends-blunt-tesla-010300423.html",
+      "published": "2026-08-16T01:03:00Z",
       "source": "TheStreet"
     },
     {
@@ -337,6 +337,30 @@
       "url": "https://finance.yahoo.com/markets/crypto/articles/ondo-stocks-volume-hits-27b-173900103.html",
       "published": "2026-08-16T17:39:00Z",
       "source": "CryptoProwl"
+    },
+    {
+      "title": "A $210 Billion Reason to Buy AMD Stock Here",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/210-billion-reason-buy-amd-161502041.html",
+      "published": "2026-08-16T16:15:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "As Oracle Deepens Its Partnership with AWS, Here\u2019s How You Should Play ORCL Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-deepens-partnership-aws-play-161502495.html",
+      "published": "2026-08-16T16:15:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Reddit Stock Jumped 11%. The Business Had Almost Nothing to Do With It",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-stock-jumped-11-business-161138860.html",
+      "published": "2026-08-16T16:11:38Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "53-year-old lawn and garden giant faces Chapter 11, liquidation",
+      "url": "https://finance.yahoo.com/small-business/articles/53-old-lawn-garden-giant-153300199.html",
+      "published": "2026-08-15T15:33:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "Under Armour\u2019s Turnaround Hits a Wall as North America Demand Craters",
@@ -357,34 +381,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "53-year-old lawn and garden giant faces Chapter 11, liquidation",
-      "url": "https://finance.yahoo.com/small-business/articles/53-old-lawn-garden-giant-153300199.html",
-      "published": "2026-08-15T15:33:00Z",
-      "source": "TheStreet"
-    },
-    {
       "title": "SpaceX stock volatility: What to do next if you own shares",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-volatility-what-to-do-next-if-you-own-shares-141704338.html",
       "published": "2026-06-17T14:17:04Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Michael Burry\u2019s Bearish Bet Against Nebius Stock Sends a Warning Message to AI Bulls",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-bearish-bet-against-153002331.html",
-      "published": "2026-08-16T15:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Home Depot CEO Takes Medical Leave. What This Means for HD Stock Ahead of Earnings.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-ceo-takes-medical-153002568.html",
-      "published": "2026-08-16T15:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
-      "url": "https://finance.yahoo.com/news/spending-is-leading-to-earnings-wall-street-strategists-see-payoff-from-big-techs-ai-investment-151610093.html",
-      "published": "2026-08-16T15:16:10Z",
-      "source": "Yahoo Finance"
     },
     {
       "title": "Warren Buffett named these 3 stocks as favorites for a reason",
@@ -393,22 +393,22 @@
       "source": "TheStreet"
     },
     {
-      "title": "Oppenheimer Just Upgraded Intuitive Surgical Stock. Here's Why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-just-upgraded-intuitive-surgical-151502484.html",
-      "published": "2026-08-16T15:15:02Z",
+      "title": "Home Depot CEO Takes Medical Leave. What This Means for HD Stock Ahead of Earnings.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-ceo-takes-medical-153002568.html",
+      "published": "2026-08-16T15:30:02Z",
       "source": "Barchart"
     },
     {
-      "title": "Moneywise staff confesses worst money mistakes \u2014 from ignoring subscriptions to sacrificing first home 'must-haves'",
-      "url": "https://finance.yahoo.com/markets/articles/moneywise-staff-confesses-worst-money-150000883.html",
-      "published": "2026-08-16T15:00:00Z",
-      "source": "Moneywise"
+      "title": "Michael Burry\u2019s Bearish Bet Against Nebius Stock Sends a Warning Message to AI Bulls",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-bearish-bet-against-153002331.html",
+      "published": "2026-08-16T15:30:02Z",
+      "source": "Barchart"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Sunday, August 16, 2026: Rates mostly lower than last week",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-16-2026-rates-mostly-lower-than-last-week-100000512.html",
-      "published": "2026-08-16T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
+      "url": "https://finance.yahoo.com/news/spending-is-leading-to-earnings-wall-street-strategists-see-payoff-from-big-techs-ai-investment-151610093.html",
+      "published": "2026-08-16T15:16:10Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Best CD rates today, Sunday, August 16, 2026: Lock in up to 4.30% APY",
@@ -504,6 +504,6 @@
       "change_pct": -0.5720710946284564
     }
   },
-  "updated_at": "2026-08-16T22:20:24.664153+00:00",
+  "updated_at": "2026-08-16T22:42:44.412126+00:00",
   "source": "yahoo_finance"
 }
