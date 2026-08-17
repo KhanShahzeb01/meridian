@@ -41,7 +41,7 @@
         7786.009765625,
         7785.759765625
       ],
-      "as_of": "2026-08-17 06:30 UTC",
+      "as_of": "2026-08-17 07:32 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26730.638671875,
         26729.1640625
       ],
-      "as_of": "2026-08-17 06:30 UTC",
+      "as_of": "2026-08-17 07:32 UTC",
       "source": "yahoo"
     },
     {
@@ -129,29 +129,26 @@
         53733.51171875,
         53732.41015625
       ],
-      "as_of": "2026-08-17 06:30 UTC",
+      "as_of": "2026-08-17 07:32 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4450.0,
-      "change": 12.699999999999818,
-      "change_pct": 0.28621008270794895,
+      "price": 4453.4,
+      "change": 16.099999999999454,
+      "change_pct": 0.3628332544565266,
       "series": [
-        4447.89990234375,
-        4438.60009765625,
-        4441.89990234375,
-        4448.7998046875,
+        4449.0,
         4444.5,
         4442.7001953125,
         4436.89990234375,
         4435.5,
         4436.39990234375,
-        4430.2001953125,
+        4430.2998046875,
         4433.5,
-        4431.60009765625,
+        4431.5,
         4430.0,
         4432.10009765625,
         4437.2998046875,
@@ -159,39 +156,39 @@
         4441.60009765625,
         4430.10009765625,
         4425.5,
-        4443.2998046875,
+        4445.7001953125,
         4457.2998046875,
-        4465.10009765625,
+        4463.7998046875,
         4452.0,
         4451.39990234375,
-        4450.0,
-        4446.39990234375,
+        4449.7998046875,
+        4449.2998046875,
+        4453.7001953125,
         4447.89990234375,
-        4447.2001953125,
+        4447.10009765625,
         4456.0,
         4451.2998046875,
-        4450.0,
-        4450.0
+        4455.0,
+        4459.2998046875,
+        4453.2001953125,
+        4453.39990234375
       ],
-      "as_of": "2026-08-17 06:30 UTC",
+      "as_of": "2026-08-17 07:32 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 81.72,
-      "change": -0.6800000000000068,
-      "change_pct": -0.8252427184466102,
+      "price": 81.63,
+      "change": -0.7700000000000102,
+      "change_pct": -0.9344660194174881,
       "series": [
-        81.16999816894531,
-        81.37000274658203,
-        81.70999908447266,
         81.72000122070312,
         81.66000366210938,
         81.93000030517578,
         81.91999816894531,
-        82.18000030517578,
+        82.16999816894531,
         82.29000091552734,
         82.4000015258789,
         82.41000366210938,
@@ -203,32 +200,34 @@
         82.38999938964844,
         82.44999694824219,
         82.33000183105469,
-        82.08000183105469,
+        82.16000366210938,
         81.88999938964844,
-        82.13999938964844,
+        82.4000015258789,
         82.58999633789062,
         82.8499984741211,
         82.43000030517578,
-        82.44000244140625,
-        82.31999969482422,
+        82.41000366210938,
+        82.23999786376953,
+        82.30999755859375,
         82.1500015258789,
         82.12999725341797,
         81.8499984741211,
-        81.73999786376953,
-        81.72000122070312
+        81.77999877929688,
+        81.8499984741211,
+        81.56999969482422,
+        81.62999725341797
       ],
-      "as_of": "2026-08-17 06:30 UTC",
+      "as_of": "2026-08-17 07:32 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 14.25,
-      "change": -0.3800000000000008,
-      "change_pct": -2.5974025974026027,
+      "price": 14.99,
+      "change": 0.7400000000000002,
+      "change_pct": 5.192982456140352,
       "series": [
-        14.729999542236328,
         14.720000267028809,
         14.569999694824219,
         14.630000114440918,
@@ -259,9 +258,10 @@
         14.329999923706055,
         14.270000457763672,
         14.25,
-        14.25
+        14.989999771118164,
+        14.989999771118164
       ],
-      "as_of": "2026-08-17 06:30 UTC",
+      "as_of": "2026-08-17 07:32 UTC",
       "source": "yahoo"
     }
   ],
@@ -285,12 +285,6 @@
       "source": "Barchart"
     },
     {
-      "title": "Wall Street Focused on D-Wave\u2019s Earnings. Its Bigger Story Came 1 Day Before.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/wall-street-focused-d-wave-183002547.html",
-      "published": "2026-08-15T18:30:02Z",
-      "source": "Barchart"
-    },
-    {
       "title": "Jim Cramer Was Happy The Market \u201cCared\u201d About D-Wave Quantum \u2013 But Not How You Think",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-happy-market-cared-212804288.html",
       "published": "2026-08-15T21:28:04Z",
@@ -303,16 +297,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck.",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-trading-near-52-week-185716793.html",
-      "published": "2026-08-15T18:57:16Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Jim Cramer Didn\u2019t Think Figma, Inc. (NYSE:FIG) Was Treated The Way It Should Have Been",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-didn-t-think-213003428.html",
       "published": "2026-08-15T21:30:03Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Jaguar\u2019s woke rebrand just got a fresh admission",
+      "url": "https://finance.yahoo.com/media-advertising/articles/jaguar-woke-rebrand-just-got-200700863.html",
+      "published": "2026-08-15T20:07:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "Jim Cramer Was Worried About Potential Impact On Salesforce Inc. (NYSE:CRM)\u2019s Dreamforce Conference",
@@ -333,16 +327,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Bond Traders Are Agonizing Over $70 Billion of Shadow Credit Backstops For AI Companies",
-      "url": "https://finance.yahoo.com/technology/ai/articles/bond-traders-agonizing-over-70-190000845.html",
-      "published": "2026-08-15T19:00:00Z",
-      "source": "Bloomberg"
-    },
-    {
       "title": "Jim Cramer Said Domino\u2019s Was Better Than Papa John\u2019s International, Inc. (NASDAQ:PZZA) \u2013 But Is He Right?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-domino-better-213509638.html",
       "published": "2026-08-15T21:35:09Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-bill-ackmans-stock-picks-200700109.html",
+      "published": "2026-08-15T20:07:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Jim Cramer Revealed What Went Wrong With Honeywell Aerospace Inc. (NASDAQ:HONA)",
@@ -363,16 +357,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "I'm in My Late 20s and Have a Regular Job. What Are Some Realistic Ways to Build Wealth?",
-      "url": "https://finance.yahoo.com/small-business/articles/im-20s-regular-job-realistic-190103326.html",
-      "published": "2026-08-15T19:01:03Z",
-      "source": "Benzinga"
-    },
-    {
       "title": "Royal Gold\u2019s (RGLD) Profits Doubled, So Why Add A Buyback Now?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/royal-gold-rgld-profits-doubled-223104992.html",
       "published": "2026-08-15T22:31:04Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "XMAG Is Outperforming the S&P 500 in 2026 as the Magnificent Seven Stall",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/xmag-outperforming-p-500-2026-200504954.html",
+      "published": "2026-08-15T20:05:04Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "MKS (MKSI) Just Posted 86% EPS Growth, So Why the Margin Warning?",
@@ -393,16 +387,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Part 2: Your Index Fund Is a Bet on AI \u2014 Whether You Know It or Not",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/part-2-index-fund-bet-190429781.html",
-      "published": "2026-08-15T19:04:29Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Block\u2019s (XYZ) EPS Surged 65%, So Why Did the Stock Drop?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/block-xyz-eps-surged-65-231807424.html",
       "published": "2026-08-15T23:18:07Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Why Most Americans Intend to Retire at 65\u2014But Actually Leave Work Three Years Earlier",
+      "url": "https://finance.yahoo.com/markets/articles/why-most-americans-intend-retire-200500488.html",
+      "published": "2026-08-15T20:05:00Z",
+      "source": "Investopedia"
     },
     {
       "title": "AbCellera (ABCL) Soars 64% as Drug Candidate Holds Huge Market Opportunity",
@@ -415,6 +409,12 @@
       "url": "https://finance.yahoo.com/energy/articles/billionaire-peter-thiel-buys-1-013411129.html",
       "published": "2026-08-16T01:34:11Z",
       "source": "Reuters"
+    },
+    {
+      "title": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-15-2026-rates-falling-this-weekend-100000735.html",
+      "published": "2026-08-15T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.5720710946284564
     }
   },
-  "updated_at": "2026-08-17T06:30:04.386909+00:00",
+  "updated_at": "2026-08-17T07:32:36.897008+00:00",
   "source": "yahoo_finance"
 }
