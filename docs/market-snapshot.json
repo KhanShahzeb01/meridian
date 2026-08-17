@@ -41,7 +41,7 @@
         7786.009765625,
         7785.759765625
       ],
-      "as_of": "2026-08-17 07:32 UTC",
+      "as_of": "2026-08-17 08:09 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26730.638671875,
         26729.1640625
       ],
-      "as_of": "2026-08-17 07:32 UTC",
+      "as_of": "2026-08-17 08:09 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53733.51171875,
         53732.41015625
       ],
-      "as_of": "2026-08-17 07:32 UTC",
+      "as_of": "2026-08-17 08:09 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4453.4,
-      "change": 16.099999999999454,
-      "change_pct": 0.3628332544565266,
+      "price": 4461.4,
+      "change": 24.099999999999454,
+      "change_pct": 0.5431230703355521,
       "series": [
-        4449.0,
         4444.5,
         4442.7001953125,
         4436.89990234375,
@@ -170,21 +169,21 @@
         4451.2998046875,
         4455.0,
         4459.2998046875,
-        4453.2001953125,
-        4453.39990234375
+        4461.2001953125,
+        4461.5,
+        4461.39990234375
       ],
-      "as_of": "2026-08-17 07:32 UTC",
+      "as_of": "2026-08-17 08:09 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 81.63,
-      "change": -0.7700000000000102,
-      "change_pct": -0.9344660194174881,
+      "price": 81.99,
+      "change": -0.4100000000000108,
+      "change_pct": -0.4975728155339937,
       "series": [
-        81.72000122070312,
         81.66000366210938,
         81.93000030517578,
         81.91999816894531,
@@ -214,21 +213,21 @@
         81.8499984741211,
         81.77999877929688,
         81.8499984741211,
-        81.56999969482422,
-        81.62999725341797
+        81.80000305175781,
+        81.94999694824219,
+        81.98999786376953
       ],
-      "as_of": "2026-08-17 07:32 UTC",
+      "as_of": "2026-08-17 08:09 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 14.99,
-      "change": 0.7400000000000002,
-      "change_pct": 5.192982456140352,
+      "price": 14.94,
+      "change": 0.6899999999999995,
+      "change_pct": 4.842105263157891,
       "series": [
-        14.720000267028809,
         14.569999694824219,
         14.630000114440918,
         14.640000343322754,
@@ -258,10 +257,11 @@
         14.329999923706055,
         14.270000457763672,
         14.25,
-        14.989999771118164,
-        14.989999771118164
+        14.979999542236328,
+        14.9399995803833,
+        14.9399995803833
       ],
-      "as_of": "2026-08-17 07:32 UTC",
+      "as_of": "2026-08-17 08:09 UTC",
       "source": "yahoo"
     }
   ],
@@ -277,12 +277,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sends-blunt-tesla-010300423.html",
       "published": "2026-08-16T01:03:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "Elon Musk Said Tesla Short Sellers Would Be \u2018Obliterated\u2019 Even Bill Gates \u2014 Yet They\u2019ve Made $9 Billion This Year Shorting the Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-said-tesla-short-193002441.html",
-      "published": "2026-08-15T19:30:02Z",
-      "source": "Barchart"
     },
     {
       "title": "Jim Cramer Was Happy The Market \u201cCared\u201d About D-Wave Quantum \u2013 But Not How You Think",
@@ -303,15 +297,21 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Jaguar\u2019s woke rebrand just got a fresh admission",
-      "url": "https://finance.yahoo.com/media-advertising/articles/jaguar-woke-rebrand-just-got-200700863.html",
-      "published": "2026-08-15T20:07:00Z",
-      "source": "TheStreet"
-    },
-    {
       "title": "Jim Cramer Was Worried About Potential Impact On Salesforce Inc. (NYSE:CRM)\u2019s Dreamforce Conference",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-worried-potential-impact-213039883.html",
       "published": "2026-08-15T21:30:39Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "These 3 ETFs Pay More Than a Rental Property With No Tenants, No Repairs, and No Mortgage",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-etfs-pay-more-rental-203218636.html",
+      "published": "2026-08-15T20:32:18Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Diageo (DEO) Vs Constellation (STZ): Hedge Funds Appear To Mirror Jim Cramer\u2019s Sentiment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/diageo-deo-vs-constellation-stz-213214804.html",
+      "published": "2026-08-15T21:32:14Z",
       "source": "Insider Monkey"
     },
     {
@@ -321,28 +321,22 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Diageo (DEO) Vs Constellation (STZ): Hedge Funds Appear To Mirror Jim Cramer\u2019s Sentiment",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/diageo-deo-vs-constellation-stz-213214804.html",
-      "published": "2026-08-15T21:32:14Z",
-      "source": "Insider Monkey"
-    },
-    {
       "title": "Jim Cramer Said Domino\u2019s Was Better Than Papa John\u2019s International, Inc. (NASDAQ:PZZA) \u2013 But Is He Right?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-domino-better-213509638.html",
       "published": "2026-08-15T21:35:09Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-bill-ackmans-stock-picks-200700109.html",
-      "published": "2026-08-15T20:07:00Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Jim Cramer Revealed What Went Wrong With Honeywell Aerospace Inc. (NASDAQ:HONA)",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-revealed-went-wrong-213604620.html",
       "published": "2026-08-15T21:36:04Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Why Has Cintas Stock Slipped Despite Record Margins? What to Know Amid a Founder's Vesting",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-cintas-stock-slipped-despite-203302385.html",
+      "published": "2026-08-15T20:33:02Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Host Hotels (HST) Just Raised Its Outlook. Can Luxury Travel Keep Delivering?",
@@ -363,16 +357,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "XMAG Is Outperforming the S&P 500 in 2026 as the Magnificent Seven Stall",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/xmag-outperforming-p-500-2026-200504954.html",
-      "published": "2026-08-15T20:05:04Z",
-      "source": "24/7 Wall St."
-    },
-    {
       "title": "MKS (MKSI) Just Posted 86% EPS Growth, So Why the Margin Warning?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/mks-mksi-just-posted-86-224242758.html",
       "published": "2026-08-15T22:42:42Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Lip-Bu Tan Investing $12 Million of His Own Money into Intel Raise: Daniel Newman Calls It a \u2018Strong Sign of Confidence\u2019 in Chipmaker\u2019s Future",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lip-bu-tan-investing-12-203042032.html",
+      "published": "2026-08-15T20:30:42Z",
+      "source": "Benzinga"
     },
     {
       "title": "Corpay (CPAY) Just Posted A Record Quarter, So Why The Caution?",
@@ -393,21 +387,27 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Why Most Americans Intend to Retire at 65\u2014But Actually Leave Work Three Years Earlier",
-      "url": "https://finance.yahoo.com/markets/articles/why-most-americans-intend-retire-200500488.html",
-      "published": "2026-08-15T20:05:00Z",
-      "source": "Investopedia"
-    },
-    {
       "title": "AbCellera (ABCL) Soars 64% as Drug Candidate Holds Huge Market Opportunity",
       "url": "https://finance.yahoo.com/healthcare/articles/abcellera-abcl-soars-64-drug-010958336.html",
       "published": "2026-08-16T01:09:58Z",
       "source": "Insider Monkey"
     },
     {
+      "title": "My two apps made $30M",
+      "url": "https://finance.yahoo.com/video/two-apps-made-30m-203123494.html",
+      "published": "2026-08-15T20:31:23Z",
+      "source": "Starter Story"
+    },
+    {
       "title": "Billionaire Peter Thiel buys 1% stake in Argentine Vaca Muerta oil firm, filing shows",
       "url": "https://finance.yahoo.com/energy/articles/billionaire-peter-thiel-buys-1-013411129.html",
       "published": "2026-08-16T01:34:11Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Analysis-Europe's heatwaves expose insurance gap as business losses mount",
+      "url": "https://finance.yahoo.com/news/analysis-europes-heatwaves-expose-insurance-050608719.html",
+      "published": "2026-08-16T05:13:32Z",
       "source": "Reuters"
     },
     {
@@ -504,6 +504,6 @@
       "change_pct": -0.5720710946284564
     }
   },
-  "updated_at": "2026-08-17T07:32:36.897008+00:00",
+  "updated_at": "2026-08-17T08:09:42.370459+00:00",
   "source": "yahoo_finance"
 }
