@@ -41,7 +41,7 @@
         7746.14013671875,
         7745.06005859375
       ],
-      "as_of": "2026-08-17 22:11 UTC",
+      "as_of": "2026-08-17 22:41 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26649.08203125,
         26644.91015625
       ],
-      "as_of": "2026-08-17 22:11 UTC",
+      "as_of": "2026-08-17 22:41 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53466.6796875,
         53459.78125
       ],
-      "as_of": "2026-08-17 22:11 UTC",
+      "as_of": "2026-08-17 22:41 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4472.1,
-      "change": -1.5999999999994543,
-      "change_pct": -0.03576457965441256,
+      "price": 4468.2,
+      "change": -5.5,
+      "change_pct": -0.12294074256208506,
       "series": [
-        4455.0,
         4459.2998046875,
         4461.2001953125,
         4461.5,
@@ -170,21 +169,21 @@
         4475.7001953125,
         4471.39990234375,
         4473.10009765625,
-        4473.10009765625,
-        4472.10009765625
+        4468.89990234375,
+        4468.89990234375,
+        4468.2001953125
       ],
-      "as_of": "2026-08-17 22:11 UTC",
+      "as_of": "2026-08-17 22:41 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.88,
-      "change": 0.37999999999999545,
-      "change_pct": 0.44970414201182896,
+      "price": 85.07,
+      "change": 0.5699999999999932,
+      "change_pct": 0.6745562130177434,
       "series": [
-        81.77999877929688,
         81.8499984741211,
         81.80000305175781,
         81.94999694824219,
@@ -214,10 +213,11 @@
         84.6500015258789,
         84.86000061035156,
         84.94999694824219,
-        84.87999725341797,
-        84.87999725341797
+        85.08000183105469,
+        85.04000091552734,
+        85.06999969482422
       ],
-      "as_of": "2026-08-17 22:11 UTC",
+      "as_of": "2026-08-17 22:41 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.1899995803833,
         15.1899995803833
       ],
-      "as_of": "2026-08-17 22:11 UTC",
+      "as_of": "2026-08-17 22:41 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,9 +273,45 @@
       "source": "TheStreet"
     },
     {
-      "title": "Investors in Microsoft Love Shorting Out-of-the-Money MSFT Puts",
-      "url": "https://finance.yahoo.com/markets/options/articles/investors-microsoft-love-shorting-money-131502468.html",
-      "published": "2026-08-16T13:15:02Z",
+      "title": "Bill Ackman's $5 billion fund trades 20% below its NAV as S&P 500 soars \u2014 and high fees aren't helping",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-5-billion-fund-140000634.html",
+      "published": "2026-08-16T14:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Analysts Are Upping Their Price Targets on Lumentum Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-upping-price-targets-lumentum-140002049.html",
+      "published": "2026-08-16T14:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "This ETF Is the Most Important in the Market. You Probably Haven\u2019t Heard of It.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-most-important-market-probably-140002357.html",
+      "published": "2026-08-16T14:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Jim Cramer Tells Caller to Average Down on Netflix (NFLX)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tells-caller-average-135105596.html",
+      "published": "2026-08-16T13:51:05Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Stanley Druckenmiller\u2019s Big Bet: New Broadcom, Intel and Arm Stakes in One Quarter",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-big-bet-broadcom-140036254.html",
+      "published": "2026-08-16T14:00:36Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Wendy\u2019s Jumps on Report That Nelson Peltz Wants to Take His Old Company Private",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wendy-jumps-report-nelson-peltz-134908532.html",
+      "published": "2026-08-16T13:49:08Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Nvidia\u2019s Financing Platform Will Support the AI Investment Boom",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-financing-platform-support-ai-134501906.html",
+      "published": "2026-08-16T13:45:01Z",
       "source": "Barchart"
     },
     {
@@ -283,6 +319,18 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-vs-nebius-both-companies-131502588.html",
       "published": "2026-08-16T13:15:02Z",
       "source": "Barchart"
+    },
+    {
+      "title": "Investors in Microsoft Love Shorting Out-of-the-Money MSFT Puts",
+      "url": "https://finance.yahoo.com/markets/options/articles/investors-microsoft-love-shorting-money-131502468.html",
+      "published": "2026-08-16T13:15:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "People Inc. Targets MGM Deal, Buybacks as It Seeks Sales of Non-Core Assets",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/people-inc-targets-mgm-deal-140158606.html",
+      "published": "2026-08-16T14:01:58Z",
+      "source": "MarketBeat"
     },
     {
       "title": "Vivian Tu says investors carrying credit card debt need to stop and pay it off first. The math says she's right",
@@ -297,16 +345,22 @@
       "source": "Moneywise"
     },
     {
-      "title": "1 Growth Stock Trading at More Than Half Off Its Peak Could Turn $500 Into $2,000 by 2027",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-trading-more-130400586.html",
-      "published": "2026-08-16T13:04:00Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Greg Abel Starts Spending: Berkshire\u2019s Cash Hoard Finally Gets Put to Work",
       "url": "https://finance.yahoo.com/markets/stocks/articles/greg-abel-starts-spending-berkshire-125459967.html",
       "published": "2026-08-16T12:54:59Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Moneywise staff confesses worst money mistakes \u2014 from ignoring subscriptions to sacrificing first home 'must-haves'",
+      "url": "https://finance.yahoo.com/markets/articles/moneywise-staff-confesses-worst-money-150000883.html",
+      "published": "2026-08-16T15:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Why Smithfield Foods Stock Sank This Week",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-smithfield-foods-stock-sank-140302283.html",
+      "published": "2026-08-16T14:03:02Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Heartflow (HTFL) Rockets 46%: What Analysts Say and Where Hedge Funds Stand",
@@ -327,15 +381,27 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "World's biggest wealth fund buys $1.2 billion of SpaceX stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/worlds-biggest-wealth-fund-buys-130300566.html",
-      "published": "2026-08-16T13:03:00Z",
-      "source": "TheStreet"
+      "title": "Oppenheimer Just Upgraded Intuitive Surgical Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-just-upgraded-intuitive-surgical-151502484.html",
+      "published": "2026-08-16T15:15:02Z",
+      "source": "Barchart"
     },
     {
-      "title": "Nvidia\u2019s Financing Platform Will Support the AI Investment Boom",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-financing-platform-support-ai-134501906.html",
-      "published": "2026-08-16T13:45:01Z",
+      "title": "She Paid Off Her House Years Ago. On Social Security, the Taxes and Upkeep Are Pricing Her Out Anyway.",
+      "url": "https://finance.yahoo.com/real-estate/articles/she-paid-off-her-house-140438009.html",
+      "published": "2026-08-16T14:04:38Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Home Depot CEO Takes Medical Leave. What This Means for HD Stock Ahead of Earnings.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-ceo-takes-medical-153002568.html",
+      "published": "2026-08-16T15:30:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Michael Burry\u2019s Bearish Bet Against Nebius Stock Sends a Warning Message to AI Bulls",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-bearish-bet-against-153002331.html",
+      "published": "2026-08-16T15:30:02Z",
       "source": "Barchart"
     },
     {
@@ -345,76 +411,10 @@
       "source": "Moneywise"
     },
     {
-      "title": "Wendy\u2019s Jumps on Report That Nelson Peltz Wants to Take His Old Company Private",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wendy-jumps-report-nelson-peltz-134908532.html",
-      "published": "2026-08-16T13:49:08Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Nebius (NBIS) Soared 48% Last Week. Is It Time to Sell?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-nbis-soared-48-last-121036478.html",
-      "published": "2026-08-16T12:10:36Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "AMG\u2019s Alternatives Boom Powers Record Growth",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amg-alternatives-boom-powers-record-130000853.html",
-      "published": "2026-08-16T13:00:00Z",
-      "source": "MarketBeat"
-    },
-    {
-      "title": "Jim Cramer Tells Caller to Average Down on Netflix (NFLX)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tells-caller-average-135105596.html",
-      "published": "2026-08-16T13:51:05Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "This ETF Is the Most Important in the Market. You Probably Haven\u2019t Heard of It.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-most-important-market-probably-140002357.html",
-      "published": "2026-08-16T14:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Analysts Are Upping Their Price Targets on Lumentum Stock. Here's Why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-upping-price-targets-lumentum-140002049.html",
-      "published": "2026-08-16T14:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Bill Ackman's $5 billion fund trades 20% below its NAV as S&P 500 soars \u2014 and high fees aren't helping",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-5-billion-fund-140000634.html",
-      "published": "2026-08-16T14:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
-      "url": "https://finance.yahoo.com/energy/articles/real-reason-oil-prices-aren-130000568.html",
-      "published": "2026-08-16T13:00:00Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Clients Are Craving Income. Here\u2019s How Advisors Are Delivering",
-      "url": "https://finance.yahoo.com/markets/options/articles/clients-craving-income-advisors-delivering-120000317.html",
-      "published": "2026-08-16T12:00:00Z",
-      "source": "The Daily Upside"
-    },
-    {
-      "title": "\u2018Running out of money\u2019: Kraft, McDonald\u2019s, Whirlpool CEOs all flag same concern over US consumers \u2014 protect your wealth",
-      "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
-      "published": "2026-08-16T11:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/the-ai-trade-got-crushed-the-bull-market-barely-noticed-chart-of-the-day-114320054.html",
-      "published": "2026-08-16T11:43:20Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Accelerant Holdings (ARX) Soars 57% as Buyer Bets Big on Firm",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/accelerant-holdings-arx-soars-57-113222023.html",
-      "published": "2026-08-16T11:32:22Z",
-      "source": "Insider Monkey"
+      "title": "SpaceX stock volatility: What to do next if you own shares",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-volatility-what-to-do-next-if-you-own-shares-141704338.html",
+      "published": "2026-06-17T14:17:04Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -1.1507251552486866
     }
   },
-  "updated_at": "2026-08-17T22:11:57.651175+00:00",
+  "updated_at": "2026-08-17T22:41:34.309989+00:00",
   "source": "yahoo_finance"
 }
