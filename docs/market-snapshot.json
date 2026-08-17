@@ -4,9 +4,9 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7746.98,
-      "change": -38.780000000000655,
-      "change_pct": -0.4980888185610737,
+      "price": 7745.06,
+      "change": -40.69999999999982,
+      "change_pct": -0.5227492242247361,
       "series": [
         7790.27001953125,
         7792.35009765625,
@@ -38,19 +38,19 @@
         7756.47998046875,
         7755.830078125,
         7751.72998046875,
-        7747.4599609375,
-        7746.97998046875
+        7746.14013671875,
+        7745.06005859375
       ],
-      "as_of": "2026-08-17 19:55 UTC",
+      "as_of": "2026-08-17 20:14 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26637.111,
-      "change": -92.05299999999988,
-      "change_pct": -0.34439161658778356,
+      "price": 26644.91,
+      "change": -84.25400000000081,
+      "change_pct": -0.3152137492964644,
       "series": [
         26781.462890625,
         26781.603515625,
@@ -82,19 +82,19 @@
         26652.224609375,
         26663.673828125,
         26655.5859375,
-        26642.755859375,
-        26637.111328125
+        26649.08203125,
+        26644.91015625
       ],
-      "as_of": "2026-08-17 19:55 UTC",
+      "as_of": "2026-08-17 20:14 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53471.42,
-      "change": -260.99000000000524,
-      "change_pct": -0.48572174596301415,
+      "price": 53459.78,
+      "change": -272.63000000000466,
+      "change_pct": -0.5073846492275419,
       "series": [
         53744.87890625,
         53760.41015625,
@@ -126,21 +126,20 @@
         53490.78125,
         53475.62890625,
         53482.859375,
-        53465.78125,
-        53471.421875
+        53466.6796875,
+        53459.78125
       ],
-      "as_of": "2026-08-17 19:55 UTC",
+      "as_of": "2026-08-17 20:14 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4475.0,
-      "change": 37.69999999999982,
-      "change_pct": 0.8496157573299037,
+      "price": 4475.1,
+      "change": 37.80000000000018,
+      "change_pct": 0.8518693800283997,
       "series": [
-        4447.10009765625,
         4456.0,
         4451.2998046875,
         4455.0,
@@ -170,21 +169,21 @@
         4463.2001953125,
         4463.10009765625,
         4470.60009765625,
-        4475.5,
-        4475.0
+        4475.7001953125,
+        4475.10009765625,
+        4475.10009765625
       ],
-      "as_of": "2026-08-17 19:55 UTC",
+      "as_of": "2026-08-17 20:14 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.4,
-      "change": 2.0,
-      "change_pct": 2.4271844660194173,
+      "price": 84.59,
+      "change": 2.1899999999999977,
+      "change_pct": 2.6577669902912593,
       "series": [
-        82.1500015258789,
         82.12999725341797,
         81.8499984741211,
         81.77999877929688,
@@ -214,19 +213,20 @@
         84.45999908447266,
         84.25,
         84.4000015258789,
-        84.4000015258789,
-        84.4000015258789
+        84.6500015258789,
+        84.58999633789062,
+        84.58999633789062
       ],
-      "as_of": "2026-08-17 19:55 UTC",
+      "as_of": "2026-08-17 20:14 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.26,
-      "change": 1.0099999999999998,
-      "change_pct": 7.087719298245612,
+      "price": 15.18,
+      "change": 0.9299999999999997,
+      "change_pct": 6.526315789473683,
       "series": [
         14.3100004196167,
         14.350000381469727,
@@ -258,10 +258,10 @@
         15.09000015258789,
         15.1899995803833,
         15.220000267028809,
-        15.25,
-        15.260000228881836
+        15.180000305175781,
+        15.180000305175781
       ],
-      "as_of": "2026-08-17 19:55 UTC",
+      "as_of": "2026-08-17 20:14 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,10 +273,46 @@
       "source": "TheStreet"
     },
     {
+      "title": "Robert Kiyosaki reveals 'the biggest liability' that puts you at Wall Street's mercy. Is your nest egg about to crack?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robert-kiyosaki-reveals-biggest-liability-111500295.html",
+      "published": "2026-08-16T11:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Americans are now borrowing more to bet on stocks than they owe in credit card debt",
+      "url": "https://finance.yahoo.com/markets/options/articles/americans-now-borrowing-more-bet-113000989.html",
+      "published": "2026-08-16T11:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Accelerant Holdings (ARX) Soars 57% as Buyer Bets Big on Firm",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/accelerant-holdings-arx-soars-57-113222023.html",
+      "published": "2026-08-16T11:32:22Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/the-ai-trade-got-crushed-the-bull-market-barely-noticed-chart-of-the-day-114320054.html",
+      "published": "2026-08-16T11:43:20Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Plug Power Tested a Backup Power System With Microsoft. Here's Why the CEO Says That's Not a Real Pivot Yet.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/plug-power-tested-backup-power-111400310.html",
+      "published": "2026-08-16T11:14:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Jim Cramer Breaks Down McDonald\u2019s (MCD) Q2 Earnings and Execution Flaws",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-breaks-down-mcdonald-102722297.html",
       "published": "2026-08-16T10:27:22Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "\u2018Running out of money\u2019: Kraft, McDonald\u2019s, Whirlpool CEOs all flag same concern over US consumers \u2014 protect your wealth",
+      "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
+      "published": "2026-08-16T11:45:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "New surveys show central banks are ditching the dollar and buying more gold instead \u2014 should you follow along?",
@@ -291,22 +327,22 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-ceo-phong-le-thinks-110000248.html",
+      "published": "2026-08-16T11:00:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Jim Cramer Backs NVIDIA (NVDA) Compute Bonds",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-backs-nvidia-nvda-101719339.html",
       "published": "2026-08-16T10:17:19Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks.",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-miner-riot-platforms-just-105000448.html",
-      "published": "2026-08-16T10:50:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Robert Kiyosaki reveals 'the biggest liability' that puts you at Wall Street's mercy. Is your nest egg about to crack?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/robert-kiyosaki-reveals-biggest-liability-111500295.html",
-      "published": "2026-08-16T11:15:00Z",
-      "source": "Moneywise"
+      "title": "Clients Are Craving Income. Here\u2019s How Advisors Are Delivering",
+      "url": "https://finance.yahoo.com/markets/options/articles/clients-craving-income-advisors-delivering-120000317.html",
+      "published": "2026-08-16T12:00:00Z",
+      "source": "The Daily Upside"
     },
     {
       "title": "Jim Cramer Advises Ditching Stellantis (STLA) for General Motors (GM)",
@@ -315,27 +351,51 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Nebius (NBIS) Soared 48% Last Week. Is It Time to Sell?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-nbis-soared-48-last-121036478.html",
+      "published": "2026-08-16T12:10:36Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Progyny Sees Utilization Rebound as Early Renewals De-Risk Outlook",
+      "url": "https://finance.yahoo.com/healthcare/articles/progyny-sees-utilization-rebound-early-110158073.html",
+      "published": "2026-08-16T11:01:58Z",
+      "source": "MarketBeat"
+    },
+    {
       "title": "NiSource (NI): A Costly Quarter Masks A Bigger Bet",
       "url": "https://finance.yahoo.com/markets/stocks/articles/nisource-ni-costly-quarter-masks-100126971.html",
       "published": "2026-08-16T10:01:26Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Americans are now borrowing more to bet on stocks than they owe in credit card debt",
-      "url": "https://finance.yahoo.com/markets/options/articles/americans-now-borrowing-more-bet-113000989.html",
-      "published": "2026-08-16T11:30:00Z",
+      "title": "Trump\u2019s economic approval craters \u2014 and even Fox News allies are getting impatient. But this key figure could save him",
+      "url": "https://finance.yahoo.com/economy/articles/trump-economic-approval-craters-even-121500571.html",
+      "published": "2026-08-16T12:15:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "The L.A. Lakers Delivered a 1-Year Return of 25%. These ETFs Have Done Even Better.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/l-lakers-delivered-1-return-105000526.html",
-      "published": "2026-08-16T10:50:00Z",
-      "source": "Motley Fool"
+      "title": "American skips taxes for 4 years citing this strategy his CPA approved. Unfortunately, he's not all the way right",
+      "url": "https://finance.yahoo.com/economy/policy/articles/american-skips-taxes-4-years-123000044.html",
+      "published": "2026-08-16T12:30:00Z",
+      "source": "Moneywise"
     },
     {
-      "title": "Accelerant Holdings (ARX) Soars 57% as Buyer Bets Big on Firm",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/accelerant-holdings-arx-soars-57-113222023.html",
-      "published": "2026-08-16T11:32:22Z",
+      "title": "20 reasons why Wendy's may be doomed",
+      "url": "https://finance.yahoo.com/markets/article/20-reasons-why-wendys-may-be-doomed-123000752.html",
+      "published": "2026-08-16T12:30:00Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "3 Quantum Computing Stocks for Aggressive Investors in August",
+      "url": "https://finance.yahoo.com/technology/ai/articles/3-quantum-computing-stocks-aggressive-110021474.html",
+      "published": "2026-08-16T11:00:21Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Heartflow (HTFL) Rockets 46%: What Analysts Say and Where Hedge Funds Stand",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/heartflow-htfl-rockets-46-analysts-123113891.html",
+      "published": "2026-08-16T12:31:13Z",
       "source": "Insider Monkey"
     },
     {
@@ -351,122 +411,62 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/the-ai-trade-got-crushed-the-bull-market-barely-noticed-chart-of-the-day-114320054.html",
-      "published": "2026-08-16T11:43:20Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Broadcom vs. AMD: Which AI Chip Stock Is the Better Buy?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-vs-amd-ai-chip-105500056.html",
-      "published": "2026-08-16T10:55:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "\u2018Running out of money\u2019: Kraft, McDonald\u2019s, Whirlpool CEOs all flag same concern over US consumers \u2014 protect your wealth",
-      "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
-      "published": "2026-08-16T11:45:00Z",
-      "source": "Moneywise"
-    },
-    {
       "title": "The Social Security bump for 3 million Americans you completely forgot about \u2014 do you still qualify?",
       "url": "https://finance.yahoo.com/economy/policy/articles/social-security-bump-3-million-093000754.html",
       "published": "2026-08-16T09:30:00Z",
       "source": "Moneywise"
-    },
-    {
-      "title": "Jim Cramer Explains Why Starboard Value\u2019s Stake in Shake Shack (SHAK) Is a Game-Changer",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-starboard-092750956.html",
-      "published": "2026-08-16T09:27:50Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Clients Are Craving Income. Here\u2019s How Advisors Are Delivering",
-      "url": "https://finance.yahoo.com/markets/options/articles/clients-craving-income-advisors-delivering-120000317.html",
-      "published": "2026-08-16T12:00:00Z",
-      "source": "The Daily Upside"
-    },
-    {
-      "title": "The Stock Market Is on the Verge of Doing Something That No One's Witnessed in Nearly 156 Years, and the Consequences May Be Dire for Wall Street",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-verge-doing-something-105600715.html",
-      "published": "2026-08-16T10:56:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Nebius (NBIS) Soared 48% Last Week. Is It Time to Sell?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-nbis-soared-48-last-121036478.html",
-      "published": "2026-08-16T12:10:36Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Trump\u2019s economic approval craters \u2014 and even Fox News allies are getting impatient. But this key figure could save him",
-      "url": "https://finance.yahoo.com/economy/articles/trump-economic-approval-craters-even-121500571.html",
-      "published": "2026-08-16T12:15:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "I co-signed my brother's student loans over a decade ago \u2014 but he's suddenly stopped paying them. What can I do?",
-      "url": "https://finance.yahoo.com/small-business/articles/co-signed-brothers-student-loans-090000943.html",
-      "published": "2026-08-16T09:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "20 reasons why Wendy's may be doomed",
-      "url": "https://finance.yahoo.com/markets/article/20-reasons-why-wendys-may-be-doomed-123000752.html",
-      "published": "2026-08-16T12:30:00Z",
-      "source": "Yahoo Finance"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 305.495,
+      "price": 305.59,
       "prev_close": 305.93,
-      "change_pct": -0.14218938972967746
+      "change_pct": -0.11113653450136692
     },
     "MSFT": {
-      "price": 480.362,
+      "price": 480.35,
       "prev_close": 495.4,
-      "change_pct": -3.0355268469923202
+      "change_pct": -3.0379491320145244
     },
     "NVDA": {
-      "price": 225.1,
+      "price": 225.01,
       "prev_close": 225.16,
-      "change_pct": -0.026647717178896017
+      "change_pct": -0.06661929294724005
     },
     "GOOGL": {
-      "price": 343.93,
+      "price": 344.0,
       "prev_close": 345.9,
-      "change_pct": -0.5695287655391646
+      "change_pct": -0.5492917028042722
     },
     "AMZN": {
-      "price": 260.77,
+      "price": 261.31,
       "prev_close": 262.65,
-      "change_pct": -0.715781458214352
+      "change_pct": -0.5101846563868171
     },
     "META": {
-      "price": 569.12,
+      "price": 568.97,
       "prev_close": 589.85,
-      "change_pct": -3.514452826989916
+      "change_pct": -3.5398830211070607
     },
     "TSLA": {
-      "price": 338.205,
+      "price": 339.3,
       "prev_close": 342.27,
-      "change_pct": -1.1876588658076952
+      "change_pct": -0.867735997896389
     },
     "JPM": {
-      "price": 361.54,
+      "price": 361.2,
       "prev_close": 362.84,
-      "change_pct": -0.35828464336896554
+      "change_pct": -0.4519898577885533
     },
     "V": {
-      "price": 359.285,
+      "price": 358.95,
       "prev_close": 364.15,
-      "change_pct": -1.3359879170671296
+      "change_pct": -1.4279829740491525
     },
     "XOM": {
-      "price": 161.55,
+      "price": 161.51,
       "prev_close": 160.1,
-      "change_pct": 0.9056839475328028
+      "change_pct": 0.8806995627732647
     },
     "SPY": {
       "price": 772.66,
@@ -474,36 +474,36 @@
       "change_pct": -0.47401911533607227
     },
     "QQQ": {
-      "price": 729.62,
+      "price": 729.87,
       "prev_close": 731.07,
-      "change_pct": -0.19833942030175572
+      "change_pct": -0.164142968525592
     },
     "AMD": {
-      "price": 504.935,
+      "price": 506.0,
       "prev_close": 514.39,
-      "change_pct": -1.8380994964909863
+      "change_pct": -1.631058146542504
     },
     "NFLX": {
-      "price": 76.005,
+      "price": 76.02,
       "prev_close": 78.16,
-      "change_pct": -2.7571647901740035
+      "change_pct": -2.737973387922212
     },
     "COIN": {
-      "price": 150.63,
+      "price": 150.55,
       "prev_close": 148.47,
-      "change_pct": 1.4548393614871669
+      "change_pct": 1.400956422172838
     },
     "PLTR": {
-      "price": 172.535,
+      "price": 172.55,
       "prev_close": 174.04,
-      "change_pct": -0.8647437370719349
+      "change_pct": -0.8561250287290166
     },
     "BRK-B": {
-      "price": 498.46,
+      "price": 498.34,
       "prev_close": 504.03,
-      "change_pct": -1.1050929508164185
+      "change_pct": -1.128901057476737
     }
   },
-  "updated_at": "2026-08-17T19:55:28.072842+00:00",
+  "updated_at": "2026-08-17T20:14:01.483265+00:00",
   "source": "yahoo_finance"
 }
