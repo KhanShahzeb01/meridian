@@ -4,9 +4,9 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7750.12,
-      "change": -35.64000000000033,
-      "change_pct": -0.4577587801319374,
+      "price": 7746.98,
+      "change": -38.780000000000655,
+      "change_pct": -0.4980888185610737,
       "series": [
         7790.27001953125,
         7792.35009765625,
@@ -38,19 +38,19 @@
         7756.47998046875,
         7755.830078125,
         7751.72998046875,
-        7749.7001953125,
-        7750.1201171875
+        7747.4599609375,
+        7746.97998046875
       ],
-      "as_of": "2026-08-17 19:37 UTC",
+      "as_of": "2026-08-17 19:55 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26651.627,
-      "change": -77.53700000000026,
-      "change_pct": -0.290083894879766,
+      "price": 26637.111,
+      "change": -92.05299999999988,
+      "change_pct": -0.34439161658778356,
       "series": [
         26781.462890625,
         26781.603515625,
@@ -82,19 +82,19 @@
         26652.224609375,
         26663.673828125,
         26655.5859375,
-        26650.177734375,
-        26651.626953125
+        26642.755859375,
+        26637.111328125
       ],
-      "as_of": "2026-08-17 19:37 UTC",
+      "as_of": "2026-08-17 19:55 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53462.9,
-      "change": -269.51000000000204,
-      "change_pct": -0.5015780978370448,
+      "price": 53471.42,
+      "change": -260.99000000000524,
+      "change_pct": -0.48572174596301415,
       "series": [
         53744.87890625,
         53760.41015625,
@@ -126,21 +126,20 @@
         53490.78125,
         53475.62890625,
         53482.859375,
-        53458.12109375,
-        53462.8984375
+        53465.78125,
+        53471.421875
       ],
-      "as_of": "2026-08-17 19:37 UTC",
+      "as_of": "2026-08-17 19:55 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4472.2,
-      "change": 34.899999999999636,
-      "change_pct": 0.7865143217722406,
+      "price": 4475.0,
+      "change": 37.69999999999982,
+      "change_pct": 0.8496157573299037,
       "series": [
-        4447.89990234375,
         4447.10009765625,
         4456.0,
         4451.2998046875,
@@ -170,10 +169,11 @@
         4471.0,
         4463.2001953125,
         4463.10009765625,
-        4472.2001953125,
-        4472.2001953125
+        4470.60009765625,
+        4475.5,
+        4475.0
       ],
-      "as_of": "2026-08-17 19:37 UTC",
+      "as_of": "2026-08-17 19:55 UTC",
       "source": "yahoo"
     },
     {
@@ -184,7 +184,6 @@
       "change": 2.0,
       "change_pct": 2.4271844660194173,
       "series": [
-        82.30999755859375,
         82.1500015258789,
         82.12999725341797,
         81.8499984741211,
@@ -214,21 +213,21 @@
         84.79000091552734,
         84.45999908447266,
         84.25,
-        84.38999938964844,
+        84.4000015258789,
+        84.4000015258789,
         84.4000015258789
       ],
-      "as_of": "2026-08-17 19:37 UTC",
+      "as_of": "2026-08-17 19:55 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.22,
-      "change": 0.9700000000000006,
-      "change_pct": 6.807017543859653,
+      "price": 15.26,
+      "change": 1.0099999999999998,
+      "change_pct": 7.087719298245612,
       "series": [
-        14.3100004196167,
         14.3100004196167,
         14.350000381469727,
         14.329999923706055,
@@ -259,9 +258,10 @@
         15.09000015258789,
         15.1899995803833,
         15.220000267028809,
-        15.220000267028809
+        15.25,
+        15.260000228881836
       ],
-      "as_of": "2026-08-17 19:37 UTC",
+      "as_of": "2026-08-17 19:55 UTC",
       "source": "yahoo"
     }
   ],
@@ -297,10 +297,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Exec at $27 billion tech giant HP hits back at Gen Z lazy label, saying they\u2019re great at listening and building relationships",
-      "url": "https://finance.yahoo.com/technology/ai/articles/exec-27-billion-tech-giant-103000115.html",
-      "published": "2026-08-16T10:30:00Z",
-      "source": "Fortune"
+      "title": "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks.",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-miner-riot-platforms-just-105000448.html",
+      "published": "2026-08-16T10:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Robert Kiyosaki reveals 'the biggest liability' that puts you at Wall Street's mercy. Is your nest egg about to crack?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robert-kiyosaki-reveals-biggest-liability-111500295.html",
+      "published": "2026-08-16T11:15:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "Jim Cramer Advises Ditching Stellantis (STLA) for General Motors (GM)",
@@ -315,10 +321,22 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Robert Kiyosaki reveals 'the biggest liability' that puts you at Wall Street's mercy. Is your nest egg about to crack?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/robert-kiyosaki-reveals-biggest-liability-111500295.html",
-      "published": "2026-08-16T11:15:00Z",
+      "title": "Americans are now borrowing more to bet on stocks than they owe in credit card debt",
+      "url": "https://finance.yahoo.com/markets/options/articles/americans-now-borrowing-more-bet-113000989.html",
+      "published": "2026-08-16T11:30:00Z",
       "source": "Moneywise"
+    },
+    {
+      "title": "The L.A. Lakers Delivered a 1-Year Return of 25%. These ETFs Have Done Even Better.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/l-lakers-delivered-1-return-105000526.html",
+      "published": "2026-08-16T10:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Accelerant Holdings (ARX) Soars 57% as Buyer Bets Big on Firm",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/accelerant-holdings-arx-soars-57-113222023.html",
+      "published": "2026-08-16T11:32:22Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Jim Cramer Discusses Restaurant Brands (QSR) Q2 Earnings and Burger King\u2019s Resurgence",
@@ -327,16 +345,28 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "The Trade Desk Stock Just Crashed. Should Investors Buy the Dip?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trade-desk-stock-just-crashed-103200081.html",
-      "published": "2026-08-16T10:32:00Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "What\u2019s Really Behind Symbotic\u2019s (SYM) Big Quarter?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/really-behind-symbotic-sym-big-093702283.html",
       "published": "2026-08-16T09:37:02Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/the-ai-trade-got-crushed-the-bull-market-barely-noticed-chart-of-the-day-114320054.html",
+      "published": "2026-08-16T11:43:20Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Broadcom vs. AMD: Which AI Chip Stock Is the Better Buy?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-vs-amd-ai-chip-105500056.html",
+      "published": "2026-08-16T10:55:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "\u2018Running out of money\u2019: Kraft, McDonald\u2019s, Whirlpool CEOs all flag same concern over US consumers \u2014 protect your wealth",
+      "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
+      "published": "2026-08-16T11:45:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "The Social Security bump for 3 million Americans you completely forgot about \u2014 do you still qualify?",
@@ -351,52 +381,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Americans are now borrowing more to bet on stocks than they owe in credit card debt",
-      "url": "https://finance.yahoo.com/markets/options/articles/americans-now-borrowing-more-bet-113000989.html",
-      "published": "2026-08-16T11:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Warren Buffett's Successor, Greg Abel, Put Nearly $35 Billion of Cash to Work Last Quarter. Here's What He Bought.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-successor-greg-abel-102200832.html",
-      "published": "2026-08-16T10:22:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Accelerant Holdings (ARX) Soars 57% as Buyer Bets Big on Firm",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/accelerant-holdings-arx-soars-57-113222023.html",
-      "published": "2026-08-16T11:32:22Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/the-ai-trade-got-crushed-the-bull-market-barely-noticed-chart-of-the-day-114320054.html",
-      "published": "2026-08-16T11:43:20Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "\u2018Running out of money\u2019: Kraft, McDonald\u2019s, Whirlpool CEOs all flag same concern over US consumers \u2014 protect your wealth",
-      "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
-      "published": "2026-08-16T11:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "I co-signed my brother's student loans over a decade ago \u2014 but he's suddenly stopped paying them. What can I do?",
-      "url": "https://finance.yahoo.com/small-business/articles/co-signed-brothers-student-loans-090000943.html",
-      "published": "2026-08-16T09:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Walmart Stock Has Been Sluggish This Year. Should You Buy it Before It Reports Earnings on Aug. 20?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-sluggish-buy-reports-102000691.html",
-      "published": "2026-08-16T10:20:00Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Clients Are Craving Income. Here\u2019s How Advisors Are Delivering",
       "url": "https://finance.yahoo.com/markets/options/articles/clients-craving-income-advisors-delivering-120000317.html",
       "published": "2026-08-16T12:00:00Z",
       "source": "The Daily Upside"
+    },
+    {
+      "title": "The Stock Market Is on the Verge of Doing Something That No One's Witnessed in Nearly 156 Years, and the Consequences May Be Dire for Wall Street",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-verge-doing-something-105600715.html",
+      "published": "2026-08-16T10:56:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Nebius (NBIS) Soared 48% Last Week. Is It Time to Sell?",
@@ -411,99 +405,105 @@
       "source": "Moneywise"
     },
     {
-      "title": "American skips taxes for 4 years citing this strategy his CPA approved. Unfortunately, he's not all the way right",
-      "url": "https://finance.yahoo.com/economy/policy/articles/american-skips-taxes-4-years-123000044.html",
-      "published": "2026-08-16T12:30:00Z",
+      "title": "I co-signed my brother's student loans over a decade ago \u2014 but he's suddenly stopped paying them. What can I do?",
+      "url": "https://finance.yahoo.com/small-business/articles/co-signed-brothers-student-loans-090000943.html",
+      "published": "2026-08-16T09:00:00Z",
       "source": "Moneywise"
+    },
+    {
+      "title": "20 reasons why Wendy's may be doomed",
+      "url": "https://finance.yahoo.com/markets/article/20-reasons-why-wendys-may-be-doomed-123000752.html",
+      "published": "2026-08-16T12:30:00Z",
+      "source": "Yahoo Finance"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 305.915,
+      "price": 305.495,
       "prev_close": 305.93,
-      "change_pct": -0.004903082404467152
+      "change_pct": -0.14218938972967746
     },
     "MSFT": {
-      "price": 479.97,
+      "price": 480.362,
       "prev_close": 495.4,
-      "change_pct": -3.114654824384326
+      "change_pct": -3.0355268469923202
     },
     "NVDA": {
-      "price": 225.99,
+      "price": 225.1,
       "prev_close": 225.16,
-      "change_pct": 0.36862675430805314
+      "change_pct": -0.026647717178896017
     },
     "GOOGL": {
-      "price": 343.4,
+      "price": 343.93,
       "prev_close": 345.9,
-      "change_pct": -0.7227522405319456
+      "change_pct": -0.5695287655391646
     },
     "AMZN": {
-      "price": 260.17,
+      "price": 260.77,
       "prev_close": 262.65,
-      "change_pct": -0.9442223491338136
+      "change_pct": -0.715781458214352
     },
     "META": {
-      "price": 568.4,
+      "price": 569.12,
       "prev_close": 589.85,
-      "change_pct": -3.6365177587522326
+      "change_pct": -3.514452826989916
     },
     "TSLA": {
-      "price": 339.72,
+      "price": 338.205,
       "prev_close": 342.27,
-      "change_pct": -0.745025856779722
+      "change_pct": -1.1876588658076952
     },
     "JPM": {
-      "price": 361.75,
+      "price": 361.54,
       "prev_close": 362.84,
-      "change_pct": -0.30040789328629014
+      "change_pct": -0.35828464336896554
     },
     "V": {
-      "price": 359.06,
+      "price": 359.285,
       "prev_close": 364.15,
-      "change_pct": -1.3977756419058014
+      "change_pct": -1.3359879170671296
     },
     "XOM": {
-      "price": 161.5,
+      "price": 161.55,
       "prev_close": 160.1,
-      "change_pct": 0.874453466583389
+      "change_pct": 0.9056839475328028
     },
     "SPY": {
-      "price": 772.99,
+      "price": 772.66,
       "prev_close": 776.34,
-      "change_pct": -0.4315119664064743
+      "change_pct": -0.47401911533607227
     },
     "QQQ": {
-      "price": 730.055,
+      "price": 729.62,
       "prev_close": 731.07,
-      "change_pct": -0.1388375942112383
+      "change_pct": -0.19833942030175572
     },
     "AMD": {
-      "price": 506.102,
+      "price": 504.935,
       "prev_close": 514.39,
-      "change_pct": -1.6112288341530767
+      "change_pct": -1.8380994964909863
     },
     "NFLX": {
-      "price": 75.725,
+      "price": 76.005,
       "prev_close": 78.16,
-      "change_pct": -3.1154042988741075
+      "change_pct": -2.7571647901740035
     },
     "COIN": {
-      "price": 150.88,
+      "price": 150.63,
       "prev_close": 148.47,
-      "change_pct": 1.623223546844478
+      "change_pct": 1.4548393614871669
     },
     "PLTR": {
-      "price": 173.23,
+      "price": 172.535,
       "prev_close": 174.04,
-      "change_pct": -0.4654102505171238
+      "change_pct": -0.8647437370719349
     },
     "BRK-B": {
-      "price": 499.28,
+      "price": 498.46,
       "prev_close": 504.03,
-      "change_pct": -0.9424042219709146
+      "change_pct": -1.1050929508164185
     }
   },
-  "updated_at": "2026-08-17T19:37:18.166956+00:00",
+  "updated_at": "2026-08-17T19:55:28.072842+00:00",
   "source": "yahoo_finance"
 }
