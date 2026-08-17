@@ -41,7 +41,7 @@
         7746.14013671875,
         7745.06005859375
       ],
-      "as_of": "2026-08-17 21:54 UTC",
+      "as_of": "2026-08-17 22:11 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26649.08203125,
         26644.91015625
       ],
-      "as_of": "2026-08-17 21:54 UTC",
+      "as_of": "2026-08-17 22:11 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53466.6796875,
         53459.78125
       ],
-      "as_of": "2026-08-17 21:54 UTC",
+      "as_of": "2026-08-17 22:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4473.1,
-      "change": -0.5999999999994543,
-      "change_pct": -0.013411717370397083,
+      "price": 4472.1,
+      "change": -1.5999999999994543,
+      "change_pct": -0.03576457965441256,
       "series": [
-        4451.2998046875,
         4455.0,
         4459.2998046875,
         4461.2001953125,
@@ -171,20 +170,20 @@
         4475.7001953125,
         4471.39990234375,
         4473.10009765625,
-        4473.10009765625
+        4473.10009765625,
+        4472.10009765625
       ],
-      "as_of": "2026-08-17 21:54 UTC",
+      "as_of": "2026-08-17 22:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.95,
-      "change": 0.45000000000000284,
-      "change_pct": 0.5325443786982282,
+      "price": 84.88,
+      "change": 0.37999999999999545,
+      "change_pct": 0.44970414201182896,
       "series": [
-        81.8499984741211,
         81.77999877929688,
         81.8499984741211,
         81.80000305175781,
@@ -215,9 +214,10 @@
         84.6500015258789,
         84.86000061035156,
         84.94999694824219,
-        84.94999694824219
+        84.87999725341797,
+        84.87999725341797
       ],
-      "as_of": "2026-08-17 21:54 UTC",
+      "as_of": "2026-08-17 22:11 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.1899995803833,
         15.1899995803833
       ],
-      "as_of": "2026-08-17 21:54 UTC",
+      "as_of": "2026-08-17 22:11 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,6 +271,18 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-raises-stake-214700937.html",
       "published": "2026-08-16T21:47:00Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "Investors in Microsoft Love Shorting Out-of-the-Money MSFT Puts",
+      "url": "https://finance.yahoo.com/markets/options/articles/investors-microsoft-love-shorting-money-131502468.html",
+      "published": "2026-08-16T13:15:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "CoreWeave vs Nebius: Both Companies Reported Strong Earnings, But Here\u2019s the Stock You Should Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-vs-nebius-both-companies-131502588.html",
+      "published": "2026-08-16T13:15:02Z",
+      "source": "Barchart"
     },
     {
       "title": "Vivian Tu says investors carrying credit card debt need to stop and pay it off first. The math says she's right",
@@ -285,28 +297,16 @@
       "source": "Moneywise"
     },
     {
+      "title": "1 Growth Stock Trading at More Than Half Off Its Peak Could Turn $500 Into $2,000 by 2027",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-trading-more-130400586.html",
+      "published": "2026-08-16T13:04:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Greg Abel Starts Spending: Berkshire\u2019s Cash Hoard Finally Gets Put to Work",
       "url": "https://finance.yahoo.com/markets/stocks/articles/greg-abel-starts-spending-berkshire-125459967.html",
       "published": "2026-08-16T12:54:59Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Investors in Microsoft Love Shorting Out-of-the-Money MSFT Puts",
-      "url": "https://finance.yahoo.com/markets/options/articles/investors-microsoft-love-shorting-money-131502468.html",
-      "published": "2026-08-16T13:15:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "World's biggest wealth fund buys $1.2 billion of SpaceX stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/worlds-biggest-wealth-fund-buys-130300566.html",
-      "published": "2026-08-16T13:03:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "CoreWeave vs Nebius: Both Companies Reported Strong Earnings, But Here\u2019s the Stock You Should Buy",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-vs-nebius-both-companies-131502588.html",
-      "published": "2026-08-16T13:15:02Z",
-      "source": "Barchart"
     },
     {
       "title": "Heartflow (HTFL) Rockets 46%: What Analysts Say and Where Hedge Funds Stand",
@@ -315,40 +315,22 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "20 reasons why Wendy's may be doomed",
-      "url": "https://finance.yahoo.com/markets/article/20-reasons-why-wendys-may-be-doomed-123000752.html",
-      "published": "2026-08-16T12:30:00Z",
-      "source": "Yahoo Finance"
-    },
-    {
       "title": "American skips taxes for 4 years citing this strategy his CPA approved. Unfortunately, he's not all the way right",
       "url": "https://finance.yahoo.com/economy/policy/articles/american-skips-taxes-4-years-123000044.html",
       "published": "2026-08-16T12:30:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "1 Growth Stock Trading at More Than Half Off Its Peak Could Turn $500 Into $2,000 by 2027",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-trading-more-130400586.html",
-      "published": "2026-08-16T13:04:00Z",
-      "source": "Motley Fool"
+      "title": "20 reasons why Wendy's may be doomed",
+      "url": "https://finance.yahoo.com/markets/article/20-reasons-why-wendys-may-be-doomed-123000752.html",
+      "published": "2026-08-16T12:30:00Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Trump\u2019s economic approval craters \u2014 and even Fox News allies are getting impatient. But this key figure could save him",
-      "url": "https://finance.yahoo.com/economy/articles/trump-economic-approval-craters-even-121500571.html",
-      "published": "2026-08-16T12:15:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Nebius (NBIS) Soared 48% Last Week. Is It Time to Sell?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-nbis-soared-48-last-121036478.html",
-      "published": "2026-08-16T12:10:36Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Clients Are Craving Income. Here\u2019s How Advisors Are Delivering",
-      "url": "https://finance.yahoo.com/markets/options/articles/clients-craving-income-advisors-delivering-120000317.html",
-      "published": "2026-08-16T12:00:00Z",
-      "source": "The Daily Upside"
+      "title": "World's biggest wealth fund buys $1.2 billion of SpaceX stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/worlds-biggest-wealth-fund-buys-130300566.html",
+      "published": "2026-08-16T13:03:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "Nvidia\u2019s Financing Platform Will Support the AI Investment Boom",
@@ -357,10 +339,10 @@
       "source": "Barchart"
     },
     {
-      "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
-      "url": "https://finance.yahoo.com/energy/articles/real-reason-oil-prices-aren-130000568.html",
-      "published": "2026-08-16T13:00:00Z",
-      "source": "MarketWatch"
+      "title": "Trump\u2019s economic approval craters \u2014 and even Fox News allies are getting impatient. But this key figure could save him",
+      "url": "https://finance.yahoo.com/economy/articles/trump-economic-approval-craters-even-121500571.html",
+      "published": "2026-08-16T12:15:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "Wendy\u2019s Jumps on Report That Nelson Peltz Wants to Take His Old Company Private",
@@ -369,22 +351,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Jim Cramer Tells Caller to Average Down on Netflix (NFLX)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tells-caller-average-135105596.html",
-      "published": "2026-08-16T13:51:05Z",
+      "title": "Nebius (NBIS) Soared 48% Last Week. Is It Time to Sell?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-nbis-soared-48-last-121036478.html",
+      "published": "2026-08-16T12:10:36Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "\u2018Running out of money\u2019: Kraft, McDonald\u2019s, Whirlpool CEOs all flag same concern over US consumers \u2014 protect your wealth",
-      "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
-      "published": "2026-08-16T11:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/the-ai-trade-got-crushed-the-bull-market-barely-noticed-chart-of-the-day-114320054.html",
-      "published": "2026-08-16T11:43:20Z",
-      "source": "Yahoo Finance"
     },
     {
       "title": "AMG\u2019s Alternatives Boom Powers Record Growth",
@@ -393,10 +363,10 @@
       "source": "MarketBeat"
     },
     {
-      "title": "Bill Ackman's $5 billion fund trades 20% below its NAV as S&P 500 soars \u2014 and high fees aren't helping",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-5-billion-fund-140000634.html",
-      "published": "2026-08-16T14:00:00Z",
-      "source": "Moneywise"
+      "title": "Jim Cramer Tells Caller to Average Down on Netflix (NFLX)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tells-caller-average-135105596.html",
+      "published": "2026-08-16T13:51:05Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "This ETF Is the Most Important in the Market. You Probably Haven\u2019t Heard of It.",
@@ -409,6 +379,36 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-upping-price-targets-lumentum-140002049.html",
       "published": "2026-08-16T14:00:02Z",
       "source": "Barchart"
+    },
+    {
+      "title": "Bill Ackman's $5 billion fund trades 20% below its NAV as S&P 500 soars \u2014 and high fees aren't helping",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-5-billion-fund-140000634.html",
+      "published": "2026-08-16T14:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
+      "url": "https://finance.yahoo.com/energy/articles/real-reason-oil-prices-aren-130000568.html",
+      "published": "2026-08-16T13:00:00Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Clients Are Craving Income. Here\u2019s How Advisors Are Delivering",
+      "url": "https://finance.yahoo.com/markets/options/articles/clients-craving-income-advisors-delivering-120000317.html",
+      "published": "2026-08-16T12:00:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "\u2018Running out of money\u2019: Kraft, McDonald\u2019s, Whirlpool CEOs all flag same concern over US consumers \u2014 protect your wealth",
+      "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
+      "published": "2026-08-16T11:45:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/the-ai-trade-got-crushed-the-bull-market-barely-noticed-chart-of-the-day-114320054.html",
+      "published": "2026-08-16T11:43:20Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Accelerant Holdings (ARX) Soars 57% as Buyer Bets Big on Firm",
@@ -504,6 +504,6 @@
       "change_pct": -1.1507251552486866
     }
   },
-  "updated_at": "2026-08-17T21:54:38.213722+00:00",
+  "updated_at": "2026-08-17T22:11:57.651175+00:00",
   "source": "yahoo_finance"
 }
