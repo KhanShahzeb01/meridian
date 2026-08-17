@@ -41,7 +41,7 @@
         7786.009765625,
         7785.759765625
       ],
-      "as_of": "2026-08-17 12:19 UTC",
+      "as_of": "2026-08-17 13:10 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26730.638671875,
         26729.1640625
       ],
-      "as_of": "2026-08-17 12:19 UTC",
+      "as_of": "2026-08-17 13:10 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         53733.51171875,
         53732.41015625
       ],
-      "as_of": "2026-08-17 12:19 UTC",
+      "as_of": "2026-08-17 13:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4448.7,
-      "change": 11.399999999999636,
-      "change_pct": 0.2569129876276032,
+      "price": 4441.7,
+      "change": 4.399999999999636,
+      "change_pct": 0.09915939873345583,
       "series": [
-        4432.10009765625,
-        4437.2998046875,
         4430.60009765625,
         4441.60009765625,
         4430.10009765625,
@@ -170,22 +168,22 @@
         4455.7998046875,
         4460.2998046875,
         4453.39990234375,
-        4449.2001953125,
-        4448.7001953125
+        4441.7001953125,
+        4441.39990234375,
+        4444.7001953125,
+        4441.7001953125
       ],
-      "as_of": "2026-08-17 12:19 UTC",
+      "as_of": "2026-08-17 13:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.4,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 83.09,
+      "change": 0.6899999999999977,
+      "change_pct": 0.8373786407766962,
       "series": [
-        82.26000213623047,
-        82.4000015258789,
         82.5199966430664,
         82.38999938964844,
         82.44999694824219,
@@ -214,21 +212,22 @@
         82.83999633789062,
         82.63999938964844,
         82.36000061035156,
-        82.4000015258789,
-        82.4000015258789
+        82.81999969482422,
+        82.97000122070312,
+        82.9000015258789,
+        83.08999633789062
       ],
-      "as_of": "2026-08-17 12:19 UTC",
+      "as_of": "2026-08-17 13:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 14.93,
-      "change": 0.6799999999999997,
-      "change_pct": 4.7719298245614015,
+      "price": 15.06,
+      "change": 0.8100000000000005,
+      "change_pct": 5.684210526315793,
       "series": [
-        14.5,
         14.529999732971191,
         14.529999732971191,
         14.529999732971191,
@@ -258,10 +257,11 @@
         14.920000076293945,
         14.90999984741211,
         14.920000076293945,
-        14.920000076293945,
-        14.930000305175781
+        15.029999732971191,
+        15.0600004196167,
+        15.0600004196167
       ],
-      "as_of": "2026-08-17 12:19 UTC",
+      "as_of": "2026-08-17 13:10 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,16 +273,64 @@
       "source": "TheStreet"
     },
     {
+      "title": "Goldman Sachs warns of consumer spending slowdown as tax refund boost fades",
+      "url": "https://finance.yahoo.com/economy/article/goldman-sachs-warns-of-consumer-spending-slowdown-as-tax-refund-boost-fades-125557282.html",
+      "published": "2026-08-17T12:55:57Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia, Alphabet, Peter Thiel: SpaceX Top Shareholders Revealed",
+      "url": "https://www.investors.com/news/spacex-stock-elon-musk-nvidia-alphabet-google-peter-thiel/?src=A00220&yptr=yahoo",
+      "published": "2026-08-17T12:47:16Z",
+      "source": "Investor's Business Daily"
+    },
+    {
       "title": "Stock Market Today: Dow Falls, Nasdaq Rises As Memory Chip Stocks Micron, Sandisk Extend Gains (Live Coverage)",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-micron-stock-sandisk-stock-sndk/?src=A00220&yptr=yahoo",
-      "published": "2026-08-17T11:58:59Z",
+      "published": "2026-08-17T12:46:14Z",
       "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Why the 'immaculate' stock market might not stay that way long",
+      "url": "https://finance.yahoo.com/markets/article/why-the-immaculate-stock-market-might-not-stay-that-way-long-121205340.html",
+      "published": "2026-08-17T12:12:05Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Morgan Stanley sends a blunt Tesla message to investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sends-blunt-tesla-010300423.html",
+      "published": "2026-08-16T01:03:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Stocks With This Number Of Letters In Their Symbols Do Best",
+      "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-with-this-number-of-letters-in-their-symbols-do-best/?src=A00220&yptr=yahoo",
+      "published": "2026-08-17T12:00:29Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Dohrn bets on camera data to cut fleet insurance costs",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dohrn-bets-camera-data-cut-120000649.html",
+      "published": "2026-08-17T12:00:00Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "I Want to Retire at 52. Can a Roth Conversion Ladder Let Me Access Retirement Savings Penalty-Free?",
+      "url": "https://finance.yahoo.com/markets/options/articles/want-retire-52-roth-conversion-120000061.html",
+      "published": "2026-08-17T12:00:00Z",
+      "source": "SmartAsset"
     },
     {
       "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver ahead of retail earnings",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-17-dow-sp-500-nasdaq-094421171.html",
       "published": "2026-08-17T09:44:21Z",
       "source": "Yahoo Finance"
+    },
+    {
+      "title": "Historic retailer gets lifeline after warning it could collapse",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/historic-retailer-gets-lifeline-warning-220700487.html",
+      "published": "2026-08-17T04:39:46Z",
+      "source": "TheStreet"
     },
     {
       "title": "Micron stock heats up again, crossing $1,000",
@@ -297,50 +345,26 @@
       "source": "Exec Edge"
     },
     {
-      "title": "Morgan Stanley sends a blunt Tesla message to investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-sends-blunt-tesla-010300423.html",
-      "published": "2026-08-16T01:03:00Z",
-      "source": "TheStreet"
-    },
-    {
       "title": "Dollar slips to lowest since early June as rate hike bets fade",
       "url": "https://finance.yahoo.com/markets/currencies/articles/yen-edges-traders-push-back-004148952.html",
       "published": "2026-08-17T11:23:25Z",
       "source": "Reuters"
     },
     {
-      "title": "Azerbaijan seeks to nurture tech sector as it looks beyond oil",
-      "url": "https://finance.yahoo.com/technology/articles/azerbaijan-seeks-nurture-tech-sector-110022390.html",
-      "published": "2026-08-17T11:00:22Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "I stayed for 8 years and got a $2,600 raise. A colleague who quit got $15,000 more. Do I have to leave to get paid?",
-      "url": "https://finance.yahoo.com/small-business/articles/stayed-8-years-got-2-104500877.html",
-      "published": "2026-08-17T10:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Morning Bid: Retail risk",
-      "url": "https://finance.yahoo.com/markets/articles/morning-bid-retail-risk-103558500.html",
-      "published": "2026-08-17T10:35:58Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Historic retailer gets lifeline after warning it could collapse",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/historic-retailer-gets-lifeline-warning-220700487.html",
-      "published": "2026-08-17T04:39:46Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "HELOC and home equity loan rates today, Monday, August 17, 2026: A 19-basis-point differential",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-17-2026-a-19-basis-point-differential-100000113.html",
+      "title": "Best CD rates today, Monday, August 17, 2026: Lock in up to 4.30% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-17-2026-lock-in-up-to-430-apy-100000753.html",
       "published": "2026-08-17T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Best CD rates today, Monday, August 17, 2026: Lock in up to 4.30% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-17-2026-lock-in-up-to-430-apy-100000753.html",
+      "title": "Ferrero extends M&A spree with Purely Elizabeth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ferrero-extends-m-spree-purely-102202859.html",
+      "published": "2026-08-17T12:53:53Z",
+      "source": "Just Food"
+    },
+    {
+      "title": "HELOC and home equity loan rates today, Monday, August 17, 2026: A 19-basis-point differential",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-17-2026-a-19-basis-point-differential-100000113.html",
       "published": "2026-08-17T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
@@ -357,16 +381,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Stellantis weighs closure of Brampton plant\u00a0in Canada, says Unifor",
-      "url": "https://finance.yahoo.com/economy/policy/articles/stellantis-weighs-closure-brampton-plant-121023973.html",
-      "published": "2026-08-17T12:10:23Z",
-      "source": "Just Auto"
+      "title": "SpaceX stock volatility: What to do next if you own shares",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-volatility-what-to-do-next-if-you-own-shares-141704338.html",
+      "published": "2026-06-17T14:17:04Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Best CD rates today, Sunday, August 16, 2026: Lock in up to 4.30% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-august-16-2026-lock-in-up-to-430-apy-100000956.html",
-      "published": "2026-08-16T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Seafood groups Nordian Group, Norvelita sold to PE firm",
+      "url": "https://finance.yahoo.com/small-business/articles/seafood-groups-nordian-group-norvelita-125246083.html",
+      "published": "2026-08-17T12:52:46Z",
+      "source": "Just Food"
     },
     {
       "title": "Mortgage and refinance interest rates today, Sunday, August 16, 2026: Rates mostly lower than last week",
@@ -375,9 +399,9 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "SpaceX stock volatility: What to do next if you own shares",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-volatility-what-to-do-next-if-you-own-shares-141704338.html",
-      "published": "2026-06-17T14:17:04Z",
+      "title": "Best CD rates today, Sunday, August 16, 2026: Lock in up to 4.30% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-august-16-2026-lock-in-up-to-430-apy-100000956.html",
+      "published": "2026-08-16T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
@@ -387,34 +411,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Sazerac strikes deal for UK\u2019s Au Vodka",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sazerac-strikes-deal-uk-au-120943133.html",
-      "published": "2026-08-17T12:09:43Z",
-      "source": "Just Drinks"
-    },
-    {
       "title": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-15-2026-rates-falling-this-weekend-100000735.html",
       "published": "2026-08-15T10:00:00Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "U.S. Bank Triple Cash Rewards Visa Business Card review: A solid option for everyday business costs",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/us-bank-triple-cash-rewards-visa-business-card-220252786.html",
-      "published": "2026-08-14T22:02:52Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Embedded insurance\u00a0gains\u00a0pace as IKEA enters\u00a0UK\u00a0home insurance market",
-      "url": "https://finance.yahoo.com/small-business/articles/embedded-insurance-gains-pace-ikea-120710362.html",
-      "published": "2026-08-17T12:07:10Z",
-      "source": "Life Insurance International"
-    },
-    {
-      "title": "Ackman\u2019s Biggest Portfolio Overhaul in Years Includes a Return to Netflix",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ackman-biggest-portfolio-overhaul-years-120529662.html",
-      "published": "2026-08-17T12:05:29Z",
-      "source": "24/7 Wall St."
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.5720710946284564
     }
   },
-  "updated_at": "2026-08-17T12:19:28.089089+00:00",
+  "updated_at": "2026-08-17T13:10:19.006287+00:00",
   "source": "yahoo_finance"
 }
