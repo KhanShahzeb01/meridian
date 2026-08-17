@@ -4,11 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7754.93,
-      "change": -30.829999999999927,
-      "change_pct": -0.39597932635991767,
+      "price": 7753.33,
+      "change": -32.43000000000029,
+      "change_pct": -0.41652966441298334,
       "series": [
-        7790.1298828125,
         7794.02978515625,
         7790.27001953125,
         7792.35009765625,
@@ -38,21 +37,21 @@
         7756.39990234375,
         7754.7099609375,
         7756.47998046875,
-        7754.9599609375,
-        7754.93017578125
+        7755.830078125,
+        7753.39013671875,
+        7753.330078125
       ],
-      "as_of": "2026-08-17 18:37 UTC",
+      "as_of": "2026-08-17 19:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26656.092,
-      "change": -73.07200000000012,
-      "change_pct": -0.2733792946161732,
+      "price": 26656.768,
+      "change": -72.39600000000064,
+      "change_pct": -0.2708502218774992,
       "series": [
-        26768.86328125,
         26798.83203125,
         26781.462890625,
         26781.603515625,
@@ -82,21 +81,21 @@
         26652.271484375,
         26647.728515625,
         26652.224609375,
-        26655.875,
-        26656.091796875
+        26663.673828125,
+        26656.767578125,
+        26656.767578125
       ],
-      "as_of": "2026-08-17 18:37 UTC",
+      "as_of": "2026-08-17 19:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53478.71,
-      "change": -253.70000000000437,
-      "change_pct": -0.47215451531022773,
+      "price": 53494.34,
+      "change": -238.07000000000698,
+      "change_pct": -0.4430659261328628,
       "series": [
-        53722.98828125,
         53748.78125,
         53744.87890625,
         53760.41015625,
@@ -126,22 +125,21 @@
         53476.4296875,
         53444.37890625,
         53490.78125,
-        53479.78125,
-        53478.7109375
+        53475.62890625,
+        53494.53125,
+        53494.33984375
       ],
-      "as_of": "2026-08-17 18:37 UTC",
+      "as_of": "2026-08-17 19:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4465.8,
-      "change": 28.5,
-      "change_pct": 0.6422824690690284,
+      "price": 4463.3,
+      "change": 26.0,
+      "change_pct": 0.5859419016068329,
       "series": [
-        4449.2998046875,
-        4453.7001953125,
         4447.89990234375,
         4447.10009765625,
         4456.0,
@@ -170,22 +168,22 @@
         4481.5,
         4474.0,
         4471.0,
-        4465.2001953125,
-        4465.7998046875
+        4463.2001953125,
+        4463.10009765625,
+        4461.39990234375,
+        4463.2998046875
       ],
-      "as_of": "2026-08-17 18:37 UTC",
+      "as_of": "2026-08-17 19:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.66,
-      "change": 2.259999999999991,
-      "change_pct": 2.7427184466019305,
+      "price": 84.25,
+      "change": 1.8499999999999943,
+      "change_pct": 2.2451456310679543,
       "series": [
-        82.41000366210938,
-        82.23999786376953,
         82.30999755859375,
         82.1500015258789,
         82.12999725341797,
@@ -214,21 +212,22 @@
         82.8499984741211,
         83.91000366210938,
         84.79000091552734,
-        84.55000305175781,
-        84.66000366210938
+        84.45999908447266,
+        84.25,
+        84.26000213623047,
+        84.25
       ],
-      "as_of": "2026-08-17 18:37 UTC",
+      "as_of": "2026-08-17 19:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.12,
-      "change": 0.8699999999999992,
-      "change_pct": 6.105263157894732,
+      "price": 15.18,
+      "change": 0.9299999999999997,
+      "change_pct": 6.526315789473683,
       "series": [
-        14.449999809265137,
         14.329999923706055,
         14.3100004196167,
         14.3100004196167,
@@ -258,10 +257,11 @@
         15.1899995803833,
         15.460000038146973,
         15.15999984741211,
-        15.119999885559082,
-        15.119999885559082
+        15.09000015258789,
+        15.180000305175781,
+        15.180000305175781
       ],
-      "as_of": "2026-08-17 18:37 UTC",
+      "as_of": "2026-08-17 19:10 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,42 +271,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-raises-stake-214700937.html",
       "published": "2026-08-16T21:47:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "Jim Cramer Explains Why Starboard Value\u2019s Stake in Shake Shack (SHAK) Is a Game-Changer",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-starboard-092750956.html",
-      "published": "2026-08-16T09:27:50Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "The Social Security bump for 3 million Americans you completely forgot about \u2014 do you still qualify?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/social-security-bump-3-million-093000754.html",
-      "published": "2026-08-16T09:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "What\u2019s Really Behind Symbotic\u2019s (SYM) Big Quarter?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/really-behind-symbotic-sym-big-093702283.html",
-      "published": "2026-08-16T09:37:02Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Discusses Restaurant Brands (QSR) Q2 Earnings and Burger King\u2019s Resurgence",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-restaurant-brands-093800181.html",
-      "published": "2026-08-16T09:38:00Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Apple: For Investors, the 3 Things That Matter Now Are AI, Growth, and Valuation (NASDAQ: AAPL)",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-investors-3-things-matter-092700688.html",
-      "published": "2026-08-16T09:27:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "I co-signed my brother's student loans over a decade ago \u2014 but he's suddenly stopped paying them. What can I do?",
-      "url": "https://finance.yahoo.com/small-business/articles/co-signed-brothers-student-loans-090000943.html",
-      "published": "2026-08-16T09:00:00Z",
-      "source": "Moneywise"
     },
     {
       "title": "NiSource (NI): A Costly Quarter Masks A Bigger Bet",
@@ -327,16 +291,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Peloton Just Posted Its First Full Year of Profits. Here's Why I'm Still Not Buying the Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/peloton-just-posted-first-full-092000241.html",
-      "published": "2026-08-16T09:20:00Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Eli Lilly\u2019s (LLY) Growth Story Keeps Adding Chapters",
       "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-growth-story-101834928.html",
       "published": "2026-08-16T10:18:34Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Meet the Roundhill ETF With 26% of Its Assets Parked in Micron Technology Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meet-roundhill-etf-26-assets-095900695.html",
+      "published": "2026-08-16T09:59:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "New surveys show central banks are ditching the dollar and buying more gold instead \u2014 should you follow along?",
@@ -345,34 +309,58 @@
       "source": "Moneywise"
     },
     {
+      "title": "Jim Cramer Discusses Restaurant Brands (QSR) Q2 Earnings and Burger King\u2019s Resurgence",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-restaurant-brands-093800181.html",
+      "published": "2026-08-16T09:38:00Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "What\u2019s Really Behind Symbotic\u2019s (SYM) Big Quarter?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/really-behind-symbotic-sym-big-093702283.html",
+      "published": "2026-08-16T09:37:02Z",
+      "source": "Insider Monkey"
+    },
+    {
       "title": "Jim Cramer Breaks Down McDonald\u2019s (MCD) Q2 Earnings and Execution Flaws",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-breaks-down-mcdonald-102722297.html",
       "published": "2026-08-16T10:27:22Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Why Bitcoin is Falling Despite US Stocks Hitting Record Highs",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-falling-despite-us-064837944.html",
-      "published": "2026-08-16T06:48:37Z",
-      "source": "FX Empire"
+      "title": "What to Expect in Markets This Week: Earnings from Walmart, Target and Home Depot",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-markets-week-earnings-walmart-100000848.html",
+      "published": "2026-08-16T10:00:00Z",
+      "source": "Investopedia"
     },
     {
-      "title": "MicroStrategy vs. Bitcoin: Who Won the 1-Year Performance Duel?",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/microstrategy-vs-bitcoin-won-1-092003986.html",
-      "published": "2026-08-16T09:20:03Z",
-      "source": "BeInCrypto"
+      "title": "The Social Security bump for 3 million Americans you completely forgot about \u2014 do you still qualify?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/social-security-bump-3-million-093000754.html",
+      "published": "2026-08-16T09:30:00Z",
+      "source": "Moneywise"
     },
     {
-      "title": "German companies cut US investment to three-year low, data show",
-      "url": "https://finance.yahoo.com/news/german-companies-cut-us-investment-063427866.html",
-      "published": "2026-08-16T06:34:27Z",
-      "source": "Reuters"
+      "title": "Jim Cramer Explains Why Starboard Value\u2019s Stake in Shake Shack (SHAK) Is a Game-Changer",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-starboard-092750956.html",
+      "published": "2026-08-16T09:27:50Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "I co-signed my brother's student loans over a decade ago \u2014 but he's suddenly stopped paying them. What can I do?",
+      "url": "https://finance.yahoo.com/small-business/articles/co-signed-brothers-student-loans-090000943.html",
+      "published": "2026-08-16T09:00:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "Robert Kiyosaki reveals 'the biggest liability' that puts you at Wall Street's mercy. Is your nest egg about to crack?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/robert-kiyosaki-reveals-biggest-liability-111500295.html",
       "published": "2026-08-16T11:15:00Z",
       "source": "Moneywise"
+    },
+    {
+      "title": "What's at stake for Dodgers' owner Mark Walter as authorities probe his businesses",
+      "url": "https://finance.yahoo.com/small-business/articles/whats-stake-dodgers-owner-mark-100000780.html",
+      "published": "2026-08-16T10:00:00Z",
+      "source": "LA Times"
     },
     {
       "title": "Americans are now borrowing more to bet on stocks than they owe in credit card debt",
@@ -387,12 +375,6 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "How a 71-Year-Old Collects $6,200 a Month From Just Three Tickers: SCHD, O, and MAIN",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/71-old-collects-6-200-092046097.html",
-      "published": "2026-08-16T09:20:46Z",
-      "source": "24/7 Wall St."
-    },
-    {
       "title": "The AI trade got crushed. The bull market barely noticed: Chart of the Day",
       "url": "https://finance.yahoo.com/markets/article/the-ai-trade-got-crushed-the-bull-market-barely-noticed-chart-of-the-day-114320054.html",
       "published": "2026-08-16T11:43:20Z",
@@ -405,6 +387,12 @@
       "source": "Moneywise"
     },
     {
+      "title": "Why the Alnylam Sell-Off Looks Overdone -- and What Investors Are Missing",
+      "url": "https://finance.yahoo.com/healthcare/articles/why-alnylam-sell-off-looks-100100216.html",
+      "published": "2026-08-16T10:01:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Clients Are Craving Income. Here\u2019s How Advisors Are Delivering",
       "url": "https://finance.yahoo.com/markets/options/articles/clients-craving-income-advisors-delivering-120000317.html",
       "published": "2026-08-16T12:00:00Z",
@@ -415,95 +403,107 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-nbis-soared-48-last-121036478.html",
       "published": "2026-08-16T12:10:36Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Trump\u2019s economic approval craters \u2014 and even Fox News allies are getting impatient. But this key figure could save him",
+      "url": "https://finance.yahoo.com/economy/articles/trump-economic-approval-craters-even-121500571.html",
+      "published": "2026-08-16T12:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "American skips taxes for 4 years citing this strategy his CPA approved. Unfortunately, he's not all the way right",
+      "url": "https://finance.yahoo.com/economy/policy/articles/american-skips-taxes-4-years-123000044.html",
+      "published": "2026-08-16T12:30:00Z",
+      "source": "Moneywise"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 304.765,
+      "price": 305.705,
       "prev_close": 305.93,
-      "change_pct": -0.38080606674730183
+      "change_pct": -0.0735462360670816
     },
     "MSFT": {
-      "price": 479.61,
+      "price": 480.63,
       "prev_close": 495.4,
-      "change_pct": -3.187323375050457
+      "change_pct": -2.9814291481630972
     },
     "NVDA": {
-      "price": 225.441,
+      "price": 225.518,
       "prev_close": 225.16,
-      "change_pct": 0.1248001421211609
+      "change_pct": 0.15899804583407537
     },
     "GOOGL": {
-      "price": 344.06,
+      "price": 343.755,
       "prev_close": 345.9,
-      "change_pct": -0.5319456490315049
+      "change_pct": -0.6201214223764041
     },
     "AMZN": {
-      "price": 259.62,
+      "price": 260.36,
       "prev_close": 262.65,
-      "change_pct": -1.1536264991433363
+      "change_pct": -0.8718827336759809
     },
     "META": {
-      "price": 567.0,
+      "price": 568.63,
       "prev_close": 589.85,
-      "change_pct": -3.8738662371789476
+      "change_pct": -3.5975247944392685
     },
     "TSLA": {
-      "price": 339.6,
+      "price": 340.62,
       "prev_close": 342.27,
-      "change_pct": -0.7800858970987697
+      "change_pct": -0.4820755543868809
     },
     "JPM": {
-      "price": 362.51,
+      "price": 362.38,
       "prev_close": 362.84,
-      "change_pct": -0.0909491787013516
+      "change_pct": -0.12677764303824812
     },
     "V": {
-      "price": 360.9,
+      "price": 360.77,
       "prev_close": 364.15,
-      "change_pct": -0.8924893587807223
+      "change_pct": -0.92818893313195
     },
     "XOM": {
-      "price": 162.381,
+      "price": 161.82,
       "prev_close": 160.1,
-      "change_pct": 1.4247345409119336
+      "change_pct": 1.0743285446595872
     },
     "SPY": {
-      "price": 773.34,
+      "price": 773.29,
       "prev_close": 776.34,
-      "change_pct": -0.3864286266326609
+      "change_pct": -0.39286910374321404
     },
     "QQQ": {
-      "price": 730.225,
+      "price": 730.145,
       "prev_close": 731.07,
-      "change_pct": -0.11558400700343704
+      "change_pct": -0.12652687157181502
     },
     "AMD": {
-      "price": 508.87,
+      "price": 508.65,
       "prev_close": 514.39,
-      "change_pct": -1.0731157293104419
+      "change_pct": -1.1158848344641243
     },
     "NFLX": {
-      "price": 75.539,
+      "price": 75.585,
       "prev_close": 78.16,
-      "change_pct": -3.353377686796309
+      "change_pct": -3.2945240532241593
     },
     "COIN": {
-      "price": 151.41,
+      "price": 150.775,
       "prev_close": 148.47,
-      "change_pct": 1.9801980198019788
+      "change_pct": 1.5525021889944142
     },
     "PLTR": {
-      "price": 173.53,
+      "price": 173.67,
       "prev_close": 174.04,
-      "change_pct": -0.2930360836589238
+      "change_pct": -0.21259480579177464
     },
     "BRK-B": {
-      "price": 499.82,
+      "price": 499.69,
       "prev_close": 504.03,
-      "change_pct": -0.8352677419994802
+      "change_pct": -0.861059857548157
     }
   },
-  "updated_at": "2026-08-17T18:37:06.098178+00:00",
+  "updated_at": "2026-08-17T19:10:04.130487+00:00",
   "source": "yahoo_finance"
 }
