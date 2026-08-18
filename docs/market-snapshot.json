@@ -41,7 +41,7 @@
         7746.14013671875,
         7745.06005859375
       ],
-      "as_of": "2026-08-18 02:02 UTC",
+      "as_of": "2026-08-18 03:04 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26649.08203125,
         26644.91015625
       ],
-      "as_of": "2026-08-18 02:02 UTC",
+      "as_of": "2026-08-18 03:04 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         53466.6796875,
         53459.78125
       ],
-      "as_of": "2026-08-18 02:02 UTC",
+      "as_of": "2026-08-18 03:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4464.8,
-      "change": -8.899999999999636,
-      "change_pct": -0.19894047432772954,
+      "price": 4454.3,
+      "change": -19.399999999999636,
+      "change_pct": -0.43364552830989195,
       "series": [
-        4452.39990234375,
-        4461.60009765625,
         4455.7998046875,
         4460.2998046875,
         4453.39990234375,
@@ -170,10 +168,12 @@
         4487.7001953125,
         4491.2001953125,
         4481.5,
-        4463.2001953125,
-        4464.7998046875
+        4464.60009765625,
+        4458.7001953125,
+        4454.2001953125,
+        4454.2998046875
       ],
-      "as_of": "2026-08-18 02:02 UTC",
+      "as_of": "2026-08-18 03:04 UTC",
       "source": "yahoo"
     },
     {
@@ -184,8 +184,6 @@
       "change": 0.45999999999999375,
       "change_pct": 0.5443786982248446,
       "series": [
-        82.97000122070312,
-        82.12999725341797,
         82.83999633789062,
         82.63999938964844,
         82.36000061035156,
@@ -214,10 +212,12 @@
         84.9000015258789,
         84.76000213623047,
         84.88999938964844,
+        84.93000030517578,
+        84.94999694824219,
         84.95999908447266,
         84.95999908447266
       ],
-      "as_of": "2026-08-18 02:02 UTC",
+      "as_of": "2026-08-18 03:04 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.1899995803833,
         15.1899995803833
       ],
-      "as_of": "2026-08-18 02:02 UTC",
+      "as_of": "2026-08-18 03:04 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,42 +271,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-raises-stake-214700937.html",
       "published": "2026-08-16T21:47:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "Bill Ackman's $5 billion fund trades 20% below its NAV as S&P 500 soars \u2014 and high fees aren't helping",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-5-billion-fund-140000634.html",
-      "published": "2026-08-16T14:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "This ETF Is the Most Important in the Market. You Probably Haven\u2019t Heard of It.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-most-important-market-probably-140002357.html",
-      "published": "2026-08-16T14:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Analysts Are Upping Their Price Targets on Lumentum Stock. Here's Why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-upping-price-targets-lumentum-140002049.html",
-      "published": "2026-08-16T14:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Moneywise staff confesses worst money mistakes \u2014 from ignoring subscriptions to sacrificing first home 'must-haves'",
-      "url": "https://finance.yahoo.com/markets/articles/moneywise-staff-confesses-worst-money-150000883.html",
-      "published": "2026-08-16T15:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "I'm 30 and Married With More Than $300K Invested. My Financial Advisor Thinks I Should Buy a House Instead",
-      "url": "https://finance.yahoo.com/real-estate/articles/im-30-married-more-300k-141104950.html",
-      "published": "2026-08-16T14:11:04Z",
-      "source": "Benzinga"
-    },
-    {
-      "title": "Oppenheimer Just Upgraded Intuitive Surgical Stock. Here's Why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-just-upgraded-intuitive-surgical-151502484.html",
-      "published": "2026-08-16T15:15:02Z",
-      "source": "Barchart"
     },
     {
       "title": "Michael Burry\u2019s Bearish Bet Against Nebius Stock Sends a Warning Message to AI Bulls",
@@ -327,10 +291,22 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Covert Mideast Oil Flows Are Keeping Global Prices in Check",
-      "url": "https://finance.yahoo.com/energy/articles/covert-mideast-oil-flows-keeping-140457099.html",
-      "published": "2026-08-16T14:04:57Z",
-      "source": "Bloomberg"
+      "title": "Oppenheimer Just Upgraded Intuitive Surgical Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-just-upgraded-intuitive-surgical-151502484.html",
+      "published": "2026-08-16T15:15:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "He Bought a $300,000 Annuity Inside His IRA for the Tax Deferral. The IRA Was Already Tax-Deferred, but the Fees Were Real.",
+      "url": "https://finance.yahoo.com/markets/options/articles/bought-300-000-annuity-inside-152034240.html",
+      "published": "2026-08-16T15:20:34Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Moneywise staff confesses worst money mistakes \u2014 from ignoring subscriptions to sacrificing first home 'must-haves'",
+      "url": "https://finance.yahoo.com/markets/articles/moneywise-staff-confesses-worst-money-150000883.html",
+      "published": "2026-08-16T15:00:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "Workday Has Its Best Day in a Decade on Report of a Potential $43 Billion Buyout",
@@ -351,26 +327,26 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Peter Thiel invests $118 million in surging big tech stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/peter-thiel-invests-118-million-151700060.html",
+      "published": "2026-08-16T15:17:00Z",
+      "source": "TheStreet"
+    },
+    {
       "title": "Reddit Stock Jumped 11%. The Business Had Almost Nothing to Do With It",
       "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-stock-jumped-11-business-161138860.html",
       "published": "2026-08-16T16:11:38Z",
       "source": "Barchart"
     },
     {
-      "title": "Meta and Tesla Are Rebounding From Oversold Levels\u2014Now What?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-tesla-rebounding-oversold-levels-140500790.html",
-      "published": "2026-08-16T14:05:00Z",
-      "source": "MarketBeat"
-    },
-    {
-      "title": "As Oracle Deepens Its Partnership with AWS, Here\u2019s How You Should Play ORCL Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-deepens-partnership-aws-play-161502495.html",
+      "title": "A $210 Billion Reason to Buy AMD Stock Here",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/210-billion-reason-buy-amd-161502041.html",
       "published": "2026-08-16T16:15:02Z",
       "source": "Barchart"
     },
     {
-      "title": "A $210 Billion Reason to Buy AMD Stock Here",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/210-billion-reason-buy-amd-161502041.html",
+      "title": "As Oracle Deepens Its Partnership with AWS, Here\u2019s How You Should Play ORCL Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-deepens-partnership-aws-play-161502495.html",
       "published": "2026-08-16T16:15:02Z",
       "source": "Barchart"
     },
@@ -381,16 +357,16 @@
       "source": "Barchart"
     },
     {
+      "title": "I Checked VIG's Top Holdings. They're Not What You'd Expect From a Dividend ETF.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/checked-vigs-top-holdings-theyre-152000890.html",
+      "published": "2026-08-16T15:20:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Netflix Stock Is Cheap and It Has More Than 70% Upside Potential Here",
       "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-cheap-more-70-173002732.html",
       "published": "2026-08-16T17:30:02Z",
       "source": "Barchart"
-    },
-    {
-      "title": "She Paid Off Her House Years Ago. On Social Security, the Taxes and Upkeep Are Pricing Her Out Anyway.",
-      "url": "https://finance.yahoo.com/real-estate/articles/she-paid-off-her-house-140438009.html",
-      "published": "2026-08-16T14:04:38Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Ondo Stocks Volume Hits $27B, Tokenized Equity Platform Holds Above $1B",
@@ -399,22 +375,46 @@
       "source": "CryptoProwl"
     },
     {
-      "title": "Tori Dunlap's Her First $100K made Inc. 5000 after growing it from a blog to a multi-million dollar business",
-      "url": "https://finance.yahoo.com/small-business/articles/tori-dunlaps-her-first-100k-183000556.html",
-      "published": "2026-08-16T18:30:00Z",
-      "source": "Moneywise"
-    },
-    {
       "title": "Wall Street Thinks Monolithic Power Is a Buy. Here\u2019s Why It Might Be Right.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-thinks-monolithic-power-183002705.html",
       "published": "2026-08-16T18:30:02Z",
       "source": "Barchart"
     },
     {
+      "title": "Tori Dunlap's Her First $100K made Inc. 5000 after growing it from a blog to a multi-million dollar business",
+      "url": "https://finance.yahoo.com/small-business/articles/tori-dunlaps-her-first-100k-183000556.html",
+      "published": "2026-08-16T18:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "This Oil Dividend Just Got a Raise. Here's What It Means for Shareholders.",
+      "url": "https://finance.yahoo.com/energy/articles/oil-dividend-just-got-raise-153400041.html",
+      "published": "2026-08-16T15:34:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Oil Majors Reap $93 Billion Windfall From the Iran War",
       "url": "https://finance.yahoo.com/energy/articles/oil-majors-reap-93-billion-190000461.html",
       "published": "2026-08-16T19:00:00Z",
       "source": "Oilprice.com"
+    },
+    {
+      "title": "Drake told a 23-year-old streamer he'd 'love to' buy her mom a house after picking her on dating show. Who pays the tax?",
+      "url": "https://finance.yahoo.com/real-estate/articles/drake-told-23-old-streamer-191500099.html",
+      "published": "2026-08-16T19:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "2 Major Catalysts Are Lifting IREN Stock. How to Play It Here.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-major-catalysts-lifting-iren-193002600.html",
+      "published": "2026-08-16T19:30:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Pony.ai (PONY) and Uber (UBER) Team Up For A Bigger Bet",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pony-ai-pony-uber-uber-193130272.html",
+      "published": "2026-08-16T19:31:30Z",
+      "source": "Insider Monkey"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -1.1507251552486866
     }
   },
-  "updated_at": "2026-08-18T02:02:47.264062+00:00",
+  "updated_at": "2026-08-18T03:04:24.621863+00:00",
   "source": "yahoo_finance"
 }
