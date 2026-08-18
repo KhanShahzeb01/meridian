@@ -41,7 +41,7 @@
         7746.14013671875,
         7745.06005859375
       ],
-      "as_of": "2026-08-18 05:27 UTC",
+      "as_of": "2026-08-18 05:53 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26649.08203125,
         26644.91015625
       ],
-      "as_of": "2026-08-18 05:27 UTC",
+      "as_of": "2026-08-18 05:53 UTC",
       "source": "yahoo"
     },
     {
@@ -129,22 +129,23 @@
         53466.6796875,
         53459.78125
       ],
-      "as_of": "2026-08-18 05:27 UTC",
+      "as_of": "2026-08-18 05:53 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4448.5,
-      "change": -25.199999999999818,
-      "change_pct": -0.5632921295571858,
+      "price": 4446.1,
+      "change": -27.599999999999454,
+      "change_pct": -0.6169389990388148,
       "series": [
+        4441.39990234375,
         4442.60009765625,
-        4465.7001953125,
-        4475.5,
+        4465.2998046875,
+        4475.39990234375,
         4474.5,
-        4482.5,
+        4482.7001953125,
         4484.7998046875,
         4482.2998046875,
         4481.5,
@@ -153,7 +154,7 @@
         4463.2001953125,
         4463.10009765625,
         4470.60009765625,
-        4475.89990234375,
+        4475.7001953125,
         4471.39990234375,
         4473.10009765625,
         4468.89990234375,
@@ -165,26 +166,24 @@
         4481.5,
         4464.60009765625,
         4458.7001953125,
-        4456.39990234375,
-        4453.2998046875,
-        4448.10009765625,
+        4451.7001953125,
         4448.10009765625,
         4448.89990234375,
-        4449.2001953125,
-        4448.5
+        4446.60009765625,
+        4447.0,
+        4446.10009765625
       ],
-      "as_of": "2026-08-18 05:27 UTC",
+      "as_of": "2026-08-18 05:53 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 85.23,
-      "change": 0.730000000000004,
-      "change_pct": 0.8639053254437917,
+      "price": 85.16,
+      "change": 0.6599999999999966,
+      "change_pct": 0.7810650887573923,
       "series": [
-        82.81999969482422,
         82.97000122070312,
         82.77999877929688,
         82.62999725341797,
@@ -214,10 +213,11 @@
         85.12999725341797,
         85.19999694824219,
         85.1500015258789,
-        85.2300033569336,
-        85.2300033569336
+        85.25,
+        85.16000366210938,
+        85.16000366210938
       ],
-      "as_of": "2026-08-18 05:27 UTC",
+      "as_of": "2026-08-18 05:53 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.1899995803833,
         15.1899995803833
       ],
-      "as_of": "2026-08-18 05:27 UTC",
+      "as_of": "2026-08-18 05:53 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,18 +271,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-raises-stake-214700937.html",
       "published": "2026-08-16T21:47:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "Ondo Stocks Volume Hits $27B, Tokenized Equity Platform Holds Above $1B",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/ondo-stocks-volume-hits-27b-173900103.html",
-      "published": "2026-08-16T17:39:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Netflix Stock Is Cheap and It Has More Than 70% Upside Potential Here",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-cheap-more-70-173002732.html",
-      "published": "2026-08-16T17:30:02Z",
-      "source": "Barchart"
     },
     {
       "title": "Tori Dunlap's Her First $100K made Inc. 5000 after growing it from a blog to a multi-million dollar business",
@@ -297,12 +285,6 @@
       "source": "Barchart"
     },
     {
-      "title": "Is Now a Good Time to Buy Costco Wholesale Stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/now-good-time-buy-costco-175200280.html",
-      "published": "2026-08-16T17:52:00Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "Oil Majors Reap $93 Billion Windfall From the Iran War",
       "url": "https://finance.yahoo.com/energy/articles/oil-majors-reap-93-billion-190000461.html",
       "published": "2026-08-16T19:00:00Z",
@@ -313,6 +295,12 @@
       "url": "https://finance.yahoo.com/real-estate/articles/drake-told-23-old-streamer-191500099.html",
       "published": "2026-08-16T19:15:00Z",
       "source": "Moneywise"
+    },
+    {
+      "title": "Bitcoin Is Down 44% and Its Miners Are Up 90%. The AI Pivot Explains Everything.",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-down-44-miners-90-182147021.html",
+      "published": "2026-08-16T18:21:47Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "2 Major Catalysts Are Lifting IREN Stock. How to Play It Here.",
@@ -327,12 +315,6 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Big Pharma's Future Growth Rests on Chinese Science? Expert Says: 'We Can't Ban Our Way Out of This'",
-      "url": "https://finance.yahoo.com/healthcare/articles/big-pharmas-future-growth-rests-180016912.html",
-      "published": "2026-08-16T18:00:16Z",
-      "source": "Benzinga"
-    },
-    {
       "title": "Google\u2019s (GOOGL) Latest AI Model Arrives Amid A Bigger Balancing Act",
       "url": "https://finance.yahoo.com/technology/ai/articles/google-googl-latest-ai-model-194743447.html",
       "published": "2026-08-16T19:47:43Z",
@@ -343,6 +325,12 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-stla-big-turnaround-bet-200858626.html",
       "published": "2026-08-16T20:08:58Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "AppFolio's CEO Had Shares Withheld for Taxes. Here's What to Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/appfolios-ceo-had-shares-withheld-182508942.html",
+      "published": "2026-08-16T18:25:08Z",
+      "source": "Motley Fool"
     },
     {
       "title": "NVIDIA\u2019s $3 Billion Bet on the Power Behind AI",
@@ -357,12 +345,6 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Walmart, Target, Home Depot, Fed Minutes, and More to Watch This Week",
-      "url": "https://www.barrons.com/articles/walmart-target-home-depot-stoicks-fed-minutes-8143d1aa?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-16T18:00:00Z",
-      "source": "Barrons.com"
-    },
-    {
       "title": "Have Middle East Oil Flows Rebounded to 15 Million Bpd as U.S. Claims?",
       "url": "https://finance.yahoo.com/energy/articles/middle-east-oil-flows-rebounded-230000187.html",
       "published": "2026-08-16T23:00:00Z",
@@ -373,6 +355,12 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/being-left-dead-high-yield-010002559.html",
       "published": "2026-08-17T01:00:02Z",
       "source": "Barchart"
+    },
+    {
+      "title": "Crypto Version of Your Favorite Stocks Soon? SEC Reportedly Planning to Release Framework for Tokenized Assets",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-version-favorite-stocks-soon-183119627.html",
+      "published": "2026-08-16T18:31:19Z",
+      "source": "Benzinga"
     },
     {
       "title": "HELOC and home equity loan rates today, Monday, August 17, 2026: A 19-basis-point differential",
@@ -387,12 +375,6 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered\u2019s $8 Billion Forecast?",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-etf-buying-dropped-96-180201578.html",
-      "published": "2026-08-16T18:02:01Z",
-      "source": "24/7 Wall St."
-    },
-    {
       "title": "Mortgage and refinance rates today, Monday, August 17, 2026: Purchase rates currently lower than refi rates",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-17-2026-purchase-rates-currently-lower-than-refi-rates-100000908.html",
       "published": "2026-08-17T10:00:00Z",
@@ -405,6 +387,12 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "Should You Read Anything Into AppFolio's CFO Parting With Stock? Here's What to Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/read-anything-appfolios-cfo-parting-183312513.html",
+      "published": "2026-08-16T18:33:12Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Gold prices today, Monday, August 17, 2026: Gold ticks up after lower retail sales report",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-17-2026-gold-ticks-up-after-lower-retail-sales-report-134755206.html",
       "published": "2026-08-17T13:47:55Z",
@@ -414,6 +402,18 @@
       "title": "Silver prices today, Monday, August 17, 2026: Buoyed by softer economic data, while industrial outlook remains uncertain",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-17-2026-buoyed-by-softer-economic-data-while-industrial-outlook-remains-uncertain-135247624.html",
       "published": "2026-08-17T13:52:47Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Monday, August 17, 2026: Crypto prices down slightly as analysts question timing of bear market bottom",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-17-2026-crypto-prices-down-slightly-as-analysts-question-timing-of-bear-market-bottom-135747407.html",
+      "published": "2026-08-17T13:57:47Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Weekly survey of mortgage lenders with the lowest rates: Small moves in rates and fees",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-10-170834159.html",
+      "published": "2025-11-03T17:08:34Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -1.1507251552486866
     }
   },
-  "updated_at": "2026-08-18T05:27:32.900379+00:00",
+  "updated_at": "2026-08-18T05:53:29.711973+00:00",
   "source": "yahoo_finance"
 }
