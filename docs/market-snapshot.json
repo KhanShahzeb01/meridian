@@ -41,7 +41,7 @@
         7693.259765625,
         7691.759765625
       ],
-      "as_of": "2026-08-18 20:18 UTC",
+      "as_of": "2026-08-18 20:42 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26289.4765625,
         26289.7109375
       ],
-      "as_of": "2026-08-18 20:18 UTC",
+      "as_of": "2026-08-18 20:42 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53346.6015625,
         53343.3984375
       ],
-      "as_of": "2026-08-18 20:18 UTC",
+      "as_of": "2026-08-18 20:42 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4397.5,
-      "change": -76.19999999999982,
-      "change_pct": -1.7032881060419744,
+      "price": 4393.7,
+      "change": -80.0,
+      "change_pct": -1.7882289827212374,
       "series": [
-        4446.60009765625,
         4450.2001953125,
         4454.89990234375,
         4454.10009765625,
@@ -170,21 +169,21 @@
         4409.39990234375,
         4409.5,
         4400.0,
-        4397.5,
-        4397.5
+        4392.7998046875,
+        4393.7998046875,
+        4393.7001953125
       ],
-      "as_of": "2026-08-18 20:18 UTC",
+      "as_of": "2026-08-18 20:42 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.16,
-      "change": 0.4200000000000017,
-      "change_pct": 0.5015524241700522,
+      "price": 84.37,
+      "change": 0.6300000000000097,
+      "change_pct": 0.7523286362550868,
       "series": [
-        85.25,
         85.12999725341797,
         85.47000122070312,
         85.19999694824219,
@@ -214,21 +213,21 @@
         84.08000183105469,
         84.08999633789062,
         84.08999633789062,
-        84.16000366210938,
-        84.16000366210938
+        84.23999786376953,
+        84.4000015258789,
+        84.37000274658203
       ],
-      "as_of": "2026-08-18 20:18 UTC",
+      "as_of": "2026-08-18 20:42 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.83,
-      "change": 0.6400000000000006,
-      "change_pct": 4.213298222514816,
+      "price": 15.84,
+      "change": 0.6500000000000004,
+      "change_pct": 4.279131007241609,
       "series": [
-        15.09000015258789,
         15.1899995803833,
         15.220000267028809,
         15.170000076293945,
@@ -259,9 +258,10 @@
         15.680000305175781,
         15.609999656677246,
         15.84000015258789,
-        15.829999923706055
+        15.84000015258789,
+        15.84000015258789
       ],
-      "as_of": "2026-08-18 20:18 UTC",
+      "as_of": "2026-08-18 20:42 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,10 +273,40 @@
       "source": "Quartz"
     },
     {
-      "title": "Midera Food\u2019s Net Sales Up 13%, Raises 2026 Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/midera-food-net-sales-13-112700910.html",
-      "published": "2026-08-17T11:27:00Z",
-      "source": "Exec Edge"
+      "title": "Micron stock heats up again, crossing $1,000",
+      "url": "https://finance.yahoo.com/markets/stocks/article/micron-stock-heats-up-again-crossing-1000-115304344.html",
+      "published": "2026-08-17T11:53:04Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Stocks With This Number Of Letters In Their Symbols Do Best",
+      "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-stocks-with-this-number-of-letters-in-their-symbols-do-best/?src=A00220&yptr=yahoo",
+      "published": "2026-08-17T12:00:29Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Dohrn bets on camera data to cut fleet insurance costs",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dohrn-bets-camera-data-cut-120000649.html",
+      "published": "2026-08-17T12:00:00Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "I Want to Retire at 52. Can a Roth Conversion Ladder Let Me Access Retirement Savings Penalty-Free?",
+      "url": "https://finance.yahoo.com/markets/options/articles/want-retire-52-roth-conversion-120000061.html",
+      "published": "2026-08-17T12:00:00Z",
+      "source": "SmartAsset"
+    },
+    {
+      "title": "After Nearly $200 Million in Crypto Losses, Trump Media Will Pivot Away From Bitcoin. Here's What Crypto Investors Need to Know.",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/nearly-200-million-crypto-losses-115000955.html",
+      "published": "2026-08-17T11:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "This Micron Covered Call Could Pay You 63% to Sit and Wait",
+      "url": "https://finance.yahoo.com/markets/options/articles/micron-covered-call-could-pay-120002559.html",
+      "published": "2026-08-17T12:00:02Z",
+      "source": "Barchart"
     },
     {
       "title": "Silver Price Predictions: Why Citi Analysts See Silver Prices Soaring to $90 Soon",
@@ -291,22 +321,34 @@
       "source": "Exec Edge"
     },
     {
+      "title": "Midera Food\u2019s Net Sales Up 13%, Raises 2026 Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/midera-food-net-sales-13-112700910.html",
+      "published": "2026-08-17T11:27:00Z",
+      "source": "Exec Edge"
+    },
+    {
+      "title": "Nasdaq ends lower as oil surge adds to market pressure",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-eyes-retail-earnings-114800359.html",
+      "published": "2026-08-17T11:48:00Z",
+      "source": "Proactive"
+    },
+    {
+      "title": "Are Wall Street Analysts Predicting Eaton Corporation Stock Will Climb or Sink?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-eaton-121136395.html",
+      "published": "2026-08-17T12:11:36Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Why the 'immaculate' stock market might not stay that way long",
+      "url": "https://finance.yahoo.com/markets/article/why-the-immaculate-stock-market-might-not-stay-that-way-long-121205340.html",
+      "published": "2026-08-17T12:12:05Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Azerbaijan seeks to nurture tech sector as it looks beyond oil",
       "url": "https://finance.yahoo.com/technology/articles/azerbaijan-seeks-nurture-tech-sector-110022390.html",
       "published": "2026-08-17T11:00:22Z",
       "source": "Reuters"
-    },
-    {
-      "title": "I've More Than Tripled My Stake in This Historically Cheap, High-Octane Dividend Stock That's Yielding 13.2%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ive-more-tripled-stake-historically-112600783.html",
-      "published": "2026-08-17T11:26:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Equity Residential Stock: Analyst Estimates & Ratings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/equity-residential-stock-analyst-estimates-105842940.html",
-      "published": "2026-08-17T10:58:42Z",
-      "source": "Barchart"
     },
     {
       "title": "Option Volatility And Earnings Report For Aug 17-21",
@@ -315,52 +357,10 @@
       "source": "Barchart"
     },
     {
-      "title": "Capital One Stock: Is Wall Street Bullish or Bearish?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/capital-one-stock-wall-street-104700766.html",
-      "published": "2026-08-17T10:47:00Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "I stayed for 8 years and got a $2,600 raise. A colleague who quit got $15,000 more. Do I have to leave to get paid?",
-      "url": "https://finance.yahoo.com/small-business/articles/stayed-8-years-got-2-104500877.html",
-      "published": "2026-08-17T10:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "1 in 5 Gen Xers don\u2019t think they\u2019ll ever retire, study suggests",
-      "url": "https://finance.yahoo.com/economy/articles/1-5-gen-xers-don-113100638.html",
-      "published": "2026-08-17T11:31:00Z",
-      "source": "HR Dive"
-    },
-    {
-      "title": "Micron stock heats up again, crossing $1,000",
-      "url": "https://finance.yahoo.com/markets/stocks/article/micron-stock-heats-up-again-crossing-1000-115304344.html",
-      "published": "2026-08-17T11:53:04Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Do Wall Street Analysts Like Pentair Stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-pentair-stock-103829222.html",
-      "published": "2026-08-17T10:38:29Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Morning Bid: Retail risk",
-      "url": "https://finance.yahoo.com/markets/articles/morning-bid-retail-risk-103558500.html",
-      "published": "2026-08-17T10:35:58Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Stocks Set to Open Higher on Tech Boost, Fed Minutes and Retail Earnings Awaited",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-set-open-higher-tech-103548577.html",
-      "published": "2026-08-17T10:35:48Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Integration in Natural-Gas Industry Drives Exit Activity",
-      "url": "https://www.wsj.com/pro/private-equity/natural-gas-drives-activity-b2cbf54b?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-17T11:25:00Z",
-      "source": "The Wall Street Journal"
+      "title": "Record Highs and Low Volatility: Is Wall Street Too Complacent Ahead of Midterm Elections?",
+      "url": "https://www.barrons.com/articles/stock-market-risks-midterm-elections-24e37e20?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-17T11:47:00Z",
+      "source": "Barrons.com"
     },
     {
       "title": "Weekly survey of mortgage lenders with the lowest rates: Small moves in rates and fees",
@@ -387,10 +387,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Huey Magoo\u2019s Ramps Up Store Growth",
-      "url": "https://finance.yahoo.com/small-business/articles/huey-magoo-ramps-store-growth-113112107.html",
-      "published": "2026-08-17T11:31:12Z",
-      "source": "QSR"
+      "title": "XRP Ledger Hits 2M AI Transactions \u2014 Here\u2019s Why Analysts Say XRP Reaches $4 Next",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-ledger-hits-2m-ai-115209020.html",
+      "published": "2026-08-17T11:52:09Z",
+      "source": "CCN"
     },
     {
       "title": "Centralized vs. decentralized exchanges: What's the difference?",
@@ -464,9 +464,9 @@
       "change_pct": 1.5076357150819377
     },
     "XOM": {
-      "price": 165.615,
+      "price": 165.56,
       "prev_close": 161.46,
-      "change_pct": 2.5733927907840957
+      "change_pct": 2.5393286262851444
     },
     "SPY": {
       "price": 767.45,
@@ -504,6 +504,6 @@
       "change_pct": 0.9493607370090041
     }
   },
-  "updated_at": "2026-08-18T20:18:39.172783+00:00",
+  "updated_at": "2026-08-18T20:42:43.304794+00:00",
   "source": "yahoo_finance"
 }
