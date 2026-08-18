@@ -41,7 +41,7 @@
         7746.14013671875,
         7745.06005859375
       ],
-      "as_of": "2026-08-18 07:11 UTC",
+      "as_of": "2026-08-18 07:54 UTC",
       "source": "yahoo"
     },
     {
@@ -85,16 +85,16 @@
         26649.08203125,
         26644.91015625
       ],
-      "as_of": "2026-08-18 07:11 UTC",
+      "as_of": "2026-08-18 07:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53459.8,
-      "change": -272.59999999999854,
-      "change_pct": -0.5073289114202949,
+      "price": 53459.78,
+      "change": -272.6200000000026,
+      "change_pct": -0.507366132910502,
       "series": [
         53744.87890625,
         53760.41015625,
@@ -127,20 +127,19 @@
         53475.62890625,
         53482.859375,
         53466.6796875,
-        53459.80078125
+        53459.78125
       ],
-      "as_of": "2026-08-18 07:11 UTC",
+      "as_of": "2026-08-18 07:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4453.5,
-      "change": -20.199999999999818,
-      "change_pct": -0.4515278181371084,
+      "price": 4457.0,
+      "change": -16.699999999999818,
+      "change_pct": -0.37329280014305427,
       "series": [
-        4482.5,
         4484.7998046875,
         4482.2998046875,
         4481.5,
@@ -149,7 +148,7 @@
         4463.2001953125,
         4463.10009765625,
         4470.60009765625,
-        4475.89990234375,
+        4475.7001953125,
         4471.39990234375,
         4473.10009765625,
         4468.89990234375,
@@ -161,35 +160,35 @@
         4481.5,
         4464.60009765625,
         4458.7001953125,
-        4456.39990234375,
+        4456.10009765625,
         4453.2998046875,
         4448.10009765625,
         4448.10009765625,
         4448.89990234375,
-        4447.0,
+        4446.60009765625,
         4450.2001953125,
         4454.89990234375,
         4454.10009765625,
-        4452.89990234375,
-        4453.5
+        4459.0,
+        4457.39990234375,
+        4457.0
       ],
-      "as_of": "2026-08-18 07:11 UTC",
+      "as_of": "2026-08-18 07:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 85.25,
-      "change": 0.75,
-      "change_pct": 0.8875739644970414,
+      "price": 84.25,
+      "change": 0.5100000000000051,
+      "change_pct": 0.6090279436350671,
       "series": [
-        82.5999984741211,
         82.81999969482422,
         82.56999969482422,
         82.8499984741211,
         83.91000366210938,
-        84.7699966430664,
+        84.79000091552734,
         84.45999908447266,
         84.25,
         84.4000015258789,
@@ -214,22 +213,21 @@
         85.12999725341797,
         85.47000122070312,
         85.19999694824219,
-        85.25,
-        85.25
+        84.9000015258789,
+        84.27999877929688,
+        84.25
       ],
-      "as_of": "2026-08-18 07:11 UTC",
+      "as_of": "2026-08-18 07:54 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.19,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 15.86,
+      "change": 0.6699999999999999,
+      "change_pct": 4.410796576695194,
       "series": [
-        14.350000381469727,
-        14.329999923706055,
         14.270000457763672,
         14.25,
         14.979999542236328,
@@ -259,9 +257,11 @@
         15.220000267028809,
         15.170000076293945,
         15.1899995803833,
-        15.1899995803833
+        15.850000381469727,
+        15.859999656677246,
+        15.859999656677246
       ],
-      "as_of": "2026-08-18 07:11 UTC",
+      "as_of": "2026-08-18 07:54 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,9 +273,9 @@
       "source": "TheStreet"
     },
     {
-      "title": "Google\u2019s (GOOGL) Latest AI Model Arrives Amid A Bigger Balancing Act",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-googl-latest-ai-model-194743447.html",
-      "published": "2026-08-16T19:47:43Z",
+      "title": "NVIDIA\u2019s $3 Billion Bet on the Power Behind AI",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-3-billion-bet-power-202314612.html",
+      "published": "2026-08-16T20:23:14Z",
       "source": "Insider Monkey"
     },
     {
@@ -285,34 +285,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "2 Major Catalysts Are Lifting IREN Stock. How to Play It Here.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-major-catalysts-lifting-iren-193002600.html",
-      "published": "2026-08-16T19:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Pony.ai (PONY) and Uber (UBER) Team Up For A Bigger Bet",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pony-ai-pony-uber-uber-193130272.html",
-      "published": "2026-08-16T19:31:30Z",
+      "title": "Google\u2019s (GOOGL) Latest AI Model Arrives Amid A Bigger Balancing Act",
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-googl-latest-ai-model-194743447.html",
+      "published": "2026-08-16T19:47:43Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "5-star analyst sets alarming SpaceX stock price target",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
-      "published": "2026-08-18T03:07:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "NVIDIA\u2019s $3 Billion Bet on the Power Behind AI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-3-billion-bet-power-202314612.html",
-      "published": "2026-08-16T20:23:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Drake told a 23-year-old streamer he'd 'love to' buy her mom a house after picking her on dating show. Who pays the tax?",
-      "url": "https://finance.yahoo.com/real-estate/articles/drake-told-23-old-streamer-191500099.html",
-      "published": "2026-08-16T19:15:00Z",
-      "source": "Moneywise"
     },
     {
       "title": "Have Middle East Oil Flows Rebounded to 15 Million Bpd as U.S. Claims?",
@@ -321,16 +297,16 @@
       "source": "Oilprice.com"
     },
     {
+      "title": "5-star analyst sets alarming SpaceX stock price target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
+      "published": "2026-08-18T03:07:00Z",
+      "source": "TheStreet"
+    },
+    {
       "title": "SpaceX stock volatility: What to do next if you own shares",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-volatility-what-to-do-next-if-you-own-shares-141704338.html",
       "published": "2026-06-17T14:17:04Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "If You Followed Seth Klarman Into Vaxcyte in May, He Was Already Long Gone",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/followed-seth-klarman-vaxcyte-may-194531317.html",
-      "published": "2026-08-16T19:45:31Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "After Being Left for Dead, These High-Yield Stocks Look to Rally Again. Here's How to Play It.",
@@ -351,16 +327,46 @@
       "source": "Oilprice.com"
     },
     {
+      "title": "Chili\u2019s Parent Wants a Bigger Slice of Fast Food\u2019s Digital Business \u2014 CEO Calls Takeout the \u2018Next Big Frontier\u2019",
+      "url": "https://finance.yahoo.com/small-business/articles/chili-parent-wants-bigger-slice-203003149.html",
+      "published": "2026-08-16T20:30:03Z",
+      "source": "Benzinga"
+    },
+    {
       "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Nears Key Level; Walmart Looms",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-run-sandisk-soars-nvidia-buy-walmart-target/?src=A00220&yptr=yahoo",
       "published": "2026-08-17T03:06:02Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Dave Ramsey Tells Couple Earning $110,000 They Can Afford a Baby, but One Decision Could Change Everything",
-      "url": "https://finance.yahoo.com/small-business/articles/dave-ramsey-tells-couple-earning-193421347.html",
-      "published": "2026-08-16T19:34:21Z",
+      "title": "Janus Henderson\u2019s JAAA Just Topped $30B. What\u2019s Next For CLOs?",
+      "url": "https://finance.yahoo.com/markets/options/articles/janus-henderson-jaaa-just-topped-040100415.html",
+      "published": "2026-08-17T04:01:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "Big Box Earnings Preview: Walmart, Target Poised to Benefit From Value Shoppers",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/big-box-earnings-preview-walmart-040100283.html",
+      "published": "2026-08-17T04:01:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "The ETF Searching for Alpha Without the Male",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-searching-alpha-without-male-040200036.html",
+      "published": "2026-08-17T04:02:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "An Estate Can Pick Its Own Valuation Date. Here\u2019s the Six-Month Do-Over That Cuts the Tax Bill When Markets Fall",
+      "url": "https://finance.yahoo.com/real-estate/articles/estate-pick-own-valuation-date-204853000.html",
+      "published": "2026-08-16T20:48:53Z",
       "source": "24/7 Wall St."
+    },
+    {
+      "title": "Leveraged ETF Craze Turns Its Sights to Other Funds",
+      "url": "https://finance.yahoo.com/markets/options/articles/leveraged-etf-craze-turns-sights-040300408.html",
+      "published": "2026-08-17T04:03:00Z",
+      "source": "The Daily Upside"
     },
     {
       "title": "HELOC and home equity loan rates today, Monday, August 17, 2026: A 19-basis-point differential",
@@ -381,16 +387,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "BBB Foods Shows a Net Loss but Its Cash Flow Surged. Here's How to Read an Insider's Trade Before Last Week's Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bbb-foods-shows-net-loss-204943229.html",
+      "published": "2026-08-16T20:49:43Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Best high-yield savings interest rates today, Monday, August 17, 2026: Earn up to 4.15% APY",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-17-2026-earn-up-to-415-apy-100000771.html",
       "published": "2026-08-17T10:00:00Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "1 Major Red Flag AMD Investors Can't Afford to Ignore",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-major-red-flag-amd-201800600.html",
-      "published": "2026-08-16T20:18:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Gold prices today, Monday, August 17, 2026: Gold ticks up after lower retail sales report",
@@ -408,12 +414,6 @@
       "title": "Bitcoin and ethereum prices today, Monday, August 17, 2026: Crypto prices down slightly as analysts question timing of bear market bottom",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-17-2026-crypto-prices-down-slightly-as-analysts-question-timing-of-bear-market-bottom-135747407.html",
       "published": "2026-08-17T13:57:47Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Weekly survey of mortgage lenders with the lowest rates: Small moves in rates and fees",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-10-170834159.html",
-      "published": "2025-11-03T17:08:34Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -1.1507251552486866
     }
   },
-  "updated_at": "2026-08-18T07:11:47.857819+00:00",
+  "updated_at": "2026-08-18T07:54:46.526179+00:00",
   "source": "yahoo_finance"
 }
