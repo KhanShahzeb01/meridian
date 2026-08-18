@@ -41,7 +41,7 @@
         7746.14013671875,
         7745.06005859375
       ],
-      "as_of": "2026-08-18 12:02 UTC",
+      "as_of": "2026-08-18 13:02 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26649.08203125,
         26644.91015625
       ],
-      "as_of": "2026-08-18 12:02 UTC",
+      "as_of": "2026-08-18 13:02 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         53466.6796875,
         53459.78125
       ],
-      "as_of": "2026-08-18 12:02 UTC",
+      "as_of": "2026-08-18 13:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4447.9,
-      "change": -25.800000000000182,
-      "change_pct": -0.5767038469276031,
+      "price": 4451.2,
+      "change": -22.5,
+      "change_pct": -0.502939401390348,
       "series": [
-        4475.7001953125,
-        4471.39990234375,
         4473.10009765625,
         4468.89990234375,
         4467.89990234375,
@@ -170,22 +168,22 @@
         4448.2998046875,
         4454.39990234375,
         4446.2998046875,
-        4448.0,
-        4447.89990234375
+        4452.2998046875,
+        4451.89990234375,
+        4453.10009765625,
+        4451.2001953125
       ],
-      "as_of": "2026-08-18 12:02 UTC",
+      "as_of": "2026-08-18 13:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.2,
-      "change": 0.46000000000000796,
-      "change_pct": 0.5493193217100645,
+      "price": 84.32,
+      "change": 0.5799999999999983,
+      "change_pct": 0.6926200143300673,
       "series": [
-        84.6500015258789,
-        84.86000061035156,
         84.94999694824219,
         85.08000183105469,
         84.97000122070312,
@@ -214,22 +212,22 @@
         84.19999694824219,
         83.9800033569336,
         84.04000091552734,
-        84.18000030517578,
-        84.19999694824219
+        84.1500015258789,
+        84.27999877929688,
+        84.27999877929688,
+        84.31999969482422
       ],
-      "as_of": "2026-08-18 12:02 UTC",
+      "as_of": "2026-08-18 13:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.7,
-      "change": 0.5099999999999998,
-      "change_pct": 3.35747202106649,
+      "price": 15.78,
+      "change": 0.5899999999999999,
+      "change_pct": 3.884134298880842,
       "series": [
-        14.949999809265137,
-        14.920000076293945,
         14.90999984741211,
         14.920000076293945,
         15.029999732971191,
@@ -258,19 +256,87 @@
         15.90999984741211,
         15.779999732971191,
         15.729999542236328,
-        15.699999809265137,
-        15.699999809265137
+        15.6899995803833,
+        15.6899995803833,
+        15.789999961853027,
+        15.779999732971191
       ],
-      "as_of": "2026-08-18 12:02 UTC",
+      "as_of": "2026-08-18 13:02 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
+      "title": "Bankrupt Italian chain shuts 50 restaurants, exits state entirely",
+      "url": "https://finance.yahoo.com/small-business/articles/bankrupt-italian-chain-shuts-50-230000785.html",
+      "published": "2026-08-17T23:00:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Strong Shareholder Backing Validates Republic Services\u2019 (RSG) Attractive Valuation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strong-shareholder-backing-validates-republic-123541541.html",
+      "published": "2026-08-18T12:35:41Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Chevron Corporation (CVX) Drops as Oil Price Retreats",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-corporation-cvx-drops-oil-123322272.html",
+      "published": "2026-08-18T12:33:22Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Betting retirement on the big game? Gen Z investors are gambling on sports as a financial plan",
+      "url": "https://finance.yahoo.com/markets/articles/betting-retirement-big-game-gen-123000699.html",
+      "published": "2026-08-18T12:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Anthropic could beat Elon Musk's SpaceX for largest 2026 IPO, prediction markets show",
+      "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-could-beat-elon-musks-spacex-for-largest-2026-ipo-prediction-markets-show-122619825.html",
+      "published": "2026-08-18T12:26:19Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "5-star analyst sets alarming SpaceX stock price target",
       "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
       "published": "2026-08-18T03:07:00Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "Home Depot Beats Estimates in a \u201cFrozen\u201d Housing Market",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-beats-estimates-frozen-122124759.html",
+      "published": "2026-08-18T12:21:24Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Investors\u2019 Focus on Higher Capital Spending Weighed on Northrop Grumman (NOC)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-focus-higher-capital-spending-122045999.html",
+      "published": "2026-08-18T12:20:45Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Strong AI Infrastructure Orders Drive Confidence in Cisco Systems (CSCO)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/strong-ai-infrastructure-orders-drive-121646291.html",
+      "published": "2026-08-18T12:16:46Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Texas Instruments Incorporated (TXN) Attractive on Strategic Advantages",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-incorporated-txn-attractive-121448001.html",
+      "published": "2026-08-18T12:14:48Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "September Is Historically the Worst Month for Stocks and These 3 ETFs Pay Up to 9 Percent While You Wait It Out",
+      "url": "https://finance.yahoo.com/markets/options/articles/september-historically-worst-month-stocks-124950093.html",
+      "published": "2026-08-18T12:49:50Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Stock Market Today: Tech Futures Sink As Treasury Yields Jump; Nvidia, Micron, Sandisk All Tumble (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-nvidia-stock-nvda/?src=A00220&yptr=yahoo",
+      "published": "2026-08-18T12:12:17Z",
+      "source": "Investor's Business Daily"
     },
     {
       "title": "Stock market today: Dow, S&P 500, Nasdaq futures extend losses amid US-Iran tensions",
@@ -279,142 +345,76 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Dauch Corporation\u2019s (DCH) Costly Path To A Bigger Payoff",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dauch-corporation-dch-costly-path-113502027.html",
-      "published": "2026-08-18T11:35:02Z",
+      "title": "Improving Demand Strengthens Corning (GLW)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/improving-demand-strengthens-corning-glw-120947860.html",
+      "published": "2026-08-18T12:09:47Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Coca-Cola Is Flying High in 2026: Is its Dividend Still Worth Buying?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-flying-high-2026-113415922.html",
-      "published": "2026-08-18T11:34:15Z",
+      "title": "Financial Firepower Signals Confidence in Copart\u2019s (CPRT) New CEO",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/financial-firepower-signals-confidence-copart-120314079.html",
+      "published": "2026-08-18T12:03:14Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Chubb and Travelers: Comparing Dividend Growth in the Insurance Sector",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chubb-travelers-comparing-dividend-growth-113143625.html",
-      "published": "2026-08-18T11:31:43Z",
+      "title": "Billionaire David Tepper Is Short Apple And Even Bet Against Buffett\u2019s Berkshire Hathaway. What Does He See?",
+      "url": "https://finance.yahoo.com/markets/options/articles/billionaire-david-tepper-short-apple-124823062.html",
+      "published": "2026-08-18T12:48:23Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Brand Legacy Positions KKR (KKR) for Lasting Advantage",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/brand-legacy-positions-kkr-kkr-120118343.html",
+      "published": "2026-08-18T12:01:18Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "JPMorgan chief cautions UK chancellor against tougher bank taxes \u2013 report",
-      "url": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-chief-cautions-uk-chancellor-114714968.html",
-      "published": "2026-08-18T11:47:14Z",
-      "source": "Retail Banker International"
+      "title": "Chip designer Velaura AI valued at more than $1 billion after funding round",
+      "url": "https://finance.yahoo.com/technology/ai/articles/chip-designer-velaura-ai-valued-120112868.html",
+      "published": "2026-08-18T12:01:12Z",
+      "source": "Reuters"
     },
     {
-      "title": "Home Depot Q2 earnings beat Wall Street's forecast as customers stick to small projects",
-      "url": "https://finance.yahoo.com/markets/stocks/article/home-depot-q2-earnings-beat-wall-streets-forecast-as-customers-stick-to-small-projects-113055971.html",
-      "published": "2026-08-18T11:30:55Z",
+      "title": "11 S&P 500 Stocks Soar To Record Highs In The Blink Of An Eye",
+      "url": "https://www.investors.com/etfs-and-funds/sectors/sp-500-stocks-soar-to-record-highs-in-a-blink-of-the-eye/?src=A00220&yptr=yahoo",
+      "published": "2026-08-18T12:00:40Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Earnings live updates: Klarna stock plunges on trimmed guidance, Home Depot gains",
+      "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-klarna-stock-plunges-on-trimmed-guidance-home-depot-gains-115925351.html",
+      "published": "2026-08-18T11:59:25Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Does LyondellBasell Industries (LYB) Still Make Sense for Dividend Investors?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-lyondellbasell-industries-lyb-still-113016043.html",
-      "published": "2026-08-18T11:30:16Z",
+      "title": "These Were the Biggest Changes in Berkshire Hathaway's Holdings for Q2",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/were-biggest-changes-berkshire-hathaways-124656339.html",
+      "published": "2026-08-18T12:46:56Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Alpha Metallurgical (AMR) Weathers A Rough Quarter On Multiple Fronts",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-amr-weathers-rough-115508588.html",
+      "published": "2026-08-18T11:55:08Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "American States Water Company (AWR): This Quiet Dividend King Keeps Raising the Bar",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-states-water-company-awr-112851977.html",
-      "published": "2026-08-18T11:28:51Z",
+      "title": "Hagerty\u2019s (HGTY) Higher Growth Story Remains Mispriced?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hagerty-hgty-higher-growth-story-115507049.html",
+      "published": "2026-08-18T11:55:07Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Two Consumer Staples, Two Dividend Strategies: Church & Dwight (CHD) and The Clorox Company (CLX)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-consumer-staples-two-dividend-112725906.html",
-      "published": "2026-08-18T11:27:25Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Paramount seeks $1.88 billion bond in Warner Bros. merger antitrust case",
-      "url": "https://finance.yahoo.com/media-advertising/articles/paramount-seeks-1-88-billion-114529195.html",
-      "published": "2026-08-18T11:45:29Z",
-      "source": "Quartz"
-    },
-    {
-      "title": "Chevron vs. Exxon: A Closer Look at Two Reliable Dividend Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-vs-exxon-closer-look-112609360.html",
-      "published": "2026-08-18T11:26:09Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Fiber Growth Collides With Legacy Revenue Pressure At Telephone & Data Systems (TDS)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fiber-growth-collides-legacy-revenue-112138533.html",
-      "published": "2026-08-18T11:21:38Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Peter Schiff says homes are 'a money pit\u2019 which \u2018depletes' your wealth. Is it still \u2018crazy\u2019 to invest in real estate?",
-      "url": "https://finance.yahoo.com/real-estate/articles/peter-schiff-says-homes-money-111500799.html",
-      "published": "2026-08-18T11:15:00Z",
+      "title": "\u2018Indefensible and ugly\u2019: $20 burritos have Tucker Carlson, JD Vance, Ben Shapiro fighting over America\u2019s inflation woes",
+      "url": "https://finance.yahoo.com/economy/articles/indefensible-ugly-20-burritos-tucker-115500194.html",
+      "published": "2026-08-18T11:55:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "Burq bets on the last-mile decision layer as giants retreat",
-      "url": "https://finance.yahoo.com/small-business/articles/burq-bets-last-mile-decision-110000069.html",
-      "published": "2026-08-18T11:00:00Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "Google buys Spirit Airlines data for $10 million to train AI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-buys-spirit-airlines-data-114029960.html",
-      "published": "2026-08-18T11:40:29Z",
-      "source": "Quartz"
-    },
-    {
-      "title": "Bonds, stocks jolted as Middle East tensions shatter market calm",
-      "url": "https://finance.yahoo.com/energy/articles/oil-prices-climb-bond-yields-011655842.html",
-      "published": "2026-08-18T10:55:09Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Trump says \u2018prices are dropping fast\u2019 and the \u2018only thing\u2019 going up is your 401(k) \u2014 but is he right? How to stay ahead",
-      "url": "https://finance.yahoo.com/economy/policy/articles/trump-says-prices-dropping-fast-104500493.html",
-      "published": "2026-08-18T10:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Morning Bid: Yields give way",
-      "url": "https://finance.yahoo.com/markets/articles/morning-bid-yields-way-103702133.html",
-      "published": "2026-08-18T10:37:02Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Einride to deploy 500 Tesla electric trucks for North American fleet",
-      "url": "https://finance.yahoo.com/news/einride-deploy-500-tesla-electric-103341790.html",
-      "published": "2026-08-18T10:33:41Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Barclays names Mike Joo and Adeel Khan investment bank\u202fco-CEOs",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-names-mike-joo-adeel-113946912.html",
-      "published": "2026-08-18T11:39:46Z",
-      "source": "Private Banker International"
-    },
-    {
-      "title": "Beyond marathons and backflips, China's robots face a commercial test",
-      "url": "https://finance.yahoo.com/technology/ai/articles/beyond-marathons-backflips-chinas-robots-101921394.html",
-      "published": "2026-08-18T10:26:31Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "There\u2019s a hidden Roth conversion window that shuts completely in 2028 \u2014 most US retirees don\u2019t know it exists. Act now",
-      "url": "https://finance.yahoo.com/small-business/articles/hidden-roth-conversion-window-shuts-101500228.html",
-      "published": "2026-08-18T10:15:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Why states fought to present a united case against Meta over youth social media harms",
-      "url": "https://finance.yahoo.com/media-advertising/articles/why-states-fought-present-united-100840947.html",
-      "published": "2026-08-18T10:08:40Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Analysis-Canada's pipeline ambitions hinge on uncertain output expansion",
-      "url": "https://finance.yahoo.com/news/analysis-canadas-pipeline-ambitions-hinge-100608458.html",
-      "published": "2026-08-18T10:06:08Z",
-      "source": "Reuters"
+      "title": "Compass Diversified (CODI): Buybacks Below Value Signal Multi Bagger Potential",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/compass-diversified-codi-buybacks-below-115236721.html",
+      "published": "2026-08-18T11:52:36Z",
+      "source": "Insider Monkey"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -1.1507251552486866
     }
   },
-  "updated_at": "2026-08-18T12:02:09.072532+00:00",
+  "updated_at": "2026-08-18T13:02:33.458872+00:00",
   "source": "yahoo_finance"
 }
