@@ -41,7 +41,7 @@
         7746.14013671875,
         7745.06005859375
       ],
-      "as_of": "2026-08-18 08:21 UTC",
+      "as_of": "2026-08-18 08:59 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26649.08203125,
         26644.91015625
       ],
-      "as_of": "2026-08-18 08:21 UTC",
+      "as_of": "2026-08-18 08:59 UTC",
       "source": "yahoo"
     },
     {
@@ -129,25 +129,24 @@
         53466.6796875,
         53459.78125
       ],
-      "as_of": "2026-08-18 08:21 UTC",
+      "as_of": "2026-08-18 08:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4445.6,
-      "change": -28.099999999999454,
-      "change_pct": -0.6281154301808225,
+      "price": 4449.2,
+      "change": -24.5,
+      "change_pct": -0.547645125958379,
       "series": [
-        4482.2998046875,
         4481.5,
         4474.0,
         4471.0,
         4463.2001953125,
         4463.10009765625,
         4470.60009765625,
-        4475.7001953125,
+        4475.89990234375,
         4471.39990234375,
         4473.10009765625,
         4468.89990234375,
@@ -159,35 +158,35 @@
         4481.5,
         4464.60009765625,
         4458.7001953125,
-        4456.10009765625,
+        4456.39990234375,
         4453.2998046875,
         4448.10009765625,
         4448.10009765625,
         4448.89990234375,
-        4446.60009765625,
+        4447.0,
         4450.2001953125,
         4454.89990234375,
         4454.10009765625,
         4459.0,
         4451.2001953125,
-        4445.7998046875,
-        4445.60009765625
+        4444.89990234375,
+        4448.89990234375,
+        4449.2001953125
       ],
-      "as_of": "2026-08-18 08:21 UTC",
+      "as_of": "2026-08-18 08:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.34,
-      "change": 0.6000000000000085,
-      "change_pct": 0.716503463100082,
+      "price": 84.35,
+      "change": 0.6099999999999994,
+      "change_pct": 0.7284451874850723,
       "series": [
-        82.56999969482422,
         82.8499984741211,
         83.91000366210938,
-        84.79000091552734,
+        84.7699966430664,
         84.45999908447266,
         84.25,
         84.4000015258789,
@@ -212,23 +211,23 @@
         85.12999725341797,
         85.47000122070312,
         85.19999694824219,
-        84.9000015258789,
+        84.88999938964844,
         84.37999725341797,
-        84.37999725341797,
-        84.33999633789062
+        84.36000061035156,
+        84.33000183105469,
+        84.3499984741211
       ],
-      "as_of": "2026-08-18 08:21 UTC",
+      "as_of": "2026-08-18 08:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.07,
-      "change": 0.8800000000000008,
-      "change_pct": 5.793285055957872,
+      "price": 15.86,
+      "change": 0.6699999999999999,
+      "change_pct": 4.410796576695194,
       "series": [
-        14.25,
         14.979999542236328,
         14.9399995803833,
         14.949999809265137,
@@ -258,10 +257,11 @@
         15.1899995803833,
         15.850000381469727,
         15.970000267028809,
-        16.059999465942383,
-        16.06999969482422
+        16.0,
+        15.869999885559082,
+        15.859999656677246
       ],
-      "as_of": "2026-08-18 08:21 UTC",
+      "as_of": "2026-08-18 08:59 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,18 +271,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-raises-stake-214700937.html",
       "published": "2026-08-16T21:47:00Z",
       "source": "TheStreet"
-    },
-    {
-      "title": "NVIDIA\u2019s $3 Billion Bet on the Power Behind AI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-3-billion-bet-power-202314612.html",
-      "published": "2026-08-16T20:23:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Stellantis\u2019 (STLA) Big Turnaround Bet Hits A North American Snag",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-stla-big-turnaround-bet-200858626.html",
-      "published": "2026-08-16T20:08:58Z",
-      "source": "Insider Monkey"
     },
     {
       "title": "Have Middle East Oil Flows Rebounded to 15 Million Bpd as U.S. Claims?",
@@ -297,18 +285,6 @@
       "source": "Barchart"
     },
     {
-      "title": "5-star analyst sets alarming SpaceX stock price target",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
-      "published": "2026-08-18T03:07:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "SpaceX stock volatility: What to do next if you own shares",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-volatility-what-to-do-next-if-you-own-shares-141704338.html",
-      "published": "2026-06-17T14:17:04Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
       "title": "Argentina LNG Seeks RIGI Approval for $51 Billion Export Project",
       "url": "https://finance.yahoo.com/energy/articles/argentina-lng-seeks-rigi-approval-015747805.html",
       "published": "2026-08-17T01:57:47Z",
@@ -321,16 +297,22 @@
       "source": "Oilprice.com"
     },
     {
+      "title": "5-star analyst sets alarming SpaceX stock price target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
+      "published": "2026-08-18T03:07:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "SpaceX stock volatility: What to do next if you own shares",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/spacex-stock-volatility-what-to-do-next-if-you-own-shares-141704338.html",
+      "published": "2026-06-17T14:17:04Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
       "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Nears Key Level; Walmart Looms",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-run-sandisk-soars-nvidia-buy-walmart-target/?src=A00220&yptr=yahoo",
       "published": "2026-08-17T03:06:02Z",
       "source": "Investor's Business Daily"
-    },
-    {
-      "title": "An Estate Can Pick Its Own Valuation Date. Here\u2019s the Six-Month Do-Over That Cuts the Tax Bill When Markets Fall",
-      "url": "https://finance.yahoo.com/real-estate/articles/estate-pick-own-valuation-date-204853000.html",
-      "published": "2026-08-16T20:48:53Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Janus Henderson\u2019s JAAA Just Topped $30B. What\u2019s Next For CLOs?",
@@ -345,6 +327,12 @@
       "source": "The Daily Upside"
     },
     {
+      "title": "Wendy's Traders Smell a Buyout Cooking \u2014 Nelson Peltz Preps a Bid",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wendys-traders-smell-buyout-cooking-213005518.html",
+      "published": "2026-08-16T21:30:05Z",
+      "source": "Benzinga"
+    },
+    {
       "title": "The ETF Searching for Alpha Without the Male",
       "url": "https://finance.yahoo.com/markets/stocks/articles/etf-searching-alpha-without-male-040200036.html",
       "published": "2026-08-17T04:02:00Z",
@@ -357,16 +345,22 @@
       "source": "The Daily Upside"
     },
     {
-      "title": "BBB Foods Shows a Net Loss but Its Cash Flow Surged. Here's How to Read an Insider's Trade Before Last Week's Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bbb-foods-shows-net-loss-204943229.html",
-      "published": "2026-08-16T20:49:43Z",
-      "source": "Motley Fool"
+      "title": "Analysis-Big investors hunt for tomorrow's AI winners as capex angst fades",
+      "url": "https://finance.yahoo.com/technology/ai/articles/analysis-big-investors-hunt-tomorrows-050129962.html",
+      "published": "2026-08-17T05:01:29Z",
+      "source": "Reuters"
     },
     {
       "title": "HELOC and home equity loan rates today, Monday, August 17, 2026: A 19-basis-point differential",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-17-2026-a-19-basis-point-differential-100000113.html",
       "published": "2026-08-17T10:00:00Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "1 Jaw-Dropping Metric That Makes Alphabet Stock a No-Brainer Buy.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-jaw-dropping-metric-makes-212600838.html",
+      "published": "2026-08-16T21:26:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Best CD rates today, Monday, August 17, 2026: Lock in up to 4.30% APY",
@@ -387,16 +381,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "url": "https://finance.yahoo.com/technology/ai/articles/stripe-reportedly-acquire-ai-gateway-205704570.html",
-      "published": "2026-08-16T20:57:04Z",
-      "source": "TechCrunch"
-    },
-    {
       "title": "Gold prices today, Monday, August 17, 2026: Gold ticks up after lower retail sales report",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-17-2026-gold-ticks-up-after-lower-retail-sales-report-134755206.html",
       "published": "2026-08-17T13:47:55Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Polymarket Launches Predictions Market for Pok\u00e9mon Cards",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/polymarket-launches-predictions-market-pok-212512366.html",
+      "published": "2026-08-16T21:25:12Z",
+      "source": "BeInCrypto"
     },
     {
       "title": "Silver prices today, Monday, August 17, 2026: Buoyed by softer economic data, while industrial outlook remains uncertain",
@@ -414,6 +408,12 @@
       "title": "Weekly survey of mortgage lenders with the lowest rates: Small moves in rates and fees",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-10-170834159.html",
       "published": "2025-11-03T17:08:34Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "APR vs. interest rate: What you need to know when mortgage shopping",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/apr-vs-interest-rate-175223561.html",
+      "published": "2024-01-31T17:52:23Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -1.1507251552486866
     }
   },
-  "updated_at": "2026-08-18T08:21:30.351270+00:00",
+  "updated_at": "2026-08-18T08:59:58.973866+00:00",
   "source": "yahoo_finance"
 }
