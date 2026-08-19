@@ -41,7 +41,7 @@
         7693.259765625,
         7691.759765625
       ],
-      "as_of": "2026-08-19 11:46 UTC",
+      "as_of": "2026-08-19 12:01 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26289.4765625,
         26289.7109375
       ],
-      "as_of": "2026-08-19 11:46 UTC",
+      "as_of": "2026-08-19 12:01 UTC",
       "source": "yahoo"
     },
     {
@@ -129,16 +129,16 @@
         53346.6015625,
         53343.3984375
       ],
-      "as_of": "2026-08-19 11:46 UTC",
+      "as_of": "2026-08-19 12:01 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4424.2,
-      "change": 3.5999999999994543,
-      "change_pct": 0.0814369090168632,
+      "price": 4418.6,
+      "change": -2.0,
+      "change_pct": -0.045242727231597515,
       "series": [
         4400.0,
         4392.7998046875,
@@ -149,7 +149,7 @@
         4386.0,
         4396.2998046875,
         4391.7998046875,
-        4396.10009765625,
+        4391.0,
         4410.2001953125,
         4413.39990234375,
         4408.5,
@@ -160,34 +160,34 @@
         4398.89990234375,
         4389.0,
         4396.2998046875,
-        4402.7998046875,
+        4402.89990234375,
         4410.5,
         4408.2998046875,
-        4414.60009765625,
+        4414.39990234375,
         4409.7001953125,
         4410.60009765625,
         4416.39990234375,
         4423.2001953125,
         4422.2001953125,
         4425.7998046875,
-        4423.2998046875,
-        4424.2001953125
+        4418.7001953125,
+        4418.60009765625
       ],
-      "as_of": "2026-08-19 11:46 UTC",
+      "as_of": "2026-08-19 12:01 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.75,
-      "change": 0.6899999999999977,
-      "change_pct": 0.8208422555317603,
+      "price": 84.64,
+      "change": 0.5799999999999983,
+      "change_pct": 0.6899833452295958,
       "series": [
-        84.08999633789062,
+        84.08000183105469,
         84.23999786376953,
         84.41999816894531,
-        84.44999694824219,
+        84.44000244140625,
         84.44999694824219,
         84.47000122070312,
         84.5,
@@ -214,19 +214,19 @@
         85.13999938964844,
         84.91000366210938,
         84.69999694824219,
-        84.73999786376953,
-        84.75
+        84.63999938964844,
+        84.63999938964844
       ],
-      "as_of": "2026-08-19 11:46 UTC",
+      "as_of": "2026-08-19 12:01 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.76,
-      "change": -0.08000000000000007,
-      "change_pct": -0.5050505050505055,
+      "price": 15.78,
+      "change": -0.0600000000000005,
+      "change_pct": -0.3787878787878819,
       "series": [
         15.90999984741211,
         15.779999732971191,
@@ -258,10 +258,10 @@
         15.869999885559082,
         15.819999694824219,
         15.760000228881836,
-        15.760000228881836,
-        15.760000228881836
+        15.779999732971191,
+        15.779999732971191
       ],
-      "as_of": "2026-08-19 11:46 UTC",
+      "as_of": "2026-08-19 12:01 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,6 +271,18 @@
       "url": "https://finance.yahoo.com/healthcare/articles/costco-launching-medicare-advantage-plans-171035001.html",
       "published": "2026-08-18T17:10:35Z",
       "source": "Quartz"
+    },
+    {
+      "title": "Apple's App Store commission revenue reportedly drops 18% as legal challenges mount \u2014 what it means for your wallet",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apples-app-store-commission-revenue-113000583.html",
+      "published": "2026-08-19T11:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Alibaba (BABA) Cashes Out Of Gaming To Double Down On AI",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-baba-cashes-gaming-double-112716446.html",
+      "published": "2026-08-19T11:27:16Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat",
@@ -285,6 +297,12 @@
       "source": "Investor's Business Daily"
     },
     {
+      "title": "5-star analyst sets alarming SpaceX stock price target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
+      "published": "2026-08-18T03:07:00Z",
+      "source": "TheStreet"
+    },
+    {
       "title": "Dave Ramseys explains 3 serious retirement mistakes Americans make after 55. How many are you making?",
       "url": "https://finance.yahoo.com/markets/articles/dave-ramseys-explains-3-serious-111500132.html",
       "published": "2026-08-19T11:15:00Z",
@@ -295,12 +313,6 @@
       "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-drifts-near-multi-month-013146327.html",
       "published": "2026-08-19T11:05:56Z",
       "source": "Reuters"
-    },
-    {
-      "title": "5-star analyst sets alarming SpaceX stock price target",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
-      "published": "2026-08-18T03:07:00Z",
-      "source": "TheStreet"
     },
     {
       "title": "Shaq revealed the 1 concept he used to preserve his fortune as an NBA player",
@@ -315,6 +327,12 @@
       "source": "Yahoo Finance"
     },
     {
+      "title": "Jim Cramer says market pessimism is creating buying opportunities",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-market-pessimism-113725545.html",
+      "published": "2026-08-19T11:37:25Z",
+      "source": "Quartz"
+    },
+    {
       "title": "Lowe's cautious outlook sends stock lower as retailer flags 'pressure' in DIY spending",
       "url": "https://finance.yahoo.com/markets/stocks/article/lowes-cautious-outlook-sends-stock-lower-as-retailer-flags-pressure-in-diy-spending-105716315.html",
       "published": "2026-08-19T10:57:16Z",
@@ -325,12 +343,6 @@
       "url": "https://www.investors.com/news/target-earnings-q2-tgt-stock/?src=A00220&yptr=yahoo",
       "published": "2026-08-19T10:46:05Z",
       "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Oklo Vs. X-Energy: Is the New Nuclear IPO the Better Buy?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-vs-x-energy-nuclear-113000730.html",
-      "published": "2026-08-19T11:30:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Casella Waste Systems (CWST) Offers Durable Potential Beyond Market Concerns",
@@ -345,6 +357,12 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Alibaba or NetEase: Which Stock Could Soar After Earnings?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-netease-stock-could-soar-113551789.html",
+      "published": "2026-08-19T11:35:51Z",
+      "source": "24/7 Wall St."
+    },
+    {
       "title": "Morning Bid: Bonds out, robots in",
       "url": "https://finance.yahoo.com/markets/articles/morning-bid-bonds-robots-103755838.html",
       "published": "2026-08-19T10:37:55Z",
@@ -355,12 +373,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/applied-aerospace-defense-aadx-convert-103704440.html",
       "published": "2026-08-19T10:37:04Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Valens Semiconductor (VLN) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/valens-semiconductor-vln-q2-2026-112816586.html",
-      "published": "2026-08-19T11:28:16Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Construction workers, including an 18-year-old, find $10M of gold in the walls on the job. But can they keep the spoils?",
@@ -375,34 +387,22 @@
       "source": "Yahoo Finance"
     },
     {
+      "title": "5 Strategic Buyers That Could Transform Aurora Innovation Into an Industry Powerhouse",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-strategic-buyers-could-transform-113531401.html",
+      "published": "2026-08-19T11:35:31Z",
+      "source": "24/7 Wall St."
+    },
+    {
       "title": "India Turns to Piped Gas as Iran War Drives Up LPG Costs",
       "url": "https://finance.yahoo.com/energy/articles/india-turns-piped-gas-iran-103000064.html",
       "published": "2026-08-19T10:30:00Z",
       "source": "Oilprice.com"
     },
     {
-      "title": "Demand from US data-center boom radiates out through factory supply chains",
-      "url": "https://finance.yahoo.com/economy/articles/demand-us-data-center-boom-100520594.html",
-      "published": "2026-08-19T10:05:20Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Amazon's AI Business Passed a $25 Billion Run Rate. Where Does That Put the Stock in 5 Years?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazons-ai-business-passed-25-112801312.html",
-      "published": "2026-08-19T11:28:01Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "The IRS just sent a $43 billion \u2018Trump Bump\u2019 to millions of Americans \u2014 did you get your check?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/irs-just-sent-43-billion-100500366.html",
-      "published": "2026-08-19T10:05:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Young Americans are expecting to inherit money, assets, but this might not be reality",
-      "url": "https://finance.yahoo.com/markets/articles/young-americans-expecting-inherit-money-100500529.html",
-      "published": "2026-08-19T10:05:00Z",
-      "source": "Moneywise"
+      "title": "Mortgage and refinance interest rates today, Wednesday, August 19, 2026:  Surprisingly calm amid bond market volatility",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-wednesday-august-19-2026-surprisingly-calm-amid-bond-market-volatility-100000804.html",
+      "published": "2026-08-19T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "HELOC and home equity loan rates today, Wednesday, August 19, 2026: Why locking in a low rate matters",
@@ -411,9 +411,9 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Wednesday, August 19, 2026:  Surprisingly calm amid bond market volatility",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-wednesday-august-19-2026-surprisingly-calm-amid-bond-market-volatility-100000804.html",
-      "published": "2026-08-19T10:00:00Z",
+      "title": "Best high-yield savings interest rates today, Wednesday, August 19, 2026: Earn up to 4.15% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-wednesday-august-19-2026-earn-up-to-415-apy-100000771.html",
+      "published": "2026-08-17T10:00:00Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.9493607370090041
     }
   },
-  "updated_at": "2026-08-19T11:46:41.367125+00:00",
+  "updated_at": "2026-08-19T12:01:45.630808+00:00",
   "source": "yahoo_finance"
 }
