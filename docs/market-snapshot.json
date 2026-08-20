@@ -41,7 +41,7 @@
         7708.02978515625,
         7707.97998046875
       ],
-      "as_of": "2026-08-20 11:44 UTC",
+      "as_of": "2026-08-20 12:02 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26333.328125,
         26331.08984375
       ],
-      "as_of": "2026-08-20 11:44 UTC",
+      "as_of": "2026-08-20 12:02 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,18 @@
         53467.33984375,
         53463.05078125
       ],
-      "as_of": "2026-08-20 11:44 UTC",
+      "as_of": "2026-08-20 12:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4539.8,
-      "change": -5.5,
-      "change_pct": -0.12100411413988076,
+      "price": 4525.0,
+      "change": -20.300000000000182,
+      "change_pct": -0.44661518491629115,
       "series": [
-        4568.2998046875,
+        4568.0,
         4576.7001953125,
         4580.7001953125,
         4578.0,
@@ -148,14 +148,14 @@
         4574.7998046875,
         4569.2001953125,
         4567.7998046875,
-        4561.89990234375,
-        4558.39990234375,
+        4562.0,
+        4558.2998046875,
         4547.39990234375,
         4550.60009765625,
         4548.10009765625,
         4551.10009765625,
         4555.7001953125,
-        4547.2998046875,
+        4547.39990234375,
         4546.10009765625,
         4540.5,
         4538.5,
@@ -163,26 +163,26 @@
         4550.7998046875,
         4540.5,
         4547.60009765625,
-        4548.5,
+        4548.60009765625,
         4546.10009765625,
         4546.7998046875,
         4538.89990234375,
-        4550.39990234375,
+        4550.2001953125,
         4546.39990234375,
         4540.7998046875,
-        4539.7998046875,
-        4539.7998046875
+        4524.10009765625,
+        4525.0
       ],
-      "as_of": "2026-08-20 11:44 UTC",
+      "as_of": "2026-08-20 12:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 87.15,
-      "change": 2.760000000000005,
-      "change_pct": 3.2705296836118087,
+      "price": 87.19,
+      "change": 2.799999999999997,
+      "change_pct": 3.317928664533709,
       "series": [
         84.26000213623047,
         84.30000305175781,
@@ -214,21 +214,20 @@
         86.58000183105469,
         86.73999786376953,
         87.05000305175781,
-        87.11000061035156,
-        87.1500015258789
+        87.20999908447266,
+        87.19000244140625
       ],
-      "as_of": "2026-08-20 11:44 UTC",
+      "as_of": "2026-08-20 12:02 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.34,
-      "change": 0.4499999999999993,
-      "change_pct": 3.0221625251846826,
+      "price": 15.38,
+      "change": 0.4900000000000002,
+      "change_pct": 3.2907991940899946,
       "series": [
-        15.869999885559082,
         15.869999885559082,
         15.819999694824219,
         15.760000228881836,
@@ -259,9 +258,10 @@
         15.130000114440918,
         15.109999656677246,
         15.34000015258789,
-        15.34000015258789
+        15.380000114440918,
+        15.380000114440918
       ],
-      "as_of": "2026-08-20 11:44 UTC",
+      "as_of": "2026-08-20 12:02 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,39 +273,21 @@
       "source": "TheStreet"
     },
     {
-      "title": "Amylyx (AMLX) Climbs to Fresh High as Avexitide Moves Closer to Commercialization",
-      "url": "https://finance.yahoo.com/healthcare/articles/amylyx-amlx-climbs-fresh-high-234439880.html",
-      "published": "2026-08-18T23:44:39Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "30-Year Treasury Yield Touches a 19-Year High as US Debt Approaches $40 Trillion",
-      "url": "https://finance.yahoo.com/economy/policy/articles/30-treasury-yield-touches-19-234522949.html",
-      "published": "2026-08-18T23:45:22Z",
-      "source": "The Fiscal Times"
-    },
-    {
       "title": "5 Energy Stocks Cashing In On The New Energy Crunch",
       "url": "https://finance.yahoo.com/energy/articles/5-energy-stocks-cashing-energy-000000545.html",
       "published": "2026-08-19T00:00:00Z",
       "source": "Oilprice.com"
     },
     {
+      "title": "IRIDEX Corporation Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iridex-corporation-q2-2026-earnings-002132758.html",
+      "published": "2026-08-19T00:21:32Z",
+      "source": "Moby"
+    },
+    {
       "title": "Why Procter & Gamble Remains a Dividend Powerhouse After 70 Years",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-procter-gamble-remains-dividend-010918881.html",
       "published": "2026-08-19T01:09:18Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Mobia Medical (MOBI) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/healthcare/articles/mobia-medical-mobi-q2-2026-233128688.html",
-      "published": "2026-08-18T23:31:28Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "PepsiCo (PEP)\u2019s Dividend is Strong but the Stock Needs a Turnaround",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pepsico-pep-dividend-strong-stock-011216217.html",
-      "published": "2026-08-19T01:12:16Z",
       "source": "Insider Monkey"
     },
     {
@@ -315,9 +297,15 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Kimberly-Clark (KMB): An Overlooked Dividend King Income Investors Should Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-overlooked-dividend-011950232.html",
-      "published": "2026-08-19T01:19:50Z",
+      "title": "Why Treasury Yields Are Surging\u2014and What It Means for Your Money",
+      "url": "https://finance.yahoo.com/economy/policy/articles/why-treasury-yields-surging-means-000502424.html",
+      "published": "2026-08-19T00:05:02Z",
+      "source": "Investopedia"
+    },
+    {
+      "title": "PepsiCo (PEP)\u2019s Dividend is Strong but the Stock Needs a Turnaround",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pepsico-pep-dividend-strong-stock-011216217.html",
+      "published": "2026-08-19T01:12:16Z",
       "source": "Insider Monkey"
     },
     {
@@ -327,16 +315,22 @@
       "source": "Reuters"
     },
     {
-      "title": "Seer (SEER) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/seer-seer-q2-2026-earnings-233128555.html",
-      "published": "2026-08-18T23:31:28Z",
-      "source": "Motley Fool"
+      "title": "Kimberly-Clark (KMB): An Overlooked Dividend King Income Investors Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-overlooked-dividend-011950232.html",
+      "published": "2026-08-19T01:19:50Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Badger Meter is Quietly Building a Strong Dividend Growth Record",
       "url": "https://finance.yahoo.com/markets/stocks/articles/badger-meter-quietly-building-strong-012808841.html",
       "published": "2026-08-19T01:28:08Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "American Rare Earths appoints Nick Lissolo as chief commercial officer to advance Nasdaq pathway",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-rare-earths-appoints-nick-000600809.html",
+      "published": "2026-08-19T00:06:00Z",
+      "source": "Proactive"
     },
     {
       "title": "Johnson & Johnson\u2019s Dividend Looks Well Positioned for the Long Term",
@@ -357,40 +351,22 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Aquestive (AQST) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/healthcare/articles/aquestive-aqst-q2-2026-earnings-233129068.html",
-      "published": "2026-08-18T23:31:29Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Mercury Systems, Inc. Q4 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mercury-systems-inc-q4-2026-003543664.html",
-      "published": "2026-08-19T00:35:43Z",
-      "source": "Moby"
-    },
-    {
       "title": "This Dividend Stock Has a Realistic Shot at Becoming a Dividend King",
       "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-stock-realistic-shot-becoming-014052817.html",
       "published": "2026-08-19T01:40:52Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "IRIDEX Corporation Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/iridex-corporation-q2-2026-earnings-002132758.html",
-      "published": "2026-08-19T00:21:32Z",
-      "source": "Moby"
+      "title": "2 Industrial Stocks I'd Buy Every Day Before RTX",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-industrial-stocks-id-buy-002000551.html",
+      "published": "2026-08-19T00:20:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Stanley Black & Decker (NYSE:SWK)\u2019s 58-Year Dividend Streak is Hard to Ignore",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-black-decker-nyse-swk-014449068.html",
       "published": "2026-08-19T01:44:49Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Integra Resources (ITRG) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/integra-resources-itrg-q2-2026-233128571.html",
-      "published": "2026-08-18T23:31:28Z",
-      "source": "Motley Fool"
     },
     {
       "title": "PPG Industries (PPG) is an Underrated Dividend Stock Worth a Closer Look",
@@ -405,6 +381,18 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Mercury Systems, Inc. Q4 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mercury-systems-inc-q4-2026-003543664.html",
+      "published": "2026-08-19T00:35:43Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Why Kulicke & Soffa Stock Slumped by Nearly 10% Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-kulicke-soffa-stock-slumped-002116773.html",
+      "published": "2026-08-19T00:21:16Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Philip Morris International (PM) vs. Altria Group (MO): Which Tobacco Dividend Fits Your Portfolio",
       "url": "https://finance.yahoo.com/markets/stocks/articles/philip-morris-international-pm-vs-015223083.html",
       "published": "2026-08-19T01:52:23Z",
@@ -414,6 +402,18 @@
       "title": "Santos Profit Falls by Less Than Expected as Barossa and Pikka Ramp Up",
       "url": "https://finance.yahoo.com/energy/articles/santos-profit-falls-less-expected-020936903.html",
       "published": "2026-08-19T02:09:36Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "US stocks halt their slide after the Treasury Department moves to ease pressure from the bond market",
+      "url": "https://finance.yahoo.com/markets/articles/shares-fall-asia-kospi-down-030536178.html",
+      "published": "2026-08-19T03:05:36Z",
+      "source": "Associated Press"
+    },
+    {
+      "title": "Aramco and Maaden Move Ahead With Saudi Copper Mining Venture",
+      "url": "https://finance.yahoo.com/energy/articles/aramco-maaden-move-ahead-saudi-033906419.html",
+      "published": "2026-08-19T03:39:06Z",
       "source": "Oilprice.com"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -0.664068713217746
     }
   },
-  "updated_at": "2026-08-20T11:44:07.436506+00:00",
+  "updated_at": "2026-08-20T12:02:29.660037+00:00",
   "source": "yahoo_finance"
 }
