@@ -41,7 +41,7 @@
         7708.02978515625,
         7707.97998046875
       ],
-      "as_of": "2026-08-20 09:22 UTC",
+      "as_of": "2026-08-20 09:56 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26333.328125,
         26331.08984375
       ],
-      "as_of": "2026-08-20 09:22 UTC",
+      "as_of": "2026-08-20 09:56 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53467.33984375,
         53463.05078125
       ],
-      "as_of": "2026-08-20 09:22 UTC",
+      "as_of": "2026-08-20 09:56 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4548.8,
-      "change": 3.5,
-      "change_pct": 0.07700261808901503,
+      "price": 4544.5,
+      "change": -0.8000000000001819,
+      "change_pct": -0.01760059842035029,
       "series": [
-        4545.60009765625,
         4544.7001953125,
         4533.7998046875,
         4552.7998046875,
@@ -170,21 +169,21 @@
         4547.60009765625,
         4548.5,
         4546.10009765625,
-        4548.7001953125,
-        4548.7998046875
+        4546.7998046875,
+        4544.5,
+        4544.5
       ],
-      "as_of": "2026-08-20 09:22 UTC",
+      "as_of": "2026-08-20 09:56 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 86.47,
-      "change": 2.0799999999999983,
-      "change_pct": 2.4647470079393274,
+      "price": 86.38,
+      "change": 1.9899999999999949,
+      "change_pct": 2.358099300865025,
       "series": [
-        85.36000061035156,
         85.12999725341797,
         84.2699966430664,
         84.3499984741211,
@@ -214,21 +213,21 @@
         85.62999725341797,
         86.11000061035156,
         86.37999725341797,
-        86.54000091552734,
-        86.47000122070312
+        86.55999755859375,
+        86.4000015258789,
+        86.37999725341797
       ],
-      "as_of": "2026-08-20 09:22 UTC",
+      "as_of": "2026-08-20 09:56 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.15,
-      "change": 0.2599999999999998,
-      "change_pct": 1.7461383478844845,
+      "price": 15.2,
+      "change": 0.3099999999999987,
+      "change_pct": 2.0819341840161094,
       "series": [
-        15.850000381469727,
         15.800000190734863,
         15.829999923706055,
         15.859999656677246,
@@ -258,10 +257,11 @@
         15.079999923706055,
         15.220000267028809,
         15.229999542236328,
-        15.15999984741211,
-        15.149999618530273
+        15.140000343322754,
+        15.199999809265137,
+        15.199999809265137
       ],
-      "as_of": "2026-08-20 09:22 UTC",
+      "as_of": "2026-08-20 09:56 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,15 +273,15 @@
       "source": "TheStreet"
     },
     {
-      "title": "Seller concession limits: How much can you ask for?",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/seller-concession-limits-151821985.html",
-      "published": "2026-08-18T15:18:21Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
       "title": "State Farm's $5 billion dividend payout is largest in company history: Who's eligible?",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/state-farms-5-billion-dividend-payout-is-largest-in-company-history-whos-eligible-170817212.html",
       "published": "2026-08-18T17:08:17Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Seller concession limits: How much can you ask for?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/seller-concession-limits-151821985.html",
+      "published": "2026-08-18T15:18:21Z",
       "source": "Yahoo Personal Finance"
     },
     {
@@ -297,12 +297,6 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "SES AI (SES) Q2 2026 Earnings Call Transcript",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ses-ai-ses-q2-2026-211335943.html",
-      "published": "2026-08-18T21:13:35Z",
-      "source": "Motley Fool"
-    },
-    {
       "title": "How to compare life insurance quotes",
       "url": "https://finance.yahoo.com/personal-finance/insurance/article/life-insurance-quotes-185319925.html",
       "published": "2026-08-18T18:53:19Z",
@@ -315,28 +309,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Soybeans Slips off Highs into Tuesday\u2019s Close",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-slips-off-highs-tuesday-213054664.html",
-      "published": "2026-08-18T21:30:54Z",
-      "source": "Barchart"
+      "title": "Brazil Potash Reports Full-Project FEED Coverage, Liquidity & Policy Support for Autazes  \u2013 Quarterly Update Report",
+      "url": "https://finance.yahoo.com/economy/policy/articles/brazil-potash-reports-full-project-214619440.html",
+      "published": "2026-08-18T21:46:19Z",
+      "source": "Exec Edge"
     },
     {
-      "title": "Corn Fades on Tuesday to Close Mixed",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-fades-tuesday-close-mixed-213054828.html",
-      "published": "2026-08-18T21:30:54Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "The WSJ Dollar Index Rises 0.10% to 96.07",
-      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-rising-oil-prices-may-weigh-47795bc1?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-18T21:19:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "Guide to choosing a bank for the average consumer",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/choosing-a-bank-for-average-consumer-182535075.html",
-      "published": "2024-08-29T18:25:35Z",
-      "source": "Yahoo Personal Finance"
+      "title": "How much gold and Bitcoin could Elon Musk buy with his entire fortune?",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/much-gold-bitcoin-could-elon-214828090.html",
+      "published": "2026-08-18T21:48:28Z",
+      "source": "TheStreet"
     },
     {
       "title": "What does it mean when a check bounces?",
@@ -357,22 +339,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "A New 5.00% High-Yield Savings Account Just Launched\u2014With 2 Huge Advantages",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/5-00-high-yield-savings-212000451.html",
-      "published": "2026-08-18T21:20:00Z",
-      "source": "Investopedia"
-    },
-    {
-      "title": "Brazil Potash Reports Full-Project FEED Coverage, Liquidity & Policy Support for Autazes  \u2013 Quarterly Update Report",
-      "url": "https://finance.yahoo.com/economy/policy/articles/brazil-potash-reports-full-project-214619440.html",
-      "published": "2026-08-18T21:46:19Z",
-      "source": "Exec Edge"
-    },
-    {
       "title": "Peter Thiel Bets $76 Million on Argentina\u2019s Vaca Muerta Shale",
       "url": "https://finance.yahoo.com/energy/articles/peter-thiel-bets-76-million-220000241.html",
       "published": "2026-08-18T22:00:00Z",
       "source": "Oilprice.com"
+    },
+    {
+      "title": "Australia's Stock Market Seen as AI Haven",
+      "url": "https://finance.yahoo.com/video/australias-stock-market-seen-ai-214850953.html",
+      "published": "2026-08-18T21:48:50Z",
+      "source": "Bloomberg"
     },
     {
       "title": "Swarmer\u2019s SkyKnight & Platform Expansion Builds Commercial Momentum \u2013 Quarterly Update Report",
@@ -381,22 +357,28 @@
       "source": "Exec Edge"
     },
     {
+      "title": "Guide to choosing a bank for the average consumer",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/choosing-a-bank-for-average-consumer-182535075.html",
+      "published": "2024-08-29T18:25:35Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
       "title": "The New Economics of AI Infrastructure: Why Tax Strategy Is Now Part of Energy Strategy",
       "url": "https://finance.yahoo.com/energy/articles/economics-ai-infrastructure-why-tax-222535556.html",
       "published": "2026-08-18T22:25:35Z",
       "source": "POWER Magazine"
     },
     {
-      "title": "Siebert Financial Partners With Unusual Whales to Launch Political Trading ETFs",
-      "url": "https://finance.yahoo.com/markets/options/articles/siebert-financial-partners-unusual-whales-212100600.html",
-      "published": "2026-08-18T21:21:00Z",
-      "source": "24/7 Wall St."
-    },
-    {
       "title": "167 Logistics and Transportation Companies Made the 2026 Inc. 5000. Here Are the Freight Names Worth Knowing.",
       "url": "https://finance.yahoo.com/small-business/articles/167-logistics-transportation-companies-made-232727070.html",
       "published": "2026-08-18T23:27:27Z",
       "source": "FreightWaves"
+    },
+    {
+      "title": "The National Debt Is Wreaking Havoc With Bonds. Where We Go From Here.",
+      "url": "https://www.barrons.com/articles/u-s-debt-bonds-stocks-a2b908d8?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-18T21:52:00Z",
+      "source": "Barrons.com"
     },
     {
       "title": "This Safe Dividend Stock Is Beating the S&P 500 in 2026. How to Play It for the Next Year and Beyond.",
@@ -415,6 +397,24 @@
       "url": "https://finance.yahoo.com/economy/policy/articles/30-treasury-yield-touches-19-234522949.html",
       "published": "2026-08-18T23:45:22Z",
       "source": "The Fiscal Times"
+    },
+    {
+      "title": "5 Energy Stocks Cashing In On The New Energy Crunch",
+      "url": "https://finance.yahoo.com/energy/articles/5-energy-stocks-cashing-energy-000000545.html",
+      "published": "2026-08-19T00:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "The Medicare Supplement You Need Just Got Up to 26% More Expensive. These 3 ETFs Pay the Difference",
+      "url": "https://finance.yahoo.com/healthcare/articles/medicare-supplement-just-got-26-215557201.html",
+      "published": "2026-08-18T21:55:57Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "IRIDEX Corporation Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iridex-corporation-q2-2026-earnings-002132758.html",
+      "published": "2026-08-19T00:21:32Z",
+      "source": "Moby"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.664068713217746
     }
   },
-  "updated_at": "2026-08-20T09:22:34.757416+00:00",
+  "updated_at": "2026-08-20T09:56:28.697453+00:00",
   "source": "yahoo_finance"
 }
