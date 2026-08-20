@@ -41,7 +41,7 @@
         7708.02978515625,
         7707.97998046875
       ],
-      "as_of": "2026-08-20 05:00 UTC",
+      "as_of": "2026-08-20 05:31 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26333.328125,
         26331.08984375
       ],
-      "as_of": "2026-08-20 05:00 UTC",
+      "as_of": "2026-08-20 05:31 UTC",
       "source": "yahoo"
     },
     {
@@ -129,33 +129,37 @@
         53467.33984375,
         53463.05078125
       ],
-      "as_of": "2026-08-20 05:00 UTC",
+      "as_of": "2026-08-20 05:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4547.4,
-      "change": 2.0999999999994543,
-      "change_pct": 0.04620157085339701,
+      "price": 4543.7,
+      "change": -1.6000000000003638,
+      "change_pct": -0.03520119684070058,
       "series": [
-        4423.89990234375,
+        4423.2001953125,
+        4422.2001953125,
+        4425.7998046875,
+        4419.10009765625,
+        4424.10009765625,
         4496.2998046875,
         4516.0,
-        4518.0,
-        4544.2001953125,
-        4547.0,
-        4541.89990234375,
+        4517.7998046875,
+        4544.2998046875,
+        4546.7998046875,
+        4542.0,
         4552.2001953125,
         4548.7001953125,
         4551.0,
-        4545.60009765625,
-        4544.7001953125,
+        4545.7998046875,
+        4545.0,
         4533.7998046875,
-        4552.7998046875,
-        4565.0,
-        4568.2998046875,
+        4553.2998046875,
+        4565.10009765625,
+        4568.0,
         4576.7001953125,
         4580.7001953125,
         4578.0,
@@ -163,27 +167,27 @@
         4574.7998046875,
         4569.2001953125,
         4567.7998046875,
-        4561.89990234375,
-        4558.39990234375,
+        4568.89990234375,
         4547.39990234375,
-        4550.60009765625,
-        4548.10009765625,
-        4549.89990234375,
-        4547.2998046875,
-        4547.39990234375,
-        4547.39990234375
+        4546.10009765625,
+        4543.7001953125,
+        4543.7001953125
       ],
-      "as_of": "2026-08-20 05:00 UTC",
+      "as_of": "2026-08-20 05:32 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.43,
-      "change": 0.04000000000000625,
-      "change_pct": 0.04739898092191759,
+      "price": 84.41,
+      "change": 0.01999999999999602,
+      "change_pct": 0.023699490460950372,
       "series": [
+        85.13999938964844,
+        84.91000366210938,
+        84.69999694824219,
+        84.6500015258789,
         84.4000015258789,
         83.97000122070312,
         84.43000030517578,
@@ -207,17 +211,13 @@
         84.52999877929688,
         84.30000305175781,
         84.56999969482422,
-        84.5999984741211,
-        84.5999984741211,
-        84.79000091552734,
-        84.58999633789062,
-        84.44000244140625,
-        84.43000030517578,
+        84.52999877929688,
         84.62000274658203,
-        84.4000015258789,
-        84.43000030517578
+        84.47000122070312,
+        84.41000366210938,
+        84.41000366210938
       ],
-      "as_of": "2026-08-20 05:00 UTC",
+      "as_of": "2026-08-20 05:32 UTC",
       "source": "yahoo"
     },
     {
@@ -261,76 +261,22 @@
         14.890000343322754,
         14.890000343322754
       ],
-      "as_of": "2026-08-20 05:00 UTC",
+      "as_of": "2026-08-20 05:32 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Costco launching Medicare Advantage plans with SCAN Group",
-      "url": "https://finance.yahoo.com/healthcare/articles/costco-launching-medicare-advantage-plans-171035001.html",
-      "published": "2026-08-18T17:10:35Z",
-      "source": "Quartz"
-    },
-    {
-      "title": "Two Florida cities top the list of US regions where home sellers are most likely to lose money on their listings",
-      "url": "https://finance.yahoo.com/real-estate/articles/two-florida-cities-top-list-170000896.html",
-      "published": "2026-08-18T17:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "How Micron Stock Could Reach a $3 Trillion Market Cap by 2030",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-could-reach-3-170435643.html",
-      "published": "2026-08-18T17:04:35Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "State Farm's $5 billion dividend payout is largest in company history: Who's eligible?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/state-farms-5-billion-dividend-payout-is-largest-in-company-history-whos-eligible-170817212.html",
-      "published": "2026-08-18T17:08:17Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Corn Fading Early Gains for Midday Tuesday Weakness",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-fading-early-gains-midday-171613128.html",
-      "published": "2026-08-18T17:16:13Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Becoming AI-Native Requires the Right People More Than the Right Technology. Here\u2019s the Shift Leaders Need to Make.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/becoming-ai-native-requires-people-170000419.html",
-      "published": "2026-08-18T17:00:00Z",
-      "source": "Entrepreneur"
-    },
-    {
-      "title": "Soybeans Holding onto Tuesday Gains at Midday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-holding-onto-tuesday-gains-171613671.html",
-      "published": "2026-08-18T17:16:13Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Beyond Oil: Record Revenue & U.S. Direct-Sales Expansion Fuel Scaling Phase \u2013 Quarterly Update Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/beyond-oil-record-revenue-u-171951108.html",
-      "published": "2026-08-18T17:19:51Z",
-      "source": "Exec Edge"
-    },
-    {
-      "title": "Eltek Ltd. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eltek-ltd-q2-2026-earnings-165224874.html",
-      "published": "2026-08-18T16:52:24Z",
-      "source": "Moby"
+      "title": "People Moves: Carson Hires Recruiter from Osaic for Indie Channel",
+      "url": "https://finance.yahoo.com/small-business/articles/people-moves-carson-hires-recruiter-172717129.html",
+      "published": "2026-08-18T17:27:17Z",
+      "source": "Wealth Management"
     },
     {
       "title": "Extract Profit From Starbucks Stock Swings With This Long Strangle Option Trade",
       "url": "https://www.investors.com/research/options/starbucks-stock-sbux-coffee-trading-options-income-trade-strategy-markets/?src=A00220&yptr=yahoo",
       "published": "2026-08-18T17:24:46Z",
       "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Prediction: Wall Street May Be Sleeping on This AI Cloud Giant",
-      "url": "https://finance.yahoo.com/technology/ai/articles/prediction-wall-street-may-sleeping-170000317.html",
-      "published": "2026-08-18T17:00:00Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Massive Put Options Trading in Bank of NY Mellon - Out-of-the-Money 3.33% Yield",
@@ -351,16 +297,16 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "ARM Stock: The $2 Billion AI Signal Investors Shouldn\u2019t Ignore",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arm-stock-2-billion-ai-173027890.html",
+      "published": "2026-08-18T17:30:27Z",
+      "source": "24/7 Wall St."
+    },
+    {
       "title": "Curaleaf\u2019s Hostile Bid For Aurora Is Official",
       "url": "https://finance.yahoo.com/markets/stocks/articles/curaleaf-hostile-bid-aurora-official-173448615.html",
       "published": "2026-08-18T17:34:48Z",
       "source": "Moby"
-    },
-    {
-      "title": "Optics Stocks Drop on Anthropic News, WSJ Report: Lumentum Down 10%, Corning Down 8%, AXT Down 12%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/optics-stocks-drop-anthropic-news-170024664.html",
-      "published": "2026-08-18T17:00:24Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Robotics 'Eyes' And 'Brains' Maker Catapults 85% As AI Checks In With Reality",
@@ -381,16 +327,16 @@
       "source": "Reuters"
     },
     {
+      "title": "Realty Income Yields 5.2%. Here's Why the Payout Keeps Growing.",
+      "url": "https://finance.yahoo.com/real-estate/articles/realty-income-yields-5-2-172800610.html",
+      "published": "2026-08-18T17:28:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "What Does The S&P 500 Earnings Boom Say About The Stock Market?",
       "url": "https://www.investors.com/news/sp-500-q2-earnings-amazon-google/?src=A00220&yptr=yahoo",
       "published": "2026-08-18T17:53:10Z",
       "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Price Prediction: Can Walmart Reclaim $140 After Its Recent Pullback?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/price-prediction-walmart-reclaim-140-170012094.html",
-      "published": "2026-08-18T17:00:12Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Tech Stocks Fall On War, Macro Woes. Is Anthropic Revenue Projection Also A Factor?",
@@ -411,9 +357,63 @@
       "source": "Yahoo Finance"
     },
     {
+      "title": "Gorilla Technology Rises 3% as AI Infrastructure Momentum Builds: How GRRR Compares With Palantir",
+      "url": "https://finance.yahoo.com/technology/ai/articles/gorilla-technology-rises-3-ai-172605828.html",
+      "published": "2026-08-18T17:26:05Z",
+      "source": "24/7 Wall St."
+    },
+    {
       "title": "Walmart Q2 Earnings Will Put Its 54-Year Dividend Streak to the Test",
       "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-q2-earnings-put-54-181241635.html",
       "published": "2026-08-18T18:12:41Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "State Farm's $5 billion dividend payout is largest in company history: Who's eligible?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/state-farms-5-billion-dividend-payout-is-largest-in-company-history-whos-eligible-170817212.html",
+      "published": "2026-08-18T17:08:17Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Costco Stock Sets Up Amid Medicare Advantage News",
+      "url": "https://www.investors.com/news/costco-stock-medicare-advantage-partnership/?src=A00220&yptr=yahoo",
+      "published": "2026-08-18T18:18:52Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Goldman Sachs Says This 1 Stock Is Set to Be the Biggest AI Productivity Winner",
+      "url": "https://finance.yahoo.com/technology/ai/articles/goldman-sachs-says-1-stock-182022459.html",
+      "published": "2026-08-18T18:20:22Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Behind-the-Meter Energy Stocks Fall Tuesday: FTAI Aviation Down 7%, GE Vernova Down 6%, Caterpillar Down 4%",
+      "url": "https://finance.yahoo.com/energy/articles/behind-meter-energy-stocks-fall-172353733.html",
+      "published": "2026-08-18T17:23:53Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Dear Nvidia Stock Fans, Mark Your Calendars for August 26",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-nvidia-stock-fans-mark-182550329.html",
+      "published": "2026-08-18T18:25:50Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "T-Mobile (TMUS), The Market\u2019s Favorite Telecom Just Got Downgraded \u2014 and the Reason Should Worry Bulls",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-tmus-market-favorite-182709672.html",
+      "published": "2026-08-18T18:27:09Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Maybe the economy isn't so K-shaped anymore",
+      "url": "https://finance.yahoo.com/economy/article/maybe-the-economy-isnt-so-k-shaped-anymore-183322735.html",
+      "published": "2026-08-18T18:33:22Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "How to Play SpaceX Stock After the Elon Musk-Led Company Just Closed Its Cursor Acquisition",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/play-spacex-stock-elon-musk-183846941.html",
+      "published": "2026-08-18T18:38:46Z",
       "source": "Barchart"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -0.664068713217746
     }
   },
-  "updated_at": "2026-08-20T05:00:05.781811+00:00",
+  "updated_at": "2026-08-20T05:32:00.231904+00:00",
   "source": "yahoo_finance"
 }
