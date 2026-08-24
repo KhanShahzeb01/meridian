@@ -4,11 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7661.26,
-      "change": -13.109999999999673,
-      "change_pct": -0.1708283546401812,
+      "price": 7657.67,
+      "change": -16.699999999999818,
+      "change_pct": -0.21760743878650388,
       "series": [
-        7676.39990234375,
         7683.02978515625,
         7666.06982421875,
         7664.0,
@@ -38,21 +37,21 @@
         7659.740234375,
         7652.02978515625,
         7651.02001953125,
-        7661.080078125,
-        7661.259765625
+        7666.39013671875,
+        7658.2099609375,
+        7657.669921875
       ],
-      "as_of": "2026-08-24 18:16 UTC",
+      "as_of": "2026-08-24 19:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26058.988,
-      "change": -121.46700000000055,
-      "change_pct": -0.4639606148938226,
+      "price": 26030.01,
+      "change": -150.44500000000335,
+      "change_pct": -0.5746462389595725,
       "series": [
-        26116.09765625,
         26158.134765625,
         26083.794921875,
         26094.029296875,
@@ -82,21 +81,21 @@
         26067.48046875,
         26032.5703125,
         26013.626953125,
-        26060.04296875,
-        26058.98828125
+        26085.76953125,
+        26030.33984375,
+        26030.009765625
       ],
-      "as_of": "2026-08-24 18:16 UTC",
+      "as_of": "2026-08-24 19:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53395.27,
-      "change": 118.25999999999476,
-      "change_pct": 0.22197191621675982,
+      "price": 53426.79,
+      "change": 149.77999999999884,
+      "change_pct": 0.28113439549253766,
       "series": [
-        53003.8515625,
         53058.7109375,
         52955.01171875,
         52907.2109375,
@@ -126,21 +125,21 @@
         53392.69140625,
         53330.859375,
         53350.8203125,
-        53395.01171875,
-        53395.26953125
+        53434.71875,
+        53429.37109375,
+        53426.7890625
       ],
-      "as_of": "2026-08-24 18:16 UTC",
+      "as_of": "2026-08-24 19:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4691.9,
-      "change": 11.299999999999272,
-      "change_pct": 0.24142203990939773,
+      "price": 4689.8,
+      "change": 9.199999999999818,
+      "change_pct": 0.1965559970943857,
       "series": [
-        4700.5,
         4698.2001953125,
         4696.60009765625,
         4695.2001953125,
@@ -170,21 +169,21 @@
         4701.89990234375,
         4695.2998046875,
         4693.2998046875,
-        4690.39990234375,
-        4691.89990234375
+        4697.2998046875,
+        4689.7998046875,
+        4689.7998046875
       ],
-      "as_of": "2026-08-24 18:16 UTC",
+      "as_of": "2026-08-24 19:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.81,
-      "change": -2.25,
-      "change_pct": -2.584424534803584,
+      "price": 85.24,
+      "change": -1.8200000000000074,
+      "change_pct": -2.090512290374463,
       "series": [
-        85.70999908447266,
         85.62999725341797,
         85.61000061035156,
         85.61000061035156,
@@ -214,21 +213,21 @@
         85.22000122070312,
         84.8499984741211,
         84.80999755859375,
-        84.77999877929688,
-        84.80999755859375
+        84.97000122070312,
+        85.2300033569336,
+        85.23999786376953
       ],
-      "as_of": "2026-08-24 18:16 UTC",
+      "as_of": "2026-08-24 19:00 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.79,
-      "change": 0.6599999999999984,
-      "change_pct": 4.362194315928607,
+      "price": 15.71,
+      "change": 0.5800000000000001,
+      "change_pct": 3.833443489755453,
       "series": [
-        15.3100004196167,
         15.300000190734863,
         15.239999771118164,
         15.3100004196167,
@@ -258,10 +257,11 @@
         15.670000076293945,
         15.770000457763672,
         15.8100004196167,
-        15.779999732971191,
-        15.789999961853027
+        15.680000305175781,
+        15.710000038146973,
+        15.710000038146973
       ],
-      "as_of": "2026-08-24 18:16 UTC",
+      "as_of": "2026-08-24 19:00 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,15 +273,45 @@
       "source": "TheStreet"
     },
     {
-      "title": "Gen Z needs a 'reality check,' says BofA: Is the 'little treat economy' blowing up their future one coffee at a time?",
-      "url": "https://finance.yahoo.com/economy/articles/gen-z-needs-reality-check-091500298.html",
-      "published": "2026-08-23T09:15:00Z",
+      "title": "New combines now list for $1 million as farm income drops 2.6% \u2014 forcing farmers to rely on 70s machines and scrap parts",
+      "url": "https://finance.yahoo.com/economy/articles/combines-now-list-1-million-100000884.html",
+      "published": "2026-08-23T10:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "I'm a 57-year-old unemployed tech worker, I can't find a job \u2014 and I'm starting to panic. How can I get back on track?",
+      "url": "https://finance.yahoo.com/small-business/articles/im-57-old-unemployed-tech-094500348.html",
+      "published": "2026-08-23T09:45:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Grant Cardone says \u2018America will become a renter nation.\u2019 Can you make the most of the market without a mortgage?",
+      "url": "https://finance.yahoo.com/real-estate/articles/grant-cardone-says-america-become-101500797.html",
+      "published": "2026-08-23T10:15:00Z",
       "source": "Moneywise"
     },
     {
       "title": "Citibank exec says every 10-year delay in retirement savings means saving 3x as much monthly to catch up",
       "url": "https://finance.yahoo.com/markets/articles/citibank-exec-says-every-10-093000427.html",
       "published": "2026-08-23T09:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "What to Expect in Markets This Week: Nvidia Earnings; Software Firms, Discount Stores Also Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expect-markets-week-nvidia-earnings-100000903.html",
+      "published": "2026-08-23T10:00:00Z",
+      "source": "Investopedia"
+    },
+    {
+      "title": "Gen Z needs a 'reality check,' says BofA: Is the 'little treat economy' blowing up their future one coffee at a time?",
+      "url": "https://finance.yahoo.com/economy/articles/gen-z-needs-reality-check-091500298.html",
+      "published": "2026-08-23T09:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "A 22-year-old inherited $1.7 million after her mom's sudden death. These are the tax and IRS rules she needs to know now",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/22-old-inherited-1-7-103000483.html",
+      "published": "2026-08-23T10:30:00Z",
       "source": "Moneywise"
     },
     {
@@ -297,52 +327,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Micron vs. Sandisk: Which AI Memory Stock Should You Own?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-ai-memory-091500532.html",
-      "published": "2026-08-23T09:15:00Z",
+      "title": "Warren Buffett Says This 1 Simple Concept Helped Build His Fortune -- Here's How to Apply It Yourself",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-says-1-simple-095000183.html",
+      "published": "2026-08-23T09:50:00Z",
       "source": "Motley Fool"
-    },
-    {
-      "title": "I'm a 57-year-old unemployed tech worker, I can't find a job \u2014 and I'm starting to panic. How can I get back on track?",
-      "url": "https://finance.yahoo.com/small-business/articles/im-57-old-unemployed-tech-094500348.html",
-      "published": "2026-08-23T09:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "New combines now list for $1 million as farm income drops 2.6% \u2014 forcing farmers to rely on 70s machines and scrap parts",
-      "url": "https://finance.yahoo.com/economy/articles/combines-now-list-1-million-100000884.html",
-      "published": "2026-08-23T10:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Grant Cardone says \u2018America will become a renter nation.\u2019 Can you make the most of the market without a mortgage?",
-      "url": "https://finance.yahoo.com/real-estate/articles/grant-cardone-says-america-become-101500797.html",
-      "published": "2026-08-23T10:15:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "A 22-year-old inherited $1.7 million after her mom's sudden death. These are the tax and IRS rules she needs to know now",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/22-old-inherited-1-7-103000483.html",
-      "published": "2026-08-23T10:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Synaptics' CEO Sold Stock After a 120,000-Share Vest. Here's What to Know.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/synaptics-ceo-sold-stock-120-091014820.html",
-      "published": "2026-08-23T09:10:14Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Vietnam approves customs law changes to strengthen IP enforcement",
-      "url": "https://finance.yahoo.com/economy/policy/articles/vietnam-approves-customs-law-changes-064541469.html",
-      "published": "2026-08-23T06:45:41Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Moderna (MRNA) Soars 179% as Melanoma Therapy Candidate Rewrites Growth Story",
-      "url": "https://finance.yahoo.com/healthcare/articles/moderna-mrna-soars-179-melanoma-062319268.html",
-      "published": "2026-08-23T06:23:19Z",
-      "source": "Insider Monkey"
     },
     {
       "title": "\u2018The village idiot could have made it\u2019: Warren Buffett\u2019s dead-simple playbook to supercharge your retirement now",
@@ -369,6 +357,12 @@
       "source": "Moneywise"
     },
     {
+      "title": "Bill Ackman Just Made a Major Overhaul to Pershing Square's Portfolio. Here Are the Biggest Changes.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-just-made-major-100500349.html",
+      "published": "2026-08-23T10:05:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "As Bubble Fears Percolate, Advisors Are Bracing for a Crunch",
       "url": "https://finance.yahoo.com/markets/stocks/articles/bubble-fears-percolate-advisors-bracing-120000641.html",
       "published": "2026-08-23T12:00:00Z",
@@ -379,12 +373,6 @@
       "url": "https://finance.yahoo.com/markets/articles/most-americans-retire-much-banked-121500399.html",
       "published": "2026-08-23T12:15:00Z",
       "source": "Moneywise"
-    },
-    {
-      "title": "Target Stock Is up 63% This Year, and It's Still Cheap",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/target-stock-63-still-cheap-092500827.html",
-      "published": "2026-08-23T09:25:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Bitcoin Finally Wakes Up While U.S. Debt Hits $40 Trillion",
@@ -399,10 +387,22 @@
       "source": "Yahoo Finance"
     },
     {
+      "title": "Trump Orders 1,000 Space Launches a Year by 2030 \u2014 That's 5x Today's Pace",
+      "url": "https://finance.yahoo.com/technology/articles/trump-orders-1-000-space-094555877.html",
+      "published": "2026-08-23T09:45:55Z",
+      "source": "Benzinga"
+    },
+    {
       "title": "Got $2M saved? You should (probably) retire immediately. Don't sacrifice it all for nothing",
       "url": "https://finance.yahoo.com/markets/articles/got-2m-saved-probably-retire-124500785.html",
       "published": "2026-08-23T12:45:00Z",
       "source": "Moneywise"
+    },
+    {
+      "title": "500 Reasons to Buy Einride Stock Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/500-reasons-buy-einride-stock-130002262.html",
+      "published": "2026-08-23T13:00:02Z",
+      "source": "Barchart"
     },
     {
       "title": "Trump made a multimillion-dollar bond bet \u2014 and Fed Chair Kevin Warsh could shape the outcome. What investors can learn",
@@ -411,99 +411,99 @@
       "source": "Moneywise"
     },
     {
-      "title": "The $4.2 Million Couple Left New York to Save on Roth Conversions. One Medicare Bill Followed Them to Florida.",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/4-2-million-couple-left-090439022.html",
-      "published": "2026-08-23T09:04:39Z",
-      "source": "24/7 Wall St."
+      "title": "HP exec reveals the Gen Z \u2018superpower\u2019 that he says helps young employees build \u2018a healthy relationship with work\u2019",
+      "url": "https://finance.yahoo.com/technology/ai/articles/hp-exec-reveals-gen-z-130000510.html",
+      "published": "2026-08-23T13:00:00Z",
+      "source": "Moneywise"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 311.695,
+      "price": 311.41,
       "prev_close": 309.35,
-      "change_pct": 0.7580410538225215
+      "change_pct": 0.6659123969613714
     },
     "MSFT": {
-      "price": 487.55,
+      "price": 487.897,
       "prev_close": 483.24,
-      "change_pct": 0.8918963661948519
+      "change_pct": 0.9637033358165678
     },
     "NVDA": {
-      "price": 209.92,
+      "price": 209.33,
       "prev_close": 214.72,
-      "change_pct": -2.235469448584208
+      "change_pct": -2.510245901639338
     },
     "GOOGL": {
-      "price": 348.83,
+      "price": 348.29,
       "prev_close": 344.82,
-      "change_pct": 1.1629255843628532
+      "change_pct": 1.0063221390870678
     },
     "AMZN": {
-      "price": 262.73,
+      "price": 261.698,
       "prev_close": 258.63,
-      "change_pct": 1.58527626338786
+      "change_pct": 1.1862506283107077
     },
     "META": {
-      "price": 559.03,
+      "price": 560.12,
       "prev_close": 549.9,
-      "change_pct": 1.6603018730678296
+      "change_pct": 1.8585197308601615
     },
     "TSLA": {
-      "price": 354.34,
+      "price": 348.51,
       "prev_close": 362.86,
-      "change_pct": -2.348013007771603
+      "change_pct": -3.954693270131737
     },
     "JPM": {
-      "price": 355.88,
+      "price": 356.17,
       "prev_close": 351.58,
-      "change_pct": 1.2230502303885349
+      "change_pct": 1.3055350133682326
     },
     "V": {
-      "price": 380.445,
+      "price": 380.98,
       "prev_close": 371.04,
-      "change_pct": 2.534767141009048
+      "change_pct": 2.678956446744286
     },
     "XOM": {
-      "price": 163.66,
+      "price": 163.51,
       "prev_close": 165.11,
-      "change_pct": -0.8782024105142129
+      "change_pct": -0.9690509357398236
     },
     "SPY": {
-      "price": 764.34,
+      "price": 763.911,
       "prev_close": 765.72,
-      "change_pct": -0.1802225356527184
+      "change_pct": -0.23624823695346636
     },
     "QQQ": {
-      "price": 708.58,
+      "price": 707.65,
       "prev_close": 713.44,
-      "change_pct": -0.6812065485534892
+      "change_pct": -0.8115608880915112
     },
     "AMD": {
-      "price": 458.88,
+      "price": 457.915,
       "prev_close": 473.25,
-      "change_pct": -3.0364500792393034
+      "change_pct": -3.240359218172209
     },
     "NFLX": {
-      "price": 80.525,
+      "price": 80.445,
       "prev_close": 79.59,
-      "change_pct": 1.1747706998366656
+      "change_pct": 1.0742555597436734
     },
     "COIN": {
-      "price": 181.825,
+      "price": 180.84,
       "prev_close": 186.49,
-      "change_pct": -2.501474609898665
+      "change_pct": -3.029653064507483
     },
     "PLTR": {
-      "price": 178.005,
+      "price": 177.15,
       "prev_close": 179.94,
-      "change_pct": -1.075358452817607
+      "change_pct": -1.550516838946311
     },
     "BRK-B": {
-      "price": 502.56,
+      "price": 502.67,
       "prev_close": 495.82,
-      "change_pct": 1.3593642854261645
+      "change_pct": 1.3815497559598287
     }
   },
-  "updated_at": "2026-08-24T18:16:18.311818+00:00",
+  "updated_at": "2026-08-24T19:00:59.513322+00:00",
   "source": "yahoo_finance"
 }
