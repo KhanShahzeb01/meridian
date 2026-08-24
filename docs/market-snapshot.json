@@ -41,7 +41,7 @@
         7674.10009765625,
         7674.3701171875
       ],
-      "as_of": "2026-08-24 08:04 UTC",
+      "as_of": "2026-08-24 08:58 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26179.919921875,
         26180.455078125
       ],
-      "as_of": "2026-08-24 08:04 UTC",
+      "as_of": "2026-08-24 08:58 UTC",
       "source": "yahoo"
     },
     {
@@ -129,22 +129,20 @@
         53279.328125,
         53277.01171875
       ],
-      "as_of": "2026-08-24 08:04 UTC",
+      "as_of": "2026-08-24 08:58 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4690.4,
-      "change": 9.799999999999272,
-      "change_pct": 0.20937486647009512,
+      "price": 4700.3,
+      "change": 19.699999999999818,
+      "change_pct": 0.4208862111695043,
       "series": [
-        4672.0,
-        4671.60009765625,
         4686.60009765625,
         4680.10009765625,
-        4678.7998046875,
+        4678.7001953125,
         4683.5,
         4681.7998046875,
         4675.60009765625,
@@ -153,39 +151,39 @@
         4680.60009765625,
         4671.60009765625,
         4663.10009765625,
-        4671.7001953125,
+        4672.60009765625,
         4681.60009765625,
         4661.60009765625,
         4678.7998046875,
         4671.39990234375,
-        4688.7998046875,
-        4711.60009765625,
+        4688.60009765625,
+        4712.2998046875,
         4700.39990234375,
         4700.5,
         4698.2001953125,
         4696.60009765625,
         4695.2001953125,
-        4692.2998046875,
-        4694.7001953125,
+        4692.2001953125,
+        4697.2998046875,
         4698.7001953125,
         4706.7001953125,
         4699.0,
-        4691.10009765625,
-        4690.39990234375
+        4697.39990234375,
+        4684.7998046875,
+        4700.39990234375,
+        4700.2998046875
       ],
-      "as_of": "2026-08-24 08:04 UTC",
+      "as_of": "2026-08-24 08:58 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 85.39,
-      "change": -1.6700000000000017,
-      "change_pct": -1.9182173213875509,
+      "price": 85.01,
+      "change": -2.049999999999997,
+      "change_pct": -2.3546979094877063,
       "series": [
-        86.80999755859375,
-        86.58000183105469,
         86.93000030517578,
         87.25,
         87.31999969482422,
@@ -197,7 +195,7 @@
         87.05999755859375,
         86.41000366210938,
         86.26000213623047,
-        86.1500015258789,
+        86.12000274658203,
         86.0199966430664,
         85.94999694824219,
         85.83000183105469,
@@ -206,30 +204,30 @@
         85.51000213623047,
         85.69000244140625,
         85.70999908447266,
-        85.77999877929688,
+        85.62999725341797,
         85.61000061035156,
         85.61000061035156,
         85.55999755859375,
-        85.69999694824219,
+        85.55999755859375,
         85.44000244140625,
         85.18000030517578,
         85.29000091552734,
-        85.44999694824219,
-        85.38999938964844
+        85.66999816894531,
+        85.56999969482422,
+        84.9800033569336,
+        85.01000213623047
       ],
-      "as_of": "2026-08-24 08:04 UTC",
+      "as_of": "2026-08-24 08:58 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.93,
-      "change": 0.7999999999999989,
-      "change_pct": 5.287508261731651,
+      "price": 15.87,
+      "change": 0.7399999999999984,
+      "change_pct": 4.890945142101774,
       "series": [
-        16.049999237060547,
-        16.010000228881836,
         15.819999694824219,
         15.850000381469727,
         15.800000190734863,
@@ -258,10 +256,12 @@
         15.170000076293945,
         15.130000114440918,
         15.90999984741211,
-        15.930000305175781,
-        15.930000305175781
+        15.949999809265137,
+        15.90999984741211,
+        15.880000114440918,
+        15.869999885559082
       ],
-      "as_of": "2026-08-24 08:04 UTC",
+      "as_of": "2026-08-24 08:58 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,34 +273,16 @@
       "source": "TheStreet"
     },
     {
-      "title": "David Einhorn Just Bet $61.5 Million on PayPal. Why PYPL Looks Cheap Again.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/david-einhorn-just-bet-61-201730899.html",
-      "published": "2026-08-22T20:17:30Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-q2-preview-strong-earnings-205208968.html",
-      "published": "2026-08-22T20:52:08Z",
-      "source": "Barchart"
-    },
-    {
       "title": "The Gas Turbine Shortage Just Became AI\u2019s Biggest Constraint",
       "url": "https://finance.yahoo.com/energy/articles/gas-turbine-shortage-just-became-210000180.html",
       "published": "2026-08-22T21:00:00Z",
       "source": "Oilprice.com"
     },
     {
-      "title": "Is Alphabet\u2019s Search Risk Really Priced In? Stress-Testing Rosenblatt\u2019s $410 Thesis",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-search-risk-really-priced-195602365.html",
-      "published": "2026-08-22T19:56:02Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Gold, silver rally off ugly crash, but investors remain on edge",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-silver-rally-off-ugly-013700131.html",
-      "published": "2026-08-24T01:37:00Z",
-      "source": "TheStreet"
+      "title": "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-q2-preview-strong-earnings-205208968.html",
+      "published": "2026-08-22T20:52:08Z",
+      "source": "Barchart"
     },
     {
       "title": "Here\u2019s What You Should Buy Over PayPal Holdings, Inc. (NASDAQ:PYPL) According To Jim Cramer",
@@ -315,6 +297,12 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Gold, silver rally off ugly crash, but investors remain on edge",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-silver-rally-off-ugly-013700131.html",
+      "published": "2026-08-24T01:37:00Z",
+      "source": "TheStreet"
+    },
+    {
       "title": "Jim Cramer Wanted To Own The Walt Disney Company (NYSE:DIS) But Couldn\u2019t",
       "url": "https://finance.yahoo.com/media-advertising/articles/jim-cramer-wanted-own-walt-235520118.html",
       "published": "2026-08-22T23:55:20Z",
@@ -325,12 +313,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-affirm-holdings-235948978.html",
       "published": "2026-08-22T23:59:48Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Thomas Massie Says Every American Is Paying $4,000 a Year in Debt Interest, Blames Primary Loss on Fighting Policies Behind $40 Trillion Debt",
-      "url": "https://finance.yahoo.com/economy/policy/articles/thomas-massie-says-every-american-203004521.html",
-      "published": "2026-08-22T20:30:04Z",
-      "source": "Benzinga"
     },
     {
       "title": "Jim Cramer Continued To Complain About JPMorgan Chase & Co. (NYSE:JPM) & Wells Fargo\u2019s Multiple",
@@ -345,6 +327,12 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Institutional Investors Are Buying Hyperliquid Strategies. Should You?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/institutional-investors-buying-hyperliquid-strategies-215000562.html",
+      "published": "2026-08-22T21:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Jim Cramer Discussed Ross Stores, Inc. (NASDAQ:ROST) & TJX",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discussed-ross-stores-000430021.html",
       "published": "2026-08-23T00:04:30Z",
@@ -355,12 +343,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-advised-being-patient-000533730.html",
       "published": "2026-08-23T00:05:33Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "The Overtime Tax Break Only Counts the \u201cHalf,\u201d Not the \u201cTime-and-a-Half.\u201d Most Workers Are Overestimating It by Double",
-      "url": "https://finance.yahoo.com/economy/policy/articles/overtime-tax-break-only-counts-201822251.html",
-      "published": "2026-08-22T20:18:22Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Jim Cramer Doesn\u2019t Think Home Depot Is Expensive Enough To Be Avoided",
@@ -375,6 +357,12 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Insider Transaction: Cytokinetics CEO Robert Blum Sells 7,500 Shares for $575,700",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/insider-transaction-cytokinetics-ceo-robert-214201027.html",
+      "published": "2026-08-22T21:42:01Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Jim Cramer Argued It\u2019s A New World For Palo Alto Networks & CrowdStrike Holdings",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-argued-world-palo-001602176.html",
       "published": "2026-08-23T00:16:02Z",
@@ -385,12 +373,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shared-insights-space-002141262.html",
       "published": "2026-08-23T00:21:41Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Alpha Metallurgical Resources Director Courtis Buys $2.9 Million Shares. What Does This Mean for Investors?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-resources-director-courtis-201901011.html",
-      "published": "2026-08-22T20:19:01Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Jim Cramer Said NVIDIA Corp. (NASDAQ:NVDA) Doesn\u2019t Need Anyone But Elon Musk",
@@ -405,6 +387,12 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "What Would Alan Greenspan Say About This Stock Market?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alan-greenspan-stock-market-213500181.html",
+      "published": "2026-08-22T21:35:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Jim Cramer Wasn\u2019t Happy About Chevron Corporation (NYSE:CVX) Price Target Cut",
       "url": "https://finance.yahoo.com/energy/articles/jim-cramer-wasn-t-happy-002542783.html",
       "published": "2026-08-23T00:25:42Z",
@@ -415,6 +403,18 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/don-t-sell-sandisk-corporation-002730568.html",
       "published": "2026-08-23T00:27:30Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Zcash Hits Eight-Year High After Grayscale Advances U.S. ETF Push",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/zcash-hits-eight-high-grayscale-013700467.html",
+      "published": "2026-08-23T01:37:00Z",
+      "source": "CryptoProwl"
+    },
+    {
+      "title": "Alibaba launches $10 billion Hong Kong share placement to fund AI spending",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-launches-10-billion-hong-044723823.html",
+      "published": "2026-08-23T04:47:23Z",
+      "source": "Reuters"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.20931449502878488
     }
   },
-  "updated_at": "2026-08-24T08:04:23.786229+00:00",
+  "updated_at": "2026-08-24T08:58:48.634682+00:00",
   "source": "yahoo_finance"
 }
