@@ -41,7 +41,7 @@
         7674.10009765625,
         7674.3701171875
       ],
-      "as_of": "2026-08-24 04:56 UTC",
+      "as_of": "2026-08-24 05:30 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26179.919921875,
         26180.455078125
       ],
-      "as_of": "2026-08-24 04:56 UTC",
+      "as_of": "2026-08-24 05:30 UTC",
       "source": "yahoo"
     },
     {
@@ -129,67 +129,72 @@
         53279.328125,
         53277.01171875
       ],
-      "as_of": "2026-08-24 04:56 UTC",
+      "as_of": "2026-08-24 05:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4692.4,
-      "change": 11.799999999999272,
-      "change_pct": 0.25210443105583197,
+      "price": 4697.1,
+      "change": 16.5,
+      "change_pct": 0.35251890783232914,
       "series": [
-        4617.89990234375,
-        4618.60009765625,
-        4621.10009765625,
-        4636.39990234375,
-        4641.0,
-        4639.60009765625,
-        4639.7001953125,
         4645.60009765625,
         4645.7998046875,
         4655.7001953125,
-        4654.10009765625,
+        4654.39990234375,
         4642.2001953125,
         4634.7001953125,
-        4640.89990234375,
+        4641.10009765625,
         4638.2998046875,
         4659.5,
         4648.10009765625,
-        4660.5,
+        4660.2998046875,
         4672.0,
         4671.60009765625,
         4686.60009765625,
         4680.10009765625,
-        4678.7998046875,
+        4678.7001953125,
         4683.5,
         4681.7998046875,
         4675.60009765625,
         4674.7001953125,
         4668.0,
         4680.60009765625,
+        4671.60009765625,
+        4663.10009765625,
+        4672.60009765625,
+        4681.60009765625,
+        4661.60009765625,
+        4662.0,
         4696.60009765625,
-        4694.10009765625,
-        4692.39990234375
+        4695.2001953125,
+        4697.10009765625,
+        4697.10009765625
       ],
-      "as_of": "2026-08-24 04:56 UTC",
+      "as_of": "2026-08-24 05:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 85.64,
-      "change": -1.4200000000000017,
-      "change_pct": -1.631059039742708,
+      "price": 85.63,
+      "change": -1.4300000000000068,
+      "change_pct": -1.6425453710085076,
       "series": [
+        86.61000061035156,
+        87.05000305175781,
+        86.43000030517578,
+        86.95999908447266,
+        87.02999877929688,
         86.87000274658203,
         86.91000366210938,
         86.45999908447266,
         86.41999816894531,
         86.52999877929688,
-        86.45999908447266,
+        86.43000030517578,
         86.80999755859375,
         86.58000183105469,
         86.93000030517578,
@@ -203,21 +208,16 @@
         87.05999755859375,
         86.41000366210938,
         86.26000213623047,
-        86.1500015258789,
+        86.12000274658203,
         86.0199966430664,
         85.94999694824219,
-        85.83000183105469,
-        85.1500015258789,
-        85.36000061035156,
-        85.51000213623047,
-        85.69000244140625,
-        85.70999908447266,
-        85.77999877929688,
+        85.9000015258789,
         85.61000061035156,
-        85.63999938964844,
-        85.63999938964844
+        85.61000061035156,
+        85.62999725341797,
+        85.62999725341797
       ],
-      "as_of": "2026-08-24 04:56 UTC",
+      "as_of": "2026-08-24 05:31 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.130000114440918,
         15.130000114440918
       ],
-      "as_of": "2026-08-24 04:56 UTC",
+      "as_of": "2026-08-24 05:31 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,6 +271,18 @@
       "url": "https://finance.yahoo.com/small-business/articles/iconic-fast-food-fried-chicken-184700958.html",
       "published": "2026-08-22T18:47:00Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "91-year-old supermarket chain closes stores, lays off employees",
+      "url": "https://finance.yahoo.com/economy/articles/91-old-supermarket-chain-closes-231700441.html",
+      "published": "2026-08-22T23:17:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Powerful Growth, Multiple Endorsements Bode Well for Oracle Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/powerful-growth-multiple-endorsements-bode-183002613.html",
+      "published": "2026-08-22T18:30:02Z",
+      "source": "Barchart"
     },
     {
       "title": "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole",
@@ -285,34 +297,28 @@
       "source": "Barchart"
     },
     {
-      "title": "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-trades-reasonable-valuation-173002313.html",
-      "published": "2026-08-22T17:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Powerful Growth, Multiple Endorsements Bode Well for Oracle Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/powerful-growth-multiple-endorsements-bode-183002613.html",
-      "published": "2026-08-22T18:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "91-year-old supermarket chain closes stores, lays off employees",
-      "url": "https://finance.yahoo.com/economy/articles/91-old-supermarket-chain-closes-231700441.html",
-      "published": "2026-08-22T23:17:00Z",
-      "source": "TheStreet"
-    },
-    {
       "title": "Paramount and California to hold preliminary talks on Warner Bros deal, NYT reports",
       "url": "https://finance.yahoo.com/media-advertising/articles/paramount-california-hold-preliminary-talks-185659000.html",
       "published": "2026-08-22T18:56:59Z",
       "source": "Reuters"
     },
     {
+      "title": "Citi Predicts Up to 410% Rally for These 2 \u2018Strong Buy\u2019 Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/citi-predicts-410-rally-2-180500861.html",
+      "published": "2026-08-22T18:05:00Z",
+      "source": "TipRanks"
+    },
+    {
       "title": "Clean Energy Spending Tracking Toward Record $180 Billion in 2026",
       "url": "https://finance.yahoo.com/energy/articles/clean-energy-spending-tracking-toward-190000970.html",
       "published": "2026-08-22T19:00:00Z",
       "source": "Oilprice.com"
+    },
+    {
+      "title": "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-trades-reasonable-valuation-173002313.html",
+      "published": "2026-08-22T17:30:02Z",
+      "source": "Barchart"
     },
     {
       "title": "Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2",
@@ -327,10 +333,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "1 Quantum Computing Stock That Looks Like a Screaming Buy Right Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-quantum-computing-stock-looks-175000941.html",
-      "published": "2026-08-22T17:50:00Z",
-      "source": "Motley Fool"
+      "title": "Monthly Spending Breakdown for Retirees 65 and Older: Housing, Food, Transportation, Healthcare",
+      "url": "https://finance.yahoo.com/healthcare/articles/monthly-spending-breakdown-retirees-65-180500017.html",
+      "published": "2026-08-22T18:05:00Z",
+      "source": "Investopedia"
     },
     {
       "title": "Is Alphabet\u2019s Search Risk Really Priced In? Stress-Testing Rosenblatt\u2019s $410 Thesis",
@@ -357,9 +363,9 @@
       "source": "Oilprice.com"
     },
     {
-      "title": "Executive Parts Ways With 4,000 Shares of Regional Bank Stock, Following 11% Rally",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/executive-parts-ways-4-000-175001910.html",
-      "published": "2026-08-22T17:50:01Z",
+      "title": "Which Consumer Staples ETF Is a Better Buy: Invesco's RSPS or SPDR's XLP?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/consumer-staples-etf-better-buy-180501770.html",
+      "published": "2026-08-22T18:05:01Z",
       "source": "Motley Fool"
     },
     {
@@ -387,10 +393,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "The Smartest ETF to Buy With $750 Right Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/smartest-etf-buy-750-now-175500387.html",
-      "published": "2026-08-22T17:55:00Z",
-      "source": "Motley Fool"
+      "title": "Forget JEPI: BlackRock\u2019s Answer Pays 7.6%, Charges the Same 0.35%, and Beat It by 10 Points This Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/forget-jepi-blackrock-answer-pays-180135820.html",
+      "published": "2026-08-22T18:01:35Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "Jim Cramer Continued To Complain About JPMorgan Chase & Co. (NYSE:JPM) & Wells Fargo\u2019s Multiple",
@@ -408,12 +414,6 @@
       "title": "Jim Cramer Discussed Ross Stores, Inc. (NASDAQ:ROST) & TJX",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discussed-ross-stores-000430021.html",
       "published": "2026-08-23T00:04:30Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Advised Being Patient & Buying Walmart Inc. (NASDAQ:WMT)\u2019s Shares",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-advised-being-patient-000533730.html",
-      "published": "2026-08-23T00:05:33Z",
       "source": "Insider Monkey"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": -0.20931449502878488
     }
   },
-  "updated_at": "2026-08-24T04:56:20.582824+00:00",
+  "updated_at": "2026-08-24T05:31:00.391257+00:00",
   "source": "yahoo_finance"
 }
