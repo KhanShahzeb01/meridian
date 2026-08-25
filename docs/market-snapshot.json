@@ -41,7 +41,7 @@
         7652.81982421875,
         7652.85986328125
       ],
-      "as_of": "2026-08-25 00:00 UTC",
+      "as_of": "2026-08-25 01:46 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25979.658203125,
         25980.19140625
       ],
-      "as_of": "2026-08-25 00:00 UTC",
+      "as_of": "2026-08-25 01:46 UTC",
       "source": "yahoo"
     },
     {
@@ -93,8 +93,8 @@
       "name": "Dow Jones",
       "symbol": "^DJI",
       "price": 53417.16,
-      "change": 140.15000000000146,
-      "change_pct": 0.26305905680518005,
+      "change": 140.1600000000035,
+      "change_pct": 0.2630778760065385,
       "series": [
         52907.2109375,
         52839.03125,
@@ -129,21 +129,17 @@
         53419.19140625,
         53417.16015625
       ],
-      "as_of": "2026-08-25 00:00 UTC",
+      "as_of": "2026-08-25 01:46 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4738.4,
-      "change": 40.599999999999454,
-      "change_pct": 0.8642343224487943,
+      "price": 4730.8,
+      "change": 33.0,
+      "change_pct": 0.7024564689854825,
       "series": [
-        4697.39990234375,
-        4684.7998046875,
-        4693.5,
-        4691.39990234375,
         4702.39990234375,
         4700.7001953125,
         4700.2998046875,
@@ -170,24 +166,24 @@
         4714.2001953125,
         4724.5,
         4726.0,
-        4738.89990234375,
-        4738.39990234375
+        4737.2001953125,
+        4739.7998046875,
+        4741.0,
+        4726.0,
+        4729.2998046875,
+        4730.7998046875
       ],
-      "as_of": "2026-08-25 00:00 UTC",
+      "as_of": "2026-08-25 01:46 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 85.18,
-      "change": 0.1700000000000017,
-      "change_pct": 0.19997647335607774,
+      "price": 85.14,
+      "change": 0.12999999999999545,
+      "change_pct": 0.152923185507582,
       "series": [
-        85.66999816894531,
-        85.56999969482422,
-        84.95999908447266,
-        85.38999938964844,
         85.1500015258789,
         84.98999786376953,
         85.38999938964844,
@@ -214,10 +210,14 @@
         85.06999969482422,
         85.0999984741211,
         85.18000030517578,
-        85.18000030517578,
-        85.18000030517578
+        85.19000244140625,
+        85.11000061035156,
+        84.77999877929688,
+        85.23999786376953,
+        85.1500015258789,
+        85.13999938964844
       ],
-      "as_of": "2026-08-25 00:00 UTC",
+      "as_of": "2026-08-25 01:46 UTC",
       "source": "yahoo"
     },
     {
@@ -261,22 +261,40 @@
         15.84000015258789,
         15.850000381469727
       ],
-      "as_of": "2026-08-25 00:00 UTC",
+      "as_of": "2026-08-25 01:46 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "40% of companies posted fake job listings in 2024 \u2014 now lawmakers in multiple states are moving to ban them",
-      "url": "https://finance.yahoo.com/small-business/articles/40-companies-posted-fake-job-153000925.html",
-      "published": "2026-08-23T15:30:00Z",
-      "source": "Moneywise"
+      "title": "Choosing This Retirement Account Over a Traditional 401(k) Could Mean Keeping More of Your Social Security Benefits",
+      "url": "https://finance.yahoo.com/markets/articles/choosing-retirement-account-over-traditional-135000429.html",
+      "published": "2026-08-23T13:50:00Z",
+      "source": "Motley Fool"
     },
     {
-      "title": "Walmart Fell 9%. I\u2019m Not Sure This Is Just a Walmart Problem",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-fell-9-m-not-153057565.html",
-      "published": "2026-08-23T15:30:57Z",
+      "title": "Duolingo Stock Is Shaking Off AI Fears",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-stock-shaking-off-ai-141502170.html",
+      "published": "2026-08-23T14:15:02Z",
       "source": "Barchart"
+    },
+    {
+      "title": "Nvidia Stock Is Treading Water Ahead of Earnings This Week - What's the Best NVDA Play?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-treading-water-ahead-143002140.html",
+      "published": "2026-08-23T14:30:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Luxury auto CEOs say there's a K-shaped economy even at the very top of the market",
+      "url": "https://finance.yahoo.com/markets/article/luxury-auto-ceos-say-theres-a-k-shaped-economy-even-at-the-very-top-of-the-market-145500874.html",
+      "published": "2026-08-23T14:55:00Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Rocket Mortgage pushes home equity loans to wipe out credit card debt \u2014 here's how that could backfire on homeowners",
+      "url": "https://finance.yahoo.com/real-estate/articles/rocket-mortgage-pushes-home-equity-150000372.html",
+      "published": "2026-08-23T15:00:00Z",
+      "source": "Moneywise"
     },
     {
       "title": "NVIDIA, Cloverleaf Partnering to Advance Data Center Development",
@@ -291,45 +309,27 @@
       "source": "Barchart"
     },
     {
-      "title": "Why Investing in IPOs Has Become a High-Stakes Coin Flip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-investing-ipos-become-high-160002837.html",
-      "published": "2026-08-23T16:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Rocket Mortgage pushes home equity loans to wipe out credit card debt \u2014 here's how that could backfire on homeowners",
-      "url": "https://finance.yahoo.com/real-estate/articles/rocket-mortgage-pushes-home-equity-150000372.html",
-      "published": "2026-08-23T15:00:00Z",
+      "title": "40% of companies posted fake job listings in 2024 \u2014 now lawmakers in multiple states are moving to ban them",
+      "url": "https://finance.yahoo.com/small-business/articles/40-companies-posted-fake-job-153000925.html",
+      "published": "2026-08-23T15:30:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "Luxury auto CEOs say there's a K-shaped economy even at the very top of the market",
-      "url": "https://finance.yahoo.com/markets/article/luxury-auto-ceos-say-theres-a-k-shaped-economy-even-at-the-very-top-of-the-market-145500874.html",
-      "published": "2026-08-23T14:55:00Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia Stock Is Treading Water Ahead of Earnings This Week - What's the Best NVDA Play?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-treading-water-ahead-143002140.html",
-      "published": "2026-08-23T14:30:02Z",
+      "title": "Walmart Fell 9%. I\u2019m Not Sure This Is Just a Walmart Problem",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-fell-9-m-not-153057565.html",
+      "published": "2026-08-23T15:30:57Z",
       "source": "Barchart"
     },
     {
-      "title": "Spectrum rolls out free offer after steep customer losses",
-      "url": "https://finance.yahoo.com/technology/articles/spectrum-rolls-free-offer-steep-153300402.html",
-      "published": "2026-08-23T15:33:00Z",
-      "source": "TheStreet"
+      "title": "Is the 60/40 Dead Or Just Playing Possum?",
+      "url": "https://www.barrons.com/articles/balance-portfolio-stocks-bonds-ai-345b031e?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-23T13:55:00Z",
+      "source": "Barrons.com"
     },
     {
-      "title": "Duolingo Stock Is Shaking Off AI Fears",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-stock-shaking-off-ai-141502170.html",
-      "published": "2026-08-23T14:15:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-jackson-hole-other-170002056.html",
-      "published": "2026-08-23T17:00:02Z",
+      "title": "Why Investing in IPOs Has Become a High-Stakes Coin Flip",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-investing-ipos-become-high-160002837.html",
+      "published": "2026-08-23T16:00:02Z",
       "source": "Barchart"
     },
     {
@@ -339,22 +339,22 @@
       "source": "Moneywise"
     },
     {
+      "title": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-jackson-hole-other-170002056.html",
+      "published": "2026-08-23T17:00:02Z",
+      "source": "Barchart"
+    },
+    {
       "title": "Soros Fund Management Opened a New Position in Nebius During Q2. What This Means for NBIS Stock.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/soros-fund-management-opened-position-173002452.html",
       "published": "2026-08-23T17:30:02Z",
       "source": "Barchart"
     },
     {
-      "title": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-ceo-greg-abel-sitting-153500037.html",
-      "published": "2026-08-23T15:35:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Home insurers pocket $8.8M a day in investment income when claims are delayed, new analysis finds",
-      "url": "https://finance.yahoo.com/real-estate/articles/home-insurers-pocket-8-8m-133000616.html",
-      "published": "2026-08-23T13:30:00Z",
-      "source": "Moneywise"
+      "title": "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-continues-trading-stocks-warp-134453676.html",
+      "published": "2026-08-23T13:44:53Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "Private Equity Is Circling Utilities as AI Reshapes the Grid",
@@ -369,15 +369,21 @@
       "source": "Barchart"
     },
     {
-      "title": "Best high-yield savings interest rates today, Monday, August 24, 2026: Earn up to 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-24-2026-earn-up-to-415-apy-100000361.html",
+      "title": "Ahead of Nvidia Earnings, Here's What Barchart Data Says Comes Next for NVDA Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ahead-nvidia-earnings-heres-barchart-190002391.html",
+      "published": "2026-08-23T19:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "HELOC and home equity loan rates today, Monday, August 24, 2026: A 19-basis-point differential",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-24-2026-a-19-basis-point-differential-100000242.html",
       "published": "2026-08-24T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "3 Reasons Not to Claim Social Security at 67",
-      "url": "https://finance.yahoo.com/economy/policy/articles/3-reasons-not-claim-social-152200430.html",
-      "published": "2026-08-23T15:22:00Z",
+      "title": "Should You Buy, Sell, or Hold Nu Holdings Now That Its Earnings Are Out?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-nu-holdings-134500229.html",
+      "published": "2026-08-23T13:45:00Z",
       "source": "Motley Fool"
     },
     {
@@ -393,8 +399,8 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "HELOC and home equity loan rates today, Monday, August 24, 2026: A 19-basis-point differential",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-24-2026-a-19-basis-point-differential-100000242.html",
+      "title": "Best high-yield savings interest rates today, Monday, August 24, 2026: Earn up to 4.15% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-24-2026-earn-up-to-415-apy-100000361.html",
       "published": "2026-08-24T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
@@ -405,16 +411,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "How long could global oil stockpiles last if supply disruptions continue?",
-      "url": "https://finance.yahoo.com/energy/articles/long-could-global-oil-stockpiles-152000400.html",
-      "published": "2026-08-23T15:20:00Z",
-      "source": "InvestorsHub"
-    },
-    {
-      "title": "Silver prices today, Monday, August 24, 2026: Why silver remains on a roll, up over 18% month-over-month",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-24-2026-why-silver-remains-on-a-roll-up-over-18-month-over-month-124600654.html",
-      "published": "2026-08-24T12:46:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "How to Build $11,800 a Month in Dividend Income Without Selling a Single Share",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/build-11-800-month-dividend-135742067.html",
+      "published": "2026-08-23T13:57:42Z",
+      "source": "24/7 Wall St."
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 1.7143318139647454
     }
   },
-  "updated_at": "2026-08-25T00:00:48.483076+00:00",
+  "updated_at": "2026-08-25T01:46:49.855583+00:00",
   "source": "yahoo_finance"
 }
