@@ -41,7 +41,7 @@
         7652.81982421875,
         7652.85986328125
       ],
-      "as_of": "2026-08-25 07:16 UTC",
+      "as_of": "2026-08-25 07:59 UTC",
       "source": "yahoo"
     },
     {
@@ -85,16 +85,16 @@
         25979.658203125,
         25980.19140625
       ],
-      "as_of": "2026-08-25 07:16 UTC",
+      "as_of": "2026-08-25 07:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53417.2,
-      "change": 140.1999999999971,
-      "change_pct": 0.26315295530903976,
+      "price": 53417.16,
+      "change": 140.1600000000035,
+      "change_pct": 0.2630778760065385,
       "series": [
         52907.2109375,
         52839.03125,
@@ -127,22 +127,19 @@
         53429.37109375,
         53436.5703125,
         53419.19140625,
-        53417.19921875
+        53417.16015625
       ],
-      "as_of": "2026-08-25 07:16 UTC",
+      "as_of": "2026-08-25 07:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4697.5,
-      "change": -0.3000000000001819,
-      "change_pct": -0.006385967899871894,
+      "price": 4691.9,
+      "change": -5.900000000000546,
+      "change_pct": -0.1255907020307494,
       "series": [
-        4729.0,
-        4727.60009765625,
-        4732.7001953125,
         4706.0,
         4716.2001953125,
         4701.89990234375,
@@ -163,28 +160,30 @@
         4726.0,
         4714.5,
         4712.7998046875,
-        4703.39990234375,
+        4685.5,
+        4693.89990234375,
+        4688.2998046875,
         4686.7001953125,
         4681.10009765625,
         4702.39990234375,
         4698.5,
         4706.2998046875,
         4694.60009765625,
-        4697.60009765625,
-        4697.5
+        4695.5,
+        4691.89990234375,
+        4691.89990234375
       ],
-      "as_of": "2026-08-25 07:16 UTC",
+      "as_of": "2026-08-25 07:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.19,
-      "change": -0.8200000000000074,
-      "change_pct": -0.9645924008940212,
+      "price": 84.44,
+      "change": -0.5700000000000074,
+      "change_pct": -0.6705093518409686,
       "series": [
-        84.44000244140625,
         84.80000305175781,
         85.27999877929688,
         85.22000122070312,
@@ -214,22 +213,21 @@
         84.47000122070312,
         84.19999694824219,
         84.26000213623047,
-        84.13999938964844,
-        84.19000244140625
+        84.47000122070312,
+        84.44000244140625,
+        84.44000244140625
       ],
-      "as_of": "2026-08-25 07:16 UTC",
+      "as_of": "2026-08-25 07:59 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.85,
-      "change": 0.7199999999999989,
-      "change_pct": 4.758757435558485,
+      "price": 15.74,
+      "change": -0.10999999999999943,
+      "change_pct": -0.6940063091482613,
       "series": [
-        15.25,
-        15.180000305175781,
         15.170000076293945,
         15.130000114440918,
         15.90999984741211,
@@ -259,18 +257,26 @@
         15.779999732971191,
         15.850000381469727,
         15.84000015258789,
-        15.850000381469727
+        15.75,
+        15.739999771118164,
+        15.739999771118164
       ],
-      "as_of": "2026-08-25 07:16 UTC",
+      "as_of": "2026-08-25 07:59 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "After Buying Circle Through a 42% Drop, Cathie Wood Says Analysts Cannot Fathom It",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/buying-circle-42-drop-cathie-200021183.html",
-      "published": "2026-08-23T20:00:21Z",
-      "source": "BeInCrypto"
+      "title": "This Company Just Paid Out $6.8 Billion. Its AI Bill Was 4x That",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/company-just-paid-6-8-203855489.html",
+      "published": "2026-08-23T20:38:55Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Pemex and Petrobras Bet Big on High-Risk High-Reward Drilling Off Mexico",
+      "url": "https://finance.yahoo.com/energy/articles/pemex-petrobras-bet-big-high-210000211.html",
+      "published": "2026-08-23T21:00:00Z",
+      "source": "Oilprice.com"
     },
     {
       "title": "Gilead\u2019s Revenue Is Accelerating, But are its Acquisitions Worth the Cost?",
@@ -291,46 +297,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Medtronic vs. Tenet Healthcare: Which Healthcare Stock Offers Better Long-Term Growth?",
-      "url": "https://finance.yahoo.com/healthcare/articles/medtronic-vs-tenet-healthcare-healthcare-194303713.html",
-      "published": "2026-08-23T19:43:03Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Billionaire Druckenmiller makes cancer stock his #1 buy for a reason",
-      "url": "https://finance.yahoo.com/healthcare/articles/billionaire-druckenmiller-makes-cancer-stock-200700848.html",
-      "published": "2026-08-23T20:07:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "AstraZeneca Made a $1.5 Billion Lung Cancer Bet, but Can Zegfrovy Strengthen its Oncology Growth?",
-      "url": "https://finance.yahoo.com/healthcare/articles/astrazeneca-made-1-5-billion-193855181.html",
-      "published": "2026-08-23T19:38:55Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "As Cerebras Launches a New, Record-Setting AI Accelerator, Here\u2019s How You Should Play CBRS Stock",
-      "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-launches-record-setting-ai-193002886.html",
-      "published": "2026-08-23T19:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Pemex and Petrobras Bet Big on High-Risk High-Reward Drilling Off Mexico",
-      "url": "https://finance.yahoo.com/energy/articles/pemex-petrobras-bet-big-high-210000211.html",
-      "published": "2026-08-23T21:00:00Z",
-      "source": "Oilprice.com"
+      "title": "The Custodial Account You Opened for Your Grandson Becomes Legally His the Day He Turns 21, and He Can Spend It on a Car. A 529 Never Does.",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/custodial-account-opened-grandson-becomes-204323678.html",
+      "published": "2026-08-23T20:43:23Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "Danaher vs. Medtronic: Which Healthcare Recovery Story Has More Upside?",
       "url": "https://finance.yahoo.com/healthcare/articles/danaher-vs-medtronic-healthcare-recovery-221012046.html",
       "published": "2026-08-23T22:10:12Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Oracle vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/oracle-vs-amazon-better-ai-201300850.html",
-      "published": "2026-08-23T20:13:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Thermo Fisher vs. Intuitive Surgical: Which Premium Healthcare Stock Deserves its Valuation?",
@@ -351,16 +327,16 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "If a Bear Market Is Coming, Here's What All of the Smartest Investors Are Doing Right Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bear-market-coming-heres-smartest-203500789.html",
+      "published": "2026-08-23T20:35:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Abbott vs. Thermo Fisher: Which is the Better Investment, Diversification or Recovery?",
       "url": "https://finance.yahoo.com/healthcare/articles/abbott-vs-thermo-fisher-better-224317862.html",
       "published": "2026-08-23T22:43:17Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "$22 Billion in Customer Deposits Did Not Stop This Chip CEO From Selling $37 Million",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/22-billion-customer-deposits-did-201236753.html",
-      "published": "2026-08-23T20:12:36Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Medtronic vs. Thermo Fisher: Which Healthcare Turnaround Offers More Upside?",
@@ -381,16 +357,16 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Jim Cramer Says Stocks and the Economy Are Telling Two Very Different Stories: \u2018Jarring Gulf\u2019",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-stocks-economy-203116548.html",
+      "published": "2026-08-23T20:31:16Z",
+      "source": "Benzinga"
+    },
+    {
       "title": "Pfizer\u2019s Turnaround is Gaining Traction, but Can New Products Offset its Patent Cliff?",
       "url": "https://finance.yahoo.com/healthcare/articles/pfizer-turnaround-gaining-traction-products-231313770.html",
       "published": "2026-08-23T23:13:13Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Better Dividend King to Buy Right Now: Abbott Labs or Johnson & Johnson?",
-      "url": "https://finance.yahoo.com/healthcare/articles/better-dividend-king-buy-now-202000465.html",
-      "published": "2026-08-23T20:20:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Gilead\u2019s HIV Business is Surging, but is the Company Too Dependent on One Franchise?",
@@ -411,10 +387,34 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "CHAT vs. FTEC: Is Concentrated AI Exposure or Broad Tech Diversification the Better Play Right Now?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/chat-vs-ftec-concentrated-ai-205433050.html",
+      "published": "2026-08-23T20:54:33Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Novo Nordisk Expands Its AI Push With AWS, But Can It Accelerate Drug Discovery?",
       "url": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-expands-ai-push-234353024.html",
       "published": "2026-08-23T23:43:53Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "AstraZeneca\u2019s Earnings Beat Shows Momentum, But Can its Pipeline Deliver $80 Billion in Revenue?",
+      "url": "https://finance.yahoo.com/healthcare/articles/astrazeneca-earnings-beat-shows-momentum-235417335.html",
+      "published": "2026-08-23T23:54:17Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Gilead\u2019s Core Business Is Accelerating, But Will Its $11 Billion Pipeline Bet Pay Off?",
+      "url": "https://finance.yahoo.com/healthcare/articles/gilead-core-business-accelerating-11-001115346.html",
+      "published": "2026-08-24T00:11:15Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Samsung Electronics shares skid as record shareholder returns disappoint",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-shares-fall-shareholder-001849405.html",
+      "published": "2026-08-24T00:18:49Z",
+      "source": "Reuters"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 1.7143318139647454
     }
   },
-  "updated_at": "2026-08-25T07:16:46.672842+00:00",
+  "updated_at": "2026-08-25T07:59:58.325465+00:00",
   "source": "yahoo_finance"
 }
