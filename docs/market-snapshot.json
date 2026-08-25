@@ -41,7 +41,7 @@
         7652.81982421875,
         7652.85986328125
       ],
-      "as_of": "2026-08-25 04:18 UTC",
+      "as_of": "2026-08-25 04:56 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25979.658203125,
         25980.19140625
       ],
-      "as_of": "2026-08-25 04:18 UTC",
+      "as_of": "2026-08-25 04:56 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53419.19140625,
         53417.16015625
       ],
-      "as_of": "2026-08-25 04:18 UTC",
+      "as_of": "2026-08-25 04:56 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4691.0,
-      "change": -6.800000000000182,
-      "change_pct": -0.14474860573034573,
+      "price": 4681.1,
+      "change": -16.699999999999818,
+      "change_pct": -0.35548554642598273,
       "series": [
-        4703.7001953125,
         4714.89990234375,
         4719.39990234375,
         4720.7001953125,
@@ -170,21 +169,21 @@
         4714.5,
         4712.7998046875,
         4703.39990234375,
-        4691.7001953125,
-        4691.0
+        4686.7001953125,
+        4680.7998046875,
+        4681.10009765625
       ],
-      "as_of": "2026-08-25 04:18 UTC",
+      "as_of": "2026-08-25 04:56 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 85.47,
-      "change": 0.45999999999999375,
-      "change_pct": 0.5411128102576094,
+      "price": 85.11,
+      "change": 0.09999999999999432,
+      "change_pct": 0.11763321962121433,
       "series": [
-        87.02999877929688,
         86.87000274658203,
         86.91000366210938,
         86.45999908447266,
@@ -214,10 +213,11 @@
         85.69000244140625,
         85.70999908447266,
         85.62999725341797,
-        85.45999908447266,
-        85.47000122070312
+        85.2699966430664,
+        85.11000061035156,
+        85.11000061035156
       ],
-      "as_of": "2026-08-25 04:18 UTC",
+      "as_of": "2026-08-25 04:56 UTC",
       "source": "yahoo"
     },
     {
@@ -261,16 +261,22 @@
         15.84000015258789,
         15.850000381469727
       ],
-      "as_of": "2026-08-25 04:18 UTC",
+      "as_of": "2026-08-25 04:56 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Is This $7 Stock Your Ticket to Becoming a Millionaire?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/7-stock-ticket-becoming-millionaire-164400898.html",
-      "published": "2026-08-23T16:44:00Z",
+      "title": "Broadcom vs. Marvell Technology: 1 Critical Metric Decides the Better Custom AI Chip Stock",
+      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-vs-marvell-technology-1-172600511.html",
+      "published": "2026-08-23T17:26:00Z",
       "source": "Motley Fool"
+    },
+    {
+      "title": "Soros Fund Management Opened a New Position in Nebius During Q2. What This Means for NBIS Stock.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/soros-fund-management-opened-position-173002452.html",
+      "published": "2026-08-23T17:30:02Z",
+      "source": "Barchart"
     },
     {
       "title": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
@@ -285,22 +291,16 @@
       "source": "Moneywise"
     },
     {
-      "title": "Soros Fund Management Opened a New Position in Nebius During Q2. What This Means for NBIS Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/soros-fund-management-opened-position-173002452.html",
-      "published": "2026-08-23T17:30:02Z",
-      "source": "Barchart"
-    },
-    {
       "title": "Private Equity Is Circling Utilities as AI Reshapes the Grid",
       "url": "https://finance.yahoo.com/energy/articles/private-equity-circling-utilities-ai-180000273.html",
       "published": "2026-08-23T18:00:00Z",
       "source": "Oilprice.com"
     },
     {
-      "title": "Burry Says He Sold Alibaba, Calling It Pricey Before Share Sale",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/burry-says-sold-alibaba-calling-164915099.html",
-      "published": "2026-08-23T16:49:15Z",
-      "source": "Bloomberg"
+      "title": "The Treasury\u2019s recent moves in the bond and currency markets add up to \u2018soft-form financial repression\u2019 to lower debt costs, economist warns",
+      "url": "https://finance.yahoo.com/economy/policy/articles/treasury-recent-moves-bond-currency-172227525.html",
+      "published": "2026-08-23T17:22:27Z",
+      "source": "Fortune"
     },
     {
       "title": "How to Play MRVL Stock Now as Marvell Technology Expands Its Relationship With Google",
@@ -327,10 +327,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Your Last Chance to Buy Nvidia Stock for Cheap in 2026 May Be Near",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/last-chance-buy-nvidia-stock-165500851.html",
-      "published": "2026-08-23T16:55:00Z",
-      "source": "Motley Fool"
+      "title": "I make $32K/month from 3 simple, boring websites",
+      "url": "https://finance.yahoo.com/video/32k-month-3-simple-boring-173115568.html",
+      "published": "2026-08-23T17:31:15Z",
+      "source": "Starter Story"
     },
     {
       "title": "Medtronic vs. Tenet Healthcare: Which Healthcare Stock Offers Better Long-Term Growth?",
@@ -357,10 +357,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "America\u2019s Fastest Growing Retirement Town Is Not in Florida or Arizona",
-      "url": "https://finance.yahoo.com/real-estate/articles/america-fastest-growing-retirement-town-162957813.html",
-      "published": "2026-08-23T16:29:57Z",
-      "source": "24/7 Wall St."
+      "title": "Dropbox's Chief Accounting Officer Had 5,854 Shares Withheld. Here's What Investors Should Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dropboxs-chief-accounting-officer-had-173219213.html",
+      "published": "2026-08-23T17:32:19Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Pemex and Petrobras Bet Big on High-Risk High-Reward Drilling Off Mexico",
@@ -387,10 +387,10 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Gas Turbine Prices Are on Track to Nearly Triple. These Stocks Are Cashing In",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gas-turbine-prices-track-nearly-163100823.html",
-      "published": "2026-08-23T16:31:00Z",
-      "source": "Motley Fool"
+      "title": "Jim Cramer doubles down on his bold call on memory stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-doubles-down-bold-173300215.html",
+      "published": "2026-08-23T17:33:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "Johnson & Johnson vs. Thermo Fisher: Which Healthcare Growth Story Is More Durable?",
@@ -405,16 +405,16 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Best high-yield savings interest rates today, Monday, August 24, 2026: Earn up to 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-24-2026-earn-up-to-415-apy-100000361.html",
-      "published": "2026-08-24T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Medtronic vs. Thermo Fisher: Which Healthcare Turnaround Offers More Upside?",
+      "url": "https://finance.yahoo.com/healthcare/articles/medtronic-vs-thermo-fisher-healthcare-225340177.html",
+      "published": "2026-08-23T22:53:40Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "HELOC and home equity loan rates today, Monday, August 24, 2026: A 19-basis-point differential",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-24-2026-a-19-basis-point-differential-100000242.html",
-      "published": "2026-08-24T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Diesel Crisis Threatens to Outlast the Middle East War",
+      "url": "https://finance.yahoo.com/energy/articles/diesel-crisis-threatens-outlast-middle-230000974.html",
+      "published": "2026-08-23T23:00:00Z",
+      "source": "Oilprice.com"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 1.7143318139647454
     }
   },
-  "updated_at": "2026-08-25T04:18:42.256506+00:00",
+  "updated_at": "2026-08-25T04:56:53.095039+00:00",
   "source": "yahoo_finance"
 }
