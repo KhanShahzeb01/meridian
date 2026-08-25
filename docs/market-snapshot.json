@@ -41,7 +41,7 @@
         7652.81982421875,
         7652.85986328125
       ],
-      "as_of": "2026-08-25 07:59 UTC",
+      "as_of": "2026-08-25 08:42 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25979.658203125,
         25980.19140625
       ],
-      "as_of": "2026-08-25 07:59 UTC",
+      "as_of": "2026-08-25 08:42 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         53419.19140625,
         53417.16015625
       ],
-      "as_of": "2026-08-25 07:59 UTC",
+      "as_of": "2026-08-25 08:42 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4691.9,
-      "change": -5.900000000000546,
-      "change_pct": -0.1255907020307494,
+      "price": 4689.5,
+      "change": -8.300000000000182,
+      "change_pct": -0.17667844522968584,
       "series": [
-        4706.0,
-        4716.2001953125,
         4701.89990234375,
         4695.2998046875,
         4693.2998046875,
@@ -170,22 +168,22 @@
         4706.2998046875,
         4694.60009765625,
         4695.5,
-        4691.89990234375,
-        4691.89990234375
+        4686.10009765625,
+        4689.2001953125,
+        4689.7001953125,
+        4689.5
       ],
-      "as_of": "2026-08-25 07:59 UTC",
+      "as_of": "2026-08-25 08:42 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.44,
-      "change": -0.5700000000000074,
-      "change_pct": -0.6705093518409686,
+      "price": 83.91,
+      "change": -1.1000000000000085,
+      "change_pct": -1.2939654158334413,
       "series": [
-        84.80000305175781,
-        85.27999877929688,
         85.22000122070312,
         84.8499984741211,
         84.80999755859375,
@@ -214,21 +212,22 @@
         84.19999694824219,
         84.26000213623047,
         84.47000122070312,
-        84.44000244140625,
-        84.44000244140625
+        84.55000305175781,
+        83.93000030517578,
+        83.9000015258789,
+        83.91000366210938
       ],
-      "as_of": "2026-08-25 07:59 UTC",
+      "as_of": "2026-08-25 08:42 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.74,
-      "change": -0.10999999999999943,
-      "change_pct": -0.6940063091482613,
+      "price": 15.75,
+      "change": -0.09999999999999964,
+      "change_pct": -0.6309148264984206,
       "series": [
-        15.170000076293945,
         15.130000114440918,
         15.90999984741211,
         15.949999809265137,
@@ -258,49 +257,26 @@
         15.850000381469727,
         15.84000015258789,
         15.75,
-        15.739999771118164,
-        15.739999771118164
+        15.800000190734863,
+        15.760000228881836,
+        15.75
       ],
-      "as_of": "2026-08-25 07:59 UTC",
+      "as_of": "2026-08-25 08:42 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "This Company Just Paid Out $6.8 Billion. Its AI Bill Was 4x That",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/company-just-paid-6-8-203855489.html",
-      "published": "2026-08-23T20:38:55Z",
-      "source": "24/7 Wall St."
+      "title": "Axsome Therapeutics Stock Is Up 16% Year to Date. Why Wall Street Thinks It Has Even More Room to Run",
+      "url": "https://finance.yahoo.com/healthcare/articles/axsome-therapeutics-stock-16-date-212000545.html",
+      "published": "2026-08-23T21:20:00Z",
+      "source": "Motley Fool"
     },
     {
       "title": "Pemex and Petrobras Bet Big on High-Risk High-Reward Drilling Off Mexico",
       "url": "https://finance.yahoo.com/energy/articles/pemex-petrobras-bet-big-high-210000211.html",
       "published": "2026-08-23T21:00:00Z",
       "source": "Oilprice.com"
-    },
-    {
-      "title": "Gilead\u2019s Revenue Is Accelerating, But are its Acquisitions Worth the Cost?",
-      "url": "https://finance.yahoo.com/healthcare/articles/gilead-revenue-accelerating-acquisitions-worth-195747159.html",
-      "published": "2026-08-23T19:57:47Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Pfizer vs. Gilead: Which Drugmaker Has the Stronger Growth Story?",
-      "url": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-gilead-drugmaker-stronger-195408536.html",
-      "published": "2026-08-23T19:54:08Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Zoetis Earnings Reveal a Divided Business, But Can its Pipeline Restore Growth?",
-      "url": "https://finance.yahoo.com/healthcare/articles/zoetis-earnings-reveal-divided-business-194924344.html",
-      "published": "2026-08-23T19:49:24Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "The Custodial Account You Opened for Your Grandson Becomes Legally His the Day He Turns 21, and He Can Spend It on a Car. A 529 Never Does.",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/custodial-account-opened-grandson-becomes-204323678.html",
-      "published": "2026-08-23T20:43:23Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Danaher vs. Medtronic: Which Healthcare Recovery Story Has More Upside?",
@@ -321,16 +297,16 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "How To Earn $500 A Month From Intuit Stock Ahead Of Q4 Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-intuit-stock-213108708.html",
+      "published": "2026-08-23T21:31:08Z",
+      "source": "Benzinga"
+    },
+    {
       "title": "Johnson & Johnson vs. Thermo Fisher: Which Healthcare Growth Story Is More Durable?",
       "url": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-vs-thermo-fisher-223203633.html",
       "published": "2026-08-23T22:32:03Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "If a Bear Market Is Coming, Here's What All of the Smartest Investors Are Doing Right Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bear-market-coming-heres-smartest-203500789.html",
-      "published": "2026-08-23T20:35:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Abbott vs. Thermo Fisher: Which is the Better Investment, Diversification or Recovery?",
@@ -351,16 +327,16 @@
       "source": "Oilprice.com"
     },
     {
+      "title": "Does Billionaire Bill Ackman Know Something Wall Street Doesn\u2019t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-billionaire-bill-ackman-know-213501557.html",
+      "published": "2026-08-23T21:35:01Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Is Johnson & Johnson\u2019s $5.5 Billion Talc Settlement a Buy Signal, or Is the Legal Risk Far From Over?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-5-5-billion-230104916.html",
       "published": "2026-08-23T23:01:04Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Says Stocks and the Economy Are Telling Two Very Different Stories: \u2018Jarring Gulf\u2019",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-stocks-economy-203116548.html",
-      "published": "2026-08-23T20:31:16Z",
-      "source": "Benzinga"
     },
     {
       "title": "Pfizer\u2019s Turnaround is Gaining Traction, but Can New Products Offset its Patent Cliff?",
@@ -381,16 +357,16 @@
       "source": "Barchart"
     },
     {
+      "title": "The Metals Company Is Riding the Critical Metals Boom. Here's Why I Still Wouldn't Touch It.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/metals-company-riding-critical-metals-210200421.html",
+      "published": "2026-08-23T21:02:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Abbott vs. Intuitive Surgical: Which MedTech Stock Offers Better Long-Term Upside?",
       "url": "https://finance.yahoo.com/healthcare/articles/abbott-vs-intuitive-surgical-medtech-232811319.html",
       "published": "2026-08-23T23:28:11Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "CHAT vs. FTEC: Is Concentrated AI Exposure or Broad Tech Diversification the Better Play Right Now?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/chat-vs-ftec-concentrated-ai-205433050.html",
-      "published": "2026-08-23T20:54:33Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Novo Nordisk Expands Its AI Push With AWS, But Can It Accelerate Drug Discovery?",
@@ -411,10 +387,34 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "One Social Security Move Boomers Used to Boost Their Checks Is Now Off-Limits to Almost Everyone Else.",
+      "url": "https://finance.yahoo.com/healthcare/articles/one-social-security-move-boomers-210134840.html",
+      "published": "2026-08-23T21:01:34Z",
+      "source": "24/7 Wall St."
+    },
+    {
       "title": "Samsung Electronics shares skid as record shareholder returns disappoint",
       "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-shares-fall-shareholder-001849405.html",
       "published": "2026-08-24T00:18:49Z",
       "source": "Reuters"
+    },
+    {
+      "title": "Zoetis Wins Emergency Authorization for Simparica Trio, Can It Support a Slowing U.S. Business?",
+      "url": "https://finance.yahoo.com/healthcare/articles/zoetis-wins-emergency-authorization-simparica-002957471.html",
+      "published": "2026-08-24T00:29:57Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Duos Technologies\u2019 AI Transformation Has Wall Street\u2019s Attention. Here\u2019s How Big This $300 Million Market Cap Company Could Get.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/duos-technologies-ai-transformation-wall-003513372.html",
+      "published": "2026-08-24T00:35:13Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Pfizer vs. Johnson & Johnson: Which Pharma Giant Is Better Prepared for Its Patent Cliff?",
+      "url": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-johnson-johnson-pharma-004627834.html",
+      "published": "2026-08-24T00:46:27Z",
+      "source": "Insider Monkey"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 1.7143318139647454
     }
   },
-  "updated_at": "2026-08-25T07:59:58.325465+00:00",
+  "updated_at": "2026-08-25T08:42:27.315741+00:00",
   "source": "yahoo_finance"
 }
