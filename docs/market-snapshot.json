@@ -41,7 +41,7 @@
         7652.81982421875,
         7652.85986328125
       ],
-      "as_of": "2026-08-25 11:16 UTC",
+      "as_of": "2026-08-25 11:44 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25979.658203125,
         25980.19140625
       ],
-      "as_of": "2026-08-25 11:16 UTC",
+      "as_of": "2026-08-25 11:44 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53419.19140625,
         53417.19921875
       ],
-      "as_of": "2026-08-25 11:16 UTC",
+      "as_of": "2026-08-25 11:44 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4695.2,
-      "change": -2.600000000000364,
-      "change_pct": -0.05534505513219728,
+      "price": 4698.8,
+      "change": 1.0,
+      "change_pct": 0.021286559666226744,
       "series": [
-        4697.7001953125,
         4707.5,
         4705.2998046875,
         4710.0,
@@ -170,21 +169,21 @@
         4691.89990234375,
         4689.39990234375,
         4695.0,
-        4694.89990234375,
-        4695.2001953125
+        4697.2001953125,
+        4698.7998046875,
+        4698.7998046875
       ],
-      "as_of": "2026-08-25 11:16 UTC",
+      "as_of": "2026-08-25 11:45 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 82.43,
-      "change": -2.5799999999999983,
-      "change_pct": -3.0349370662275006,
+      "price": 82.32,
+      "change": -2.690000000000012,
+      "change_pct": -3.1643336078108595,
       "series": [
-        85.19000244140625,
         85.02999877929688,
         84.95999908447266,
         84.9800033569336,
@@ -214,19 +213,20 @@
         82.12000274658203,
         82.41000366210938,
         82.44999694824219,
-        82.47000122070312,
-        82.43000030517578
+        82.5,
+        82.31999969482422,
+        82.31999969482422
       ],
-      "as_of": "2026-08-25 11:16 UTC",
+      "as_of": "2026-08-25 11:45 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.81,
-      "change": 0.6799999999999997,
-      "change_pct": 4.494382022471908,
+      "price": 15.79,
+      "change": 0.6599999999999984,
+      "change_pct": 4.362194315928607,
       "series": [
         15.890000343322754,
         15.930000305175781,
@@ -258,19 +258,19 @@
         15.829999923706055,
         15.850000381469727,
         15.8100004196167,
-        15.8100004196167,
-        15.8100004196167
+        15.789999961853027,
+        15.789999961853027
       ],
-      "as_of": "2026-08-25 11:16 UTC",
+      "as_of": "2026-08-25 11:45 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "RUM Group signs six-year $13.7bn GPU services contract",
-      "url": "https://finance.yahoo.com/technology/ai/articles/rum-group-signs-six-13-105613560.html",
-      "published": "2026-08-25T10:56:13Z",
-      "source": "Verdict"
+      "title": "Guardant ordered to pay $245m in DNA sequencing patent dispute",
+      "url": "https://finance.yahoo.com/healthcare/articles/guardant-ordered-pay-245m-dna-113601356.html",
+      "published": "2026-08-25T11:36:01Z",
+      "source": "Medical Device Network"
     },
     {
       "title": "Stock market today: S&P 500, Nasdaq futures recover in countdown to Nvidia earnings, Fed Jackson Hole summit",
@@ -279,10 +279,28 @@
       "source": "Yahoo Finance"
     },
     {
+      "title": "Nearly Two-Thirds Of The S&P 500 Already Sell Off In A Big Way",
+      "url": "https://www.investors.com/etfs-and-funds/sectors/sp500-nearly-two-thirds-of-already-sold-off-in-a-big-way/?src=A00220&yptr=yahoo",
+      "published": "2026-08-25T11:18:46Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "\u2018Don\u2019t be a loser\u2019: Robert Kiyosaki sounds alarm on $40T US debtload \u2014 warns owners of this \u2018fake asset\u2019 will get poorer",
+      "url": "https://finance.yahoo.com/economy/policy/articles/don-t-loser-robert-kiyosaki-105500878.html",
+      "published": "2026-08-25T10:55:00Z",
+      "source": "Moneywise"
+    },
+    {
       "title": "'Pretend like you don't have it': 23-year-old New Yorker asks Dave Ramsey what not to do with sudden $450K inheritance",
       "url": "https://finance.yahoo.com/markets/stocks/articles/pretend-dont-23-old-yorker-100500583.html",
       "published": "2026-08-25T10:05:00Z",
       "source": "Moneywise"
+    },
+    {
+      "title": "UK credit card repayments weaken as balances grow in June: FICO",
+      "url": "https://finance.yahoo.com/economy/articles/uk-credit-card-repayments-weaken-113451747.html",
+      "published": "2026-08-25T11:34:51Z",
+      "source": "Retail Banker International"
     },
     {
       "title": "AI chipmaker Enflame sets subscription date for near $900 million Shanghai IPO",
@@ -297,12 +315,6 @@
       "source": "Reuters"
     },
     {
-      "title": "Avantus secures $300m in tax equity for Aratina 2 solar storage project",
-      "url": "https://finance.yahoo.com/energy/articles/avantus-secures-300m-tax-equity-105456061.html",
-      "published": "2026-08-25T10:54:56Z",
-      "source": "Energy Monitor"
-    },
-    {
       "title": "Best high-yield savings interest rates today, Tuesday, August 25, 2026: Earn up to 4.15% APY",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-tuesday-august-25-2026-earn-up-to-415-apy-100000361.html",
       "published": "2026-08-24T10:00:00Z",
@@ -315,15 +327,21 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Best CD rates today, Tuesday, August 25, 2026: Lock in up to 4.30% APY today with multiple offers",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-august-25-2026-lock-in-up-to-430-apy-today-with-multiple-offers-100000257.html",
-      "published": "2026-08-25T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Butterball reaches settlement in turkey pricing case",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/butterball-reaches-settlement-turkey-pricing-113220382.html",
+      "published": "2026-08-25T11:32:20Z",
+      "source": "Just Food"
     },
     {
       "title": "HELOC and home equity loan rates today, Tuesday, August 25, 2026: Besides rates, how to choose between a HELOC or home equity loan",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-tuesday-august-25-2026-besides-rates-how-to-choose-between-a-heloc-or-home-equity-loan-100000242.html",
       "published": "2026-08-24T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Best CD rates today, Tuesday, August 25, 2026: Lock in up to 4.30% APY today with multiple offers",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-august-25-2026-lock-in-up-to-430-apy-today-with-multiple-offers-100000257.html",
+      "published": "2026-08-25T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
@@ -339,52 +357,16 @@
       "source": "Oilprice.com"
     },
     {
-      "title": "Dollar edges higher as investors weigh Iran sanctions, Treasury buybacks",
-      "url": "https://finance.yahoo.com/news/dollar-struggles-traction-markets-weigh-013056238.html",
-      "published": "2026-08-25T09:18:51Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Investors shrug off US sanctions plan for Iran, bitcoin powers on",
-      "url": "https://finance.yahoo.com/markets/articles/asia-shares-fall-tech-nerves-012957160.html",
-      "published": "2026-08-25T09:16:30Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Prediction: This Stock Will Outperform the \"Magnificent Seven\" in the Second Half of 2026",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-stock-outperform-magnificent-seven-103500665.html",
-      "published": "2026-08-25T10:35:00Z",
+      "title": "How to Invest for an AI Boom, AI Bust, or...Both: These ETFs Can Help.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/invest-ai-boom-ai-bust-113000961.html",
+      "published": "2026-08-25T11:30:00Z",
       "source": "Motley Fool"
-    },
-    {
-      "title": "Bitcoin has just wiped out three months of losses in 1 week",
-      "url": "https://finance.yahoo.com/markets/crypto/article/bitcoin-has-just-wiped-out-three-months-of-losses-in-1-week-091208677.html",
-      "published": "2026-08-25T09:12:08Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "In US-Canada trade spat, Washington left out a key lever: Canadian oil",
-      "url": "https://finance.yahoo.com/energy/article/in-us-canada-trade-spat-washington-left-out-a-key-lever-canadian-oil-090000999.html",
-      "published": "2026-08-25T09:00:00Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/article/nvidias-valuation-looks-surprisingly-cheap-heading-into-earnings-could-it-be-an-issue-for-the-stock-191738544.html",
-      "published": "2026-08-24T19:17:38Z",
-      "source": "Yahoo Finance"
     },
     {
       "title": "Mortgage and refinance rates today, Monday, August 24, 2026: Purchase and refi rates prove shopping matters",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-24-2026-purchase-and-refi-rates-prove-shopping-matters-100000358.html",
       "published": "2026-08-24T10:00:00Z",
       "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Most Investors Overlook MSFT's AI Moat. I Think That's a Mistake.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/most-investors-overlook-msfts-ai-103500124.html",
-      "published": "2026-08-25T10:35:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Best CD rates today, Monday, August 24, 2026: Lock in up to 4.35% APY",
@@ -405,16 +387,34 @@
       "source": "Yahoo Personal Finance"
     },
     {
+      "title": "Quantum Flex Pack buys Fujifilm press in US",
+      "url": "https://finance.yahoo.com/technology/articles/quantum-flex-pack-buys-fujifilm-112910967.html",
+      "published": "2026-08-25T11:29:10Z",
+      "source": "Packaging Gateway"
+    },
+    {
       "title": "Gemini crypto exchange review 2026: Bank-grade security comes at a price",
       "url": "https://finance.yahoo.com/personal-finance/investing/review/gemini-crypto-review-130000290.html",
       "published": "2026-08-24T13:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Block Stock Is Up Just 3% This Past Year. Here's What to Know About This Executive's Latest Insider Transaction",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/block-stock-just-3-past-103422389.html",
-      "published": "2026-08-25T10:34:22Z",
-      "source": "Motley Fool"
+      "title": "Bitcoin and ethereum prices today, Monday, August 24, 2026: Prices rising, as investors look for more Fed clues this week",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-24-2026-prices-rising-as-investors-look-for-more-fed-clues-this-week-130538704.html",
+      "published": "2026-08-24T13:05:38Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Weekly survey of mortgage lenders with the lowest rates: Holding firm in the mid-6s",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-24-170834159.html",
+      "published": "2025-11-03T17:08:34Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "How to buy travel insurance (and when to skip it)",
+      "url": "https://finance.yahoo.com/news/how-to-buy-travel-insurance-202029737.html",
+      "published": "2026-08-24T20:20:29Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 1.7143318139647454
     }
   },
-  "updated_at": "2026-08-25T11:16:10.023798+00:00",
+  "updated_at": "2026-08-25T11:45:00.681868+00:00",
   "source": "yahoo_finance"
 }
