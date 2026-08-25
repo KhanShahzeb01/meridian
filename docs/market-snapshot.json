@@ -41,7 +41,7 @@
         7652.81982421875,
         7652.85986328125
       ],
-      "as_of": "2026-08-25 02:45 UTC",
+      "as_of": "2026-08-25 03:31 UTC",
       "source": "yahoo"
     },
     {
@@ -49,8 +49,8 @@
       "name": "NASDAQ",
       "symbol": "^IXIC",
       "price": 25980.191,
-      "change": -200.26400000000285,
-      "change_pct": -0.7649370494133996,
+      "change": -200.3090000000011,
+      "change_pct": -0.7651076182655071,
       "series": [
         26094.029296875,
         26052.4296875,
@@ -85,16 +85,16 @@
         25979.658203125,
         25980.19140625
       ],
-      "as_of": "2026-08-25 02:45 UTC",
+      "as_of": "2026-08-25 03:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53417.16,
-      "change": 140.1600000000035,
-      "change_pct": 0.2630778760065385,
+      "price": 53417.2,
+      "change": 140.1999999999971,
+      "change_pct": 0.26315295530903976,
       "series": [
         52907.2109375,
         52839.03125,
@@ -127,20 +127,19 @@
         53429.37109375,
         53436.5703125,
         53419.19140625,
-        53417.16015625
+        53417.19921875
       ],
-      "as_of": "2026-08-25 02:45 UTC",
+      "as_of": "2026-08-25 03:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4703.0,
-      "change": 5.199999999999818,
-      "change_pct": 0.1106901102643752,
+      "price": 4689.6,
+      "change": -8.199999999999818,
+      "change_pct": -0.17454978926305542,
       "series": [
-        4700.2998046875,
         4703.7001953125,
         4714.89990234375,
         4719.39990234375,
@@ -170,21 +169,21 @@
         4726.0,
         4714.5,
         4712.7998046875,
-        4700.39990234375,
-        4703.0
+        4685.5,
+        4690.2001953125,
+        4689.60009765625
       ],
-      "as_of": "2026-08-25 02:45 UTC",
+      "as_of": "2026-08-25 03:31 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 85.75,
-      "change": 0.7399999999999949,
-      "change_pct": 0.8704858251970297,
+      "price": 85.22,
+      "change": 0.20999999999999375,
+      "change_pct": 0.2470297612045568,
       "series": [
-        85.38999938964844,
         85.48999786376953,
         85.37999725341797,
         85.45999908447266,
@@ -214,10 +213,11 @@
         85.23999786376953,
         85.45999908447266,
         85.69999694824219,
-        85.7300033569336,
-        85.75
+        85.55999755859375,
+        85.19999694824219,
+        85.22000122070312
       ],
-      "as_of": "2026-08-25 02:45 UTC",
+      "as_of": "2026-08-25 03:31 UTC",
       "source": "yahoo"
     },
     {
@@ -261,51 +261,33 @@
         15.84000015258789,
         15.850000381469727
       ],
-      "as_of": "2026-08-25 02:45 UTC",
+      "as_of": "2026-08-25 03:31 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "3 Closed-End Funds to Maximize Dividend Payments",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-closed-end-funds-maximize-151500168.html",
-      "published": "2026-08-23T15:15:00Z",
+      "title": "VIG, VYM, and VYMI: Which Vanguard Dividend ETF Is Right for You?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vig-vym-vymi-vanguard-dividend-160500069.html",
+      "published": "2026-08-23T16:05:00Z",
       "source": "MarketBeat"
     },
     {
-      "title": "Rocket Mortgage pushes home equity loans to wipe out credit card debt \u2014 here's how that could backfire on homeowners",
-      "url": "https://finance.yahoo.com/real-estate/articles/rocket-mortgage-pushes-home-equity-150000372.html",
-      "published": "2026-08-23T15:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "NVIDIA, Cloverleaf Partnering to Advance Data Center Development",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-cloverleaf-partnering-advance-data-152523132.html",
-      "published": "2026-08-23T15:25:23Z",
-      "source": "POWER Magazine"
-    },
-    {
-      "title": "Luxury auto CEOs say there's a K-shaped economy even at the very top of the market",
-      "url": "https://finance.yahoo.com/markets/article/luxury-auto-ceos-say-theres-a-k-shaped-economy-even-at-the-very-top-of-the-market-145500874.html",
-      "published": "2026-08-23T14:55:00Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "SoundHound Is Making a Big AI Bet That Could Be a Margin Game Changer",
-      "url": "https://finance.yahoo.com/technology/ai/articles/soundhound-making-big-ai-bet-153002501.html",
-      "published": "2026-08-23T15:30:02Z",
+      "title": "Why Investing in IPOs Has Become a High-Stakes Coin Flip",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-investing-ipos-become-high-160002837.html",
+      "published": "2026-08-23T16:00:02Z",
       "source": "Barchart"
-    },
-    {
-      "title": "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-repeating-pattern-not-150500239.html",
-      "published": "2026-08-23T15:05:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Walmart Fell 9%. I\u2019m Not Sure This Is Just a Walmart Problem",
       "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-fell-9-m-not-153057565.html",
       "published": "2026-08-23T15:30:57Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "SoundHound Is Making a Big AI Bet That Could Be a Margin Game Changer",
+      "url": "https://finance.yahoo.com/technology/ai/articles/soundhound-making-big-ai-bet-153002501.html",
+      "published": "2026-08-23T15:30:02Z",
       "source": "Barchart"
     },
     {
@@ -315,22 +297,22 @@
       "source": "Moneywise"
     },
     {
-      "title": "Why Investing in IPOs Has Become a High-Stakes Coin Flip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-investing-ipos-become-high-160002837.html",
-      "published": "2026-08-23T16:00:02Z",
-      "source": "Barchart"
+      "title": "One of Exxon's Biggest Oil Fields Is Running Out of Room to Grow. Here's Why That's Not a Crisis.",
+      "url": "https://finance.yahoo.com/energy/articles/one-exxons-biggest-oil-fields-160500654.html",
+      "published": "2026-08-23T16:05:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "NVIDIA, Cloverleaf Partnering to Advance Data Center Development",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-cloverleaf-partnering-advance-data-152523132.html",
+      "published": "2026-08-23T15:25:23Z",
+      "source": "POWER Magazine"
     },
     {
       "title": "Rachel Cruze and George Kamel share the spending 'clues' that reveal if you're broke, average or wealthy",
       "url": "https://finance.yahoo.com/markets/articles/rachel-cruze-george-kamel-share-170000908.html",
       "published": "2026-08-23T17:00:00Z",
       "source": "Moneywise"
-    },
-    {
-      "title": "How to Build $6,600 a Month in Dividend Income From Three Income Buckets",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/build-6-600-month-dividend-150621364.html",
-      "published": "2026-08-23T15:06:21Z",
-      "source": "24/7 Wall St."
     },
     {
       "title": "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week",
@@ -345,6 +327,12 @@
       "source": "Barchart"
     },
     {
+      "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/donald-trump-sold-microstrategy-bought-160252807.html",
+      "published": "2026-08-23T16:02:52Z",
+      "source": "BeInCrypto"
+    },
+    {
       "title": "Private Equity Is Circling Utilities as AI Reshapes the Grid",
       "url": "https://finance.yahoo.com/energy/articles/private-equity-circling-utilities-ai-180000273.html",
       "published": "2026-08-23T18:00:00Z",
@@ -355,12 +343,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/play-mrvl-stock-now-marvell-183002715.html",
       "published": "2026-08-23T18:30:02Z",
       "source": "Barchart"
-    },
-    {
-      "title": "Jim Cramer holds back support for surging beverage stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-holds-back-support-151600261.html",
-      "published": "2026-08-23T15:16:00Z",
-      "source": "TheStreet"
     },
     {
       "title": "Ahead of Nvidia Earnings, Here's What Barchart Data Says Comes Next for NVDA Stock",
@@ -375,6 +357,12 @@
       "source": "Barchart"
     },
     {
+      "title": "Iconic bank stock pays Buffett's Berkshire $619M in annual dividends",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iconic-bank-stock-pays-buffetts-160300334.html",
+      "published": "2026-08-23T16:03:00Z",
+      "source": "TheStreet"
+    },
+    {
       "title": "AstraZeneca Made a $1.5 Billion Lung Cancer Bet, but Can Zegfrovy Strengthen its Oncology Growth?",
       "url": "https://finance.yahoo.com/healthcare/articles/astrazeneca-made-1-5-billion-193855181.html",
       "published": "2026-08-23T19:38:55Z",
@@ -385,12 +373,6 @@
       "url": "https://finance.yahoo.com/healthcare/articles/medtronic-vs-tenet-healthcare-healthcare-194303713.html",
       "published": "2026-08-23T19:43:03Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "3 Reasons Not to Claim Social Security at 67",
-      "url": "https://finance.yahoo.com/economy/policy/articles/3-reasons-not-claim-social-152200430.html",
-      "published": "2026-08-23T15:22:00Z",
-      "source": "Motley Fool"
     },
     {
       "title": "Zoetis Earnings Reveal a Divided Business, But Can its Pipeline Restore Growth?",
@@ -405,14 +387,32 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Two Dropbox Executives Sold After Their Shares Vested Last Week. The Future Sole CEO Wasn't One of Them",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-dropbox-executives-sold-shares-160536951.html",
+      "published": "2026-08-23T16:05:36Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Gilead\u2019s Revenue Is Accelerating, But are its Acquisitions Worth the Cost?",
       "url": "https://finance.yahoo.com/healthcare/articles/gilead-revenue-accelerating-acquisitions-worth-195747159.html",
       "published": "2026-08-23T19:57:47Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Mortgage and refinance rates today, Monday, August 24, 2026: Purchase and refi rates prove shopping matters",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-august-24-2026-purchase-and-refi-rates-prove-shopping-matters-100000358.html",
+      "title": "Pemex and Petrobras Bet Big on High-Risk High-Reward Drilling Off Mexico",
+      "url": "https://finance.yahoo.com/energy/articles/pemex-petrobras-bet-big-high-210000211.html",
+      "published": "2026-08-23T21:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Best high-yield savings interest rates today, Monday, August 24, 2026: Earn up to 4.15% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-24-2026-earn-up-to-415-apy-100000361.html",
+      "published": "2026-08-24T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "HELOC and home equity loan rates today, Monday, August 24, 2026: A 19-basis-point differential",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-august-24-2026-a-19-basis-point-differential-100000242.html",
       "published": "2026-08-24T10:00:00Z",
       "source": "Yahoo Personal Finance"
     }
@@ -504,6 +504,6 @@
       "change_pct": 1.7143318139647454
     }
   },
-  "updated_at": "2026-08-25T02:45:33.526147+00:00",
+  "updated_at": "2026-08-25T03:31:59.472128+00:00",
   "source": "yahoo_finance"
 }
