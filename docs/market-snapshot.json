@@ -41,7 +41,7 @@
         7675.72998046875,
         7677.27978515625
       ],
-      "as_of": "2026-08-26 04:05 UTC",
+      "as_of": "2026-08-26 04:50 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26145.466796875,
         26151.298828125
       ],
-      "as_of": "2026-08-26 04:05 UTC",
+      "as_of": "2026-08-26 04:50 UTC",
       "source": "yahoo"
     },
     {
@@ -129,19 +129,17 @@
         53572.91015625,
         53577.3984375
       ],
-      "as_of": "2026-08-26 04:05 UTC",
+      "as_of": "2026-08-26 04:50 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4701.2,
-      "change": 6.699999999999818,
-      "change_pct": 0.14272020449461748,
+      "price": 4697.0,
+      "change": 2.5,
+      "change_pct": 0.053253807647246784,
       "series": [
-        4698.39990234375,
-        4692.7998046875,
         4695.7001953125,
         4665.0,
         4671.7998046875,
@@ -171,21 +169,21 @@
         4716.2998046875,
         4707.2998046875,
         4705.10009765625,
-        4701.2001953125
+        4699.2001953125,
+        4697.0,
+        4697.0
       ],
-      "as_of": "2026-08-26 04:05 UTC",
+      "as_of": "2026-08-26 04:50 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 80.27,
-      "change": -2.0900000000000034,
-      "change_pct": -2.537639630888785,
+      "price": 80.32,
+      "change": -2.0400000000000063,
+      "change_pct": -2.4769305488101097,
       "series": [
-        82.44999694824219,
-        82.5,
         81.94999694824219,
         82.33999633789062,
         82.19999694824219,
@@ -215,9 +213,11 @@
         80.52999877929688,
         80.3499984741211,
         80.33999633789062,
-        80.2699966430664
+        80.31999969482422,
+        80.31999969482422,
+        80.31999969482422
       ],
-      "as_of": "2026-08-26 04:05 UTC",
+      "as_of": "2026-08-26 04:50 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.449999809265137,
         15.449999809265137
       ],
-      "as_of": "2026-08-26 04:05 UTC",
+      "as_of": "2026-08-26 04:50 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,70 +273,10 @@
       "source": "TheStreet"
     },
     {
-      "title": "Do Wall Street Analysts Like The Trade Desk Stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-trade-desk-160841144.html",
-      "published": "2026-08-24T16:08:41Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Analysts Fall Over Themselves With Bullish Ratings On IBD Stock Of The Day",
-      "url": "https://www.investors.com/research/ibd-stock-of-the-day/jersey-mikes-jmke-stock-of-the-day/?src=A00220&yptr=yahoo",
-      "published": "2026-08-24T16:03:22Z",
+      "title": "Gas Price Watch: Bessent Details New 'Economic Onslaught' Against Iran",
+      "url": "https://www.investors.com/news/gas-price-watch-bessent-economic-d-day-on-iran/?src=A00220&yptr=yahoo",
+      "published": "2026-08-24T16:57:40Z",
       "source": "Investor's Business Daily"
-    },
-    {
-      "title": "I Dug Into Michael Burry\u2019s Nvidia Post So You Don\u2019t Have To. Here\u2019s Why I Think He\u2019s Just Fishing.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dug-michael-burry-nvidia-post-160235766.html",
-      "published": "2026-08-24T16:02:35Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Delta CEO Ed Bastian says AI could boost profits by 50% as airline tests AI-set fares on 3% of tickets",
-      "url": "https://finance.yahoo.com/technology/ai/articles/delta-ceo-ed-bastian-says-160000381.html",
-      "published": "2026-08-24T16:00:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Stellantis Gets Squeezed at the Border",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-gets-squeezed-border-155837261.html",
-      "published": "2026-08-24T15:58:37Z",
-      "source": "Moby"
-    },
-    {
-      "title": "President Trump\u2019s Portfolio Added 2 Stocks Bill Gates and Bill Ackman Also Own",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/president-trump-portfolio-added-2-162941904.html",
-      "published": "2026-08-24T16:29:41Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Blue-Chip Visa Stock Just Hit a New All-Time High",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/blue-chip-visa-stock-just-163502197.html",
-      "published": "2026-08-24T16:35:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Elon Musk\u2019s Social Security reset is coming even after DOGE\u2019s death \u2014 protect your check whether you like him or not",
-      "url": "https://finance.yahoo.com/economy/policy/articles/elon-musk-social-security-reset-163919950.html",
-      "published": "2026-08-24T16:39:19Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Strategy raises $2B last week through common stock sale",
-      "url": "https://finance.yahoo.com/video/strategy-raises-2b-last-week-161557820.html",
-      "published": "2026-08-24T16:15:57Z",
-      "source": "CoinDesk"
-    },
-    {
-      "title": "Napco Security Technologies, Inc. Q4 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/napco-security-technologies-inc-q4-165248914.html",
-      "published": "2026-08-24T16:52:48Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Gogoro Inc. Q2 2026 Earnings Call Summary",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gogoro-inc-q2-2026-earnings-165307094.html",
-      "published": "2026-08-24T16:53:07Z",
-      "source": "Moby"
     },
     {
       "title": "TGTX Stock Outperforms 95% of Stocks. Here's Why.",
@@ -345,16 +285,22 @@
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Gas Price Watch: Bessent Details New 'Economic Onslaught' Against Iran",
-      "url": "https://www.investors.com/news/gas-price-watch-bessent-economic-d-day-on-iran/?src=A00220&yptr=yahoo",
-      "published": "2026-08-24T16:57:40Z",
-      "source": "Investor's Business Daily"
+      "title": "Gogoro Inc. Q2 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gogoro-inc-q2-2026-earnings-165307094.html",
+      "published": "2026-08-24T16:53:07Z",
+      "source": "Moby"
     },
     {
-      "title": "The \u2018Magic Number\u2019 to Retire Jumped to $1.46 Million This Year. The Average 60-Year-Old Has $246,500. Here\u2019s What Closes a Gap That Size.",
-      "url": "https://finance.yahoo.com/markets/articles/magic-number-retire-jumped-1-161557009.html",
-      "published": "2026-08-24T16:15:57Z",
-      "source": "24/7 Wall St."
+      "title": "Napco Security Technologies, Inc. Q4 2026 Earnings Call Summary",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/napco-security-technologies-inc-q4-165248914.html",
+      "published": "2026-08-24T16:52:48Z",
+      "source": "Moby"
+    },
+    {
+      "title": "UnitedHealth Stock's Biggest Risk Sits In The Commercial Book",
+      "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-stocks-biggest-risk-sits-170428828.html",
+      "published": "2026-08-24T17:04:28Z",
+      "source": "Trefis"
     },
     {
       "title": "Apple Just Leaked Its AI Future. Investors Have More Reasons to Worry.",
@@ -375,26 +321,26 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Soybeans Falling Lower on Monday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-falling-lower-monday-172115632.html",
-      "published": "2026-08-24T17:21:15Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Anthropic Wants to Beat SpaceX\u2019s IPO, and It Could Reprice Every AI Stock You Own",
-      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-wants-beat-spacex-ipo-162023624.html",
-      "published": "2026-08-24T16:20:23Z",
-      "source": "24/7 Wall St."
-    },
-    {
       "title": "Corn Holding onto Double Digit Gains at Midday",
       "url": "https://finance.yahoo.com/markets/commodities/articles/corn-holding-onto-double-digit-172115969.html",
       "published": "2026-08-24T17:21:15Z",
       "source": "Barchart"
     },
     {
+      "title": "NAPCO Security Technologies Q4 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/napco-security-technologies-q4-earnings-170211854.html",
+      "published": "2026-08-24T17:02:11Z",
+      "source": "MarketBeat"
+    },
+    {
       "title": "Cotton Posting Midday Gains on Monday",
       "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-posting-midday-gains-monday-172115951.html",
+      "published": "2026-08-24T17:21:15Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Soybeans Falling Lower on Monday",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-falling-lower-monday-172115632.html",
       "published": "2026-08-24T17:21:15Z",
       "source": "Barchart"
     },
@@ -411,10 +357,64 @@
       "source": "Barchart"
     },
     {
-      "title": "Nvidia's Longest Losing Streak Since 2022 Is Dragging on the Nasdaq",
-      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-082426/card/nvidia-s-longest-losing-streak-since-2022-is-dragging-on-the-nasdaq-wJJV3v12ZwNYxj4N9nz1?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-24T16:20:25Z",
-      "source": "Barrons.com"
+      "title": "Your Business Looks Strong on Paper. Cash Flow May Tell a Different Story. Here\u2019s Why That Gap Matters More Than Ever.",
+      "url": "https://finance.yahoo.com/small-business/articles/business-looks-strong-paper-cash-170000126.html",
+      "published": "2026-08-24T17:00:00Z",
+      "source": "Entrepreneur"
+    },
+    {
+      "title": "Bitcoin Surges On Treasury Game-Changer; Strategy Raises $2 Bil",
+      "url": "https://www.investors.com/news/bitcoin-price-bessent-treasury-general-account-strategy/?src=A00220&yptr=yahoo",
+      "published": "2026-08-24T17:39:21Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Berkshire Hathaway (BRK-B)\u2019s Cash Pile Just Shrank for the First Time in Years. Is Greg Abel Finally Spending?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-b-cash-173952752.html",
+      "published": "2026-08-24T17:39:52Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "IBM Just Hit a New Quantum Computing Milestone. How to Play IBM Stock Now.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-just-hit-quantum-computing-174126563.html",
+      "published": "2026-08-24T17:41:26Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Nebius Group (NBIS) Just Posted 514% Revenue Growth. Can CoreWeave (CRWV)\u2019s Numbers Compete?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-group-nbis-just-posted-174505539.html",
+      "published": "2026-08-24T17:45:05Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Nvidia Isn\u2019t the Only Way to Win the AI Chip Race",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-isn-t-only-way-170051207.html",
+      "published": "2026-08-24T17:00:51Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "As U.S. Debt Tops $40 Trillion, This Trade Bets On Further Weakness In The Bond Market",
+      "url": "https://www.investors.com/research/options/bond-market-weakness-yields-treasury-etf-tlt-40-trillion-options-trade-income-investing-markets/?src=A00220&yptr=yahoo",
+      "published": "2026-08-24T17:46:34Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "This Analyst Just Upped Its Price Target on Palo Alto Networks Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-just-upped-price-target-175916623.html",
+      "published": "2026-08-24T17:59:16Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "What credit score is needed to refinance your mortgage?",
+      "url": "https://finance.yahoo.com/news/credit-score-refinance-mortgage-223510184.html",
+      "published": "2026-08-24T17:59:37Z",
+      "source": "Bankrate"
+    },
+    {
+      "title": "Dear Semtech Stock Fans, Mark Your Calendars for August 25",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-semtech-stock-fans-mark-180035994.html",
+      "published": "2026-08-24T18:00:35Z",
+      "source": "Barchart"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.0
     }
   },
-  "updated_at": "2026-08-26T04:05:59.043852+00:00",
+  "updated_at": "2026-08-26T04:50:51.758278+00:00",
   "source": "yahoo_finance"
 }
