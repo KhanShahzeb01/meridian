@@ -41,7 +41,7 @@
         7675.72998046875,
         7677.27978515625
       ],
-      "as_of": "2026-08-26 11:45 UTC",
+      "as_of": "2026-08-26 12:04 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26145.466796875,
         26151.298828125
       ],
-      "as_of": "2026-08-26 11:45 UTC",
+      "as_of": "2026-08-26 12:04 UTC",
       "source": "yahoo"
     },
     {
@@ -129,16 +129,16 @@
         53572.91015625,
         53577.3984375
       ],
-      "as_of": "2026-08-26 11:45 UTC",
+      "as_of": "2026-08-26 12:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4675.1,
-      "change": -19.399999999999636,
-      "change_pct": -0.4132495473426272,
+      "price": 4674.3,
+      "change": -20.199999999999818,
+      "change_pct": -0.4302907657897501,
       "series": [
         4723.39990234375,
         4719.5,
@@ -171,18 +171,18 @@
         4675.89990234375,
         4676.0,
         4675.0,
-        4675.10009765625
+        4674.2998046875
       ],
-      "as_of": "2026-08-26 11:45 UTC",
+      "as_of": "2026-08-26 12:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 80.31,
-      "change": -2.049999999999997,
-      "change_pct": -2.4890723652258346,
+      "price": 80.54,
+      "change": -1.8199999999999932,
+      "change_pct": -2.2098105876639065,
       "series": [
         81.12999725341797,
         80.69000244140625,
@@ -214,21 +214,20 @@
         80.1500015258789,
         80.2300033569336,
         80.19999694824219,
-        80.30000305175781,
-        80.30999755859375
+        80.54000091552734,
+        80.54000091552734
       ],
-      "as_of": "2026-08-26 11:45 UTC",
+      "as_of": "2026-08-26 12:04 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.64,
-      "change": 0.19000000000000128,
-      "change_pct": 1.2297734627831798,
+      "price": 15.71,
+      "change": 0.26000000000000156,
+      "change_pct": 1.6828478964401397,
       "series": [
-        15.829999923706055,
         15.850000381469727,
         15.8100004196167,
         15.789999961853027,
@@ -259,9 +258,10 @@
         15.720000267028809,
         15.670000076293945,
         15.640000343322754,
-        15.640000343322754
+        15.710000038146973,
+        15.710000038146973
       ],
-      "as_of": "2026-08-26 11:45 UTC",
+      "as_of": "2026-08-26 12:04 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,6 +271,42 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/louis-navellier-blunt-message-nvidia-214700439.html",
       "published": "2026-08-25T21:47:00Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "Are you 50 years old with very little savings? Here\u2019s a shockingly simple 3-step plan to retire by 58",
+      "url": "https://finance.yahoo.com/markets/articles/50-years-old-very-little-114500079.html",
+      "published": "2026-08-26T11:45:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Dow Jones Futures: Inflation Data, Nvidia Earnings Due; Robinhood In Buy Area",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-inflation-data-nvidia-earning-srobinhood-oil-prices-yields/?src=A00220&yptr=yahoo",
+      "published": "2026-08-26T11:44:30Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Dick's Sporting Goods' stock crash reveals a major problem for struggling Nike",
+      "url": "https://finance.yahoo.com/markets/stocks/article/dicks-sporting-goods-stock-crash-reveals-a-major-problem-for-struggling-nike-114409937.html",
+      "published": "2026-08-26T11:44:09Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Dollar nudges higher ahead of US inflation data; Aussie gains on rate bets",
+      "url": "https://finance.yahoo.com/news/dollar-moves-narrow-range-ahead-015118187.html",
+      "published": "2026-08-26T11:42:07Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Why Is Intuit Stock Tumbling After a Strong Quarter?",
+      "url": "https://www.barrons.com/articles/intuit-earnings-stock-price-9d6dab85?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-08-26T11:49:00Z",
+      "source": "Barrons.com"
+    },
+    {
+      "title": "As Cook case smolders, Trump has other paths to shape Fed policy team",
+      "url": "https://finance.yahoo.com/economy/policy/articles/as-cook-case-smolders-trump-has-other-paths-to-shape-fed-policy-team-100943841.html",
+      "published": "2026-08-26T11:38:52Z",
+      "source": "Reuters"
     },
     {
       "title": "Zoom Stock Retreats As Q2 Earnings, Guidance Underwhelm Amid Consumer Slowdown",
@@ -291,16 +327,16 @@
       "source": "Moneywise"
     },
     {
+      "title": "Edmond de Rothschild names new global CIO and equities co-head",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/edmond-rothschild-names-global-cio-114524081.html",
+      "published": "2026-08-26T11:45:24Z",
+      "source": "Private Banker International"
+    },
+    {
       "title": "Retire while Trump is president if you can answer \u2018yes\u2019 to these 5 questions \u2014 you're closer to freedom than you think",
       "url": "https://finance.yahoo.com/economy/policy/articles/retire-while-trump-president-answer-112500157.html",
       "published": "2026-08-26T11:25:00Z",
       "source": "Moneywise"
-    },
-    {
-      "title": "NatWest revives US expansion plans after UK ringfencing rule changes \u2013 report",
-      "url": "https://finance.yahoo.com/economy/policy/articles/natwest-revives-us-expansion-plans-114043489.html",
-      "published": "2026-08-26T11:40:43Z",
-      "source": "Retail Banker International"
     },
     {
       "title": "More millennials are breaking their way into the 401(k) millionaire club than ever. How you can steal their strategy",
@@ -321,28 +357,22 @@
       "source": "Pitchbook"
     },
     {
+      "title": "The 30-Year U.S. Treasury Bond Now Has a Higher Yield Than Ford and Coca-Cola. Is It Now the Best Asset for Passive Income?",
+      "url": "https://finance.yahoo.com/markets/options/articles/30-u-treasury-bond-now-114500933.html",
+      "published": "2026-08-26T11:45:00Z",
+      "source": "Motley Fool"
+    },
+    {
       "title": "Morning Bid: Falling oil calms nervy markets",
       "url": "https://finance.yahoo.com/markets/articles/morning-bid-falling-oil-calms-103319409.html",
       "published": "2026-08-26T10:33:19Z",
       "source": "Reuters"
     },
     {
-      "title": "Metsera backers establish new biotech armed with China-licensed immunology asset",
-      "url": "https://finance.yahoo.com/healthcare/articles/metsera-backers-establish-biotech-armed-114018691.html",
-      "published": "2026-08-26T11:40:18Z",
-      "source": "Pharmaceutical Technology"
-    },
-    {
       "title": "Nearly $4.9T sits in target-date funds \u2014 Suze Orman warns you may be \u2018far better off\u2019 on your own. Diversify your mix",
       "url": "https://finance.yahoo.com/markets/articles/nearly-4-9t-sits-target-101500674.html",
       "published": "2026-08-26T10:15:00Z",
       "source": "Moneywise"
-    },
-    {
-      "title": "As Cook case smolders, Trump has other paths to shape Fed policy team",
-      "url": "https://finance.yahoo.com/economy/policy/articles/cook-case-smolders-trump-other-100347841.html",
-      "published": "2026-08-26T10:09:43Z",
-      "source": "Reuters"
     },
     {
       "title": "Best high-yield savings interest rates today, Wednesday, August 26, 2026: Earn up to 4.15% APY",
@@ -357,16 +387,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "If Donald Trump's Trade War Triggers a Stock Market Crash, History Says This Is the First Thing Investors Should Do",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/donald-trumps-trade-war-triggers-113500890.html",
-      "published": "2026-08-26T11:35:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Investigation into Dodgers owner is a reminder that 'zombie insurers' walk among us \u2014 critics warn 'they will blow up'",
-      "url": "https://finance.yahoo.com/economy/policy/articles/investigation-dodgers-owner-reminder-zombie-100000986.html",
-      "published": "2026-08-26T10:00:00Z",
-      "source": "Moneywise"
+      "title": "Electrifying offshore: what is slowing rig electrification?",
+      "url": "https://finance.yahoo.com/energy/articles/electrifying-offshore-slowing-rig-electrification-114454449.html",
+      "published": "2026-08-26T11:44:54Z",
+      "source": "Offshore Technology"
     },
     {
       "title": "Best CD rates today, Wednesday, August 26, 2026: Earn up to 4.30% APY",
@@ -381,18 +405,6 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Nvidia earnings could reveal its fastest-growing business isn't chips: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/nvidia-earnings-could-reveal-its-fastest-growing-business-isnt-chips-chart-of-the-day-100000332.html",
-      "published": "2026-08-26T10:00:00Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "He Was Paid $40,000 to Store Carbon in His Soil. Would Social Security Treat Regenerative Ag Payment as Work?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/paid-40-000-store-carbon-113014718.html",
-      "published": "2026-08-26T11:30:14Z",
-      "source": "24/7 Wall St."
-    },
-    {
       "title": "Weekly survey of mortgage lenders with the lowest rates: Holding firm in the mid-6s",
       "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-24-170834159.html",
       "published": "2025-11-03T17:08:34Z",
@@ -402,18 +414,6 @@
       "title": "Best CD rates today, Tuesday, August 25, 2026: Lock in up to 4.30% APY today with multiple offers",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-tuesday-august-25-2026-lock-in-up-to-430-apy-today-with-multiple-offers-100000257.html",
       "published": "2026-08-25T10:00:00Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Gold prices today, Tuesday, August 25, 2026: Gold hits 3-month high this morning",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-25-2026-gold-hits-3-month-high-this-morning-120736963.html",
-      "published": "2026-08-25T12:07:36Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Silver prices today, Tuesday, August 25, 2026: Silver prices pull back slightly, but remain over $68",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-tuesday-august-25-2026-silver-prices-pull-back-slightly-but-remain-over-68-121558361.html",
-      "published": "2026-08-25T12:15:58Z",
       "source": "Yahoo Personal Finance"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.0
     }
   },
-  "updated_at": "2026-08-26T11:45:56.724441+00:00",
+  "updated_at": "2026-08-26T12:04:17.131631+00:00",
   "source": "yahoo_finance"
 }
