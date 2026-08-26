@@ -41,7 +41,7 @@
         7675.72998046875,
         7677.27978515625
       ],
-      "as_of": "2026-08-26 05:22 UTC",
+      "as_of": "2026-08-26 05:56 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26145.466796875,
         26151.298828125
       ],
-      "as_of": "2026-08-26 05:22 UTC",
+      "as_of": "2026-08-26 05:56 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53572.91015625,
         53577.3984375
       ],
-      "as_of": "2026-08-26 05:22 UTC",
+      "as_of": "2026-08-26 05:56 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4699.8,
-      "change": 5.300000000000182,
-      "change_pct": 0.11289807221216705,
+      "price": 4693.2,
+      "change": -1.300000000000182,
+      "change_pct": -0.0276919799765722,
       "series": [
-        4665.0,
         4671.7998046875,
         4679.7998046875,
         4691.60009765625,
@@ -170,21 +169,21 @@
         4705.10009765625,
         4699.2001953125,
         4697.60009765625,
-        4699.60009765625,
-        4699.7998046875
+        4700.2001953125,
+        4693.2001953125,
+        4693.2001953125
       ],
-      "as_of": "2026-08-26 05:22 UTC",
+      "as_of": "2026-08-26 05:56 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 80.56,
-      "change": -1.7999999999999972,
-      "change_pct": -2.1855269548324396,
+      "price": 80.91,
+      "change": -1.4500000000000028,
+      "change_pct": -1.7605633802816938,
       "series": [
-        82.33999633789062,
         82.19999694824219,
         82.4000015258789,
         82.43000030517578,
@@ -214,10 +213,11 @@
         80.33999633789062,
         80.31999969482422,
         80.61000061035156,
-        80.56999969482422,
-        80.55999755859375
+        80.76000213623047,
+        80.87999725341797,
+        80.91000366210938
       ],
-      "as_of": "2026-08-26 05:22 UTC",
+      "as_of": "2026-08-26 05:56 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.449999809265137,
         15.449999809265137
       ],
-      "as_of": "2026-08-26 05:22 UTC",
+      "as_of": "2026-08-26 05:56 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,94 +273,70 @@
       "source": "TheStreet"
     },
     {
-      "title": "Trump bought shares in Elon Musk's SpaceX in June, financial disclosure shows",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bought-shares-elon-musks-171836919.html",
-      "published": "2026-08-24T17:24:35Z",
-      "source": "Reuters"
+      "title": "Behind the Ticker: KMEM Bets on Memory Chip Bottlenecks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/behind-ticker-kmem-bets-memory-180513510.html",
+      "published": "2026-08-24T18:05:13Z",
+      "source": "etf.com"
     },
     {
-      "title": "AI Infrastructure Stocks Surge: How Long Can CoreWeave (CRWV) and Super Micro Computer (SMCI) Keep It Up?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-infrastructure-stocks-surge-long-172411864.html",
-      "published": "2026-08-24T17:24:11Z",
-      "source": "Insider Monkey"
+      "title": "Wall Street is rotating out of 2026's biggest winners: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/wall-street-is-rotating-out-of-2026s-biggest-winners-chart-of-the-day-180639239.html",
+      "published": "2026-08-24T18:06:39Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Corn Holding onto Double Digit Gains at Midday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-holding-onto-double-digit-172115969.html",
-      "published": "2026-08-24T17:21:15Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Soybeans Falling Lower on Monday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-falling-lower-monday-172115632.html",
-      "published": "2026-08-24T17:21:15Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Canada\u2019s Big Banks Expected to Log Another Strong Quarter While Valuations Stretched",
-      "url": "https://www.wsj.com/finance/banking/canadas-big-banks-expected-to-log-another-strong-quarter-while-valuations-stretched-0eaa08bc?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-24T17:27:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "Cotton Posting Midday Gains on Monday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-posting-midday-gains-monday-172115951.html",
-      "published": "2026-08-24T17:21:15Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "General Motors Company (GM) Spends $4.5B on Chips: Is Ford Motor Company (F) Betting Bigger on America?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/general-motors-company-gm-spends-172052073.html",
-      "published": "2026-08-24T17:20:52Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Huge, Unusual Put and Call Option Volume in Intel  - Investors Bullish as INTC Drops",
-      "url": "https://finance.yahoo.com/markets/options/articles/huge-unusual-put-call-option-173002435.html",
-      "published": "2026-08-24T17:30:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Bitcoin Surges On Treasury Game-Changer; Strategy Raises $2 Bil",
-      "url": "https://www.investors.com/news/bitcoin-price-bessent-treasury-general-account-strategy/?src=A00220&yptr=yahoo",
-      "published": "2026-08-24T17:39:21Z",
+      "title": "Teradyne, Lumentum Back On Analysts' Earnings Radar, With Two More Stocks On Watch",
+      "url": "https://www.investors.com/research/teradyne-ter-stock/?src=A00220&yptr=yahoo",
+      "published": "2026-08-24T18:03:50Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "A 21 Year Old Called Dave Ramsey\u2019s Show Owing $184,000 on Three Cars He Never Drove",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/21-old-called-dave-ramsey-172341146.html",
-      "published": "2026-08-24T17:23:41Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Berkshire Hathaway (BRK-B)\u2019s Cash Pile Just Shrank for the First Time in Years. Is Greg Abel Finally Spending?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-b-cash-173952752.html",
-      "published": "2026-08-24T17:39:52Z",
+      "title": "This Generator Stock Has Been Crushed. But Data Center Orders Just Became a $1 Billion Growth Story",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/generator-stock-crushed-data-center-180716353.html",
+      "published": "2026-08-24T18:07:16Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "IBM Just Hit a New Quantum Computing Milestone. How to Play IBM Stock Now.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-just-hit-quantum-computing-174126563.html",
-      "published": "2026-08-24T17:41:26Z",
+      "title": "Visa Just Put Hims & Hers in the Penalty Box\u2014Here\u2019s Why It Matters",
+      "url": "https://finance.yahoo.com/healthcare/articles/visa-just-put-hims-hers-180500136.html",
+      "published": "2026-08-24T18:05:00Z",
+      "source": "MarketBeat"
+    },
+    {
+      "title": "QQQ is Still in a Negative Gamma Regime. Here\u2019s How a \u2018Put Wall\u2019 and Fibonacci Support Could Come Into Play.",
+      "url": "https://finance.yahoo.com/markets/options/articles/qqq-still-negative-gamma-regime-180827277.html",
+      "published": "2026-08-24T18:08:27Z",
       "source": "Barchart"
     },
     {
-      "title": "Nebius Group (NBIS) Just Posted 514% Revenue Growth. Can CoreWeave (CRWV)\u2019s Numbers Compete?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-group-nbis-just-posted-174505539.html",
-      "published": "2026-08-24T17:45:05Z",
+      "title": "India Is Finally Getting Its First Tokenized Corporate Bond",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/india-finally-getting-first-tokenized-180221515.html",
+      "published": "2026-08-24T18:02:21Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Coherent (COHR) & Lumentum Holdings (LITE): Two AI Optics Suppliers Just Beat Earnings. Why Did Investors Punish One of Them?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-lumentum-holdings-lite-180139462.html",
+      "published": "2026-08-24T18:01:39Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "As U.S. Debt Tops $40 Trillion, This Trade Bets On Further Weakness In The Bond Market",
-      "url": "https://www.investors.com/research/options/bond-market-weakness-yields-treasury-etf-tlt-40-trillion-options-trade-income-investing-markets/?src=A00220&yptr=yahoo",
-      "published": "2026-08-24T17:46:34Z",
-      "source": "Investor's Business Daily"
+      "title": "Super Micro Computer (SMCI)\u2019s Guidance Just Crushed Estimates. Can it Outrun its Legal Troubles?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-guidance-180916677.html",
+      "published": "2026-08-24T18:09:16Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "These Cash-Like ETFs Promise Big Tax Savings, but Not Without Risk",
-      "url": "https://www.barrons.com/articles/boxx-cash-etfs-investing-tax-savings-5055e2c9?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-08-24T17:23:00Z",
-      "source": "Barrons.com"
+      "title": "JPMorgan sends stark warning on AI stocks, cites dotcom worries",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-sends-stark-warning-ai-180300307.html",
+      "published": "2026-08-24T18:03:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Dear Semtech Stock Fans, Mark Your Calendars for August 25",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-semtech-stock-fans-mark-180035994.html",
+      "published": "2026-08-24T18:00:35Z",
+      "source": "Barchart"
     },
     {
       "title": "What credit score is needed to refinance your mortgage?",
@@ -375,46 +351,70 @@
       "source": "Barchart"
     },
     {
-      "title": "Dear Semtech Stock Fans, Mark Your Calendars for August 25",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-semtech-stock-fans-mark-180035994.html",
-      "published": "2026-08-24T18:00:35Z",
+      "title": "SK hynix Could Close Its Valuation Gap Soon, Says Wedbush. That\u2019s Good News for SKHY Stock.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-could-close-valuation-181324060.html",
+      "published": "2026-08-24T18:13:24Z",
       "source": "Barchart"
     },
     {
-      "title": "Coherent (COHR) & Lumentum Holdings (LITE): Two AI Optics Suppliers Just Beat Earnings. Why Did Investors Punish One of Them?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-lumentum-holdings-lite-180139462.html",
-      "published": "2026-08-24T18:01:39Z",
+      "title": "A Two-Year Market Run Let Them Retire at 62. Claiming Social Security to Protect the Gains Could Cost Them for Life.",
+      "url": "https://finance.yahoo.com/markets/articles/two-market-run-let-them-180319610.html",
+      "published": "2026-08-24T18:03:19Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Nvidia Signed a $1.5 Billion Deal With This Chip Stock. Then the Stock Crashed 25%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-signed-1-5-billion-181658818.html",
+      "published": "2026-08-24T18:16:58Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Broadcom Credit Risk Soars on Mega AI Debt Financing Backstops",
-      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-credit-risk-soars-mega-172116287.html",
-      "published": "2026-08-24T17:21:16Z",
-      "source": "Bloomberg"
+      "title": "George Soros Quietly Raised His Taiwan Semi Stake by 1,000%. Here\u2019s Why You Should Be Buying Too.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/george-soros-quietly-raised-taiwan-181623276.html",
+      "published": "2026-08-24T18:16:23Z",
+      "source": "Barchart"
     },
     {
-      "title": "India Is Finally Getting Its First Tokenized Corporate Bond",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/india-finally-getting-first-tokenized-180221515.html",
-      "published": "2026-08-24T18:02:21Z",
-      "source": "Moby"
+      "title": "STLD Stock Leads U.S. Steel Stocks Higher Amid Escalating Trade War With Canada",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stld-stock-leads-u-steel-182243180.html",
+      "published": "2026-08-24T18:22:43Z",
+      "source": "Barchart"
     },
     {
-      "title": "Teradyne, Lumentum Back On Analysts' Earnings Radar, With Two More Stocks On Watch",
-      "url": "https://www.investors.com/research/teradyne-ter-stock/?src=A00220&yptr=yahoo",
-      "published": "2026-08-24T18:03:50Z",
-      "source": "Investor's Business Daily"
+      "title": "Steve Cohen\u2019s Point72 Boosted Its Stake 467% in This Boring Cable Stock in Q2. Its AI Orders Are Starting to Take Off",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/steve-cohen-point72-boosted-stake-182445689.html",
+      "published": "2026-08-24T18:24:45Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Behind the Ticker: KMEM Bets on Memory Chip Bottlenecks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/behind-ticker-kmem-bets-memory-180513510.html",
-      "published": "2026-08-24T18:05:13Z",
-      "source": "etf.com"
+      "title": "Forum Markets Eyes AI Compute Growth as Aircraft Engines Drive Cash Flow",
+      "url": "https://finance.yahoo.com/technology/ai/articles/forum-markets-eyes-ai-compute-180208647.html",
+      "published": "2026-08-24T18:02:08Z",
+      "source": "MarketBeat"
     },
     {
-      "title": "Wall Street is rotating out of 2026's biggest winners: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/wall-street-is-rotating-out-of-2026s-biggest-winners-chart-of-the-day-180639239.html",
-      "published": "2026-08-24T18:06:39Z",
-      "source": "Yahoo Finance"
+      "title": "Weekly survey of mortgage lenders with the lowest rates: Holding firm in the mid-6s",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-24-170834159.html",
+      "published": "2025-11-03T17:08:34Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Uber Freight: US-Mexico capacity crunch could \u2018get worse before it gets better\u2019",
+      "url": "https://finance.yahoo.com/economy/policy/articles/uber-freight-us-mexico-capacity-182632148.html",
+      "published": "2026-08-24T18:26:32Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Sandisk Sinks 37%, but Wall Street Still Backs SNDK Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sinks-37-wall-street-182706194.html",
+      "published": "2026-08-24T18:27:06Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Is the Weight-Loss Drug Market Really a Winner-Take-All Fight Between Novo Nordisk (NVO) and Eli Lilly (LLY)?",
+      "url": "https://finance.yahoo.com/healthcare/articles/weight-loss-drug-market-really-182927810.html",
+      "published": "2026-08-24T18:29:27Z",
+      "source": "Insider Monkey"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.0
     }
   },
-  "updated_at": "2026-08-26T05:22:38.342470+00:00",
+  "updated_at": "2026-08-26T05:56:01.786037+00:00",
   "source": "yahoo_finance"
 }
