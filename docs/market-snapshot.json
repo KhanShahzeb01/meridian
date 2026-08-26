@@ -41,7 +41,7 @@
         7675.72998046875,
         7677.27978515625
       ],
-      "as_of": "2026-08-26 08:57 UTC",
+      "as_of": "2026-08-26 09:34 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26145.466796875,
         26151.298828125
       ],
-      "as_of": "2026-08-26 08:57 UTC",
+      "as_of": "2026-08-26 09:34 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53572.91015625,
         53577.3984375
       ],
-      "as_of": "2026-08-26 08:57 UTC",
+      "as_of": "2026-08-26 09:34 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4683.8,
-      "change": -10.699999999999818,
-      "change_pct": -0.2279262967302123,
+      "price": 4674.5,
+      "change": -20.0,
+      "change_pct": -0.4260304611779743,
       "series": [
-        4700.7998046875,
         4694.2001953125,
         4705.7998046875,
         4707.10009765625,
@@ -170,21 +169,21 @@
         4687.7001953125,
         4685.2001953125,
         4684.89990234375,
-        4682.89990234375,
-        4683.7998046875
+        4683.7001953125,
+        4674.2998046875,
+        4674.5
       ],
-      "as_of": "2026-08-26 08:57 UTC",
+      "as_of": "2026-08-26 09:34 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 79.96,
-      "change": -2.4000000000000057,
-      "change_pct": -2.9140359397765976,
+      "price": 79.92,
+      "change": -2.4399999999999977,
+      "change_pct": -2.9626032054395313,
       "series": [
-        82.18000030517578,
         82.22000122070312,
         82.12999725341797,
         82.30000305175781,
@@ -214,10 +213,11 @@
         80.27999877929688,
         79.91000366210938,
         80.04000091552734,
-        79.94999694824219,
-        79.95999908447266
+        79.83999633789062,
+        79.9800033569336,
+        79.91999816894531
       ],
-      "as_of": "2026-08-26 08:57 UTC",
+      "as_of": "2026-08-26 09:34 UTC",
       "source": "yahoo"
     },
     {
@@ -228,7 +228,6 @@
       "change": 0.25,
       "change_pct": 1.6181229773462786,
       "series": [
-        15.75,
         15.800000190734863,
         15.760000228881836,
         15.779999732971191,
@@ -258,10 +257,11 @@
         15.680000305175781,
         15.670000076293945,
         15.680000305175781,
-        15.699999809265137,
+        15.6899995803833,
+        15.6899995803833,
         15.699999809265137
       ],
-      "as_of": "2026-08-26 08:57 UTC",
+      "as_of": "2026-08-26 09:34 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,70 +273,10 @@
       "source": "TheStreet"
     },
     {
-      "title": "Investors Pour $56B Into ETFs as Gold and Bitcoin Roar Back",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/investors-pour-56b-etfs-gold-210015504.html",
-      "published": "2026-08-24T21:00:15Z",
-      "source": "etf.com"
-    },
-    {
-      "title": "ETF League Tables: FT Vest Picks Up $1.4B",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/etf-league-tables-ft-vest-210004589.html",
-      "published": "2026-08-24T21:00:04Z",
-      "source": "etf.com"
-    },
-    {
-      "title": "Daily ETF Flows: GLD  IBIT Pick Up Assets",
-      "url": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-gld-ibit-210028708.html",
-      "published": "2026-08-24T21:00:28Z",
-      "source": "etf.com"
-    },
-    {
-      "title": "Alibaba Dilutes Shares To Feed Its AI Spending Spree",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-dilutes-shares-feed-ai-213026936.html",
-      "published": "2026-08-24T21:30:26Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Marvell Technology Stock More Than Tripled On A Roadmap It Had Been Publishing All Along",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-stock-more-tripled-211152650.html",
-      "published": "2026-08-24T21:11:52Z",
-      "source": "Trefis"
-    },
-    {
-      "title": "Hyperliquid Sets New High With $1.2B Token Unlock Days Away",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/hyperliquid-sets-high-1-2b-213100245.html",
-      "published": "2026-08-24T21:31:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Shares dip with pressure from technology, yields and oil fall",
-      "url": "https://finance.yahoo.com/news/shares-flat-asia-iran-sanctions-004936320.html",
-      "published": "2026-08-24T21:47:19Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Corn Pulls Off Highs, Still Closes Monday with Strength as Ratings Fall",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-pulls-off-highs-still-215325250.html",
-      "published": "2026-08-24T21:53:25Z",
+      "title": "Treasuries Have Reclaimed the Yield Crown From Dividend Stocks. Here\u2019s How Income Investors Can Adapt.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/treasuries-reclaimed-yield-crown-dividend-233002409.html",
+      "published": "2026-08-24T23:30:02Z",
       "source": "Barchart"
-    },
-    {
-      "title": "Securitization is becoming a common feature of secondaries fundraising",
-      "url": "https://finance.yahoo.com/markets/options/articles/securitization-becoming-common-feature-secondaries-220836006.html",
-      "published": "2026-08-24T22:08:36Z",
-      "source": "Pitchbook"
-    },
-    {
-      "title": "Apex Adds Gemini to Prediction Markets Platform",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/apex-adds-gemini-prediction-markets-211209558.html",
-      "published": "2026-08-24T21:12:09Z",
-      "source": "Wealth Management"
-    },
-    {
-      "title": "Should you use a home equity loan to pay off your debts?",
-      "url": "https://finance.yahoo.com/news/home-equity-loan-debt-consolidation-162612647.html",
-      "published": "2026-08-24T22:14:40Z",
-      "source": "Bankrate"
     },
     {
       "title": "Venezuela\u2019s Oil Revival Is Slower Than the U.S. Hoped",
@@ -345,10 +285,58 @@
       "source": "Oilprice.com"
     },
     {
-      "title": "Treasuries Have Reclaimed the Yield Crown From Dividend Stocks. Here\u2019s How Income Investors Can Adapt.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/treasuries-reclaimed-yield-crown-dividend-233002409.html",
-      "published": "2026-08-24T23:30:02Z",
+      "title": "Hyperliquid Sets New High With $1.2B Token Unlock Days Away",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/hyperliquid-sets-high-1-2b-213100245.html",
+      "published": "2026-08-24T21:31:00Z",
+      "source": "CryptoProwl"
+    },
+    {
+      "title": "Alibaba Dilutes Shares To Feed Its AI Spending Spree",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-dilutes-shares-feed-ai-213026936.html",
+      "published": "2026-08-24T21:30:26Z",
+      "source": "Moby"
+    },
+    {
+      "title": "2 Monster Stocks to Buy and Hold for the Next 20 Years",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-monster-stocks-buy-hold-232500031.html",
+      "published": "2026-08-24T23:25:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Should you use a home equity loan to pay off your debts?",
+      "url": "https://finance.yahoo.com/news/home-equity-loan-debt-consolidation-162612647.html",
+      "published": "2026-08-24T22:14:40Z",
+      "source": "Bankrate"
+    },
+    {
+      "title": "Shares dip with pressure from technology, yields and oil fall",
+      "url": "https://finance.yahoo.com/news/shares-flat-asia-iran-sanctions-004936320.html",
+      "published": "2026-08-24T21:47:19Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Securitization is becoming a common feature of secondaries fundraising",
+      "url": "https://finance.yahoo.com/markets/options/articles/securitization-becoming-common-feature-secondaries-220836006.html",
+      "published": "2026-08-24T22:08:36Z",
+      "source": "Pitchbook"
+    },
+    {
+      "title": "Alvotech (ALVO) Gets New \u2018Buy\u2019 Reco. Should Investors Follow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alvotech-alvo-gets-buy-reco-235321216.html",
+      "published": "2026-08-24T23:53:21Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Corn Pulls Off Highs, Still Closes Monday with Strength as Ratings Fall",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-pulls-off-highs-still-215325250.html",
+      "published": "2026-08-24T21:53:25Z",
       "source": "Barchart"
+    },
+    {
+      "title": "The Biggest Victims Of Trump\u2019s Economic D-Day On Iran",
+      "url": "https://finance.yahoo.com/economy/policy/articles/biggest-victims-trump-economic-d-000000547.html",
+      "published": "2026-08-25T00:00:00Z",
+      "source": "Oilprice.com"
     },
     {
       "title": "Weekly survey of mortgage lenders with the lowest rates: Holding firm in the mid-6s",
@@ -357,16 +345,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "SPYI\u2019s 12% Yield Hides the Real Cost: 95% of Last Year\u2019s Payout Was Your Own Capital Coming Back",
-      "url": "https://finance.yahoo.com/markets/options/articles/spyi-12-yield-hides-real-211544063.html",
-      "published": "2026-08-24T21:15:44Z",
-      "source": "24/7 Wall St."
-    },
-    {
       "title": "Gemini crypto exchange review 2026: Bank-grade security comes at a price",
       "url": "https://finance.yahoo.com/personal-finance/investing/review/gemini-crypto-review-130000290.html",
       "published": "2026-08-24T13:00:00Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Fidelity Government Money Market Fund (SPAXX): What Investors Should Know",
+      "url": "https://finance.yahoo.com/markets/options/articles/fidelity-government-money-market-fund-232120852.html",
+      "published": "2026-08-24T23:21:20Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "Best high-yield savings interest rates today, Tuesday, August 25, 2026: Earn up to 4.15% APY",
@@ -387,16 +375,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "BlackRock Puts TCP Capital's $671 Million of Loans on the Block",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/blackrock-puts-tcp-capitals-671-211114078.html",
-      "published": "2026-08-24T21:11:14Z",
-      "source": "Benzinga Private Markets"
-    },
-    {
       "title": "Gold prices today, Tuesday, August 25, 2026: Gold hits 3-month high this morning",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-tuesday-august-25-2026-gold-hits-3-month-high-this-morning-120736963.html",
       "published": "2026-08-25T12:07:36Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Is Meta Stock Actually the Cheapest Mega-Cap Tech Bet?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-actually-cheapest-mega-232839979.html",
+      "published": "2026-08-24T23:28:39Z",
+      "source": "Trefis"
     },
     {
       "title": "Silver prices today, Tuesday, August 25, 2026: Silver prices pull back slightly, but remain over $68",
@@ -415,6 +403,18 @@
       "url": "https://finance.yahoo.com/personal-finance/investing/article/what-drives-gold-price-171825145.html",
       "published": "2026-07-08T17:18:25Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Mortgage and refinance interest rates today, Tuesday, August 25, 2026: Rates mixed this morning",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-tuesday-august-25-2026-rates-mixed-this-morning-100000955.html",
+      "published": "2026-08-25T10:00:00Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Gold Is Still Historically High. Is VanEck Gold Miners ETF or Sprott Gold Miners ETF the Better Way to Play Bullion's Strength?",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-still-historically-high-vaneck-232901343.html",
+      "published": "2026-08-24T23:29:01Z",
+      "source": "Motley Fool"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.0
     }
   },
-  "updated_at": "2026-08-26T08:57:20.469045+00:00",
+  "updated_at": "2026-08-26T09:34:50.124681+00:00",
   "source": "yahoo_finance"
 }
