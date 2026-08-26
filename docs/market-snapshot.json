@@ -41,7 +41,7 @@
         7675.72998046875,
         7677.27978515625
       ],
-      "as_of": "2026-08-26 05:56 UTC",
+      "as_of": "2026-08-26 06:30 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26145.466796875,
         26151.298828125
       ],
-      "as_of": "2026-08-26 05:56 UTC",
+      "as_of": "2026-08-26 06:30 UTC",
       "source": "yahoo"
     },
     {
@@ -129,18 +129,17 @@
         53572.91015625,
         53577.3984375
       ],
-      "as_of": "2026-08-26 05:56 UTC",
+      "as_of": "2026-08-26 06:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4693.2,
-      "change": -1.300000000000182,
-      "change_pct": -0.0276919799765722,
+      "price": 4688.8,
+      "change": -5.699999999999818,
+      "change_pct": -0.12141868143571877,
       "series": [
-        4671.7998046875,
         4679.7998046875,
         4691.60009765625,
         4695.7998046875,
@@ -170,21 +169,21 @@
         4699.2001953125,
         4697.60009765625,
         4700.2001953125,
-        4693.2001953125,
-        4693.2001953125
+        4695.5,
+        4688.7998046875,
+        4688.7998046875
       ],
-      "as_of": "2026-08-26 05:56 UTC",
+      "as_of": "2026-08-26 06:30 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 80.91,
-      "change": -1.4500000000000028,
-      "change_pct": -1.7605633802816938,
+      "price": 80.79,
+      "change": -1.5699999999999932,
+      "change_pct": -1.9062651772705115,
       "series": [
-        82.19999694824219,
         82.4000015258789,
         82.43000030517578,
         82.58999633789062,
@@ -214,10 +213,11 @@
         80.31999969482422,
         80.61000061035156,
         80.76000213623047,
-        80.87999725341797,
-        80.91000366210938
+        80.80000305175781,
+        80.81999969482422,
+        80.79000091552734
       ],
-      "as_of": "2026-08-26 05:56 UTC",
+      "as_of": "2026-08-26 06:30 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         15.449999809265137,
         15.449999809265137
       ],
-      "as_of": "2026-08-26 05:56 UTC",
+      "as_of": "2026-08-26 06:30 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,136 +273,106 @@
       "source": "TheStreet"
     },
     {
-      "title": "Behind the Ticker: KMEM Bets on Memory Chip Bottlenecks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/behind-ticker-kmem-bets-memory-180513510.html",
-      "published": "2026-08-24T18:05:13Z",
-      "source": "etf.com"
+      "title": "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-systems-csco-arista-networks-185200152.html",
+      "published": "2026-08-24T18:52:00Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Wall Street is rotating out of 2026's biggest winners: Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/wall-street-is-rotating-out-of-2026s-biggest-winners-chart-of-the-day-180639239.html",
-      "published": "2026-08-24T18:06:39Z",
-      "source": "Yahoo Finance"
+      "title": "ACHR Stock Alert: What to Know as Archer Aviation Makes L.A. Plans Ahead of 2028 Olympics",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/achr-stock-alert-know-archer-185230134.html",
+      "published": "2026-08-24T18:52:30Z",
+      "source": "Barchart"
     },
     {
-      "title": "Teradyne, Lumentum Back On Analysts' Earnings Radar, With Two More Stocks On Watch",
-      "url": "https://www.investors.com/research/teradyne-ter-stock/?src=A00220&yptr=yahoo",
-      "published": "2026-08-24T18:03:50Z",
+      "title": "Cerebras Systems (CBRS) Revenue Surges: Why Did CBRS Stock Crash, and What About AMD?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-systems-cbrs-revenue-surges-185707172.html",
+      "published": "2026-08-24T18:57:07Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "A $130 Billion Reason to Buy SK Hynix Stock Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/130-billion-reason-buy-sk-185412631.html",
+      "published": "2026-08-24T18:54:12Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Strategy Creates $1.6B Flexible Cash Pool",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-creates-1-6b-flexible-185055875.html",
+      "published": "2026-08-24T18:50:55Z",
+      "source": "Bankless"
+    },
+    {
+      "title": "New Layoffs Just Hit Apple\u2019s Vision Pro Staff. What That Means for AAPL Stock.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/layoffs-just-hit-apple-vision-185505999.html",
+      "published": "2026-08-24T18:55:05Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Analysts See Drastic Change For This Particular Part Of Healthcare",
+      "url": "https://www.investors.com/research/breakout-stocks-technical-analysis/biotech-xbi-stock-moderna-vaccine/?src=A00220&yptr=yahoo",
+      "published": "2026-08-24T18:47:51Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "This Generator Stock Has Been Crushed. But Data Center Orders Just Became a $1 Billion Growth Story",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/generator-stock-crushed-data-center-180716353.html",
-      "published": "2026-08-24T18:07:16Z",
-      "source": "Insider Monkey"
+      "title": "Norway Warns Oil and Gas Output Could Collapse After 2030",
+      "url": "https://finance.yahoo.com/energy/articles/norway-warns-oil-gas-output-190000647.html",
+      "published": "2026-08-24T19:00:00Z",
+      "source": "Oilprice.com"
     },
     {
-      "title": "Visa Just Put Hims & Hers in the Penalty Box\u2014Here\u2019s Why It Matters",
-      "url": "https://finance.yahoo.com/healthcare/articles/visa-just-put-hims-hers-180500136.html",
-      "published": "2026-08-24T18:05:00Z",
-      "source": "MarketBeat"
-    },
-    {
-      "title": "QQQ is Still in a Negative Gamma Regime. Here\u2019s How a \u2018Put Wall\u2019 and Fibonacci Support Could Come Into Play.",
-      "url": "https://finance.yahoo.com/markets/options/articles/qqq-still-negative-gamma-regime-180827277.html",
-      "published": "2026-08-24T18:08:27Z",
+      "title": "Corn, Soybean Traders Get Price-Bullish Pro Farmer Crop Tour",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-soybean-traders-price-bullish-190002100.html",
+      "published": "2026-08-24T19:00:02Z",
       "source": "Barchart"
     },
     {
-      "title": "India Is Finally Getting Its First Tokenized Corporate Bond",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/india-finally-getting-first-tokenized-180221515.html",
-      "published": "2026-08-24T18:02:21Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Coherent (COHR) & Lumentum Holdings (LITE): Two AI Optics Suppliers Just Beat Earnings. Why Did Investors Punish One of Them?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-lumentum-holdings-lite-180139462.html",
-      "published": "2026-08-24T18:01:39Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Super Micro Computer (SMCI)\u2019s Guidance Just Crushed Estimates. Can it Outrun its Legal Troubles?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-guidance-180916677.html",
-      "published": "2026-08-24T18:09:16Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "JPMorgan sends stark warning on AI stocks, cites dotcom worries",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-sends-stark-warning-ai-180300307.html",
-      "published": "2026-08-24T18:03:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Dear Semtech Stock Fans, Mark Your Calendars for August 25",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-semtech-stock-fans-mark-180035994.html",
-      "published": "2026-08-24T18:00:35Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "What credit score is needed to refinance your mortgage?",
-      "url": "https://finance.yahoo.com/news/credit-score-refinance-mortgage-223510184.html",
-      "published": "2026-08-24T17:59:37Z",
-      "source": "Bankrate"
-    },
-    {
-      "title": "This Analyst Just Upped Its Price Target on Palo Alto Networks Stock. Here's Why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-just-upped-price-target-175916623.html",
-      "published": "2026-08-24T17:59:16Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "SK hynix Could Close Its Valuation Gap Soon, Says Wedbush. That\u2019s Good News for SKHY Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-could-close-valuation-181324060.html",
-      "published": "2026-08-24T18:13:24Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "A Two-Year Market Run Let Them Retire at 62. Claiming Social Security to Protect the Gains Could Cost Them for Life.",
-      "url": "https://finance.yahoo.com/markets/articles/two-market-run-let-them-180319610.html",
-      "published": "2026-08-24T18:03:19Z",
+      "title": "2 ETFs That Keep Paying You Even If the S&P 500 Goes Nowhere for Years",
+      "url": "https://finance.yahoo.com/markets/options/articles/2-etfs-keep-paying-even-184857417.html",
+      "published": "2026-08-24T18:48:57Z",
       "source": "24/7 Wall St."
     },
     {
-      "title": "Nvidia Signed a $1.5 Billion Deal With This Chip Stock. Then the Stock Crashed 25%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-signed-1-5-billion-181658818.html",
-      "published": "2026-08-24T18:16:58Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "George Soros Quietly Raised His Taiwan Semi Stake by 1,000%. Here\u2019s Why You Should Be Buying Too.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/george-soros-quietly-raised-taiwan-181623276.html",
-      "published": "2026-08-24T18:16:23Z",
+      "title": "How to Play QumulusAI Stock After a Data Center Win",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/play-qumulusai-stock-data-center-183855956.html",
+      "published": "2026-08-24T18:38:55Z",
       "source": "Barchart"
     },
     {
-      "title": "STLD Stock Leads U.S. Steel Stocks Higher Amid Escalating Trade War With Canada",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stld-stock-leads-u-steel-182243180.html",
-      "published": "2026-08-24T18:22:43Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Steve Cohen\u2019s Point72 Boosted Its Stake 467% in This Boring Cable Stock in Q2. Its AI Orders Are Starting to Take Off",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/steve-cohen-point72-boosted-stake-182445689.html",
-      "published": "2026-08-24T18:24:45Z",
+      "title": "Ford Motor (F) is Bringing Lincoln Production Home. Why is General Motors (GM) Walking Away From Its Battery Plant?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ford-motor-f-bringing-lincoln-183816663.html",
+      "published": "2026-08-24T18:38:16Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Forum Markets Eyes AI Compute Growth as Aircraft Engines Drive Cash Flow",
-      "url": "https://finance.yahoo.com/technology/ai/articles/forum-markets-eyes-ai-compute-180208647.html",
-      "published": "2026-08-24T18:02:08Z",
-      "source": "MarketBeat"
+      "title": "Eli Lilly (LLY) Is Suing Six Companies Over an Unapproved Drug\u2014Leaving Novo Nordisk (NVO) Clear in the GLP-1 Wars",
+      "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-suing-six-190400861.html",
+      "published": "2026-08-24T19:04:00Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Weekly survey of mortgage lenders with the lowest rates: Holding firm in the mid-6s",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-august-24-170834159.html",
-      "published": "2025-11-03T17:08:34Z",
-      "source": "Yahoo Personal Finance"
+      "title": "QuikBot vs. Serve Robotics (NASDAQ:SERV): Will Physical AI Be Won by Robots or the Infrastructure Behind Them?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/quikbot-vs-serve-robotics-nasdaq-183745322.html",
+      "published": "2026-08-24T18:37:45Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Uber Freight: US-Mexico capacity crunch could \u2018get worse before it gets better\u2019",
-      "url": "https://finance.yahoo.com/economy/policy/articles/uber-freight-us-mexico-capacity-182632148.html",
-      "published": "2026-08-24T18:26:32Z",
-      "source": "FreightWaves"
+      "title": "Here's What a $1,000 Bet on USA Rare Earth a Year Ago Looks Like Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-1-000-bet-usa-185000992.html",
+      "published": "2026-08-24T18:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Chipmaker Stock Pullback Could Reap Bullish Implications",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chipmaker-stock-pullback-could-reap-183904323.html",
+      "published": "2026-08-24T18:39:04Z",
+      "source": "Schaeffer's Investment Research"
+    },
+    {
+      "title": "Applied Materials Drops 34%. Here\u2019s Why You Should Buy the Dip in AMAT Stock.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-drops-34-why-190858009.html",
+      "published": "2026-08-24T19:08:58Z",
+      "source": "Barchart"
     },
     {
       "title": "Sandisk Sinks 37%, but Wall Street Still Backs SNDK Stock",
@@ -415,6 +385,36 @@
       "url": "https://finance.yahoo.com/healthcare/articles/weight-loss-drug-market-really-182927810.html",
       "published": "2026-08-24T18:29:27Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Blaze Pizza Appoints Tracy Stockard Chief Marketing Officer",
+      "url": "https://finance.yahoo.com/media-advertising/articles/blaze-pizza-appoints-tracy-stockard-185746201.html",
+      "published": "2026-08-24T18:57:46Z",
+      "source": "QSR"
+    },
+    {
+      "title": "Nat-Gas Prices Supported by Hot US Weather",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/nat-gas-prices-supported-hot-191407074.html",
+      "published": "2026-08-24T19:14:07Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Uber Freight: US-Mexico capacity crunch could \u2018get worse before it gets better\u2019",
+      "url": "https://finance.yahoo.com/economy/policy/articles/uber-freight-us-mexico-capacity-182632148.html",
+      "published": "2026-08-24T18:26:32Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Apple (AAPL)\u2019s China AI Strategy: Why Remove the Alibaba (BABA) Guide?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-china-ai-strategy-191543194.html",
+      "published": "2026-08-24T19:15:43Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Dollar higher after Iran sanctions, loonie drops after US announces tariff increases",
+      "url": "https://finance.yahoo.com/news/dollar-pinned-at-multi-month-lows-as-debt-nerves-unnerve-investors-084611780.html",
+      "published": "2026-08-24T19:16:04Z",
+      "source": "Reuters"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.0
     }
   },
-  "updated_at": "2026-08-26T05:56:01.786037+00:00",
+  "updated_at": "2026-08-26T06:30:52.143785+00:00",
   "source": "yahoo_finance"
 }
