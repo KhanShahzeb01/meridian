@@ -41,7 +41,7 @@
         7709.89990234375,
         7711.759765625
       ],
-      "as_of": "2026-08-30 22:40 UTC",
+      "as_of": "2026-08-31 00:52 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26398.08203125,
         26402.423828125
       ],
-      "as_of": "2026-08-30 22:40 UTC",
+      "as_of": "2026-08-31 00:52 UTC",
       "source": "yahoo"
     },
     {
@@ -129,21 +129,17 @@
         53546.7890625,
         53559.98828125
       ],
-      "as_of": "2026-08-30 22:40 UTC",
+      "as_of": "2026-08-31 00:52 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4508.6,
-      "change": -21.299999999999272,
-      "change_pct": -0.47020905538752006,
+      "price": 4517.4,
+      "change": -12.5,
+      "change_pct": -0.27594428133071375,
       "series": [
-        4665.5,
-        4659.89990234375,
-        4665.0,
-        4662.2998046875,
         4658.2001953125,
         4655.5,
         4658.7001953125,
@@ -170,24 +166,24 @@
         4507.39990234375,
         4504.10009765625,
         4509.2001953125,
-        4508.60009765625,
-        4508.60009765625
+        4510.89990234375,
+        4506.7998046875,
+        4507.7998046875,
+        4505.7001953125,
+        4516.10009765625,
+        4517.39990234375
       ],
-      "as_of": "2026-08-30 22:40 UTC",
+      "as_of": "2026-08-31 00:52 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 84.79,
-      "change": 1.3900000000000006,
-      "change_pct": 1.6666666666666674,
+      "price": 84.39,
+      "change": 0.9899999999999949,
+      "change_pct": 1.187050359712224,
       "series": [
-        82.87999725341797,
-        82.83000183105469,
-        82.9800033569336,
-        83.08999633789062,
         83.13999938964844,
         83.0,
         83.06999969482422,
@@ -214,10 +210,14 @@
         83.43000030517578,
         83.4000015258789,
         84.91999816894531,
-        84.80999755859375,
-        84.79000091552734
+        84.87000274658203,
+        84.83999633789062,
+        84.7300033569336,
+        84.37000274658203,
+        84.37999725341797,
+        84.38999938964844
       ],
-      "as_of": "2026-08-30 22:40 UTC",
+      "as_of": "2026-08-31 00:52 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         14.420000076293945,
         14.430000305175781
       ],
-      "as_of": "2026-08-30 22:40 UTC",
+      "as_of": "2026-08-31 00:52 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,82 +273,94 @@
       "source": "TheStreet"
     },
     {
-      "title": "Dow Jones Futures Fall Amid Bullish, Bearish Market Signals. What To Do Now.",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
-      "published": "2026-08-30T22:17:39Z",
+      "title": "Fed Chairman Warsh shows courage with Jackson Hole speech, defying political pressure, says Harvard's Rogoff",
+      "url": "https://finance.yahoo.com/economy/article/fed-chairman-warsh-shows-courage-with-jackson-hole-speech-defying-political-pressure-says-harvards-rogoff-140951926.html",
+      "published": "2026-08-29T14:09:51Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "How T-Mobile Stock Could Win as SpaceX Expands Its Wireless Business",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-stock-could-win-140002998.html",
+      "published": "2026-08-29T14:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Sandisk Reported Layoffs at Its Israel Locations. This Is an Efficiency Push, Not a Warning Sign for SNDK Stock.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-reported-layoffs-israel-locations-134502982.html",
+      "published": "2026-08-29T13:45:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Dear Apple Stock Fans, Mark Your Calendars for September 9",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-apple-stock-fans-mark-133002349.html",
+      "published": "2026-08-29T13:30:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "5-star analyst drops jaw-dropping Nvidia stock price target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-drops-jaw-140700503.html",
+      "published": "2026-08-29T14:07:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Suze Orman says your annuity guarantee is 'only as good as' the insurer's balance sheet \u2014 here's why",
+      "url": "https://finance.yahoo.com/markets/options/articles/suze-orman-says-annuity-guarantee-133000171.html",
+      "published": "2026-08-29T13:30:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Stock Market Week Ahead: Chips, Cybersecurity And Jobs",
+      "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-chips-cybersecurity-and-jobs/?src=A00220&yptr=yahoo",
+      "published": "2026-08-29T13:07:58Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Miniso (MNSO) Booming Membership Growth Collides With A Struggling Global Expansion",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/miniso-mnso-booming-membership-growth-184952315.html",
-      "published": "2026-08-30T18:49:52Z",
-      "source": "Insider Monkey"
+      "title": "Kevin O'Leary, worth $400 million, compares paper towel prices at Walmart as grocery costs climb 5.9%",
+      "url": "https://finance.yahoo.com/economy/articles/kevin-oleary-worth-400-million-143000770.html",
+      "published": "2026-08-29T14:30:00Z",
+      "source": "Moneywise"
     },
     {
-      "title": "Frontline (FRO) Just Delivered Its Best Quarter Yet, But Can It Last?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/frontline-fro-just-delivered-best-184112065.html",
-      "published": "2026-08-30T18:41:12Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Pinterest\u2019s (PINS) CFO Exit Tests Whether The Growth Story Holds",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pinterest-pins-cfo-exit-tests-182159557.html",
-      "published": "2026-08-30T18:21:59Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Can SanDisk Avoid the Memory Trap That\u2019s Burned Investors Before?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-avoid-memory-trap-burned-220021932.html",
-      "published": "2026-08-30T22:00:21Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Honda (HMC), Nissan Edge Toward a Software Alliance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/honda-hmc-nissan-edge-toward-180935321.html",
-      "published": "2026-08-30T18:09:35Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "What Affirm\u2019s (AFRM) Blowout Quarter and Cautious CEO Say About the Consumer",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/affirm-afrm-blowout-quarter-cautious-175800405.html",
-      "published": "2026-08-30T17:58:00Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "How AI Power Demand Transformed Caterpillar (CAT) into a High-Multiple Tech Play",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-power-demand-transformed-caterpillar-173543057.html",
-      "published": "2026-08-30T17:35:43Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Dear Kraft Heinz Stock Fans, Mark Your Calendars for September 14",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-kraft-heinz-stock-fans-153002037.html",
-      "published": "2026-08-30T15:30:02Z",
+      "title": "Project Tetromino Likely to Drive Operational Efficiency and Margin Expansion for Amazon Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/project-tetromino-likely-drive-operational-130002737.html",
+      "published": "2026-08-29T13:00:02Z",
       "source": "Barchart"
     },
     {
-      "title": "Forget the Industry Labels: Chevron and Caterpillar Are Both Betting on the AI Power Boom. Which 30+ Year Dividend Grower Wins?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/forget-industry-labels-chevron-caterpillar-213500446.html",
-      "published": "2026-08-30T21:35:00Z",
+      "title": "The Ultimate Tech ETF to Buy With $5,000 Right Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ultimate-tech-etf-buy-5-140500862.html",
+      "published": "2026-08-29T14:05:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-watch-buying-panw-stock-153002874.html",
-      "published": "2026-08-30T15:30:02Z",
+      "title": "Is Walmart Stock Underperforming the Nasdaq?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-underperforming-nasdaq-125750941.html",
+      "published": "2026-08-29T12:57:50Z",
       "source": "Barchart"
     },
     {
-      "title": "Mortgage and refinance interest rates today, Sunday, August 30, 2026: Purchase rates higher than last week",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-30-2026-purchase-rates-higher-than-last-week-100000187.html",
-      "published": "2026-08-30T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Is Visa Stock Underperforming the Dow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-underperforming-dow-145730618.html",
+      "published": "2026-08-29T14:57:30Z",
+      "source": "Barchart"
     },
     {
-      "title": "Best CD rates today, Sunday, August 30, 2026: Lock in up to 4.30% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-august-30-2026-lock-in-up-to-430-apy-100000110.html",
-      "published": "2026-08-30T10:00:00Z",
-      "source": "Yahoo Personal Finance"
+      "title": "72% of homebuyers have paused their search waiting for lower mortgage rates \u2014 and 41% already regret it",
+      "url": "https://finance.yahoo.com/real-estate/articles/72-homebuyers-paused-search-waiting-150000785.html",
+      "published": "2026-08-29T15:00:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "CrowdStrike CEO Says It Delivered Its Best Quarter Ever. Surprisingly, That May Be an Understatement.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-ceo-says-delivered-best-150002644.html",
+      "published": "2026-08-29T15:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "His Well Ran Dry at 68. The $25,000 IRA Withdrawal Made More of His Social Security Taxable.",
+      "url": "https://finance.yahoo.com/markets/options/articles/well-ran-dry-68-25-140434510.html",
+      "published": "2026-08-29T14:04:34Z",
+      "source": "24/7 Wall St."
     },
     {
       "title": "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend",
@@ -357,10 +369,34 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-snap-nine-day-213104398.html",
-      "published": "2026-08-30T21:31:04Z",
-      "source": "decrypt"
+      "title": "Nvidia Is Getting Bigger Without Getting Expensive",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-getting-bigger-without-getting-153002917.html",
+      "published": "2026-08-29T15:30:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "A $2 Billion Reason to Buy UPS Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-billion-reason-buy-ups-161356676.html",
+      "published": "2026-08-29T16:13:56Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Is Oracle Stock Underperforming the S&P 500?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-underperforming-p-500-164453386.html",
+      "published": "2026-08-29T16:44:53Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Is Private Equity to Blame for the Childcare Crisis? New Study Finds PE-Owned Daycares Target Loose Rules",
+      "url": "https://finance.yahoo.com/small-business/articles/private-equity-blame-childcare-crisis-140108856.html",
+      "published": "2026-08-29T14:01:08Z",
+      "source": "Benzinga"
+    },
+    {
+      "title": "Is Costco Stock Underperforming the Dow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-underperforming-dow-165446351.html",
+      "published": "2026-08-29T16:54:46Z",
+      "source": "Barchart"
     },
     {
       "title": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
@@ -369,52 +405,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "The Real Cost of Retiring in Las Vegas on $2,500 a Month Without Touching Your Savings",
-      "url": "https://finance.yahoo.com/real-estate/articles/real-cost-retiring-las-vegas-212936563.html",
-      "published": "2026-08-30T21:29:36Z",
-      "source": "24/7 Wall St."
+      "title": "When will mortgage rates go down? Or maybe they're poised to move higher.",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/when-will-mortgage-rates-go-down-or-maybe-theyre-poised-to-move-higher-190610094.html",
+      "published": "2025-04-22T19:06:10Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Japan\u2019s Yen Falls Again Despite $97 Billion Aid. Risk For Bitcoin?",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/japan-yen-falls-again-despite-212857032.html",
-      "published": "2026-08-30T21:28:57Z",
-      "source": "BeInCrypto"
-    },
-    {
-      "title": "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why Greg Abel Is Still Holding.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meet-dividend-stock-warren-buffett-212500098.html",
-      "published": "2026-08-30T21:25:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "A Rocket Lab President Sells Over 15,000 Shares After a 54% One-Year Return",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-president-sells-over-212001919.html",
-      "published": "2026-08-30T21:20:01Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "CrowdStrike Just Lit a Fire Under Cybersecurity Stocks. Is Palo Alto Networks Next?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-just-lit-fire-under-211520650.html",
-      "published": "2026-08-30T21:15:20Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "S&P 500 Is Up 12% in 2026 But a 1907 Crash Signal Is Back",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-12-2026-1907-210401303.html",
-      "published": "2026-08-30T21:04:01Z",
-      "source": "BeInCrypto"
-    },
-    {
-      "title": "Jim Cramer Says Marvell Is Expensive Unless Everything Works, and Then It Is Cheap",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-marvell-expensive-204519804.html",
-      "published": "2026-08-30T20:45:19Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "Taco Bell returns to unexpected market after 14 years",
-      "url": "https://finance.yahoo.com/small-business/articles/taco-bell-returns-unexpected-market-203300355.html",
-      "published": "2026-08-30T20:33:00Z",
-      "source": "TheStreet"
+      "title": "Fixed vs. variable expenses: Key differences and how to budget for each",
+      "url": "https://finance.yahoo.com/personal-finance/banking/comparison/fixed-expenses-vs-variable-expenses-140051358.html",
+      "published": "2024-05-27T14:00:51Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.2580901330156862
     }
   },
-  "updated_at": "2026-08-30T22:40:33.559275+00:00",
+  "updated_at": "2026-08-31T00:52:07.453921+00:00",
   "source": "yahoo_finance"
 }
