@@ -41,7 +41,7 @@
         7667.4501953125,
         7666.60009765625
       ],
-      "as_of": "2026-09-03 01:51 UTC",
+      "as_of": "2026-09-03 06:37 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26214.515625,
         26217.828125
       ],
-      "as_of": "2026-09-03 01:52 UTC",
+      "as_of": "2026-09-03 06:37 UTC",
       "source": "yahoo"
     },
     {
@@ -93,8 +93,8 @@
       "name": "Dow Jones",
       "symbol": "^DJI",
       "price": 53061.95,
-      "change": 295.0699999999997,
-      "change_pct": 0.5591954650341269,
+      "change": 295.04999999999563,
+      "change_pct": 0.5591573505360284,
       "series": [
         53248.0390625,
         53243.3515625,
@@ -129,26 +129,17 @@
         53066.25,
         53061.94921875
       ],
-      "as_of": "2026-09-03 01:52 UTC",
+      "as_of": "2026-09-03 06:37 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4450.0,
-      "change": 35.399999999999636,
-      "change_pct": 0.8018846554614151,
+      "price": 4469.4,
+      "change": 54.79999999999927,
+      "change_pct": 1.241335568341396,
       "series": [
-        4355.89990234375,
-        4357.10009765625,
-        4356.60009765625,
-        4368.7998046875,
-        4379.60009765625,
-        4383.2998046875,
-        4378.2998046875,
-        4405.5,
-        4433.0,
         4434.2998046875,
         4424.2001953125,
         4419.5,
@@ -170,29 +161,29 @@
         4432.5,
         4440.5,
         4447.10009765625,
-        4450.0,
-        4450.0
+        4455.0,
+        4457.10009765625,
+        4466.0,
+        4475.10009765625,
+        4477.10009765625,
+        4481.7998046875,
+        4483.0,
+        4471.0,
+        4477.0,
+        4469.5,
+        4469.39990234375
       ],
-      "as_of": "2026-09-03 01:52 UTC",
+      "as_of": "2026-09-03 06:37 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 91.13,
-      "change": 0.11999999999999034,
-      "change_pct": 0.13185364245686224,
+      "price": 89.92,
+      "change": -1.0900000000000034,
+      "change_pct": -1.1976705856499321,
       "series": [
-        90.52999877929688,
-        90.33000183105469,
-        90.2300033569336,
-        89.66999816894531,
-        89.11000061035156,
-        89.69999694824219,
-        89.8499984741211,
-        89.63999938964844,
-        89.08000183105469,
         89.97000122070312,
         90.56999969482422,
         90.58000183105469,
@@ -214,10 +205,19 @@
         90.75,
         90.76000213623047,
         90.91000366210938,
-        91.13999938964844,
-        91.12999725341797
+        91.37999725341797,
+        91.11000061035156,
+        91.08000183105469,
+        91.12000274658203,
+        91.05999755859375,
+        90.8499984741211,
+        90.56999969482422,
+        90.20999908447266,
+        89.94999694824219,
+        89.94000244140625,
+        89.91999816894531
       ],
-      "as_of": "2026-09-03 01:52 UTC",
+      "as_of": "2026-09-03 06:37 UTC",
       "source": "yahoo"
     },
     {
@@ -261,41 +261,11 @@
         15.229999542236328,
         15.199999809265137
       ],
-      "as_of": "2026-09-03 01:52 UTC",
+      "as_of": "2026-09-03 06:37 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
-    {
-      "title": "Denny\u2019s rival dining chain files for Chapter 11 bankruptcy",
-      "url": "https://finance.yahoo.com/small-business/articles/denny-rival-dining-chain-files-153300154.html",
-      "published": "2026-09-01T15:33:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Elevance Health (ELV) Soars as Investors Gain Confidence in Profitability",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elevance-health-elv-soars-investors-141933883.html",
-      "published": "2026-09-01T14:19:33Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Citi Trends (CTRN) Turns A Growth Streak Into Real Profit",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/citi-trends-ctrn-turns-growth-141403811.html",
-      "published": "2026-09-01T14:14:03Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Marvell Stock: The AI Growth Story Is Getting Bigger, But the Google Deal Is Still a Problem",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-ai-growth-story-141958632.html",
-      "published": "2026-09-01T14:19:58Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Elevance Health (ELV): Bridging the Gap between Care and Coverage",
-      "url": "https://finance.yahoo.com/healthcare/articles/elevance-health-elv-bridging-gap-141309528.html",
-      "published": "2026-09-01T14:13:09Z",
-      "source": "Insider Monkey"
-    },
     {
       "title": "Costco shuts down key service without notice",
       "url": "https://finance.yahoo.com/markets/stocks/articles/costco-shuts-down-key-no-011218190.html",
@@ -303,118 +273,148 @@
       "source": "TheStreet"
     },
     {
-      "title": "United Kingdom To Bring Stocks Onchain",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/united-kingdom-bring-stocks-onchain-141300465.html",
-      "published": "2026-09-01T14:13:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Charter Communications (CHTR) Strengthens Market Position Amid Fierce Competition",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/charter-communications-chtr-strengthens-market-142325751.html",
-      "published": "2026-09-01T14:23:25Z",
+      "title": "Billionaires Were Buying These Two Nancy Pelosi AI Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/billionaires-were-buying-two-nancy-183456888.html",
+      "published": "2026-09-01T18:34:56Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "US job openings rise slightly to 7.3 million as labor market remains sturdy despite higher costs",
-      "url": "https://finance.yahoo.com/economy/articles/u-job-openings-rise-slightly-140953221.html",
-      "published": "2026-09-01T14:09:53Z",
-      "source": "Associated Press"
-    },
-    {
-      "title": "Stocks Retreat as Global Bond Yields Surge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-global-bond-yields-140818799.html",
-      "published": "2026-09-01T14:08:18Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Citi says investors should consider buying tumbling tech stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/citi-says-investors-consider-buying-165315833.html",
-      "published": "2026-09-01T16:53:15Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "HCA Healthcare (HCA) Navigates Patient Volume Challenges While Reporting Growth",
-      "url": "https://finance.yahoo.com/healthcare/articles/hca-healthcare-hca-navigates-patient-142540557.html",
-      "published": "2026-09-01T14:25:40Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Workday (WDAY): Pioneering the Future of Enterprise Resource Planning",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/workday-wday-pioneering-future-enterprise-140726261.html",
-      "published": "2026-09-01T14:07:26Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "F5\u2019s (FFIV) Commitment to Customer Excellence in Technology",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/f5-ffiv-commitment-customer-excellence-140644629.html",
-      "published": "2026-09-01T14:06:44Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Marzetti\u2019s (MZTI) Record Streak Hits a Wall With Outbreak and Guidance Cut",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marzetti-mzti-record-streak-hits-140359560.html",
-      "published": "2026-09-01T14:03:59Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Apple's accusations are making things uncomfortable for OpenAI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apples-accusations-making-things-uncomfortable-160300847.html",
-      "published": "2026-09-01T16:03:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Investing in ExxonMobil Holdings Corporation (XOM): A Case for Long-Term Growth and Returns",
-      "url": "https://finance.yahoo.com/energy/articles/investing-exxonmobil-holdings-corporation-xom-143346021.html",
-      "published": "2026-09-01T14:33:46Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Dollar Supported by Rising T-Note Yields and Falling Stocks",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-supported-rising-t-note-143404558.html",
-      "published": "2026-09-01T14:34:04Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Singapore Moves To Ban Stablecoin Yield",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/singapore-moves-ban-stablecoin-yield-135900461.html",
-      "published": "2026-09-01T13:59:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Elliott Tries to Put Air Liquide Under Pressure",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elliott-tries-put-air-liquide-143516623.html",
-      "published": "2026-09-01T14:35:16Z",
+      "title": "GoPro Pulls An Allbirds As It Trades Cameras For AI",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gopro-pulls-allbirds-trades-cameras-184034642.html",
+      "published": "2026-09-01T18:40:34Z",
       "source": "Moby"
     },
     {
-      "title": "RareX starts first RC drilling at Khaleesi complex in WA",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/rarex-starts-first-rc-drilling-141651212.html",
-      "published": "2026-09-01T14:16:51Z",
-      "source": "Mining Technology"
+      "title": "Best credit cards with no annual fee (2026)",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-with-no-annual-fee-204747522.html",
+      "published": "2024-11-25T20:47:47Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Dear Apple Stock Fans, Mark Your Calendars for September 1",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-apple-stock-fans-mark-143839980.html",
-      "published": "2026-09-01T14:38:39Z",
+      "title": "Credit card fees explained: 8 types you should know",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/types-credit-card-fees-144450351.html",
+      "published": "2024-02-27T21:16:06Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Google Just Locked Up the Largest Geothermal Power Deal Ever Made.",
+      "url": "https://finance.yahoo.com/energy/articles/google-just-locked-largest-geothermal-183201824.html",
+      "published": "2026-09-01T18:32:01Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Crude Prices Surge on Escalation of US-Iran Hostilities",
+      "url": "https://finance.yahoo.com/energy/articles/crude-prices-surge-escalation-us-191334343.html",
+      "published": "2026-09-01T19:13:34Z",
       "source": "Barchart"
     },
     {
-      "title": "Lean Hog Prices Are Rebounding. How to Trade Them Here.",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/lean-hog-prices-rebounding-trade-143846918.html",
-      "published": "2026-09-01T14:38:46Z",
+      "title": "How credit card points can save you hundreds on holiday gifts",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/redeem-credit-card-points-for-gifts-222743811.html",
+      "published": "2025-11-12T17:29:19Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "This Popular Semiconductor ETF Has a Big Chip in Its Bull Case. How to Tell If It\u2019s Broken Beyond Repair.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/popular-semiconductor-etf-big-chip-184201946.html",
+      "published": "2026-09-01T18:42:01Z",
       "source": "Barchart"
     },
     {
-      "title": "Agentforce: Scaling the Next Generation of Salesforce (CRM)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/agentforce-scaling-next-generation-salesforce-143929637.html",
-      "published": "2026-09-01T14:39:29Z",
+      "title": "How many credit cards is too many?",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-many-credit-cards-is-too-many-191232220.html",
+      "published": "2024-05-30T19:12:32Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "I Quit YouTube & Built a $1M App (Without My Audience)",
+      "url": "https://finance.yahoo.com/video/quit-youtube-built-1m-app-183151202.html",
+      "published": "2026-09-01T18:31:51Z",
+      "source": "Starter Story"
+    },
+    {
+      "title": "Ally Unlimited Cash Back Mastercard review: A simplistic approach to cash back",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/ally-unlimited-cash-back-review-165948540.html",
+      "published": "2024-04-04T16:59:48Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "How to protect your credit card rewards as CFPB responds to a surge in customer complaints",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/how-to-protect-credit-card-rewards-012404263.html",
+      "published": "2024-05-24T13:24:04Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Can you pay taxes with a credit card, and how much will it cost?",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/can-you-pay-taxes-with-a-credit-card-193747704.html",
+      "published": "2024-02-23T20:19:06Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Nat-Gas Prices Slip as US Weather Forecasts Turn Cooler",
+      "url": "https://finance.yahoo.com/energy/articles/nat-gas-prices-slip-us-191224740.html",
+      "published": "2026-09-01T19:12:24Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Nvidia Sells the Brains of the AI Boom. Something Else Is Selling the Muscle -- and It's Not on Wall Street's Radar.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-sells-brains-ai-boom-183500762.html",
+      "published": "2026-09-01T18:35:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Best credit cards for home improvement (2026)",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-for-home-improvement-214525388.html",
+      "published": "2024-09-13T22:17:38Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Jensen Huang: Nvidia\u2019s Vera Rubin Platform Turns Electricity Into a $40 Billion Cash Machine",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-nvidia-vera-rubin-190913186.html",
+      "published": "2026-09-01T19:09:13Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Dear GameStop Stock Fans, Mark Your Calendars for September 8",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-gamestop-stock-fans-mark-184424585.html",
+      "published": "2026-09-01T18:44:24Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Bankrupt Yellow Corp. settles remaining pension claims for $526M",
+      "url": "https://finance.yahoo.com/economy/policy/articles/bankrupt-yellow-corp-settles-remaining-191808055.html",
+      "published": "2026-09-01T19:18:08Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Medtronic Tops Earnings Estimates and Makes $700M Robot Surgeon Investment. Is It Gaining on Intuitive Surgical?",
+      "url": "https://www.barrons.com/articles/medtronic-earnings-stock-price-robot-surgeon-71d30937?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-09-01T18:35:00Z",
+      "source": "Barrons.com"
+    },
+    {
+      "title": "Best credit cards for shopping at Walmart (2026)",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-for-walmart-182948137.html",
+      "published": "2025-12-01T19:37:25Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Billionaire Peter Thiel\u2019s Fund Is Betting on the Grid Behind AI: 2 Energy Stock Picks",
+      "url": "https://finance.yahoo.com/energy/articles/billionaire-peter-thiel-fund-betting-191836321.html",
+      "published": "2026-09-01T19:18:36Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Why Marvell Stock\u2019s Post-Earnings Malaise Offers Another Shot",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-stock-post-earnings-135218808.html",
-      "published": "2026-09-01T13:52:18Z",
-      "source": "Barchart"
+      "title": "Can you pay rent with a credit card?",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/can-you-pay-rent-with-a-credit-card-000451795.html",
+      "published": "2024-01-26T22:27:16Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Best credit cards for shopping on Amazon (2026)",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-shopping-on-amazon-212142241.html",
+      "published": "2025-11-19T21:21:42Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.579300459857071
     }
   },
-  "updated_at": "2026-09-03T01:52:00.771573+00:00",
+  "updated_at": "2026-09-03T06:37:22.508655+00:00",
   "source": "yahoo_finance"
 }
