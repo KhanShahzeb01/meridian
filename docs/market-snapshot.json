@@ -4,14 +4,10 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7666.6,
-      "change": 35.13000000000011,
-      "change_pct": 0.46033070954875155,
+      "price": 7728.76,
+      "change": 62.159999999999854,
+      "change_pct": 0.8107896590405115,
       "series": [
-        7682.56982421875,
-        7680.7998046875,
-        7674.10986328125,
-        7683.60009765625,
         7684.3701171875,
         7636.08984375,
         7653.7900390625,
@@ -39,23 +35,23 @@
         7664.08984375,
         7671.25,
         7667.4501953125,
-        7666.60009765625
+        7711.25,
+        7703.52001953125,
+        7709.0400390625,
+        7726.3701171875,
+        7728.759765625
       ],
-      "as_of": "2026-09-03 11:40 UTC",
+      "as_of": "2026-09-03 15:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "nasdaq",
       "name": "NASDAQ",
       "symbol": "^IXIC",
-      "price": 26217.828,
-      "change": 118.05500000000029,
-      "change_pct": 0.4523219416506047,
+      "price": 26516.316,
+      "change": 298.48799999999756,
+      "change_pct": 1.1384924792396895,
       "series": [
-        26320.439453125,
-        26301.736328125,
-        26282.86328125,
-        26323.521484375,
         26368.00390625,
         26077.87109375,
         26149.224609375,
@@ -83,23 +79,23 @@
         26190.060546875,
         26214.41796875,
         26214.515625,
-        26217.828125
+        26427.546875,
+        26447.90625,
+        26425.814453125,
+        26501.07421875,
+        26516.31640625
       ],
-      "as_of": "2026-09-03 11:40 UTC",
+      "as_of": "2026-09-03 15:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 53061.95,
-      "change": 295.04999999999563,
-      "change_pct": 0.5591573505360284,
+      "price": 53573.43,
+      "change": 511.4800000000032,
+      "change_pct": 0.9639298970354524,
       "series": [
-        53248.0390625,
-        53243.3515625,
-        53224.62890625,
-        53240.1796875,
         53179.76953125,
         52922.75,
         53137.80859375,
@@ -127,26 +123,23 @@
         53002.87109375,
         53089.87109375,
         53066.25,
-        53061.94921875
+        53491.48828125,
+        53343.01171875,
+        53493.828125,
+        53564.44921875,
+        53573.4296875
       ],
-      "as_of": "2026-09-03 11:40 UTC",
+      "as_of": "2026-09-03 15:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4479.6,
-      "change": 65.0,
-      "change_pct": 1.4723870792370768,
+      "price": 4536.7,
+      "change": 122.09999999999945,
+      "change_pct": 2.765822498074558,
       "series": [
-        4437.7001953125,
-        4433.2001953125,
-        4434.2998046875,
-        4434.7998046875,
-        4429.7998046875,
-        4427.7001953125,
-        4431.0,
         4432.5,
         4440.5,
         4447.10009765625,
@@ -170,27 +163,27 @@
         4468.7001953125,
         4473.2001953125,
         4480.39990234375,
-        4478.89990234375,
-        4479.60009765625
+        4490.2001953125,
+        4493.2998046875,
+        4540.89990234375,
+        4527.60009765625,
+        4517.10009765625,
+        4523.60009765625,
+        4531.89990234375,
+        4538.5,
+        4536.7001953125
       ],
-      "as_of": "2026-09-03 11:40 UTC",
+      "as_of": "2026-09-03 15:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 92.46,
-      "change": 1.4499999999999886,
-      "change_pct": 1.5932315130205346,
+      "price": 91.92,
+      "change": 0.9099999999999966,
+      "change_pct": 0.9998901219646155,
       "series": [
-        90.80000305175781,
-        90.69000244140625,
-        90.62999725341797,
-        90.80000305175781,
-        90.76000213623047,
-        90.70999908447266,
-        90.58999633789062,
         90.75,
         90.76000213623047,
         90.91000366210938,
@@ -214,27 +207,27 @@
         92.6500015258789,
         92.86000061035156,
         92.48999786376953,
-        92.55000305175781,
-        92.45999908447266
+        93.0199966430664,
+        92.08000183105469,
+        91.80000305175781,
+        91.6500015258789,
+        91.79000091552734,
+        92.18000030517578,
+        92.04000091552734,
+        91.94000244140625,
+        91.91999816894531
       ],
-      "as_of": "2026-09-03 11:40 UTC",
+      "as_of": "2026-09-03 15:11 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.25,
-      "change": 0.05000000000000071,
-      "change_pct": 0.3289473684210573,
+      "price": 14.97,
+      "change": -0.22999999999999865,
+      "change_pct": -1.5131578947368334,
       "series": [
-        16.75,
-        16.65999984741211,
-        16.670000076293945,
-        16.43000030517578,
-        16.209999084472656,
-        16.09000015258789,
-        16.31999969482422,
         16.09000015258789,
         15.800000190734863,
         15.460000038146973,
@@ -259,251 +252,258 @@
         15.420000076293945,
         15.40999984741211,
         15.260000228881836,
-        15.25
+        15.399999618530273,
+        15.300000190734863,
+        15.029999732971191,
+        15.020000457763672,
+        15.029999732971191,
+        14.920000076293945,
+        14.920000076293945,
+        14.970000267028809
       ],
-      "as_of": "2026-09-03 11:40 UTC",
+      "as_of": "2026-09-03 15:11 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Costco shuts down key service without notice",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-shuts-down-key-no-011218190.html",
-      "published": "2026-09-02T01:12:18Z",
-      "source": "TheStreet"
+      "title": "Mastercard (MA) Stays Resilient with AI Integration and Payment Duopoly",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-stays-resilient-ai-145603430.html",
+      "published": "2026-09-03T14:56:03Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Best 1-year CD rates for September 2026: Lock in up to 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-1-year-cd-rates-211702415.html",
-      "published": "2026-01-21T21:17:02Z",
+      "title": "Flywire (FLYW) Bets On Open Banking To Widen Its Payment Moat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/flywire-flyw-bets-open-banking-145555831.html",
+      "published": "2026-09-03T14:55:55Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Danaher (DHR) Seen Deftly Navigating AI Integration",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/danaher-dhr-seen-deftly-navigating-145442960.html",
+      "published": "2026-09-03T14:54:42Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Congressman Ro Khanna Was Buying This Small-Cap Stock. Should You?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/congressman-ro-khanna-buying-small-145151706.html",
+      "published": "2026-09-03T14:51:51Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "S&P Global (SPGI) Could Deliver Mid-Teens EPS Growth\u00a0From\u00a0a Cheaper Valuation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-spgi-could-deliver-145100299.html",
+      "published": "2026-09-03T14:51:00Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Is UnitedHealth Group (UNH) Finally Turning the Corner Under Stephen Hemsley?",
+      "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-group-unh-finally-turning-145043391.html",
+      "published": "2026-09-03T14:50:43Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Netflix\u2019s Acquisition Wishlist: Which Streaming Target Has the Best Odds?",
+      "url": "https://finance.yahoo.com/media-advertising/articles/netflix-acquisition-wishlist-streaming-target-145040058.html",
+      "published": "2026-09-03T14:50:40Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Social Security: See what's really changing in 2027",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/social-security-see-whats-really-changing-in-2027-144723278.html",
+      "published": "2026-09-03T14:47:23Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Best 18-month CD rates for September 2026: Earn up to 4.35% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-18-month-cd-rates-224504831.html",
-      "published": "2026-01-26T22:45:04Z",
-      "source": "Yahoo Personal Finance"
+      "title": "This Fund Bought Moderna Before It Nearly Tripled. See Its 2 New Stock Picks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fund-bought-moderna-nearly-tripled-144452535.html",
+      "published": "2026-09-03T14:44:52Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "A Disney Strangle Strategy Can Profit From Big Swings By The Entertainment Stock",
-      "url": "https://www.investors.com/research/options/disney-stock-dis-media-film-streaming-entertainment-options-trade-markets-income-investing/?src=A00220&yptr=yahoo",
-      "published": "2026-09-02T00:49:17Z",
+      "title": "Billionaires Like These 2 AI Data Center Stocks",
+      "url": "https://finance.yahoo.com/technology/ai/articles/billionaires-2-ai-data-center-143957217.html",
+      "published": "2026-09-03T14:39:57Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Can Better Star Ratings and Margin Expansion Drive Humana (HUM) Higher?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/better-star-ratings-margin-expansion-143427291.html",
+      "published": "2026-09-03T14:34:27Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Wall Street Loves NuScale Power. Here's the Risk Analysts Are Glossing Over.",
+      "url": "https://finance.yahoo.com/energy/articles/wall-street-loves-nuscale-power-145000761.html",
+      "published": "2026-09-03T14:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Amazon.com (AMZN): AI Exposure Adds, But Other Businesses Drive Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-ai-exposure-143009087.html",
+      "published": "2026-09-03T14:30:09Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Nvidia confirms $13 billion acquisition of open-weight AI platform Hugging Face",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-confirms-13-billion-acquisition-of-open-weight-ai-platform-hugging-face-141058641.html",
+      "published": "2026-09-03T14:10:58Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Ciena Earnings Beat. Why This AI Data Center Play Is Falling.",
+      "url": "https://www.investors.com/news/technology/ciena-stock-cien-ciena-earnings-news-july26/?src=A00220&yptr=yahoo",
+      "published": "2026-09-03T14:26:37Z",
       "source": "Investor's Business Daily"
     },
     {
-      "title": "Saudi Arabia Plans To Free 1 Mb/d As it Invests in Nuclear Power",
-      "url": "https://finance.yahoo.com/energy/articles/saudi-arabia-plans-free-1-000000314.html",
-      "published": "2026-09-02T00:00:00Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "US jobs most likely to grow or shrink in the next decade. See list",
-      "url": "https://finance.yahoo.com/economy/articles/us-jobs-most-likely-grow-233238983.html",
-      "published": "2026-09-01T23:32:38Z",
-      "source": "USA TODAY"
-    },
-    {
-      "title": "Fervo Energy (FRVO) Bags New Power Deal, Soars 28%; Hedge Fund Interest Climbs",
-      "url": "https://finance.yahoo.com/energy/articles/fervo-energy-frvo-bags-power-004015387.html",
-      "published": "2026-09-02T00:40:15Z",
+      "title": "Texas Instruments Incorporated (TXN) Benefits from AI without Being Pure Play AI",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-incorporated-txn-benefits-142036141.html",
+      "published": "2026-09-03T14:20:36Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Best 2-year CD rates for September 2026: Lock in up to 4.3% through 2028",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-2-year-cd-rates-203147337.html",
-      "published": "2026-02-05T20:31:47Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Comstock Resources (CRK) Bags $2.1B New Deals, Climbs 11%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/comstock-resources-crk-bags-2-012439820.html",
-      "published": "2026-09-02T01:24:39Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Best 6-month CD rates for September 2026: Earn up to 4.15% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-6-month-cd-rates-161216488.html",
-      "published": "2026-01-09T16:12:16Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "South Korea\u2019s Inflation Rebounds Above 3%",
-      "url": "https://www.wsj.com/economy/south-koreas-inflation-rebounds-above-3-6a68d2c0?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-09-01T23:38:00Z",
+      "title": "Netherlands Moves Gold From New York to London, Citing Geopolitical Unrest",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/netherlands-moves-gold-york-london-114300354.html",
+      "published": "2026-09-03T14:50:00Z",
       "source": "The Wall Street Journal"
     },
     {
-      "title": "The best CD rates for September 2026: Earn up to 4.35% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-201308688.html",
-      "published": "2025-03-26T20:13:08Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Dropbox says about 5,000 accounts compromised in August hack",
-      "url": "https://finance.yahoo.com/technology/ai/articles/dropbox-says-5-000-accounts-015244256.html",
-      "published": "2026-09-02T01:52:44Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "10 best money market accounts and rates for September 2026: Rates up to 3.9% APY",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-accounts-rates-160154089.html",
-      "published": "2025-04-15T16:01:54Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Shell to Take Full Control of Tri Star Energy in U.S. Retail Push",
-      "url": "https://finance.yahoo.com/energy/articles/shell-full-control-tri-star-022524138.html",
-      "published": "2026-09-02T02:25:24Z",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "15 best new bank account promotions and bonuses for September 2026: Earn up to $3,000",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/new-bank-account-bonuses-214704427.html",
-      "published": "2024-09-18T21:47:04Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Is S&P Global Stock Underperforming the S&P 500?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-stock-underperforming-p-031556219.html",
-      "published": "2026-09-02T03:15:56Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Best car insurance companies in 2026",
-      "url": "https://finance.yahoo.com/personal-finance/insurance/article/best-car-insurance-220609280.html",
-      "published": "2025-10-21T22:06:09Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "MiniMed (MMED) Soars on Revenue Growth, Price Target Hike; Hedge Fund Conviction Weakens",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/minimed-mmed-soars-revenue-growth-033324812.html",
-      "published": "2026-09-02T03:33:24Z",
+      "title": "Andvari Associates Strategic Investment in Martin Marietta Materials (MLM)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/andvari-associates-strategic-investment-martin-141742133.html",
+      "published": "2026-09-03T14:17:42Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Alimentation Couche-Tard First-Quarter Profit Gains on Fuel Sales Growth",
-      "url": "https://www.wsj.com/business/earnings/alimentation-couche-tard-first-quarter-profit-gains-on-fuel-sales-growth-7615dcb5?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-09-01T23:46:00Z",
-      "source": "The Wall Street Journal"
+      "title": "Binance Founder \u2018CZ\u2019 Says Capital Is Returning To Crypto Market",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/binance-founder-cz-says-capital-141700689.html",
+      "published": "2026-09-03T14:17:00Z",
+      "source": "CryptoProwl"
     },
     {
-      "title": "Wells Fargo Active Cash Card review: Unlimited 2% cash rewards and generous intro APR",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/wells-fargo-active-cash-card-180512515.html",
-      "published": "2025-12-01T18:05:12Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Stocks edge up as Nvidia leads tech higher following Hugging Face deal announcement: AlphaCheck",
+      "url": "https://finance.yahoo.com/markets/article/stocks-edge-up-as-nvidia-leads-tech-higher-following-hugging-face-deal-announcement-alphacheck-140448366.html",
+      "published": "2026-09-03T14:04:48Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Do millionaires use credit cards? Yes, and so should you.",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/do-millionaires-use-credit-cards-234301938.html",
-      "published": "2024-04-23T23:43:01Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Stock Market Today: Nasdaq Leads As Fed's Waller Signals This; Snowflake Soars (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-broadcom-stock-avgo/?src=A00220&yptr=yahoo",
+      "published": "2026-09-03T14:14:28Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "Best credit cards for shopping on Amazon (2026)",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-shopping-on-amazon-212142241.html",
-      "published": "2025-11-19T21:21:42Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Accrual to acquire Puzzle\u2019s accounting firm business and software",
+      "url": "https://finance.yahoo.com/small-business/articles/accrual-acquire-puzzle-accounting-firm-144929376.html",
+      "published": "2026-09-03T14:49:29Z",
+      "source": "International Accounting Bulletin"
     },
     {
-      "title": "The best credit cards (2026): See our picks for the top cash-back, rewards, travel cards, and more",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-card-202825345.html",
-      "published": "2024-09-12T20:09:33Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Microsoft Corporation (MSFT) Generates Revenues and Profits Beyond AI Theme",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-generates-revenues-141420996.html",
+      "published": "2026-09-03T14:14:20Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "If the September Effect Hits Artificial Intelligence (AI) Stocks This Year, History Says This Is the Best Place to Hide",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/september-effect-hits-artificial-intelligence-235000496.html",
-      "published": "2026-09-01T23:50:00Z",
-      "source": "Motley Fool"
+      "title": "Why HPE Stock Is Falling Amid Fiscal Q3 Earnings Beat",
+      "url": "https://www.investors.com/news/technology/hpe-stock-hpe-earnings-news-july26/?src=A00220&yptr=yahoo",
+      "published": "2026-09-03T14:11:32Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Liquidia Corporation\u2019s (LQDA) Yutrepia Launch Continues to Outpace the Expectations",
+      "url": "https://finance.yahoo.com/healthcare/articles/liquidia-corporation-lqda-yutrepia-launch-141014617.html",
+      "published": "2026-09-03T14:10:14Z",
+      "source": "Insider Monkey"
     }
   ],
   "quotes": {
     "AAPL": {
-      "price": 324.96,
-      "prev_close": 325.13,
-      "change_pct": -0.05228677759665855
+      "price": 330.65,
+      "prev_close": 324.96,
+      "change_pct": 1.7509847365829636
     },
     "MSFT": {
-      "price": 496.82,
-      "prev_close": 501.02,
-      "change_pct": -0.8382898886271982
+      "price": 511.75,
+      "prev_close": 496.82,
+      "change_pct": 3.005112515599212
     },
     "NVDA": {
-      "price": 224.41,
-      "prev_close": 217.44,
-      "change_pct": 3.2054819720382626
+      "price": 226.6,
+      "prev_close": 224.41,
+      "change_pct": 0.9758923399135502
     },
     "GOOGL": {
-      "price": 337.12,
-      "prev_close": 335.02,
-      "change_pct": 0.6268282490597644
+      "price": 341.82,
+      "prev_close": 337.12,
+      "change_pct": 1.394162316089223
     },
     "AMZN": {
-      "price": 254.98,
-      "prev_close": 254.92,
-      "change_pct": 0.02353679585752482
+      "price": 257.9,
+      "prev_close": 254.98,
+      "change_pct": 1.1451878578712007
     },
     "META": {
-      "price": 592.85,
-      "prev_close": 578.54,
-      "change_pct": 2.473467694541442
+      "price": 614.06,
+      "prev_close": 592.85,
+      "change_pct": 3.5776334654634265
     },
     "TSLA": {
-      "price": 357.01,
-      "prev_close": 356.09,
-      "change_pct": 0.25836165014463086
+      "price": 381.33,
+      "prev_close": 357.01,
+      "change_pct": 6.812134113890365
     },
     "JPM": {
-      "price": 356.22,
-      "prev_close": 354.95,
-      "change_pct": 0.3577968727989967
+      "price": 360.3,
+      "prev_close": 356.22,
+      "change_pct": 1.1453596092302465
     },
     "V": {
-      "price": 378.4,
-      "prev_close": 372.67,
-      "change_pct": 1.537553331365541
+      "price": 378.82,
+      "prev_close": 378.4,
+      "change_pct": 0.11099365750528963
     },
     "XOM": {
-      "price": 164.15,
-      "prev_close": 164.55,
-      "change_pct": -0.2430872075357069
+      "price": 164.83,
+      "prev_close": 164.15,
+      "change_pct": 0.4142552543405463
     },
     "SPY": {
-      "price": 765.16,
-      "prev_close": 761.78,
-      "change_pct": 0.4436976554910861
+      "price": 771.16,
+      "prev_close": 765.16,
+      "change_pct": 0.7841497203199331
     },
     "QQQ": {
-      "price": 709.24,
-      "prev_close": 707.64,
-      "change_pct": 0.22610366853202515
+      "price": 715.94,
+      "prev_close": 709.24,
+      "change_pct": 0.944673171281942
     },
     "AMD": {
-      "price": 457.06,
-      "prev_close": 459.61,
-      "change_pct": -0.5548182154435307
+      "price": 455.78,
+      "prev_close": 457.06,
+      "change_pct": -0.2800507592001115
     },
     "NFLX": {
-      "price": 82.73,
-      "prev_close": 80.81,
-      "change_pct": 2.3759435713401826
+      "price": 82.45,
+      "prev_close": 82.73,
+      "change_pct": -0.3384503807566797
     },
     "COIN": {
-      "price": 174.96,
-      "prev_close": 176.82,
-      "change_pct": -1.051917203936198
+      "price": 190.47,
+      "prev_close": 174.96,
+      "change_pct": 8.864883401920434
     },
     "PLTR": {
-      "price": 169.46,
-      "prev_close": 179.92,
-      "change_pct": -5.813694975544675
+      "price": 182.345,
+      "prev_close": 169.46,
+      "change_pct": 7.603564262952904
     },
     "BRK-B": {
-      "price": 505.24,
-      "prev_close": 502.33,
-      "change_pct": 0.579300459857071
+      "price": 507.301,
+      "prev_close": 505.24,
+      "change_pct": 0.40792494656004646
     }
   },
-  "updated_at": "2026-09-03T11:40:44.309167+00:00",
+  "updated_at": "2026-09-03T15:11:42.260935+00:00",
   "source": "yahoo_finance"
 }
