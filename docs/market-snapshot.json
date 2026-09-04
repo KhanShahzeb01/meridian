@@ -41,7 +41,7 @@
         7747.7998046875,
         7747.7099609375
       ],
-      "as_of": "2026-09-04 01:06 UTC",
+      "as_of": "2026-09-04 05:46 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26584.21484375,
         26584.060546875
       ],
-      "as_of": "2026-09-04 01:06 UTC",
+      "as_of": "2026-09-04 05:46 UTC",
       "source": "yahoo"
     },
     {
@@ -93,8 +93,8 @@
       "name": "Dow Jones",
       "symbol": "^DJI",
       "price": 53686.11,
-      "change": 624.1600000000035,
-      "change_pct": 1.1762854550200352,
+      "change": 624.2099999999991,
+      "change_pct": 1.1763807929983643,
       "series": [
         52761.62890625,
         52760.9609375,
@@ -129,22 +129,17 @@
         53687.5390625,
         53686.109375
       ],
-      "as_of": "2026-09-04 01:06 UTC",
+      "as_of": "2026-09-04 05:46 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4532.7,
-      "change": -7.199999999999818,
-      "change_pct": -0.15859380162558245,
+      "price": 4515.3,
+      "change": -24.599999999999454,
+      "change_pct": -0.541862155554075,
       "series": [
-        4481.5,
-        4473.89990234375,
-        4468.7001953125,
-        4473.2001953125,
-        4480.39990234375,
         4490.2001953125,
         4493.2998046875,
         4540.89990234375,
@@ -170,25 +165,25 @@
         4520.7001953125,
         4526.89990234375,
         4521.2001953125,
-        4531.2998046875,
-        4532.7001953125
+        4532.89990234375,
+        4524.7001953125,
+        4518.10009765625,
+        4520.39990234375,
+        4513.7998046875,
+        4515.89990234375,
+        4515.2998046875
       ],
-      "as_of": "2026-09-04 01:06 UTC",
+      "as_of": "2026-09-04 05:46 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 91.55,
-      "change": 0.25,
-      "change_pct": 0.2738225629791895,
+      "price": 91.45,
+      "change": 0.15000000000000568,
+      "change_pct": 0.16429353778751993,
       "series": [
-        91.33000183105469,
-        91.47000122070312,
-        92.33999633789062,
-        92.6500015258789,
-        92.86000061035156,
         92.48999786376953,
         93.0199966430664,
         92.08000183105469,
@@ -214,10 +209,15 @@
         91.80000305175781,
         91.83000183105469,
         91.55999755859375,
-        91.5199966430664,
-        91.55000305175781
+        91.58000183105469,
+        91.77999877929688,
+        91.87000274658203,
+        91.61000061035156,
+        91.4000015258789,
+        91.43000030517578,
+        91.44999694824219
       ],
-      "as_of": "2026-09-04 01:06 UTC",
+      "as_of": "2026-09-04 05:46 UTC",
       "source": "yahoo"
     },
     {
@@ -261,34 +261,130 @@
         14.3100004196167,
         14.319999694824219
       ],
-      "as_of": "2026-09-04 01:06 UTC",
+      "as_of": "2026-09-04 05:46 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html",
-      "published": "2026-09-02T11:26:39Z",
+      "title": "Why you can't find McDonald's $3 value menu",
+      "url": "https://finance.yahoo.com/small-business/articles/mcdonalds-3-menu-problem-hits-231000768.html",
+      "published": "2026-09-02T23:10:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Michael Burry Called Nvidia\u2019s $95 Billion in Purchase Obligations \u2018Troubling\u2019 in February. Six Months Later, the Filings Show That Number Ballooned to $279 Billion.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-called-nvidia-95-180332650.html",
+      "published": "2026-09-02T18:03:32Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Bitcoin Climbed Back Above $80,000. Michael Saylor\u2019s Strategy Isn\u2019t Going to Zero, But Its Fate Rests on the Same Thing.",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-climbed-back-above-80-180424952.html",
+      "published": "2026-09-02T18:04:24Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Judge orders changes to Google's digital ads business but spares it from a breakup",
+      "url": "https://finance.yahoo.com/media-advertising/articles/judge-orders-changes-googles-digital-174147090.html",
+      "published": "2026-09-02T17:41:47Z",
+      "source": "Associated Press"
+    },
+    {
+      "title": "How to pay off student loans quickly: 8 strategies that work",
+      "url": "https://finance.yahoo.com/personal-finance/student-loans/article/paying-off-student-loans-184751746.html",
+      "published": "2024-02-22T18:02:11Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Silver price today, Wednesday, September 2, 2026:  Silver prices fall further following second wave of attacks",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-september-2-2026-silver-prices-fall-further-following-second-wave-of-attacks-105910854.html",
-      "published": "2026-09-02T10:59:10Z",
+      "title": "Chevron Bets $7 Billion on Venezuela Oil Expansion",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-bets-7-billion-venezuela-183100720.html",
+      "published": "2026-09-02T18:31:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "FitzMark\u2019s latest broker acquisition adds trade show logistics capabilities",
+      "url": "https://finance.yahoo.com/small-business/articles/fitzmark-latest-broker-acquisition-adds-183211875.html",
+      "published": "2026-09-02T18:32:11Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Money market account vs. Treasury bill: Which option is best for your savings?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/comparison/money-market-account-vs-treasury-bill-192105099.html",
+      "published": "2025-09-22T19:21:05Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Gold price today, Wednesday, September 2, 2026: Gold slips further as military actions escalate in Iran",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-2-2026-gold-slips-further-as-military-actions-escalate-in-iran-104514058.html",
-      "published": "2026-09-02T10:45:14Z",
+      "title": "Leveraged loan default rate dips further to 0.87%; distress ratio eases",
+      "url": "https://finance.yahoo.com/markets/options/articles/leveraged-loan-default-rate-dips-183717248.html",
+      "published": "2026-09-02T18:37:17Z",
+      "source": "Pitchbook"
+    },
+    {
+      "title": "Looking Beyond the Cloud Giants? Analysts Say Buy These 2 Overlooked Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/looking-beyond-cloud-giants-analysts-180035487.html",
+      "published": "2026-09-02T18:00:35Z",
+      "source": "TipRanks"
+    },
+    {
+      "title": "One Nuclear Signs Deal for 2.88-GW Gas-Fired Plant, Large BESS for Louisiana Data Center Campus",
+      "url": "https://finance.yahoo.com/energy/articles/one-nuclear-signs-deal-2-183826946.html",
+      "published": "2026-09-02T18:38:26Z",
+      "source": "POWER Magazine"
+    },
+    {
+      "title": "GoPro Shares Sizzle on YouTuber Markiplier Becoming Largest Shareholder. How to Play GPRO Stock Here.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gopro-shares-sizzle-youtuber-markiplier-184458777.html",
+      "published": "2026-09-02T18:44:58Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Eni Becomes Operator of 35-Billion-Barrel Venezuelan Oil Field",
+      "url": "https://finance.yahoo.com/energy/articles/eni-becomes-operator-35-billion-185551473.html",
+      "published": "2026-09-02T18:55:51Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Mortgage & refinance rates today, Wednesday, September 2, 2026: Rates up double digits as Iran war reescalates",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage--refinance-rates-today-wednesday-september-2-2026-rates-up-double-digits-as-iran-war-reescalates-100000964.html",
+      "published": "2026-09-02T10:00:00Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "TabaPay eyes OCC charter with Denver bank deal",
-      "url": "https://finance.yahoo.com/economy/policy/articles/tabapay-eyes-occ-charter-denver-125232976.html",
-      "published": "2026-09-02T12:52:32Z",
-      "source": "Banking Dive"
+      "title": "Adobe Stock Could Be a Big Winner From AI. Here\u2019s My 2027 Price Target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/adobe-stock-could-big-winner-180004219.html",
+      "published": "2026-09-02T18:00:04Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "What is the FDIC, and how does it work?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-the-fdic-and-how-does-it-work-102118542.html",
+      "published": "2023-12-15T22:26:49Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Where credit card balances are highest, and what it says about a K-shaped economy",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/where-credit-card-balances-are-highest-and-what-it-says-about-a-k-shaped-economy-143144084.html",
+      "published": "2026-09-02T14:31:44Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Will the housing market crash in 2026? Numbers look steady",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-numbers-look-steady-170038540.html",
+      "published": "2024-07-05T17:00:38Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Mortgage rate predictions through the next five years: What buyers can expect",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-through-the-next-five-years-what-buyers-can-expect-195826935.html",
+      "published": "2025-08-18T19:58:26Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Wall Street panicked over AI. Then came an 8-figure cybersecurity twist",
+      "url": "https://finance.yahoo.com/technology/ai/articles/wall-street-panicked-over-ai-180300698.html",
+      "published": "2026-09-02T18:03:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "Is the stock market open on Labor Day? Here's the holiday trading schedule for 2026.",
@@ -297,124 +393,28 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "The private sector added 38,000 jobs last month, missing expectations, ADP says",
-      "url": "https://finance.yahoo.com/economy/article/the-private-sector-added-38000-jobs-last-month-missing-expectations-adp-says-123035565.html",
-      "published": "2026-09-02T12:30:35Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Ceva Logistics sued over theft of employee records during data breach",
-      "url": "https://finance.yahoo.com/technology/articles/ceva-logistics-sued-over-theft-130730407.html",
-      "published": "2026-09-02T13:07:30Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "I was fired from my job just 1 year before I was set to retire at 70. What happens to my retirement plan now?",
-      "url": "https://finance.yahoo.com/markets/articles/fired-job-just-1-set-131000654.html",
-      "published": "2026-09-02T13:10:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Oklahoma-Based Taco Bell Operator Selects Oscar AI to Help with Store-Level Performance",
-      "url": "https://finance.yahoo.com/small-business/articles/oklahoma-based-taco-bell-operator-125339516.html",
-      "published": "2026-09-02T12:53:39Z",
-      "source": "QSR"
-    },
-    {
-      "title": "Is Prologis Stock Outperforming the S&P 500?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prologis-stock-outperforming-p-500-131404123.html",
-      "published": "2026-09-02T13:14:04Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Billionaire Portfolios: 2 Under-$20 Healthcare Stock Picks",
-      "url": "https://finance.yahoo.com/healthcare/articles/billionaire-portfolios-2-under-20-131558963.html",
-      "published": "2026-09-02T13:15:58Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Navigating Spotify Technology S.A.\u2019s (SPOT) AI Transformation and Revenue Growth Strategies",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/navigating-spotify-technology-spot-ai-131634467.html",
-      "published": "2026-09-02T13:16:34Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Ecommerce Evolution: Shopify\u2019s (SHOP) AI-Driven Approach to Retail Success",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ecommerce-evolution-shopify-shop-ai-131924519.html",
-      "published": "2026-09-02T13:19:24Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Tempus AI Director Nadja West Sells 3,000 Shares for $207,000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tempus-ai-director-nadja-west-125501251.html",
-      "published": "2026-09-02T12:55:01Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "How Is Boston Scientific's Stock Performance Compared to Other Medical Device Stocks?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/boston-scientifics-stock-performance-compared-132328388.html",
-      "published": "2026-09-02T13:23:28Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "MongoDB Stock Tumbles Despite An Earnings Beat. Here's Why.",
-      "url": "https://www.investors.com/news/technology/mongodb-stock-q2-2026-earnings-report/?src=A00220&yptr=yahoo",
-      "published": "2026-09-02T13:24:19Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Strength in Specialty: Carpenter Technology\u2019s (CRS) Drive in Aerospace Materials",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/strength-specialty-carpenter-technology-crs-132437581.html",
-      "published": "2026-09-02T13:24:37Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Best CD rates today, Wednesday, September 2, 2026: Earn up to 4.30% APY with Marcus",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-september-2-2026-earn-up-to-430-apy-with-marcus-100000651.html",
-      "published": "2026-09-02T10:00:00Z",
+      "title": "Wells Fargo Autograph Journey\u00ae Card  review: A high-earning card designed for frequent travelers",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/wells-fargo-autograph-journey-card-review-215134623.html",
+      "published": "2024-09-05T18:26:17Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Exploring Semiconductor Resurgence: Lam Research\u2019s (LRCX) Role in Advanced Chip Manufacturing",
-      "url": "https://finance.yahoo.com/technology/articles/exploring-semiconductor-resurgence-lam-research-132749439.html",
-      "published": "2026-09-02T13:27:49Z",
-      "source": "Insider Monkey"
+      "title": "Discover Q3 2026 rewards calendar \u2014 Earn 5% cash back at gas stations, on transportation, and at drug stores",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/discover-rewards-calendar-163005023.html",
+      "published": "2024-09-17T16:30:05Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "India Boosts Far East Russian Oil Imports as War Upends Trade Routes",
-      "url": "https://finance.yahoo.com/energy/articles/india-boosts-far-east-russian-133000476.html",
-      "published": "2026-09-02T13:30:00Z",
-      "source": "Oilprice.com"
+      "title": "Bitcoin and ethereum prices today, Wednesday, September 2, 2026: Crypto prices tumble as Iran war reignites",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-2-2026-crypto-prices-tumble-as-iran-war-reignites-112639522.html",
+      "published": "2026-09-02T11:26:39Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Entertainment Unleashed: Sphere Entertainment\u2019s (SPHR) Innovative Approaches",
-      "url": "https://finance.yahoo.com/media-advertising/articles/entertainment-unleashed-sphere-entertainment-sphr-133635919.html",
-      "published": "2026-09-02T13:36:35Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Trading Volumes On Kalshi And Polymarket Fell 15% In August",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/trading-volumes-kalshi-polymarket-fell-133700809.html",
-      "published": "2026-09-02T13:37:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Del Monte enters fresh fruit joint venture in China",
-      "url": "https://finance.yahoo.com/small-business/articles/del-monte-enters-fresh-fruit-125631850.html",
-      "published": "2026-09-02T12:56:31Z",
-      "source": "Just Food"
-    },
-    {
-      "title": "Intercontinental Exchange (ICE) Stays Resilient Amidst Competition and Innovation",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intercontinental-exchange-ice-stays-resilient-133814022.html",
-      "published": "2026-09-02T13:38:14Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "If You Have Some \u2018Silly\u2019 Money, United Microelectronics (UMC) Stock Is Worth a Look",
-      "url": "https://finance.yahoo.com/markets/options/articles/silly-money-united-microelectronics-umc-133942160.html",
-      "published": "2026-09-02T13:39:42Z",
-      "source": "Barchart"
+      "title": "Striking Oil: How the U.S. Play for Venezuela Fuels Supermajors",
+      "url": "https://finance.yahoo.com/energy/articles/striking-oil-u-play-venezuela-175500812.html",
+      "published": "2026-09-02T17:55:00Z",
+      "source": "MarketBeat"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.572005383580078
     }
   },
-  "updated_at": "2026-09-04T01:06:15.288111+00:00",
+  "updated_at": "2026-09-04T05:46:46.038475+00:00",
   "source": "yahoo_finance"
 }
