@@ -41,7 +41,7 @@
         7717.81005859375,
         7718.60009765625
       ],
-      "as_of": "2026-09-05 01:08 UTC",
+      "as_of": "2026-09-05 05:40 UTC",
       "source": "yahoo"
     },
     {
@@ -49,8 +49,8 @@
       "name": "NASDAQ",
       "symbol": "^IXIC",
       "price": 26506.99,
-      "change": -77.06999999999971,
-      "change_pct": -0.28991057046967134,
+      "change": -77.10999999999694,
+      "change_pct": -0.2900606001331508,
       "series": [
         26202.5546875,
         26209.728515625,
@@ -85,7 +85,7 @@
         26505.435546875,
         26506.990234375
       ],
-      "as_of": "2026-09-05 01:08 UTC",
+      "as_of": "2026-09-05 05:40 UTC",
       "source": "yahoo"
     },
     {
@@ -93,8 +93,8 @@
       "name": "Dow Jones",
       "symbol": "^DJI",
       "price": 53414.25,
-      "change": -271.8600000000006,
-      "change_pct": -0.5063879651552339,
+      "change": -271.84999999999854,
+      "change_pct": -0.5063694326836901,
       "series": [
         53020.421875,
         53006.359375,
@@ -129,17 +129,18 @@
         53406.91015625,
         53414.25
       ],
-      "as_of": "2026-09-05 01:08 UTC",
+      "as_of": "2026-09-05 05:40 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4477.2,
-      "change": -62.69999999999982,
-      "change_pct": -1.381087689156145,
+      "price": 4476.6,
+      "change": -63.29999999999927,
+      "change_pct": -1.3943038392915985,
       "series": [
+        4513.7998046875,
         4518.2001953125,
         4515.2001953125,
         4509.5,
@@ -170,20 +171,20 @@
         4482.7998046875,
         4482.0,
         4477.2998046875,
-        4477.2001953125,
         4477.2001953125
       ],
-      "as_of": "2026-09-05 01:08 UTC",
+      "as_of": "2026-09-05 05:40 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 91.22,
-      "change": -0.0799999999999983,
-      "change_pct": -0.08762322015333877,
+      "price": 91.48,
+      "change": 0.18000000000000682,
+      "change_pct": 0.1971522453450239,
       "series": [
+        91.4000015258789,
         91.41000366210938,
         91.44000244140625,
         91.41999816894531,
@@ -214,10 +215,9 @@
         91.48999786376953,
         91.36000061035156,
         91.23999786376953,
-        91.22000122070312,
         91.22000122070312
       ],
-      "as_of": "2026-09-05 01:08 UTC",
+      "as_of": "2026-09-05 05:40 UTC",
       "source": "yahoo"
     },
     {
@@ -261,28 +261,142 @@
         14.520000457763672,
         14.529999732971191
       ],
-      "as_of": "2026-09-05 01:08 UTC",
+      "as_of": "2026-09-05 05:40 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-rebound-ethereum-xrp-181507329.html",
-      "published": "2026-09-03T18:15:07Z",
-      "source": "decrypt"
+      "title": "Nvidia\u2019s $12.93 Billion Hugging Face Deal Expands Jensen Huang's AI Platform Beyond Chips",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-12-93-billion-hugging-223301230.html",
+      "published": "2026-09-03T22:33:01Z",
+      "source": "Motley Fool"
     },
     {
-      "title": "Arrive Logistics Deal: No Debt, More Growth",
-      "url": "https://finance.yahoo.com/small-business/articles/arrive-logistics-deal-no-debt-181250646.html",
-      "published": "2026-09-03T18:12:50Z",
+      "title": "AI Data Center Boom Pushes U.S. Power Equipment to the Breaking Point",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-data-center-boom-pushes-220000299.html",
+      "published": "2026-09-03T22:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Wheat Faces Thursday Losses on Putin Comments",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/wheat-faces-thursday-losses-putin-215523026.html",
+      "published": "2026-09-03T21:55:23Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Why Oil Majors Don\u2019t Want to Build New U.S. Refineries",
+      "url": "https://finance.yahoo.com/energy/articles/why-oil-majors-don-t-230000574.html",
+      "published": "2026-09-03T23:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Jim Cramer Notes Cardinal Health (CAH) is \u201cToo Attractive to Ignore\u201d",
+      "url": "https://finance.yahoo.com/healthcare/articles/jim-cramer-notes-cardinal-health-215255968.html",
+      "published": "2026-09-03T21:52:55Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Someone Just Staked $10 Million That Musk\u2019s SpaceX Will Reclaim a Price It Lost in June",
+      "url": "https://finance.yahoo.com/markets/options/articles/someone-just-staked-10-million-223603108.html",
+      "published": "2026-09-03T22:36:03Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Jim Cramer on Rubrik (RBRK): \u201cIt Just Came in Maybe Too Hot\u201d",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-rubrik-rbrk-just-214604104.html",
+      "published": "2026-09-03T21:46:04Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Cheapest Freight Isn\u2019t Best When Delays Cost Millions",
+      "url": "https://finance.yahoo.com/small-business/articles/cheapest-freight-isn-t-best-214428379.html",
+      "published": "2026-09-03T21:44:28Z",
       "source": "FreightWaves"
     },
     {
-      "title": "C3.ai Bookings Jumped 73% and Free Cash Flow Turned Positive. Is the $7 Bear Case Breaking?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/c3-ai-bookings-jumped-73-181121648.html",
-      "published": "2026-09-03T18:11:21Z",
+      "title": "Nvidia\u2019s $5 Billion Intel Bet Was Worth $30 Billion by June. Is the Partnership Still Mispriced?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-billion-intel-bet-213940172.html",
+      "published": "2026-09-03T21:39:40Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Palladyne AI\u2019s Revenue Jumped 470%, but Its Operating Loss Widened. Is the Backlog Enough?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/palladyne-ai-revenue-jumped-470-213636719.html",
+      "published": "2026-09-03T21:36:36Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Oura files to go public",
+      "url": "https://finance.yahoo.com/healthcare/articles/oura-files-public-223541773.html",
+      "published": "2026-09-03T22:35:41Z",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Coinbase files for SEC approval to offer equity perpetuals",
+      "url": "https://finance.yahoo.com/news/coinbase-files-sec-approval-offer-212348530.html",
+      "published": "2026-09-03T21:30:53Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "This Chip Equipment Stock Just Raised Its Dividend by 26.9%.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/chip-equipment-stock-just-raised-233002238.html",
+      "published": "2026-09-03T23:30:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Factbox-EU ban on animal products affects $1.8 billion in Brazilian exports",
+      "url": "https://finance.yahoo.com/economy/policy/articles/factbox-eu-ban-animal-products-234605178.html",
+      "published": "2026-09-03T23:46:05Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Samsara Q2 revenue jumps 30% as transportation, Mexico fuel growth",
+      "url": "https://finance.yahoo.com/technology/articles/samsara-q2-revenue-jumps-30-234940982.html",
+      "published": "2026-09-03T23:49:40Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Why Credo Technology Sank This Week",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-credo-technology-sank-week-223730566.html",
+      "published": "2026-09-03T22:37:30Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Hilton Food Serves Up a Guidance Upgrade",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hilton-food-serves-guidance-upgrade-063349424.html",
+      "published": "2026-09-03T21:21:18Z",
+      "source": "Moby"
+    },
+    {
+      "title": "U.S.-Venezuela Oil Deal Threatens China\u2019s Oil-Backed Loans",
+      "url": "https://finance.yahoo.com/energy/articles/u-venezuela-oil-deal-threatens-000000778.html",
+      "published": "2026-09-04T00:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Best private student loans for September 2026",
+      "url": "https://finance.yahoo.com/personal-finance/student-loans/article/best-private-student-loans-135459013.html",
+      "published": "2026-05-13T13:54:59Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "What is a mutual bank, and what are the benefits of joining one?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/mutual-banks-190317757.html",
+      "published": "2024-09-11T19:03:17Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Eaton Stock Looks Expensive Until You Price The Factory Ramp",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-stock-looks-expensive-until-222901628.html",
+      "published": "2026-09-03T22:29:01Z",
+      "source": "Trefis"
+    },
+    {
+      "title": "How to make more money\u200b with a side gig: 6 tips for success",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/how-to-make-more-money-side-gig-162713006.html",
+      "published": "2025-09-02T16:27:13Z",
+      "source": "Yahoo Personal Finance"
     },
     {
       "title": "U.S. Bank Shield Visa Card review: 0% APR for 21 months on purchases and balance transfers",
@@ -291,130 +405,16 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "LivePerson Shareholders Approved SoundHound\u2019s Deal. Does Closing Solve the Hard Part?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/liveperson-shareholders-approved-soundhound-deal-180827339.html",
-      "published": "2026-09-03T18:08:27Z",
-      "source": "Insider Monkey"
+      "title": "When will mortgage rates go down? The signs to watch for.",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/when-will-mortgage-rates-go-down-the-signs-to-watch-for-190610094.html",
+      "published": "2025-04-22T19:06:10Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "KFC Global Names Amy Ellis Durini Chief Brand Officer",
-      "url": "https://finance.yahoo.com/media-advertising/articles/kfc-global-names-amy-ellis-181516220.html",
-      "published": "2026-09-03T18:15:16Z",
-      "source": "QSR"
-    },
-    {
-      "title": "After Nvidia\u2019s Earnings Pop, Options Traders Set Their Sights on $260. What It Will Take to Get There.",
-      "url": "https://finance.yahoo.com/markets/options/articles/nvidia-earnings-pop-options-traders-180636088.html",
-      "published": "2026-09-03T18:06:36Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Soluna\u2019s Revenue Rose 73% Excluding an Accounting Change. Can Its AI Pipeline Deliver?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/soluna-revenue-rose-73-excluding-182156379.html",
-      "published": "2026-09-03T18:21:56Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Calls Dell\u2019s (DELL) Quarter One of the Best He Has Ever Seen",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-calls-dell-dell-182423022.html",
-      "published": "2026-09-03T18:24:23Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-faces-mixed-outlook-182923490.html",
-      "published": "2026-09-03T18:29:23Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Luxury real estate developer files for Chapter 11 bankruptcy",
-      "url": "https://finance.yahoo.com/real-estate/articles/luxury-real-estate-developer-files-181357589.html",
-      "published": "2026-09-03T18:13:57Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Outperforming Pharma Stock Still Has Upside Potential",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/outperforming-pharma-stock-still-upside-182926019.html",
-      "published": "2026-09-03T18:29:26Z",
-      "source": "Schaeffer's Investment Research"
-    },
-    {
-      "title": "Duolingo Jumped After Evercore Doubled Its Target to $210. Are ChatGPT Fears Finally Breaking?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-jumped-evercore-doubled-target-183341111.html",
-      "published": "2026-09-03T18:33:41Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Riot Platforms Stock Could Extend Today's Rally",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/riot-platforms-stock-could-extend-183759019.html",
-      "published": "2026-09-03T18:37:59Z",
-      "source": "Schaeffer's Investment Research"
-    },
-    {
-      "title": "Jim Cramer Wants NVIDIA (NVDA) to Bet $500 Billion on Itself as AI Financing Risks Grow",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-wants-nvidia-nvda-175615939.html",
-      "published": "2026-09-03T17:56:15Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Caribou Coffee Names Zane Thomas-Rogers COO",
-      "url": "https://finance.yahoo.com/small-business/articles/caribou-coffee-names-zane-thomas-181634756.html",
-      "published": "2026-09-03T18:16:34Z",
-      "source": "QSR"
-    },
-    {
-      "title": "Peter Thiel\u2019s Fund Disclosed $59 Million in This Beaten-Down Power Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/peter-thiel-fund-disclosed-59-185030291.html",
-      "published": "2026-09-03T18:50:30Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Explains Why CrowdStrike (CRWD) Upended the Tech Bear Thesis",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-crowdstrike-185416478.html",
-      "published": "2026-09-03T18:54:16Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Explains the Reason Behind Caterpillar\u2019s (CAT) Post-Earnings Pullbacks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-reason-behind-175242696.html",
-      "published": "2026-09-03T17:52:42Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "How High Can World Sugar Futures Rise?",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/high-world-sugar-futures-rise-190003341.html",
-      "published": "2026-09-03T19:00:03Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "U.S. Stocks Climb as Treasury Yields Retreat on Waller\u2019s Rate Comments",
-      "url": "https://www.wsj.com/finance/stocks/bond-selloff-pauses-stocks-tread-water-as-traders-watch-for-yen-intervention-25a7e983?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-09-03T18:17:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "Jim Cramer Prefers Lockheed Martin Over General Dynamics as Defense Demand Accelerates",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-prefers-lockheed-martin-174643632.html",
-      "published": "2026-09-03T17:46:43Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "BNB Price Forecast: $740 Break Could Open Path to $825",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bnb-price-forecast-740-break-174538399.html",
-      "published": "2026-09-03T17:45:38Z",
-      "source": "FX Empire"
-    },
-    {
-      "title": "Standard Chartered Launches Spot Bitcoin, Ether Trading for UAE Institutions",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/standard-chartered-launches-spot-bitcoin-174300514.html",
-      "published": "2026-09-03T17:43:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Financial Outperformance and Demand Tailwinds Lead to Bullish Narrative Around CoreCivic (CXW)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/financial-outperformance-demand-tailwinds-lead-191028799.html",
-      "published": "2026-09-03T19:10:28Z",
-      "source": "Insider Monkey"
+      "title": "Mortgage rates hit highest level in over a year: Mortgage and refinance interest rates today, Thursday, September 3, 2026",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rates-hit-highest-level-in-over-a-year-mortgage-and-refinance-interest-rates-today-thursday-september-3-2026-100000627.html",
+      "published": "2026-09-03T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -0.41328006612481505
     }
   },
-  "updated_at": "2026-09-05T01:08:41.884807+00:00",
+  "updated_at": "2026-09-05T05:40:47.076738+00:00",
   "source": "yahoo_finance"
 }
