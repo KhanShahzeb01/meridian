@@ -41,7 +41,7 @@
         7637.7001953125,
         7636.35986328125
       ],
-      "as_of": "2026-09-09 21:07 UTC",
+      "as_of": "2026-09-09 23:10 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26255.103515625,
         26253.33984375
       ],
-      "as_of": "2026-09-09 21:07 UTC",
+      "as_of": "2026-09-09 23:10 UTC",
       "source": "yahoo"
     },
     {
@@ -129,20 +129,17 @@
         52391.48046875,
         52380.66015625
       ],
-      "as_of": "2026-09-09 21:07 UTC",
+      "as_of": "2026-09-09 23:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4446.1,
-      "change": 7.100000000000364,
-      "change_pct": 0.15994593376887506,
+      "price": 4445.4,
+      "change": -15.300000000000182,
+      "change_pct": -0.34299549398076945,
       "series": [
-        4442.2998046875,
-        4441.60009765625,
-        4444.7001953125,
         4451.39990234375,
         4452.89990234375,
         4443.7001953125,
@@ -170,22 +167,23 @@
         4445.10009765625,
         4444.39990234375,
         4440.39990234375,
-        4446.2001953125,
-        4446.10009765625
+        4447.2001953125,
+        4446.7001953125,
+        4443.89990234375,
+        4446.0,
+        4445.39990234375
       ],
-      "as_of": "2026-09-09 21:07 UTC",
+      "as_of": "2026-09-09 23:10 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 96.68,
-      "change": 3.6500000000000057,
-      "change_pct": 3.9234655487477217,
+      "price": 96.97,
+      "change": 0.9200000000000017,
+      "change_pct": 0.9578344612181173,
       "series": [
-        93.83999633789062,
-        94.33000183105469,
         94.22000122070312,
         94.56999969482422,
         94.47000122070312,
@@ -214,10 +212,12 @@
         96.33000183105469,
         96.66000366210938,
         96.73999786376953,
-        96.69000244140625,
-        96.68000030517578
+        96.66999816894531,
+        97.0199966430664,
+        96.97000122070312,
+        96.97000122070312
       ],
-      "as_of": "2026-09-09 21:07 UTC",
+      "as_of": "2026-09-09 23:10 UTC",
       "source": "yahoo"
     },
     {
@@ -261,160 +261,160 @@
         16.459999084472656,
         16.459999084472656
       ],
-      "as_of": "2026-09-09 21:07 UTC",
+      "as_of": "2026-09-09 23:10 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "UNFI\u2019s natural sales rise as conventional segment declines",
-      "url": "https://finance.yahoo.com/small-business/articles/unfi-natural-sales-rise-conventional-123100324.html",
-      "published": "2026-09-08T12:31:00Z",
-      "source": "Grocery Dive"
+      "title": "Robinhood Partners with Crypto.com to Expand Prediction Markets",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/robinhood-partners-crypto-com-expand-151600729.html",
+      "published": "2026-09-08T15:16:00Z",
+      "source": "CryptoProwl"
     },
     {
-      "title": "DexCom Stock: Is DXCM Underperforming the Healthcare Sector?",
-      "url": "https://finance.yahoo.com/healthcare/articles/dexcom-stock-dxcm-underperforming-healthcare-123657602.html",
-      "published": "2026-09-08T12:36:57Z",
+      "title": "Qdoba franchisee defaults on $20 million loan",
+      "url": "https://finance.yahoo.com/small-business/articles/qdoba-franchisee-defaults-20-million-151826300.html",
+      "published": "2026-09-08T15:18:26Z",
+      "source": "Nation's Restaurant News"
+    },
+    {
+      "title": "Is Newmont Stock Outperforming the Nasdaq?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/newmont-stock-outperforming-nasdaq-151356607.html",
+      "published": "2026-09-08T15:13:56Z",
       "source": "Barchart"
     },
     {
-      "title": "AI Stocks: OpenAI Declares The 'AGI Era' Is Here Amid IPO Fervor",
-      "url": "https://www.investors.com/news/technology/ai-stocks-artificial-intelligence-stocks-sept82026/?src=A00220&yptr=yahoo",
-      "published": "2026-09-08T12:31:15Z",
-      "source": "Investor's Business Daily"
+      "title": "Bitmine Buys $69M in Ether, Closes In on 5% of Ethereum Supply",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-69m-ether-closes-151900594.html",
+      "published": "2026-09-08T15:19:00Z",
+      "source": "CryptoProwl"
     },
     {
-      "title": "Is Sempra Stock Underperforming the Dow?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sempra-stock-underperforming-dow-123021118.html",
-      "published": "2026-09-08T12:30:21Z",
+      "title": "Diesel prices just smashed a 2022 record, but it's not only trucks that are taking a hit. What it means for your wallet",
+      "url": "https://finance.yahoo.com/energy/articles/diesel-prices-just-smashed-2022-151500785.html",
+      "published": "2026-09-08T15:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "After the Dip, Intel\u2019s $20 Billion Raise Is Not the Red Flag It Originally Looked Like",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dip-intel-20-billion-raise-151920658.html",
+      "published": "2026-09-08T15:19:20Z",
       "source": "Barchart"
     },
     {
-      "title": "How Is Ross Stores\u2019 Stock Performance Compared to Other Retail Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ross-stores-stock-performance-compared-122555664.html",
-      "published": "2026-09-08T12:25:55Z",
+      "title": "NuScale Power Spikes 13%, Oklo Climbs 7%: Is the Nuclear Selloff Finally Exhausted?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-spikes-13-oklo-151349633.html",
+      "published": "2026-09-08T15:13:49Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "Oil Prices Are Once Again on the Brink of $100",
+      "url": "https://finance.yahoo.com/energy/articles/oil-prices-once-again-brink-151318211.html",
+      "published": "2026-09-08T15:13:18Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Inflation Concerns Weigh on Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/inflation-concerns-weigh-stocks-151229208.html",
+      "published": "2026-09-08T15:12:29Z",
       "source": "Barchart"
     },
     {
-      "title": "Uber\u2019s Wayve Deal Shows How It Wants to Win Without Building Cars",
-      "url": "https://finance.yahoo.com/technology/ai/articles/uber-wayve-deal-shows-wants-123500122.html",
-      "published": "2026-09-08T12:35:00Z",
-      "source": "MarketBeat"
+      "title": "Rubis Turns Expensive Oil Into a Guidance Upgrade",
+      "url": "https://finance.yahoo.com/energy/articles/rubis-turns-expensive-oil-guidance-150910219.html",
+      "published": "2026-09-08T15:09:10Z",
+      "source": "Moby"
     },
     {
-      "title": "Quantum Computing Stocks: IonQ Hosts Investor Day With SkyWater Deal In Focus",
-      "url": "https://www.investors.com/news/technology/quantum-computing-stocks-ionq-stock-investor-day-skywater/?src=A00220&yptr=yahoo",
-      "published": "2026-09-08T12:42:57Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Oil prices approach $100 as Middle East conflict flares, Goldman sees potential upside to $120",
-      "url": "https://finance.yahoo.com/markets/article/oil-prices-approach-100-as-middle-east-conflict-flares-goldman-sees-potential-upside-to-120-122234220.html",
-      "published": "2026-09-08T12:22:34Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Lean Solutions Group acquires SupportZebra, expands AI-enabled outsourcing",
-      "url": "https://finance.yahoo.com/technology/ai/articles/lean-solutions-group-acquires-supportzebra-125013967.html",
-      "published": "2026-09-08T12:50:13Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "Twist Bioscience (TWST) Rallied as AI and Pharma Drive DNA Demand",
-      "url": "https://finance.yahoo.com/healthcare/articles/twist-bioscience-twst-rallied-ai-125315032.html",
-      "published": "2026-09-08T12:53:15Z",
+      "title": "Hewlett Packard Enterprise Company (HPE) Jumps on Surging AI Infrastructure Demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/hewlett-packard-enterprise-company-hpe-150418396.html",
+      "published": "2026-09-08T15:04:18Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Why Micron Technology Stock Surged 16.5% Last Month",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-micron-technology-stock-surged-123304442.html",
-      "published": "2026-09-08T12:33:04Z",
+      "title": "Where Will CRISPR Therapeutics Stock Be in 5 Years?",
+      "url": "https://finance.yahoo.com/healthcare/articles/where-crispr-therapeutics-stock-5-152000426.html",
+      "published": "2026-09-08T15:20:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Wheat Posting Tuesday AM Strength Following Lack of Peace Talks Progress",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/wheat-posting-tuesday-am-strength-122129723.html",
-      "published": "2026-09-08T12:21:29Z",
+      "title": "\u2018Are you going to get money back to the American people?\u2019 asks Senator Warren on tariff refund checks. Here\u2019s the answer",
+      "url": "https://finance.yahoo.com/economy/policy/articles/going-money-back-american-people-150500819.html",
+      "published": "2026-09-08T15:05:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "An AI Stock Launched a Rack-Scale System 30x Faster Than Nvidia\u2019s GPUs. Here\u2019s Why It Is Still a Risky Buy.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-launched-rack-scale-152605499.html",
+      "published": "2026-09-08T15:26:05Z",
       "source": "Barchart"
     },
     {
-      "title": "Soybeans Slipping Out of Labor Day Weekend",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-slipping-labor-day-weekend-122129379.html",
-      "published": "2026-09-08T12:21:29Z",
+      "title": "Rocket Lab Keeps Landing Defense Deals. Here\u2019s Why Analysts Aren\u2019t Getting More Bullish.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-keeps-landing-defense-150203675.html",
+      "published": "2026-09-08T15:02:03Z",
       "source": "Barchart"
     },
     {
-      "title": "Roblox (RBLX) Faces a Growth Reset After Guidance Cuts \u2014 Is the Long-Term Story Still Intact?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-rblx-faces-growth-reset-125058886.html",
-      "published": "2026-09-08T12:50:58Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Is ONEOK Stock Outperforming the Dow?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oneok-stock-outperforming-dow-121904160.html",
-      "published": "2026-09-08T12:19:04Z",
+      "title": "Truist Financial Stock: Is TFC Outperforming the Financial Sector?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/truist-financial-stock-tfc-outperforming-150054524.html",
+      "published": "2026-09-08T15:00:54Z",
       "source": "Barchart"
     },
     {
-      "title": "Nike Is In Free Fall: This Wall Street Ratings Agency Says It\u2019s Doubling Soon",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nike-free-fall-wall-street-122753002.html",
-      "published": "2026-09-08T12:27:53Z",
+      "title": "Here\u2019s How Much You Need Invested to Collect $1,000 a Month in Dividends",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/much-invested-collect-1-000-151100105.html",
+      "published": "2026-09-08T15:11:00Z",
       "source": "24/7 Wall St."
     },
     {
-      "title": "Is Block Underperforming the Nasdaq?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/block-underperforming-nasdaq-121333253.html",
-      "published": "2026-09-08T12:13:33Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Tesla Sales In China Continue Negative Streak; Exports Reach Key Level",
-      "url": "https://www.investors.com/news/tesla-china-shanghai-byd-geely-leapmotor-xiaomi/?src=A00220&yptr=yahoo",
-      "published": "2026-09-08T12:09:58Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Artisan Added Comfort Systems USA (FIX) as Data\u00a0Center\u00a0Demand Accelerates",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/artisan-added-comfort-systems-usa-125646541.html",
-      "published": "2026-09-08T12:56:46Z",
+      "title": "Arrow Electronics (ARW) Stock Rises Sharply Amid AI Infrastructure Surge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-stock-rises-145958037.html",
+      "published": "2026-09-08T14:59:58Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "General Motors\u2019 Stock: Is GM Outperforming the Consumer Discretionary Sector?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/general-motors-stock-gm-outperforming-115948399.html",
-      "published": "2026-09-08T11:59:48Z",
+      "title": "Harbor Mid Cap Value Fund Trimmed State Street (STT) Following Appreciation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/harbor-mid-cap-value-fund-145808947.html",
+      "published": "2026-09-08T14:58:08Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Middle East Hostilities Underpin Crude Oil Prices",
+      "url": "https://finance.yahoo.com/energy/articles/middle-east-hostilities-underpin-crude-152954672.html",
+      "published": "2026-09-08T15:29:54Z",
       "source": "Barchart"
     },
     {
-      "title": "The Enterprise AI Fight Has a New Challenger and It Is Not Who You Would Expect",
-      "url": "https://finance.yahoo.com/technology/ai/articles/enterprise-ai-fight-challenger-not-123756642.html",
-      "published": "2026-09-08T12:37:56Z",
+      "title": "Is Williams Companies Stock Outperforming the Dow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/williams-companies-stock-outperforming-dow-145649893.html",
+      "published": "2026-09-08T14:56:49Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "5 Monthly Dividend Payers Boomers Have Quietly Made Core Holdings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-monthly-dividend-payers-boomers-151018237.html",
+      "published": "2026-09-08T15:10:18Z",
       "source": "24/7 Wall St."
     },
     {
-      "title": "How Is Aflac\u2019s Stock Performance Compared to Other Insurance Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/aflac-stock-performance-compared-other-115607145.html",
-      "published": "2026-09-08T11:56:07Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Is Copart Stock Underperforming the S&P 500?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/copart-stock-underperforming-p-500-115215710.html",
-      "published": "2026-09-08T11:52:15Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Grain Traders Are Closely Eyeballing Black Sea Region Grain Shipping as Wheat, Corn Prices Fall",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/grain-traders-closely-eyeballing-black-130002713.html",
-      "published": "2026-09-08T13:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Artisan Sold\u00a0Insulet\u00a0(PODD) Due to Competition Concerns",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/artisan-sold-insulet-podd-due-130010972.html",
-      "published": "2026-09-08T13:00:10Z",
+      "title": "Here\u2019s Why Analysts Downgraded Matador Resources Company (MTDR)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-analysts-downgraded-matador-resources-145613030.html",
+      "published": "2026-09-08T14:56:13Z",
       "source": "Insider Monkey"
+    },
+    {
+      "title": "Sugar Prices Are Climbing Higher. How to Trade Them Here.",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/sugar-prices-climbing-higher-trade-153205875.html",
+      "published": "2026-09-08T15:32:05Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Is Simon Property Stock Underperforming the Nasdaq?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/simon-property-stock-underperforming-nasdaq-145319701.html",
+      "published": "2026-09-08T14:53:19Z",
+      "source": "Barchart"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.17594844117589767
     }
   },
-  "updated_at": "2026-09-09T21:07:51.259623+00:00",
+  "updated_at": "2026-09-09T23:10:28.104122+00:00",
   "source": "yahoo_finance"
 }
