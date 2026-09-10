@@ -4,9 +4,9 @@
       "id": "sp500",
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7591.77,
-      "change": -44.589999999999236,
-      "change_pct": -0.5839169447223447,
+      "price": 7591.7,
+      "change": -44.659999999999854,
+      "change_pct": -0.5848336118255275,
       "series": [
         7690.39013671875,
         7693.009765625,
@@ -39,9 +39,9 @@
         7591.08984375,
         7589.31005859375,
         7592.2998046875,
-        7591.77001953125
+        7591.7001953125
       ],
-      "as_of": "2026-09-10 20:03 UTC",
+      "as_of": "2026-09-10 22:28 UTC",
       "source": "yahoo"
     },
     {
@@ -85,16 +85,16 @@
         26083.951171875,
         26081.724609375
       ],
-      "as_of": "2026-09-10 20:03 UTC",
+      "as_of": "2026-09-10 22:28 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 52064.4,
-      "change": -316.26000000000204,
-      "change_pct": -0.6037724610571955,
+      "price": 52064.1,
+      "change": -316.56000000000495,
+      "change_pct": -0.6043451915268058,
       "series": [
         52893.640625,
         52882.5703125,
@@ -127,22 +127,19 @@
         51996.109375,
         51988.94140625,
         52067.01953125,
-        52064.3984375
+        52064.1015625
       ],
-      "as_of": "2026-09-10 20:03 UTC",
+      "as_of": "2026-09-10 22:28 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4363.3,
-      "change": -97.39999999999964,
-      "change_pct": -2.183513798282773,
+      "price": 4361.3,
+      "change": -46.0,
+      "change_pct": -1.0437229142558937,
       "series": [
-        4451.39990234375,
-        4463.60009765625,
-        4475.0,
         4460.7998046875,
         4469.2998046875,
         4451.7998046875,
@@ -171,22 +168,22 @@
         4374.39990234375,
         4368.7998046875,
         4365.7001953125,
-        4363.2998046875
+        4359.7998046875,
+        4358.5,
+        4360.7998046875,
+        4361.2998046875
       ],
-      "as_of": "2026-09-10 20:03 UTC",
+      "as_of": "2026-09-10 22:28 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 102.62,
-      "change": 6.570000000000007,
-      "change_pct": 6.840187402394594,
+      "price": 104.02,
+      "change": 1.539999999999992,
+      "change_pct": 1.5027322404371506,
       "series": [
-        96.08000183105469,
-        95.80999755859375,
-        95.58999633789062,
         95.43000030517578,
         95.68000030517578,
         96.2699966430664,
@@ -214,21 +211,23 @@
         102.38999938964844,
         101.95999908447266,
         102.69000244140625,
-        102.61000061035156,
-        102.62000274658203
+        102.76000213623047,
+        103.08000183105469,
+        103.93000030517578,
+        104.0199966430664,
+        104.0199966430664
       ],
-      "as_of": "2026-09-10 20:03 UTC",
+      "as_of": "2026-09-10 22:28 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 18.01,
-      "change": 2.290000000000001,
-      "change_pct": 14.567430025445297,
+      "price": 17.84,
+      "change": 2.119999999999999,
+      "change_pct": 13.48600508905852,
       "series": [
-        16.209999084472656,
         16.200000762939453,
         16.299999237060547,
         16.450000762939453,
@@ -258,162 +257,163 @@
         17.760000228881836,
         17.799999237060547,
         18.0,
-        18.0,
-        18.010000228881836
+        18.010000228881836,
+        17.84000015258789,
+        17.84000015258789
       ],
-      "as_of": "2026-09-10 20:03 UTC",
+      "as_of": "2026-09-10 22:28 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "\u201cI Am the House Now\u201d: 34 Years Ago, Bessent Helped Soros \u201cBreak the Bank of England.\u201d Now He\u2019s Daring Traders to Bet Against the Yen.",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/am-house-now-34-years-095313677.html",
-      "published": "2026-09-09T09:53:13Z",
+      "title": "UnitedHealth Slips 3% as TPG Buys Into Florida WellMed Clinics Ahead of Guidance Reaffirmation",
+      "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-slips-3-tpg-buys-144014218.html",
+      "published": "2026-09-09T14:40:14Z",
       "source": "24/7 Wall St."
     },
     {
-      "title": "Mortgage & refinance rates today, Wednesday, September 9, 2026: Fixed rates inch upward, 5/1 ARM breaks past 7% as oil prices rise",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage--refinance-rates-today-wednesday-september-9-2026-fixed-rates-inch-upward-51-arm-breaks-past-7-as-oil-prices-rise-100000700.html",
-      "published": "2026-09-09T10:00:00Z",
+      "title": "Dollar Slips Before the Treasury\u2019s Buyback Operation",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-slips-treasury-buyback-operation-144104464.html",
+      "published": "2026-09-09T14:41:04Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Lufthansa to buy cargo terminal operator in Germany",
+      "url": "https://finance.yahoo.com/small-business/articles/lufthansa-buy-cargo-terminal-operator-143624152.html",
+      "published": "2026-09-09T14:36:24Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Is Super Micro Stock Underperforming the Nasdaq?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-stock-underperforming-nasdaq-144056576.html",
+      "published": "2026-09-09T14:40:56Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "What is the 'Lean FIRE' movement, and how can it help you reach financial independence?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-is-the-lean-fire-movement-143401919.html",
+      "published": "2026-09-09T14:34:01Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "S&P Futures Slip as Bond Yields Climb After Oil Tops $100",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-futures-slip-bond-yields-101422647.html",
-      "published": "2026-09-09T10:14:22Z",
-      "source": "Barchart"
+      "title": "Uber invests $10M in Indian fleet operator Carrum at $168M valuation",
+      "url": "https://finance.yahoo.com/small-business/articles/uber-invests-10m-indian-fleet-143841047.html",
+      "published": "2026-09-09T14:38:41Z",
+      "source": "TechCrunch"
     },
     {
-      "title": "AI infrastructure bets drive venture debt toward record levels",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-infrastructure-bets-drive-venture-101428462.html",
-      "published": "2026-09-09T10:14:28Z",
-      "source": "Pitchbook"
-    },
-    {
-      "title": "USD/JPY Hits Seven-Month Low as Traders Await US Inflation and BoJ Rate Hike",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/usd-jpy-hits-seven-month-101430171.html",
-      "published": "2026-09-09T10:14:30Z",
-      "source": "FX Empire"
-    },
-    {
-      "title": "Conquest Planning Rebrands, Expands Beyond Financial Planning",
-      "url": "https://finance.yahoo.com/technology/ai/articles/conquest-planning-rebrands-expands-beyond-100000416.html",
-      "published": "2026-09-09T10:00:00Z",
-      "source": "Wealth Management"
-    },
-    {
-      "title": "Apple\u2019s (AAPL) \u201cSurprise and Shine\u201d Event Tests Its Foldable iPhone Against Huawei and Xiaomi",
-      "url": "https://finance.yahoo.com/technology/articles/apple-aapl-surprise-shine-event-101521233.html",
-      "published": "2026-09-09T10:15:21Z",
+      "title": "Evaluating Visa\u2019s (V)Long-Term Moat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/evaluating-visa-v-long-term-143227201.html",
+      "published": "2026-09-09T14:32:27Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Argentina's corn exports set for record, as war in Ukraine, European heat wave reshape trade",
-      "url": "https://finance.yahoo.com/news/argentinas-corn-exports-set-record-101814752.html",
-      "published": "2026-09-09T10:18:14Z",
-      "source": "Reuters"
+      "title": "Dear Illumina Stock Fans, Mark Your Calendars for September 21",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-illumina-stock-fans-mark-143216645.html",
+      "published": "2026-09-09T14:32:16Z",
+      "source": "Barchart"
     },
     {
-      "title": "TSMC\u2019s High-NA Plan Gives ASML a Catalyst, but Investors Face Two Different Timelines",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-high-na-plan-gives-101831920.html",
-      "published": "2026-09-09T10:18:31Z",
+      "title": "Crown Castle Stock: Is CCI Underperforming the Real Estate Sector?",
+      "url": "https://finance.yahoo.com/real-estate/articles/crown-castle-stock-cci-underperforming-143453276.html",
+      "published": "2026-09-09T14:34:53Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Alphyn Capital on Its Special-Situation Investment: AnaptysBio (ANAB)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphyn-capital-special-situation-investment-143413266.html",
+      "published": "2026-09-09T14:34:13Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "USELESS Price Analysis: Solana Memecoin Flashes 50% Crash Potential",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/useless-price-analysis-solana-memecoin-111123186.html",
-      "published": "2026-09-09T11:11:23Z",
-      "source": "FX Empire"
+      "title": "TurboGen Signs Business Development Agreement With Eric Adams to Expand Global Market Access",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/turbogen-signs-business-development-agreement-144115637.html",
+      "published": "2026-09-09T14:41:15Z",
+      "source": "InvestorsHub"
     },
     {
-      "title": "Saudi\u2019s Humain turns to outside investment as the kingdom reins in fiscal spending",
-      "url": "https://finance.yahoo.com/technology/ai/articles/saudi-humain-turns-outside-investment-095532267.html",
-      "published": "2026-09-09T09:55:32Z",
-      "source": "Fortune"
+      "title": "Analyzing Amazon\u2019s (AMZN) Reinvestment Flywheel in the AI Era",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analyzing-amazon-amzn-reinvestment-flywheel-142925704.html",
+      "published": "2026-09-09T14:29:25Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Ameriprise Stock: Is AMP Outperforming the Financial Sector?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ameriprise-stock-amp-outperforming-financial-112047355.html",
-      "published": "2026-09-09T11:20:47Z",
+      "title": "Is Vertiv Stock Outperforming the Nasdaq?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-outperforming-nasdaq-144302424.html",
+      "published": "2026-09-09T14:43:02Z",
       "source": "Barchart"
     },
     {
-      "title": "How Is Kinder Morgan\u2019s Stock Performance Compared to Other Energy Infrastructure Stocks?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kinder-morgan-stock-performance-compared-111245107.html",
-      "published": "2026-09-09T11:12:45Z",
+      "title": "Is Autodesk Stock Underperforming the Dow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/autodesk-stock-underperforming-dow-142853467.html",
+      "published": "2026-09-09T14:28:53Z",
       "source": "Barchart"
     },
     {
-      "title": "NEOS Gold High Income ETF (IAUI): An Income-Focused Approach to Gold Exposure",
-      "url": "https://finance.yahoo.com/markets/options/articles/neos-gold-high-income-etf-105841772.html",
-      "published": "2026-09-09T10:58:41Z",
-      "source": "etf.com"
+      "title": "Alphabet (GOOG) Surges Over 20% Revenue Growth, Cloud Strength",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-surges-over-20-142626204.html",
+      "published": "2026-09-09T14:26:26Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Analysis-Fearless US stock market vulnerable to shocks as midterms loom",
-      "url": "https://finance.yahoo.com/news/analysis-fearless-us-stock-market-110129401.html",
-      "published": "2026-09-09T11:01:29Z",
-      "source": "Reuters"
+      "title": "Nanox Q2 Revenue Rises 37% as $40.7 Million Impairment Drives Wider GAAP Loss",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nanox-q2-revenue-rises-37-143907277.html",
+      "published": "2026-09-09T14:39:07Z",
+      "source": "InvestorsHub"
     },
     {
-      "title": "What Qualtrics\u2019 CEO Says Software Companies Must Possess",
-      "url": "https://www.wsj.com/articles/what-qualtrics-ceo-says-software-companies-must-possess-2ab3fe27?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-09-09T09:54:00Z",
-      "source": "The Wall Street Journal"
+      "title": "Aurora and Curaleaf Continue Sniping As Hostile Bid Heats Up",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aurora-curaleaf-continue-sniping-hostile-142239803.html",
+      "published": "2026-09-09T14:22:39Z",
+      "source": "Moby"
     },
     {
-      "title": "Chevron Stock Just Got a New Street-High Price Target. How to Play CVX Here.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-stock-just-got-street-110002106.html",
-      "published": "2026-09-09T11:00:02Z",
+      "title": "Power and Digital Strengths Drive Brookfield Corp.\u2019s (BN) AI Edge",
+      "url": "https://finance.yahoo.com/technology/ai/articles/power-digital-strengths-drive-brookfield-144436907.html",
+      "published": "2026-09-09T14:44:36Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Arauca Capital\u2019s Investment Thesis for Versabank (VBNK)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arauca-capital-investment-thesis-versabank-142148766.html",
+      "published": "2026-09-09T14:21:48Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Stocks Pressured as Inflation Fears Boost Bond Yields",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-pressured-inflation-fears-boost-142039912.html",
+      "published": "2026-09-09T14:20:39Z",
       "source": "Barchart"
     },
     {
-      "title": "Options Flow Alert: Institutional Money Piles Into AMD Stock",
-      "url": "https://finance.yahoo.com/markets/options/articles/options-flow-alert-institutional-money-110002890.html",
-      "published": "2026-09-09T11:00:02Z",
-      "source": "Barchart"
+      "title": "Kevin O\u2019Leary Says He Wants \u201c5% Of His Portfolio\u201d In Collectible Cards, As His Company Buys $11 Million Baseball Card From Florida Teenager",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kevin-o-leary-says-wants-143716409.html",
+      "published": "2026-09-09T14:37:16Z",
+      "source": "24/7 Wall St."
     },
     {
-      "title": "A $12 Billion Reason to Buy GE Stock Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/12-billion-reason-buy-ge-112919628.html",
-      "published": "2026-09-09T11:29:19Z",
-      "source": "Barchart"
+      "title": "Alphabet (GOOG) Exit: Monetizing Derivative Gains and Securing Returns",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-exit-monetizing-derivative-141704201.html",
+      "published": "2026-09-09T14:17:04Z",
+      "source": "Insider Monkey"
     },
     {
-      "title": "Social Security's coffers are so low even Republicans are talking about raising taxes \u2014 even if they 'get smeared'",
-      "url": "https://finance.yahoo.com/economy/policy/articles/social-securitys-coffers-low-even-110000637.html",
-      "published": "2026-09-09T11:00:00Z",
+      "title": "\u2018Unholy developments\u2019: Jim Cramer warns interest rates are unlikely to drop \u2014 bolster your portfolio before a reckoning",
+      "url": "https://finance.yahoo.com/economy/policy/articles/unholy-developments-jim-cramer-warns-141500224.html",
+      "published": "2026-09-09T14:15:00Z",
       "source": "Moneywise"
     },
     {
-      "title": "Bloom Energy Delivered Power to an Oracle Data Center in 55 Days. Here's Why That Number Matters More Than the Revenue Beat.",
-      "url": "https://finance.yahoo.com/energy/articles/bloom-energy-delivered-power-oracle-100500731.html",
-      "published": "2026-09-09T10:05:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Is Prudential Financial Stock Underperforming the Nasdaq?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prudential-financial-stock-underperforming-nasdaq-110004400.html",
-      "published": "2026-09-09T11:00:04Z",
+      "title": "Volatility Insurance for Applied Optoelectronics (AAOI) Stock Potentially Inspires a Contrarian Outlook",
+      "url": "https://finance.yahoo.com/markets/options/articles/volatility-insurance-applied-optoelectronics-aaoi-141223127.html",
+      "published": "2026-09-09T14:12:23Z",
       "source": "Barchart"
     },
     {
-      "title": "A Virginia woman's inbox exploded with 600+ emails \u2014 scammers were hiding a $1,200 fraudulent purchase",
-      "url": "https://finance.yahoo.com/technology/articles/virginia-womans-inbox-exploded-600-113000058.html",
-      "published": "2026-09-09T11:30:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "Palantir Stock Surge: Why Explosive 93% Growth Still Signals Time to Take Profits",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-surge-why-explosive-113003491.html",
-      "published": "2026-09-09T11:30:03Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "The Trade Desk Plans to Cut 15% of Its Workforce. What It Will Take for TTD Stock to Rebound.",
-      "url": "https://finance.yahoo.com/media-advertising/articles/trade-desk-plans-cut-15-113003059.html",
-      "published": "2026-09-09T11:30:03Z",
+      "title": "Dear Everpure Stock Fans, Mark Your Calendars for September 21",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-everpure-stock-fans-mark-141043397.html",
+      "published": "2026-09-09T14:10:43Z",
       "source": "Barchart"
     }
   ],
@@ -454,24 +454,24 @@
       "change_pct": -1.1554878877681412
     },
     "JPM": {
-      "price": 353.49,
+      "price": 353.56,
       "prev_close": 354.71,
-      "change_pct": -0.3439429393025205
+      "change_pct": -0.3242085083589347
     },
     "V": {
-      "price": 367.26,
+      "price": 367.21,
       "prev_close": 367.39,
-      "change_pct": -0.035384741010913594
+      "change_pct": -0.04899425678434547
     },
     "XOM": {
-      "price": 165.24,
+      "price": 165.23,
       "prev_close": 164.23,
-      "change_pct": 0.6149911709188451
+      "change_pct": 0.6089021494245875
     },
     "SPY": {
-      "price": 757.89,
+      "price": 757.83,
       "prev_close": 762.4,
-      "change_pct": -0.5915529905561373
+      "change_pct": -0.5994228751311564
     },
     "QQQ": {
       "price": 708.69,
@@ -499,11 +499,11 @@
       "change_pct": -2.1648085884504145
     },
     "BRK-B": {
-      "price": 507.009,
+      "price": 507.0,
       "prev_close": 506.72,
-      "change_pct": 0.05703347016103316
+      "change_pct": 0.05525734133248592
     }
   },
-  "updated_at": "2026-09-10T20:03:24.803085+00:00",
+  "updated_at": "2026-09-10T22:28:20.027740+00:00",
   "source": "yahoo_finance"
 }
