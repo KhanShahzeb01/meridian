@@ -41,7 +41,7 @@
         7637.7001953125,
         7636.35986328125
       ],
-      "as_of": "2026-09-10 01:04 UTC",
+      "as_of": "2026-09-10 05:52 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26255.103515625,
         26253.33984375
       ],
-      "as_of": "2026-09-10 01:04 UTC",
+      "as_of": "2026-09-10 05:52 UTC",
       "source": "yahoo"
     },
     {
@@ -93,8 +93,8 @@
       "name": "Dow Jones",
       "symbol": "^DJI",
       "price": 52380.66,
-      "change": -405.4099999999962,
-      "change_pct": -0.7680245943674083,
+      "change": -405.43999999999505,
+      "change_pct": -0.7680809910184595,
       "series": [
         53385.28125,
         53417.53125,
@@ -129,27 +129,17 @@
         52391.48046875,
         52380.66015625
       ],
-      "as_of": "2026-09-10 01:04 UTC",
+      "as_of": "2026-09-10 05:52 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4446.0,
-      "change": -14.699999999999818,
-      "change_pct": -0.3295446902952411,
+      "price": 4467.0,
+      "change": 6.300000000000182,
+      "change_pct": 0.14123343869796628,
       "series": [
-        4444.60009765625,
-        4442.5,
-        4434.60009765625,
-        4438.2001953125,
-        4442.89990234375,
-        4452.0,
-        4451.60009765625,
-        4438.5,
-        4444.39990234375,
-        4474.2998046875,
         4459.2998046875,
         4470.0,
         4463.2001953125,
@@ -170,30 +160,30 @@
         4441.2001953125,
         4437.5,
         4436.60009765625,
-        4446.2001953125,
-        4446.0
+        4444.5,
+        4453.5,
+        4455.2001953125,
+        4460.2998046875,
+        4462.7001953125,
+        4453.2998046875,
+        4451.89990234375,
+        4454.60009765625,
+        4451.39990234375,
+        4463.60009765625,
+        4467.0,
+        4467.0
       ],
-      "as_of": "2026-09-10 01:04 UTC",
+      "as_of": "2026-09-10 05:52 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 96.59,
-      "change": 0.5400000000000063,
-      "change_pct": 0.5622071837584657,
+      "price": 95.68,
+      "change": -0.36999999999999034,
+      "change_pct": -0.3852160333159712,
       "series": [
-        94.69000244140625,
-        95.04000091552734,
-        95.44000244140625,
-        95.2300033569336,
-        94.91999816894531,
-        95.3499984741211,
-        95.5199966430664,
-        95.94000244140625,
-        95.9000015258789,
-        95.87999725341797,
         95.7300033569336,
         95.9000015258789,
         96.2300033569336,
@@ -214,10 +204,20 @@
         97.08999633789062,
         97.0199966430664,
         96.69000244140625,
-        96.5999984741211,
-        96.58999633789062
+        96.41999816894531,
+        96.79000091552734,
+        96.44000244140625,
+        96.44000244140625,
+        96.20999908447266,
+        96.08000183105469,
+        96.0999984741211,
+        96.12000274658203,
+        96.08000183105469,
+        95.80999755859375,
+        95.68000030517578,
+        95.68000030517578
       ],
-      "as_of": "2026-09-10 01:04 UTC",
+      "as_of": "2026-09-10 05:52 UTC",
       "source": "yahoo"
     },
     {
@@ -261,148 +261,58 @@
         16.459999084472656,
         16.459999084472656
       ],
-      "as_of": "2026-09-10 01:04 UTC",
+      "as_of": "2026-09-10 05:52 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Oracle Rallies 5% as Morgan Stanley Lifts Its Price Target, CoreWeave Advances 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-5-morgan-stanley-131627036.html",
-      "published": "2026-09-08T13:16:27Z",
-      "source": "24/7 Wall St."
+      "title": "Does Michael Burry Have It Wrong? Nvidia Chips Retain Value, Data Shows",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-michael-burry-wrong-nvidia-174957539.html",
+      "published": "2026-09-08T17:49:57Z",
+      "source": "Benzinga Prediction Markets"
     },
     {
-      "title": "Why Southwest Airlines (LUV) Stock\u2019s Implosion Could Offer a Contrarian Ticket Higher",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-southwest-airlines-luv-stock-131501993.html",
-      "published": "2026-09-08T13:15:01Z",
+      "title": "Apple Scraps Plans for 2 MacBook Models. What This Actually Means for AAPL Stock Investors.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-scraps-plans-2-macbook-181756571.html",
+      "published": "2026-09-08T18:17:56Z",
       "source": "Barchart"
     },
     {
-      "title": "Micron Price Targets Are Rising - Bull Put Credit Spreads in MU Are Attractive for Investors with Limited Funds",
-      "url": "https://finance.yahoo.com/markets/options/articles/micron-price-targets-rising-bull-131501074.html",
-      "published": "2026-09-08T13:15:01Z",
+      "title": "Why AMC CEO Adam Aron Dislikes Robinhood\u2019s New Tokenized Assets",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/why-amc-ceo-adam-aron-183828841.html",
+      "published": "2026-09-08T18:38:28Z",
       "source": "Barchart"
     },
     {
-      "title": "With PayPal Layoffs Brewing, How to Play PYPL Stock in September 2026",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-layoffs-brewing-play-pypl-131501926.html",
-      "published": "2026-09-08T13:15:01Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Is Tradeweb Markets (TW) Set for a Rebound?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tradeweb-markets-tw-set-rebound-131324545.html",
-      "published": "2026-09-08T13:13:24Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "D.R. Horton Stock: Is DHI Underperforming the Consumer Cyclical Sector?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/d-r-horton-stock-dhi-130844917.html",
-      "published": "2026-09-08T13:08:44Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Teledyne Technologies (TDY) Raises Guidance as\u00a0Defense, Space and Industrial Demand Accelerate",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/teledyne-technologies-tdy-raises-guidance-130635631.html",
-      "published": "2026-09-08T13:06:35Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Hormuz disruptions hitting small businesses hardest, UN trade agency warns",
-      "url": "https://finance.yahoo.com/small-business/articles/hormuz-disruptions-hitting-small-businesses-130106569.html",
-      "published": "2026-09-08T13:01:06Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "Artisan Sold\u00a0Insulet\u00a0(PODD) Due to Competition Concerns",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/artisan-sold-insulet-podd-due-130010972.html",
-      "published": "2026-09-08T13:00:10Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Wall Street Futures Fall as Oil Surge and Fed Rate Fears Weigh: Dow Jones, S&P, Nasdaq",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-fall-oil-131605899.html",
-      "published": "2026-09-08T13:16:05Z",
-      "source": "InvestorsHub"
-    },
-    {
-      "title": "Grain Traders Are Closely Eyeballing Black Sea Region Grain Shipping as Wheat, Corn Prices Fall",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/grain-traders-closely-eyeballing-black-130002713.html",
-      "published": "2026-09-08T13:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "What Makes Guardant Health (GH) a Compelling Bet?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-guardant-health-gh-compelling-132246436.html",
-      "published": "2026-09-08T13:22:46Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Artisan Added Comfort Systems USA (FIX) as Data\u00a0Center\u00a0Demand Accelerates",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/artisan-added-comfort-systems-usa-125646541.html",
-      "published": "2026-09-08T12:56:46Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Twist Bioscience (TWST) Rallied as AI and Pharma Drive DNA Demand",
-      "url": "https://finance.yahoo.com/healthcare/articles/twist-bioscience-twst-rallied-ai-125315032.html",
-      "published": "2026-09-08T12:53:15Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Yes, Nvidia Is a Buy. Here's Why I'm Adding More Shares Right Now.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/yes-nvidia-buy-heres-why-131500850.html",
-      "published": "2026-09-08T13:15:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Roblox (RBLX) Faces a Growth Reset After Guidance Cuts \u2014 Is the Long-Term Story Still Intact?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-rblx-faces-growth-reset-125058886.html",
-      "published": "2026-09-08T12:50:58Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Lean Solutions Group acquires SupportZebra, expands AI-enabled outsourcing",
-      "url": "https://finance.yahoo.com/technology/ai/articles/lean-solutions-group-acquires-supportzebra-125013967.html",
-      "published": "2026-09-08T12:50:13Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "Nasdaq, Dow, S&P 500 Forecast: Rising Yields Test Bulls",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-forecast-133713710.html",
-      "published": "2026-09-08T13:37:13Z",
-      "source": "FX Empire"
-    },
-    {
-      "title": "Exports of Mexican-made vehicles to the US rose in August",
-      "url": "https://finance.yahoo.com/economy/policy/articles/exports-mexican-made-vehicles-us-134554419.html",
-      "published": "2026-09-08T13:45:54Z",
-      "source": "FreightWaves"
-    },
-    {
-      "title": "My Estranged Father Left Me $650K. My Brother And Sister Think I Should Give It Back",
-      "url": "https://finance.yahoo.com/markets/articles/estranged-father-left-650k-brother-131510334.html",
-      "published": "2026-09-08T13:15:10Z",
-      "source": "Benzinga"
-    },
-    {
-      "title": "Social Security benefits in 2027: See what's really changing",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/social-security-benefits-in-2027-see-whats-really-changing-144723278.html",
-      "published": "2026-09-03T14:47:23Z",
+      "title": "What is a step-up CD, and how does it work?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/step-up-cd-181655102.html",
+      "published": "2024-09-20T18:16:55Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Weekly survey of mortgage lenders with the lowest rates: Little relief since July",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-september-8-170834159.html",
-      "published": "2025-11-03T17:08:34Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Why B. Riley Just Issued a $23 Price Target on Infleqtion Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-b-riley-just-issued-185248996.html",
+      "published": "2026-09-08T18:52:48Z",
+      "source": "Barchart"
     },
     {
-      "title": "401(k) savers are setting records. How to catch up if you're behind.",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/401k-savers-are-setting-records-how-to-catch-up-if-youre-behind-162009045.html",
-      "published": "2026-09-08T16:20:09Z",
-      "source": "Yahoo Personal Finance"
+      "title": "Morgan Stanley Eyes Good Things Ahead for Meta After $18 Billion Legal Settlement",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-eyes-good-things-175000651.html",
+      "published": "2026-09-08T17:50:00Z",
+      "source": "MarketBeat"
+    },
+    {
+      "title": "Will Corn\u2019s Bullish Trend Continue",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-bullish-trend-continue-190002710.html",
+      "published": "2026-09-08T19:00:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "China Adds 650,000 Ounces of Gold in Biggest Monthly Buy Since 2023",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/china-adds-650-000-ounces-190000241.html",
+      "published": "2026-09-08T19:00:00Z",
+      "source": "Oilprice.com"
     },
     {
       "title": "Capital One Venture welcome offer: 75,000 miles plus a $300 travel credit",
@@ -411,10 +321,100 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Circle Doubles Down on Stablecoin Payments With Tazapay Acquisition",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/circle-doubles-down-stablecoin-payments-131905402.html",
-      "published": "2026-09-08T13:19:05Z",
-      "source": "Benzinga"
+      "title": "Abundant US Nat-Gas Supplies Pressure Prices",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/abundant-us-nat-gas-supplies-191222842.html",
+      "published": "2026-09-08T19:12:22Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Billionaire Stanley Druckenmiller Has 2 Megacap Stocks Worth Watching (Hint: His Top Holding Isn't Amazon, Alphabet, or Nvidia)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-2-megacap-175000112.html",
+      "published": "2026-09-08T17:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Crude Oil Prices Rise as Global Supplies Tighten",
+      "url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-rise-global-191316492.html",
+      "published": "2026-09-08T19:13:16Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Morgan Stanley Just Downgraded Peloton Stock. Here's Why.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-just-downgraded-peloton-191501646.html",
+      "published": "2026-09-08T19:15:01Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Here's what to do if your bank account application was denied",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/denied-bank-account-204942472.html",
+      "published": "2024-09-19T20:49:42Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Nike shareholders reject climate proposal backed by Norway wealth fund",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nike-shareholders-reject-climate-proposal-192359253.html",
+      "published": "2026-09-08T19:25:43Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Strive Buys $109 Million in Bitcoin, Pushes Preferred Stock Toward $1 Billion",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/strive-buys-109-million-bitcoin-174605672.html",
+      "published": "2026-09-08T17:46:05Z",
+      "source": "decrypt"
+    },
+    {
+      "title": "$604M CH Robinson Verdict Still Isn\u2019t Final Yet",
+      "url": "https://finance.yahoo.com/small-business/articles/604m-ch-robinson-verdict-still-192955477.html",
+      "published": "2026-09-08T19:29:55Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "Ink Business Premier Credit Card review: Generous welcome bonus and free employee cards",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/ink-business-premier-credit-card-review-223741901.html",
+      "published": "2024-10-22T22:37:41Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Google Cloud Boss Makes Bold Claim About AI Chip Business",
+      "url": "https://www.investors.com/news/technology/google-stock-cloud-kurian-ai-chip-business/?src=A00220&yptr=yahoo",
+      "published": "2026-09-08T19:30:27Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Dollar Slips on Japanese Yen Strength",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-slips-japanese-yen-strength-193230187.html",
+      "published": "2026-09-08T19:32:30Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Quantum Stocks Are Climbing Today as CHIPS Act Cash Pours In. Here\u2019s One Way to Invest.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/quantum-stocks-climbing-today-chips-193345641.html",
+      "published": "2026-09-08T19:33:45Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Capital One launches new Venture Business card with limited-time 150,000-mile welcome bonus (expired)",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/capital-one-venture-business-card-193020902.html",
+      "published": "2026-04-15T19:30:20Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Autonomous Trucking in 28 States: What Changes Next?",
+      "url": "https://finance.yahoo.com/small-business/articles/autonomous-trucking-28-states-changes-193434771.html",
+      "published": "2026-09-08T19:34:34Z",
+      "source": "FreightWaves"
+    },
+    {
+      "title": "401(k) savers are setting records. How to catch up if you're behind.",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/401k-savers-are-setting-records-how-to-catch-up-if-youre-behind-162009045.html",
+      "published": "2026-09-08T16:20:09Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "GameStop Q2 2026 earnings: profit rises, full-year outlook raised",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-q2-2026-earnings-profit-174413093.html",
+      "published": "2026-09-08T17:44:13Z",
+      "source": "Quartz"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.17594844117589767
     }
   },
-  "updated_at": "2026-09-10T01:04:57.115643+00:00",
+  "updated_at": "2026-09-10T05:52:06.450674+00:00",
   "source": "yahoo_finance"
 }
