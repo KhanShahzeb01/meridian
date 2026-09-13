@@ -41,7 +41,7 @@
         7655.5,
         7656.97998046875
       ],
-      "as_of": "2026-09-13 21:37 UTC",
+      "as_of": "2026-09-13 23:27 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26328.896484375,
         26333.03515625
       ],
-      "as_of": "2026-09-13 21:37 UTC",
+      "as_of": "2026-09-13 23:27 UTC",
       "source": "yahoo"
     },
     {
@@ -129,20 +129,17 @@
         52562.76953125,
         52573.2890625
       ],
-      "as_of": "2026-09-13 21:37 UTC",
+      "as_of": "2026-09-13 23:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4408.9,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 4379.8,
+      "change": -29.099999999999454,
+      "change_pct": -0.6600285785569974,
       "series": [
-        4386.60009765625,
-        4392.89990234375,
-        4394.7998046875,
         4387.2998046875,
         4386.10009765625,
         4393.2001953125,
@@ -171,22 +168,22 @@
         4391.0,
         4390.7998046875,
         4408.89990234375,
-        4408.89990234375
+        4376.89990234375,
+        4378.39990234375,
+        4379.39990234375,
+        4379.7998046875
       ],
-      "as_of": "2026-09-13 21:37 UTC",
+      "as_of": "2026-09-13 23:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 100.05,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 102.29,
+      "change": 2.240000000000009,
+      "change_pct": 2.238880559720149,
       "series": [
-        101.37999725341797,
-        101.12000274658203,
-        101.08999633789062,
         101.01000213623047,
         101.02999877929688,
         100.63999938964844,
@@ -215,9 +212,12 @@
         100.62000274658203,
         100.30000305175781,
         100.05000305175781,
-        100.05000305175781
+        102.81999969482422,
+        102.41000366210938,
+        102.29000091552734,
+        102.29000091552734
       ],
-      "as_of": "2026-09-13 21:37 UTC",
+      "as_of": "2026-09-13 23:27 UTC",
       "source": "yahoo"
     },
     {
@@ -261,22 +261,28 @@
         15.84000015258789,
         15.84000015258789
       ],
-      "as_of": "2026-09-13 21:37 UTC",
+      "as_of": "2026-09-13 23:27 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Musk sent governments a message about the robot economy",
-      "url": "https://finance.yahoo.com/economy/articles/musk-sent-governments-message-robot-174700228.html",
-      "published": "2026-09-12T17:47:00Z",
+      "title": "Jewelry chain closes 53 stores after shutting down 2 brands",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jewelry-chain-closes-53-stores-213700154.html",
+      "published": "2026-09-12T21:37:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "Dow Jones Futures: Will Anthropic-Led Call For Slowdown Hit AI Stocks? Fed Meeting Ahead",
+      "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
-      "published": "2026-09-13T20:44:54Z",
+      "published": "2026-09-13T22:51:56Z",
       "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Further Oil Price Spikes Could Rekindle Recession Fears",
+      "url": "https://finance.yahoo.com/economy/policy/articles/further-oil-price-spikes-could-210000970.html",
+      "published": "2026-09-13T21:00:00Z",
+      "source": "Oilprice.com"
     },
     {
       "title": "Is Chewy\u2019s (CHWY) Margin Story Losing Steam, or Is a 48% Drop the Opportunity?",
@@ -291,16 +297,16 @@
       "source": "Insider Monkey"
     },
     {
+      "title": "Musk sent governments a message about the robot economy",
+      "url": "https://finance.yahoo.com/economy/articles/musk-sent-governments-message-robot-174700228.html",
+      "published": "2026-09-12T17:47:00Z",
+      "source": "TheStreet"
+    },
+    {
       "title": "Boston Scientific (BSX) Didn\u2019t Miss on Demand or Devices. A Cyberattack Just Broke Its Guidance.",
       "url": "https://finance.yahoo.com/healthcare/articles/boston-scientific-bsx-didn-t-193111827.html",
       "published": "2026-09-13T19:31:11Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "Jewelry chain closes 53 stores after shutting down 2 brands",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jewelry-chain-closes-53-stores-213700154.html",
-      "published": "2026-09-12T21:37:00Z",
-      "source": "TheStreet"
     },
     {
       "title": "Nvidia (NVDA) Looks Cheap on Piper\u2019s Forecasts, but the Earnings Assumptions Are the Real Test",
@@ -321,58 +327,22 @@
       "source": "Insider Monkey"
     },
     {
-      "title": "Navan (NAVN) Rides Enterprise Momentum Into Events and Meetings Through BoomPop Deal",
-      "url": "https://finance.yahoo.com/technology/ai/articles/navan-navn-rides-enterprise-momentum-171047781.html",
-      "published": "2026-09-13T17:10:47Z",
-      "source": "Insider Monkey"
-    },
-    {
       "title": "Morgan Stanley delivers blunt message to America\u2019s pet owners",
       "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-delivers-blunt-message-143700482.html",
       "published": "2026-09-12T14:37:00Z",
       "source": "TheStreet"
     },
     {
+      "title": "Navan (NAVN) Rides Enterprise Momentum Into Events and Meetings Through BoomPop Deal",
+      "url": "https://finance.yahoo.com/technology/ai/articles/navan-navn-rides-enterprise-momentum-171047781.html",
+      "published": "2026-09-13T17:10:47Z",
+      "source": "Insider Monkey"
+    },
+    {
       "title": "Korn Ferry (KFY) Expands Global Standing With AMS Acquisition",
       "url": "https://finance.yahoo.com/markets/stocks/articles/korn-ferry-kfy-expands-global-170618310.html",
       "published": "2026-09-13T17:06:18Z",
       "source": "Insider Monkey"
-    },
-    {
-      "title": "AMD and Intel\u2019s Shared AI Instructions Reach GCC. Can Software Cooperation Strengthen Both Stocks?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amd-intel-shared-ai-instructions-165917161.html",
-      "published": "2026-09-13T16:59:17Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jim Cramer Suggests Waiting for a Lower Entry on Howmet Aerospace (HWM)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-suggests-waiting-lower-165503524.html",
-      "published": "2026-09-13T16:55:03Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Being a millionaire isn\u2019t enough to join America\u2019s top 10% \u2014 here\u2019s the net worth it actually takes to be in the top",
-      "url": "https://finance.yahoo.com/markets/articles/being-millionaire-isn-t-enough-164500172.html",
-      "published": "2026-09-13T16:45:00Z",
-      "source": "Moneywise"
-    },
-    {
-      "title": "49-year-old clothing chain closing stores as its shoppers shrink",
-      "url": "https://finance.yahoo.com/small-business/articles/49-old-clothing-chain-closing-153300913.html",
-      "published": "2026-09-13T15:33:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
-      "url": "https://www.investors.com/news/trump-urges-federal-reserve-to-cut-rates-market-bets-warsh-hike/?src=A00220&yptr=yahoo",
-      "published": "2026-09-13T16:11:39Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Zcash Price Prediction: Bearish RSI Divergence Sets Stage for Pullback to $850",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/zcash-price-prediction-bearish-rsi-160848407.html",
-      "published": "2026-09-13T16:08:48Z",
-      "source": "FX Empire"
     },
     {
       "title": "Mortgage and refinance interest rates today, Sunday, September 13, 2026: Mortgage rates surged higher in the last week",
@@ -387,10 +357,10 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Coca-Cola vs. Pepsi: Five Years, Two Completely Different Outcomes",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-vs-pepsi-five-211051894.html",
-      "published": "2026-09-13T21:10:51Z",
-      "source": "24/7 Wall St."
+      "title": "49-year-old clothing chain closing stores as its shoppers shrink",
+      "url": "https://finance.yahoo.com/small-business/articles/49-old-clothing-chain-closing-153300913.html",
+      "published": "2026-09-13T15:33:00Z",
+      "source": "TheStreet"
     },
     {
       "title": "Best CD rates today, Saturday, September 12, 2026: Lock in up to 4.35% APY with an 18-month CD",
@@ -405,16 +375,46 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Cathie Wood Sees an Economic Boom Wall Street Isn\u2019t Pricing In",
-      "url": "https://finance.yahoo.com/economy/articles/cathie-wood-sees-economic-boom-211005109.html",
-      "published": "2026-09-13T21:10:05Z",
+      "title": "Canadian CRE Investors Shrug Off Trade War, Spend $9B On U.S. Assets",
+      "url": "https://finance.yahoo.com/real-estate/articles/canadian-cre-investors-shrug-off-230503604.html",
+      "published": "2026-09-13T23:05:03Z",
+      "source": "Bisnow"
+    },
+    {
+      "title": "Ambarella CEO Sees Edge AI Growth Across Security, Autos and Wearables",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ambarella-ceo-sees-edge-ai-230158829.html",
+      "published": "2026-09-13T23:01:58Z",
+      "source": "MarketBeat"
+    },
+    {
+      "title": "Bitcoin Faces 87% Fed Hike Odds Wednesday: Will Treasury Save the Rally?",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-faces-87-fed-hike-230000027.html",
+      "published": "2026-09-13T23:00:00Z",
+      "source": "BeInCrypto"
+    },
+    {
+      "title": "SpaceX vs. Apple: Wall Street Sees Strong Upside for One of These Stocks and Remains Neutral On the Other",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-vs-apple-wall-street-225000050.html",
+      "published": "2026-09-13T22:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Can a $780,000 Portfolio Really Pay $4,750 a Month Without Touching Principal?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/780-000-portfolio-really-pay-224333678.html",
+      "published": "2026-09-13T22:43:33Z",
       "source": "24/7 Wall St."
     },
     {
-      "title": "Ulta Beauty Sees Resilient Demand, Eyes Fragrance, Wellness Growth After Target Exit",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ulta-beauty-sees-resilient-demand-210157617.html",
-      "published": "2026-09-13T21:01:57Z",
-      "source": "MarketBeat"
+      "title": "Berkshire Hathaway Stock Is Trailing the S&P 500 by About 10 Points This Year. History Says That Usually Doesn't Last.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-stock-trailing-p-223401074.html",
+      "published": "2026-09-13T22:34:01Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Oil Jumps as Shutdown of Saudi Pipeline Deepens Energy Crisis",
+      "url": "https://finance.yahoo.com/energy/articles/oil-jumps-shutdown-saudi-pipeline-222833324.html",
+      "published": "2026-09-13T22:28:33Z",
+      "source": "Bloomberg"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.6646942800788963
     }
   },
-  "updated_at": "2026-09-13T21:37:22.852578+00:00",
+  "updated_at": "2026-09-13T23:27:30.590613+00:00",
   "source": "yahoo_finance"
 }
