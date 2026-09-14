@@ -41,7 +41,7 @@
         7655.5,
         7656.97998046875
       ],
-      "as_of": "2026-09-14 06:25 UTC",
+      "as_of": "2026-09-14 13:05 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26328.896484375,
         26333.03515625
       ],
-      "as_of": "2026-09-14 06:25 UTC",
+      "as_of": "2026-09-14 13:05 UTC",
       "source": "yahoo"
     },
     {
@@ -129,35 +129,17 @@
         52562.76953125,
         52573.2890625
       ],
-      "as_of": "2026-09-14 06:25 UTC",
+      "as_of": "2026-09-14 13:05 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4369.2,
-      "change": -39.69999999999982,
-      "change_pct": -0.9004513597495933,
+      "price": 4309.6,
+      "change": -99.29999999999927,
+      "change_pct": -2.252262469096584,
       "series": [
-        4375.0,
-        4382.10009765625,
-        4430.2998046875,
-        4431.60009765625,
-        4443.89990234375,
-        4417.0,
-        4412.5,
-        4412.0,
-        4408.60009765625,
-        4396.2001953125,
-        4403.7998046875,
-        4409.10009765625,
-        4400.60009765625,
-        4392.89990234375,
-        4389.10009765625,
-        4389.60009765625,
-        4391.0,
-        4390.7998046875,
         4408.89990234375,
         4376.89990234375,
         4378.39990234375,
@@ -165,43 +147,43 @@
         4373.2998046875,
         4378.89990234375,
         4379.60009765625,
-        4374.39990234375,
+        4376.7001953125,
+        4394.5,
+        4393.2001953125,
+        4371.7998046875,
+        4375.10009765625,
+        4370.60009765625,
         4371.7998046875,
         4369.60009765625,
         4366.5,
         4378.10009765625,
-        4369.10009765625,
-        4369.2001953125
+        4370.89990234375,
+        4362.5,
+        4357.2998046875,
+        4350.7001953125,
+        4350.7001953125,
+        4346.60009765625,
+        4327.89990234375,
+        4325.2001953125,
+        4330.89990234375,
+        4334.39990234375,
+        4336.2998046875,
+        4326.89990234375,
+        4326.2998046875,
+        4306.7001953125,
+        4309.60009765625
       ],
-      "as_of": "2026-09-14 06:25 UTC",
+      "as_of": "2026-09-14 13:05 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 102.14,
-      "change": 2.0900000000000034,
-      "change_pct": 2.088955522238884,
+      "price": 104.29,
+      "change": 4.240000000000009,
+      "change_pct": 4.237881059470274,
       "series": [
-        99.25,
-        99.20999908447266,
-        99.38999938964844,
-        98.68000030517578,
-        99.0999984741211,
-        99.69999694824219,
-        99.63999938964844,
-        99.31999969482422,
-        99.75,
-        99.95999908447266,
-        100.11000061035156,
-        99.48999786376953,
-        99.81999969482422,
-        100.08000183105469,
-        100.4800033569336,
-        100.5999984741211,
-        100.62000274658203,
-        100.30000305175781,
         100.05000305175781,
         102.81999969482422,
         102.41000366210938,
@@ -209,37 +191,43 @@
         102.55999755859375,
         102.83000183105469,
         102.77999877929688,
-        102.94000244140625,
+        102.75,
+        102.33999633789062,
+        102.5,
+        102.80000305175781,
+        103.23999786376953,
+        103.25,
         102.91999816894531,
         102.69000244140625,
         102.61000061035156,
         102.2300033569336,
-        102.08000183105469,
-        102.13999938964844
+        102.12999725341797,
+        102.87000274658203,
+        102.58000183105469,
+        102.80000305175781,
+        103.68000030517578,
+        103.43000030517578,
+        102.86000061035156,
+        102.62000274658203,
+        102.43000030517578,
+        102.5199966430664,
+        103.0999984741211,
+        103.51000213623047,
+        103.6500015258789,
+        104.29000091552734,
+        104.29000091552734
       ],
-      "as_of": "2026-09-14 06:25 UTC",
+      "as_of": "2026-09-14 13:05 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.84,
-      "change": -2.0,
-      "change_pct": -11.210762331838566,
+      "price": 17.71,
+      "change": 1.870000000000001,
+      "change_pct": 11.805555555555562,
       "series": [
-        17.799999237060547,
-        18.0,
-        18.010000228881836,
-        17.84000015258789,
-        17.549999237060547,
-        17.68000030517578,
-        17.540000915527344,
-        17.200000762939453,
-        17.260000228881836,
-        17.15999984741211,
-        17.18000030517578,
-        17.239999771118164,
         17.09000015258789,
         17.09000015258789,
         16.829999923706055,
@@ -259,162 +247,174 @@
         15.850000381469727,
         15.899999618530273,
         15.84000015258789,
-        15.84000015258789
+        17.59000015258789,
+        17.739999771118164,
+        17.84000015258789,
+        17.90999984741211,
+        18.06999969482422,
+        18.079999923706055,
+        17.829999923706055,
+        17.610000610351562,
+        17.459999084472656,
+        17.59000015258789,
+        17.579999923706055,
+        17.719999313354492,
+        17.709999084472656
       ],
-      "as_of": "2026-09-14 06:25 UTC",
+      "as_of": "2026-09-14 13:05 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Jewelry chain closes 53 stores after shutting down 2 brands",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jewelry-chain-closes-53-stores-213700154.html",
-      "published": "2026-09-12T21:37:00Z",
+      "title": "Another coffeehouse files for Chapter 11 as costs, prices rise",
+      "url": "https://finance.yahoo.com/small-business/articles/another-coffeehouse-files-chapter-11-033545256.html",
+      "published": "2026-09-14T03:35:45Z",
       "source": "TheStreet"
     },
     {
-      "title": "Google Just Dropped a Bombshell on AI Spending \u2014 Alphabet\u2019s $200 Billion AI Bet Is Starting to Pay Off Big",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-just-dropped-bombshell-ai-185617741.html",
-      "published": "2026-09-12T18:56:17Z",
-      "source": "Barchart"
+      "title": "10-year treasury yield rises as oil prices jump",
+      "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-rises-as-oil-prices-jump-123457398.html",
+      "published": "2026-09-14T12:34:57Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Dear Nike Stock Fans, Mark Your Calendars for September 21",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-nike-stock-fans-mark-193002692.html",
-      "published": "2026-09-12T19:30:02Z",
-      "source": "Barchart"
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning spooks tech traders, oil prices jump",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html",
+      "published": "2026-09-14T08:05:59Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Dear UnitedHealth Stock Fans, Mark Your Calendars for October 1",
-      "url": "https://finance.yahoo.com/healthcare/articles/dear-unitedhealth-stock-fans-mark-183002378.html",
-      "published": "2026-09-12T18:30:02Z",
-      "source": "Barchart"
+      "title": "Etihad Airways sees strong demand, higher passenger capacity\u00a0despite Iran war, CEO says",
+      "url": "https://finance.yahoo.com/news/etihad-airways-sees-strong-demand-121621387.html",
+      "published": "2026-09-14T12:16:21Z",
+      "source": "Reuters"
     },
     {
-      "title": "Palo Alto Networks (PANW)\u2019s AI Growth Faces a Higher Valuation Bar",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-ai-215116717.html",
-      "published": "2026-09-12T21:51:16Z",
-      "source": "Insider Monkey"
+      "title": "AI warnings by Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman could hammer this momentum stock",
+      "url": "https://finance.yahoo.com/markets/stocks/article/ai-warnings-by-anthropic-ceo-dario-amodei-and-openai-ceo-sam-altman-could-hammer-this-momentum-stock-101518585.html",
+      "published": "2026-09-14T10:15:18Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "WisdomTree COO Lilien Jarrett Sells 30,000 Shares for $737,000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wisdomtree-coo-lilien-jarrett-sells-185501162.html",
-      "published": "2026-09-12T18:55:01Z",
+      "title": "Royal Road Minerals begins drilling at G\u00fc\u00edntar gold-copper-silver target",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/royal-road-minerals-begins-drilling-124200750.html",
+      "published": "2026-09-14T12:42:00Z",
+      "source": "Proactive"
+    },
+    {
+      "title": "Dow Jones Futures Fall, Techs Tumble As Oil Prices Rise, Anthropic Leads AI Slowdown Call",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
+      "published": "2026-09-14T12:11:35Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Stock Market Today: Dow Falls On Rising Oil; Nvidia Sells Off On AI Warning (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-nvda-stock-ai-warning/?src=A00220&yptr=yahoo",
+      "published": "2026-09-14T12:11:34Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800-word warning",
+      "url": "https://finance.yahoo.com/markets/stocks/article/ai-stocks-get-drilled-because-of-anthropic-ceo-dario-amodeis-3800-word-warning-093637548.html",
+      "published": "2026-09-14T09:36:37Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Monday, September 14, 2026: Crypto prices trying to hold as rate-hike expectations grow",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-14-2026-crypto-prices-trying-to-hold-as-rate-hike-expectations-grow-114245430.html",
+      "published": "2026-09-14T11:42:45Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "TNR Gold wins ISS support in board battle",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tnr-gold-wins-iss-support-123800726.html",
+      "published": "2026-09-14T12:38:00Z",
+      "source": "Proactive"
+    },
+    {
+      "title": "Carney, locked in US trade war, pitches Canada to global investment titans",
+      "url": "https://finance.yahoo.com/news/carney-locked-us-trade-war-100319218.html",
+      "published": "2026-09-14T11:31:54Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Europe Gas Prices Jump 6% as Saudi Pipeline Shutdown Rattles Markets",
+      "url": "https://finance.yahoo.com/energy/articles/europe-gas-prices-jump-6-113000754.html",
+      "published": "2026-09-14T11:30:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Silver prices today, Monday, September 14, 2026: Silver slides as rate-hike expectations grow",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-september-14-2026-silver-slides-as-rate-hike-expectations-grow-112941547.html",
+      "published": "2026-09-14T11:29:41Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Gold prices today, Monday, September 14, 2026: Gold sinks following new attacks on Saudi pipeline and more",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-september-14-2026-gold-sinks-following-new-attacks-on-saudi-pipeline-and-more-111825907.html",
+      "published": "2026-09-14T11:18:25Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "If You're Still Holding NuScale, Here's 1 Catalyst That Might Make You Sell",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/youre-still-holding-nuscale-heres-123600659.html",
+      "published": "2026-09-14T12:36:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "Nvidia (NVDA)\u2019s 2 GW Australia AI Push Could Deepen Its Infrastructure Advantage",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-2-gw-australia-220311518.html",
-      "published": "2026-09-12T22:03:11Z",
-      "source": "Insider Monkey"
+      "title": "Best CD rates today, Monday, September 14, 2026: Lock in up to 4.35% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-september-14-2026-lock-in-up-to-435-apy-100000686.html",
+      "published": "2026-09-14T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Salesforce Inc. (CRM)\u2019s Potential Listen Labs Acquisition Could Boost Its Agentic AI Strategy",
-      "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-inc-crm-potential-listen-220558304.html",
-      "published": "2026-09-12T22:05:58Z",
-      "source": "Insider Monkey"
+      "title": "HELOC and home equity loan rates today, Monday, September 14, 2026: A 33-basis-point differential",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-september-14-2026-a-33-basis-point-differential-100000523.html",
+      "published": "2026-09-14T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "ACV Auctions (ACVA) Was This Week\u2019s Top Stock \u2014 Here\u2019s What Drove Gains",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/acv-auctions-acva-week-top-220605819.html",
-      "published": "2026-09-12T22:06:05Z",
-      "source": "Insider Monkey"
+      "title": "Mortgage and refinance interest rates today, Monday, September 14, 2026: Purchase and refinance rates are mixed",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-september-14-2026-purchase-and-refinance-rates-are-mixed-100000816.html",
+      "published": "2026-09-14T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Block, Inc (XYZ)\u2019s Bank Charter Push Signals Bigger Ambitions in Digital Assets",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/block-inc-xyz-bank-charter-220930244.html",
-      "published": "2026-09-12T22:09:30Z",
-      "source": "Insider Monkey"
+      "title": "Best high-yield savings interest rates today, Monday, September 14, 2026: Earn up to 4.10% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-september-14-2026-earn-up-to-410-apy-100000167.html",
+      "published": "2026-09-14T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Zscaler CEO Highlights AI Security Surge, Zero-Trust Momentum at Citi Conference",
-      "url": "https://finance.yahoo.com/technology/ai/articles/zscaler-ceo-highlights-ai-security-190159120.html",
-      "published": "2026-09-12T19:01:59Z",
-      "source": "MarketBeat"
+      "title": "Michael Dell's DFO Management nears $7.7B Baldwin Insurance deal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/michael-dells-dfo-management-nears-123504154.html",
+      "published": "2026-09-14T12:35:04Z",
+      "source": "Quartz"
     },
     {
-      "title": "Here is Why Piper Sandler Named Q2 Holdings (QTWO) Its Top Pick",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-piper-sandler-named-q2-221304680.html",
-      "published": "2026-09-12T22:13:04Z",
-      "source": "Insider Monkey"
+      "title": "Mortgage and refinance interest rates today, Sunday, September 13, 2026: Mortgage rates surged higher in the last week",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-13-2026-mortgage-rates-surged-higher-in-the-last-week-100000138.html",
+      "published": "2026-09-13T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "U.S. Bancorp (USB)\u2019s Dividend Increase Has More Behind It",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/u-bancorp-usb-dividend-increase-221600807.html",
-      "published": "2026-09-12T22:16:00Z",
-      "source": "Insider Monkey"
+      "title": "Best CD rates today, Sunday, September 13, 2026: Lock in up to 4.35% APY",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-september-13-2026-lock-in-up-to-435-apy-100000271.html",
+      "published": "2026-09-13T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "GE Aerospace (GE)\u2019s $12 Billion CPP Acquisition Puts Its Growth Strategy to the Test",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-12-billion-223833187.html",
-      "published": "2026-09-12T22:38:33Z",
-      "source": "Insider Monkey"
+      "title": "I bond vs. high-yield savings account: Which is better for beating inflation?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/comparison/i-bond-vs-savings-account-185055035.html",
+      "published": "2024-04-19T18:50:55Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "AI Agents Create Their Own Monitoring Problem. Datadog and Dynatrace Are Racing to Own It",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-agents-create-own-monitoring-225626156.html",
-      "published": "2026-09-12T22:56:26Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play",
-      "url": "https://finance.yahoo.com/energy/articles/googles-historic-396-mw-clean-190500123.html",
-      "published": "2026-09-12T19:05:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "UiPath, Inc. (PATH) Stock Has AI Potential, But Slowing Growth Keeps Investors Cautious",
-      "url": "https://finance.yahoo.com/technology/ai/articles/uipath-inc-path-stock-ai-234921172.html",
-      "published": "2026-09-12T23:49:21Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Advanced Micro Devices, Inc. (AMD)\u2019s Halo Station Could Strengthen Its AI Position, but Near-Term Revenue Impact May Be Limited",
-      "url": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-inc-amd-235430291.html",
-      "published": "2026-09-12T23:54:30Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "If It Delivers Profit, Boeing (BA)\u2019s Defense Franchise Can Buffer Its Commercial Recovery",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/delivers-profit-boeing-ba-defense-000848794.html",
-      "published": "2026-09-13T00:08:48Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "GPT-6 Astra Wiped 4%-5% Off Salesforce and ServiceNow in a Day. Is Wall Street Pricing a SaaS Extinction Event?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gpt-6-astra-wiped-4-001329760.html",
-      "published": "2026-09-13T00:13:29Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "How Much Do You Really Need Invested in Bristol Myers Squibb to Collect $10,000 a Year?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/much-really-invested-bristol-myers-191537674.html",
-      "published": "2026-09-12T19:15:37Z",
-      "source": "24/7 Wall St."
-    },
-    {
-      "title": "You Can\u2019t Spell SPY Without AI: How the Stock Market Became a 1-Way Bet on the Future",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/t-spell-spy-without-ai-010002725.html",
-      "published": "2026-09-13T01:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Samsara (IOT)\u2019s Growth Momentum Meets Valuation Test. Can Samsara Justify the New Price Target?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/samsara-iot-growth-momentum-meets-010351426.html",
-      "published": "2026-09-13T01:03:51Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Space Exploration Technologies Corp. (SPCX)\u2019s $100 Billion Starbase Bet Could Transform Its Growth Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-corp-spcx-011119236.html",
-      "published": "2026-09-13T01:11:19Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
-      "url": "https://finance.yahoo.com/technology/ai/articles/deepseek-cut-kv-cache-hbm-011603128.html",
-      "published": "2026-09-13T01:16:03Z",
-      "source": "Insider Monkey"
+      "title": "Mortgage and refinance interest rates today, Saturday, September 12, 2026: Mortgage rates up for the second straight day",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-september-12-2026-mortgage-rates-up-for-the-second-straight-day-100000822.html",
+      "published": "2026-09-12T10:00:00Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.6646942800788963
     }
   },
-  "updated_at": "2026-09-14T06:25:18.359896+00:00",
+  "updated_at": "2026-09-14T13:05:26.139467+00:00",
   "source": "yahoo_finance"
 }
