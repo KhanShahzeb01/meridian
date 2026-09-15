@@ -41,7 +41,7 @@
         7620.3701171875,
         7619.97998046875
       ],
-      "as_of": "2026-09-15 00:19 UTC",
+      "as_of": "2026-09-15 05:01 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26188.52734375,
         26186.4140625
       ],
-      "as_of": "2026-09-15 00:19 UTC",
+      "as_of": "2026-09-15 05:01 UTC",
       "source": "yahoo"
     },
     {
@@ -93,8 +93,8 @@
       "name": "Dow Jones",
       "symbol": "^DJI",
       "price": 52421.2,
-      "change": -152.09000000000378,
-      "change_pct": -0.28929138731854864,
+      "change": -152.10000000000582,
+      "change_pct": -0.28931035335428024,
       "series": [
         52048.33984375,
         51997.71875,
@@ -129,22 +129,17 @@
         52421.5703125,
         52421.19921875
       ],
-      "as_of": "2026-09-15 00:19 UTC",
+      "as_of": "2026-09-15 05:01 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4327.7,
-      "change": -24.199999999999818,
-      "change_pct": -0.556078954020079,
+      "price": 4345.7,
+      "change": -6.199999999999818,
+      "change_pct": -0.14246650888117418,
       "series": [
-        4350.7001953125,
-        4346.60009765625,
-        4327.89990234375,
-        4325.2001953125,
-        4330.89990234375,
         4334.39990234375,
         4336.2998046875,
         4326.89990234375,
@@ -170,25 +165,25 @@
         4335.89990234375,
         4330.5,
         4329.0,
-        4327.2001953125,
-        4327.7001953125
+        4328.89990234375,
+        4333.60009765625,
+        4341.7998046875,
+        4342.2001953125,
+        4344.0,
+        4345.39990234375,
+        4345.7001953125
       ],
-      "as_of": "2026-09-15 00:19 UTC",
+      "as_of": "2026-09-15 05:01 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 102.18,
-      "change": 0.7900000000000063,
-      "change_pct": 0.7791695433474763,
+      "price": 103.29,
+      "change": 1.9000000000000057,
+      "change_pct": 1.8739520662787315,
       "series": [
-        103.68000030517578,
-        103.43000030517578,
-        102.86000061035156,
-        102.62000274658203,
-        102.43000030517578,
         102.5199966430664,
         103.0999984741211,
         103.51000213623047,
@@ -214,10 +209,15 @@
         101.95999908447266,
         102.08999633789062,
         102.16000366210938,
-        102.18000030517578,
-        102.18000030517578
+        102.7300033569336,
+        102.68000030517578,
+        102.51000213623047,
+        102.91000366210938,
+        103.19999694824219,
+        103.30000305175781,
+        103.29000091552734
       ],
-      "as_of": "2026-09-15 00:19 UTC",
+      "as_of": "2026-09-15 05:01 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         17.100000381469727,
         17.100000381469727
       ],
-      "as_of": "2026-09-15 00:19 UTC",
+      "as_of": "2026-09-15 05:01 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,28 +273,10 @@
       "source": "TheStreet"
     },
     {
-      "title": "Walmart Just Declared War on DoorDash and Uber Eats, But Winning Won't Be Easy for 1 Simple Reason",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-just-declared-war-doordash-123023266.html",
-      "published": "2026-09-13T12:30:23Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Lovesac\u2019s (LOVE) Premium Sofas Shine While Entry-Level Buyers Stay Away",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lovesac-love-premium-sofas-shine-125527184.html",
-      "published": "2026-09-13T12:55:27Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "IBEX (IBEX) Turns The AI Threat Into Its Biggest Growth Engine",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ibex-ibex-turns-ai-threat-121949823.html",
-      "published": "2026-09-13T12:19:49Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Wall Street Is Betting Against Designer Brands (DBI) Even as Profits Double",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-betting-against-designer-121631989.html",
-      "published": "2026-09-13T12:16:31Z",
-      "source": "Insider Monkey"
+      "title": "Costco rations Kirkland motor oil, raises price to $57.99",
+      "url": "https://finance.yahoo.com/energy/articles/costco-rations-kirkland-motor-oil-133308837.html",
+      "published": "2026-09-14T13:33:08Z",
+      "source": "Quartz"
     },
     {
       "title": "AI agents to start spending your money with Visa, Mastercard",
@@ -303,58 +285,34 @@
       "source": "TheStreet"
     },
     {
-      "title": "CrowdStrike Expands AI Capabilities With Autonomous Product Launch. What This Means for CRWD Stock.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-expands-ai-capabilities-autonomous-130002831.html",
-      "published": "2026-09-13T13:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "GF Securities Says NAND Prices May Stabilize Later This Year. What This Means for Sandisk Stock.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gf-securities-says-nand-prices-130002701.html",
-      "published": "2026-09-13T13:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Copart (CPRT) Bets On Digital Dealers As Core Volumes Shrink",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/copart-cprt-bets-digital-dealers-130853110.html",
-      "published": "2026-09-13T13:08:53Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "LightPath\u2019s (LPTH) Defense Pivot Just Showed Up In The Numbers",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lightpath-lpth-defense-pivot-just-131404572.html",
-      "published": "2026-09-13T13:14:04Z",
-      "source": "Insider Monkey"
-    },
-    {
       "title": "38-year-old beloved steakhouse chain closing over 40 locations",
       "url": "https://finance.yahoo.com/small-business/articles/38-old-beloved-steakhouse-chain-020300119.html",
       "published": "2026-09-14T02:03:00Z",
       "source": "TheStreet"
     },
     {
-      "title": "Adobe\u2019s (ADBE) AI Bet Is Finally Showing Up In Revenue",
-      "url": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-ai-bet-finally-132237575.html",
-      "published": "2026-09-13T13:22:37Z",
+      "title": "Navan (NAVN) Rides Enterprise Momentum Into Events and Meetings Through BoomPop Deal",
+      "url": "https://finance.yahoo.com/technology/ai/articles/navan-navn-rides-enterprise-momentum-171047781.html",
+      "published": "2026-09-13T17:10:47Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Clear Channel Outdoor (CCO) Grows Fastest Right Before Going Private",
-      "url": "https://finance.yahoo.com/media-advertising/articles/clear-channel-outdoor-cco-grows-132626831.html",
-      "published": "2026-09-13T13:26:26Z",
+      "title": "Dear SpaceX Stock Fans, Mark Your Calendars for September 21",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-spacex-stock-fans-mark-170826925.html",
+      "published": "2026-09-13T17:08:26Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Korn Ferry (KFY) Expands Global Standing With AMS Acquisition",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/korn-ferry-kfy-expands-global-170618310.html",
+      "published": "2026-09-13T17:06:18Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "PureCycle (PCT) Turns Lab Promises Into Detergent Cap Reality",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/purecycle-pct-turns-lab-promises-133324594.html",
-      "published": "2026-09-13T13:33:24Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Red Violet (RDVT) Turns Record Growth Into Real Profit Gains",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/red-violet-rdvt-turns-record-133658483.html",
-      "published": "2026-09-13T13:36:58Z",
-      "source": "Insider Monkey"
+      "title": "Fed Decision, Retail Sales and Other Can't Miss Items This Week",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-decision-retail-sales-other-170002358.html",
+      "published": "2026-09-13T17:00:02Z",
+      "source": "Barchart"
     },
     {
       "title": "National specialty clothing chain closing all its stores",
@@ -363,57 +321,99 @@
       "source": "TheStreet"
     },
     {
-      "title": "Snowflake\u2019s Blowout Quarter Adds to a Software Sector Already Rallying on AI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/snowflake-blowout-quarter-adds-software-133832576.html",
-      "published": "2026-09-13T13:38:32Z",
+      "title": "AMD and Intel\u2019s Shared AI Instructions Reach GCC. Can Software Cooperation Strengthen Both Stocks?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amd-intel-shared-ai-instructions-165917161.html",
+      "published": "2026-09-13T16:59:17Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "The RealReal (REAL) Posts Record Sales, But The Losses Keep Growing",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/realreal-real-posts-record-sales-134612583.html",
-      "published": "2026-09-13T13:46:12Z",
+      "title": "Jim Cramer Suggests Waiting for a Lower Entry on Howmet Aerospace (HWM)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-suggests-waiting-lower-165503524.html",
+      "published": "2026-09-13T16:55:03Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Willis Lease Finance (WLFC) Grows Fast While Its Bottom Line Shrinks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-wlfc-grows-134921293.html",
-      "published": "2026-09-13T13:49:21Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Is ConocoPhillips Stock Worth Buying Here? - Shorting COP Puts and Credit Spreads are Better Plays",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/conocophillips-stock-worth-buying-shorting-140002756.html",
-      "published": "2026-09-13T14:00:02Z",
+      "title": "Nvidia\u2019s Jensen Huang Just Delivered a Huge Vote of Confidence to CoreWeave and Nebius",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-jensen-huang-just-delivered-183002396.html",
+      "published": "2026-09-13T18:30:02Z",
       "source": "Barchart"
     },
     {
-      "title": "These 2 Utility Dividends Look Much Better When the IRS Gets None of the Income",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-utility-dividends-look-much-124521852.html",
-      "published": "2026-09-13T12:45:21Z",
+      "title": "Wonder Deal, $240M Cash, and 31% Short Interest. A Short Squeeze Could Be Brewing in Serve Robotics Stock.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wonder-deal-240m-cash-31-183225342.html",
+      "published": "2026-09-13T18:32:25Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "What Will 10,000 XRP Be Worth in 2030?",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/10-000-xrp-worth-2030-173123040.html",
+      "published": "2026-09-13T17:31:23Z",
       "source": "24/7 Wall St."
     },
     {
-      "title": "NVIDIA\u2019s Older GPUs Still Earn Rent. What That Does and Doesn\u2019t Prove for CoreWeave",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-older-gpus-still-earn-140210350.html",
-      "published": "2026-09-13T14:02:10Z",
+      "title": "Starbucks\u2019 $1 Billion Bet on Cozy Stores Faces a Margin Test",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-1-billion-bet-cozy-190035733.html",
+      "published": "2026-09-13T19:00:35Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Alibaba and Amazon Face the Same AI Spending Question: How Quickly Does Capacity Become Cash?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-amazon-face-same-ai-140837189.html",
-      "published": "2026-09-13T14:08:37Z",
+      "title": "Intel (INTC) Is Winning From the CPU Shortage, but Its Foundry Valuation Needs More Proof",
+      "url": "https://finance.yahoo.com/technology/ai/articles/intel-intc-winning-cpu-shortage-191052125.html",
+      "published": "2026-09-13T19:10:52Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Amgen (AMGN) Fell 5% on a Drug That Isn\u2019t Even Its Own. Here\u2019s the Lp(a) Bet Now in Question.",
-      "url": "https://finance.yahoo.com/healthcare/articles/amgen-amgn-fell-5-drug-142916899.html",
-      "published": "2026-09-13T14:29:16Z",
+      "title": "Sonera Acquisition Bodes Well for Apple Stock in the Long Term, But Negative Catalysts Appear to Be Weighing on the Firm\u2019s Performance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sonera-acquisition-bodes-well-apple-191233662.html",
+      "published": "2026-09-13T19:12:33Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Nvidia (NVDA) Looks Cheap on Piper\u2019s Forecasts, but the Earnings Assumptions Are the Real Test",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-looks-cheap-piper-191328167.html",
+      "published": "2026-09-13T19:13:28Z",
       "source": "Insider Monkey"
     },
     {
-      "title": "Nvidia Is Focused on Redefining AI Infrastructure as an Income-Generating Asset",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-focused-redefining-ai-infrastructure-153002085.html",
-      "published": "2026-09-13T15:30:02Z",
+      "title": "This app replaced my 9-5 ($155K/year)",
+      "url": "https://finance.yahoo.com/video/app-replaced-9-5-155k-173150441.html",
+      "published": "2026-09-13T17:31:50Z",
+      "source": "Starter Story"
+    },
+    {
+      "title": "Why JPMorgan Is Betting That Lithium Americas Stock Will Double.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-jpmorgan-betting-lithium-americas-193002632.html",
+      "published": "2026-09-13T19:30:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Boston Scientific (BSX) Didn\u2019t Miss on Demand or Devices. A Cyberattack Just Broke Its Guidance.",
+      "url": "https://finance.yahoo.com/healthcare/articles/boston-scientific-bsx-didn-t-193111827.html",
+      "published": "2026-09-13T19:31:11Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "DraftKings and Flutter Jump After Court Rules Prediction Markets Are Gambling, Not Federally Regulated Trading",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/draftkings-flutter-jump-court-rules-194622553.html",
+      "published": "2026-09-13T19:46:22Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Is Chewy\u2019s (CHWY) Margin Story Losing Steam, or Is a 48% Drop the Opportunity?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chewy-chwy-margin-story-losing-195717174.html",
+      "published": "2026-09-13T19:57:17Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "$25k MRR founders' playbook: Spot timeless content hidden in trends, then build systems around it.",
+      "url": "https://finance.yahoo.com/video/25k-mrr-founders-playbook-spot-173150892.html",
+      "published": "2026-09-13T17:31:50Z",
+      "source": "Starter Story"
+    },
+    {
+      "title": "Oil Is $100, The 10-Year Is Near 5%. Why Doesn\u2019t The Stock Market Care?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oil-100-10-near-5-203326495.html",
+      "published": "2026-09-13T20:33:26Z",
       "source": "Barchart"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.8973881693673297
     }
   },
-  "updated_at": "2026-09-15T00:19:22.108354+00:00",
+  "updated_at": "2026-09-15T05:01:13.958289+00:00",
   "source": "yahoo_finance"
 }
