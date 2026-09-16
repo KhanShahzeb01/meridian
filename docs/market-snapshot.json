@@ -41,7 +41,7 @@
         7585.509765625,
         7585.72998046875
       ],
-      "as_of": "2026-09-16 06:40 UTC",
+      "as_of": "2026-09-16 12:06 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25980.970703125,
         25981.5703125
       ],
-      "as_of": "2026-09-16 06:40 UTC",
+      "as_of": "2026-09-16 12:06 UTC",
       "source": "yahoo"
     },
     {
@@ -129,27 +129,17 @@
         52092.44921875,
         52093.109375
       ],
-      "as_of": "2026-09-16 06:40 UTC",
+      "as_of": "2026-09-16 12:06 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4366.7,
-      "change": 33.899999999999636,
-      "change_pct": 0.7824039881831526,
+      "price": 4385.4,
+      "change": 52.599999999999454,
+      "change_pct": 1.213995568685364,
       "series": [
-        4316.7998046875,
-        4324.10009765625,
-        4329.89990234375,
-        4335.89990234375,
-        4335.60009765625,
-        4333.7001953125,
-        4335.2998046875,
-        4345.0,
-        4348.7001953125,
-        4340.89990234375,
         4337.2998046875,
         4334.10009765625,
         4333.39990234375,
@@ -170,30 +160,30 @@
         4365.7001953125,
         4366.89990234375,
         4367.0,
-        4366.5,
-        4366.7001953125
+        4373.2001953125,
+        4375.7998046875,
+        4369.0,
+        4374.2998046875,
+        4371.10009765625,
+        4370.60009765625,
+        4379.10009765625,
+        4389.2998046875,
+        4391.89990234375,
+        4391.7998046875,
+        4384.7001953125,
+        4385.39990234375
       ],
-      "as_of": "2026-09-16 06:40 UTC",
+      "as_of": "2026-09-16 12:06 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 104.79,
-      "change": -1.039999999999992,
-      "change_pct": -0.9827081167910725,
+      "price": 103.17,
+      "change": -2.6599999999999966,
+      "change_pct": -2.513464991023336,
       "series": [
-        104.69999694824219,
-        104.68000030517578,
-        104.94999694824219,
-        105.36000061035156,
-        106.13999938964844,
-        106.5,
-        106.47000122070312,
-        105.81999969482422,
-        105.69000244140625,
-        105.56999969482422,
         105.87000274658203,
         105.66000366210938,
         105.4800033569336,
@@ -214,30 +204,30 @@
         104.80999755859375,
         104.81999969482422,
         104.72000122070312,
-        104.77999877929688,
-        104.79000091552734
+        104.0199966430664,
+        104.16999816894531,
+        104.26000213623047,
+        104.45999908447266,
+        104.5,
+        104.4800033569336,
+        104.13999938964844,
+        103.87999725341797,
+        103.2699966430664,
+        103.27999877929688,
+        103.16999816894531,
+        103.16999816894531
       ],
-      "as_of": "2026-09-16 06:40 UTC",
+      "as_of": "2026-09-16 12:06 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 17.2,
-      "change": 0.09999999999999787,
-      "change_pct": 0.5847953216374144,
+      "price": 16.78,
+      "change": -0.41999999999999815,
+      "change_pct": -2.4418604651162683,
       "series": [
-        16.790000915527344,
-        16.84000015258789,
-        17.09000015258789,
-        17.100000381469727,
-        17.489999771118164,
-        17.690000534057617,
-        17.799999237060547,
-        17.81999969482422,
-        17.860000610351562,
-        17.520000457763672,
         17.40999984741211,
         17.139999389648438,
         17.06999969482422,
@@ -259,9 +249,19 @@
         17.479999542236328,
         17.3799991607666,
         17.209999084472656,
-        17.200000762939453
+        16.93000030517578,
+        16.979999542236328,
+        17.020000457763672,
+        17.0,
+        17.079999923706055,
+        16.969999313354492,
+        16.979999542236328,
+        16.979999542236328,
+        16.889999389648438,
+        16.790000915527344,
+        16.780000686645508
       ],
-      "as_of": "2026-09-16 06:40 UTC",
+      "as_of": "2026-09-16 12:06 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,148 +273,148 @@
       "source": "TheStreet"
     },
     {
-      "title": "Michael Burry Is Pushing Back on AI-Slowdown Calls. CoreWeave and Nebius Are the Stress Test",
-      "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-pushing-back-ai-185234642.html",
-      "published": "2026-09-14T18:52:34Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "AI-Related Debt Sales Are Near $500 Billion. Meta and CoreWeave Show Why the Same Boom Creates Two Different Risks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-related-debt-sales-near-190243211.html",
-      "published": "2026-09-14T19:02:43Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Texas Put AI Data Centers on Notice. Meta and Digital Realty Already Chose Their Side",
-      "url": "https://finance.yahoo.com/technology/ai/articles/texas-put-ai-data-centers-185557597.html",
-      "published": "2026-09-14T18:55:57Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Middle-market PE firms move down market in search of value",
-      "url": "https://finance.yahoo.com/small-business/articles/middle-market-pe-firms-move-185354819.html",
-      "published": "2026-09-14T18:53:54Z",
-      "source": "Pitchbook"
-    },
-    {
-      "title": "AI Leaders Say Slow Down. IREN Says Compute Demand May Never Be Satisfied. Nvidia Sits in the Middle",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-leaders-slow-down-iren-190519922.html",
-      "published": "2026-09-14T19:05:19Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "CoreWeave Pays SOFR +5.5%. Nebius Pays +2.5%. AI Lenders Are Already Drawing a Line",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-pays-sofr-5-5-185757301.html",
-      "published": "2026-09-14T18:57:57Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Too early to judge Fed Chairman Kevin Warsh's communication style, billionaire investor David Rubenstein says",
-      "url": "https://finance.yahoo.com/markets/article/too-early-to-judge-fed-chairman-kevin-warshs-communication-style-billionaire-investor-david-rubenstein-says-185720476.html",
-      "published": "2026-09-14T18:57:20Z",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq rise ahead of crucial Fed interest rate decision",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html",
+      "published": "2026-09-16T08:03:56Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Jim Cramer on Ondas (ONDS): \u201cIt\u2019s Not Great, Not Bad\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-ondas-onds-not-184508361.html",
-      "published": "2026-09-14T18:45:08Z",
-      "source": "Insider Monkey"
+      "title": "Dow Jones Futures Rise As Oil Prices, Yields Fall Before Fed Rate Hike; Will Market Rally Bid Bond Voyage?",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-nasdaq-how-will-bonds-react-to-fed-rate-hike/?src=A00220&yptr=yahoo",
+      "published": "2026-09-16T11:45:16Z",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "The Next Oil Shock Is Never the Last",
-      "url": "https://finance.yahoo.com/energy/articles/next-oil-shock-never-last-190000193.html",
-      "published": "2026-09-14T19:00:00Z",
+      "title": "Here\u2019s how many Americans have $500K saved for retirement \u2014 and it\u2019s more than you might think. Are you in this group?",
+      "url": "https://finance.yahoo.com/markets/articles/many-americans-500k-saved-retirement-114500328.html",
+      "published": "2026-09-16T11:45:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Fed meeting live updates: Anticipation builds with Fed expected to hike interest rates for first time in 3 years",
+      "url": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
+      "published": "2026-09-15T14:34:52Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Rich Dad Poor Dad author warns biggest crash in history has started",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rich-dad-poor-dad-author-172603940.html",
+      "published": "2026-09-15T17:26:03Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Cemetery plot prices jumped 65% from 2018 to 2024, and now people are trying to flip them for profit",
+      "url": "https://finance.yahoo.com/real-estate/articles/cemetery-plot-prices-jumped-65-113500939.html",
+      "published": "2026-09-16T11:35:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Co-investment and directs to eclipse primary funds, buyers say",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/co-investment-directs-eclipse-primary-112810718.html",
+      "published": "2026-09-16T11:28:10Z",
+      "source": "Pitchbook"
+    },
+    {
+      "title": "Bitcoin and ethereum prices today, Wednesday, September 16, 2026: Crypto prices tank after CLARITY Act fails and ahead of Fed decision",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html",
+      "published": "2026-09-16T11:25:17Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Cloudflare Hits Buy Point",
+      "url": "https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo",
+      "published": "2026-09-16T11:23:21Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Fin.com exits stealth with $20m to expand payment rails",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/fin-com-exits-stealth-20m-115331301.html",
+      "published": "2026-09-16T11:53:31Z",
+      "source": "Electronic Payments"
+    },
+    {
+      "title": "Warren Buffett's 'phenomenal' advice to GM CEO backfired for Berkshire despite the stock tripling. Avoid his big mistake",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-phenomenal-advice-gm-111500447.html",
+      "published": "2026-09-16T11:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Majority of US Gen Z healthcare workers eye new jobs within the year, survey shows",
+      "url": "https://finance.yahoo.com/healthcare/articles/majority-us-gen-z-healthcare-110356580.html",
+      "published": "2026-09-16T11:03:56Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Silver price today, Wednesday, September 16, 2026:  Silver prices rise in anticipation of the Fed",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-september-16-2026-silver-prices-rise-in-anticipation-of-the-fed-105134969.html",
+      "published": "2026-09-16T10:51:34Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Morning Bid: A time to hike?",
+      "url": "https://finance.yahoo.com/news/morning-bid-time-hike-104329450.html",
+      "published": "2026-09-16T10:43:29Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Italy launches antitrust probe into Intesa bid for Monte dei Paschi",
+      "url": "https://finance.yahoo.com/economy/policy/articles/italy-launches-antitrust-probe-intesa-115325702.html",
+      "published": "2026-09-16T11:53:25Z",
+      "source": "Retail Banker International"
+    },
+    {
+      "title": "Gold price today, Wednesday, September 16, 2026: Gold holds in the $4,300 range, awaiting the Fed's decision",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-16-2026-gold-holds-in-the-4300-range-awaiting-the-feds-decision-104038147.html",
+      "published": "2026-09-16T10:40:38Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Kevin O\u2019Leary, Barbara Corcoran and Robert Herjavec all avoid mixing money and family. Why retirees should do the same",
+      "url": "https://finance.yahoo.com/small-business/articles/kevin-o-leary-barbara-corcoran-103500907.html",
+      "published": "2026-09-16T10:35:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "Saudi Arabia Pivots to Spot Oil Sales After Key Pipeline Goes Offline",
+      "url": "https://finance.yahoo.com/energy/articles/saudi-arabia-pivots-spot-oil-103000816.html",
+      "published": "2026-09-16T10:30:00Z",
       "source": "Oilprice.com"
     },
     {
-      "title": "CRWV Stock Alert: Why CoreWeave May Have the Most to Lose From an AI Slowdown",
-      "url": "https://finance.yahoo.com/technology/ai/articles/crwv-stock-alert-why-coreweave-190814171.html",
-      "published": "2026-09-14T19:08:14Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Corn, Soybean Prices Get a Mixed Bag from the USDA\u2019s Monthly WASDE Report",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-soybean-prices-mixed-bag-190002204.html",
-      "published": "2026-09-14T19:00:02Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Nvidia\u2019s Training Trade Hit a Speed Bump. Intel Could Win From What Comes Next",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-training-trade-hit-speed-190003364.html",
-      "published": "2026-09-14T19:00:03Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Bank of America Sees Resilient Consumers, Strong Loan Growth and Rising NII",
-      "url": "https://finance.yahoo.com/economy/articles/bank-america-sees-resilient-consumers-190213049.html",
-      "published": "2026-09-14T19:02:13Z",
-      "source": "MarketBeat"
-    },
-    {
-      "title": "Alliance Entertainment (AENT) Rises After Fiscal 2026 Results: What Investors Should Know",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alliance-entertainment-aent-rises-fiscal-184825041.html",
-      "published": "2026-09-14T18:48:25Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Intel Stock Just Got a Stark Warning From Wall Street",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-just-got-stark-184159869.html",
-      "published": "2026-09-14T18:41:59Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Hotter US Weather Forecasts Boost Nat-Gas Prices",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/hotter-us-weather-forecasts-boost-191259102.html",
-      "published": "2026-09-14T19:12:59Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Jim Cramer Notes That Tractor Supply Just Cannot Seem To Lift",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-notes-tractor-supply-183517542.html",
-      "published": "2026-09-14T18:35:17Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Why Is Astera Labs Stock Down Today?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-astera-labs-stock-down-184505855.html",
-      "published": "2026-09-14T18:45:05Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Middle East Supply Constraints Lift Crude Oil Prices",
-      "url": "https://finance.yahoo.com/energy/articles/middle-east-supply-constraints-lift-191350297.html",
-      "published": "2026-09-14T19:13:50Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "S&P 500: Q4 Strength or Election Risk?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-q4-strength-election-183224128.html",
-      "published": "2026-09-14T18:32:24Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Jim Cramer Calls Texas Pacific Land (TPL) a \u201cFantastic Stock\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-calls-texas-pacific-183747973.html",
-      "published": "2026-09-14T18:37:47Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "These 4 Horsemen Are Threatening the Current Bull Market: How to Prepare and Manage Risk",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/4-horsemen-threatening-current-bull-183522380.html",
-      "published": "2026-09-14T18:35:22Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Why ASML Stock Is Falling Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-asml-stock-falling-today-185044745.html",
-      "published": "2026-09-14T18:50:44Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Should you open a CD account before the Fed's next meeting?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/open-cd-before-next-fed-meeting-231620040.html",
-      "published": "2024-06-13T23:16:20Z",
+      "title": "5 signs you might be a good fit for debt settlement",
+      "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/signs-you-might-be-a-good-fit-for-debt-settlement-102500610.html",
+      "published": "2026-09-16T10:25:00Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "The Stock Market Is Flashing a Warning Sign Rarely Seen in 145 Years. Here's What History Says Comes Next.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-flashing-warning-sign-115000114.html",
+      "published": "2026-09-16T11:50:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Zscaler, Inc. (ZS)\u2019s Growth Engine Is Strong, But Slowing ARR Could Pressure the Stock",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-inc-zs-growth-engine-102049877.html",
+      "published": "2026-09-16T10:20:49Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "\u2018Dead money\u2019: Your savings account is losing a fight with inflation. Here\u2019s where 3 financial advisors put cash instead",
+      "url": "https://finance.yahoo.com/economy/articles/dead-money-savings-account-losing-101500222.html",
+      "published": "2026-09-16T10:15:00Z",
+      "source": "Moneywise"
+    },
+    {
+      "title": "MicroAge Deal Signals Shift to Growth-Focused Strategy for ScanSource (SCSC)",
+      "url": "https://finance.yahoo.com/technology/articles/microage-deal-signals-shift-growth-101436453.html",
+      "published": "2026-09-16T10:14:36Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Bond market woes likely a factor for Fed, but intervention seen as unlikely",
+      "url": "https://finance.yahoo.com/economy/policy/articles/bond-market-woes-likely-factor-100656182.html",
+      "published": "2026-09-16T10:06:56Z",
+      "source": "Reuters"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.35149043596464613
     }
   },
-  "updated_at": "2026-09-16T06:40:51.234697+00:00",
+  "updated_at": "2026-09-16T12:06:20.168921+00:00",
   "source": "yahoo_finance"
 }
