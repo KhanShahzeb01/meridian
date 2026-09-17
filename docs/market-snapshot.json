@@ -41,7 +41,7 @@
         7553.330078125,
         7551.81005859375
       ],
-      "as_of": "2026-09-17 05:27 UTC",
+      "as_of": "2026-09-17 10:12 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25985.52734375,
         25978.423828125
       ],
-      "as_of": "2026-09-17 05:27 UTC",
+      "as_of": "2026-09-17 10:12 UTC",
       "source": "yahoo"
     },
     {
@@ -129,33 +129,17 @@
         51477.73046875,
         51461.8984375
       ],
-      "as_of": "2026-09-17 05:27 UTC",
+      "as_of": "2026-09-17 10:12 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4330.4,
-      "change": -57.100000000000364,
-      "change_pct": -1.3014245014245096,
+      "price": 4345.7,
+      "change": -41.80000000000018,
+      "change_pct": -0.9527065527065568,
       "series": [
-        4389.2998046875,
-        4391.89990234375,
-        4391.7998046875,
-        4382.7998046875,
-        4381.0,
-        4388.39990234375,
-        4393.2001953125,
-        4379.89990234375,
-        4379.7001953125,
-        4397.2998046875,
-        4386.10009765625,
-        4394.7001953125,
-        4387.7998046875,
-        4388.5,
-        4388.2001953125,
-        4399.0,
         4363.89990234375,
         4301.2998046875,
         4292.60009765625,
@@ -167,39 +151,39 @@
         4309.7998046875,
         4309.7001953125,
         4322.7998046875,
-        4324.5,
+        4318.5,
+        4348.10009765625,
+        4337.89990234375,
+        4330.10009765625,
+        4315.2001953125,
+        4323.7998046875,
+        4335.39990234375,
         4330.0,
         4336.10009765625,
-        4330.5,
-        4330.39990234375
+        4324.7998046875,
+        4342.60009765625,
+        4350.7001953125,
+        4349.5,
+        4368.2001953125,
+        4366.10009765625,
+        4355.10009765625,
+        4350.7001953125,
+        4345.39990234375,
+        4345.10009765625,
+        4344.5,
+        4345.7001953125
       ],
-      "as_of": "2026-09-17 05:27 UTC",
+      "as_of": "2026-09-17 10:12 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 102.21,
-      "change": -0.22000000000001307,
-      "change_pct": -0.2147808259299161,
+      "price": 101.11,
+      "change": -1.3200000000000074,
+      "change_pct": -1.2886849555794273,
       "series": [
-        103.87999725341797,
-        103.2699966430664,
-        103.27999877929688,
-        103.18000030517578,
-        103.66000366210938,
-        104.08999633789062,
-        104.05999755859375,
-        103.4000015258789,
-        103.2699966430664,
-        102.23999786376953,
-        101.83000183105469,
-        102.0,
-        102.5199966430664,
-        102.58999633789062,
-        102.4800033569336,
-        102.29000091552734,
         102.41000366210938,
         102.62000274658203,
         102.18000030517578,
@@ -211,29 +195,39 @@
         101.98999786376953,
         101.7699966430664,
         101.47000122070312,
-        101.44999694824219,
+        101.30999755859375,
+        102.16999816894531,
+        102.23999786376953,
+        102.16000366210938,
+        102.33000183105469,
+        102.23999786376953,
+        102.2699966430664,
         102.3499984741211,
         102.20999908447266,
-        102.20999908447266,
-        102.20999908447266
+        102.0199966430664,
+        101.41999816894531,
+        100.83000183105469,
+        100.95999908447266,
+        100.93000030517578,
+        101.5999984741211,
+        101.4000015258789,
+        101.45999908447266,
+        102.08000183105469,
+        101.33999633789062,
+        101.06999969482422,
+        101.11000061035156
       ],
-      "as_of": "2026-09-17 05:27 UTC",
+      "as_of": "2026-09-17 10:12 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 17.71,
-      "change": 0.5100000000000016,
-      "change_pct": 2.9651162790697767,
+      "price": 16.07,
+      "change": -1.6400000000000006,
+      "change_pct": -9.260304912478828,
       "series": [
-        17.440000534057617,
-        17.479999542236328,
-        17.3799991607666,
-        17.209999084472656,
-        16.93000030517578,
-        16.979999542236328,
         17.020000457763672,
         17.0,
         17.079999923706055,
@@ -259,9 +253,15 @@
         18.469999313354492,
         17.530000686645508,
         17.709999084472656,
-        17.709999084472656
+        15.930000305175781,
+        16.100000381469727,
+        16.190000534057617,
+        16.059999465942383,
+        16.06999969482422,
+        16.06999969482422,
+        16.06999969482422
       ],
-      "as_of": "2026-09-17 05:27 UTC",
+      "as_of": "2026-09-17 10:12 UTC",
       "source": "yahoo"
     }
   ],
@@ -273,76 +273,22 @@
       "source": "TheStreet"
     },
     {
-      "title": "Rich Dad Poor Dad author warns biggest crash in history has started",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rich-dad-poor-dad-author-172603940.html",
-      "published": "2026-09-15T17:26:03Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Cloudflare Hits Highs Amid Agentic AI Boom; Nears Pivot",
-      "url": "https://www.investors.com/research/cloudflare-net-stock-ai-agents-2/?src=A00220&yptr=yahoo",
-      "published": "2026-09-15T17:24:12Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Jim Cramer on Arista (ANET) CEO: \u201cShe Is Money and the Company\u2019s Fantastic\u201d",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-arista-anet-ceo-172307585.html",
-      "published": "2026-09-15T17:23:07Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Corn Pulling Off Early Lows on Tuesday",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-pulling-off-early-lows-172221094.html",
-      "published": "2026-09-15T17:22:21Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Jim Cramer Validates Caller\u2019s $1,400 Micron (MU) Thesis, Doubles Down on Charitable Trust Position",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-validates-caller-1-172138438.html",
-      "published": "2026-09-15T17:21:38Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "What American Eagle\u2019s (AEO) Q2 Numbers Say Beyond the Tariff Refund Boost",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-eagle-aeo-q2-numbers-171745773.html",
-      "published": "2026-09-15T17:17:45Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "IBD Stock Of The Day Scorpio Tankers Sails Toward Buy Point As Oil-Needy World Seeks Its Services",
-      "url": "https://www.investors.com/research/ibd-stock-of-the-day/scorpio-tankers-stock-buy-point/?src=A00220&yptr=yahoo",
-      "published": "2026-09-15T17:17:24Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "Unusual Out-of-the-Money Put Option Volume in Amazon Shows Investors Bullish on AMZN",
-      "url": "https://finance.yahoo.com/markets/options/articles/unusual-money-put-option-volume-173003261.html",
-      "published": "2026-09-15T17:30:03Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "CrowdStrike, Other Cybersecurity Stocks Surge as AI Debate Takes Center Stage",
-      "url": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-other-cybersecurity-stocks-surge-173149357.html",
-      "published": "2026-09-15T17:31:49Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Software and 2 Other Sectors That This Strategist Is Buying to Ride Out 5% Treasury Yields",
-      "url": "https://www.barrons.com/articles/bonds-treasuries-yields-stock-market-d8275385?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-09-15T17:23:00Z",
-      "source": "Barrons.com"
-    },
-    {
-      "title": "Dear Corteva Stock Fans, Mark Your Calendars for September 15",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-corteva-stock-fans-mark-174213249.html",
-      "published": "2026-09-15T17:42:13Z",
-      "source": "Barchart"
-    },
-    {
       "title": "What time is this week's Fed meeting?",
       "url": "https://finance.yahoo.com/personal-finance/banking/article/what-time-is-this-weeks-fed-meeting-120032072.html",
       "published": "2025-05-05T12:00:32Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Frozen bank account? How it happens and what to do next.",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/frozen-bank-account-185128708.html",
+      "published": "2024-09-25T18:51:28Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Jim Cramer Defends Intuit (INTU) Against AI Skeptics Ahead of Investor Day",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-defends-intuit-intu-220945960.html",
+      "published": "2026-09-15T22:09:45Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "Can you have two of the same credit card?",
@@ -351,70 +297,124 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Salesforce Stock Looks Poised To Strengthen. Here's A Cheap Way To Profit.",
-      "url": "https://www.investors.com/research/options/salesforce-stock-crm-software-tech-options-trade-income-investing-markets/?src=A00220&yptr=yahoo",
-      "published": "2026-09-15T18:02:42Z",
-      "source": "Investor's Business Daily"
+      "title": "Realty Income Taps Private Capital, Europe and Data Centers for Growth",
+      "url": "https://finance.yahoo.com/real-estate/articles/realty-income-taps-private-capital-220218428.html",
+      "published": "2026-09-15T22:02:18Z",
+      "source": "MarketBeat"
     },
     {
-      "title": "My Forever Portfolio: 3 Dividend-Paying Value Stocks That Are Too Cheap to Ignore.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/forever-portfolio-3-dividend-paying-172500543.html",
-      "published": "2026-09-15T17:25:00Z",
-      "source": "Motley Fool"
+      "title": "Americans\u2019 Median Household Income Hit a Record High in 2025",
+      "url": "https://finance.yahoo.com/economy/articles/americans-median-household-income-hit-224629115.html",
+      "published": "2026-09-15T22:46:29Z",
+      "source": "The Fiscal Times"
     },
     {
-      "title": "Salesforce CEO Benioff Touts AI Strategy In Dreamforce Keynote",
-      "url": "https://www.investors.com/news/technology/saleforce-stock-dreamforce-ai-strategy/?src=A00220&yptr=yahoo",
-      "published": "2026-09-15T18:01:17Z",
-      "source": "Investor's Business Daily"
+      "title": "Gold and the U.S. dollar: Why they often move in opposite directions",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-us-dollar-relationship-204112404.html",
+      "published": "2026-09-15T20:41:12Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Signal Says 'Buy the Dip' After Nvidia Stock Pullback",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/signal-says-buy-dip-nvidia-180357847.html",
-      "published": "2026-09-15T18:03:57Z",
-      "source": "Schaeffer's Investment Research"
+      "title": "The Grid\u2019s Wasted-Power Problem Has a Sector-Coupling Fix",
+      "url": "https://finance.yahoo.com/energy/articles/grid-wasted-power-problem-sector-230208698.html",
+      "published": "2026-09-15T23:02:08Z",
+      "source": "POWER Magazine"
     },
     {
-      "title": "Hold Your Horses: Palantir-Nebius Deal Doesn\u2019t Solve Either Stock\u2019s Biggest Problem",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hold-horses-palantir-nebius-deal-181024200.html",
-      "published": "2026-09-15T18:10:24Z",
-      "source": "Barchart"
+      "title": "Will the housing market crash this year?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-this-year-170038540.html",
+      "published": "2024-07-05T17:00:38Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Sunoco Stock Breaks Out; Oil Prices Rise With No Clear End To Hormuz Closure",
-      "url": "https://www.investors.com/news/sunoco-oil-prices-stocks-iran-war-hormuz/?src=A00220&yptr=yahoo",
-      "published": "2026-09-15T18:19:37Z",
-      "source": "Investor's Business Daily"
+      "title": "Gen X Retirement Savings: How Typical Balances Compare to Recommended Benchmarks",
+      "url": "https://finance.yahoo.com/markets/articles/gen-x-retirement-savings-typical-220500429.html",
+      "published": "2026-09-15T22:05:00Z",
+      "source": "Investopedia"
     },
     {
-      "title": "Did Greg Abel Already Make His First Big Mistake as Berkshire Hathaway CEO?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/did-greg-abel-already-first-172600741.html",
-      "published": "2026-09-15T17:26:00Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Trustpilot Gets a One-Star Review From Investors",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trustpilot-gets-one-star-review-173946110.html",
-      "published": "2026-09-15T18:24:00Z",
-      "source": "Moby"
-    },
-    {
-      "title": "Intel Has 4 Major Tailwinds According to This Wall Street Analyst, Yet 1 Red Flag Caused a Price Target Cut",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-4-major-tailwinds-according-182657781.html",
-      "published": "2026-09-15T18:26:57Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Chipmaker Pulls Back to Key Supportive Trendline",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chipmaker-pulls-back-key-supportive-183731911.html",
-      "published": "2026-09-15T18:37:31Z",
-      "source": "Schaeffer's Investment Research"
+      "title": "The AI gold rush has a dress code: steel-toe boots",
+      "url": "https://finance.yahoo.com/economy/articles/ai-gold-rush-dress-code-233725771.html",
+      "published": "2026-09-15T23:37:25Z",
+      "source": "Reuters"
     },
     {
       "title": "Clarity Act cloture vote fails: What it means for your crypto holdings",
       "url": "https://finance.yahoo.com/personal-finance/investing/article/clarity-act-cloture-vote-fails-what-it-means-for-your-crypto-holdings-153849029.html",
       "published": "2026-09-15T15:38:49Z",
       "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "This High-Yield Construction Stock Just Raised Its Dividend by 40%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/high-yield-construction-stock-just-233002433.html",
+      "published": "2026-09-15T23:30:02Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Credit card application denied? Here\u2019s what to do next",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/credit-card-application-denied-194416584.html",
+      "published": "2026-09-15T19:44:16Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Fed predictions for 2026: Will a rate hike happen by the end of the year?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/fed-rate-predictions-2026-154647304.html",
+      "published": "2024-07-30T15:46:47Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Saudi Pipeline Outage Hits an Oil Market Running Out of Buffers",
+      "url": "https://finance.yahoo.com/energy/articles/saudi-pipeline-outage-hits-oil-000000565.html",
+      "published": "2026-09-16T00:00:00Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Caturus Plans Major Expansion of Louisiana LNG Export Project",
+      "url": "https://finance.yahoo.com/energy/articles/caturus-plans-major-expansion-louisiana-015747836.html",
+      "published": "2026-09-16T01:57:47Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Exclusive-Malaysia talks to rival airlines as it monitors AirAsia's financial health, sources say",
+      "url": "https://finance.yahoo.com/economy/policy/articles/exclusive-malaysia-talks-rival-airlines-015835356.html",
+      "published": "2026-09-16T01:58:35Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "You Handle the Money and if Something Happens to You, Your Spouse Inherits 40 Years of Statements. These 3 ETFs Are the Portfolio They Can Run Alone",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/handle-money-something-happens-spouse-220525302.html",
+      "published": "2026-09-15T22:05:25Z",
+      "source": "24/7 Wall St."
+    },
+    {
+      "title": "BOJ set to raise interest rates to 31-year high as inflation risks loom",
+      "url": "https://finance.yahoo.com/news/boj-set-raise-interest-rates-024244752.html",
+      "published": "2026-09-16T02:42:44Z",
+      "source": "Reuters"
+    },
+    {
+      "title": "Jefferson Capital (JCAP) Grows Everywhere, But Costs Are Climbing Faster",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferson-capital-jcap-grows-everywhere-024604879.html",
+      "published": "2026-09-16T02:46:04Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Artivion\u2019s (AORT) Growth Story Hides A Widening Bottom-Line Problem",
+      "url": "https://finance.yahoo.com/healthcare/articles/artivion-aort-growth-story-hides-024959979.html",
+      "published": "2026-09-16T02:49:59Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "What is debt settlement? How it works and what it costs you.",
+      "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/what-is-debt-settlement-185327526.html",
+      "published": "2026-05-22T18:53:27Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Cameco vs. USA Rare Earth: Which Renewable Energy Stock Is a Better Buy in 2026?",
+      "url": "https://finance.yahoo.com/energy/articles/cameco-vs-usa-rare-earth-220502597.html",
+      "published": "2026-09-15T22:05:02Z",
+      "source": "Motley Fool"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.5882808266893652
     }
   },
-  "updated_at": "2026-09-17T05:27:12.396024+00:00",
+  "updated_at": "2026-09-17T10:12:17.605199+00:00",
   "source": "yahoo_finance"
 }
