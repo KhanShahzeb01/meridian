@@ -41,7 +41,7 @@
         7553.330078125,
         7551.81005859375
       ],
-      "as_of": "2026-09-17 00:41 UTC",
+      "as_of": "2026-09-17 05:27 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         25985.52734375,
         25978.423828125
       ],
-      "as_of": "2026-09-17 00:41 UTC",
+      "as_of": "2026-09-17 05:27 UTC",
       "source": "yahoo"
     },
     {
@@ -93,8 +93,8 @@
       "name": "Dow Jones",
       "symbol": "^DJI",
       "price": 51461.9,
-      "change": -631.2099999999991,
-      "change_pct": -1.2116957501673429,
+      "change": -631.1999999999971,
+      "change_pct": -1.2116767863690145,
       "series": [
         52447.76171875,
         52429.80859375,
@@ -129,20 +129,17 @@
         51477.73046875,
         51461.8984375
       ],
-      "as_of": "2026-09-17 00:41 UTC",
+      "as_of": "2026-09-17 05:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4324.3,
-      "change": -63.19999999999982,
-      "change_pct": -1.4404558404558363,
+      "price": 4330.4,
+      "change": -57.100000000000364,
+      "change_pct": -1.3014245014245096,
       "series": [
-        4371.10009765625,
-        4370.60009765625,
-        4379.10009765625,
         4389.2998046875,
         4391.89990234375,
         4391.7998046875,
@@ -171,22 +168,22 @@
         4309.7001953125,
         4322.7998046875,
         4324.5,
-        4324.2998046875
+        4330.0,
+        4336.10009765625,
+        4330.5,
+        4330.39990234375
       ],
-      "as_of": "2026-09-17 00:41 UTC",
+      "as_of": "2026-09-17 05:27 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 101.47,
-      "change": -0.960000000000008,
-      "change_pct": -0.937225422239586,
+      "price": 102.21,
+      "change": -0.22000000000001307,
+      "change_pct": -0.2147808259299161,
       "series": [
-        104.5,
-        104.4800033569336,
-        104.13999938964844,
         103.87999725341797,
         103.2699966430664,
         103.27999877929688,
@@ -215,9 +212,12 @@
         101.7699966430664,
         101.47000122070312,
         101.44999694824219,
-        101.47000122070312
+        102.3499984741211,
+        102.20999908447266,
+        102.20999908447266,
+        102.20999908447266
       ],
-      "as_of": "2026-09-17 00:41 UTC",
+      "as_of": "2026-09-17 05:27 UTC",
       "source": "yahoo"
     },
     {
@@ -261,15 +261,15 @@
         17.709999084472656,
         17.709999084472656
       ],
-      "as_of": "2026-09-17 00:41 UTC",
+      "as_of": "2026-09-17 05:27 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "How a Costco partner's bankruptcy could benefit its biggest rival",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-partners-bankruptcy-could-benefit-133300901.html",
-      "published": "2026-09-15T13:33:00Z",
+      "title": "Mysterious trader moves $122 million ahead of Fed's 2 p.m. decision",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/mysterious-trader-moves-122-million-164740089.html",
+      "published": "2026-09-16T16:47:40Z",
       "source": "TheStreet"
     },
     {
@@ -279,142 +279,142 @@
       "source": "TheStreet"
     },
     {
-      "title": "What is debt settlement? How it works and what it costs you.",
-      "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/what-is-debt-settlement-185327526.html",
-      "published": "2026-05-22T18:53:27Z",
+      "title": "Cloudflare Hits Highs Amid Agentic AI Boom; Nears Pivot",
+      "url": "https://www.investors.com/research/cloudflare-net-stock-ai-agents-2/?src=A00220&yptr=yahoo",
+      "published": "2026-09-15T17:24:12Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Jim Cramer on Arista (ANET) CEO: \u201cShe Is Money and the Company\u2019s Fantastic\u201d",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-arista-anet-ceo-172307585.html",
+      "published": "2026-09-15T17:23:07Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Corn Pulling Off Early Lows on Tuesday",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-pulling-off-early-lows-172221094.html",
+      "published": "2026-09-15T17:22:21Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Jim Cramer Validates Caller\u2019s $1,400 Micron (MU) Thesis, Doubles Down on Charitable Trust Position",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-validates-caller-1-172138438.html",
+      "published": "2026-09-15T17:21:38Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "What American Eagle\u2019s (AEO) Q2 Numbers Say Beyond the Tariff Refund Boost",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-eagle-aeo-q2-numbers-171745773.html",
+      "published": "2026-09-15T17:17:45Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "IBD Stock Of The Day Scorpio Tankers Sails Toward Buy Point As Oil-Needy World Seeks Its Services",
+      "url": "https://www.investors.com/research/ibd-stock-of-the-day/scorpio-tankers-stock-buy-point/?src=A00220&yptr=yahoo",
+      "published": "2026-09-15T17:17:24Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Unusual Out-of-the-Money Put Option Volume in Amazon Shows Investors Bullish on AMZN",
+      "url": "https://finance.yahoo.com/markets/options/articles/unusual-money-put-option-volume-173003261.html",
+      "published": "2026-09-15T17:30:03Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "CrowdStrike, Other Cybersecurity Stocks Surge as AI Debate Takes Center Stage",
+      "url": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-other-cybersecurity-stocks-surge-173149357.html",
+      "published": "2026-09-15T17:31:49Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "Software and 2 Other Sectors That This Strategist Is Buying to Ride Out 5% Treasury Yields",
+      "url": "https://www.barrons.com/articles/bonds-treasuries-yields-stock-market-d8275385?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-09-15T17:23:00Z",
+      "source": "Barrons.com"
+    },
+    {
+      "title": "Dear Corteva Stock Fans, Mark Your Calendars for September 15",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-corteva-stock-fans-mark-174213249.html",
+      "published": "2026-09-15T17:42:13Z",
+      "source": "Barchart"
+    },
+    {
+      "title": "What time is this week's Fed meeting?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-time-is-this-weeks-fed-meeting-120032072.html",
+      "published": "2025-05-05T12:00:32Z",
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Is Targa Resources Stock Outperforming the S&P 500?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/targa-resources-stock-outperforming-p-130106466.html",
-      "published": "2026-09-15T13:01:06Z",
+      "title": "Can you have two of the same credit card?",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/can-you-have-two-of-the-same-credit-card-175008954.html",
+      "published": "2026-09-15T17:50:08Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Salesforce Stock Looks Poised To Strengthen. Here's A Cheap Way To Profit.",
+      "url": "https://www.investors.com/research/options/salesforce-stock-crm-software-tech-options-trade-income-investing-markets/?src=A00220&yptr=yahoo",
+      "published": "2026-09-15T18:02:42Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "My Forever Portfolio: 3 Dividend-Paying Value Stocks That Are Too Cheap to Ignore.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/forever-portfolio-3-dividend-paying-172500543.html",
+      "published": "2026-09-15T17:25:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Salesforce CEO Benioff Touts AI Strategy In Dreamforce Keynote",
+      "url": "https://www.investors.com/news/technology/saleforce-stock-dreamforce-ai-strategy/?src=A00220&yptr=yahoo",
+      "published": "2026-09-15T18:01:17Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Signal Says 'Buy the Dip' After Nvidia Stock Pullback",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/signal-says-buy-dip-nvidia-180357847.html",
+      "published": "2026-09-15T18:03:57Z",
+      "source": "Schaeffer's Investment Research"
+    },
+    {
+      "title": "Hold Your Horses: Palantir-Nebius Deal Doesn\u2019t Solve Either Stock\u2019s Biggest Problem",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hold-horses-palantir-nebius-deal-181024200.html",
+      "published": "2026-09-15T18:10:24Z",
       "source": "Barchart"
     },
     {
-      "title": "Adobe Stock is Dirt Cheap After Its Recent Results - What's the Best Way to Play ADBE?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/adobe-stock-dirt-cheap-recent-130002656.html",
-      "published": "2026-09-15T13:00:02Z",
+      "title": "Sunoco Stock Breaks Out; Oil Prices Rise With No Clear End To Hormuz Closure",
+      "url": "https://www.investors.com/news/sunoco-oil-prices-stocks-iran-war-hormuz/?src=A00220&yptr=yahoo",
+      "published": "2026-09-15T18:19:37Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Did Greg Abel Already Make His First Big Mistake as Berkshire Hathaway CEO?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/did-greg-abel-already-first-172600741.html",
+      "published": "2026-09-15T17:26:00Z",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Trustpilot Gets a One-Star Review From Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trustpilot-gets-one-star-review-173946110.html",
+      "published": "2026-09-15T18:24:00Z",
+      "source": "Moby"
+    },
+    {
+      "title": "Intel Has 4 Major Tailwinds According to This Wall Street Analyst, Yet 1 Red Flag Caused a Price Target Cut",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-4-major-tailwinds-according-182657781.html",
+      "published": "2026-09-15T18:26:57Z",
       "source": "Barchart"
     },
     {
-      "title": "Universal Display (OLED): Is the AI Infrastructure Boom Becoming a Hidden Risk for Display Suppliers?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/universal-display-oled-ai-infrastructure-125924977.html",
-      "published": "2026-09-15T12:59:24Z",
-      "source": "Insider Monkey"
+      "title": "Chipmaker Pulls Back to Key Supportive Trendline",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chipmaker-pulls-back-key-supportive-183731911.html",
+      "published": "2026-09-15T18:37:31Z",
+      "source": "Schaeffer's Investment Research"
     },
     {
-      "title": "Mysterious trader moves $122 million ahead of Fed's 2 p.m. decision",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/mysterious-trader-moves-122-million-164740089.html",
-      "published": "2026-09-16T16:47:40Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Vishay Precision (VPG) Became a Winner From Industrial Recovery and the Humanoid Robotics Boom",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/vishay-precision-vpg-became-winner-130351712.html",
-      "published": "2026-09-15T13:03:51Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "NVIDIA, AMD and Intel Forecast: AI Stocks Eye a Rebound",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-intel-forecast-ai-125717460.html",
-      "published": "2026-09-15T12:57:17Z",
-      "source": "FX Empire"
-    },
-    {
-      "title": "NetApp Stock: Is NTAP Outperforming the Technology Sector?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/netapp-stock-ntap-outperforming-technology-125243290.html",
-      "published": "2026-09-15T12:52:43Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "How AI Infrastructure and Component Costs Threaten Logitech\u2019s (LOGI) Outlook",
-      "url": "https://finance.yahoo.com/technology/articles/ai-infrastructure-component-costs-threaten-125222803.html",
-      "published": "2026-09-15T12:52:22Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Companies Maintain AI Deployments With a Focus on Governance",
-      "url": "https://www.wsj.com/cio-journal/companies-maintain-ai-deployments-with-a-focus-on-governance-51310d2f?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-09-15T13:02:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "Can Rising Component Costs and Weak Consumer Spending Break Dolby Laboratories\u2019 (DLB) Growth Outlook?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rising-component-costs-weak-consumer-125048665.html",
-      "published": "2026-09-15T12:50:48Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "How Is T. Rowe Price's Stock Performance Compared to Other Financial Stocks?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/t-rowe-prices-stock-performance-125137107.html",
-      "published": "2026-09-15T12:51:37Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "AMD (AMD) Could Compound EPS at 65% Through 2030, Piper Says",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-could-compound-eps-125049495.html",
-      "published": "2026-09-15T12:50:49Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Deckers Outdoor Stock: Is DECK Underperforming the Consumer Discretionary Sector?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/deckers-outdoor-stock-deck-underperforming-124824061.html",
-      "published": "2026-09-15T12:48:24Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Atlassian Says AI Tailwind Is Building as Cloud Growth and Rovo Adoption Accelerate",
-      "url": "https://finance.yahoo.com/technology/ai/articles/atlassian-says-ai-tailwind-building-130215290.html",
-      "published": "2026-09-15T13:02:15Z",
-      "source": "MarketBeat"
-    },
-    {
-      "title": "How Is Vivmark Residential\u2019s Stock Performance Compared to Other Residential REIT Stocks",
-      "url": "https://finance.yahoo.com/real-estate/articles/vivmark-residential-stock-performance-compared-130626261.html",
-      "published": "2026-09-15T13:06:26Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "How Is Datadog\u2019s Stock Performance Compared to Other Cloud Computing Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-stock-performance-compared-other-124420745.html",
-      "published": "2026-09-15T12:44:20Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Is Church & Dwight Stock Outperforming the Dow?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-stock-outperforming-dow-124355285.html",
-      "published": "2026-09-15T12:43:55Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Ballooning US debt is a ticking time bomb, billionaire investor David Rubenstein says",
-      "url": "https://finance.yahoo.com/markets/article/ballooning-us-debt-is-a-ticking-time-bomb-billionaire-investor-david-rubenstein-says-130757123.html",
-      "published": "2026-09-15T13:07:57Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Current price of oil as of Sept. 15, 2026",
-      "url": "https://finance.yahoo.com/energy/articles/current-price-oil-sept-15-130000055.html",
-      "published": "2026-09-15T13:00:00Z",
-      "source": "Fortune"
-    },
-    {
-      "title": "Nasdaq, Dow and S&P 500 Forecast: Markets Await the Fed",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-forecast-130903574.html",
-      "published": "2026-09-15T13:09:03Z",
-      "source": "FX Empire"
-    },
-    {
-      "title": "Is Take-Two Interactive Stock Underperforming the S&P 500?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-stock-underperforming-p-123419248.html",
-      "published": "2026-09-15T12:34:19Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Is M&T Bank Outperforming the Nasdaq?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/m-t-bank-outperforming-nasdaq-131152976.html",
-      "published": "2026-09-15T13:11:52Z",
-      "source": "Barchart"
+      "title": "Clarity Act cloture vote fails: What it means for your crypto holdings",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/clarity-act-cloture-vote-fails-what-it-means-for-your-crypto-holdings-153849029.html",
+      "published": "2026-09-15T15:38:49Z",
+      "source": "Yahoo Personal Finance"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": 0.5882808266893652
     }
   },
-  "updated_at": "2026-09-17T00:41:57.833292+00:00",
+  "updated_at": "2026-09-17T05:27:12.396024+00:00",
   "source": "yahoo_finance"
 }
