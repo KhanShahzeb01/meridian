@@ -41,7 +41,7 @@
         7637.0498046875,
         7637.759765625
       ],
-      "as_of": "2026-09-18 06:34 UTC",
+      "as_of": "2026-09-18 11:43 UTC",
       "source": "yahoo"
     },
     {
@@ -85,16 +85,16 @@
         26414.724609375,
         26418.298828125
       ],
-      "as_of": "2026-09-18 06:34 UTC",
+      "as_of": "2026-09-18 11:43 UTC",
       "source": "yahoo"
     },
     {
       "id": "dow",
       "name": "Dow Jones",
       "symbol": "^DJI",
-      "price": 51778.04,
-      "change": 316.1399999999994,
-      "change_pct": 0.6143185541147905,
+      "price": 51778.0,
+      "change": 316.09999999999854,
+      "change_pct": 0.6142408267086884,
       "series": [
         51992.5390625,
         52018.171875,
@@ -127,34 +127,19 @@
         51808.1484375,
         51790.80859375,
         51776.48046875,
-        51778.0390625
+        51778.0
       ],
-      "as_of": "2026-09-18 06:34 UTC",
+      "as_of": "2026-09-18 11:43 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4428.6,
-      "change": 28.900000000000546,
-      "change_pct": 0.6568629679296439,
+      "price": 4419.3,
+      "change": 19.600000000000364,
+      "change_pct": 0.4454849194263328,
       "series": [
-        4421.2998046875,
-        4413.7998046875,
-        4407.39990234375,
-        4407.39990234375,
-        4407.5,
-        4394.5,
-        4398.2998046875,
-        4409.7998046875,
-        4407.2998046875,
-        4401.89990234375,
-        4400.2001953125,
-        4400.2998046875,
-        4396.0,
-        4390.89990234375,
-        4382.39990234375,
         4385.2001953125,
         4381.7001953125,
         4380.60009765625,
@@ -165,40 +150,40 @@
         4392.5,
         4394.89990234375,
         4398.5,
-        4387.5,
+        4387.0,
+        4391.5,
+        4385.39990234375,
+        4379.2998046875,
+        4396.60009765625,
         4397.5,
         4406.39990234375,
         4404.2001953125,
         4416.89990234375,
-        4431.0,
-        4428.60009765625
+        4432.10009765625,
+        4433.5,
+        4435.5,
+        4433.2998046875,
+        4427.7001953125,
+        4432.10009765625,
+        4428.0,
+        4416.10009765625,
+        4421.39990234375,
+        4421.2998046875,
+        4416.89990234375,
+        4420.0,
+        4419.2998046875
       ],
-      "as_of": "2026-09-18 06:34 UTC",
+      "as_of": "2026-09-18 11:43 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 100.41,
-      "change": -1.5,
-      "change_pct": -1.4718869590815424,
+      "price": 95.96,
+      "change": -1.2700000000000102,
+      "change_pct": -1.3061812197881417,
       "series": [
-        99.19999694824219,
-        99.9800033569336,
-        100.52999877929688,
-        100.58000183105469,
-        100.56999969482422,
-        101.18000030517578,
-        100.75,
-        100.94999694824219,
-        101.19999694824219,
-        102.08000183105469,
-        102.1500015258789,
-        101.9800033569336,
-        102.02999877929688,
-        101.83000183105469,
-        101.18000030517578,
         101.23999786376953,
         101.19000244140625,
         101.08999633789062,
@@ -209,34 +194,40 @@
         100.87000274658203,
         101.16999816894531,
         101.36000061035156,
-        101.2699966430664,
+        101.30000305175781,
+        101.33000183105469,
+        101.37999725341797,
+        101.22000122070312,
+        101.16999816894531,
         101.26000213623047,
         101.01000213623047,
         101.0199966430664,
         100.93000030517578,
-        100.41000366210938,
-        100.41000366210938
+        100.27999877929688,
+        100.0199966430664,
+        99.58000183105469,
+        95.33000183105469,
+        95.73999786376953,
+        95.55999755859375,
+        95.69000244140625,
+        96.37999725341797,
+        95.66999816894531,
+        95.61000061035156,
+        96.20999908447266,
+        95.97000122070312,
+        95.95999908447266
       ],
-      "as_of": "2026-09-18 06:34 UTC",
+      "as_of": "2026-09-18 11:43 UTC",
       "source": "yahoo"
     },
     {
       "id": "vix",
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.44,
-      "change": -2.2700000000000014,
-      "change_pct": -12.81761716544326,
+      "price": 15.43,
+      "change": -2.280000000000001,
+      "change_pct": -12.874082439299835,
       "series": [
-        17.729999542236328,
-        18.469999313354492,
-        17.530000686645508,
-        17.709999084472656,
-        15.930000305175781,
-        16.100000381469727,
-        16.190000534057617,
-        16.059999465942383,
-        16.06999969482422,
         16.06999969482422,
         15.970000267028809,
         15.930000305175781,
@@ -259,108 +250,39 @@
         15.5,
         15.430000305175781,
         15.4399995803833,
-        15.4399995803833
+        15.010000228881836,
+        15.119999885559082,
+        15.279999732971191,
+        15.220000267028809,
+        15.229999542236328,
+        15.350000381469727,
+        15.359999656677246,
+        15.300000190734863,
+        15.430000305175781,
+        15.430000305175781
       ],
-      "as_of": "2026-09-18 06:34 UTC",
+      "as_of": "2026-09-18 11:43 UTC",
       "source": "yahoo"
     }
   ],
   "headlines": [
     {
-      "title": "Saudi Oil Crisis Is About to Hit Europe",
-      "url": "https://finance.yahoo.com/energy/articles/saudi-oil-crisis-hit-europe-183200571.html",
-      "published": "2026-09-16T18:32:00Z",
+      "title": "What is the Federal Reserve?",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/what-is-the-federal-reserve-205012702.html",
+      "published": "2024-04-22T20:50:12Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Is Ciena's Pricing Power Real, Or Just A Parts Shortage?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cienas-pricing-power-real-just-233841142.html",
+      "published": "2026-09-16T23:38:41Z",
+      "source": "Trefis"
+    },
+    {
+      "title": "StanChart Sees Higher Oil Floor as Hormuz Crisis Spreads to Saudi Export Routes",
+      "url": "https://finance.yahoo.com/energy/articles/stanchart-sees-higher-oil-floor-000000512.html",
+      "published": "2026-09-17T00:00:00Z",
       "source": "Oilprice.com"
-    },
-    {
-      "title": "Understanding the Fed's rate decisions: Do we want high or low interest rates\u200b?",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/do-we-want-high-or-low-interest-rates-223031516.html",
-      "published": "2024-12-27T22:30:31Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Why It\u2019s Time to Load Up on Nvidia Stock",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-time-load-nvidia-stock-183025364.html",
-      "published": "2026-09-16T18:30:25Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Qualcomm now faces rival with bigger market cap",
-      "url": "https://finance.yahoo.com/technology/articles/qualcomm-now-faces-rival-bigger-183300116.html",
-      "published": "2026-09-16T18:33:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Mortgage rate predictions for the next five years: A new data-powered forecast through 2031",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-for-the-next-five-years-a-new-data-powered-forecast-through-2031-195826935.html",
-      "published": "2025-08-18T19:58:26Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Fed officials' forecasts project one more rate hike to come in 2026",
-      "url": "https://finance.yahoo.com/economy/policy/article/fed-officials-forecasts-project-one-more-rate-hike-to-come-in-2026-183856618.html",
-      "published": "2026-09-16T18:38:56Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Robust US retail sales underscore economy's resilience, inflation pressures building",
-      "url": "https://finance.yahoo.com/economy/articles/us-retail-sales-rebound-sharply-123724094.html",
-      "published": "2026-09-16T18:40:07Z",
-      "source": "Reuters"
-    },
-    {
-      "title": "How the Federal Reserve rate hike shapes consumer loans",
-      "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/federal-reserve-loan-rates-190719060.html",
-      "published": "2025-09-16T19:07:19Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Preliminary Agenda: 6th Palm Beach CorpGov Forum Nov 4-5 with Activism, Sports, VC",
-      "url": "https://finance.yahoo.com/news/preliminary-agenda-6th-palm-beach-224834498.html",
-      "published": "2026-09-16T18:48:34Z",
-      "source": "CorpGov.com"
-    },
-    {
-      "title": "The best credit cards for Airbnb rentals (2026): Earn points and cash back for your stay",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-card-for-airbnb-rentals-183212147.html",
-      "published": "2025-04-14T18:32:12Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-volatility-stay-high-fed-185000456.html",
-      "published": "2026-09-16T18:50:00Z",
-      "source": "CryptoProwl"
-    },
-    {
-      "title": "Mining Stock Could Soon Unearth Another Record",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mining-stock-could-soon-unearth-185040112.html",
-      "published": "2026-09-16T18:50:40Z",
-      "source": "Schaeffer's Investment Research"
-    },
-    {
-      "title": "What Fed Rate Increase Means for Your Money",
-      "url": "https://www.wsj.com/finance/investing/what-fed-rate-increase-means-for-your-money-cf527fcd?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-09-16T18:37:00Z",
-      "source": "The Wall Street Journal"
-    },
-    {
-      "title": "How the Federal Reserve's rate hike impacts student loan interest rates",
-      "url": "https://finance.yahoo.com/personal-finance/student-loans/article/federal-reserve-student-loan-rates-223344566.html",
-      "published": "2024-01-26T22:33:44Z",
-      "source": "Yahoo Personal Finance"
-    },
-    {
-      "title": "A $10 Trillion Reason Why SpaceX Stock Is Up Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/10-trillion-reason-why-spacex-185529245.html",
-      "published": "2026-09-16T18:55:29Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "What a Fed rate hike means for your bank accounts, loans, credit cards, and investments",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-a-fed-rate-hike-means-for-your-bank-accounts-loans-credit-cards-and-investments-220526102.html",
-      "published": "2024-12-17T22:05:26Z",
-      "source": "Yahoo Personal Finance"
     },
     {
       "title": "A look at the federal funds rate over the past 50 years: How has it changed?",
@@ -369,52 +291,130 @@
       "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Verizon and AT&T Dominate Communications Services. Why That\u2019s a Problem.",
-      "url": "https://www.barrons.com/articles/verizon-at-t-stocks-telecom-meta-e0956450?siteid=yhoof2&yptr=yahoo",
-      "published": "2026-09-16T18:36:00Z",
-      "source": "Barrons.com"
+      "title": "Mortgage rate predictions for the next five years: A new data-powered forecast through 2031",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-for-the-next-five-years-a-new-data-powered-forecast-through-2031-195826935.html",
+      "published": "2025-08-18T19:58:26Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Container shipping fuel prices remain elevated as supply fears ease",
-      "url": "https://finance.yahoo.com/energy/articles/container-shipping-fuel-prices-remain-190952235.html",
-      "published": "2026-09-16T19:09:52Z",
-      "source": "FreightWaves"
+      "title": "Understanding the Fed's rate decisions: Do we want high or low interest rates\u200b?",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/do-we-want-high-or-low-interest-rates-223031516.html",
+      "published": "2024-12-27T22:30:31Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "Nat-Gas Prices Slip as European Gas Prices Retreat",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/nat-gas-prices-slip-european-191503600.html",
-      "published": "2026-09-16T19:15:03Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Crude Oil Prices Sharply Lower as Middle East Disruptions Ease",
-      "url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-sharply-lower-191614521.html",
-      "published": "2026-09-16T19:16:14Z",
-      "source": "Barchart"
-    },
-    {
-      "title": "Two Low-Profile AI Data-Center Innovators That Investors Should Watch",
-      "url": "https://www.investors.com/news/ai-data-centers-neocloud-oracle-microsoft-joulent-crusoe/?src=A00220&yptr=yahoo",
-      "published": "2026-09-16T19:22:17Z",
-      "source": "Investor's Business Daily"
-    },
-    {
-      "title": "High-Yield Pipeline Stocks the Market Keeps Sleeping On",
-      "url": "https://finance.yahoo.com/energy/articles/high-yield-pipeline-stocks-market-183500962.html",
-      "published": "2026-09-16T18:35:00Z",
+      "title": "Michael Burry of \"The Big Short\" Says an AI Slowdown Would Be \"Self-Serving\" for OpenAI and Anthropic",
+      "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-big-short-says-234100507.html",
+      "published": "2026-09-16T23:41:00Z",
       "source": "Motley Fool"
     },
     {
-      "title": "What is the average personal loan rate for September 2026?",
-      "url": "https://finance.yahoo.com/markets/articles/average-personal-loan-interest-rate-005856676.html",
-      "published": "2026-09-16T19:25:09Z",
-      "source": "Bankrate"
+      "title": "How the Federal Reserve rate hike shapes consumer loans",
+      "url": "https://finance.yahoo.com/personal-finance/personal-loans/article/federal-reserve-loan-rates-190719060.html",
+      "published": "2025-09-16T19:07:19Z",
+      "source": "Yahoo Personal Finance"
     },
     {
-      "title": "How Highway Sees Fraud, Risk and Carrier Vetting",
-      "url": "https://finance.yahoo.com/small-business/articles/highway-sees-fraud-risk-carrier-192844408.html",
-      "published": "2026-09-16T19:28:44Z",
-      "source": "FreightWaves"
+      "title": "AXT Inc. (AXTI) Draws Bullish Analyst Attention \u2014 Here\u2019s Why",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-draws-bullish-010252885.html",
+      "published": "2026-09-17T01:02:52Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "The best credit cards for Airbnb rentals (2026): Earn points and cash back for your stay",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-card-for-airbnb-rentals-183212147.html",
+      "published": "2025-04-14T18:32:12Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "How the Federal Reserve's rate hike impacts student loan interest rates",
+      "url": "https://finance.yahoo.com/personal-finance/student-loans/article/federal-reserve-student-loan-rates-223344566.html",
+      "published": "2024-01-26T22:33:44Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "Duolingo beats Netflix by 80 spots in new power ranking",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/duolingo-beats-netflix-80-spots-234513017.html",
+      "published": "2026-09-16T23:45:13Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "What a Fed rate hike means for your bank accounts, loans, credit cards, and investments",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-a-fed-rate-hike-means-for-your-bank-accounts-loans-credit-cards-and-investments-220526102.html",
+      "published": "2024-12-17T22:05:26Z",
+      "source": "Yahoo Personal Finance"
+    },
+    {
+      "title": "GE Vernova and Vineyard Wind Settle $300M-Plus Offshore Wind Dispute",
+      "url": "https://finance.yahoo.com/energy/articles/ge-vernova-vineyard-wind-settle-024435837.html",
+      "published": "2026-09-17T02:44:35Z",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Liberty Global (LBTYA): Can \u00a3600M of Proposed Virgin Media O2 Cuts Reduce Debt?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-global-lbtya-600m-proposed-035730613.html",
+      "published": "2026-09-17T03:57:30Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Fed Raises Interest Rates for First Time in Three Years as Diesel, Gas Prices Surge",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-raises-interest-rates-first-040100694.html",
+      "published": "2026-09-17T04:01:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "DoorDash Stock Trades 31% Below Its High. Here\u2019s What Investors Are Watching",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-stock-trades-31-below-234547114.html",
+      "published": "2026-09-16T23:45:47Z",
+      "source": "TIKR"
+    },
+    {
+      "title": "AI Won\u2019t Replace Advisors. It May Actually Add More",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-won-t-replace-advisors-040200789.html",
+      "published": "2026-09-17T04:02:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "The Clarity Act Failed to Advance. It\u2019s Still Business As Usual",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/clarity-act-failed-advance-still-040300692.html",
+      "published": "2026-09-17T04:03:00Z",
+      "source": "The Daily Upside"
+    },
+    {
+      "title": "Hudson Pacific (HPP) Extends $1.1B Hollywood Loan. Can Leasing Improve?",
+      "url": "https://finance.yahoo.com/real-estate/articles/hudson-pacific-hpp-extends-1-041136836.html",
+      "published": "2026-09-17T04:11:36Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Redwood Trust (RWT) Prices $185M of Convertibles. Does Maturity Relief Justify Higher Interest?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/redwood-trust-rwt-prices-185m-041638826.html",
+      "published": "2026-09-17T04:16:38Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Is Lowe's Cheap Because Nobody Noticed Its Growth?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lowes-cheap-because-nobody-noticed-234550398.html",
+      "published": "2026-09-16T23:45:50Z",
+      "source": "Trefis"
+    },
+    {
+      "title": "Vaxcyte (PCVX) Brings In Pharma Veterans As Its Big Test Nears",
+      "url": "https://finance.yahoo.com/healthcare/articles/vaxcyte-pcvx-brings-pharma-veterans-042014144.html",
+      "published": "2026-09-17T04:20:14Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Rent the Runway (RENT) Grew Revenue 20.8%. Can Higher Spending Produce Sustainable Cash Flow?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rent-runway-rent-grew-revenue-042201707.html",
+      "published": "2026-09-17T04:22:01Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Coffee Holding (JVA) Hit a 25% Gross Margin. Can Profits Outlast Tariff Refunds?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coffee-holding-jva-hit-25-042618710.html",
+      "published": "2026-09-17T04:26:18Z",
+      "source": "Insider Monkey"
     }
   ],
   "quotes": {
@@ -504,6 +504,6 @@
       "change_pct": -2.0392458637937603
     }
   },
-  "updated_at": "2026-09-18T06:34:07.085374+00:00",
+  "updated_at": "2026-09-18T11:43:15.059308+00:00",
   "source": "yahoo_finance"
 }
