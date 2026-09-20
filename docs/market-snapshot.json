@@ -41,7 +41,7 @@
         7646.0400390625,
         7650.5
       ],
-      "as_of": "2026-09-20 21:51 UTC",
+      "as_of": "2026-09-20 23:40 UTC",
       "source": "yahoo"
     },
     {
@@ -85,7 +85,7 @@
         26511.013671875,
         26522.544921875
       ],
-      "as_of": "2026-09-20 21:51 UTC",
+      "as_of": "2026-09-20 23:40 UTC",
       "source": "yahoo"
     },
     {
@@ -129,20 +129,17 @@
         51656.25,
         51682.640625
       ],
-      "as_of": "2026-09-20 21:51 UTC",
+      "as_of": "2026-09-20 23:40 UTC",
       "source": "yahoo"
     },
     {
       "id": "gold",
       "name": "Gold",
       "symbol": "GC=F",
-      "price": 4424.9,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 4412.8,
+      "change": -12.099999999999454,
+      "change_pct": -0.2734525074012849,
       "series": [
-        4416.89990234375,
-        4432.10009765625,
-        4433.5,
         4435.5,
         4433.2998046875,
         4427.7001953125,
@@ -171,22 +168,22 @@
         4415.60009765625,
         4419.2998046875,
         4424.89990234375,
-        4424.89990234375
+        4414.10009765625,
+        4412.10009765625,
+        4412.7998046875,
+        4412.7998046875
       ],
-      "as_of": "2026-09-20 21:51 UTC",
+      "as_of": "2026-09-20 23:40 UTC",
       "source": "yahoo"
     },
     {
       "id": "crude",
       "name": "Crude Oil",
       "symbol": "CL=F",
-      "price": 96.08,
-      "change": 0.0,
-      "change_pct": 0.0,
+      "price": 96.11,
+      "change": 0.030000000000001137,
+      "change_pct": 0.031223980016653972,
       "series": [
-        100.93000030517578,
-        100.27999877929688,
-        100.0199966430664,
         99.58000183105469,
         95.33000183105469,
         95.73999786376953,
@@ -215,9 +212,12 @@
         95.69000244140625,
         95.30999755859375,
         96.08000183105469,
-        96.08000183105469
+        96.4800033569336,
+        95.91000366210938,
+        96.11000061035156,
+        96.11000061035156
       ],
-      "as_of": "2026-09-20 21:51 UTC",
+      "as_of": "2026-09-20 23:40 UTC",
       "source": "yahoo"
     },
     {
@@ -261,7 +261,7 @@
         14.8100004196167,
         14.8100004196167
       ],
-      "as_of": "2026-09-20 21:51 UTC",
+      "as_of": "2026-09-20 23:40 UTC",
       "source": "yahoo"
     }
   ],
@@ -271,6 +271,132 @@
       "url": "https://finance.yahoo.com/small-business/articles/tj-maxx-rival-closing-120-181700076.html",
       "published": "2026-09-19T23:02:22Z",
       "source": "TheStreet"
+    },
+    {
+      "title": "Signet Jewelers (SIG) Swings to a Profit and Signs a Credit Deal Worth $1 Billion",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/signet-jewelers-sig-swings-profit-232831573.html",
+      "published": "2026-09-20T23:28:31Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Jersey Mike\u2019s (JMKE) Posts its First Public Earnings, and the Numbers Back Up the Growth Story",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jersey-mike-jmke-posts-first-232340583.html",
+      "published": "2026-09-20T23:23:40Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "The Semaglutide Cliff vs. a 10x Multiple: Is Novo Nordisk (NVO) a Value Trap or a Bargain?",
+      "url": "https://finance.yahoo.com/healthcare/articles/semaglutide-cliff-vs-10x-multiple-232313561.html",
+      "published": "2026-09-20T23:23:13Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Chewy (CHWY) Beats on Profit Even as Pet Spending Stays Soft",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chewy-chwy-beats-profit-even-231901389.html",
+      "published": "2026-09-20T23:19:01Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Chevron CEO sends a strong message on oil price and the economy",
+      "url": "https://finance.yahoo.com/energy/articles/chevron-ceo-sends-strong-message-164700338.html",
+      "published": "2026-09-20T16:47:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
+      "published": "2026-09-20T23:18:55Z",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Independence Realty Trust (IRT) and Centerspace Combine into an $8.1 Billion Apartment Giant",
+      "url": "https://finance.yahoo.com/real-estate/articles/independence-realty-trust-irt-centerspace-231510521.html",
+      "published": "2026-09-20T23:15:10Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Alphabet (GOOGL)\u2019s Google Bets on Finland\u2019s Cold Weather and Nuclear Power for its Next AI Buildout",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-google-bets-finland-230634716.html",
+      "published": "2026-09-20T23:06:34Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Paramount (PSKY) Turns California\u2019s Own Words Against it in Warner Bros. (WBD) Bond Fight",
+      "url": "https://finance.yahoo.com/media-advertising/articles/paramount-psky-turns-california-own-230245287.html",
+      "published": "2026-09-20T23:02:45Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Dollar General CEO raises major red flag about consumers",
+      "url": "https://finance.yahoo.com/economy/articles/dollar-general-ceo-raises-major-151700186.html",
+      "published": "2026-09-20T15:17:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Stellantis (STLA) Recalls 200,000 More Jeeps, its Latest Entry in a Record Recall Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-stla-recalls-200-000-225734007.html",
+      "published": "2026-09-20T22:57:34Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Starbucks (SBUX)\u2019s New Chai Recipe has its Most Loyal Customers Revolting",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sbux-chai-recipe-most-225540524.html",
+      "published": "2026-09-20T22:55:40Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Warner Music (WMG) Bets its AI Truce with Suno Can Turn into a New Revenue Line",
+      "url": "https://finance.yahoo.com/technology/ai/articles/warner-music-wmg-bets-ai-215750591.html",
+      "published": "2026-09-20T21:57:50Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Jim Cramer on Iron Mountain (IRM): \u201cIt\u2019s Been an Incredible Stock\u201d",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-iron-mountain-irm-215701602.html",
+      "published": "2026-09-20T21:57:01Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Key Christmas retailer files for Chapter 11 bankrutpcy",
+      "url": "https://finance.yahoo.com/small-business/articles/key-christmas-retailer-files-chapter-140700474.html",
+      "published": "2026-09-20T14:07:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "Two Years In, Starbucks (SBUX)\u2019s CEO Niccol has Won Back Customers. Now Wall Street Wants Margins",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-years-starbucks-sbux-ceo-215502629.html",
+      "published": "2026-09-20T21:55:02Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Lululemon (LULU): Wall Street Keeps Cutting Targets, But Nobody\u2019s Calling It Cheap Enough to Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-lulu-wall-street-keeps-215239806.html",
+      "published": "2026-09-20T21:52:39Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Amazon (AMZN)\u2019s Debut Sterling Bond Sale Prices Bigger, But Demand Cools from Alphabet\u2019s",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-debut-sterling-bond-215111018.html",
+      "published": "2026-09-20T21:51:11Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Nokia (NOK) Gets a Buy Rating, But Q2 Operating Loss Raises Questions",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nokia-nok-gets-buy-rating-214509281.html",
+      "published": "2026-09-20T21:45:09Z",
+      "source": "Insider Monkey"
+    },
+    {
+      "title": "Cramer sends unmistakable verdict on BlackBerry before earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cramer-sends-unmistakable-verdict-blackberry-231700047.html",
+      "published": "2026-09-20T23:17:00Z",
+      "source": "TheStreet"
+    },
+    {
+      "title": "ASML (ASML) and Chip Giants like TSMC Plot a Bigger Canvas for Building AI Chips",
+      "url": "https://finance.yahoo.com/technology/ai/articles/asml-asml-chip-giants-tsmc-214129428.html",
+      "published": "2026-09-20T21:41:29Z",
+      "source": "Insider Monkey"
     },
     {
       "title": "KeyBanc Raises AppFolio (APPF) Price Target: What Investors Need to Know",
@@ -288,132 +414,6 @@
       "title": "Amazon (AMZN) Taps the UK Bond Market for the First Time to Help Fund its AI Buildout",
       "url": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-taps-uk-bond-212711015.html",
       "published": "2026-09-20T21:27:11Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Amazon (AMZN) Sued Again, This Time over How it Treats Pregnant Warehouse Workers",
-      "url": "https://finance.yahoo.com/healthcare/articles/amazon-amzn-sued-again-time-212413687.html",
-      "published": "2026-09-20T21:24:13Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Chevron CEO sends a strong message on oil price and the economy",
-      "url": "https://finance.yahoo.com/energy/articles/chevron-ceo-sends-strong-message-164700338.html",
-      "published": "2026-09-20T16:47:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "The AI Slowdown Trade Has Some Winners: CrowdStrike and Palo Alto Rally While Chips Fall",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-slowdown-trade-winners-crowdstrike-212311977.html",
-      "published": "2026-09-20T21:23:11Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Boeing (BA) Completes 13-Satellite O3b mPOWER Constellation \u2014 Here\u2019s What It Means for Defense Growth",
-      "url": "https://finance.yahoo.com/technology/articles/boeing-ba-completes-13-satellite-211953360.html",
-      "published": "2026-09-20T21:19:53Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Jersey Mike\u2019s (JMKE) Owns the Sub Business. Winning Over Younger Diners is the Next Fight",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jersey-mike-jmke-owns-sub-211057214.html",
-      "published": "2026-09-20T21:10:57Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Bally\u2019s (BALY)\u2019s Casino Building Spree Triggers a \u2018Going Concern\u2019 Warning",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bally-baly-casino-building-spree-210836644.html",
-      "published": "2026-09-20T21:08:36Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Dollar General CEO raises major red flag about consumers",
-      "url": "https://finance.yahoo.com/economy/articles/dollar-general-ceo-raises-major-151700186.html",
-      "published": "2026-09-20T15:17:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "MDA Space (MDA) Bets on Homegrown Innovation with New LaunchPad Ventures Program",
-      "url": "https://finance.yahoo.com/small-business/articles/mda-space-mda-bets-homegrown-210735201.html",
-      "published": "2026-09-20T21:07:35Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Bitdeer (BTDR) Fully Contracts A102. Can Signed Demand Become Profitable AI Revenue?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/bitdeer-btdr-fully-contracts-a102-210458313.html",
-      "published": "2026-09-20T21:04:58Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "What Lies Ahead for Marcus & Millichap (MMI) Following These Multifamily Asset Sales",
-      "url": "https://finance.yahoo.com/real-estate/articles/lies-ahead-marcus-millichap-mmi-210222145.html",
-      "published": "2026-09-20T21:02:22Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Medical Properties Trust (MPT) Receives $371M. Will Debt Reduction Outweigh Lost Rent?",
-      "url": "https://finance.yahoo.com/real-estate/articles/medical-properties-trust-mpt-receives-205838338.html",
-      "published": "2026-09-20T20:58:38Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Key Christmas retailer files for Chapter 11 bankrutpcy",
-      "url": "https://finance.yahoo.com/small-business/articles/key-christmas-retailer-files-chapter-140700474.html",
-      "published": "2026-09-20T14:07:00Z",
-      "source": "TheStreet"
-    },
-    {
-      "title": "Willis Lease Finance (WLFC) Bets on Malaysia for Next Phase of Global Expansion",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-wlfc-bets-205718056.html",
-      "published": "2026-09-20T20:57:18Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Semtech\u2019s (SMTC) LoRa Plus Expansion Is Bigger Than Two New Chips",
-      "url": "https://finance.yahoo.com/technology/articles/semtech-smtc-lora-plus-expansion-205447567.html",
-      "published": "2026-09-20T20:54:47Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Chord Energy (CHRD) Signs $550 Million Marcellus Sale. Is Greater Focus Worth it?",
-      "url": "https://finance.yahoo.com/energy/articles/chord-energy-chrd-signs-550-205447338.html",
-      "published": "2026-09-20T20:54:47Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "LuxExperience (LUXE) Reports NET-A-PORTER and MR PORTER Growth. Are Customers Returning?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/luxexperience-luxe-reports-net-porter-205013606.html",
-      "published": "2026-09-20T20:50:13Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Why CrowdStrike, Palo Alto Networks, SentinelOne, and Other Cybersecurity Stocks Surged This Week",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-crowdstrike-palo-alto-networks-212011941.html",
-      "published": "2026-09-20T21:20:11Z",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Lennar (LEN) Cuts Delivery Forecast. Can Construction Savings Offset Heavy Incentives?",
-      "url": "https://finance.yahoo.com/real-estate/articles/lennar-len-cuts-delivery-forecast-204510657.html",
-      "published": "2026-09-20T20:45:10Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "RB Global (RBA) Doubles its Buyback Authorization. Can Cash Generation Support it?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rb-global-rba-doubles-buyback-204211476.html",
-      "published": "2026-09-20T20:42:11Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "Halliburton (HAL) Wins Integrated Cyprus Contract. Can Broader Services Improve Returns?",
-      "url": "https://finance.yahoo.com/energy/articles/halliburton-hal-wins-integrated-cyprus-203555402.html",
-      "published": "2026-09-20T20:35:55Z",
-      "source": "Insider Monkey"
-    },
-    {
-      "title": "HCA Healthcare (HCA) Acquires a Healthcare College. Can Training Capacity Improve Staffing?",
-      "url": "https://finance.yahoo.com/healthcare/articles/hca-healthcare-hca-acquires-healthcare-203355980.html",
-      "published": "2026-09-20T20:33:55Z",
       "source": "Insider Monkey"
     }
   ],
@@ -504,6 +504,6 @@
       "change_pct": 0.11194029850746134
     }
   },
-  "updated_at": "2026-09-20T21:51:46.890700+00:00",
+  "updated_at": "2026-09-20T23:40:03.858767+00:00",
   "source": "yahoo_finance"
 }
